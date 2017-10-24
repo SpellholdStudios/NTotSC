@@ -45,8 +45,8 @@ ALWAYS
 		OUTER_SPRINT exe ~~
 		OUTER_SPRINT WEIDU_EXECUTABLE ~./%MOD_FOLDER%/weidu_%WEIDU_OS%~
 		OUTER_SPRINT bash_debug ~ 2>>%MOD_FOLDER%/bash.debug | tee -a %MOD_FOLDER%/bash.debug~
-		AT_NOW ~chmod +x %MOD_FOLDER%/bin/%WEIDU_OS%/%SYSTEM_ARCH%/tileconv~ EXACT
-		AT_NOW ~chmod +x %MOD_FOLDER%/bin/%WEIDU_OS%/%SYSTEM_ARCH%/tile2ee~ EXACT
+		AT_NOW ~chmod +x %MOD_FOLDER%/bin/%WEIDU_OS%/tileconv~ EXACT
+		AT_NOW ~chmod +x %MOD_FOLDER%/bin/%WEIDU_OS%/tile2ee~ EXACT
 		AT_NOW ~chmod +x %MOD_FOLDER%/bin/%WEIDU_OS%/tisunpack~ EXACT
 	END
 	ACTION_IF GAME_IS ~bgt~ BEGIN
