@@ -1,0 +1,45 @@
+// #3159
+@0    = ~Heathen outsiders.~
+// #3160
+@1    = ~Watch your tongue lest I cut it out!~
+// #3161
+@2    = ~You should be grateful I'm here! If not for me you would be lost!~
+// #3162
+@3    = ~You distrust me, but I mean you no harm. I am here to help.~
+// #3163
+@4    = ~Hmphh. I should expect no better than threats from the likes of you. Do what you must and begone from mine home.~
+// #3164
+@5    = ~Grateful? Grateful that strangers must invade mine home because my missing fellows are gone, perhaps dead? No, I shall be grateful when you leave. Begone, and do what you must.~
+// #3165
+@6    = ~Hmm... I fear I read you manner wrong and I apologize, though I still dislike strangers traipsing about mine home. Your efforts be appreciated, but I shall still be glad when you are done.~
+// #3166
+@7    = ~Ahh, Satos advised us there would be strangers here this day. It's a great service you are doing here, undoubtedly with no small risk to yourselves.~
+// #3167
+@8    = ~What need ye from me?~
+// #3168
+@9    = ~What do you know of the people missing?~
+// #3169
+@10   = ~Did you hear anything troubling last eve?~
+// #3170
+@11   = ~I need nothing from you. I shall search on my own, and kill what I find!~
+// #3171
+@12   = ~I know they were dear and trusted friends. That is enough.~
+// #3175
+@13   = ~Thank you. I shall trouble you no more.~
+// #3172
+@14   = ~Just the dreams in mine own head. I fear none of us remaining have slept soundly for the tenday last.~
+// #3173
+@15   = ~I... see. I fail to see how this kind of "help" is useful. What is your purpose here if we could have just loosed a rabid bear and got the same effect? Tonight I shall sleep no better.~
+// # 3174
+@16   = ~Good luck on your search. Hopefully this shall all be over soon.~
+// #8745
+@17   = ~I don't think there is anything I know that you would find interesting.~
+@18 = ~So, the Citadel is safe once more. This is very good news. What may I help you with?~
+@19   = ~Nothing, have a nice day!~
+@20   = ~Yes, we were wondering what you keep inside the altar in Helm's chapel. It's locked and we're so curious that we can't sleep.~
+@21 = ~At the discretion of the citadel's founder, Monoach, we have safeguarded one of our relics there - a holy symbol of Helm. But we don't know where the key is. It's said that Monoach gave it to his trusted friends, somewhere far away for safekeeping... They reside on an island far to the northwest... It's difficult to say really. Perhaps if you travelled north along the coast from Ulgoth's Beard you could find some location that knows of it and could give you passage there?~
+@22   = ~Haven't you tried to force the lock? Perhaps this symbol would be more useful in service to all others?~
+@23   = ~We haven't even thought about it. And probably nobody would allow anyone unauthorized to remove the seal of the lock. According to the words of Monoach, the owner of the key may take the Symbol. But only the one who holds the key.~
+/* @24 -> @10005 */  
+@25 = ~The Priest of Helm in the temple said you knew about the locked altar there. Could you enlighten us about it?~
+@26 = ~I don't wish to discuss the altar with you right now, considering all that is going on. Come back and talk to me again about it once you have figured out what is going on here at the Citadel, and have made everybody safe once again.~

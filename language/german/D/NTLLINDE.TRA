@@ -1,0 +1,18 @@
+// #14999
+@0 = ~Hallo.~
+// #15003
+@1 = ~Ich habe meinen Glückspfeil hier irgendwo verloren und finde ihn nicht mehr.~
+// #15731
+/* @2 -> @10034 */ 
+// #15004
+@3 = ~Habt Ihr meinen Pfeil schon gefunden?~
+// #15006
+@4 = ~Es klingt vielleicht blöd, aber ohne meinen Glückspfeil fehlt mir irgendwie etwas. Lasst mich Euch etwas anderes dafür geben. Die eignen sich für alles mit dicker Haut.~
+// #15007
+@5 = ~Mein Glückspfeil! Andere Pfeile fliegen vielleicht besser oder richten mehr Schaden an, aber ohne meinen Glückspfeil könnte ich genauso gut eine Keule schwingen. Hier habt Ihr ein paar Pfeile der Detonation. Damit könnt Ihr's so richtig krachen lassen.~
+// #15008
+@6 = ~Oh, na das wird ein Spaß.~
+// #15009
+@7 = ~Wie waren die Pfeile, die ich Euch gegeben habe?~
+// #15002
+@8 = ~Vielleicht könnte mir Euer Bogenschütze helfen?~

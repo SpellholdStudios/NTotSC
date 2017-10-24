@@ -1,0 +1,1187 @@
+@0    = ~NTotSC for BGT-Weidu and EET~
+@1    = ~Poisoned Arrows~
+@2    = ~These are normal flight arrows that have been envenomed with a fast acting vegetable poison.
+
+STATISTICS:
+
+Damage:  1D6
+Damage type:  missile (piercing)
+Special:  Poison
+Weight:  0
+Launcher:  Bow~
+@4    = ~Inferno Arrows~
+@6    = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Damage: 1D8 + 2 (+1D10 fire)
+THAC0:  +2
+Damage type:  Missile (piercing)
+Weight:  0
+Launcher:  Bow~
+@7    = ~Llindellyn's Lucky Arrow~
+@8    = ~Perhaps this arrow makes no difference to anyone but Llindellyn - his feelings tell him to always find it again.~
+/*@10   = ~These are poisoned arrows which Will is able to prepare using the resin dribbling from his curious flail. He learned to use the poison at a very young age and can obtain enough for 5 arrows.
+
+STATISTICS:
+
+Damage (missile): 1D6 + 1
+Special:  Poison
+Weight:  0
+Launcher:  Bow~*/
+@11   = ~Arrow of Translocation~
+@12   = ~These dangerous arrows are unusually rare and only a few specimens can be found. They are almost worthless as a weapon, but can become extremely useful artifacts during combat if used strategically by an experienced archer. When the arrow hits a target, it is teleported far from the battlefield to limit the number of enemies the warriors have to face at the same time.
+
+STATISTICS:
+
+Damage: 1D3
+THAC0:  -3 penalty
+Damage type: missile (piercing)
+Special:  
+  After a successful hit, the enemy is ransferred to a random place
+Launcher: Bow~
+@14   = ~Axe of Shocking~
+@16   = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It is obvious that a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Damage: 1D8 + 2
+THAC0:  +2
+Special:
+  50% chance for additional 1D3 Electricity Damage
+  15% chance target is stunned
+Damage Type:  Slashing
+Weight: 7
+Speed: 7
+Proficiency Type: Axe
+Weapon type: 1-handed
+Requires: 10 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@18   = ~Shocking Flail~
+@20   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain. This flail has been enhanced magically. Runes can be seen glowing on every surface.
+
+STATISTICS:
+
+Damage: 1D6 + 4
+THAC0:  +3
+Armor Class Bonus: 1
+Special:
+  50% chance +2D3 electrical damage
+  10% chance target is stunned
+Damage type:  crushing
+Weight: 15
+Speed Factor: 7
+Proficiency Type: Flail/Morningstar
+Weapon Type:  1-handed
+Requires: 11 Strength
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@22   = ~Mace +3: 'Defiler'~
+@24   = ~This was the personal weapon of Nirel, a powerful cleric, whom little is know about.  However, history does record that he was a vile zealot whose hatred for followers of other faiths knew almost no bounds. It is said that he kept the heads of his victims as trophies. He was personally responsible for defiling over one hundred temples of other faiths; thus earning himself, and his mace, the nickname 'Defiler'.
+
+STATISTICS:
+
+Damage: 1D6 + 3
+THAC0:  +2
+Damage type: crushing
+Weight: 7
+Speed Factor: 6
+Proficiency Type: Mace
+Type:  1-handed
+Requires: 3 Strength
+Usable Only By:
+ Evil-aligned Clerics~
+@25   = ~Will's Battle Flail~
+@26   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder.
+
+STATISTICS:
+
+Damage: 1D8 + 1
+THAC0:  +1
+Special:
+  When Will wields his flail, he is able to create 5 poisoned bullets
+Damage type:  crushing
+Weight: 10
+Speed Factor: 6
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength
+Usable Only By:
+  Will~
+@27   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder.
+
+STATISTICS:
+
+Damage:  1D8 + 3
+THAC0:  +3
+Special:
+  When Will wields his flail, he is able to create 5 poisoned bullets
+  50% chance to slow target upon successful attack
+  Strength +2
+  Maximum HP +10
+Damage type:  crushing
+Weight: 10
+Speed Factor: 6
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength
+Usable Only By:
+  Will~
+@28   = ~Poisoned Bolts~
+@29   = ~These are normal crossbow quarrels that have been envenomed with a fast acting vegetable poison.
+
+STATISTICS:
+
+Damage:  1D8
+Damage type:  missile (piercing)
+Special:  Poison
+Weight:  0
+Launcher:  Crossbow~
+@31   = ~Nirel's Boots of Protection~
+@33   = ~These were the boots of Nirel, a powerful cleric, whom little is know about.  However, history does record that he was a vile zealot whose hatred for followers of other faiths knew almost no bounds. It is said that he kept the heads of his victims as trophies. He was personally responsible for defiling over one hundred temples of other faiths.
+
+STATISTICS:
+
+Saving Throws:  +1 bonus
+Magic Resistance:  +5% bonus
+Weight:  3
+Usable Only by:
+  Evil-aligned Clerics~
+@35   = ~Storm Bow~
+@37   = ~This weapon is holy to warriors in the service of Talos, god of storms and destruction, and has seen decades of use in their capable hands. A short bow made of many composite layers of wood, the Storm Bow has been used against the myriad enemies of the church of Talos.  Most recently, the bow was in the possession of a Storm Knight named Kalassan Brevered, who was killed after striking down a number of rangers and druids on the Moonshae Isles.
+
+STATISTICS:
+
+Damage bonus: +1
+THAC0 bonus:  +1
+Special:  
+  +30% Electricity Resistance
+  Attack per round set to 3
+Weight:  3
+Speed Factor:  3
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 5 Strength
+Not Usable By:
+ Cleric
+ Druid
+ Mage
+ Monk
+ Kensai
+ Cavalier~
+@38   = ~Short Bow of Streaming Energy~
+@40   = ~This bow emanates heat despite the fact that it seems to be cold in your hands - as if the bow would be content with its abilities.
+Such bows are often met in the cold lands of the Ten Towns area, but this one is exceptionally dangerous.
+
+STATISTICS:
+
+Damage bonus: +1
+THAC0 bonus: +1
+Special:
+  50% chance to inflict additional 2D3 fire damages
+  Attacks per round set to 2
+  Constitution bonus: +1
+  Fire/Cold Resistance bonus: 20%
+Weight: 3
+Speed: 7
+Proficiency Type: Short Bow
+Type:  2-handed
+Requires: 3 Strength
+Not Usable By:
+ Cleric
+ Druid
+ Mage
+ Monk
+ Kensai
+ Cavalier~
+@42   = ~Composite Long Bow of the Firewine~
+@44   = ~Made during the golden age of the elves of the Firewine. Weighted and balanced perfectly this bow becomes an especially lethal weapon in an elf's hands, able to pierce any armor with its arrows.
+
+STATISTICS:
+
+Damage bonus: +2 (missile)
+THAC0 bonus: +3
+Special: Attack per round set to 2
+Weight: 3
+Speed Factor: 7
+Proficiency Type: Longbow
+Type:  2-handed
+Requires: 15 Strength
+Not Usable By:
+ Cleric
+ Druid
+ Mage
+ Thief
+ Bard
+ Monk
+ Kensai
+ Cavalier~
+@46   = ~Gloves of Master Thievery~
+@48   = ~Gloves of Master Thievery: 'Sticky Fingers'
+These gloves - sought by the adepts of thieving - were once the property of a famous pickpocketer All An Woo-Dy.
+
+STATISTICS:
+
+Pickpocketing: +15%
+Lockpicking: +15%
+Weight: 1
+Not Usable By:
+ Lawful characters
+ Other than thieves and bards~
+@50   = ~Poisoned Missile of Will~
+@52   = ~These are poisoned bullets which Will is able to prepare using the resin dribbling from his curios flail. He learned to use the poison at a very young age and can obtain enough for 5 bullets.
+
+STATISTICS:
+
+Damage (missile): 1D5 + 2
+THAC0:  +1 bonus
+Special:  Poison
+Weight: 0
+Launcher:  sling~
+@54   = ~Chain Mail +3: 'Sage's Armor'~
+@56   = ~Crafted by Sage, one of the Ancients, to help him in his guest against evil.  Ancient lore states that Sage was a mighty warrior who rarely felt the touch of his foes in battle, yet it is said when he did he always recovered quickly no matter how fierce the attack or battle had been.
+
+STATISTICS:
+
+Armor Class: 4
+Special:
+  +5% Magic Resistance
+  User gains Regeneration
+Weight: 9
+Requires: 6 Strength
+Not Usable By:
+  Thief
+  Monk
+  Druid
+  Mage
+  Kensai
+  Archer
+  Beast Master
+  Stalker
+  Shapeshifter
+  Evil-aligned character~
+@57   = ~Elven Chainmail of Sorcery~
+@58   = ~Elven Chain is praised for its capability of enabling spellcasting abilities while being worn. This particular one is enchanted to give its wearer more intelligence, but not for free. It can only be worn by elves.
+
+STATISTICS:
+
+Armor Class: 2
+Special:
+  INT +1 bonus
+  CON -2 malus
+  Bonus Priest or Mage spells of 2nd and 3rd level
+Weight: 8
+Requires: 7 Strength
+Not Usable By:
+  Monk
+  Druid
+  Kensai
+  Archer
+  Beast Master
+  Stalker
+  Shapeshifter
+Usable By:
+ Elves and half-elves~
+@59   = ~Chailmail +5: 'Ebon Chain'~
+@60   = ~Given to the best warriors and strongest priests of the Ebon Hand.
+
+STATISTICS:
+
+Armor Class: 2
+Special: 5% Magic Resistance
+Weight: 10
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+ Shapeshifter
+ Archer
+ Beast Master
+ Kensai~
+@61   = ~Chainmail of the Firewine~
+@62   = ~During the times of prosperity of Firewine, special versions of the illustrious elven chainmail were made that added protection against the thunderstorms which appeared sometimes in the area.
+
+STATISTICS:
+
+Armor Class: 4
+Electricity Resistance: +30%
+Weight: 15
+Requires: 8 Strength
+Not Usable By:
+ Kensai~
+@63   = ~NeJ installed, bypassing cloak install~
+@65   = ~Cloak of Scintillating Colors~
+@67   = ~The origins of this cloak were lost in the mists of time. However, for some time it was in the possession of Drosus, a mage of no small power from Waterdeep. Drosus fell afoul to an unusually large group of winter wolves on a solo expedition into the Spine of the World Mountains, having been forced to don a heavier cloak to keep out the cold.
+At first glance this cloak appears to be blinding white in color. However, it is in fact a composite of thousands of colors, which dance and play in any available light source. This barrage of scintillating colors tends to distract and partially blind anyone staring directly at the wearer.
+
+STATISTICS:
+
+The cloak grants a +3 bonus to Armor Class and can be worn in combination with any other form of protection enchantment - thus it can be worn over magical armor unlike a cloak of protection.
+Armor Class:  +2 bonus
+Weight:  3
+Not Usable By: 
+  Wizardslayer~
+@69   = ~Mummy's Tea~
+@71   = ~Priests of Horus-Re in far off Mulhorand were the first to create this life-saving potion. Being a foully smelling brew, it is made by boiling used mummy wrappings along with naturally desiccated animal remains. The resulting tea can then be consumed to neutralize the effects of a disease.~
+@73   = ~Namji's Robe~
+@75   = ~A wizard from Thesk named Namji was the creator of this powerful robe. While it does not impart magical resistances onto the wearer, it is still extremely useful for spellcasters who find themselves in dangerous situations often. Namji himself was a reckless battle wizard who delighted in hurling spells from the midst of the fray. He was feared for his use of Namji's Burning Hands, an adaptation of the common Burning Hands spell.
+
+STATISTICS:
+
+Armor Class: 2
+Special:  Wearer regenerates 1 hit point per round
+Weight:  5
+Only Usable By:
+  Mage (Single Class)~
+@77   = ~Lethal Sting~
+@79   = ~The original name of this odd blade is lost in the murky depths of the Sea of Swords. Crafted of magically strengthened sahuagin bone, the weapon is believed to have been used by kuo-toa in bizarre rituals. The handle is crafted from coral wrapped in sahuagin skin. At one time, it was owned by Lockhart, a prominent adventuring thief and smuggler on the Sword Coast. It was he who gave the blade its current name.
+
+STATISTICS:
+
+Damage: 1D4 + 2
+THAC0:  +2
+Special:
+  2% chance of casting Finger of Death on target
+Damage type:  piercing
+Weight:  1
+Speed Factor:  1
+Proficiency Type: Dagger
+Type:  1-handed
+Not Usable By:
+  Cleric
+  Beast Master~
+@81   = ~Poison Tipped Dart~
+@83   = ~This dart looks like any other dart except for the fact that it has been laced with a powerful poison.
+
+STATISTICS:
+
+Damage:  1D3
+Special:  
+  High chance to Poison target for 10 rounds
+  Attacks per round set to 4
+Damage type:  missile (piercing)
+Speed Factor: 2
+Proficiency Type: Missile Weapons
+Type:  1-handed
+Usable By:
+  Thief
+  Druid~
+@85   = ~Key to the Treasury~
+@86   = ~This key was in the possession of Duke Belt. Probably for some exceptional reason.~
+@88   = ~Ring from the Grave~
+@89   = ~While looking onto the ring's shining surface, you are able to see the mirror image of an unknown room which is difficult to describe for the darkness pervading it. The text etched along the inner face of ring says: "Dagger cuts through stone circle, ring enlightens the darkness".~
+@91   = ~This rusted dagger seems ordinarily unuseful in any struggle, but its magic is still measurably present: When a part is broken off, in the blink of an eye the damage is refilled with new material.~
+@92   = ~Key to desk
+This key is sized to fit a small lock, such as a cabinet or desk.~
+@93   = ~You received this key in the Northern Citadel. It opens the entrance to the Mausoleum.~
+@94   = ~This is the key, kept by Meander, to the altar in the Northern Citadel.~
+@95   = ~This key was found near the body of Haeball.~
+@97   = ~Improved Shadow Armor~
+@99   = ~A Shadow Armor is a studded leather armor created for use by the Shadowmasters of Amn. Shadowmasters are of the highest ranks within the Shadow Thief hierarchy. It is +3 studded leather armor that melds into shadows. This particular brand has been improved upon by a great thief of the Realms. No mention of his name is given, due to the fact that he was so damn good, no one ever saw him unless they were about to depart to the hereafter.
+
+STATISTICS:
+
+Armor Class: 3
+Special: 
+– +15% Find Traps
+- +15% Move Silently
+- +15% Open Locks
+- +15% Pick Pockets
+Weight: 1
+Requires: 6 Strength
+Only Usable By:
+  Thief (single, multi and dual class)~
+@100  = ~Will's Armor with Cloak~
+@101  = ~Taerom has made a good set of leather armor for Will. You should visit him again at some point - it is possible the old smith can improve that gem even further.
+
+STATISTICS:
+
+Armor Class: 4
+Special:
+  Saves vs. Petrification/Polymorph: +2
+  +1 Bonus Mage spell for levels 1-4
+Weight: 15
+Usable Only By:
+  Will~
+@102  = ~Taerom did his best job on this leather armor. Now Will's armor has become solid protection indeed.
+
+STATISTICS:
+
+Armor Class: 0
+Special:
+  Saves vs. Petrification/Polymorph: +3
+  Luck: +1
+  Electricity resistance: +15%
+  Acid resistance: +30%
+  +1 Bonus Mage spell for levels 1-8
+Weight: 15
+Usable Only By:
+  Will~
+@103  = ~Studded Leather Armor +3~
+@104  = ~This armor was the property of the famous Snow Barbarian Prince, Corbus Denolx of Greyhawk. How or why it left his possession is not known.
+
+STATISTICS:
+
+Armor Class: 5
+Weight: 8
+Requires: 6 Strength
+Not Usable By:
+ Mage
+ Kensai~
+@105  = ~Studded Leather of Resistance~
+@106  = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks. The soft leather backing is little more than a means of securing the rivets in place.
+
+STATISTICS:
+
+Armor Class: 5
+Resistance Bonuses:
+  +10% Piercing Resistance
+  +10% Slashing Resistance
+  +10% Fire Resistance
+  +10% Electrical Resistance
+  +2 to Saves vs Spells
+Weight: 15
+Requires: 6 Strength
+Not Usable By:
+ Mage
+ Kensai~
+@107  = ~Lute~
+@108  = ~Hirsuhnite's Lute~
+@109  = ~This delicately crafted Lute has silvery strings strung into a deeply stained wooden frame inlaid with gold. The craftsmanship appears exquisite, perfect, and almost inhuman. So much so in fact that even inexperienced fingers playing across the strings seem to strike the most beautiful chords. Oddly enough, there is no visible method for tuning, as if it wasn't necessary. A feeling of awe begins to creep up your spine as you observe all the intricacies of this beautiful instrument.~
+@110  = ~Hirsuhnite's Lute 'The Quiet Audience'
+This finely made Lute is well known among the Hiphrodites of the east. It is said to be the origins of sleep. As far as rumors go, a Hiphrodite bard named Hirsuhnite found the song of complete surrender within the bountiful sanctum of the night, scribing it into the lute.
+
+STATISTICS:
+
+Special:  Target is rendered unconscious
+Duration:  2 Turns
+Weight:  3
+Only Usable By:
+  Bard~
+@112  = ~Broom~
+@114  = ~Commonly used equipment within the Realms, very practical all the way, that none of the respected housewives can imagine the existence without it. This copy doesn't seem to differ anyhow than others, but it is dirtied with greasy substance, smells specifically, equipped with safety belt and the hole which makes possible to fix the strange drive part submitted to the set. Acting desperately, it can be used to defense someone as well.
+
+STATISTICS:
+
+Damage:  1D1 + 1
+Special:  100% for critical hit upon impact
+Damage type:  crushing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength
+Not Usable By:
+  Monk~
+@115  = ~Scroll of Knowledge~
+@116  = ~Scrolls like this one usually are made out of unidentifiable material and hold great magical enchantments - rare and forgotten wizard spells of ages past, clerical prayers most have forgotten, or even innate abilities. When activated, they allow the invoking individual to learn or acquire the magics imprinted on the page.
+This scroll appears to contain the Innate Ability 'Hold Undead'.~
+@117  = ~Scrolls like this one usually are made out of unidentifiable material and hold great magical enchantments - rare and forgotten wizard spells of ages past, clerical prayers most have forgotten, or even innate abilities. When activated, they allow the invoking individual to learn or acquire the magics imprinted on the page.
+This scroll appears to contain the Innate Ability 'Spirit Lash'.~
+@118  = ~Scrolls like this one usually are made out of unidentifiable material and hold great magical enchantments - rare and forgotten wizard spells of ages past, clerical prayers most have forgotten, or even innate abilities. When activated, they allow the invoking individual to learn or acquire the magics imprinted on the page.
+This scroll appears to contain the Innate Ability 'Healer's Touch'.~
+@120  = ~Some priest like to carry a small effigy of their deity with them wherever they may go. Such diligence can only be rewarded.
+
+Special: Allow to learn "Ward of Protection" Spell~
+@121  = ~Montgomery~
+@122  = ~This is the body of Montgomery.~
+@123  = ~Unidentified Body~
+@124  = ~The corpse looks like the body of a mage, but considering the condition it is in you cannot be certain.~
+@125  = ~Dead Rat~
+@127  = ~This finely crafted holy symbol is sacred to the god Helm. The symbol depicts an upright war gauntlet with a staring eye on the front. The gauntlet itself is crafted from the finest platinum, the white of the eye is carved from mother of pearl, and a blue sapphire has been used for the pupil.~
+@128  = ~Great Book of the Unknowing~
+@129  = ~When you turn the pages of the book you cannot see any writing, and simultaneously you do not remember what was the purpose to open it.~
+@55130 = ~Body of Fey'Doch~
+@130  = ~Iron from the mine~
+@133  = ~Charleston Nib's Scroll
+This rolled-up scroll contains a short note about the location of some ruins under the Firewine Bridge. The ruins are locked by an unnamed mage's ward, but the scroll should act as a key with the ability to deactivate any magical wall.~
+@134 = ~A lot of illegible writing is scrawled on the paper, but it is possible to read a few parts:
+
+"...finally. Hasdar always brings good news. Now, with the work on the temple finished with it being sheltered against any intruders by Sharp Teeth Wood, my brethren can focus on the true destiny of the Black Hand...................... with Balor's Cult................... necessary."
+
+"Why the hell did I try to go back to those sunken ruins in the south that used to be mine?... slipping in the muck... now I find it is lost!... without that key I cannot even open my own writing-desk... Pretty as the place is it isn't safe... I must go there again to find it... if it weren't for that damned water... the man has no other place to live than swamps..."
+
+"..stupid damned orcs going crazy in the Wood of the Dead... trying to find a passage into... but only former druids of our brotherhood know the right combination of keys to open the crypt and we have hidden every key....without the......dagger and ring from........never gain entry............. in the temple of the stone circle..."
+
+"......Shaella is insane indeed..."~
+@135  = ~Message for Yness~
+@136  = ~My darling!
+The heroes you asked for help have saved me and killed the monsters. I'm going straight to the farm in one piece, meet me there. Let the Gods bless our savers!
+Your Pandris~
+@137  = ~Tracea - the true believer!
+
+Our messenger will come to you in a proper time to receive your sign and a blessing after you call your Lord. Our cult is very grateful for your help and be sure your deeds will not be forgotten.
+D.~
+@141  = ~Looking closer at this suit of plate mail, its metal seems to be in an incorporeal state, giving the armor a shadowed appearance. When worn, the wearer will appear as shadowed as the armor is, granting extra protection against missile weapons.
+
+STATISTICS:
+
+Armor Class: 2
+Special: +3 AC vs. missiles
+Weight: 20
+Requires: 12 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Ranger
+ Monk
+ Archer
+ Stalker
+ Beast Master
+ Shapeshifter
+ Barbarian
+ Kensai~
+@142  = ~Bentley's Bottled Beer~
+@143  = ~The 'Friendly Arm' inn is famous of a brew made by Bentley that despite its price remains the favorite drink of many travelers passing through the Mirrorshades' keep. The effects of consuming it are mostly unforeseable, though.~
+@144  = ~Potion of Fire Shield~
+@145  = ~This powerful elixir will activate a shield formed from the fires of a phoenix around the imbiber. The effects are powerful but short lived.
+
+STATISTICS:
+
+Armor Class:  +4 bonus
+Fire resistance:  +50% bonus
+Cold Resistance:  +25% bonus
+Acid Resistance:  +25% bonus
+Electrical Resistance:  +25% bonus
+Immunity to non-magical weapons
+Duration: 60 seconds~
+@147  = ~The label on this wine bottle reads 'Marsember Blush - Fine Vintage' and claims to be a fruity blend of spices and dew-flower fragrances. The vineyards of Marsember are well known for their crispy grapes which draw their flavor from the fragrant salt air of the Sea of Fallen Stars.~
+@148  = ~Bottle of Elven Wine~
+@149  = ~This bottle of elven wine will heal just as much as it might intoxicate. During an elven festival, one of the priests of Seldarine's Hand imbibed too much and accidentally added a barrel to a mixture that was intended for healing potions.
+
+STATISTICS:
+
+Heals 35 hit points
+80% chance to get drunk for 30 minutes~
+@151  = ~Will's Magical Ring~
+@153  = ~Will does not want to tell where the ring comes from, but its advantages are rare and it probably was done by a friend of Will with magical powers.
+
+STATISTICS:
+
+Reduction of damage from magic: 20%
+Usable Only By:
+  Will~
+@154  = ~Ring of Resistance~
+@155  = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession.
+For no apparent reason, this ring feels warm to the touch.
+
+STATISTICS:
+
+Armor Class Bonus: 1
+Resistance Bonuses: 
+ +25% Crushing Resistance
+ +1 on Saves vs Spells~
+@157  = ~Robe of the Evil Archmagi~
+@158  = ~ 'Sauron's Black Veil'
+This particular robe of the magi is the result of Sauron's great skill with both sorcerous and priestly powers. It offers the usual protection against all forms of physical attacks while at the same time increasing one's magical resistance and saving throws. It also grants the wearer the ability to create dimensional doorways and become a 'shadow' of his or her normal self. Due to the nature of its enchantment, it can only be worn by mages of evil alignment.
+
+STATISTICS:
+
+Armor Class:  5
+Magic Resistance:   +15% bonus
+Saving Throws:  +1 bonus
+Special Abilities:
+  Dimension Door
+  Shadow Door
+Weight:  2
+Only Usable By:
+ Mage (single, dual, & multi-class)
+ Evil-aligned characters~
+@159  = ~Orc Shaman's Cloak~
+@160  = ~Orcish shamans often made their clothes with poor materials fixed with leather parts so they are eyesore, heavy and regularly are not the top interest for adventurers, although they possess many advantages.
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Electricity, Fire and Cold Resistance: +40%
+Charisma penalty: -5
+Weight: 35
+Not Usable By:
+ Good-aligned~
+@162  = ~Small Shield +2, 'Shield of Free Action'~
+@164  = ~The wearer is immune to everything, magical and otherwise, that effects mobility in any way, although can still be hasted. Be aware, however, this will also protect the wearer from beneficial effects such as those received from the boots of speed.
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Special: No missile protection
+Weight: 3
+Requires: 4 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage 
+ Thief
+ Monk
+ Kensai~
+@166  = ~Shield of the Firewine~
+@168  = ~Etched with Elven runes across its surface, this shield was made from one of the strongest metals to ever come from Elven hands. Any bearer of this shield will be confident that any blow brought upon it will be deflected.
+
+STATISTICS:
+
+Armor Class Bonus: 3
+Special:  +1 vs. Missile Weapons
+Weight: 8
+Requires: 15 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai~
+@169  = ~Reinforced Large Shield~
+@170  = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+
+STATISTICS:
+
+Armor Class Bonus: 2
+Special: +1 AC vs. Missile Weapons
+Resistance Bonuses:
+  +15% Fire Resistance
+  +15% Crushing Resistance
+Weight: 12
+Requires: 14 Strength
+Not Usable By:
+ Druid
+ Bard
+ Mage
+ Thief
+ Monk
+ Kensai~
+@172  = ~Scythe of the Lycanthrope~
+@174  = ~Raasi'doch de Velle spent many moons working with artisans of the Wandering Village on the creation of this enchanted hunter's spear. The elven ranger needed a weapon to exterminate werewolves terrorizing the Tethyr's woods. Like the man himself, the weapon is bereft of extravagant ornamentation but it always flies straight and true.  When the crusade was finished de Velle probably sold his gear to some famous militarist.
+
+STATISTICS:
+
+Damage:  1D6 + 2, +1D6 slashing damage, +3 bonus vs. lycanthropes
+THAC0: +2, +3 bonus vs. lycanthropes
+Damage Type:  piercing and slashing
+Weight: 5
+Speed Factor: 2
+Proficiency Type: Spear
+Type:  2-handed
+Requires: 5 Strength
+Not Usable By:
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@175  = ~Eron's Scythe~
+@176  = ~Eron the Dismayed was a pessimistic wizard with a propensity for magical dueling. He believed that the only way to become strong in the Art was to test his powers against other mages. He also believed that thieves and assassins were constantly plotting to steal his wealth. To make himself appear ordinary, he wore the clothes of a pilgrim and carried a simple elm walking staff. In reality, the staff was magically enchanted to be more potent in combat, but Eron did all he can to hide this fact.
+
+STATISTICS:
+
+Damage: 1D6 + 2
+THAC0:  +3
+Special: 80% for additional 1D8+2 Slashing Damage
+Damage type:  Crushing
+Weight:  3
+Speed Factor:  1
+Proficiency Type:  Staff
+Type:  2-handed
+Requires: 5 Strength
+Not Usable By:
+ Monk~
+@177  = ~Questing Staff +3~
+@178  = ~Questing staves were originally created in some other realm, but they have found their way to Faerûn. They are usually filled with spells that provide some protection like warding against certain elements, or grant either entrance or egress, or bestow the wielder with simple knowledge. This particular staff casts Knock, Detect Evil, Cure Critical Wounds, and Raise Dead, each at least once per day. Moreover, it provides protection from fire like the ring of that name and increases resistance against magic.
+
+STATISTICS:
+
+Damage: 1D6 + 3
+THAC0:  +3
+Special:
+  +40% Fire Resistance
+  +20% Magic Resistance
+  Knock three times per day
+  Detect Evil twice per day
+  Cure Critical Wounds once per day
+  Raise Dead once per day
+Damage type:  crushing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength
+Not Usable By:
+ Fighter
+ Paladin
+ Ranger
+ Thief
+ Bard
+ Monk~
+@179  = ~Quarter Staff +3: 'Blood Sucker'~
+@180  = ~This finely crafted staff was among the gifts presented as a peace offering from the Necromancers of Perregal to the Druids of Erreth-Akbe when their 200 year war finally ended. The Druids themselves would never have used it, but to refuse the gift might have been all it would take to break the fragile peace.
+
+STATISTICS:
+
+Damage: 1D6 + 3
+THAC0:  +1
+Special: Vampiric
+Damage type:  crushing
+Weight: 3
+Speed Factor: 1
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength
+Not Usable By:
+ Monk
+ Lawful or Neutral Alignment~
+@182  = ~Troll's Nightmare~
+@184  = ~This Sword was forged by Kid'Seroki to combat his blood enemy, trolls. After stealing from them The Ring of the Troll Magi the troll gods sent endless parties of trolls after Kid'Seroki to retake it from him. To prevent this, Kid'Seroki forged various magics into this sword and called it Troll's Nightmare.
+
+STATISTICS:
+
+Combat Abilities: 3 extra point of acid damage
+Damage:  1D10 + 1, 
+THAC0:  +1
+Damage Type: slashing
+Weight: 5
+Speed Factor: 2
+Proficiency Type: Large Sword
+Type: One Handed
+Requires: 4 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@185  = ~Dragon's Blade~
+@186  = ~This blade was created by a dragonslayer who lost his life due to... well... his profession.
+
+STATISTICS:
+
+Damage:  1D10 + 1 
+THAC0:  +1
+Damage type:  slashing
+Weight: 9
+Speed Factor: 9
+Proficiency Type: Large Sword
+Type:  1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Beast Master~
+@188  = ~Evalt's Flameblade~
+@190  = ~This weapon was created by the smiths of ancient Myth Drannor. This sword, which has been passed through the generations, has been in Evalt's family for centuries. This particular blade gives resistance to fire.
+
+STATISTICS:
+
+Damage: 1D6 + 1
+THAC0:  +1
+Special:
+ +30% Fire Resistance
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type:  Short Sword
+Type:  1-handed
+Not Usable By:
+ Cleric
+ Mage~
+@192  = ~Morridin's Sword~
+@194  = ~Morridin was the subject of many a joke about his sword. Many jested that such a little man could not wield such a large sword. However those who laughed didn’t laugh long or ever again due to the deadly accuracy and deftness with which Morridin handled his blade.
+
+STATISTICS:
+
+Damage: 1D10 + 1
+THAC0:  +1
+Special: +2 dexterity
+Damage Type: slashing
+Weight:  5
+Speed Factor: 7
+Proficiency Type: Two Handed Sword
+Type: 2-handed
+Requires: 10 Strength
+Usable Only By:
+ Bard~
+@196 = ~Two-Handed Sword of General Ghotal~
+@197 = ~This great sword was once wielded by the hands of Ghotal, famous leader of the orcish hordes from the North. With it he was able to instantly press against Luskan, Targos and other towns, even including Neverwinter. The fame of the sword was such that it made most of the defenders unwilling to put up any sort of organized resistance. But Ghotal went too far when Targos was finally conquered and destroyed. Allied forces of elves from Everaska and people of other northern towns ambushed the general and annihilated most of his legions. Ghotal himself however escaped from the battlefield, but was mortally wounded. He was never heard or seen of since, though orcish legend says he exists to this day, awaiting the opportunity to once again wreak havok upon the countryside.
+
+STATISTICS:
+
+Damage: 1D12 + 3
+THAC0:  +3
+Damage Type: Slashing
+Weight: 12
+Speed: 9
+Proficiency Type: Two Handed Sword
+Weapon Type: 2-handed
+Requires: 13 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@198  = ~Long Sword 'Valarius'~
+@199  = ~Crafted by the Mage King Varashar for the commander of his Death Knights.  The sword quickly became legendary for its ability to cut through almost anything.  Entire legions were known to flee the battlefield upon sight of the legendary blade.
+
+STATISTICS:
+
+Damage:  1D8+1
+THAC0: +1
+Special: inflicts Horror upon successful hit with a chance of 20%
+Damage type: slashing
+Weight: 3
+Speed: 3
+Proficiency Type: Long Sword
+Weapon Type: 1-handed
+Requires: 10 Strength
+Not Usable By:
+ Cleric
+ Mage
+ Druid
+ Beast Master~
+@200  = ~Two-Handed Sword +1 'Durlag's Pride'~
+@201  = ~Two-Handed Sword +1: 'Durlag's Pride'
+
+STATISTICS:
+
+Damage: 1D10 + 1
+THAC0:  +1 bonus
+Damage Type:  slashing
+Weight:  11
+Speed Factor:  9
+Proficiency Type:  Large Sword
+Type:  2-handed
+Requires: 13 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@202  = ~Quietus~
+@203  = ~This is an ancient sword of unknown origin, once rumored to be in Durlag's Tower. Some say the sword was crafted at Myth Drannor; yet the most accurate account places the sword in the hands of Sage the Ancient.
+
+STATISTICS:
+
+Damage: 2D0
+THAC0:  +2
+Special: 2D4+2 Acid damage
+Damage Type: Slashing
+Weight:  0
+Speed Factor: 2
+Type: 1-handed
+Not Usable By:
+ Cleric~
+@204  = ~Bhaal's Fire~
+@205  = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. 
+The blade of this sword is covered with all sorts of arcane symbols.
+
+STATISTICS:
+
+Damage:  1D8 + 2, +1D4 fire
+THAC0 :  +2 bonus
+Special: 10% chance target is stunned
+Damage Type:  Slashing
+Weight: 4
+Speed: 4
+Proficiency Type: Long Sword
+Weapon type: 1-handed
+Requires: 6 Strength
+Not Usable By:
+ Good-aligned characters
+ Druid
+ Cleric
+ Mage
+ Thief
+ Beast Master~
+@206  = ~Spirit Lash~
+@208  = ~Healer's Touch~
+@209  = ~Ward of Protection~
+@210  = ~Skeleton Guard~
+@211  = ~Skeleton Guard (Conjuration/Summoning)
+Level:  7
+Range:  20
+Duration:  4 hours
+Casting Time:  5
+Area of Effect:  Special
+Saving throw:  None
+The caster summons forth 2 Skeletal Warriors to fight for him in battle.~
+@213  = ~Fiery Cloud~
+@214  = ~Fiery Cloud (Evocation)
+Level: 8
+Range: Sight of Caster
+Duration: 4 rounds +1d6 rounds
+Casting Time: 2
+Area of Effect: 10-feet radius
+Saving Throw: 1/2
+This spell brings forth a thin, smoky cloud that fills the area of effect and initially appears harmless. However, one round later it sparks and flames, dealing 1 - 2 points of fire damage per level in first round. In fourth round it deals 1 - 4 points/level, so in fifth round 1 -2 points again. Saving throw can reduce the damages a half for every round of duration. The cloud will continue to flare at regular one round intervals for the duration of the spell.~
+@215  = ~Maid~
+@216  = ~Sellanio~
+@217  = ~Haeball~
+@218  = ~Temple of Yondalla and Alvanhendar's Fine Wines~
+@219  = ~New items and stores installed.~
+@220  = ~Installing new creatures~
+@221  = ~Black Talon Elite~
+@222  = ~Amelka~
+@223  = ~Archandra~
+@224  = ~Brother Aschmaan~
+@226  = ~Assaia~
+@227  = ~Aurelinus~
+@229  = ~Balen~
+@230  = ~Knight from the Grave~
+@231  = ~Black Hand Cultist~
+@232  = ~Catacomb Warder~
+@233  = ~Brentaw~
+@234  = ~Brigand~
+@235  = ~Cholga~
+@236  = ~Demonknight~
+@237  = ~Death welcomes you.~ [SHAEL_01]
+@238  = ~Here you will fall!~ [SHAEL_03]
+@239  = ~~ [SHAEL_05]
+@240  = ~~ [SHAEL_06]
+@241  = ~~ [SHAEL_04]
+@242  = ~Doomsayer~
+@244  = ~Teddy the Doomsayer~
+@245  = ~Brother Draagis~
+@246  = ~Sister A Little~
+@247  = ~Eldod~
+@248  = ~Elka~
+@249  = ~Essila~
+@250  = ~Falton~
+@252  = ~General Ghotal~
+@255  = ~Halfling Cleric~
+@256  = ~Brother Hasdar~
+@257  = ~Hasten~
+@258  = ~Can I be helpin' you?~
+@259  = ~Ahh!  This is insane!~
+@260  = ~This is insane! We've no need to fight each other!~
+@261  = ~~
+@262  = ~~
+@263  = ~I have little more to say. ~
+@264  = ~You've heard my stories.  Nothing has changed since we talked last.~
+@265  = ~Leave me!  I would be alone!~
+@266  = ~Fiend!!  He is but a child!  Help!!~
+@267  = ~Fire Salamander~
+@268  = ~Humbaba~
+@269  = ~Oogoor~
+@270  = ~Hobgod~
+@271  = ~Lesser Tanar'ri~
+@272  = ~Kamira~
+@273  = ~Keelor~
+@277  = ~Koldar~
+@278  = ~Krestian~
+@280  = ~Legion~
+@281  = ~Lenore~
+@302  = ~Llindellyn~
+@303  = ~Lucretia~
+@304  = ~Magnad~
+@305  = ~Mariel~
+@306  = ~Milea~
+@308  = ~Praised be the blessed knowledge of Oghma.~ [MONKS01]
+@309  = ~~ [MONKS05]
+@310  = ~~ [MONKS06]
+@311  = ~We should hurry, the Atlar's sermon is to start in a few minutes.~ [MONKS02]
+@312  = ~Knowledge, used wisely, is the most powerful of tools.~ [MONKS03]
+@313  = ~Excuse me but I am late for my classes.~ [MONKS04]
+@314  = ~Mardoroan~
+@315  = ~Nadalin~
+@316  = ~Natalka~
+@318  = ~The fair folk rarely have time for small talk.~ [ELFFF01]
+@319  = ~~ [ELFFF05]
+@320  = ~~ [ELFFF06]
+@321  = ~Daddy~
+@322  = ~Mommy~
+@324  = ~What's yer tale?~ [GENFG14]
+@325  = ~~ [NOBLW05]
+@326  = ~~ [NOBLW06]
+@327  = ~Ordolath~
+@328  = ~Orpeho~
+@329  = ~Oupaste~
+@330  = ~Pandris~
+@331  = ~Paulia~
+@343  = ~Pooch~
+@346  = ~Reedrig~
+@347  = ~Rudier~
+@348  = ~Meandar~
+@349  = ~Kolchear~
+@351  = ~Sar'garin Ve'xelt~
+/*
+@354  = ~Something you require?~ [GENFG07]
+@355  = ~~ [FTOWN05]
+@356  = ~~ [FTOWN06]
+*/
+@369  = ~Krestian's friend~
+@371  = ~Phantom Spider~
+@373  = ~My life is in shambles.~ [LOTHR02]
+@374  = ~~ [LOTHR03]
+@375  = ~~ [LOTHR04]
+@376  = ~Skipper~
+@377  = ~Tamael~
+@378  = ~Torqion~
+@379  = ~Tytus~
+@381  = ~Vanessa~
+@383  = ~Winorma~
+@384  = ~Fire Wyvern~
+@385  = ~Yness~
+@387  = ~~ [ZOMBI03]
+@388  = ~~ [ZOMBI04]
+@389  = ~~ [ZOMBI05]
+@390  = ~~ [ZOMBI06]
+@391  = ~~ [SKELT08]
+@392  = ~~ [SKELT09]
+@393  = ~~ [ZOMBI01]
+@394  = ~~ [ZOMBI02]
+@395  = ~Will Scarlet O'Hara~
+@396  = ~Will Scarlet, at your service!~ [WILL01]
+@397  = ~Somebody needs assassinating?~ [WILL02]
+@398  = ~This life suits me!~ [WILL04]
+@399  = ~What now?~ [WILL05]
+@400  = ~It's not included in my orders.~ [WILL06]
+@401  = ~Oh, I can't.~ [WILL07]
+@402  = ~Good, very good!~ [WILL08]
+@403  = ~So many things left to do!~ [WILL10]
+@404  = ~Come on, try my flail!~ [WILL03]
+@408  = ~Still alive!~ [WILL11]
+@409  = ~To adventure!~ [WILL13]
+@410  = ~Guess, who's going to die?~ [WILL12]
+@411  = ~Do like me - buy yourself a flail!~ [WILL17]
+@412  = ~We're off again!~ [WILL18]
+@413  = ~And a good thing to do.~ [WILL19]
+@414  = ~My flail and I await only your orders!~ [WILL20]
+@415  = ~At last, but not too soon!~ [WILL21]
+@416  = ~Blood, guts and entrails!~ [WILL22]
+@417  = ~Does somebody need me?~ [WILL23]
+@418  = ~I've nothing against the idea, but unfortunately it's not possible.~ [WILL24]
+@419  = ~What a headache!~ [WILL26]
+@420  = ~I'll restrain myself. Happy?~ [WILL32]
+@421  = ~Ha! I'm too strong!~ [WILL34]
+@422  = ~Well Viconia, if I was a mechanic I could wash your engine day by day.~
+@423  = ~This one we won't see again for a while.~ [WILL40]
+@424  = ~If I get ahold of the one who did that.~ [WILL50]
+@425  = ~Scarlet Will, family name O'Hara, formerly was called Will Tell Helm, but he isn't fond of this name and therefore he managed to convince local people to change it. He's been living in Beregost for some time and commends the peace of the city. He's living in quite good terms with its inhabitants, although he became famous from his participation in a few rows. Nevertheless inhabitants commend his presence, due to his extraordinary courage, he has shown lately, especially during the brushes with the nearby bandits.~
+@426  = ~New creatures installed.~
+@427  = ~Dialogs installed.~
+@428  = ~Installing new and updated areas.~
+@429  = ~The entrance of this catacomb is protected with powerful magic. You need a key to get inside.~
+@430  = ~Be aware of the power of what you find here. The door that must not be open - open will be.~
+@431  = ~Orc victims~
+@432  = ~Common house of the fishermen. You look inside and see nothing interesting at all.~
+@433  = ~Lighthouse~
+@434  = ~Northern Citadel~
+@435  = ~It must have been the wine or something. I don't know. I cannot remember.~
+@436  = ~Chased by a bear, so laid down to pretend to be dead. Later couldn't remember how to pretend to be alive.~
+@437  = ~Retired at the fireplace, placed in the fire and had no water.~
+@438  = ~There was an exciting orgy I had prepared, but no one came.~
+@439  = ~There must a change in the weather, my bones tell me that.~
+@440  = ~So, I lie.~
+@441  = ~This really sucks. What did you expect to find in the graves?~
+@442  = ~Beware of the wolves in human skin.~
+@443  = ~There is nothing inside apart from a rotting corpse.~
+@444  = ~These stairs must have once lead to other rooms.~
+@445  = ~Wood of Sharp Teeth~
+@446  = ~New areas installed.~
+@447  = ~Installing scripts~
+@448  = ~Now for the decompression of area .tis files.~
+@500  = ~Flaming Oil~ 
+@501  = ~Inside of this glass pot is an expensive mixture of oil and other chemicals.  When this mixture is set ablaze, it burns for several seconds at a very hot temperature.  Flaming oil is sometimes difficult to use because it takes a long time for the user to properly throw it.  Adventurers often carry oil with them to deal with trolls in the unfortunate event that they are encountered.
+
+STATISTICS:
+
+When thrown at a target, the glass pot breaks, spreading flaming oil over everything within a 5' radius, doing 2-16 points of fire damage.
+Usable By:
+ All~
+@502 = ~Northern Coast~
+
+/* new for v2.0 */
+@503 = ~Pilar's Ring~
+@504 = ~Gheldehar's Boots~
+@505 = ~Haeball,
+I send you this dagger for savekeeping. In the name of our god, we have to prevent that the orcs get their hands on it. I will keep the ring that came along with it - separated like this, these two artefacts will not serve their evil purpose anytime soon.
+
+D.~
+// #34932 (BGII)
+@506 = ~Adventurer~
+// #33246 (BGII)
+@507 = ~Deamon Heart~
+// #33248 (BGII)
+@508 = ~No one said that demon hearts were supposed to be pretty, but you certainly weren't expecting this mushy, fleshy bag of vileness. Heavy and wet, the organ still beats, and even stuffed away with your belongings you hear the dreadful thub-dub. Every now and then you must check to make sure it has not bounced free of your pack.~
+// #36938 (BGII)
+@509 = ~Fell Ghast~
+// #73254 (BGII)
+@510 = ~Fire Salamander~
+// #73272 (BGII)
+@511 = ~Skeleton Archer~
+// #39680 (BGII)
+@512 = ~Fledgling Vampire~
+
+@513 = ~DSotSC for BGT/EET detected.~
+@514 = ~DSotSC Wizard Spells detected. Adding references...~
+@515 = ~DSotSC Main Component not detected. Installing resources...~
+@516 = ~This seems to be a map of some sort. One inscription states 'Wood of the Sharp Teeth'. Further to the east and slightly north from it you notice a mark, as if of an important place.~
+// some part of this is from NTAVERY.tra line @21
+@517 = ~These are Monk Avery's personal notes. It seems that he did research on the citadel's founder, Monoach. You also find a passage about the Citadel's Altar of Helm: 'At the discretion of the citadel's founder, Monoach, we have safeguarded one of our relics there - a holy symbol of Helm. But we don't know where the key is. It's said that Monoach gave it to his trusted friends, somewhere far away for safekeeping. They reside on an island far to the northwest... I really need more information on this.'~
+// similar to @429 with addition
+@518  = ~The entrance of this catacomb is protected with powerful magic. You need a key to get inside. Several symbols indicate that the seal to this tomb was formed by priests of Helm long ago.~
+// #65113 (BGII)
+@519 = ~Holy Symbol of Helm~
+// #2483 (BGII)
+@520 = ~Ice Salamander~
+// #34784 (BGII)
+@521 = ~Orc~
+// #2197 (BGII)
+@522 = ~Orc Archer~
+// #2331 (BGII)
+@523 = ~Orc Priest~
+// #2329 (BGII)
+@524 = ~Orc Mage~
+// #2327 (BGII)
+@525 = ~Orog~
+// #26284 (BGII)
+@526  = ~Fisherman~
+@527 = ~DSotSC for BG:EE Main Component detected.~
+@528 = ~DSotSC detected. Adding references...~
+@529 = ~This mod is not compatible with your game~
+@530 = ~This mod should be installed BEFORE BP-BGT Worldmap~
+@531 = ~Main component of this mod (NTotSC) needed~
+@532 = ~Encounter is already restored by another mod.~
+
+/* Strings from DSotSC (k4thos' BGT/EET version) */
+
+@1244 = ~Holy Water~
+@1245 = ~The water in this vial has been blessed and when thrown on any undead creature will do 2d8 equivalent acid damage.~
+
+@1452 = ~Elven Bow, Goblin Bane~
+@1454 = ~This bow was created to be used by elves in defense of their forests from goblins and hobgoblins, though there is no special ability against goblins or hobgoblins.
+
+STATISTICS:
+
+Damage: +2
+THAC0: +2
+Weight: 2
+Speed Factor: 3
+Proficiency Type: Short Bow
+Type: 2-handed
+Requires: 3 Strength
+
+Not Usable By:
+ anyone except Elves
+ Evil or Chaotic Alignment~
+
+@2134 = ~Fey'doch~
+
+@2293 = ~Wood Elf Warrior~
+@2294 = ~Wood Elf Elite~

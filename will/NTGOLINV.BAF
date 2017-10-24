@@ -1,0 +1,6 @@
+IF
+	InParty("Will")
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END

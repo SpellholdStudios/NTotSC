@@ -1,0 +1,36 @@
+IF
+  Global("NT_AR01PBFALSEDOORActivation","MYAREA",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("TOMBDOOR",FALSE)
+    TriggerActivation("FALSEDOOR",TRUE)
+    SetGlobal("NT_AR01PBFALSEDOORActivation","MYAREA",1)
+    Continue()
+END
+
+IF
+  OR(2)
+	!PartyHasItem("NTKEYPB3")
+	!PartyHasItem("NTKEYPB2")
+  !Global("NT_AR01PBFALSEDOORActivation","MYAREA",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("TOMBDOOR",FALSE)
+    TriggerActivation("FALSEDOOR",TRUE)
+    SetGlobal("NT_AR01PBFALSEDOORActivation","MYAREA",1)
+    Continue()
+END
+
+
+IF
+  PartyHasItem("NTKEYPB2")
+  PartyHasItem("NTKEYPB3")
+  !Global("NT_AR01PBFALSEDOORActivation","MYAREA",2)
+THEN
+  RESPONSE #100
+    TriggerActivation("TOMBDOOR",TRUE)
+    TriggerActivation("FALSEDOOR",FALSE)
+    SetGlobal("NT_AR01PBFALSEDOORActivation","MYAREA",2)
+    Continue()
+END
+

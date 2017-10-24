@@ -1,0 +1,27 @@
+IF
+  Global("NTOrdolSpawn","%FireLeafForest%",0)
+THEN
+  RESPONSE #100
+    SetGlobal("NTOrdolSpawn","%FireLeafForest%",1)
+    CreateCreature("NTOrdol",[1511.401],9) // Ordolath
+END
+
+/* Pass entrance is open always
+IF
+  GlobalLT("NTTalkedToOupaste","GLOBAL",1)
+  Global("NTCaveOpen","%FireLeafForest%",0)
+THEN
+  RESPONSE #100
+    SetGlobal("NTCaveOpen","%FireLeafForest%",1)
+    TriggerActivation("Tran80PB",FALSE)
+END
+
+IF
+  Global("NTTalkedToOupaste","GLOBAL",1)
+  Global("NTCaveOpen","%FireLeafForest%",1)
+THEN
+  RESPONSE #100
+    SetGlobal("NTCaveOpen","%FireLeafForest%",2)
+    TriggerActivation("Tran80PB",TRUE)
+END
+*/

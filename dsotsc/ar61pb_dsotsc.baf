@@ -1,0 +1,8 @@
+IF
+	Global("NT_InsertDSotSCItems","MYAREA",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Kontener1",CreateItem("%DSAROW50%",40,0,0))
+		ActionOverride("Kontener1",CreateItem("%DSPOTN01%",2,0,0))
+		SetGlobal("NT_InsertDSotSCItems","MYAREA",1)
+END

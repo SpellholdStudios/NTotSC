@@ -1,0 +1,9 @@
+IF
+  Global("NTotSCSpawn","%CloakwoodMines_MineShed%",0)
+THEN
+  RESPONSE #100
+    CreateCreature("IRONGU",[407.247],0)
+    CreateCreature("NTTYTUS",[281.260],0)
+    SetGlobal("NTotSCSpawn","%CloakwoodMines_MineShed%",1)
+END
+

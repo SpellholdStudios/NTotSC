@@ -1,0 +1,377 @@
+IF
+  Global("Feydoch","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Enemy()
+    Continue()
+END
+
+IF
+  Global("Sylvan","GLOBAL",0)
+  Allegiance(Myself(Myself),ENEMY)
+THEN
+  RESPONSE #75
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_SUMMON_INSECTS)
+    SetGlobal("Sylvan","GLOBAL",1)
+    StartTimer(0,60)
+    Continue()
+  RESPONSE #75
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_HARM)
+    SetGlobal("Sylvan","GLOBAL",1)
+    StartTimer(0,90)
+    Continue()
+END
+
+IF
+  RandomNumGT(3,1)
+  Global("Sylvan","GLOBAL",1)
+  Allegiance(Myself(Myself),ENEMY)
+  TimerExpired(0)
+THEN
+  RESPONSE #75
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_SUMMON_INSECTS)
+    SetGlobal("Sylvan","GLOBAL",2)
+    StartTimer(0,60)
+    Continue()
+  RESPONSE #25
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_HARM)
+    SetGlobal("Sylvan","GLOBAL",2)
+    StartTimer(0,90)
+    Continue()
+END
+
+IF
+  RandomNumGT(3,2)
+  Global("Sylvan","GLOBAL",2)
+  Allegiance(Myself(Myself),ENEMY)
+  TimerExpired(0)
+THEN
+  RESPONSE #25
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_CALL_WOODLAND_BEINGS)
+    SetGlobal("Sylvan","GLOBAL",3)
+    StartTimer(0,60)
+    Continue()
+  RESPONSE #75
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_HARM)
+    SetGlobal("Sylvan","GLOBAL",3)
+    StartTimer(0,90)
+    Continue()
+END
+
+IF
+  RandomNumGT(3,3)
+  Global("Sylvan","GLOBAL",3)
+  Allegiance(Myself(Myself),ENEMY)
+  TimerExpired(0)
+THEN
+  RESPONSE #50
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+    SetGlobal("Sylvan","GLOBAL",3)
+    StartTimer(0,60)
+    Continue()
+  RESPONSE #50
+    ForceSpell(NearestEnemyOf(Myself),CLERIC_HARM)
+    SetGlobal("Sylvan","GLOBAL",4)
+    StartTimer(0,90)
+    Continue()
+END
+
+IF
+  Global("Sylvan","GLOBAL",4)
+  Allegiance(Myself(Myself),ENEMY)
+  TimerExpired(0)
+THEN
+  RESPONSE #100
+    SetGlobal("Sylvan","GLOBAL",0)
+    Continue()
+END
+
+IF
+  RandomNum(4,1)
+  HitBy([ANYONE],POISON)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_NEUTRALIZE_POISON)
+    Continue()
+END
+
+IF
+  RandomNum(4,2)
+  HitBy([ANYONE],POISON)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_NEUTRALIZE_POISON)
+    Continue()
+END
+
+IF
+  HitBy([ANYONE],POISON)
+  RandomNum(4,3)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_SLOW_POISON)
+    Continue()
+END
+
+IF
+  HitBy([ANYONE],POISON)
+  RandomNum(4,4)
+THEN
+  RESPONSE #100
+    Shout(123)
+    Continue()
+END
+
+IF
+  Heard(LastHeardBy(Myself),123)
+  RandomNum(3,1)
+THEN
+  RESPONSE #100
+    ForceSpell(LastHeardBy(Myself),CLERIC_CURE_MEDIUM_WOUNDS)
+    Wait(5)
+    Continue()
+END
+
+IF
+  Heard(LastHeardBy(Myself),123)
+  RandomNum(3,2)
+THEN
+  RESPONSE #100
+    ForceSpell(LastHeardBy(Myself),CLERIC_NEUTRALIZE_POISON)
+    Wait(5)
+    Continue()
+END
+
+IF
+  Heard(LastHeardBy(Myself),123)
+  RandomNum(3,3)
+THEN
+  RESPONSE #100
+    ForceSpell(LastHeardBy(Myself),CLERIC_SLOW_POISON)
+    Wait(5)
+    Continue()
+END
+
+IF
+  HPPercentLT(Myself,35)
+  RandomNum(6,1)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_CURE_CRITICAL_WOUNDS)
+    Continue()
+END
+
+IF
+  HPPercentLT(Myself,35)
+  RandomNum(6,2)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+    Continue()
+END
+
+IF
+  HPPercentLT(Myself,35)
+  RandomNum(6,3)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_CURE_LIGHT_WOUNDS)
+    Continue()
+END
+
+IF
+  HPPercentLT(Myself,35)
+  RandomNum(6,4)
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_CURE_CRITICAL_WOUNDS)
+    Continue()
+END
+
+IF
+  HPPercentLT(Myself,35)
+  RandomNum(6,5)
+THEN
+  RESPONSE #100
+    UseItem("POTN08",Myself)
+    Continue()
+END
+
+IF
+  Delay(2)
+  HPPercentLT(Myself,35)
+  RandomNum(6,6)
+THEN
+  RESPONSE #95
+    Shout(124)
+    Continue()
+  RESPONSE #5
+    VerbalConstant(Myself,HURT)
+    Shout(124)
+    Continue()
+END
+
+IF
+  Heard(LastHeardBy(Myself),124)
+  RandomNum(6,1)
+THEN
+  RESPONSE #100
+    ForceSpell(LastHeardBy(Myself),CLERIC_CURE_CRITICAL_WOUNDS)
+    Continue()
+END
+
+IF
+  Heard(LastHeardBy(Myself),124)
+  RandomNum(6,2)
+THEN
+  RESPONSE #100
+    ForceSpell(LastHeardBy(Myself),CLERIC_CURE_SERIOUS_WOUNDS)
+    Continue()
+END
+
+IF
+  Heard(LastHeardBy(Myself),124)
+  RandomNum(6,3)
+THEN
+  RESPONSE #100
+    ForceSpell(LastHeardBy(Myself),CLERIC_CURE_LIGHT_WOUNDS)
+    Continue()
+END
+
+IF
+  Heard(LastHeardBy(Myself),124)
+  RandomNum(6,4)
+THEN
+  RESPONSE #100
+    ForceSpell(LastHeardBy(Myself),CLERIC_CURE_LIGHT_WOUNDS)
+    Continue()
+END
+
+IF
+  AttackedBy("Sylvan",DEFAULT)
+THEN
+  RESPONSE #100
+    RunAwayFrom(LastAttackerOf(Myself),75)
+    Continue()
+END
+
+IF
+  AttackedBy([PC],DEFAULT)
+  Range(LastAttackerOf(Myself),5)
+THEN
+  RESPONSE #100
+    Shout(124)
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(Myself),30)
+    Continue()
+END
+
+IF
+  AttackedBy([PC],DEFAULT)
+THEN
+  RESPONSE #100
+    Shout(124)
+    EquipRanged()
+    AttackReevaluate(LastAttackerOf(Myself),30)
+    Continue()
+END
+
+IF
+  Heard("Sylvan",125)
+  See(LastAttackerOf(LastHeardBy(Myself)))
+  Range(LastAttackerOf(LastHeardBy(Myself)),5)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+    Continue()
+END
+
+IF
+  Heard("Sylvan",125)
+  See(LastAttackerOf(LastHeardBy(Myself)))
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(LastAttackerOf(LastHeardBy(Myself)),30)
+    Continue()
+END
+
+IF
+  See([PC])
+  Range([PC],5)
+  Allegiance(Myself(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    Shout(125)
+    EquipMostDamagingMelee()
+    AttackReevaluate([PC],30)
+    Continue()
+END
+
+IF
+  See([PC])
+  Allegiance(Myself(Myself),ENEMY)
+THEN
+  RESPONSE #100
+    Shout(125)
+    EquipRanged()
+    AttackReevaluate([PC],30)
+    Continue()
+END
+
+IF
+  Heard("Sylvan",125)
+  See(LastTargetedBy(LastHeardBy(Myself)))
+  Range(LastTargetedBy(LastHeardBy(Myself)),5)
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    AttackReevaluate(LastTargetedBy(LastHeardBy(Myself)),30)
+    Continue()
+END
+
+IF
+  Heard("Sylvan",125)
+  See(LastTargetedBy(LastHeardBy(Myself)))
+THEN
+  RESPONSE #100
+    EquipRanged()
+    AttackReevaluate(LastTargetedBy(LastHeardBy(Myself)),30)
+    Continue()
+END
+
+IF
+  !See([PC])
+  Help("Sylvan")
+  !Range(LastHelp(Myself),5)
+THEN
+  RESPONSE #100
+    MoveToObject(LastHelp(Myself))
+    Continue()
+END
+
+IF
+  !See([PC])
+  HPPercentLT(Myself,100)
+  HPPercentGT(Myself,85)
+  HasItem("GBERRY",Myself)
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    UseItem("GBERRY",Myself)
+    Continue()
+END
+
+IF
+  RandomNumLT(30,10)
+  Delay(30)
+  !See([PC])
+  !HasItem("GBERRY",Myself)
+  ActionListEmpty()
+THEN
+  RESPONSE #100
+    ForceSpell(Myself,CLERIC_GOOD_BERRIES)
+    Continue()
+END
+

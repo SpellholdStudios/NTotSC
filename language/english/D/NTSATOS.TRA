@@ -1,0 +1,34 @@
+// #3131 (change "Ajantis" to "<CHARNAME>")
+@0    = ~Ah, you would be <CHARNAME>, I presume. I trust your journey was uneventful? My brethren and I are grateful you have come, though it is regretful that you are needed. The keep is usually closed to outsiders, but circumstances do demand extraordinary measures in this case. No doubt Duke Eltan told you of the problem? Eight people have gone missing from the grounds, three of those in the last two days alone. Isolated as we are, we have not the means to deal with this. Please, do what you can.~
+// #3132
+@1    = ~Have you no security here? The keep cannot be without defenses of SOME kind. I must speak with the captain of the guard.~
+// #3133
+@2    = ~What is your station here? I don't even know your name.~
+// #3137
+@3    = ~Where are the rest of your fellows? I shall need to speak with all of them.~
+// #3134 (insert "Eldod")
+@4 = ~Alas, normally we DO have a substantial number of guards. The majority have been sent east however, to help combat the rash of robberies along the Coastway road. It was after that our own problems began. Two of our remaining guards are among the missing, and Captain himself has not been seen since yesterday last. We have appointed a replacement in his stead, Eldod, and you may find him about the grounds.~
+// #3144
+@5    = ~This information is appreciated, and I shall do what I can. It is quite a task to complete on my own, however.~
+// #3135
+@6    = ~Forgive my manners, I have not introduced myself! I am Satos, and unfortunately I am the acting abbot. It is not that I don't find honor in the position, quite the contrary. It is just unfortunate how I came by it. Our true Elder Abbot was among the first to disappear.~
+// #3146
+@7    = ~You will find some of our number about the grounds, though I fear some are too shaken to leave the keep building proper. I have instructed everyone to be as helpful as possible.~
+// #3148
+@8    = ~Oh! I had meant to tell you but it slipped my mind. I fear I have been somewhat scatterbrained since this has begun. Duke Eltan anticipated your need for a little assistance, so he arranged for a mercenary guild to send along some hired help. A strange mix, to be sure, but I am certain they will serve with you well. All seem quite skilled in their... uh... niches. Introductions are in order, I believe.~
+// #3149
+@9    = ~Um... yes, well... Next?~
+// #3150
+@10   = ~Yes, well, now that that is taken care of I shall leave you to the task at hand. You have leave to wander where you will, and all but the main keep are open to you. That one building must be kept sealed regardless, for the sake of the many treasured tomes within. It's not as though we mistrust YOU, rather 'tis just better to have as little traffic as possible through. I hope you understand. Forgive me, but I have meditations to attend to.~
+/* @11 -> @10060 */ 
+// #3151
+@12   = ~Ahead... many of them... must be stopped...~
+// #3152
+@13   = ~Take this... end it for...~
+/* @14 -> @10061 */  
+// #8972
+@15   = ~There is little I could tell you that I have not already. Please friend, help my brethren.~
+@16   = ~You have proven trustworthy. The Citadel remains open for you forever.~
+@17   = ~Why are you in such a hurry, my friends?~
+@18   = ~We have found the cause of the confusion in your Citadel! An ogre, called Krotan who is hiding inside the Mausoleum is the one who charmed Eldod! Eldod followed his orders to kill all your people! Now, we're going to take care of this scoundrel.~
+@19   = ~Wonderful! Good luck! I'll send all the people who could help you there, immediately.~

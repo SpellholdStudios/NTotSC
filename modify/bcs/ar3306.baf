@@ -1,0 +1,13 @@
+IF
+  Global("NTotSCSpawn","%Beregost_JovialJuggler_L2R%",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTDXTER",[390.232],0)
+    CreateCreature("NTDXTER",[338.256],0)
+    CreateCreature("NTDXTER",[358.306],0)
+    CreateCreature("NTDXTER",[426.322],0)
+    CreateCreature("NTDXTER",[466.279],0)
+    CreateCreature("NTDXTER",[614.263],0)
+    SetGlobal("NTotSCSpawn","%Beregost_JovialJuggler_L2R%",1)
+END
+

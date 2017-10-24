@@ -1,0 +1,17 @@
+IF
+  PartyHasItem("NTMISC10")
+  Global("NT_HasBookOfUnknowing","GLOBAL",0)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@10002)
+    EraseJournalEntry(@10019)
+    EraseJournalEntry(@10020)
+    EraseJournalEntry(@10052)
+    EraseJournalEntry(@10062)
+    EraseJournalEntry(@10063)
+    EraseJournalEntry(@10103)
+    EraseJournalEntry(%shaella_journal_solved%)
+    AddJournalEntry(@10095,QUEST_DONE)
+    SetGlobal("NT_HasBookOfUnknowing","GLOBAL",1)
+END
+

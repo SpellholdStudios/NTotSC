@@ -1,0 +1,24 @@
+IF
+	See([PC])
+	!Allegiance(Myself,ENEMY)
+	NumberOfTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END
+
+
+
+
+IF
+  OR(2)
+	Global("NT_EldodRestored","GLOBAL",2)
+	Global("NT_EldodRestored","GLOBAL",3)
+  Global("NTSatosInformedPB","GLOBAL",0)
+  Global("NTSatosMustDie","GLOBAL",0)
+  !Dead("NTKROTAN")
+THEN
+  RESPONSE #100
+    Wait(2)
+    StartDialogueNoSet([PC])
+END

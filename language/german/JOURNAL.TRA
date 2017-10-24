@@ -1,0 +1,365 @@
+//@7 from bart5.tra
+@10000 = ~Will O'Hara
+
+Wills Lieblingswaffe ist zurück in seinen Händen. Ich hoffe, dass er sie richtig handhaben kann.~
+// @5 from Charle.tra
+@10001 = ~Weitere Ruinen unter der Feuerweinbrücke
+
+Charleston Nib, den wir retteten, nachdem seine Arbeiter in der Gruft Kozahs wahnsinnig wurden, bot uns eine weitere Suche an. Es gibt einen bewachten Eingang auf der Feuerwein-Brücke, die in einen neues Verlies führt. Jedoch hausen "Dämonen" dort drinnen, und er ist außerstande, es zu erforschen. Er hat uns gebeten, die Dämonen für ihn zu beseitigen.~
+// @8 from lobar.tra
+@10002  = ~Das Große Buch der Unwissenden
+
+Lobar wies uns in Richtung Errötende Nixe bei unserer Aufgabe, das magische Buch des Unwissens zu finden. Wir müssen Oupaste, den Vermittler von Lobar finden, der den Empfänger des Buches kennt.~
+// @1 from NT#DELTA.tra
+@10003  = ~Geheimnis der Nördlichen Zitadelle
+
+Duke Eltan bat mich, zur Zitadelle im Norden von Baldurs Tor zu gehen. Es scheint, dass Leute von dort verschwunden sind. Er will, dass ich herausfinde, was wirklich vor sich geht.~
+// @15 from NTARCHAN.tra
+@10004  = ~Die Insel der Freundlichen Sirenen
+
+Verdammt. Ich werde eine Verabredung mit Archandra haben, wenn ich eine Flasche Wein finden kann... Wo kann ich sie herbekommen?~
+// @24 from NTAVERY.tra 
+@10005  = ~Das Heilige Symbol des Helm
+
+Avery offenbarte uns die Geschichte von Monoach, dem Gründer dieser Zitadelle. Im Altar von Helm wird das Symbol von Helm aufbewahrt. Aber keiner weiß, wofür es verwendet werden kann. Es geht das Gerücht um, dass der Schlüssel zum Altar einem Vertrauten zur sicheren Aufbewahrung gegeben wurde, der sich auf einer Insel hoch im Nordwesten befinden soll.~
+//and @1 of NTPBWAT1.tra and @1 of NTPBWATC.tra
+@10006  = ~Sofort nach dem Betreten der Katakomben wurden wir von einem Geisterritter angehalten. Er griff uns ohne Begründung wütend an...~
+// @6 from NTELDOD.tra
+@10007  = ~Geheimnis der Nördlichen Zitadelle
+
+Endlich schafften wir es, mit Eldod, dem Hauptmann der Wache von der Nördlichen Zitadelle, zu sprechen. Er benahm sich ziemlich hässlich... Es ist wirklich verdächtig.~
+// @10 from NTELDOD.tra
+@10008  = ~Geheimnis der Nördlichen Zitadelle
+
+Der Hauptmann der Wache von der Nördlichen Zitadelle war wütend wegen unserer fortwährenden Besuche... und er verließ uns schnell...~
+@10009  = ~Geheimnis der Nördlichen Zitadelle
+
+Als der bezauberte Hauptmann der Wache von der Nördlichen Zitadelle endlich vom Einfluss des Zaubers erlöst wurde, schaffte er es, uns zu erzählen, welche Macht hinter diesem ganzem Verschwinden steht. Es ist Krotan - ein Oger, der sich im Mausoleums hinter der Zitadelle vorbereitet, diese einzunehmen!~
+@10010    = ~Geheimnis der Nördlichen Zitadelle~
+@10011    = ~Die Insel der Freundlichen Sirenen
+
+Die Essila genannte Sirene braucht ein Heilmittel, weil sie sich krank fühlt... Ist es der Kopf oder der Finger? Und sagt sie vielleicht gerade die Wahrheit?~
+//@1 from NTGGOTHA.tra
+@10012    = ~Die Felder der Toten
+
+Was für eine undankbare Aufgabe! Wir kamen endlich in die Gruft des verehrten Führers der Orks... Er nahm sein Schwert, und er und seine Täter griffen uns an. Dramatische Erfahrung...~
+//@3 from NTGGOTHA.tra
+@10013    = ~Die Felder der Toten
+
+Als wir endlich in die Gruft kamen, die von den Orks so geehrt wurde, wurden wir von Ghotal selbst und seinem Hofstaat aufgehalten... Dramatische Erfahrung...~
+//@2 from NTGHELDE.tra 
+//#15797
+@10014    = ~Pilar und Gheldehar
+
+Ich bin heute in einem Gässchen einem schmutzigen kleinen Gnom namens Gheldehar begegnet. Er behauptet, dass Pilar, eine "alte Freundin", die zurzeit im Freundlichen Arm abgestiegen ist, seine Stiefel gestohlen haben soll, und er möchte sie zurückhaben. Gheldehar schien es nichts auszumachen, welcher Methoden ich mich dazu bediene, und ich traue daher der Bezeichnung "Freundin" nicht so ganz.~
+//@1 from NTGUARNC.tra
+@10015    = ~Geheimnis der Nördlichen Zitadelle
+
+Wir trafen auf kein herzliches Willkommen, als wir die Nördliche Zitadelle betraten.~
+//@2 from NTHAEBAL.tra  
+@10016    = ~Haeball, ein Magier, der in Larswald lebt, bietet einige auserlesene Gegenstände zum Verkauf.~
+//@7 from NTHAEBAL.tra
+@10017    = ~Zerstört den Kult der Schwarzen Hand
+
+Also sowas...! Wir statteten Haebal einen freundlichen Besuch ab, und wurden mit Waffengewalt und schwarzer Magie begrüßt... Was könnte dieser Haeball zu verbergen haben? Wir sollten eine gründliche Durchsuchung seines Turms vornehmen.~
+//@19 from NTHAEBAL.tra
+@10018    = ~Das Große Buch der Unwissenden
+
+Der Magier Haeball, der im Turm im Larswald südöstlich des Gasthofs Zum Freundlichen Arm lebt, sandte uns aus mit dem Auftrag, das Große Buch der Unwissenden und einen magischen Bogen aus dem Besitz eines Elfen zu beschaffen, der weit im Norden lebt. Wenn wir genug Glück haben, finden wir beides und verdienen gutes Geld...~
+//@41 from NTHAEBAL.tra
+@10019    = ~Das Große Buch der Unwissenden
+
+Der Magier Haeball, der im Turm im Larswald südöstlich des Gasthofs Zum Freundlichen Arm lebt, sandte uns aus mit der Aufgabe, einen magischen Bogen aus dem Besitz eines Elfen zu holen, der weit im Norden lebt. Wenn wir genug Glück haben, finden wir ihn und verdienen gutes Geld...~
+//@27 from NTHAEBAL.tra
+@10020    = ~Zerstört den Kult der Schwarzen Hand
+
+Soviel zu dem Thema, dass unsere Arbeit geschätzt wird! Wir latschen unsere Schuhsohlen durch, und anstatt der versprochenen Belohnung versucht Haeball, uns zu töten! Ich weiß nicht, warum, aber ich habe das Gefühl, dass Haeball nicht das letzte oder einzige Glied einer langen Kette ist...~
+//@16 from NTHASDAR.tra 
+@10021    = ~Das Große Buch der Unwissenden
+
+Ein Mann namens Hasdar behauptet, dass das Buch wirklich existiert, und dass Lobar von der Leuchtenden Laterne es jetzt hat. Er ist bereit, mir 10.000 Goldstücke dafür zu geben!~
+//@34 from NTHASDAR.tra 
+@10022    = ~Das Große Buch der Unwissenden
+
+Ich habe das magische Buch Hasdar gegeben, nur um zu festzustellen, dass er plante, mich zu töten. Das hätte ich mir denken können. Leider bekam ich nie mein Geld. Wenn ich ihn jemals wieder treffe, werde die Dinge anders sein!~
+@10023    = ~Die Insel der Freundlichen Sirenen
+
+Wir haben die Insel der freundlichen Sirenen verlassen - höchstwahrscheinlich werden wir niemals wieder zurückzukehren.~
+//@3 from NTHUMBAB.tra 
+@10024    = ~Probleme an der Nördlichen Küste
+
+Die Fischer aus einem Dorf an der Nordküste baten uns um einen Gefallen, und wir schauten in einer von einigen Feuersalamandern bewohnten vulkanischen Höhle vorbei! Wir wurden am Eingang von ihrem Wachtposten Humbaba herausgefordert, deshalb mussten wir ihn töten.~
+//@5 from NTHUMBAB.tra 
+@10025    = ~Probleme an der Nördlichen Küste
+
+An der weiten Nordküste trafen wir eine Gruppe von Feuersalamandern, die die vulkanischen Höhlen bewohnten und die örtlichen Fischer terrorisierten.~ 
+//@11 from NTHUMBAB.tra 
+@10026    = ~Probleme an der Nördlichen Küste
+
+Das Treffen mit den Feuersalamandern schien sehr gefährlich zu sein, und wir mussten uns taktischerweise für einen Moment zurückziehen...~
+//@1 from NTKEELOR.tra #15737
+@10027    = ~Keelor der Zwerg
+
+Nachdem ich Keelor wieder zum Bewusstsein erweckte, hat mir der lädierte Zwerg erzählt, dass sich Gnolle in der Umgebung aufhalten. Der Zustand von Keelor ließ keine Zweifel darüber, dass sie immer bedrohlicher werden.~
+//@3 from NTKEELOR.tra #15738
+@10028    = ~Keelor der Zwerg
+
+Nachdem ich Keelor wieder zum Bewusstsein erweckte, hat mir der lädierte Zwerg erzählt, dass sich Gnolle in der Umgebung befinden. Der Zustand von Keelor ließ keine Zweifel darüber, dass sie immer bedrohlicher werden. Ich sollte mich wohl bei meinem nächsten Besuch in Beregost nach ihm erkundigen, denn er hatte wahrscheinlich stärkere Schmerzen, als er zugeben wollte.~
+//@5 from NTKEELOR.tra #15739
+@10029    = ~Keelor der Zwerg
+
+Nachdem ich Keelor wieder zum Bewusstsein erweckte, hat mir der lädierte Zwerg erzählt, dass sich Gnolle in der Umgebung befinden. Der Zustand von Keelor ließ keine Zweifel darüber, dass sie immer bedrohlicher werden. Unerwartet nett von ihm war auch, dass er mir die Heilkünste seiner Schwester, der Priesterin Nasha im Südviertel von Baldurs Tor, angeboten hat, falls ich oder meine Freunde sie je nötig haben sollten.~
+//@6 from NTKOLDAR.tra
+@10030    = ~Die Felder der Toten
+
+Im Norden von Baldurs Tor im Wald der Toten trafen wir den einsamen Waldläufer Koldar, der uns vor Orks warnte, die in diesem Gebiet öfter als gewöhnlich aufkreuzen. Es sieht so aus, als ob sie versuchen, das Geheimnis des alten im Wald erbauten orkischen Heiligtumes zu lösen.~
+// @10 from NTKRESTI.tra
+@10031    = ~Die Insel der Freundlichen Sirenen
+
+Es gibt einen weiteren Elf von Baldurans Mannschaft auf der "Paradiesinsel". Aber es scheint, dass er das hiesige Klima mag, und seine "Freundinnen" sind für ihn jetzt am wichtigsten...~
+//@6 from NTKROTAN.tra
+@10032    = ~Geheimnis der Nördlichen Zitadelle
+
+Wir trafen Krotan innerhalb des Mausoleums. Er bereitete sich vor, die Macht in der Zitadelle zu übernehmen. Die Wächter und unsere "Unterstützer" standen auf der Seite des Feinds, und der Kampf begann... Am Ende wurden Krotan und seine "Unterstützer" getötet.~
+//@2 from NTLENORE.tra 
+@10033    = ~Lenore und Montgomery
+
+In der Zitadelle trafen wir Lenore, die dieses Verschwinden kaum erträgt. Sie sorgt sich am meisten um Montgomery, der unter dem Vermissten ist. Wir sollten nach ihm suchen, und vielleicht wird es uns gelingen, Lenores Schmerz zu lindern.~
+//@2 from NTLLINDE.tra #15731
+@10034    = ~Llindellyns Glückspfeil
+
+Hier bin ich also, ein weiterer unbedeutender Abenteurer, der nichts auf die Reihe bekommt und nach dem Glückspfeil eines Fremden sucht. Llindellyn ist ja schon ein netter Typ, aber... sollte ich nicht auf der Jagd nach Tarrasken oder sowas sein?~
+//@11 from NTLUCRET.tra 
+@10035    = ~Die Insel der Freundlichen Sirenen
+
+Lucretia ist bereit, einige nette Zeit mit mir zu verbringen... Aber sie will einige Juwelen im Tausch... Frauen werden sich nie ändern...~
+//@3 of NTMAGDAD.tra 
+@10036    = ~Magnads and Winormas Kinder
+
+In Baldurs Tor trafen wir Magnad und Winorma, die ihre Kinder während ihrer Reise nach Elthurel verloren, nachdem ihre Karawane von einer Gruppe Orks angegriffen wurde. Magnad vermutet, dass die Orks ihre Kinder in die Felder der Toten verschafften, die irgendwo im Norden von Baldurs Tor liegen.~
+//@18 of NTMEANDA.tra 
+@10037    = ~Zerstört den Kult der Schwarzen Hand
+
+Meander, der Anführer der Eissalamander, verlangt die Zerstörung des Kults der Schwarzen Hand und das Töten des Anführers. Wenn wir nur wüssten, wo man den Kult findet, könnten wir vielleicht einige Fortschritte erzielen. Meander hat vorgeschlagen, dass wir in Ulgoths Bart und den Feldern der Toten nach Antworten suchen.~
+//@10 in NTMILEA.tra 
+@10038   = ~Die Insel der Freundlichen Sirenen
+
+Die wirklich nette Sirene Milea, die auf der magischen Insel lebt, liebt es Ansprüche durchzusetzen trotz dem, was sie vorher sagt... Und das ist eine Paradies-Insel?!~
+//@2 of NTNADALI.tra
+@10039   = ~Nadalin der Fischer
+
+In Baldurs Tor trafen wir einen freundlichen Fischer, Nadalin. Es sieht so aus, als ob sehr seltsame Dinge im Dorf im Norden geschehen, wo er lebte. Er behauptet, dass Feuersalamander sein Dorf angegriffen haben und jetzt keiner im Gebiet mehr fischen kann. Ich sollte einen Blick auf das Problem werfen, wenn ich dort vorbeikomme.~
+//@5 of NTNADALI.tra
+@10040   = ~Nadalin der Fischer
+
+Wir erzählten Nadalin, einem Fischer, dass wir die Feuersalamander und Sirenen ausgerottet haben, die sein Dorf plagten. Er kann jetzt in seine Heimat zurückkehren.~
+@10041   = ~Nadalin der Fischer~
+//@1 of NTNIMFUR.tra
+@10042   = ~Nim Furlwings Jagdhunde
+
+Heute fühle ich mich eher wie ein Dummkopf als wie ein mutiger Abenteurer. Ich bin scheinbar zu spät gekommen und habe nicht genug unternommen, um die edlen Jagdhunde eines gewissen Nim Furlwing im Scharfzahnwald zu retten.~
+//@4 of NTNIMFUR.tra #15717
+@10043   = ~Nim Furlwings Jagdhunde
+
+Genau, der Scharfzahnwald! Ich habe heute die reinrassigen Hunde von Nim Furlwing vor Schreckenswölfen gerettet und verspüre nach dem Versuch zugegebenermaßen immer noch ziemliche Schmerzen.~
+// @2 of NTOLIVIA.tra #15792
+@10044   = ~Olivia und die Möven
+
+Die Druidin Olivia sitzt auf ihrem Sessel an der See und spricht ihre Worte aus, wie man sonst nur Zauber aussprechen würde. Sie sehnt sich danach, sich eines Tages in eine Möwe zu verwandeln und mit den anderen Möwen wegzufliegen. Das ist ein edler Traum, und wenn ich ihr diesen Wunsch erfüllen kann, will ich es gerne tun, sei es auch nur, um die Schönheit ihres Fluges bewundern zu dürfen...~
+// @4 of NTOLIVIA.tra #15792
+@10045   = ~Olivia und die Möven
+
+Wir haben einen Weg gefunden, die Träume der Druidin Olivia wahr zu machen... Ihr könnt Euch nicht vorstellen, wie überrascht wir waren, als wir ihre wahre Natur erkannten...~
+@10046   = ~Olivia und die Möven~
+@10047   = ~Nim Furlwings Jagdhunde~
+//@10 of NTORDOL.tra
+@10048   = ~Ordolaths Kerze
+
+Ein seltsamer Mann, Ordolath, den wir in der Wildnis westlich von Nashkell trafen, bot uns 2000 Goldmünzen und einen wertvollen Gegenstand dafür an, dass wir ihm seine Kerze aus Baldurs Tor bringen. Er ließ sie in seinem Haus im Nordbezirk zurück, einem weißen Haus hinter einem blauen Turm.~
+//@20 of NTORDOL.tra
+@10049   = ~Ordolaths Kerze
+
+Wir haben Ordolath die Kerze aus seinem Haus in Baldurs Tor gebracht, und getreu seinem Wort gab er uns vor der Abreise einen schönen Stab aus seiner Sammlung. Unglücklicherweise scheint er vergessen zu haben, dass er versprach, uns ebenso 2000 Goldmünzen für unsere Schwierigkeiten zu zahlen. Wir müssen küftig nach ihm Ausschau halten und ihn daran erinnern, wenn wir ihm jemals wieder begegnen...~
+//@22 of NTORDOL.tra
+@10050   = ~Ordolaths Kerze
+
+Wir brachten Ordolath die Kerze; er gab uns unsere Belohnung und verschwand im Nebel. Es scheint so, dass kaum, dass man jemanden kennen lernt, dieser dann auch schon für immer weg ist. Eine jämmerliche Sache!...~
+@10051   = ~Ordolaths Kerze~
+//@13 from NTOUPAST.tra 
+@10052   = ~Das Große Buch der Unwissenden
+
+Oupaste war nicht sehr nützlich, aber er sagte, dass der Magier, dem er das Buch verkaufte, in den Wolkengipfeln lebt. Ich war zuvor dort, aber ich glaube, dass es nicht schaden wird, mich dort noch einmal umzusehen.~
+//@6 from NTPANDRI.tra 
+@10053  = ~Rettet Pandris vor den Orks
+
+Wir retteten Pandris, Ynnes' Mann, vor den Orks in den Feldern der Toten. Er gab uns einen Brief an seine Frau. Ich scheine nicht nur ein Lebensretter zu sein, sondern auch der Bote, der die guten Nachrichten überbringt!...~
+//@7 from NTPAULIA.tra 
+@10054  = ~Die Insel der Freundlichen Sirenen
+
+Eine Sirene namens Paulia mag Trauben... Aber wer mag sie nicht, wenn sie frisch und süß sind?~
+//@2 from NTPILAR.tra
+@10055  = ~Pilar und Gheldehar
+
+Bei einem kühlen Bierchen im Freundlichen Arm hat mich die Halbelfe Pilar vor Gheldehar, einem alten Gnomenpriester in Baldurs Tor, gewarnt. Er hat noch einen alten Ring von ihr, und wenn ich ihr diesen zurückbringe, hat sie versprochen, mir das reichlich zu vergelten.~
+@10056  = ~Pilar und Gheldehar~
+//@5 from NTPRIHEL.tra
+@10057  = ~Der Verschlossene Altar von Helm
+
+Da ist ein verschlossener Altar in der Zitadelle. Er ist interessant... Es wird gesagt, dass der Mönch Avery etwas darüber weiß. Wir müssen ihn danach fragen, wenn wir die Gelegenheit bekommen...~
+//@7 from NTREDEDG.dlg #7120
+@10058  = ~Die Diebesgilde hat einigen Ärger bekommen, seit Angelo Kommandant der Flammenden Faust ist.~
+//@1 from NTREEDRI.dlg 
+@10059  = ~Zerstört den Kult der Schwarzen Hand
+
+In einer der Höhlen in der Nähe des orkischen Lagers in den Feldern der Toten trafen wir einen Mönch. Die Orks wollten ihn anscheinend martern. Er war so dankbar, dass er vergaß, uns zu belohnen, und lief schnell davon zu einer wichtigen Mission nach Ulgoths Bart. Interessant - warum sollten die Orks einen einfachen Mönch belästigen? Das erfordert weitere Nachforschen, wenn wir wieder nach Ulgoths Bart kommen.~
+//@11 from NTSATOS.dlg
+@10060  = ~Geheimnis der Nördlichen Zitadelle
+
+Es ist ein neuer Abt in der Nördlichen Zitadelle, nachdem sein Vorgänger zusammen mit sieben anderen Menschen verschwand. Wie sich herausstellte, kam ebenso eine Dreiergruppe aus Baldurs Tor hierher. Sie sollen uns bei der Untersuchung helfen, aber es sieht so aus, als ob sie ihre eigenen Pläne haben...~
+//@14 from NTSATOS.dlg
+@10061  = ~Geheimnis der Nördlichen Zitadelle
+
+So wurde der Abt Satos ebenfalls getötet, bevor wir es schafften, Krotan aufzuhalten. Satos hat uns den Schlüssel zu dem Mausoleum gegeben. Es ist Zeit für die finale Konfrontation.~
+//@33 from NTSHAELL.dlg
+@10062   = ~Das Große Buch der Unwissenden
+
+Shaella, eine äußerst interessante Priesterin von Leira, hat mich auf eine Wallfahrt in meine Heimat, nach Kerzenburg, geschickt, wo sich das Große Buch der Unwissenden befindet. Wenn man in seinen Seiten liest, oder dieses größte aller Bücher auch nur berührt, wird man mit einer Unwissenheit ohnegleichen gesegnet. Ich werde wieder mit ihr sprechen, sobald ich es gefunden habe.~
+//@45 from NTSHAELL.dlg 
+@10063   = ~Das Große Buch der Unwissenden
+
+Shaella, oder wohl eher Elnaedra, sagte, ich hätte das "Große Buch der Unwissenden" irgendwo in Kerzenburg gefunden, obwohl das nicht stimmt. Was das zu bedeuten hat?~
+//@3 from NTSVLAST.dlg // #15713
+@10064   = ~Svlasts Pein
+
+Ich bin in den Ruinen von Feuerwein Zeuge trauriger Ereignisse geworden. Ein ehemaliger Paladin namens Svlast wird vom Geist seines Glaubensbruders, den er einst verraten hat, verfolgt. Noch nie habe ich eine betrübtere und beschämtere Seele gesehen als den armen Svlast. Er hat mich gebeten, mich nicht einzumischen, aber bei einer solchen Wahl wird mir das Herz schwer...~
+//@5 from NTSVLAST.dlg // #15703
+@10065    = ~Svlasts Pein
+
+Nachdem der arme und unglückliche Svlast den Angriff des Wiedergängers mit unserer Hilfe überlebt hat, hat er uns gebeten, seine Aufgabe zu vollenden... Dies ist ein schwarzer Tag in diesen Ruinen, und er wird wohl noch schwärzer werden.~
+@10066    = ~Svlasts Pein~
+//@1 from NTSZYPER.dlg 
+@10067    = ~Probleme an der Nördlichen Küste
+
+Entlang der Nordküste lebt eine kleine Gemeinschaft von Fischern. Es scheint, dass etwas in das Gebiet nördlich ihres Dorfes eingedrungen ist, dass sie in Angst und Schrecken versetzt.~
+//parts from @18 from NTSZYPER.dlg 
+@10068    = ~Probleme an der Nördlichen Küste
+
+Wir beseitigten das Problem, das die Fischer entlang der Nordküste mit den Sirenen und Feuersalamandern hatten.~
+//parts from @18 from NTSZYPER.dlg 
+@10069    = ~Das Heilige Symbol des Helm
+
+Der Anführer des Dorfes an der nördlichen Küste sagte uns, dass es in der Nähe die Insel gibt, nach der wir suchen. Er sagte, dass der Weg zur Insel nur dem Fischer Nadalin bekannt ist, der aus dem Dorf vor einiger Zeit floh, als die Sirenen und Feuersalamander erstmals erschienen.~
+// @1 from NTTAMASS.dlg
+@10070    = ~Die Insel der Freundlichen Sirenen
+
+Als wir von der Werwolfsinsel zurückkamen, stoppten wir auf einer freundlich aussehenden Insel, um unsere Vorräte wieder aufzufrischen, was wir in der Eile zuvor nicht tun konnten. An der Küste wurden wir von einigen freundlichen Sirenen begrüßt, die auf der Insel leben. Sollten wir nicht für einige Zeit hier bleiben...? ~
+// @18 from NTTORDIO.dlg
+@10071    = ~Das Gespenst Östlich von Beregost
+
+Ein Gespenst, oder eher drei Gespenster, wohnen in der Höhle im Osten vom Morgentempel. Dieses "Etwas" erzählt Geschichten über die Rache des Vampirs... Es braucht das Vampirschwert und Weihwasser oder einige wahrhaft zähe Kerle, um es ins Jenseits zu "senden"... Wir werden sehen, was getan werden kann.~
+// @24 from NTTORDIO.dlg
+@10072    = ~Das Gespenst Östlich von Beregost
+
+Das Gespenst aus der Höhle von Beregost erhielt alle erforderlichen Gegenstände, und schließlich ging es weg... sie gingen weg... Es ist Zeit, in seine Kammer zu gucken!~
+@10073    = ~Das Gespenst Östlich von Beregost~
+// @2 from NTWELT.dlg #15741
+@10074   = ~Rattenragout
+
+Welt, ein Bewohner des Armenviertels von Baldurs Tor, der die Kunst der Einsilbigkeit perfekt beherrscht und der wie ein Oger aussieht und sogar so riecht, hat mich gebeten, für seinen Hund Pooch Ratten zu sammeln. Er sieht nicht wie jemand aus, dem man gerne eine Bitte ausschlägt...~
+// @1 from WENRIC.tra 
+@10075   = ~Die Felder der Toten
+
+Ein Bauer nördlich von Baldurs Tor erzählte uns von ungewöhnlichen Tätigkeiten der Orks in der Gegend. Orks kidnappen Dorfbewohner, und sie scheinen sehr gefährlich zu sein. Es sollte in der nahen Zukunft überprüft werden.~
+// @10 from NTYNESS.tra
+@10076   = ~Rettet Pandris vor den Orks
+
+Wir müssen losziehen, um Pandris zu helfen, einem Bauer, der in der Nähe von Baldurs Tor lebt. Er wurde von den Orks aus den Feldern der Toten gekidnappt. Die Orks sind kürzlich aktiv geworden. Ich frage mich warum...~
+// @16 from NTYNESS.tra
+@10077   = ~Rettet Pandris vor den Orks
+
+Wir brachten Yness eine Nachricht von ihrem Mann, den wir aus den Händen von Orks retteten. Sie war sehr erfreut, aber sie hatte kein Geld, um uns zu entlohnen.~
+@10078   = ~Rettet Pandris vor den Orks~
+// @26 from WILL.tra
+@10079   = ~Will O'Hara
+
+Es lebt ein ungewöhnlicher junger Mann in Beregost - Will Scarlet, obwohl ihn einige Will Tell Helm nennen. Ich entschied mich, ihn mitzunehmen. Seine außerordentlichen Fähigkeiten und seine Begeisterung könnten eines Tages nützlich sein...~
+// @37 from WILL.tra
+@10080   = ~Will O'Hara
+
+Will verpfändete seinen ursprünglichen Flegel bei Feldpost für 1000 Goldmünzen. Ich sollte erwägen, ihn zurück zu bekommen. Er bestellte auch eine neue Rüstung beim Schmied Taerom Donnerhammer in Beregost. Wenn wir das Geld haben, ist sie für... 5000 Goldmünzen... erhältlich! Mein neuer Freund ist tatsächlich "kostbar"!~ 
+@10081   = ~Will O'Hara~
+@10082   = ~Die Felder der Toten~
+@10083   = ~Die Insel der Freundlichen Sirenen~
+@10084   = ~Zerstört den Kult der Schwarzen Hand~
+@10085   = ~Zerstört den Kult der Schwarzen Hand
+
+Reedrig sagte, dass der Kult der Schwarzen Hand nordöstlich vom Scharfzahnwald gefunden werden kann.~
+@10086   = ~Das Heilige Symbol des Helm~
+//@18 of NTMEANDA.tra (split in two with @10037)
+@10087    = ~Das Heilige Symbol des Helm
+
+Meander, der Anführer der Eissalamander, weigerte sich, auch nur daran zu denken, über den Schlüssel zum verschlossenen Altar in der Nördlichen Zitadelle zu sprechen, bis nicht der Kult der Schwarzen Hand vernichtet und der Anführer getötet ist.~
+@10088    = ~Das Heilige Symbol des Helm
+
+Wir haben den Schlüssel zum Altar in der Nördlichen Zitadelle von Meander, dem Anführer der Eissalamander erhalten.~
+@10089    = ~Das Heilige Symbol des Helm
+
+Wir haben das Heilige Symbol des Helm aus dem Altar in der Nördlichen Zitadelle erhalten.~
+// similar to @10069
+@10090   = ~Das Heilige Symbol des Helm
+
+Der Anführer des Dorfes an der nördlichen Küste sagte uns, dass es in der Nähe die Insel gibt, nach der wir suchen. Er sagte, dass der Weg zur Insel nur dem Fischer Nadalin bekannt ist.~
+@10091   = ~Das Heilige Symbol des Helm
+
+Nadalin, der Fischer aus dem Fischerdorf an der Nördlichen Küste ist jetzt zu seinem Boot zurückgekehrt und bereit, uns zu anderen Inseln zu fahren, wenn wir wollen.~
+@10092   = ~Die Tanar'ri in den Wolkengipfeln~
+@10093   = ~Die Tanar'ri in den Wolkengipfeln
+
+In einer Gruft in den Wolkengipfeln traf ich mehrere Tanar'ri, die amboten, ohne Kampf in ihre Heimatdimension zurückzukehren, wenn ich ihnen die Leiche des Magiers bringe, der sie beschworen hat. Sie haben in diesem Zusammenhang jemanden namens "Haeball" erwähnt, mit dem ich mal reden sollte.~
+@10094   = ~Die Tanar'ri in den Wolkengipfeln
+
+Vielleicht hätte ich nicht fragen sollen... Nun wollen die Tanar'ri auch noch den Bogen des Waldelfen Fey'doch...~
+@10095   = ~Das Große Buch der Unwissenden
+
+Ich habe das Große Buch der Unwissenden gefunden! Glaube ich jedenfalls.~   
+@10096   = ~Nadalin der Fischer~
+//@6 from NTPANDRI.tra (splitted into several: @10053, @10097, @10098)
+@10097   = ~Magnads and Winormas Kinder
+
+Wir retteten Magnads Kinder vor den Orks in den Feldern der Toten. Sie können nun zu ihren Eltern gehen.~
+@10098   = ~Die Felder der Toten
+
+Pandris sagte uns, dass die Orks Streit mit einem Kult in der Gegend hatten. Er erwähnte auch, dass die Orks emsig versuchten, in eine aufgegebene Kapelle im Wald der Toten im Südosten zu gelangen. Wir sollten das untersuchen.~
+@10099   = ~Magnads and Winormas Kinder~
+@10100   = ~Svlasts Pein
+
+Ich habe mich entschieden, Svlasts Pein auf die Art zu beenden, um die er mich gebeten hatte.~
+@10101   = ~Svlasts Pein
+
+Ich habe es nicht übers Herz gebracht, diesen Mann zu töten. Er ist nun gegangen, wohl um für seine Sünden zu büßen.~
+@10102   = ~Zerstört den Kult der Schwarzen Hand
+
+Wir haben den Kult der Schwarzen Hand getötet!~
+//@13 from NTOUPAST.tra (content added) 
+@10103   = ~Das Große Buch der Unwissenden
+
+Oupaste war nicht sehr nützlich, aber er sagte, dass der Magier, dem er das Buch verkaufte, in den Wolkengipfeln lebt. Ich habe diesen Pass wohl schon gefunden, es ist der im Norden, der von der Landzunge zwischen den beiden Flussarmen erreichbar ist.~
+@10104   = ~Zerstört den Kult der Schwarzen Hand
+
+Es scheint, dass der Kult der Schwarzen Hand nordöstlich vom Scharfzahnwald gefunden werden kann.~
+// similar to @10032 with content added
+@10105    = ~Geheimnis der Nördlichen Zitadelle
+
+Wir trafen Krotan innerhalb des Mausoleums. Er bereitete sich vor, die Macht in der Zitadelle zu übernehmen. Die Wächter und unsere "Unterstützer" standen auf der Seite des Feinds, und der Kampf begann... Am Ende wurden Krotan und seine "Unterstützer" getötet. Ebenso alle Bewohne der Zitadelle... Sowas aber auch, da wird der liebe Herzog Eltan wohl nicht so begeistert von sein. Auf der anderen Seite ist aber niemand mehr da, der ihm erzählen kann, was wirklich geschah, nicht wahr?...~
+@10106    = ~Magnads and Winormas Kinder 
+
+Magnad kennt die genaue Lage der Felder der Toten nicht, schlug aber vor, dass wir nach Ulgoths Bart reisen, um zu sehen, ob wir jemanden finden können, der den Weg dorthin kennt.~
+@10107    = ~Magnads and Winormas Kinder 
+
+Wir haben Magnads Familie vor den Orks... "gerettet". Warum Leute immer so kleinlich sein müssen!~
+@10108   = ~Rettet Pandris vor den Orks
+
+Wir haben Yness die Nachricht überbracht, dass ihr Mann vor den Orks "gerettet" wurde. Ach, es ist doch einfach herzerwärmend, wenn man anderen Leuten helfen kann.~
+@10109   = ~Das Große Buch der Unwissenden
+
+Shaella, oder eher Elnaedra jetzt, sagt, dass ich das Buch gefunden habe, wenn auch ich es nicht fand. Was bedeutet das?~

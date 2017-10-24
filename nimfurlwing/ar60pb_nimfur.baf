@@ -1,0 +1,18 @@
+IF
+  OnCreation()
+  Global("NT_NimFurSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTNIMFUR",[543.3051],0)
+    CreateCreature("NTDOGFUN",[468.3032],0)
+    CreateCreature("NTDOGFU1",[527.2982],0)
+    CreateCreature("NTDOGFU2",[590.2972],0)
+    CreateCreature("NTWOLFVA",[689.2958],0)
+    CreateCreature("NTWOLFVA",[710.3008],0)
+//    CreateCreature("WOLFVA",[527.2982],0)
+//    CreateCreature("WOLFVA",[543.3051],0)
+    CreateCreature("NTWOLFVA",[646.2913],0)
+    SetGlobal("NT_NimFurSpawn","GLOBAL",1)
+    Continue()
+END
+

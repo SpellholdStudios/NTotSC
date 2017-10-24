@@ -1,0 +1,25 @@
+@0 = ~Who comes to Meandar? Monoach didn't send you, but you know that it is me to look for? ...How?~
+@1 = ~We didn't expect a warm welcome, but despite that, you might want to talk to us.~
+@2 = ~Meandar knows that someone will come who is seeking an answer... Is Meandar wrong?~
+@3 = ~We don't have time to play "guessing games...". We assume that you have a key. It is even more probable since you have known Monoach. We need it.~
+@4    = ~Meandar is right. Can you give us the key, which you posses - as I assume?~
+@5    = ~Meandar will give you the key, but you'll have to work for it. Nothing's for free. Meandar has an enemy. Ice Salamanders used to be a family, but now they are no more. Kolchear is not a real Salamander and he left the house with his companions.~
+@6 = ~So - something familiar... Where can we find this Kolchear?~
+@7 = ~What? Not again. Is there no way to avoid these never-ending conflicts?~
+@8 = ~Kolchear already knows you are here, since you beings from the first plane irritated him so... You may expect to meet up with him as soon as you leave our house. Kolchear is dangerous so good luck and watch out for yourself. Come back here afterwards and I'll give you the key... if you're still alive...~
+@9 = ~Why doesn't Meandar defeat his enemies on his own instead of using the aid of adventurers?~
+@10 = ~Ice Salamanders might not like one another, but they don't fight... They do not possess a weapon, which could defeat another Salamander...~
+@11 = ~Meandar is saddened that his brothers are gone, but he respects the valor and courage of the newcomers. Here is the key you seek. Look closely at the way it is mastered cause a great evil is hidden behind it... ancient and cruel...~
+@12   = ~What evil? What do you know about it?~
+@13 = ~Meandar and Monoach were friends... a long time ago. But Monoach never told us the usage of the key nor the way its paths lead... But Monoach wouldn't have given us the key if he was not afraid of its destiny. Meandar knows nothing more.~
+@14   = ~Meandar knows nothing more.~
+@15   = ~Welcome. Who are you that you find our House?~
+@16   = ~I come from afar and I need your help... or rather a key...~
+@17 = ~Do you know the story of Monoach?... That's good. What you don't know is that Monoach was fighting against some cult. He abhors the Black Hand and their desire to bring back Bhaal and as long as their new temple exists, there is no way I can help you. Come back when their leader is dead. I'll know if it is done. I do not know where the Temple of the Black Hand is located, but it's agents are growing in number. I understand there may be a splinter branch in Ulgoth's Beard, and there have been strange goings on in the Field of the Dead. Perhaps if you search there, you will be able to locate it.~
+/* @18 -> @10037 */
+@19 = ~It is done then. Good.~
+
+/* new for v2.0 */
+@20 = ~Do what Meander asked and you will get key.~
+@21 = ~I'm not here to settle one of your family disputes!~
+@22 = ~Then you will not get key. Kolchear hates first planers and doesn't ask questions. If he noticed you then you will fight him, if not for Meandar, then to protect yourself.~

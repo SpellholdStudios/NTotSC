@@ -1,0 +1,11 @@
+IF
+  OnCreation()
+  Global("NT_LlindellynSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTLLINDE",[3093.3112],0)
+    CreateCreature("NTBEARPO",[4352.1978],12)
+    SetGlobal("NT_LlindellynSpawn","GLOBAL",1)
+    Continue()
+END
+

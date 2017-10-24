@@ -1,0 +1,11 @@
+//AR9PBA.baf
+@0    = ~Sulla via del ritorno hai notato una piccola isola e, malgrado molte difficoltà, sei riuscito ad attraccare per rifornirti rapidamente e poter affrontare subito un altro viaggio. L'isola sembra essere abitata.~
+
+//CUTREST.baf
+@10    = ~Hai ottenuto un pò del necessario riposo.~
+
+//NTTOMBDO.baf
+@20   = ~Trappola Attivata!~
+
+//SHIP.baf; SHIP1.baf
+@30   = ~Hai bisogno di una carta nautica se desideri navigare con sicurezza verso la terraferma.~

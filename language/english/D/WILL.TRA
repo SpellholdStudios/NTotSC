@@ -1,0 +1,50 @@
+// #11344
+@0    = ~Need directions? You seem a friendly sort, so I thought I'd offer my services as a guide. What do you need from the town of Beregost?~
+// #11386
+@1    = ~If you could direct me to an affordable inn, I would much appreciate it.~
+// #11367
+@2    = ~I'm looking for a bit of luxury. What's the nicest inn in town?~
+// #11373
+@3    = ~I need some well-made weapons and armor. Do you have a good smithy?~
+// #11376
+@4    = ~Just a place to sit a spell and drown my worries. Where is a good tavern?~
+// #11354
+@5    = ~We have many inns for the frugal adventurer. The Red Sheaf has basic rooms, though the clientele is a touch rowdy. There are also the Burning Wizard and the Jovial Juggler, which also have finer suites. The Red Sheaf is near the center of town, as is the Burning Wizard. The Jovial Juggler is a bit further along, and sits on the southern edge of the city.~
+// #11380
+@6    = ~Thanks for your help.~
+// #11357
+@7    = ~The finest inn would have to be Feldepost's, though it is also quite friendly. Lots of local color. Feldepost's Inn is in the lower west side of the town.~
+// #11386
+@8    = ~If you could direct me to an affordable Inn I would much appreciate it.~
+// #11358
+@9    = ~We have the best smithy in all the realms. Taerom "Thunderhammer" Fuiruim runs the Thunderhammer Smithy in the eastern side of town. He has a few exceptional items as well, though you could also check Feldepost's Inn. They carry trophy items, though you had best be rich as kings. Feldepost's Inn is in the west, closer to the south edge of town.~
+// #11366
+@10   = ~A drop or two to ease your spirits? The Burning Wizard and the Red Sheaf are in the center of town. Feldepost's Inn is along the western edge, and the Jovial Juggler is along the south. They will all serve you well.~
+// #11379
+@11   = ~No problem, friend. Enjoy your stay.~
+@12   = ~Wait... no, wait... can I ask you something?~
+@13   = ~No, I don't thinks so, farewell.~
+@14   = ~Absolutely, what is bugging you?~
+@15   = ~Farewell...~
+@16   = ~It looks like you haven't been in Beregost for a long time... Maybe you need a skillful wanderer... I can hadle this wonder nicely.~
+@17   = ~Are you talking about this flail?~
+@18   = ~Certainly, about it and myself...~
+@19   = ~Don't all peasants use a flail in the fields? Isn't it created for that?~
+@20   = ~Forgive me, your way is not mine yet, maybe we'll meet again...~
+@21   = ~I hope that you're really good with it, come on.~
+@22   = ~Are you laughing at it? Maybe I shouldn't have said anything...~
+@23   = ~That's too bad, farewell then.~
+@24   = ~I'm very glad to join you. Beregost is a nice town, but I'm being drawn to adventures...~
+@25   = ~Is there anything else?~
+/* @26 -> @10079 */
+@27   = ~Welcome, haven't you had enough of joking yet? Look for someone else then...~
+@28   = ~That's what I should do! See you!~
+@29   = ~Calm down, I didn't want to insult. If you want to, you can join me.~
+@30   = ~Welcome again, how can I help you?~
+@31   = ~Nothing indeed, farewell!~
+@32   = ~Is your offer still up-to-date? I will gladly see you in action...~
+@33   = ~Uhm... how should I tell you... At Feldepost's I pledged my favourite flail, you know, I needed money for a living... If we get some gold, I could take it back...~
+@34   = ~How much then?~
+@35   = ~At least 1000 gp... Eekhm... I also commissioned an armor at Taerom's smithy... For 5000 gp... I don't even know how I would be able to pay for it... However he told me the job would take much time to finish due to my orders...~
+@36   = ~There will be plenty of time to think about it. Let's move.~
+/* @37 -> @10080 */  

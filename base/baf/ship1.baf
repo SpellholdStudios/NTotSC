@@ -1,0 +1,28 @@
+IF
+  Clicked([ANYONE])
+  PartyHasItem("MISC1C")
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@10004)
+    EraseJournalEntry(@10011)
+    EraseJournalEntry(@10035)
+    EraseJournalEntry(@10038)
+    EraseJournalEntry(@10054)
+    EraseJournalEntry(@10070)
+    ActionOverride(Player1,LeaveAreaLUAPanic("%UlgothsBeard%","",[162.1476],12))
+    ActionOverride(Player1,LeaveAreaLUA("%UlgothsBeard%","",[162.1476],12))
+    ActionOverride(Player2,LeaveAreaLUA("%UlgothsBeard%","",[210.1465],12))
+    ActionOverride(Player3,LeaveAreaLUA("%UlgothsBeard%","",[252.1458],12))
+    ActionOverride(Player4,LeaveAreaLUA("%UlgothsBeard%","",[304.1443],12))
+    ActionOverride(Player5,LeaveAreaLUA("%UlgothsBeard%","",[356.1427],12))
+    ActionOverride(Player6,LeaveAreaLUA("%UlgothsBeard%","",[406.1423],12))
+END
+
+IF
+  Clicked([ANYONE])
+  !PartyHasItem("MISC1C")
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@30)
+END
+

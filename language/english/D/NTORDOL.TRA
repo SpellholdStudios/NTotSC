@@ -1,0 +1,24 @@
+@0 = ~You there! My dear friend! Please stop for a moment!~
+@1    = ~And who might you be, old man?~
+@2 = ~Get lost, you old geezer!~
+@3 = ~Well now, it seems to be better for you that I take my leave.~
+@4 = ~Well... well, welcome. I am so happy to see anyone but the undead moving about in the area! I am Ordolath and I take my sabbaticals here. You know, sometimes it's nice to get away from the hustle and bustle of Baldur's Gate...~
+@5 = ~That's all really nice, but what in the nine hells do you want from me?~
+@6    = ~Sure, sure, now get lost, you old fogey!~
+@7 = ~Nothing special, friend, hehe. It was my poor fortune that made me forget my candle when preparing for this trip. Without my candle I am not able to write in my diary or read my books. The nights here are very dark... You just can't imagine what that means to such a book-lover like me!~
+@8 = ~So I have an offer to make you. If you will spend a few days to help me and bring me my little wax treasure, I will reward you as best I can! And do not believe the reward will be a poor one! Apart from 2000 gp, I can offer you a precious item that I'm sure you will like... So? Would you help me?~
+@9    = ~Sounds interesting, tell us where can we find your house so we bring you that... candle.~
+/* @10 -> @10048 */  
+@11 = ~I have no time to spare for such foolish endeavors, now go away.~
+@12 = ~Excellent! From the first time I saw you, you appeared to be trustworthy! My house, young friend, is in the northern part of the Gates, not far from Northern Ward. It is a white house behind the blue mage-tower. You can't miss it. Well, please hurry. I will be awaiting your return impatiently. See you soon!~
+@13   = ~Fine, Adios!~
+@14   = ~Back you are? Where is my candle?~
+@15   = ~Here you are...~
+@16 = ~Unfortunately we haven't had the opportunity to retrieve it yet...~
+@17 = ~Wonderful! You have my heartfelt thanks! Here is the reward I have promised you! I must hurry on my way now.~
+@18   = ~Don't be in such a hurry! I wonder if you know anything about the man we discovered in your home...~
+@19 = ~You are most welcome. Be careful on your journey.~
+/* @20 -> @10049 */ 
+@21 = ~Oh, yes, yes... I'm sorry about that surprise. Let me apologize to you my friend, I exposed you to danger, so I hope my gifts will be enough reward for your efforts. No more words, I must depart now. Stay safe!~
+/* @22 -> @10050 */ 
+@23 = ~So, what are you waiting for? Please hurry and retrieve my candle!~

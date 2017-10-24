@@ -1,0 +1,24 @@
+// #3353
+@0    = ~Hold your place, thief! How dare you try to steal from that noble monk!~
+// #3354
+@1    = ~Then you will be forced to behave while here! If you cannot profit by your evil thoughts, perhaps you will learn to think otherwise.~
+// #3355
+@2    = ~Your actions fly in the face of everything Helm holds sacred! Such disregard for the rights of others!~
+// #3356
+@3    = ~Your thieving skills are no doubt of primary importance to you, but I seriously doubt you will ever put them to productive use! There is not but good and evil. I suspect you are of the latter!~
+// #3357
+@4    = ~What is this treachery?! You have shed the blood of a childlike soul, and all for a few paltry gems?~
+// #3358
+@5    = ~Those that need aid are to be cherished all the more! You actions are despicable and without remorse!  I can bear no more! Raise your weapons and defend yourself, that you might die with the dignity you lacked in life!~
+// #3359
+@6    = ~It is unfortunate that our companion died before he could recant his ways. Evil must be purged where e're it lay, even if it is among colleagues. Helm watch over our quest, that its end may come soon.~
+// #3313
+@7    = ~We will make do without him, and proceed with caution. Our virtue will see us through.~
+// #3373 (change "Eldoth" with "Eldod")
+@8    = ~ELDOD! YOU TRAITOR!~
+@9    = ~Helm guides my path.~
+
+/* new for v2.0 */
+@10  = ~We were victorious!~
+@11  = ~The loss of our abbot and acting abbot both is a sad loss for this citadel.~
+@12  = ~Unfortunately, our real Captain was not under the living.~

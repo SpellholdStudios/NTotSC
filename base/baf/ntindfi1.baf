@@ -1,0 +1,19 @@
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    ActionOverride("NTINDFIG",Enemy())
+    ActionOverride("NTINDFI1",Enemy())
+    ActionOverride("NTINDFI2",Enemy())
+    Enemy()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    Attack(NearestEnemyOf(Myself))
+END
+

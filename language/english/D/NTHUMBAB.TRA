@@ -1,0 +1,15 @@
+@0 = ~You first planers dare come to Humbaba...? You've gone crazy, right?~
+@1    = ~Crazy? What are YOU doing here? Why can't you stop harassing poor fishermen?~
+@2    = ~Die... dirty monster!~
+/* @3 -> @10024 */
+@4 = ~Of course I will not be the only one doing the killing. Humbaba is with friends, and here they are now... Humbaba is ready to fight!~
+/* @5 -> @10025 */ 
+@6 = ~What anger you have! Humbaba is ready to fight - first planers are stupid - first planers are ready to die...!~
+@7    = ~So get ready, scoundrel!~
+@8    = ~Take it easy "hot" boy! Can't we even talk?~
+@9 = ~Humbaba says tiny ones should go away - or Humbaba will have fun killing them!~
+@10   = ~It's ok, ok. You look dangerous enough. We don't want to fight against you. Good bye!~
+/* @11 -> @10026 */  
+@12 = ~Humbaba needs to listen well - we are not going anywhere - we are ready to fight.~
+@13 = ~You have outsmarted Humbaba..! Humbaba is furious..! Humbaba kill first planers now..!~
+/* @14 = @3 */

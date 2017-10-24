@@ -1,0 +1,6 @@
+@0    = ~Welcome, travelers. Satos asked me to prepare rooms for you. Would you like to go to your rooms now?~
+@1    = ~That's a great idea... My legs are surely trying to tell me that we need a rest.~
+@2    = ~Thank you mistress, but maybe later.~
+
+/* new for v2.0 */
+@3    = ~Help! Help!~

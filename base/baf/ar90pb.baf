@@ -1,0 +1,38 @@
+IF
+  Global("NTMeandarNeedHelp","GLOBAL",1)
+  Global("NTKolchearTime","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTSALMI2",[141.325],0)
+    CreateCreature("NTSALMIC",[266.223],0)
+    CreateCreature("NTSALMIC",[286.123],0)
+    CreateCreature("NTSALMIC",[87.456],0)
+    CreateCreature("NTSALMIC",[476.553],0)
+    SetGlobal("NTKolchearTime","GLOBAL",1)
+END
+
+IF
+  Dead("NTMEANDA")
+  Global("NTMeandarIsdead","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTSALMIC",[141.325],0)
+    CreateCreature("NTSALMIC",[266.223],0)
+    CreateCreature("NTSALMIC",[286.123],0)
+    CreateCreature("NTSALMIC",[87.456],0)
+    CreateCreature("NTSALMIC",[476.553],0)
+    SetGlobal("NTMeandarIsdead","GLOBAL",1)
+END
+
+IF
+  Dead("NTMEANDA")
+  PartyHasItem("NTKEYPB6")
+  !Global("NTMeandarNeedHelp","GLOBAL",2)
+  Global("NT_JournalUpdate","MYAREA",0)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@10037)
+    EraseJournalEntry(@10087)
+    AddJournalEntry(@10088,QUEST)
+    SetGlobal("NT_JournalUpdate","MYAREA",1)
+END

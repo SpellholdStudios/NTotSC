@@ -1,0 +1,9 @@
+IF
+  PartyHasItem("NTBOW04")
+  Global("NT_FirewineDungeonCleared","MYAREA",0)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@10001)
+    SetGlobal("NT_FirewineDungeonCleared","MYAREA",1)
+END
+

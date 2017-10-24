@@ -1,0 +1,9 @@
+IF
+  Global("NTKrotanAppears","GLOBAL",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("NTKrotanAppears","GLOBAL",1)
+    ActionOverride("NTKROTAN",StartDialogNoSet([PC]))
+END
+

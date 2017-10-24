@@ -1,0 +1,9 @@
+IF
+  Global("NTHelpNadalin","GLOBAL",2)
+  Global("NTNadalinComesToBoat","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTNADALI",[304.1737],0)
+    SetGlobal("NTNadalinComesToBoat","GLOBAL",1)
+END
+

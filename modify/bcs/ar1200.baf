@@ -1,0 +1,10 @@
+IF
+  Global("NTotSCSpawn","%BaldursGateDocks%",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTNadali",[3882.2743],0)
+    CreateCreature("NTPooch",[1027.1407],0)
+    CreateCreature("NTWelt",[987.1424],0)
+    SetGlobal("NTotSCSpawn","%BaldursGateDocks%",1)
+END
+

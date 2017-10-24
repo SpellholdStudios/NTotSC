@@ -1,0 +1,79 @@
+BEGIN ~NTBRENTA~
+
+IF ~Global("NTBrentaw","GLOBAL",0)
+!Global("NTDeadUtorByOrpeho","GLOBAL",1)
+!Global("NTBrentaw2","GLOBAL",1)
+Global("NTTalkedToShelton","GLOBAL",1)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN DO ~SetGlobal("NTBrentaw","GLOBAL",1)~ EXTERN ~NTORPEHO~ 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN EXTERN ~NTORPEHO~ 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN EXTERN ~NTORPEHO~ 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @3
+  IF ~~ THEN EXTERN ~NTORPEHO~ 4
+END
+
+IF ~Global("NTDeadUtorByOrpeho","GLOBAL",1)
+Global("NTBrentaw2","GLOBAL",0)
+Global("NTMustKillOrpeho","GLOBAL",0)~ THEN BEGIN 4
+  SAY @4
+  IF ~~ THEN DO ~SetGlobal("NTBrentaw2","GLOBAL",1)~ EXTERN ~NTORPEHO~ 5
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @5
+  IF ~~ THEN EXTERN ~NTORPEHO~ 6
+END
+
+IF ~Global("NTBrentaw2","GLOBAL",1)
+Dead("NTORPEHO")~ THEN BEGIN 6
+  SAY @6
+  IF ~~ THEN DO ~SetGlobal("NTBrentaw2","GLOBAL",2)
+EscapeArea()~ EXIT //EXTERN ~NTKAMIRA~ 3
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @7
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @8
+  IF ~~ THEN EXTERN ~NTKROTAN~ 4
+END
+
+IF ~True()~ THEN BEGIN 9
+  SAY @9
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #0
+~AreaCheck("AR34PB")
+Dead("NTKROTAN")~ THEN BEGIN 10
+  SAY @10
+  IF ~~ THEN + 11
+  IF ~!Dead("NTSATOS")
+!Dead("NTSATOS1")~ THEN + 12
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @11
+  IF ~~ THEN DO ~AddexperienceParty(5000)~ + 12
+END
+
+
+IF ~~ THEN BEGIN 12
+  SAY @12
+= @7
+  IF ~~ THEN DO ~EscapeAreaMove("AR32PB",424,283,1)~ EXIT
+END

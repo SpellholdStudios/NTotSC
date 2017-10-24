@@ -1,0 +1,25 @@
+@0 = ~Wer kommt zu Meandar? Monoach sandte Euch nicht, aber Ihr wisst, dass ich es bin, nach dem Ihr sucht?... Wieso?~
+@1 = ~Wir erwarten kein herzlihes Willkommen, aber dessen ungeachtet könntet Ihr gleichwohl mit uns sprechen.~
+@2 = ~Meandar weiß, dass jemand kommen wird, der eine Antwort sucht... Hat Meandar unrecht?~
+@3 = ~Wir haben keine Zeit, um "Ratespiele" zu spielen. Wir nehmen an, dass Ihr einen Schlüssel habt. Es ist sogar noch wahrscheinlicher, da Ihr Monoach gekannt habt. Wir brauchen ihn.~
+@4 = ~Meandar hat recht. Könnt Ihr uns den Schlüssel geben, den Ihr besitzt - wie ich annehme?~
+@5 = ~Meandar wird Euch den Schlüssel geben, aber Ihr müsst dafür arbeiten. Nichts ist umsonst. Meandar hat einen Feind. Eissalamander waren eine Familie, aber jetzt sind sie es nicht mehr. Kolchear ist kein echter Salamander, und er verließ das Haus mit seinen Begleitern.~
+@6 = ~So - etwas Vertrautes... Wo können wir diesen Kolchear finden?~
+@7 = ~Was? Nicht schon wieder. Gibt es denn keinen Weg, diese endlosen Konflikte zu vermeiden?~
+@8 = ~Kolchear weiß bereits, dass Ihr hier seid, machdem Ihr aus der Ersten Ebene ihn so geärgert habt... Ihr könnt damit rechnen, auf ihn zu treffen, sobald Ihr unser Haus verlasst. Kolchear ist gefährlich, also viel Glück und gebt gut auf Euch Acht. Kommt später hierher zurück, und ich gebe Euch den Schlüssel... wenn Ihr noch am Leben seid...~
+@9 = ~Warum besiegt Meandar seine Feinde nicht selbst, anstatt die Hilfe von Abenteurern in Anspruch zu nehmen?~
+@10 = ~Eissalamander mögen einander nicht, aber sie bekämpfen sich nicht... Sie besitzen keine Waffe, die einen anderen Salamander besiegen könnte...~
+@11 = ~Meandar ist betrübt, dass seine Brüder weg sind, aber er respektiert den Mut und die Tapferkeit der Neulinge. Hier ist der Schlüssel, den Ihr sucht. Macht Euch gut damit vertraut, wie er beherrscht wird, weil sich ein großes Übel darin verbirgt... alt und grausam...~
+@12 = ~Was für ein Übel? Was wisst Ihr darüber?~
+@13 = ~Meandar und Monoach waren Freunde... vor langer Zeit. Aber Monoach erzählte uns niemals von dem Gebrauch des Schlüssels oder dem Weg, wohin seine Pfade führen... Aber Monoach hätte uns den Schlüssel nicht gegeben, wenn er nicht Angst vor dessen Schicksal hätte. Meandar weiß nichts weiter.~
+@14 = ~Meandar weiß nichts weiter.~
+@15 = ~Willkommen. Wer seid Ihr, dass Ihr unser Haus findet?~
+@16 = ~Ich komme von weit her, und ich brauche Eure Hilfe... oder eher einen Schlüssel...~
+@17 = ~Kennt Ihr die Geschichte von Monoach?... Das ist gut. Was Ihr nicht wisst ist, dass Monoach gegen einen Kult kämpfte. Er verabscheut die Schwarze Hand und ihren Wunsch, Bhaal zurückzubringen, und solange ihr neuer Tempel besteht, gibt es keinen Weg, wie ich Euch helfen kann. Kommt zurück, wenn ihr Führer tot ist. Ich werde wissen, ob es erledigt ist. Ich weiß nicht, wo der Tempel der Schwarzen Hand liegt, aber die Anzahl ihrer Agenten nimmt zu. Ich habe gehört, dass eine Splittergruppe Ulgoths Bart unterläuft, und es gehen seltsame Dinge auf den Feldern der Toten vor sich. Vielleicht könnt Ihr ihn dort ausfindig machen.~
+/* @18 -> @10037 */ 
+@19 = ~Es ist vollbracht. Gut.~
+
+/* new for v2.0 */
+@20 = ~Tut was Meander Euch aufgetragen hat, dann bekommt Ihr Schlüssel.~
+@21 = ~Ich bin nicht hier, um Eure Familienstreitigkeiten auszutragen!~
+@22 = ~Dann kriegt Ihr keinen Schlüssel. Kolchear hasst die Bewohner der Ersten Ebene und er fragt nicht groß nach. Wenn er Euch bemerkt hat, dann werdet Ihr ihn bekämpfen - wenn nicht für Meandar, dann um Euer eigenes Leben zu schützen.~

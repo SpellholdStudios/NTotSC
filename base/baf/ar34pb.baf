@@ -1,0 +1,71 @@
+IF
+  OnCreation()
+  Global("NT_EldodRestored","GLOBAL",2)
+  !Dead("NTELDOD")
+  !Dead("NTELDOD1")
+THEN
+  RESPONSE #100
+    CreateCreature("NTELDOD1",[836.784],0)
+    SetGlobal("NT_EldodRestored","GLOBAL",4)
+    Continue()
+END
+
+IF
+  OnCreation()
+  Global("NTEldodComeEnemy","GLOBAL",1)
+  !Dead("NTELDOD")
+  !Dead("NTELDOD1")
+THEN
+  RESPONSE #100
+    CreateCreature("NTELDOD1",[836.784],0)
+    SetGlobal("NTEldodComeEnemy","GLOBAL",2)
+    Continue()
+END
+
+IF 
+	Exists("NTBRENTA")
+	Dead("NTBRENTA")
+THEN
+  RESPONSE #100
+	ActionOverride("NTBRENTA",DestroySelf())
+	Continue()
+END
+
+IF 
+	Exists("NTKAMIRA")
+	Dead("NTKAMIRA")
+THEN
+  RESPONSE #100
+	ActionOverride("NTKAMIRA",DestroySelf())
+	Continue()
+END
+
+IF 
+	Exists("NTMORDOR")
+	Dead("NTMORDOR")
+THEN
+  RESPONSE #100
+	ActionOverride("NTMORDOR",DestroySelf())
+	Continue()
+END
+
+IF 
+	!Exists("NTORPEHO")
+	!Dead("NTORPEHO")
+	Global("NT_OrpehoLeaves","MYAREA",0)
+THEN
+  RESPONSE #100
+	CreateCreature("NTORPEHO",[860.733],0)
+END
+
+IF
+	Dead("NTKROTAN")
+	Global("NT_CitadelHostile","GLOBAL",1)
+	Global("NT_PCKilledAllInCitadel","MYAREA",0)
+THEN
+  RESPONSE #100
+	EraseJournalEntry(@10032)
+	AddJournalEntry(@10105,QUEST_DONE)
+	SetGlobal("NT_PCKilledAllInCitadel","MYAREA",1)
+END
+

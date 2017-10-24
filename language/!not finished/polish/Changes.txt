@@ -1,0 +1,93 @@
+1) AR9001SR naprawiona (nieosi¹galny region podró¿y)
+
+
+2) Przedmioty:
+
+ADISEASE - niew³aœciwy strref dla stringa 'Gulp!' naprawiony
+CLOAKS  - poprawki w u¿ytkowaniu (nie Zabójca Magów)
+NAMJI    - zmniejszona cena
+           Efekt regeneracji przy ekwipunku musi pomijaæ odpornoœæ
+NTARROW1 - 'max w stosie' zmieniony z 9999 na 40
+NTARROW2 - 'max w stosie' zmieniony z 9999 na 40
+NTARROW4 - 'max w stosie' zmieniony z 9999 na 40
+           iloœæ obra¿eñ (+1) naprawiona
+           NIEU¯YWANY PRZEDMIOT
+NTAXE01  - poprawki w u¿ytkowaniu 
+           Dodatkowa iloœæ obra¿eñ naprawiona (1K3 - by³o 1K6)
+NTBLUN03 - poprawki w u¿ytkowaniu 
+NTBLUN06,07 – poprawiony efekt magiczny
+NTBLUN07 - iloœæ bonusowego HP naprawiona 
+           Nie og³oszony efekt bonusu do KP usuniêty
+NTBOLT1  - 'max w stosie' zmieniony z 9999 na 40
+NTBOW02  - wymóg STR poprawiony (z 15 na 5)
+           poprawki w u¿ytkowaniu 
+           Bonus ataku na rundê poprawiony
+NTBOW03  - poprawki w u¿ytkowaniu 
+           Bonus ataku na rundê poprawiony 
+           Poprawiony efekt przy ekwipunku 
+NTBOW04  - poprawki w u¿ytkowaniu
+           Bonus ataku na rundê poprawiony 
+
+NTBULL01 - 'max w stosie' zmieniony z 9999 na 40
+NTCHAN03 – niepo¿¹dane u¿ytkowanie naprawione
+           Efekt regeneracji naprawiony
+NTCHAN04 - poprawki w u¿ytkowaniu 
+NTCHAN05 - poprawki w u¿ytkowaniu 
+           1 efekt kolory naprawiony
+NTDAGG01 - poprawki w u¿ytkowaniu 
+NTDART1  - poprawki w u¿ytkowaniu 
+           'max w stosie' zmieniony z 9999 na 40
+NTLEAT04 – efekty zoptymalizowane
+NTLEAT05 – wszystkie efekty przy ekwipunku musz¹ pomijaæ odpornoœæ 
+NTMIOTPB – ikona w ekwipunku poprawiona
+
+NTMIOTPB - optcode 186 nie oznacza 'Zwiêkszone Uderzenie Krytyczne', ale nadanie celowi komendy DestroySelf() ('applying of DestroySelf()command on target'). Wiêc bêdzie to bardzo potê¿na broñ!!! 
+
+NTMISC01-03 - 'max w stosie' zmieniony z 9999 na 40
+NTMISC04 – umiejêtnoœæ nauki czaru poprawiona
+NTPLAT01 - poprawki w u¿ytkowaniu 
+NTPOTN02 – efekty powinny pomijaæ odpornoœci
+NTPOTN04 – czas efektu upicia poprawiony
+NTROBE01 – umiejêtnoœci magiczne w pe³ni przebudowane
+NTROBE02 - efekty powinny pomijaæ odpornoœci 
+NTSHLD01 - poprawki w u¿ytkowaniu 
+           ikona w ekwipunku poprawiona 
+NTSHLD03 - poprawki w u¿ytkowaniu 
+           efekty powinny pomijaæ odpornoœci 
+NTSPEAR1 - poprawki w u¿ytkowaniu 
+           slashing damage bonus fixed (was 6d1 instead of 1d6)
+NTSTAFF1 - poprawki w u¿ytkowaniu 
+           bieg³oœæ poprawiona
+           dodatkowa iloœæ obra¿eñ siecznych naprawiona 
+NTSTAFF2 - wszystkie magiczne efekty poprawione
+
+NTSWD01  - bonusy przeciw Trollom ca³kowicie przebudowane (2 .EFF dodany do moda)
+           Obra¿enia sieczne (by³y k³ute)
+NTSWD02  - poprawki w u¿ytkowaniu 
+           bieg³oœæ poprawiona 
+NTSWD04  - bonus do DEX poprawiony
+           umiejêtnoœæ bojowa poprawiona
+NTSWD07  - iloœæ obra¿eñ poprawiona
+NTSWD08  - obra¿enia od kwasu poprawione
+
+SCRLNT71 - poprawki w u¿ytkowaniu (no Diviner)
+           'max w stosie' zmieniony z 9999 na 10
+SCRLNT81 - poprawki w u¿ytkowaniu (no Enchanter)
+           'max w stosie' zmieniony z 9999 na 10
+
+3) Wystêpuj¹ce stworzenia.
+Patchowanie DVsów dla wszystkich stworzeñ musi byæ wykonane przez WRITE_ASCII, nie SAY (!).
+
+4) Nowe stworzenia.
+
+BTELITE  - soundset przywrócony
+NTBKNIGH - RING98A->RING98
+NTDEMON  - pierœcieñ I broñ naprawione
+Wiele ma³ych poprawek...
+
+5) Dialogi I skrypty.
+Wszystkie niepoprawne flagi pauzuj¹ce dialogi usuniête. (Pausing dialogue flags)
+Naprawiono wiele nieprawid³owych triggerów z obs³ug¹ (by³y nazwy CRE zamiast DV)
+
+NTINDFIG.DLG w pe³nie przywrócony – zmodyfikowano nazwy przedmiotów u¿ywanych w DSotSC.
+NTHUMBAB.DLG naprawiony – wystêpowa³ b³edny potwór I b³êdny DV check.

@@ -1,0 +1,71 @@
+//similar to lichrope.bcs. Info trigger with this script
+
+/* light sources:
+-NTPOTN05 - Flaming Oil
+-MISC74 - candle (one from Ordolath and one from ritual in BGII, same itm file name)
+-Misc9R - light Gem (from the Snivlebi in Underdark)
+-POTN13 - Oil of Fiery Burning
+
+*/
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	!Global("NT_DOOR52PBActivation","GLOBAL",0)
+	OR(2)
+		PartyHasItem("NTPOTN05") // Flaming Oil
+		PartyHasItem("POTN13") // Oil of Fiery Burning
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@60)
+		SetGlobal("NT_DOOR52PBActivation","GLOBAL",0)
+		TriggerActivation("DOOR52PB",TRUE)
+		TriggerActivation("INDO52PB",FALSE)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	!Global("NT_DOOR52PBActivation","GLOBAL",0)
+	PartyHasItem("MISC9R") // light Gem
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@62)
+		SetGlobal("NT_DOOR52PBActivation","GLOBAL",0)
+		TriggerActivation("DOOR52PB",TRUE)
+		TriggerActivation("INDO52PB",FALSE)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	!Global("NT_DOOR52PBActivation","GLOBAL",0)
+	PartyHasItem("MISC74") // candle
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@63)
+		SetGlobal("NT_DOOR52PBActivation","GLOBAL",0)
+		TriggerActivation("DOOR52PB",TRUE)
+		TriggerActivation("INDO52PB",FALSE)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	!PartyHasItem("NTPOTN05") //Flaming Oil
+	!PartyHasItem("MISC74") //candle
+	!PartyHasItem("MISC9R") //Light Gem
+	!PartyHasItem("POTN13") //Oil of Fiery Burning
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@61)
+		Continue()
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,15)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@53) // To examine this doorway, move closer.
+END

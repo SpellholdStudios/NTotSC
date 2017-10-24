@@ -1,0 +1,6 @@
+BEGIN ~NTDEATHK~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN DO ~DestroySelf()~ EXTERN ~NTDEXTPB~ 4
+END

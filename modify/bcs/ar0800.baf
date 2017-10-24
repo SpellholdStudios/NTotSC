@@ -1,0 +1,10 @@
+IF
+  Global("NTotSCSpawns","%EBaldursGate%",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTWinorm",[2908.1379],0)
+    CreateCreature("NTMagnad",[2936.1400],0)
+//    CreateCreature("NTHasdar",[100.680],0)
+//    CreateCreature("NTShaell",[930.2084],0)
+    SetGlobal("NTotSCSpawns","%EBaldursGate%",1)
+END

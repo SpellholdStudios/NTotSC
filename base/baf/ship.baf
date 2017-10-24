@@ -1,0 +1,24 @@
+IF
+  Clicked([ANYONE])
+  Dead("KAISHWLF")
+  PartyHasItem("MISC1C")
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,LeaveAreaLUAPanic("AR9PBA","",[2652.777],0))
+    ActionOverride(Player1,LeaveAreaLUA("AR9PBA","",[2652.777],0))
+    ActionOverride(Player2,LeaveAreaLUA("AR9PBA","",[2673.721],0))
+    ActionOverride(Player3,LeaveAreaLUA("AR9PBA","",[2596.665],0))
+    ActionOverride(Player4,LeaveAreaLUA("AR9PBA","",[2648.691],0))
+    ActionOverride(Player5,LeaveAreaLUA("AR9PBA","",[2660.630],0))
+    ActionOverride(Player6,LeaveAreaLUA("AR9PBA","",[2707.656],0))
+    SetGlobal("NTIslandTravel","GLOBAL",1)
+END
+
+IF
+  Clicked([ANYONE])
+  !PartyHasItem("MISC1C")
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@30)
+END
+

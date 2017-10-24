@@ -1,0 +1,10 @@
+@0 = ~Whoever you are, thank you - you came just in time... for surely we would have ended up impaled... by these... these beasts... I believe my wife - Yness - must have sent you...?~
+@1 = ~No way, man, and your life means absolutely nothing to us. You needn't have worried about the orcs, we'll impale you ourselves and end your worthless life, and then track down your wife and enslave her just for fun... The show must go on, you know...~
+@2 = ~Yes, she did, your wife is in Ulgoth's Beard and she pointed us to where we could find you. You are free to go home now.~
+@3 = ~Surely you jest for your intent sounds insane, but maybe you are right and the world has gone nuts...~
+@4 = ~Oh! Thank you for saving me! I don't have anything to offer but maybe this information will do. I've heard the orcs talking while I've been held captive. I think that they have come here because a great orcish leader is entombed somewhere near here. They are looking for some artifacts lost in the mists of the ages to unlock the tomb, but without success up until now. Shamans have been making sacrifices to Gruumsh to evoke his signs. They are also trying to enter an old chapel in the Wood of the Dead, south of here, but unsuccessfully as well...~
+@5 = ~They are also searching for some cultists which they have some conflict with. I've heard a name, something like Haanibal... but I could be wrong... I'll write you a letter. Please give it to my wife. Now, I should go home... but until someone solves the mystery of the orcs the farms will not be safe. They are not safe even without the orcs. Thank you once again! Good luck!~
+/* @6 -> @10053 */ 
+
+/* new for v2.0 */
+@7  = ~I wasn't, but you are free to go nontheless.~

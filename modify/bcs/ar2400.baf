@@ -1,0 +1,9 @@
+IF
+  Global("NTForestOgreSpawn","%Peldvale%",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTFOREOG",[1354.424],0)
+    CreateCreature("OGREMA",[1250.420],2)
+    CreateCreature("OGREMA",[1430.500],13)
+    SetGlobal("NTForestOgreSpawn","%Peldvale%",1)
+END

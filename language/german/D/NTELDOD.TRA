@@ -1,0 +1,44 @@
+@0 = ~Nun, Ihr müsst von Baldurs Tor gesandt worden sein? Nicht mein Problem...~
+// #3285 (change "Eldoth" to "Eldod")
+@1 = ~Ach, was soll's. Ich bin Eldod, und ich bin der Kommandant der Garde hier auf der Burg. Ich werde es nicht dulden, dass Ihr hier 'rumschnüffelt, und es ist mir egal, ob Ihr von irgendeinem Herzog aus welcher Stadt auch immer gesandt wurdet! Verhaltet Euch anständig, sonst sehe ich mich gezwungen, Euch hinauszuwerfen!~
+// #3286
+@2 = ~Dafür gibt es keinen Grund. Wir sind hier, um Euch bei der Suche nach Euren verschwundenen Landsleuten Beistand zu leisten. Wir wollen Euch nicht zu nahe treten.~
+// #3287
+@3 = ~Wie ich hörte, seid Ihr nur der stellvertretende Hauptmann. Solltet Ihr nicht lieber dafür sorgen, dass Euer echter Befehlshaber zurückkommt?~
+// #3288
+@4 = ~Ich gehe wohin ich will! Ihr habt bereits demonstriert, wie uneffektiv Ihr seid! Es ist das Beste, wenn wir für Euch Euer kleines Durcheinander bereinigen!~
+// #3289
+@5 = ~Meine Landsleute bedürfen Eurer Hilfe nicht. Wir werden sie auch ohne Euch retten. Ihr solltet lieber zum Gasthaus gehen und uns nicht mehr unter die Augen treten.~
+/* @6 -> @10007 */ 
+// #3290
+@7 = ~Noch habe ich hier das Sagen, und ich werde nicht zulassen, dass Ihr hier "herumstolziert". Ich bin der Kommandant der Garde, auch wenn nicht mehr viel von ihr übrig ist, und wir werden auch ohne Eure Hilfe auskommen!~
+// #3291
+@8 = ~Ihr solltet aufpassen, wem Ihr droht! Als rechtmäßig ernannter Kommandant der Garde liegt es SEHR WOHL in meiner Macht, Euch hinauswerfen und auspeitschen zu lassen. Ich an Eurer Stelle würde sofort zum Gasthaus gehen und dort bleiben!~
+// #3292
+@9 = ~Ich habe Euch gewarnt. Nun werde ich Euch wohl – leider – umbringen müssen!~
+/* @10 -> @10008 */ 
+// #3293
+@11 = ~Frei? Mein Verstand ist frei! Seine verdammten bösen Tentakel wurden herausgerissen! Ich habe unter einem schrecklichen Zauber gestanden! Es war Krotan, der mich... der mich... Oh, bei den Göttern, was hab ich getan? So etwas kann ich nicht... Ich wurde gezwungen, so etwas zu tun... Ich muss es Euch erzählen! Unter uns treibt ein böser und mächtiger Oger-Magus sein Unwesen. Er ist auf der Suche nach dem Wissen der Burg und er hat in den letzten Wochen Truppen um sich geschart. Ich war seine... Marionette... und ich habe für ihn getötet... Ich habe Freunde für ihn getötet! BITTE! Ich kann Euch zeigen, wo er sich verbirgt, wenn Ihr mir nur erlaubt, Euch dabei zu helfen seinen Kopf zu bekommen!~
+// #3294
+@12 = ~Scheinheiliger! Erst entführt und mordet Ihr, und dann wollt Ihr Eure Haut retten! Doch vergebens! Heute Nacht werdet Ihr sterben!~
+// #3295
+@13 = ~Ich traue Euch etwa so weit, wie ich Euch werfen kann, und glaubt bloß nicht, ich würde es nicht versuchen! Wir werden ihn bekämpfen, aber Ihr müsst hier bleiben. Wo finden wir ihn?~
+// #3296
+@14 = ~Zwar weiß ich nicht, ob ich Euch trauen soll, doch falls Ihr so behandelt worden seid wie Ihr sagt, habt Ihr Recht auf Vergeltung. Kämpft mit uns für die Gerechtigkeit!~
+// #3297
+@15 = ~Nein! Ich werde Rache üben! Koste es, was es wolle!~
+@16 = ~Immer langsam, Ihr seid gerade bezaubert worden, und da wollt Ihr wieder anfangen zu töten?~
+@17 = ~Dann kommt her, Ihr Verräter!~
+/* @18 */ 
+@19 = ~Das... das ist wahr... Ich muss das sofort beenden... Nehmt diesen Schlüssel. Wir werden uns unterhalb des Mausoleums treffen...~
+// #3298
+@20 = ~Wie … wie Ihr wünscht! Er hat seine wachsenden Truppen unter dem alten Mausoleum versteckt. Ihr werdet ihn dort finden, wenn Ihr den Schlüssel habt. Hier ist er. Nehmt ihn und sendet diese abscheuliche Kreatur dreimal durch die Höllen!~
+// #3299
+@21 = ~An meinen Händen klebt das Blut meiner Kameraden... Heute werde ich sehen, ob das Blut des Bösen die gleiche Farbe hat wie das Blut der Unschuld. Kommt, er verbirgt sich unter dem Mausoleum und sammelt Truppen. Hier entlang!~
+@22 = ~Nein... das Blut... das Blut ist an meinen Händen...~
+// #3301
+@23 = ~Ich werde dich dafür umbringen, was du... was ich getan habe! DU bist an allem schuld!~
+@24 = ~Ja...~
+
+/* new for v2.0 */
+@25   = ~Frei? Mein Verstand ist frei! Seine verdammten bösen Tentakel wurden herausgerissen! Ich habe unter einem schrecklichen Zauber gestanden! Es war Krotan, der mich... der mich... Oh, bei den Göttern, was hab ich getan? So etwas kann ich nicht... Ich wurde gezwungen, so böse Dinge zu tun...~

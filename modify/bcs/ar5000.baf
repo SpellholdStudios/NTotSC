@@ -1,0 +1,20 @@
+IF
+  Global("NTotSCSpawn","%ValleyoftheTombs%",0)
+THEN
+  RESPONSE #100
+    CreateCreatureObject("NTNATALK","LAMALH",3,0,0)
+    CreateCreatureObject("NTELKA","LAMALH",4,0,0)
+    SetGlobal("NTotSCSpawn","%ValleyoftheTombs%",1)
+END
+
+IF
+  Global("NTotSCSpawn","%ValleyoftheTombs%",1)
+  OR(2)
+    GlobalGT("NTDMWWC3Assassin","GLOBAL",0)
+    !Exists("LAMALH")
+THEN
+  RESPONSE #100
+    ActionOverride("NTNATALK",DestroySelf())
+    ActionOverride("NTELKA",DestroySelf())
+    SetGlobal("NTotSCSpawn","%ValleyoftheTombs%",2)
+END

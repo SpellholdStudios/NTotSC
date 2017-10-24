@@ -1,0 +1,762 @@
+
+
+@2 = ~Dies sind normale Flugpfeile, die mit einem schnell wirkendem pflanzlichen Gift vergiftet wurden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Geschoss)
+Schadensbonus: Gift
+Gewicht: 0
+Schusswaffe: Bogen
+~
+
+@6 = ~Neben seiner vorzüglichen Handwerkskunst sind entlang der ganzen Oberfläche winzige Runen der Macht zu erkennen. Es wurde offensichtlich eine Menge Zeit und Anstrengung für seine Schöpfung aufgewendet. Auch wenn es nicht auf den ersten Blick auffällt, kann man doch erkennen, dass ein schwaches blaues Glimmen von den Runen ausgeht.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8+2 (Geschoss)
+Schadensbonus:
+ +1W10 Feuer
+ETW0-Bonus: -2
+Gewicht: 0
+Schusswaffe: Bogen
+~
+
+@8 = ~Dieser Pfeil ist wohl nichts Besonderes außer für Llindellyn, dessen Gefühle ihn dazu bringen, ihn immer wieder zu finden.~
+/*@10 = ~Diese vergifteten Kugeln kann Will anfertigen, indem er das Harz benutzt, das von seinem ungewöhnlichen Flegel tröpfelt. Er erlernte den Umgang mit Gift sehr jung, und kann genug für 5 Pfeile zubereiten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 1 (Geschoss)
+Schadensbonus: Gift
+Gewicht: 0
+Schusswaffe: Bogen
+~*/
+
+@12 = ~Diese gefährlichen Pfeile sind ungewöhnlich selten und nur wenige Exemplare können gefunden werden. Sie sind als Waffe fast wertlos, können aber zu strategisch nützlichen Werkzeugen werden. Krieger mit ausreichenden Fähigkeiten können sie während des Kampfes zielgenau einsetzen. Wenn der Pfeil ein Ziel trifft, wird dieses weit von dem Schlachtfeld weg teleportiert, so dass sich hierdurch die Maximalanzahl der Feinde begrenzen lässt.
+
+EIGENSCHAFTEN:
+
+Nach einem erfolgreichen Treffer wird der Feind zu einem zufälligen Ort teleportiert.
+
+Schaden: 1W3 (Geschoss)
+ETW0-Malus: 3 
+Schusswaffe: Bogen
+~
+
+@16 = ~Neben seiner vorzüglichen Handwerkskunst sind entlang der ganzen Oberfläche winzige Runen der Macht zu erkennen. Es wurde offensichtlich eine Menge Zeit und Anstrengung für seine Schöpfung aufgewendet. Auch wenn es nicht auf den ersten Blick auffällt, kann man doch erkennen, dass ein schwaches blaues Glimmen von den Runen ausgeht.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer besteht eine 50% Chance für zusätzlichen 1W3 Elektrizitäts-Schaden und eine 15% Chance, dass das Ziel betäubt wird. 
+
+Schaden: 1W8 +2 (Klinge)
+ETW0-Bonus: -2
+Gewicht: 7
+Initiativefaktor: 7
+Fertigkeit: Axt
+Typ: 1-händig
+~
+
+@20 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem mit Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt. Dieser Flegel wurde magisch verbessert. Auf der Oberfläche kann man Runen glühen sehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer besteht eine 50% Chance für +2D3 elektrischer Schaden und eine 10% Chance, dass das Ziel betäubt wird.
+
+Schaden: 1W6 + 4 (Wucht)
+ETW0-Bonus: -3
+Gewicht: 15
+Initiativefaktor: 7
+Mindeststärke: 11
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+~
+
+@24 = ~Streitkolben +3: "Schänder"
+Persönliche Waffe von Nirel, einem mächtigen Kleriker, von dem wenig bekannt ist. Jedoch verzeichnet die Geschichte, dass er ein gemeiner Fanatiker war, dessen Hass auf Anhänger eines anderen Glaubens fast keine Grenzen kannte. Es wird gesagt, dass er die Köpfe seiner Opfer als Trophäen behielt. Er war persönlich verantwortlich für das Schänden von über einhundert Tempeln anderer Religionen; das verschaffte ihm selbst und seinem Streitkolben den Spitznamen "Schänder".
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -2
+Schaden: 1W6 + 3 (Wucht)
+Gewicht: 7
+Initiativefaktor: 6
+Fertigkeit: Streitkolben
+Typ: 1-händig
+Mindeststärke: 3
+~
+
+@26 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem mit Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt. Die Waffe wurde magisch verbessert, indem eine wirksame Verbindung zwischen der Waffe und seinem Träger gebildet wird.
+
+EIGENSCHAFTEN:
+
+Wenn Will seinen Flegel handhabt, ist er in der Lage, 5 vergiftete Kugeln zu erzeugen.
+
+Schaden: 1W8 + 1 (Wucht)
+ETW0-Bonus: -1
+Gewicht: 10
+Initiativefaktor: 6
+Mindeststärke: 13
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+~
+@27 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem mit Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt. Die Waffe wurde magisch verbessert, indem eine wirksame Verbindung zwischen der Waffe und seinem Träger gebildet wird.
+
+EIGENSCHAFTEN:
+
+Wenn Will seinen Flegel handhabt, ist er in der Lage, 5 vergiftete Kugeln zu erzeugen.
+50% Chance, Ziel nach erfolgreichem Angriff zu verlangsamen.
+
+Schaden: 1W8 + 3 (Wucht)
+ETW0-Bonus: -3
+Stärke: +2
+Maximale Trefferpunkte: +10
+Gewicht: 10
+Initiativefaktor: 6
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+~
+
+@29 = ~Dies sind normale Armbrustbolzen, die mit einem schnell wirkendem pflanzlichen Gift vergiftet wurden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Geschoss)
+Schadensbonus: Gift
+Schusswaffe: Armbrust
+
+Gewicht: 0
+~
+@31 = ~Nirel's Stiefel der Abwehr~
+@33 = ~Dies sind die Stiefel von Nirel, einem mächtigen Kleriker, von dem wenig bekannt ist. Jedoch verzeichnet die Geschichte, dass er ein gemeiner Fanatiker war, dessen Hass für Anhänger eines anderen Glaubens fast keine Grenzen kannte. Es wird gesagt, dass er die Köpfe seiner Opfer als Trophäen behielt. Er war persönlich verantwortlich für das Schänden von über einhundert Tempeln anderer Religionen.
+
+EIGENSCHAFTEN:
+
+Rettungswurf: +1 Bonus
+Magiewiderstand: +5%
+
+Gewicht: 3
+~
+
+@37 = ~Diese Waffe ist den Kriegern im Dienste Talos, dem Gott der Stürme und der Zerstörung, geweiht und hat Dekaden des Gebrauches in ihren fähigen Händen gesehen. Der Sturmbogen ist ein Kurzbogen, der aus vielen zusammengesetzten Schichten Holz gebildet wird, und wurde gegen die unzähligen Feinde der Kirche Talos benutzt. Vor kurzem war der Bogen im Besitz eines Sturm-Ritters namens Kalassan Brevered, der getötet wurde, nachdem er eine Anzahl von Waldläufern und Druiden auf den Mondschein-Inseln niedergeschlagen hatte.
+
+EIGENSCHAFTEN:
+
+ + 30% Elektrizitäts-Widerstand
+ Angriffe pro Runde: 3
+
+Schadensbonus: +1 (Geschoss)
+ETW0-Bonus: -1
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Kurzbogen
+Typ: 2-händig
+~
+
+@40 = ~Dieser Bogen strömt Hitze aus, obwohl er in Euren Händen kalt zu sein scheint - als ob der Bogen von seinen Fähigkeiten überzeugt wäre.
+Solche Bögen sind häufig in den kalten Ländern des Zehn-Städte-Gebietes anzutreffen, aber dieser ist außergewöhnlich gefährlich.
+
+EIGENSCHAFTEN:
+
+ 50% Chance, zusätzlich 2D3 Feuerschaden zuzufügen
+ Angriffe pro Runde: 2
+
+Schadensbonus: 1 (Geschoss)
+ETW0-Bonus: -1
+Feuer- / Kältewiderstands-Bonus: 20%
+Gewicht: 3
+Initiativefaktor: 7
+Mindeststärke: 3
+Fertigkeit: Kurzbogen
+Typ: 2-händig
+~
+
+@44 = ~Gefertigt während des goldenen Zeitalters der Elfen von Feuerwein. Verstärkt und tadellos ausgewogen kann er die stärkste Rüstung durchbohren. Besonders in den Händen eines Elfs wird er zu einer lebensgefährlichen Waffe.
+
+EIGENSCHAFTEN:
+
+ Angriffe pro Runde: 2
+
+Schadensbonus: 2 (Geschoss)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 7
+Mindeststärke: 15
+Fertigkeit: Langbogen
+Typ: 2-händig
+~
+
+@48 = ~Die Handschuhe des Meisterdiebes "Klebriger Finger"
+Diese Handschuhe, die von vielen Dieben begehrt werden, waren einmal das Eigentum des berühmten Taschendiebes "All An Woo-Dy".
+
+EIGENSCHAFTEN:
+
+Taschendiebstahl: +15%
+Schlösser öffnen: +15%
+Gewicht: 1
+~
+
+@52 = ~Diese vergifteten Kugeln kann Will anfertigen, indem er das Harz benutzt, das von seinem ungewöhnlichen Flegel tröpfelt. Er erlernte den Umgang mit Gift sehr jung, und kann genug für 5 Pfeile zubereiten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 + 1 (Geschoss)
+Schadensbonus: Gift
+Gewicht: 0
+Schusswaffe: Schleuder
+~
+
+@56 = ~Kettenhemd +3: "Sages Rüstung"
+In Handarbeit gefertigt von Sage, einem der Menschen des Altertums, um ihm bei seiner Suche nach dem Bösen zu helfen. Alte Überlieferungen geben an, dass Sage ein mächtiger Krieger war, der selten die Treffer seiner Feinde in der Schlacht gespürt hat, es wird sogar gesagt, dass er sich immer schnell erholt hat, ganz gleich wie heftig der Angriff oder die Schlacht war.
+
+EIGENSCHAFTEN:
+
+Magischer Widerstand: +5 % 
+Regeneration
+
+Rüstungsklasse: 4
+RK-Bonus: -2 gg. Klingenwaffen
+RK-Malus: +2 gg. Wuchtwaffen
+
+Gewicht: 9
+~
+
+@58 = ~Elfenketten werden gepriesen für ihre Fähigkeit, dass der Anwender Magiezauber beim Tragen werfen kann. Diese bestimmte ist verzaubert, um seinem Träger mehr Intelligenz zu geben, allerdings hat dies seinen Preis.
+
+EIGENSCHAFTEN:
+  
+Konstitution -2 Malus
+Intelligenz: +1 Bonus
+Bonus bei Priester- oder Magierzauber Level 2 und 3
+Erfahrungspunkte-Malus: -4000
+
+Rüstungsklasse: 2
+RK-Bonus: -2 gg. Klingenwaffen
+RK-Malus: +2 gg. Wuchtwaffen
+Gewicht: 8
+Mindeststärke: 8
+~
+
+@60 = ~Kettenhemd +5: "Ebenholzkette"
+Dem besten Krieger und stärkstem Priester der Ebenholz Hand gewidmet.  
+
+EIGENSCHAFTEN:
+
+Magischer Widerstand: +5 % 
+
+Rüstungsklasse: 2
+RK-Bonus: -2 gg. Klingenwaffen
+RK-Malus: +2 gg. Wuchtwaffen
+Gewicht: 10
+Mindeststärke: 6
+~
+@61 = ~Kettenhemd des Feuerwein~
+@62 = ~Während der Zeiten des Wohlstandes von Feuerwein wurden spezielle Versionen der berühmten Elfenkettenhemden gefertigt, die zusätzlichen Schutz boten gegen die Gewitterstürme, die manchmal in der Gegend auftraten.
+
+EIGENSCHAFTEN:
+
+Elektrizitäts-Widerstand: +30 %
+
+Rüstungsklasse: 4
+RK-Bonus: -2 gg. Klingenwaffen
+RK-Malus: +2 gg. Wuchtwaffen
+Gewicht: 15
+Mindeststärke: 8
+~
+
+@67 = ~Der Ursprung dieses Mantels ging in den Nebeln der Zeit verloren. Einige Zeit war sie jedoch im Besitz von Drosus, einem Magier aus Tiefwasser mit nicht wenig Macht. Drosus geriet während einer Expedition alleine auf den Bergrücken der Weltberge mit einer ungewöhnlich großen Gruppe Winterwölfe in Schwierigkeiten, als er gezwungen war, einen schwereren Mantel anzuziehen, um die Kälte abzuhalten.
+Auf den ersten Blick scheint der Mantel von blendend weißer Farbe zu sein. Tatsächlich ist es jedoch eine Zusammensetzung von Tausenden von Farben, die in jeglicher vorhandenen Lichtquelle tanzen und spielen. Dieser Schwall der funkelnden Farben führt dazu, jedermann abzulenken und teilweise zu blenden, der direkt den Trägers anstarrt.
+
+EIGENSCHAFTEN:
+
+Der Umhang gewährt eine +3 Bonus zur Rüstungsklasse und kann in Verbindung mit jeder anderen Form von Schutzzauber getragen werden. Daher kann er anders als ein Schutzumhang über magische Rüstungen getragen werden.
+
+Rüstungsklasse-Bonus: +2
+Gewicht: 3
+~
+
+@75 = ~Ein Zauberer aus Thesk namens Namji war der Schöpfer dieser mächtigen Robe. Obwohl er dem Träger nicht viel Magiewiderstand verleiht, ist er äußerst nützlich für Zauberwirker, die sich häufig in gefährlichen Situationen befinden. Namji selbst war ein rücksichtsloser Schlachtzauberer, der mit größtem Vergnügen seine Zauber mittem im Getümmel aussprach. Er war wegen seinem Gebrauch von Namjis brennenden Händen gefürchtet, einer Anpassung des allgemeinen Brennende-Hände-Zaubers.
+
+EIGENSCHAFTEN:
+
+Träger regeneriert 1 Trefferpunkt pro Runde
+
+Rüstungsklasse: 2
+Gewicht: 5
+~
+
+@79 = ~Der ursprüngliche Name dieses ungewöhnlichen Dolches ging in den düsteren Tiefen des Meeres der Klingen verloren. In Handarbeit gefertigt aus magisch verstärkten Knochen der Sahuagin, wird von der Waffe angenommen, dass sie von den Kuo-Toa bei seltsamen Ritualen benutzt wurde. Der Handgriff ist in Handarbeit aus einer Koralle gemacht, die von Sahuagin-Haut umwickelt ist. In früherer Zeit gehörte er Lockhart, einem bekannten wagemutigen Dieb und Schmuggler an der Schwertküste. Er war es, der der Klinge seinen gegenwärtigen Namen gab.
+
+EIGENSCHAFTEN:
+
+2% Chance "Finger des Todes" gegen das Ziel zu werfen
+
+Schaden: 1W4+2 (Stich)
+ETW0-Malus: +2
+Gewicht: 1
+Initiativefaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+~
+
+@83 = ~Dieser Pfeil sieht aus wie jeder andere Pfeil, abgesehen davon, dass er mit einem mächtigen Gift getränkt ist.
+
+EIGENSCHAFTEN:
+
+vergiftet Ziele für 10 Runden
+1 Angriff pro Runde als Bonus
+
+Schaden: 1W3 (Geschoss)
+Besondere Fähigkeiten: vergiftet Ziele für 10 Runden
+Gewicht: 0
+Initiativefaktor: 2
+Fertigkeit: Wurfpfeil
+Typ: 1-händig
+~
+
+@99 = ~Bei der Schattenrüstung handelt es sich um ein beschlagenes Lederwams, das speziell für die Schattenmeister von Amn hergestellt wurde. Die Schattenmeister nehmen innerhalb der Hierarchie der Schattendiebe den höchsten Rang ein. Die Schattenrüstung ist ein beschlagenes Lederwams +3, mit dessen Hilfe man mit dem Schatten verschmelzen kann.
+
+EIGENSCHAFTEN:
+
+Schlösser öffnen: +15 %
+Fallen finden: +15 %
+Taschendiebstahl: +15 %
+Leise bewegen: +15 %
+
+Rüstungsklasse: 3
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -1 gg. Stichwaffen
+ -2 gg. Klingenwaffen
+RK-Malus: 
+ +2 gg. Wuchtwaffen
+Mindeststärke: 6
+Gewicht: 1
+~
+@101 = ~Taerom hat eine gute Garnitur Lederrüstungen gefertigt, wir sollten ihn eines Tages besuchen - man weiß nie, ob der alte Schmid das Prachtstück verbessern kann.
+
+EIGENSCHAFTEN:
+
+RW gegen Versteinerung / Verwandlung: +2
+1 zusätzlichen Zauber für die Grade 1-4
+
+Rüstungsklasse: 4
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -2 gg. Stichwaffen
+ -1 gg. Klingenwaffen
+~
+@102 = ~Taerom machte seine beste Arbeit mit dieser Lederrüstung. Nun ist Wills Rüstung zu einem zuverlässigem Schutz geworden.
+
+EIGENSCHAFTEN:
+
+Rettungswurf gegen Versteinerung / Verwandlung: +3
+Glück: +1
+Elektrizitätswiderstand: +15%
+Säurewiderstand: +30%
+1 zusätzlichen Zauber der Grade 1-8
+
+Rüstungsklasse: 0
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -2 gg. Stichwaffen
+ -1 gg. Klingenwaffen
+Gewicht: 15
+~
+
+@104 = ~Diese Rüstung war das Eigentum des bekannten Schnee-Barbar-Fürsten, Corbus Denolx von Greyhawk. Wie oder warum es seinen Besitz verließ ist nicht bekannt.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -2 gg. Stichwaffen
+ -1 gg. Klingenwaffen
+Gewicht: 8
+Mindeststärke: 6
+~
+@105 = ~Beschlagenes Lederwams des Widerstandes~
+@106 = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Während die normale Ausführung aus einem gehärteten Panzer besteht, ist das beschlagene Lederwams weich und geschmeidig und mit Hunderten von Metallnieten versehen. Die Nieten sitzen so nahe beieinander, dass sie eine flexible Ummantelung aus Hartmetall ergeben, die vor Schnitten und Schwerthieben schützt. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammenzuhalten.
+
+EIGENSCHAFTEN:
+
+Widerstands-Bonus:
++10% Widerstand gegen Stichwunden
++10% Widerstand gegen Schnittwunden
++10% Widerstand gegen Feuer
++10% Elektrischer Widerstand
++2 auf Rettungswürfe
+
+Rüstungsklasse: 5
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -2 gg. Stichwaffen
+ -1 gg. Klingenwaffen
+Mindeststärke: 2
+Gewicht: 15
+~
+
+@109 = ~Diese in feiner Handarbeit hergestellte Laute hat silberne Saiten, die in einen dunkel gebeizten Holzrahmen aufgereiht sind, der mit Gold eingelegt ist. Die Kunstfertigkeit sieht ausgezeichnet, vollkommen und beinahe übernatürlich aus. Tatsächlich so sehr, dass sogar unerfahrene Finger, die über die Saiten spielen, die schönsten Akkorde anzuschlagen scheinen. Ungewöhnlich genug, gibt es keine sichtbare Methode für das Stimmen, als ob es nicht notwendig wäre. Ein Gefühl von Ehrfurcht beginnt Euren Rücken herauf zu kriechen, während Ihr die ganze Kompliziertheit dieses schönen Instrumentes betrachtet.~
+@110 = ~Hirsuhnite's Laute "Das Ruhige Publikum"
+Diese fein gearbeitete Laute ist unter dem Hiphroditen des Ostens weithin bekannt. Man sagt, es soll der Ursprung des Schlafes sein. Hirsuhnite, ein Hiphroditen Barde, soll gerüchteweise innerhalb des ergiebigen Zeitraumes der Nacht das Lied der vollständigen Hingebung gefunden und es innerhalb der Laute festgehalten haben.
+
+EIGENSCHAFTEN:
+
+Ziel wird für die Dauer von 2 Runden ohnmächtig.
+
+Gewicht: 3
+~
+
+@114 = ~Innerhalb der Reiche allgemein verwendetes Gerät, durchwegs praktisch, so dass sich keine der hoch geachteten Hausfrauen ein Leben ohne ihn vorstellen kann. Dieses Exemplar scheint sich nicht irgendwie von anderen zu unterscheiden, aber es ist verdreckt mit schmieriger Substanz und riecht spezifisch. Es ist ausgestattet mit Sicherheitsgurt und einem Loch, das es ermöglicht, das fremdartige Antriebsteil zu befestigen, das der Garnitur beigefügt ist. Aus Verzweiflung kann es genauso gut zur Verteidigung verwendet werden.
+
+EIGENSCHAFTEN:
+
+Wahrscheinlichkeit von 100% für kritischen Treffer beim Auftreffen
+
+Schaden: 1W1 +1 (Wucht)
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kampfstab
+Typ: 2-händig
+~
+
+@141 = ~Nach genauerem Blick auf diesen Plattenpanzer scheint sein Metall in einem unstofflichen Zustand zu sein, daher sein schattenhaftes Aussehen. Kaum dass er getragen wird, lässt er den Träger genauso schattenhaft erscheinen wie die Rüstung selbst ist. Sie stellt auch Extraschutz gegen Geschosswaffen dar, während der Träger in seinem schattenhaften Zustand ist.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+RK-Bonus:
+ -3 gg. Geschosswaffen
+ -3 gg. Klingenwaffen
+Gewicht: 20
+Mindeststärke: 12
+~
+
+@143 = ~Das Gasthaus "Freundlicher Arm" ist für ein von Bentley zubereitetes Gebräu berühmt, das wegen seines Preises ein Lieblingsgetränk für viele Reisende bleibt, die den Platz von Spiegelschatten kreuzen. Aber die Auswirkungen des Trinkens sind meistens nicht vorhergesehen.~
+
+@145 = ~Dieses starke Elixier erfüllt den Trinker mit einem von den Feuern des Phönixes gebildeten Schild. Die Wirkungen sind stark, aber kurzlebig.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -4
+Feuerwiderstand: +50%
+Kältewiderstand: +25%
+Säurewiderstand: +25%
+Elektrizitätswiderstand: +25%
+Verleiht Immunität gegen nichtmagische Waffen
+Dauer: 60 Sekunden
+
+Gewicht: 1~
+@149 = ~Diese Flasche Elfenwein hat auch die Eigenschaften eines heilenden Tranks. Während eines Elfenfestivals tranken die Priester von der "Hand Seldarines" zu viel an diesem Tag und fügten zufällig ein Fass des Elfenweins einer Mischung hinzu, die für heilsame Tränke bestimmt war.
+
+EIGENSCHAFTEN:
+
+Heilt 35 Trefferpunkte
+80% Chance sich für 30 Minuten zu betrinken~ 
+@151 = ~Will's Magischer Ring~
+@153 = ~Will möchte nicht erzählen, woher der Ring stammt. Seine Vorzüge sind selten und wahrscheinlich wurde er von einem freundlichen Magier für Will gefertigt.
+
+EIGENSCHAFTEN:
+
+Reduzierung von Schaden durch Magie: 20%
+~
+
+@155 = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck verwendet wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Sie sind heiß begehrt, insbesondere von Menschen, deren Beruf das Abenteuer ist. Aus keinem ersichtlichen Grund fühlt sich dieser Ring bei Berührung warm an.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Widerstands-Bonus:
++25% Widerstand gegen Zertrümmerung
++1 auf Rettungswürfe~
+
+@158 = ~"Saurons Schwarzer Schleier"
+Diese besondere magische Robe ist das Resultat von Saurons großem Wissen sowohl um priesterliche Energien als auch Zauberkräfte. Sie bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig die eigene Magieresistenz und Rettungswürfe. Sie verleiht auch dem Zauberer, der sie trägt, die Fähigkeit, ein Tor zwischen den Dimensionen zu schaffen und ein "Schatten" seiner Selbst zu werden. Aufgrund ihrer Verzauberung kann sie nur von Magiern schlechter Gesinnung getragen werden.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält die spezielle Fähigkeiten "Dimensionentor" und "Schattentor".
+
+Rüstungsklasse: 5
+Magiewiderstand: +15 %
+Rettungswurf: +1 Bonus
+
+Gewicht: 2
+~
+
+@160 = ~Ork-Schamanen machten oft ihre Kleider aus schlechten mit Lederteilen zusammengehaltenen Materialien, so dass sie ein Schandfleck sind, schwer und gewöhnlich nicht das Hauptinteresse für Abenteurer, obwohl sie viele Vorteile besitzen.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2
+Elektrizität, Feuer- und Kältewiderstand: +40%
+Malus zu Charisma: -5
+
+Gewicht: 35
+~
+
+@164 = ~Der Träger ist gegen alles immun, magisches und sonstiges, was Beweglichkeit in jeder Hinsicht betrifft, kann jedoch noch von Hast betroffen werden. Die positiven Eigenschaften der Geschwindigkeitsstiefel werden jedoch aufgehoben.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: 2
+(Kein Schutz vor Geschosswaffen)
+Träger ist immun gegen alles, was seine Bewegungsfreiheit einschränken würde.
+Mindeststärke: 4
+
+Gewicht: 3
+~
+
+@168 = ~Dieser Schild mit auf seiner Oberfläche eingeätzten Elfen-Runen wurde aus einigen der härtesten Metalle gemacht, die jemals aus Händen der Elfen kamen. Jeder Träger dieses Schildes ist von der Tatsache überzeugt, dass dieser Schild jeden darauf ausgeführten Schlag ablenken wird.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -3, -4 gg. Geschosswaffen
+Mindeststärke: 15
+
+Gewicht: 8
+~
+@170 = ~Der Langschild, auch Drachen- oder Turmschild genannt, ist ein riesiger Schild aus Metall oder Holz, der dem Träger vom Fuß bis fast zum Kinn reicht. Er muss gut am Unterarm befestigt sein und jederzeit fest in der Hand gehalten werden, was es natürlich unmöglich macht, mit der Schildhand noch andere Aktionen auszuführen.
+
+EIGENSCHAFTEN:
+
+Feuerwiderstand: +15 %
+Widerstand gegen Wuchtwaffen: +15 %
+
+RK-Bonus: -2, -3 gg. Geschosswaffen
+Mindeststärke: 14
+
+Gewicht: 12
+~
+
+@174 = ~Raasi'doch de Velle verbrachte viele Monde damit, mit den Handwerkern des Wandernden Dorfes bei der Schaffung des verzauberten Jagdspeers mitzuarbeiten. Der Elfen-Waldläufer brauchte eine Waffe, um Werwölfe auszurotten, die die Wälder von Tethyr terrorisierten. Wie der Mann selbst, fliegt die Waffe immer noch gerade und treffsicher, obwohl sie ihrer extravaganten Verzierung beraubt ist.
+Als der Kreuzzug beendet war, verkaufte er vermutlich sein Inventar einem berühmten Militaristen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Stich) 
+Schadensbonus: +1W6 (Klinge), +3 gegenüber Lykanthropen
+ETW0-Bonus: -2, -3 Bonus gegenüber Lykanthropen
+Gewicht: 5
+Initiativefaktor: 2
+Mindeststärke: 5
+Fertigkeit: Speer
+Typ: 2-händig
+~
+
+@176 = ~"Eron der Schreckhafte" war ein pessimistischer Zauberer mit einer Neigung zu magischem Duellen. Er glaubte, der einzige Weg, um in der Kunst stark zu werden, sei es, seine Kräfte gegen andere Zauberer zu testen. Jedoch glaubte er auch, dass Diebe und Meuchelmörder ständig versuchten, seinen Reichtum zu stehlen. Um weltlich auszusehen trug er die Kleidung eines Pilgers und trug einen einfachen Wanderstab aus Ulme. In Wirklichkeit war der Stab magisch verzaubert, um im Kampf stärker zu sein, aber Eron wollte nicht riskieren, diese Tatsache anzuzeigen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6+2 (Wucht)
+Schadensbonus: +1W8+2 (Stich)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 1
+Mindeststärke: 5
+Fertigkeit: Kampfstab
+Typ: 2-händig
+~
+
+@178 = ~Abenteuerstäbe wurden ursprünglich in einem anderen Reich geschaffen, aber sie haben ihren Weg nach Faerûn gefunden. Sie sind normalerweise mit Zauberformeln angefüllt, die einigen Schutz bieten, Zugang oder Auswege bereitstellen oder einfach Kenntnisse verleihen, ebenso wie sie Schutz gegen verschiedene Elemente bieten. Dieser besondere Stab wirkt Klopfen, Geisterrüstung, Böses entdecken, kritische Wunden heilen und Tote erwecken, jedes auf Befehl und ohne Begrenzung. Außerdem stellt er Schutz vor Feuer ebenso wie der Ring gleichen Namens und etwas Widerstand gegen Magie zur Verfügung.
+
+EIGENSCHAFTEN:
+
+Widerstand gegen Feuer: +40 %
+Magieresistenz: +20 %
+
+Schaden: 1W6 +2 (Wucht)
+ETW0-Bonus: -2
+Gewicht: 4
+Initiativefaktor: 2
+Mindeststärke: 5
+Fertigkeit: Kampfstab
+Typ: 2-händig
+~
+
+@180 = ~Dieser fein gefertigte Stab war unter den Geschenken, die den Druiden aus Erret-Akb von den Nekromanten aus Perregal als ein Friedensangebot überreicht wurden, als ihr Jahr 200 schließlich endete. Die Druiden selbst hätten es nie verwendet, aber das Geschenk abzulehnen, hätte möglicherweise ausgereicht, um den zerbrechlichen Frieden zu stören.
+
+EIGENSCHAFTEN:
+
+Verleiht die besondere Fähigkeit "Vampirismus".
+
+Schaden: 1W6 +3
+ETW0-Bonus: -1
+Gewicht: 3
+Initiativefaktor: 1
+Mindeststärke: 5
+Fertigkeit: Kampfstab
+Typ: 2-händig
+~
+
+@184 = ~Diese Klinge wurde von Kid'Seroki geschmiedet, um seine Blutsfeinde, die Trolle, zu bekämpfen. Nach dem Diebstahl des Rings der Trollmagier haben die Trollgötter endlose Gruppen von Trollen zu Kid'Seroki ausgesendet, um ihn von ihm wieder zurückbekommen. Um dies zu verhindern, hat Kid'Seroki verschiedene Magien in diese Klinge geschmiedet und sie "Alptraum der Trolle" genannt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +3 (Klinge)
+ETW0-Bonus: -1
+Schadensbonus: +3 (Säure)
+Gewicht: 5
+Initiativefaktor: 2
+Mindeststärke: 4
+Fertigkeit: Langschwert
+Typ: 1-händig
+~
+
+@186 = ~Diese Klinge von durch einen Drachentöter hergestellt, der sein Leben durch... nun ja... seinen Beruf verlor. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +1 (Klinge)
+ETW0-Bonus: -1
+Gewicht: 9
+Initiativefaktor: 9
+Fertigkeit: Langschwert
+Typ: 1-händig
+~
+
+@190 = ~Diese Waffe wurde von den Schmieden des alten Mythus Drannor hergestellt. Diese Klinge, die seit Generationen weitergeben wurde, war Jahrhunderte lang in der Familie Evalts. Diese bestimmte Klinge verleiht seinem Benutzer Widerstand gegen Feuer.
+
+EIGENSCHAFTEN:
+
+Feuerwiderstand: +30%
+
+Schaden: 1W6 +1 (Stich)
+ETW0-Bonus: +1 
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+~
+
+@194 = ~Morridin war der Gegenstand manch eines Witzes wegen seines Schwerts. Viele scherzten, das ein solch kleiner Mann ein solch großes Schwert nicht schwingen könnte. Jedoch jene, die lachten, lachten nicht lange oder jemals wieder infolge der tödlichen Genauigkeit und Geschicklichkeit, mit der er sein Schwert schwang.
+
+EIGENSCHAFTEN:
+
+Die Geschicklichkeit des Trägers erhöht sich um 2.
+
+Schaden: 1W10 +1 (Klinge)
+ETW0-Bonus: -1
+Gewicht: 5
+Initiativefaktor: 7
+Mindeststärke: 10
+Fertigkeit: Zweihänder
+Typ: 2-händig
+~
+
+@197 = ~Dieses große Schwert wurde einst von den Händen Ghotals, einem berühmten Anführer der Ork-Horden im Norden geschwungen. Damit war er imstande, gegen Luskan, Targos und andere Städte einschließlich Niewinter zu rücken. Die Berühmtheit des Schwertes reichte aus, die meisten Verteidiger unwillig zu machen, bevor auch nur Art organisierten Widerstandes aufgebaut wurde. Aber Ghotal ging zu weit, als Targos schließlich erobert und zerstört wurde. Die vereinten Heere der Elfen aus Everaska und anderer nördlicher Städte stellten den General und vernichteten die meisten seiner Legionen. Ghotal selbst entwich dem Schlachtfeld, wurde jedoch tödlich verwundet. Seitdem ward nie wieder etwas von ihm gehört oder gesehen, obwohl die orkische Legende sagt, dass er bis auf den heutigen Tag lebt und nur auf die Gelegenheit wartet, Faerun noch einmal mit Chaos und Verwüstung zu überziehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W12 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 12
+Initiativefaktor: 9
+Mindeststärke: 13
+Fertigkeit: Zweihänder
+Typ: 2-händig
+~
+
+@199 = ~Gefertigt von dem Magierkönig Varashar für den Kommandanten seiner Toten Ritter. Das Schwert wurde schnell legendär wegen seiner Fähigkeit, durch fast alles zu schneiden. Von ganzen Legionen weiß man, dass sie beim Anblick des legendären Schwertes vom Schlachtfeld flohen.
+
+EIGENSCHAFTEN:
+
+Verursacht Panik mit einer Wahrscheinlichkeit von 20% bei erfolgreichem Treffer.
+
+Schaden 1W8 +1 (Klinge)
+ETW0-Bonus: -1 
+Gewicht: 3
+Initiativefaktor: 3
+Mindeststärke: 10
+Fertigkeit: Langschwert
+Typ: 1-händig
+~
+
+@201 = ~Zweihänderschwert +1: "Durlags Stolz"
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +1 (Klinge)
+ETW0-Bonus: -1
+Gewicht: 10
+Initiativefaktor: 9
+Mindeststärke: 13
+Fertigkeit: Zweihänder
+Typ: 2-händig
+~
+
+@203 = ~Antikes Schwert unbekannten Ursprungs. Einst wurde das Gerücht verbreitet, es sei in Durlags Turm. Einige sagen, dass das Schwert in Mythos Drannor gefertigt wurde; trotzdem legen die genauesten Erzählungen das Schwert in die Hände der Weisen aus alter Zeit.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -2
+Schaden: 2W4 +2 (Säure)
+Gewicht: 0
+Initiativefaktor: 2
+Fertigkeit: Langschwert
+Typ: 1-händig
+~
+
+@205 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 und 120 cm beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen. Die Klinge dieses Schwertes ist mit allen Arten von geheimnisvollen Symbolen bedeckt.
+
+EIGENSCHAFTEN:
+
+Bei Treffer besteht 10% Chance, dass das Ziel betäubt wird.
+
+ETW0-Bonus: -2
+Schaden: 1W8 +2 
+Schadensbonus: +1W4 (Feuer)
+Gewicht: 4
+Initiativefaktor: 4
+Mindeststärke: 6
+Fertigkeit: Langschwert
+Typ: 1-händig
+~
+
+@211 = ~Skelettwache 
+
+Grad: 7
+Schule: Beschwörung
+Bereich: 20 m
+Dauer: 4 Stunden
+Zeitaufwand: 5
+Wirkungsbereich: Speziell
+Rettungswurf: Nein
+
+Der Werfer ruft 2 skelettartige Krieger herbei, um für ihn in der Schlacht zu kämpfen.~
+@214 = ~Glühende Wolke
+
+Grad: 7
+Schule: Hervorrufung
+Bereich: Sicht des Anwenders
+Dauer: 4 Runden +1W6 Runden
+Zeitaufwand: 2
+Wirkungsbereich: Umkreis von 3 m
+Rettungswurf: 1/2
+
+Dieser Zauber ruft eine dünne, rauchige Wolke hervor, die den Wirkungsbereich füllt und zuerst harmlos aussieht. Jedoch eine Runde später sprüht sie Funken und spuckt Flammen und verursacht 1 - 2 Punkte Brandschaden pro Stufe in der ersten Runde. In der vierten Runde verursacht sie 1 - 4 Punkte pro Stufe, und in der fünften Runde wieder 1 - 2 Punkte. Rettungswürfe können die Schäden für die Dauer einer Runde um die Hälfte verringern. Die Wolke wirft weiterhin für die Dauer des Zaubers regelmäßig im Abstand einer Runde Flammen.~
+@501  = ~In diesem Glastopf ist eine teure Mischung aus Öl und anderen Chemikalien. Wenn diese Mischung entzündet wird, brennt sie für mehrere Sekunden bei sehr heißer Temperatur. Brennendes Öl ist manchmal schwierig zu verwenden, weil es für den Benutzer eine lange Zeit dauert, um es richtig zu werfen. Abenteurer tragen häufig Öl mit sich, um mit Trollen in dem unglücklichen Fall fertig zu werden, dass sie mit ihnen zusammenstoßen.
+
+EIGENSCHAFTEN:
+
+Wenn er auf ein Ziel geworfen wird, zerbricht der Glastopf und breitet brennendes Öl über alles innerhalb eines Radius von 1,5 m aus, und verursacht dabei 2-16 Punkte Feuerschaden.
+~
+
+
+@1245 = ~Das Wasser in dieser Flasche wurde gesegnet und verursacht bei untoten Kreaturen 1W8 Schadenspunkte, so als wäre es Säure.~
+
+@1452 = ~Elfenbogen "Goblins Verderben"~
+@1454 = ~Dieser Bogen wurde von Elfen geschaffen, die ihre Wälder besser gegen Überfälle durch Goblins und Hobgoblins schützen wollten. Allerdings besitzt er keine magischen Eigenschaften gegen diese Kreaturen.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +2 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 2
+Initiativefaktor: 3
+Mindeststärke: 3
+Fertigkeit: Kurzbogen
+Typ: 2-händig
+~

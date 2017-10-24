@@ -1,0 +1,58 @@
+@0 = ~Travelers here are rare indeed, but recently strangers and violent creatures of all kinds have been appearing more often. What may I do for you?~
+@1 = ~Do you have anything to sell? Let's take a closer look.~
+/* @2 -> @10016 */
+@3    = ~I'm just passing by... and leaving immediately.~
+@4 = ~Travelers here are rare indeed. Many are the rumors circulating around the troubles in the south. What may I do for you?~
+@5    = ~Thank you. Just passing by and I'm not going to stay here any longer.~
+@6 = ~I'm sorry. You are not welcome here; as a matter of fact you are just simply not needed. It's high time to die, you sniveling whelps!!!~
+/* @7 -> @10017 */ 
+@8 = ~I'm sorry for my demeanor, but things are going really badly now. Recently, a close friend of mine died in Baldur's Gate. His name was Hasdar. I hired him to get some information and now the matter has caught up with him.~
+@9    = ~Actually he died from our hands. And he wasn't such a friendly fellow like you said. But times are not safe. How could we realize you know each other?~
+@10   = ~Sorry for that. Could we help however?~
+@11 = ~You should be ashamed of yourself for killing innocent people. But on the other hand he wasn't really my friend, just someone I hired to retrieve some artifacts for me. I paid thrice what they are really worth. Just my fate. If only you were able to replace him on his mission I would be most grateful. I can pay you as well as I did him.~
+@12   = ~We feel like doing something useful and profitable on the way... Our ears are open.~
+@13   = ~Sorry, we have a lot to do now. Maybe some other time.~
+@14 = ~Now, pay attention. I'm searching for two items, actually one will do. I need someone to get them for me. I can offer sufficient pay.~
+@15 = ~The first artifact is a magical bow, once the pride of elven soldiers, lost ages ago. However I've been informed, that Fey'doch, an elf who quarters north from here, in Elven Wood has come into possesion of this precious item. Possibly you could rebuy it from him. I will repay all your expenses and add 2500 gp.~
+@16 = ~And the second item...?~
+@17 = ~The second artifact - one that is much more valuable, and for mages of my kind, invaluable, is the Great Book of the Unknowing. They say that it is contained in the Candlekeep's collection, but probably the only person who knows anything for sure is Lobar, the owner of the Low Lantern in Baldur's Gate docks district. Offering him a tidy sum of gold "will refresh" his memory for sure. Naturally, I don't mind the costs, and I will give you an extra 5000 gp.~
+@18 = ~We'll take the jobs, but I won't promise you anything.~
+/* @19 -> @10018 */
+@20 = ~We already have this magical bow. How much is it worth to you?~
+@21 = ~We already have the Great Book of Unknowing. How much is it worth to you?~
+@22 = ~We already have both of these items with us.~
+@23   = ~In that case, before you go, do you want to see my wares?~
+@24   = ~We would, show us what you have.~
+@25   = ~There is no hurry, perhaps another time...~
+@26 = ~And your reward you shall have! It appears that this will be the end of our acquaintance, the rest will be mine at last - no offence meant, just business... DIE whelps!~
+/* @27 -> @10020 */ 
+@28 = ~Have you considered my offer? Are you interested in it?~
+@29 = ~Could you repeat what your tasks were? We might be interested now.~
+@30 = ~No, we haven't, we need more time to think about it.~
+@31 = ~It seems the evil grows within you, heh, heh, heh... That's even better, mmmm?...~
+@32 = ~That may be so, but we've got one of the artifacts you want and we expect the reward.~
+@33 = ~So, it has been accomplished. The Great Book of Unknowing is back with its rightful owner. And the owner is very satisfied.~
+@34 = ~You do seem pretty pleased, but the "costs" to retrieve the book were very high and we expect the reward.~
+@35   = ~You've got my items? Splendid!~
+@36 = ~Yes we have them, and now it's time for us to be rewarded adequately.~
+@37 = ~Have you been searching for my items? It may take a long time if I hazard a guess...~
+@38 = ~Of course we have been, but we're in need of some of your goods.~
+@39 = ~As you can see, we're constantly searching...~
+@40 = ~Is your name Haeball by any chance?~
+/* @41 -> @10019 */
+@42 = ~Haeball, could I ask you a question?~
+@43 = ~Ahhhh... that's very nice. It's good to see that darkness growing within you... heh, heh... We'll get to your reward later.~
+@44 = ~Whatever...~
+@45 = ~Wonderful! Now off you go to find the magical bow, and when you return, we'll see about that reward... heh, heh...~
+@46 = ~Very well, we'll return after we retrieve the bow.~
+@47 = ~That is one of my many names, yes. How may I help you?~
+@48 = ~Some creatures we came across down south of here indicated you might know something about the mage who summoned them here to this plane. They refuse to leave unless I bring the mage to them.~
+@49 = ~Ahhhh, hah hah hah, yes... the mageling... who summoned them, you say? Well, we all want something, myself included. I'll make you a deal about this mage if you'll care to listen.~
+@50 = ~Well, if I want to make any progress on this quest, I don't see any other choice.~
+
+/* new for v2.0 */
+// in parts similar to @15
+@51 = ~I want you to retrieve an artifact, a magical bow, once the pride of elven soldiers, lost ages ago. However I've been informed, that Fey'doch, an elf who quarters north from here, in Elven Wood has come into possesion of this precious item. Possibly you could rebuy it from him. I will repay all your expenses and add 2500 gp.~
+@52 = ~You again! Have you been searching for my bow?~
+//in parts similar to @49
+@53 = ~Ahhhh, hah hah hah, yes... the mageling... who summoned them, you say? Well, we all want something, myself included. Stick to the deal I offered, and I will help you with the mage you seek.~

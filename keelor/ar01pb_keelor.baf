@@ -1,0 +1,13 @@
+IF
+  Global("NT_KeelorSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTKEELOR",[3953.2582],0)
+    CreateCreature("GNOLL03",[4076.2554],0)
+    CreateCreature("GNOLL03",[4142.2632],0)
+    CreateCreature("GNOLL02",[4096.2681],0)
+    CreateCreature("GNOLL3",[3983.2689],0)
+    SetGlobal("NT_KeelorSpawn","GLOBAL",1)
+    Continue()
+END
+

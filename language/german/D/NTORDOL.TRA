@@ -1,0 +1,24 @@
+@0 = ~Ihr dort! Mein lieber Freund! Haltet bitte für einen Moment an!~ ~Ihr dort! Meine liebe Freundin! Haltet Einen Augenblick an!~
+@1 = ~Und wer seid Ihr, alter Mann? ~
+@2 = ~Haut ab, Ihr alter komischer Kauz!~
+@3 = ~Nun gut, es ist wohl besser, wenn ich Euch in Ruhe lasse.~
+@4 = ~Nun... also, willkommen. Ich bin so glücklich, jemand anderes zu sehen als die Untoten, die die Gegend unsicher machen! Ich bin Ordolath, und ich verbinge hier mein Forschungssemester... Ihr wisst, manchmal ist es schön, dem Gedränge und der Betriebigkeit in Baldurs Tor zu entkommen.~
+@5 = ~Das alles ist wirklich nett, aber was in den neun Höllen wollt Ihr von mir?~
+@6 = ~Sicher, sicher, und jetzt verzieht Euch, Ihr alter Kauz!~
+@7 = ~Nichts besonderes, Freund, hehe. Das Schicksal, wie es nunmal so ist, ließ mich meine Kerze vergessen, als ich mich auf diese Reise vorbereitete. Ohne meine Kerze bin ich nicht imstande, mein Tagebuch zu führen oder meine Bücher zu lesen. Die Nächte sind hier sehr dunkel... Ihr könnt Euch nicht einmal vorstellen, was das für solch einen Bücherwurm wie mich bedeutet!~ ~Nichts besonderes, Freundin, hehe. Das Schicksal, wie es nunmal so ist, ließ mich meine Kerze vergessen, als ich mich auf diese Reise vorbereitete. Ohne eine Kerze bin ich nicht im Stande, mein Tagebuch zu schreiben oder die Bücher zu lesen. Die Nächte sind wirklich dunkel... Ihr könnt Euch nicht gerade vorstellen, was das für solch einem Bücherfreund wie mich bedeutet!~
+@8 = ~Also ich habe Euch ein Angebot zu machen. Wenn Ihr ein paar Tage damit verbringen wollt, mir zu helfen und mir meinen kleinen Wachsschatz bringt, werde ich Euch so gut belohnen wie ich kann! Und glaubt nicht, dass die Belohnung eine schlechte sein wird! Abgesehen von 2000 Goldmünzen kann ich Euch einen wertvollen Gegenstand anbieten, von dem ich sicher bin, dass er Euch gefällt... Also? Würdet Ihr mir helfen?~ 
+@9 = ~Klingt interessant, erzählt uns, wo wir Euer Haus finden können, damit wir Euch diese... Kerze bringen können.~
+/* @10 -> @10048 */ 
+@11 = ~Ich habe keine Zeit, um sie für solch dumme Versuche zu verschwenden, geht jetzt weg.~
+@12 = ~Ausgezeichnet! Vom ersten Augenblick an, als ich Euch sah, schient Ihr vertrauenswürdig zu sein! Mein Haus, junger Freund, ist im nördlichen Teil der Stadt, nicht weit vom Nördlichen Bezirk. Es ist ein weißes Haus hinter dem blauen Magierturm. Ihr könnt es nicht verfehlen. Nun, bitte beeilt Euch. Ich werde Eure Rückkehr ungeduldig erwarten. Bis bald!~ ~Ausgezeichnet! Vom ersten Augenblick an, als ich Euch sah, schient Ihr vertrauenswürdig zu sein! Das Haus, junge Freundin, ist im nördlichen Teil der Stadt, nicht weit vom Nördlichen Bezirk. Es ist ein weißes Haus hinter dem blauen Magierturm. Ihr könnt es nicht verfehlen. Nun, bitte beeilt Euch. Ich werde Eure Rückkehr ungeduldig erwarten. Bis bald!~
+@13 = ~Schön, auf Wiedersehen!~
+@14 = ~Ihr seid zurück? Wo ist meine Kerze?~
+@15 = ~Hier seid Ihr...~
+@16 = ~Unglücklicherweise haben wir noch keine Gelegenheit gehabt, sie wiederzubekommen...~
+@17 = ~Wunderbar! Ihr habt meinen tief empfundenen Dank! Hier ist die Belohnung, die ich Euch versprach! Ich muss mich jetzt auf den Weg machen.~
+@18 = ~Nicht so schnell! Ich frage mich, ob Ihr irgendetwas von einem Mann in Eurem Haus wisst...~
+@19 = ~Ihr seid höchst willkommen. Seid vorsichtig auf Eurer Reise.~
+/* @20 -> @10049 */  
+@21 = ~Oh, ja, ja... Es tut mir leid wegen dieser Überraschung. Bitte nehmt meine Entschuldigung an, mein Freund, dass ich Euch einer Gefahr ausgesetzt habe, deshalb hoffe ich, dass meine Geschenke genug Belohnung für Eure Anstrengungen sein werden. Keine Worte mehr, ich muss jetzt gehen. Gebt auf Eure Sicherheit acht!~ ~Oh, ja, ja... Es tut mir leid wegen dieser Überraschung. Bitte nehmt meine Entschuldigung an, meine Freundin, dass ich Euch einer Gefahr ausgesetzt habe, deshalb hoffe ich, dass meine Geschenke genug Belohnung für Eure Anstrengungen sein werden. Keine Worte mehr, ich muss jetzt gehen. Gebt auf Eure Sicherheit acht!~
+/* @22 -> @10050 */ 
+@23 = ~Also, worauf wartet Ihr? Beeilt Euch bitte und bringt meine Kerze zurück!~

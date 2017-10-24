@@ -1,0 +1,15 @@
+IF 
+	Dead("NTMEANDA")
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	AreaCheck("AR91PB")
+THEN	
+	RESPONSE #100
+		RandomWalk()
+END

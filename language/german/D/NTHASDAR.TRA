@@ -1,0 +1,47 @@
+@0 = ~Wartet, Reisende! Zufällig *oder nicht* - ich habe gehört, was Ihr mit Shaella spracht, oder wie Ihr es vorzieht, sie zu nennen: Elnaedra. Interessiert Ihr Euch wirklich für den Fund dieses seltsamen Buches?~
+@1 = ~Nein. Und wir haben diese fremden Leute satt, die wir treffen, die nicht wissen, wovon sie sprechen.~
+@2 = ~Und warum sollten wir uns dafür interessieren?~
+@3 = ~Shaella weiß, worüber sie spricht - oder eher sagt, was sie noch weiß. Sie hat dieses Buch gesehen, und Ihr könnt seinen Einfluss auf sie sehen. Meine Aufgabe ist es, dieses Buch zu finden und es unerreichbar für Leute zu machen, die es nicht besser wissen und Shaellas Schicksal teilen könnten.~
+@4 = ~Können wir jetzt "das Angebot, das wir nicht ablehnen können", hören?~
+@5 = ~Ich weiß, was Ihr sagen wollt, und ich werde Euch zuhören, solange der Preis stimmt; habe ich Recht, mein Freund?~ 
+@6 = ~Wenn es auf diese Weise sein muss - mein ganzes Leben lang habe ich Geld gesammelt, um dieses Buch zu bekommen. Ich kann es Euch geben, wenn Ihr mein Angebot akzeptiert.~
+@7 = ~Warum könnt Ihr nicht selbst darum kümmern, wenn es Euch so am Herzen liegt?~
+@8 = ~Nein. Wir haben genug gehört. Es ist Zeit für uns, zu gehen.~
+@9 = ~Wenn es nur so einfach wäre. Ich kann mich nicht mit demjenigen treffen, der einige Kenntnisse über dieses Buch hat. Wir waren einmal Freunde, aber eine Frau kam zwischen uns. Ich würde es wirklich vorziehen, ihn nicht zu treffen. Und dasselbe gilt für ihn.~
+@10 = ~Wer ist ER?~
+@11 = ~Lobar. Der Eigentümer der Leuchtenden Laterne. Einmal hatte er dieses Buch oder zumindest seine Macht gesehen.~
+@12 = ~Wir haben genug gehört. Wenn Ihr sagt, dass es so gefährlich ist, würden wir es vorziehen, es nicht zu berühren.~
+@13 = ~Fahrt fort - ich höre genau zu.~
+@14 = ~Ich biete Euch meinen ganzen Schatz für dieses Buch an. 10.000 Goldstücke. Ihr müsst es natürlich nicht lesen oder gebrauchen. Bringt es einfach zu mir.~
+@15 = ~Das ist viel Geld. Ich werde zu Lobar gehen, und wir werden sehen, ob das wirklich so ist, wie Ihr sagt.~
+/* @16 -> @10016 */ 
+@17 = ~Warum sollte ich nicht einfach Euer Gold nehmen und tun, was ich will?~
+@18 = ~Wir interessieren uns immer noch nicht für Euer Angebot. Findet jemanden anderen.~
+@19 = ~Natürlich könntet Ihr versuchen das zu tun, aber bin ich nicht sicher, ob das so leicht wäre.~
+@20 = ~Gut - ich werde versuchen es zu tun, Mönch.~
+@21 = ~Es ist in Ordnung. Ich mag keine Gewalt, besonders keine sinnlose. Ich werde zu Lobar gehen, und sehen, was ich finden kann.~
+@22 = ~Willkommen zurück. Ich kann annehmen, dass Ihr Eure Meinung geändert habt? ~
+@23 = ~Nein, aber wir haben Lust, Eure Ersparnisse zu nehmen.~
+@24 = ~Nein, wir kommen nur gerade vorbei. Wir haben andere Aufgaben.~
+@25 = ~Ja, wir werden Euer Angebot akzeptieren.~
+@26 = ~Wunderbar. Ich werde hier auf Euch warten.~
+@27 = ~Ihr solltet nach diesem Buch suchen, das ist sehr wichtig.~
+@28 = ~Natürlich, aber es schadet nicht, zu fragen, wie es Euch geht.~
+@29 = ~Wir nicht schlicht und ergreifend nicht hier, um hinter einem dummen Buch herzulaufen. Hinter Euch herzulaufen wäre viel leichter und komischer.~
+@30 = ~Also habt Ihr es gefunden. Der Grund meiner lebenslangen Suche. Es ist Zeit für Eure Belohnung.~
+@31 = ~Wir haben uns dafür sehr angestrengt, so dass wir sicher nehmen werden, was uns versprochen wurde.~
+@32 = ~Es war wirklich schwierig, dieses Buch zu bekommen. Sicher ist es sehr wertvoll, also habe ich mich dafür entschieden, beides, die Belohnung und das Buch zu nehmen.~
+@33 = ~Ich kann mir das vorstellen. Es ist Zeit für die Belohnung - kommt, meine Freunde!~
+/* @34 -> @10022 */ 
+@35 = ~Ihr seid verrückt, aber dann soll es so sein.~
+/* new for v2.0 */
+@36   = ~Seid gegrüßt, aber ich möchte nicht mit Euch sprechen.~
+@37   = ~Ich habe eine interessante Notiz mit Eurem Namen gefunden, die irgend einen Kult erwähnt.~
+@38  = ~Lebt wohl.~
+@39  = ~Haeball hat mich angeheuert, einen gegenstand für ihn zu finden. Das ist alles, was Ihr wissen müsst.~
+@40  = ~Ihr hättet Eure Nase nicht in Dinge stecken sollen, von denen Ihr nichts versteht!~
+@41  = ~Wartet, Reisende! Zufällig *oder nicht* - ich habe gehört, was Ihr mit Shaella spracht. Ihr müsste wissen, dass sie ein buch von großem Wert gelesen hat - das Große Buch der Unwissenden. Wärt Ihr daran interessiert, ein solches Buch zu finden?~
+@42  = ~Ihr meint dieses Buch?~
+@43  = ~Wie gestaltet sich Eure Suche?~
+@44  = ~Was wollt Ihr?~
+@45  = ~Ihr seid in Narr.~

@@ -1,0 +1,10 @@
+IF 
+	!Dead("NTDRAAGI")
+	Dead("NTREEDRI")
+	GlobalLT("NTTalkedToReedig","GLOBAL",3)
+	Global("NT_CreatenoteAboutBlackCult","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NT_CreatenoteAboutBlackCult","LOCALS",1)
+		CreateItem("NTPBLET6",1,0,0)
+END

@@ -1,0 +1,33 @@
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Dead("NTDOGFUN")
+	Dead("NTDOGFU1")
+	Dead("NTDOGFU2")
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	OR(3)
+		See("NTDOGFUN")
+		See("NTDOGFU1")
+		See("NTDOGFU2")
+	See([PC])
+	Delay(6)
+THEN
+	RESPONSE #30
+		AttackReevaluate("NTDOGFUN",30)
+	RESPONSE #30
+		AttackReevaluate("NTDOGFU1",30)
+	RESPONSE #30
+		AttackReevaluate("NTDOGFU2",30)
+END
+

@@ -1,0 +1,15 @@
+IF
+	Allegiance(Myself,ENEMY)
+	Global("NT_CitadelHostile","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NT_CitadelHostile","GLOBAL",1)
+END
+
+IF 
+	Global("NT_CitadelHostile","GLOBAL",1)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END

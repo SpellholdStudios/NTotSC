@@ -1,0 +1,9 @@
+IF
+  Global("ZombiesDead","GLOBAL",21)
+  Global("NTWenricOpensArea","%Farmlands%",0)
+THEN
+  RESPONSE #100
+    SetGlobal("NTWenricOpensArea","%Farmlands%",1)
+    ActionOverride("WENRIC",StartDialogNoSet([PC]))
+END
+

@@ -1,0 +1,33 @@
+//AR9PBA.baf
+@0    = ~On the way back you have noticed a small island and despite many difficulties you managed to put ashore to replenish your supplies for the further journey. The island looks to be inhabited.~
+
+//CUTREST.baf
+@10    = ~You have gotten some much needed rest.~
+
+//NTTOMBDO.baf
+@20   = ~Trap Sprung!~
+
+//SHIP.baf; SHIP1.baf
+@30   = ~You need to obtain the sea charts if you wish to navigate safely back to the main land.~
+
+
+/* new for v2.0 */
+
+//ar30pb.baf
+@40   = ~Defend the Citadel!~
+
+//nttr51pb.baf (trigger before dungeon in Firewine Bridge is opened by Charleston Nib's Scroll
+@50  = ~The scroll protects you from the magic that sealed the entrance. You may now enter.~
+@51  = ~You have a quick peek into the entrance. In the dim light you see enough movement to know that this is a dungeon where you should not decent into unprepared.~
+@52  = ~The way is blocked by powerful and bizarre wards. You shall have to find some way to deactivate them if you wish to enter.~
+@53  = ~To examine this entrance, move closer.~
+
+/* ar4500.baf */
+@54  = ~Dungeon Entrance~
+
+//indo52pb.baf (triggers entrance to ar53pb.are)
+@60  = ~The fire of the oil gives a flickery but fair light. You may now descent down the stairs.~
+@61  = ~The stairs lead into complete darkness. You shall have to find some light source if you wish to enter.~
+@62  = ~The light of the gem is bright and steady. You may now descent down the stairs.~
+@63  = ~The light of the candle is dim and flickery, but you may now descent down the stairs.~
+

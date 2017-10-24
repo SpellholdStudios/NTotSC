@@ -1,0 +1,16 @@
+// #15507
+@0    = ~Unless you're willing to buy a gal some ale, you're not welcome here.~
+// #15508
+@1    = ~Travelers are you? Takes one to know one, I guess... I don't know if you're heading that way but, if you ever end up in Baldur's Gate, keep your eyes open for Gheldehar, an old gnomish cleric. Trickier than an old wyrm, that one. He's still got an old ring of mine which I'd love to have back, actually. Oh, and in case you didn't catch it... that was a subtle hint.~
+// #15800
+/* @2 -> @10055 */ 
+// #15509
+@3    = ~Thanks for the ale, sucker.~
+// #15510
+@4    = ~Been to Baldur's Gate, yet? Watch your back for Gheldehar when you do...~
+// #15511
+@5    = ~Thanks for your help! Just let me put this ring on. It's been so long...~
+// #15512
+@6    = ~You've done well. Here, let me give you another in return.~
+// #15513
+@7    = ~Very well, then. Let acts of folly betray the fool.~

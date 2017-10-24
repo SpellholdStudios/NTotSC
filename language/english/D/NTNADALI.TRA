@@ -1,0 +1,24 @@
+@0    = ~It's nice to meet you. I'm Nadalin.~
+@1    = ~Hi. I'm Nadalin. I come from up north, from the place where the Sword Coast transmutes into a gulf. Unfortunately, my village was terrorized by some fire monsters and my boat is now the home of some sirens. I escaped from the village and now I live here. But I'd like to return to my duties.~
+/* @2 = @10039 */
+@3    = ~You don't have the heart, do you? It's alright, I know where you're coming from. I couldn't do it, myself.~
+@4    = ~You've done it, right? I guess, that your hearts are even harder than I'd wish to have. I don't say it with pleasure, but if you are ever in need of help, you'll probably find me near my boat in my village.~
+/* @5 -> @10040 */ 
+@6    = ~Thanks for your help. Now I can return to my village. If you ever need me you may find me near my boat. I love my old lady.~
+@7    = ~I'm no fighter, friend.~
+@8    = ~Welcome my friends. How can I help you?~
+@9    = ~I want you to take us to an island inhabited by some ice salamanders. Have you ever heard about it?~
+@10   = ~We were just passing by to see how you are getting on.~
+@11   = ~I think, I have, but it's a dangerous place. The lizards attack without warning. I landed once on that island during a storm. I hardly managed to run away. Do you want to travel there now?~
+@12   = ~Yes, I think we can set off.~
+@13   = ~No, not now. But it's nice to hear that you want to help us.~
+@14   = ~Are you fed up with this island already?~
+@15   = ~Yes, let's get out of here.~
+@16   = ~No, wait for a little longer.~
+@17 = ~Welcome back, friend. How can I help you?~
+@18 = ~Could you take us back to Salamander Island?~
+@19 = ~Certainly. Let's go then.~
+@20 = ~The leader of a fishing village on the Northern Coast told us about you. We've solved the problem there.~
+
+/* new for v2.0 */
+@21 = ~Welcome back, friend.~

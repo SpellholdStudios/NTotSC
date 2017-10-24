@@ -1,0 +1,8 @@
+IF
+  Global("NTPaladinSpawn","%FirewineBridge%",0)
+THEN
+  RESPONSE #100
+    SetGlobal("NTPaladinSpawn","%FirewineBridge%",1)
+    CreateCreature("NTSVLAST",[2615.1789],3)
+    Continue()
+END

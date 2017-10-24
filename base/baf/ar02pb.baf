@@ -1,0 +1,8 @@
+IF
+	Global("NT_InsertEEItems","MYAREA",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Kontener1",CreateItem("%PLAT09%",25,0,0))
+		ActionOverride("Kontener3",CreateItem("%POTN55%",25,0,0))
+		SetGlobal("NT_InsertEEItems","MYAREA",1)
+END

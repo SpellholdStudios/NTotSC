@@ -1,0 +1,10 @@
+IF
+  Global("NTSatosMustDie","GLOBAL",2)
+  See([PC])
+  Delay(1)
+THEN
+  RESPONSE #100
+    SetGlobal("NTSatosMustDie","GLOBAL",3)
+    ActionOverride("NTSATOS1",StartDialogNoSet([PC]))
+END
+

@@ -1,0 +1,21 @@
+/* entrance to lowest level AR53PB.are
+Entrance: DOOR52PB. Will be closed by default. Instead, a trigger point with script is activated: "INDO52PB". (PC can see the entrance but not enter.)
+
+If PC has Flaming Oil ("NTPOTN05") will activate the entrance (in "INDO52PB.baf")
+
+*/
+
+IF
+	!PartyHasItem("NTPOTN05") //Flaming Oil
+	!PartyHasItem("MISC74") //candle
+	!PartyHasItem("MISC9R") //Light Gem
+	!PartyHasItem("POTN13") //Oil of Fiery Burning
+	Global("NT_DOOR52PBActivation","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NT_DOOR52PBActivation","GLOBAL",1)
+		TriggerActivation("DOOR52PB",FALSE)
+		TriggerActivation("INDO52PB",TRUE)
+		Continue()
+END
+

@@ -1,0 +1,23 @@
+// #3353
+@0 = ~Bleib, wo du bist, Dieb! Wie kannst du es wagen, diesen ehrwürdigen Mönch zu bestehlen?~
+// #3354
+@1 = ~Dann werden wir dir schon Benehmen beibringen, solange du hier bist! Wenn deine bösen Gedanken dir nicht weiterhelfen, wirst du vielleicht lernen anders zu denken.~
+// #3355
+@2 = ~Dein Verhalten entehrt alles, was Helm heilig ist! Welch eine Missachtung der Rechte anderer!~
+// #3356
+@3 = ~Deine Fähigkeiten als Dieb sind ganz zweifelsohne von wichtiger Bedeutung für dich, aber ich habe ernste Zweifel, dass du sie jemals nutzbringend einsetzen wirst! Es gibt nur Gut oder Böse. Ich fürchte, du bist letzteres!~
+// #3357
+@4 = ~Wie bitte?! Du hast das Blut einer kindlichen Seele vergossen, und das alles für ein paar lumpige Edelsteine?~
+// #3358
+@5 = ~Um die, die der Hilfe bedürfen, muss man sich umso mehr kümmern! Deine Taten sind verabscheuungswürdig und rücksichtslos! Ich kann es nicht mehr ertragen! Greif zu deinen Waffen und verteidige dich, auf dass du wenigstens im Sterben die Würde zeigst, die dir im Leben fehlte!~
+// #3359
+@6 = ~Es ist traurig, dass unser Mitstreiter sterben musste, bevor er seine Taten widerrufen konnte. Das Böse muss aus dem Weg, wo immer es sich zeigt, auch unter seinesgleichen! Helm, hilf uns bei unserer Aufgabe, damit es bald ein Ende hat!~
+// #3313
+@7 = ~Wir werden es auch ohne ihn schaffen. Wir müssen nur auf der Hut sein. Unsere Tugend wird uns weiterbringen.~
+// #3373 (change "Eldoth" with "Eldod")
+@8 = ~ELDOD! IHR VERRÄTER!!~
+@9 = ~Helm führt meinen Weg.~
+/* new for v2.0 */
+@10  = ~Ser Sieg ist unser!~
+@11  = ~Der Verlust sowohl unseres Abts als auch seines Stellvertreters ist ein großer Verlust für die Zitadelle.~
+@12  = ~Leider befindet sich unser richtiger Hauptmann nicht unter den Lebenden.~

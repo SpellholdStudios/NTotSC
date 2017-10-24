@@ -1,0 +1,28 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Global("NTSpawnCreateStalkers","GLOBAL",0)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		ActionOverride("NTINDFI1",Enemy())
+		ActionOverride("NTINDFI2",Enemy())
+		CreateCreature("STALKE",[2054.780],0) // Invisible Stalker
+		CreateCreature("STALKE",[1231.561],0) // Invisible Stalker
+		CreateCreature("STALKE",[455.598],0) // Invisible Stalker
+		CreateCreature("STALKE",[421.689],0) // Invisible Stalker
+		CreateCreature("STALKE",[897.731],0) // Invisible Stalker
+		CreateCreature("STALKE",[1534.420],0) // Invisible Stalker
+		CreateCreature("STALKE",[1642.576],0) // Invisible Stalker
+		SetGlobal("NTSpawnCreateStalkers","GLOBAL",1)
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
+

@@ -1,0 +1,35 @@
+// #3225
+@0    = ~ 'Ere there, pssst. This way.
+I've got a word or two for you, but when I'm done talkin' I never said a word, understand?~
+// #3226
+@1    = ~I have no time for secret meetings, fool. Begone with your games.~
+// #3227
+@2    = ~Speak that I might know your intent.~
+// #3228
+@3    = ~What is your purpose here at the keep?~
+// #3230
+@4    = ~Pique I am, and I am a member of the guard. At least I was when there was a guard to speak of. The new captain has made it otherwise.~
+// #3230
+@5    = ~Slander of your superiors is no trait of a guard! I trust you not!~
+// #3233 (change "Eldoth" to "Eldod")
+@6    = ~If Eldod bears the traits of a guard, you are lucky to be alive to mistrust me! Bah! It was a mistake to speak with you! I am done with all of this!~
+// #3234 (change "Eldoth" to "Eldod")
+@7    = ~I ain't no monk who takes a kick and then turns the other cheek to take another! You no want my help, then so be it! Do yourself a favor though, and search well again the quarters of Eldod. I go now and hope never to again lay eyes upon this accursed place.~
+// #3235 (change "Eldoth" to "Eldod")
+@8    = ~My intent be to get out of this place alive. Guard duties or no, the pay be not near enough for dying. I know who be taking the missing people. I seen 'im! It was Eldod!~
+// #3236 (change "Eldoth" to "Eldod")
+@9    = ~Eldod had much to gain with the disappearance of the captain, but this is hardly a reason for such crimes.~
+// #3237 (change "Eldoth" to "Eldod")
+@10   = ~And why should I believe you? You said nothing till now! Perhaps you just wish me to remove Eldod so you can captain the guard!~
+// #3238
+@11   = ~Then he will be dead before the morning! With righteous fury we shall smite him down!~
+// #3239
+@12   = ~Are you mad? Does captain of the guard seem such a glorious position to you? One worth murder and kidnapping? Use some sense! There is more here than you see! Feh! I have not time to spell things out to you! Fling your accusations where you will, but watch your back. I am gone, and I leave you to whatever fate you make. Hmph! I will at least save my OWN life.~
+// #3240
+@13   = ~Eh, so that's yer plan then? There's more to this story I fear, and your blade may have to work a fair bit harder than you think. By all means, throw yourself at him, but watch carefully what is BEHIND his actions. I leave you to your... glorious bloodbath. *sniff*~
+// #3241
+@14   = ~Aye, this is what I thought too! Once the main garrison returns from the Coast Way, they would simply replace him as captain. There is more to it, something stranger. I saw him when last dark fell, when he dragged off the monk Montgomery. It was a masterful ambush when night was darkest, and I thought myself lucky to have discovered him. A single snapped twig gave away his position, and I followed slow, ready to leap to rescue. I stopped meself short though, when he turned and looked RIGHT AT ME! He knew my every move, as though he PLANNED for me to see him! His face showed no such cunning at that moment though. Blank he was, blank as the night around us. I had not the nerve to approach, and his eyes seemed to show sadness when I did not move, though his face remained stone cold. He walked away slowly, almost haltingly, while I sat there shivering. Here, take this. He dropped it, and I know not what it means. I am done with this place. There is something most unnatural here, and I want no part of it. Fare you well.~
+// #8740 (change "Eldoth" to "Eldod")
+@15   = ~Listen carefully friend. I know that Eldod is somehow involved in these disappearances. If you want to find out more, I think it would be wise of you to search his quarters.~
+// #8741
+@16   = ~I leave this accursed place; I have no time to speak with you.~

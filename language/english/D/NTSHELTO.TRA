@@ -1,0 +1,20 @@
+// #3209 (change "Eldoth" to "Eldod")
+@0    = ~'Ere there. Not all the guard resent your coming as Eldod does.~
+// #3210
+@1    = ~It's dangerous to go against your Captain so.~
+// #3211
+@2    = ~Good to know, though I doubt I shall be much help with him around.~
+// #3212
+@3    = ~I trust none of the guard while he commands you. Leave me be.~
+// #3213 (change "Eldoth" to "Eldod")
+@4    = ~Eldod is NOT my captain. MY captain is a noble man who never would have let this go so long without requesting aid. Eldod has but made the problem worse. I will deny I said this if you tell another soul. I must go.~
+// #3214
+@5    = ~I blame you not at all. It is as though he be TRYING to isolate us. I wonder if it's possible the disappearances have weakened his sanity. Alas, it is not for me to say. I have said too much already. I must go.~
+// #3215
+@6    = ~Doubtful ANY of us will be of help while he commands. I can speak with you no longer, lest he see us together. Fare thee well.~
+// #8742
+@7    = ~I cannot be seen speaking with such as you. Go away!~
+// #8743 (change "Eldoth" to "Eldod")
+@8    = ~If I were you, I would be careful of Eldod. He is not a man to be trusted; take it from me, friend.~
+// #8967
+@9    = ~I'll not speak a word after what you did!~

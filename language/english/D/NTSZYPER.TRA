@@ -1,0 +1,26 @@
+@0    = ~I hope that someone will manage to kill these devils at last...~
+/* @1 -> @10067 */
+@2 = ~Leave us alone! We have enough troubles with intruders already!...~
+@3 = ~Troubles? Helping with troubles has become our specialization recently... Perhaps we can help?~
+/*
+@4    = ~A zombie infestation has been terrorizing the few settlers unlucky enough to own land by the river. An old farmer by the name of Wenric has counted twenty of them and will pay me an impressive 150 gp if I can get rid of every last one.~
+*/
+@5 = ~Thank you, that was really generous of you to get rid of those beasts for us. Maybe now we'll be able to return to our fishing, at last.~
+@6 = ~You have returned... but I can tell you were not successful yet. Others have tried before and failed as well...~
+@7 = ~Those monsters are pretty frightening, aren't they?~
+@8 = ~We are saved! Amazing! I thought those fire monsters would end up forcing us into starvation... We really appreciate what you did.~
+@9 = ~It has been our pleasure.~
+@10 = ~If you manage to... We have been fishing here for years, but for the last few weeks we can't get close to our boats. On the north side of our bay some monsters appeared... They breath with fire and kill anyone who gets closer to the bay. And now, even more recently, a tribe of Sirines has intruded on the shores near where we land our fishing boats as well. Can you deal with them?~
+@11   = ~We can try, but I won't promise anything.~
+@12   = ~Phew... that's it? Should we risk our necks for commoners? Yeah, maybe... we will see.~
+@13 = ~How can we ever repay you?~
+@14 = ~Perhaps there is a way. We'd like to know if you have heard about an island near here in the Sea of Swords... I don't know exactly what we are looking for, but there may be some kind of a fortress on it...?~
+@15 = ~It is not neccesary.~
+@16 = ~We do not venture so far into the sea. But Nadalin would. He used to sail on the wide sea and told us once about an island of Lizards - similar to those in the cave, but those had not burned with fire... You'd have to ask Nadalin. Now that the monsters are gone from our fishing grounds, maybe he'll come back to us... I know, he liked his duties very much, but he escaped when these... these Salamanders appeared.~
+@17 = ~Thank you, we'll see if we can track Nadalin down.~
+/* @18 -> @10068 */ 
+@19   = ~Can we do anything more for you, my friends?~
+@20   = ~Yes, we are looking for someone who knows the surrounding and upper islands in the Sword Sea.~
+@21   = ~No, not now.~
+@22 = ~We've already met Nadalin in Baldur's Gate! I'm sure he will be happy to hear about the monsters being defeated, so he can return to his duties.~
+@23 = ~We've already met Nadalin in Baldur's Gate! Thank you, we'll see if we can track Nadalin down.~

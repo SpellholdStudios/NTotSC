@@ -1,0 +1,20 @@
+@0 = ~Bitte, Reisende, verzeiht mir, dass ich es wage, Euch zu stören, aber das ist keine lustige Sache.~
+@1 = ~Das ist in Ordnung. Erzählt uns, was Euch derart beschäftigt.~
+@2 = ~Das reicht jetzt. Wir sind gerade in der Stadt angekommen, und schon jagt uns eine Menge Leute wegen Autogrammen...~
+@3 = ~Ich weiß, dass Ihr wahrscheinlich kein Interesse daran habt, aber wo sonst können meine Frau und ich Hilfe suchen?~
+@4 = ~Ich reiste mit meiner Frau nach Elthurel, als unsere Karawane von einer Horde Orks angegriffen wurde. Wir flohen in Panik mit allen anderen. Leider reisten unsere Kinder - Falton und Vanessa - mit uns. Es ist eine Schande für uns, aber in dem Kampfgewirr verloren wir die Spur unserer Kinder... Wir kehrten so bald wie möglich zurück, fanden aber kein Zeichen der Karawane oder unserer Kinder... Einer der verwundeten Wächter sagte uns, dass die Orks, als sie die Gefangenen fortschafften, über Fealn Datoon redeten... Das ist ein alter Name eines Landes, nördlich von hier gelegen... die Felder der Toten. Wir wissen nicht, wie man dort hinkommt, ganz zu schweigen davon, wie man die Orks besiegt und unsere Kinder zurückbekommt.~
+@5 = ~Nun. Es ist eine sehr traurige Geschichte, aber wir haben keine Zeit, um uns jetzt darum zu kümmern. Wir haben andere Aufgaben. Auf Wiedersehen.~
+@6 = ~Wir waren niemals im Norden von Baldurs Tor, aber Eure Geschichte hat unsere Aufmerksamkeit errregt. Wir werden uns darum kümmern, sobald wir können.~
+@7 = ~Ihr könnt uns das nicht antun. Denkt darüber nach. Ich werde hier warten.~
+@8 = ~Danke... Ich denke, dass Ihr nach Ulgoths Bart gehen solltet. Vielleicht werdet Ihr dort jemanden finden, der weiß, wie man zu den Feldern der Toten kommt... Dieses sind sehr gefährliche und eher selten besuchte Gebiete. Viel Glück. Ich werde hier auf Euch warten.~
+/* @9 -> @10036 */
+@10 = ~Bitte, gebt die Suche nicht auf. Wir haben Angst um unsere Kinder...~
+@11 = ~Habt Ihr Eure Meinung geändert?... Wir konnten noch niemanden finden, der im Stande wäre, uns zu helfen...~
+@12 = ~Ja, wir werden uns darum kümmern.~
+@13 = ~Nein, nicht jetzt.~
+@14 = ~Danke! Wir schätzen Eure Hilfe wirklich sehr, aber wir können Euch im Gegenzug nur dieses Geschenk anbieten... Wir müssen jetzt zu unseren Kindern gehen.~
+/* new for v2.0 */
+@15 = ~Wir wissen, wo das liegt. Wir werden nach Euren Kindern suchen, wenn wir dorthin gehen.~
+@16 = ~Ihr habt unsere Kinder gerettet!~
+@17 = ~Oh nein!... Meine Familie! Warum habt Ihr das getan?!~
+@18 = ~Danke! Wir werden Euch ewig dankbar sein.~

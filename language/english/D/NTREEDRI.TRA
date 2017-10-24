@@ -1,0 +1,14 @@
+@0 = ~Thank you, whoever you are. I'm on an important mission to Ulgoth's Beard and these bastards had just captured me... I don't know what would have happened had you not arrived in time...~
+/* @1 -> @10059 */ 
+@2    = ~Welcome! What brings you here?~
+@3    = ~We're traveling. Just like always.~
+@4 = ~So you know everything about the cult already... I didn't manage to get here in time because of those damned orcs. Now nothing but unpleasantness is waiting for me in the assembly, or I should I say - death...~
+@5    = ~You're talking about the Black Hand? What are they planning?~
+@6 = ~We are... the Cult of the Black Hand is an assembly of warriors and mages led by Draagis... a powerful foe and an expert on ancient rituals. That's why he is interested in various artifacts and has been in contact with the cultists of Baalor. We planned to summon an even more powerful demon - the Prince of Baalors. But without the signet used by Tracea's cult the cooperation between our cults will not occur... I must disappear now. I'd rather the cult didn't find me bearing ill tidings...~
+@7 = ~Wait! Where can I find the Cult of the Black Hand? I want to visit them and end their scourge.~
+@8    = ~Well now - farewell and good luck.~
+@9 = ~If you want to find them go to the Wood of the Sharp Teeth, then further to the east and slightly north. But I wouldn't expect a warm welcome if I were you...~
+
+/* new for v2.0 */
+
+@10  = ~So, the Cult of the Black Hand is destroyed. I owe you my live, as it seems. Farewell!~  

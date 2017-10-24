@@ -1,0 +1,33 @@
+IF
+	See("NTWOLFVA")
+	See([PC])
+	Delay(6)
+THEN
+	RESPONSE #100
+		AttackReevaluate("NTWOLFVA",30)
+		Continue()
+END
+
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+

@@ -1,0 +1,20 @@
+APPEND ~CHARLE~
+
+IF WEIGHT #-1
+~Global("TalkedToCharleston","GLOBAL",2)~ THEN BEGIN NTQuest
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO NTNo
+  IF ~~ THEN REPLY @2 GOTO NTYes
+END
+
+IF ~~ THEN BEGIN NTNo
+  SAY @3
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN NTYes
+  SAY @4
+  IF ~~ THEN DO ~GiveItemCreate("NTPBlet1",LastTalkedToBy(),0,0,0)
+EscapeArea()~ UNSOLVED_JOURNAL @10001 EXIT
+END
+END

@@ -1,0 +1,10 @@
+IF
+  Global("NTSpawn","%NBaldursGate_House6_L1%",0)
+  Global("NTSwieca","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("FTOWB5",DestroySelf())
+    CreateCreature("NTSARQ",[458.210],0)
+    ActionOverride("Container 2",CreateItem("MISC74",1,0,0))
+    SetGlobal("NTSpawn","%NBaldursGate_House6_L1%",1)
+END

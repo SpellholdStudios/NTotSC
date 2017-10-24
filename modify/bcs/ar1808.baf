@@ -1,0 +1,9 @@
+IF
+  Global("NTotSCSpawn","%CloakwoodMines_Storehouse%",0)
+THEN
+  RESPONSE #100
+    ActionOverride("IRON6",DestroySelf())
+    CreateCreature("NTSELANI",[339.282],2)
+    SetGlobal("NTotSCSpawn","%CloakwoodMines_Storehouse%",1)
+END
+

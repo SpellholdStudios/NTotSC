@@ -1,0 +1,13 @@
+IF
+	Global("NT_CitadelHostile","GLOBAL",0)
+	!Allegiance(Myself,ENEMY)
+	OR(2)
+		Global("NTTalkedToLenore","GLOBAL",1)
+		Global("NTEldodIsFriendKrotan","GLOBAL",1)
+	Global("NT_TalkedToPC","LOCALS",0)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("NT_TalkedToPC","LOCALS",1)
+		StartDialogNoSet([PC])
+END

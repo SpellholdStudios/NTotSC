@@ -1,0 +1,7 @@
+IF
+	Global("NT_InsertGameDependentItems","MYAREA",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Conta01",CreateItem("PLAT06%eet_var%",1,0,0))
+		SetGlobal("NT_InsertGameDependentItems","MYAREA",1)
+END

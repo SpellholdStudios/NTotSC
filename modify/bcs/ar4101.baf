@@ -1,0 +1,8 @@
+IF
+  Global("NTCharlesTalk","%ArchaeologicalSite_Tomb%",1)
+THEN
+  RESPONSE #100
+    SetGlobal("NTCharlesTalk","%ArchaeologicalSite_Tomb%",2)
+    ActionOverride("CHARLESTON",StartDialogNoSet([PC]))
+END
+

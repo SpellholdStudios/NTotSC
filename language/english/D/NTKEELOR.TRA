@@ -1,0 +1,20 @@
+// #15043
+@0    = ~I still feel a little light-headed but I should be able to make it back to Beregost under my own power. Here, take my axe. It's too heavy for me to carry right now, anyway.~
+// #15737
+/* @1 -> @10027 */   
+// #15064
+@2    = ~You have been generous with your healing... Here, those gnolls didn't find this old amulet that I keep tucked into my boot. I hope it's enough of a repayment for your kindness. If you ever want to stop by and visit, I have a place in Beregost.~
+// #15738
+/* @3 -> @10028 */   
+// #15082
+@4    = ~You have been more than kind to a rough and battered dwarf. My sister, Nasha, is a cleric in the southern quarter of Baldur's Gate. If you ever need this favor returned, find her there and she will heal you.~
+// #15739
+/* @5 -> @10029 */   
+// #15083
+@6    = ~My leg... (moan)... damned gnolls... Please... heal me... (moan)... even a little bit... It hurts so... much... (moan)~
+// #15084
+@7    = ~The bones are setting just fine. Next time I'll have to take a few friends with me when I go gnoll-hunting.~
+// #15085
+@8    = ~(moan)...~
+// #15086
+@9    = ~First you heal me, now you want to kill me. I don't understand the workin's of your mind but damned if I'm gonna let you get away with this.~

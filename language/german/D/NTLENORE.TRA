@@ -1,0 +1,61 @@
+// #3182
+@0 = ~Bei Ilmater, bitte schickt ihn nach Hause. OH! Ihr... Ihr habt mich erschreckt. Ihr wurdet aus Baldurs Tor hergeschickt, nicht wahr? Seid mir willkommen, obgleich ich keinerlei Hoffnung hege, dass wir unsere... unsere Freunde jemals wiedersehen werden.~
+// #3189
+@1 = ~Sagt mir, was wisst Ihr über die verschwundenen Leute?~
+/* @2 -> @10033 */
+// #3190
+@3 = ~Was, glaubt Ihr, ist mit Euren verschwundenen Freunden geschehen?~
+// #3191
+@4 = ~Wo wart Ihr, als der letzte verschwand? ANTWORTET!~
+// #3183 (shortened to avoid repetition)
+@5 = ~Ich kannte... kannte sie alle, doch einen von ihnen kannte ich... am besten. Wir waren... wir... Montgomery und ich waren... nein, ich bring's nicht fertig, ich kann nicht davon sprechen! Dass er nicht mehr da ist, womöglich für immer, allein der Gedanke... es ist so ungerecht... Wir hatten uns am Abend zuvor gestritten, und er ist wütend weggelaufen. Unser Orden... missbilligt solche Verbindungen, aber jetzt ist er fort, und ich... Bitte, bitte findet ihn. Findet sie alle, und bringt sie wieder sicher nach Hause.~
+// #3192
+@6 = ~Ich werde mein Bestes für alle Betroffenen tun. Danke, dass Ihr Euch die Zeit genommen habt.~
+// #3184
+@7 = ~...Ich weiß nicht... Ich weiß nur, dass sie uns fehlen... den meisten von uns, wenn nicht allen.~
+// #3195
+@8 = ~Was meint Ihr damit? Wer vermisst sie nicht?~
+// #3185
+@9 = ~Ich... Ich hätte das nicht sagen dürfen. Man darf nicht schlecht von jemandem denken, wenn man keine Beweise hat. Es ist nur so... nun ja... es gibt durchaus welche, denen diese Geschehnisse ganz gelegen kommen.~
+// #3199
+@10 = ~Ein sehr interessanter Gedanke. Ich werde darüber nachdenken.~
+// #3186
+@11 = ~Bitte! Diese Menschen standen mir näher als meine eigene Familie! Wie könnt Ihr mir so etwas vorwerfen?~
+// #3202
+@12 = ~Stellt Euch nicht so an. Ich versuche nur, das hier zu erledigen.~
+// #3203
+@13 = ~Verzeiht mir mein Benehmen, aber dies ist eine unerfreuliche Angelegenheit. Könnten wir bitte noch einmal anfangen?~
+// #3187
+@14 = ~Alles das ist sehr schmerzhaft. Ich kann nicht einfach untätig herumsitzen und warten. Ich muss etwas unternehmen. Bitte, darf ich mich Euch anschließen? Ich muss erfahren, was mit meinem... mit meinen Freunden passiert ist.~
+// #6091
+@15 = ~Ich habe wenig Platz für Euch und noch weniger Zeit, Euch zu schützen. Diese Arbeit ist auch ohne zusätzliche Verpflichtungen schon gefährlich genug. Was könnt Ihr mir schon nützen?~
+// #6092
+@16 = ~Ich fürchte, meine Aufgabe ist auch ohne Eure Gesellschaft schon deprimierend genug. Ich würde Euch lieber nicht dabeihaben.~
+// #6093
+@17 = ~Es scheint mir nicht weise zu sein, Euch in Gefahr zu bringen, wenn ich Euch eigentlich beschützen soll. Ich verstehe, dass Ihr helfen wollt, aber es ist besser, wenn Ihr hier bleibt.~
+// #3188
+@18 = ~Oh, bitte lasst mich in Frieden! Ich habe auch ohne Eure Gegenwart schon genug zu erdulden.~
+// #3204
+@19 = ~Ich... Ich glaube schon. Das alles ist furchtbar schwierig...~
+// #3208
+@20 = ~Oh, bitte lasst mich in Frieden! Ich habe auch ohne Eure Gegenwart schon genug zu erdulden.~
+// #6094
+@21 = ~Verpflichtungen?! Ich bin für niemanden eine Gefahr außer für mich selbst! Aus meiner Anwesenheit erwachsen Euch keinerlei Nachteile. Im Gegenteil, ich kann Euch sogar nützlich sein. Der Abt hat's zwar nie erlaubt, aber … viele Bücher in der Burg beinhalten magisches Wissen für den, der danach sucht. Ich habe heimlich viele dieser Bücher studiert und wette, dass ich ein genauso guter Magier bin wie jeder von Euch. Ich werde NIEMANDEM zur Last fallen.~
+// #6096
+@22 = ~Studiert oder nicht, für Euch habe ich keine Verwendung. Ich werde ohne Euch weitermachen.~
+// #6097
+@23 = ~Nein. Obwohl Ihr aufgeweckt seid, kann ich keine Person mehr in Gefahr bringen als unbedingt sein muss. Es tut mir leid.~
+// #6098
+@24 = ~Wie könnt Ihr sagen, Ihr könnt nicht helfen? Es ist mir ein Rätsel, wie Ihr sagen könnt, Ihr würdet alles tun, was in Eurer Macht steht, wenn Ihr nicht einmal alles verwendet, was Ihr besitzt. Euch und uns allen möge Glück beschieden sein.~
+// contains parts of #6099
+@25 = ~Ich... verstehe. Nehmt wenigstens das hier. Nur jemand, der außer sich ist, könnte vielleicht hinter dem Verschwinden und diesem heimlichen Angriff auf die Zitadelle stecken, also verwendet dies, wenn Ihr meint, dass die Zeit gekommen ist. Es wird Euch helfen. Ich werde zwar große Probleme bekommen, wenn herauskommt, dass es fehlt, aber Euer Erfolg ist wichtiger. Ich fürchte um das Leben des tapferen Satos, der an Stelle unseres Hauptabts eingesprungen ist. Es wäre am besten, seine Sicherheit zu gewährleisten. Ich weiß nicht, was wir tun würden, verlören wir jetzt auch ihn!~
+// #6101
+@26 = ~Dieser Leichnam... er sieht aus wie... nein... NEIN!~
+// #6103
+@27 = ~Da ist ein Brief für mich... Er schreibt, er liebt mich... Seine letzten Worte... All das hätte... (schnief) Ich kann wohl nicht viel daran ändern. Vorwärts nun... wir müssen diesem Spuk ein Ende bereiten!~
+// #8748
+@28 = ~Ich... Ich kann nicht mit Euch reden. Ich möchte nur... allein gelassen werden.~
+// #8749
+@29 = ~Wenn Ihr meine Freunde seid, dann müsst Ihr meinen Montgomery finden. Bitte... Ich würde ihn so gern wiedersehen.~
+// #8969
+@30 = ~Geht mir aus den Augen! Für Euch werde ich nichts tun!~

@@ -1,0 +1,10 @@
+IF
+  Global("NTotSCSpawn","%CloakwoodWyverns%",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BTELITE",[2792.2862],2)
+    CreateCreature("BTELITE",[2828.2796],2)
+    CreateCreature("BTELITE",[2897.2849],2)
+    CreateCreature("BTELITE",[2894.2787],2)
+    SetGlobal("NTotSCSpawn","%CloakwoodWyverns%",1)
+END

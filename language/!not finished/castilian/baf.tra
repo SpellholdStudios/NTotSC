@@ -1,0 +1,11 @@
+//AR9PBA.baf
+@0    = ~De regreso habéis visto una isla pequeña, a pesar de las dificultades que tuvisteis para llegar a tierra con el fin de abasteceros de suministros para vuestro viaje. La isla no parece que esté habitada.~
+
+//CUTREST.baf
+@10    = ~Habéis tenido una inmensa necesidad de descansar.~
+
+//NTTOMBDO.baf
+@20   = ~¡Se dispara una trampa!~
+
+//SHIP.baf; SHIP1.baf
+@30   = ~Necesitáis obtener las cartas de navegación si queréis volver de forma segura al continente.~

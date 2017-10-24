@@ -1,0 +1,23 @@
+@0 = ~Greetings good adventurers! May I speak with you for a moment, please?~
+@1    = ~Tell me what do you need, but make it quick!~
+@2    = ~Leave me be.~
+@3    = ~Certainly, m'lady. Speak your mind.~
+@4 = ~I beg your pardon for disturbing your path, but I'm desperate. My husband was kidnapped by orcs from up north and my pleadings helped not at all... They came to our farm just north of Wyrm's Crossing and spirited him away! I don't know why they took him to their settlement in the Fields of the Dead... I beg you for help, please! I came here a week ago seeking help and no one wants to listen to my misery...~
+@5    = ~I ain't got the time for this.~
+@6    = ~I will do as you ask.~
+@7    = ~What is in it for me?~
+@8 = ~Oh, no... You were my final hope, and now I have none... Go away and leave me be with my sorrow...~
+@9 = ~The gods bless you! Thank you! The journey through the wastelands to the Fields of the Dead is very difficult, but with Pandris - my husband - we came from the north right across that wilderness, and settled just north of Baldur's Gate. The place I saw on that journey where they may have him now is a day from here or maybe a little longer if you start from the farms to the southeast. I'll be here, awaiting any news. Please, rescue him...~
+/* @10 -> @10076 */ 
+@11   = ~I wish I had some money. The last coins I spent were to hire mercenaries to exterminate zombies on our farm... I beg you - help him...!~
+@12   = ~I will do this for you.~
+@13   = ~I won't do it without payment.~
+@14   = ~You don't have any news about my husband yet, do you? Please hurry! His life is in your hands...~
+@15   = ~Oh! Is this a message from my husband...? Is he alive? You must be brave men indeed! Oh! Thank you, I have to hurry home! Good luck, friends!~
+/* @16 -> @10077 */ 
+@17   = ~Back again? Please leave me alone.~
+@18   = ~Perhaps. Please, can you tell us more about what's troubling you?~
+@19   = ~Don't get excited. I'm just checking whether you are still here...~
+
+/* new for v2.0 */
+@20   = ~He... he is dead, isn't he? (sob) Those blasted orcs! (sob)~

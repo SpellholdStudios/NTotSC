@@ -1,0 +1,10 @@
+IF
+  Global("NTDeadUtorByOrpeho","GLOBAL",1)
+  Global("NTBrentaw2Appears","GLOBAL",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("NTBrentaw2Appears","GLOBAL",1)
+    ActionOverride("NTBRENTA",StartDialogue("NTBRENTA",[ANYONE]))
+END
+

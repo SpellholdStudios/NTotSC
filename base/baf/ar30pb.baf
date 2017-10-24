@@ -1,0 +1,74 @@
+IF
+  OnCreation()
+  Global("NTKoboldaVersusMonkde","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("KOBOLDA",[2477.2900],0)
+    CreateCreature("KOBOLDA",[2456.2953],1)
+    CreateCreature("KOBOLDA",[2441.3009],0)
+    CreateCreature("KOBOLDA",[2445.3095],0)
+    CreateCreature("KOBOLDA",[2442.3115],1)
+    SetGlobal("NTKoboldaVersusMonkde","GLOBAL",1)
+    Continue()
+END
+
+IF 
+	Global("NTEldodIsFriendKrotan","GLOBAL",0)
+	Global("NT_EldodRestored","GLOBAL",0)
+	Global("NT_CitadelHostile","GLOBAL",1)
+	Global("NT_HostileMoveSatos","GLOBAL",0)
+	!Dead("NTSATOS")
+THEN
+  RESPONSE #100
+	SetGlobal("NT_HostileMoveSatos","GLOBAL",1)
+	CreateCreature("NTSATOS",[2857.2753],0)
+	DisplayStringHead("NTSATOS",@40)
+END
+
+IF 
+	Global("NTEldodIsFriendKrotan","GLOBAL",0)
+	Global("NT_EldodRestored","GLOBAL",0)
+	Global("NT_CitadelHostile","GLOBAL",1)
+	Global("NT_HostileMoveOrpeho","GLOBAL",0)
+	!Dead("NTORPEHO")
+THEN
+  RESPONSE #100
+	SetGlobal("NT_HostileMoveOrpeho","GLOBAL",1)
+	CreateCreature("NTORPEHO",[2857.2753],0)
+END
+
+IF 
+	Global("NTEldodIsFriendKrotan","GLOBAL",0)
+	Global("NT_EldodRestored","GLOBAL",0)
+	Global("NT_CitadelHostile","GLOBAL",1)
+	Global("NT_HostileMoveKamira","GLOBAL",0)
+	!Dead("NTKAMIRA")
+THEN
+  RESPONSE #100
+	SetGlobal("NT_HostileMoveKamira","GLOBAL",1)
+	CreateCreature("NTKAMIRA",[2857.2753],0)
+END
+
+IF 
+	Global("NTEldodIsFriendKrotan","GLOBAL",0)
+	Global("NT_EldodRestored","GLOBAL",0)
+	Global("NT_CitadelHostile","GLOBAL",1)
+	Global("NT_HostileMoveMordor","GLOBAL",0)
+	!Dead("NTMORDOR")
+THEN
+  RESPONSE #100
+	SetGlobal("NT_HostileMoveMordor","GLOBAL",1)
+	CreateCreature("NTMORDOR",[2857.2753],0)
+END
+
+IF 
+	Global("NTEldodIsFriendKrotan","GLOBAL",0)
+	Global("NT_EldodRestored","GLOBAL",0)
+	Global("NT_CitadelHostile","GLOBAL",1)
+	Global("NT_HostileMoveBrenta","GLOBAL",0)
+	!Dead("NTBRENTA")
+THEN
+  RESPONSE #100
+	SetGlobal("NT_HostileMoveBrenta","GLOBAL",1)
+	CreateCreature("NTBRENTA",[2857.2753],0)
+END

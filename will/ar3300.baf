@@ -1,0 +1,36 @@
+IF
+  Global("NTSpawn","%Beregost%",0)
+  LevelLT(Player1,4)
+THEN
+  RESPONSE #100
+    SetGlobal("NTSpawn","%Beregost%",1)
+    CreateCreature("NTWill2",[1858.310],6)
+END
+
+IF
+  Global("NTSpawn","%Beregost%",0)
+  OR(2)
+    Level(Player1,4)
+    Level(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("NTSpawn","%Beregost%",1)
+    CreateCreature("NTWILL4",[1858.310],6)
+END
+
+IF
+  Global("NTSpawn","%Beregost%",0)
+  LevelGT(Player1,5)
+THEN
+  RESPONSE #100
+    SetGlobal("NTSpawn","%Beregost%",1)
+    CreateCreature("NTWILL6",[1858.310],6)
+END
+
+IF
+  Global("NTGolinSpawnRing","GLOBAL",0)
+  GlobalGT("Chapter","GLOBAL",%tutu_chapter_1%)
+THEN
+  RESPONSE #100
+    SetGlobal("NTGolinSpawnRing","GLOBAL",1)
+END

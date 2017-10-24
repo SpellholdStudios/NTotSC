@@ -1,0 +1,30 @@
+IF
+	InMyArea("NTBRENTA")
+	OR(4)
+		Global("NT_HostileMoveBrenta","GLOBAL",1)
+		Dead("NTKROTAN")
+		Global("NTSatosInformedPB","GLOBAL",1)
+		Global("NTEldodComeEnemy","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("NTBRENTA",DestroySelf())
+END
+
+
+IF
+  Global("NTTalkedToShelton","GLOBAL",1)
+  Global("NTDeadUtorByOrpeho","GLOBAL",0)
+  !Dead("NTUTOR")
+  !Dead("NTKROTAN")
+  !Dead("NTBRENTA")
+  InMyArea("NTBRENTA")
+THEN
+  RESPONSE #100
+    ActionOverride("NTUTOR",DestroySelf())
+    CreateCreature("NTUTOR1",[360.444],0)
+    CreateCreature("NTORPEHO",[349.401],0)
+    ActionOverride("NTUTOR1",Kill(Myself))
+    SetGlobal("NTDeadUtorByOrpeho","GLOBAL",1)
+    Wait(1)
+END
+

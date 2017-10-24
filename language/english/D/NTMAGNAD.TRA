@@ -1,0 +1,21 @@
+@0 = ~Please travelers, forgive me that I dare to disturb you but this is not a joking matter.~
+@1 = ~That's alright. Tell us what is bothering you so much.~
+@2    = ~That's it. We've just arrived to the city and a crowd of people is hunting for our autographs...~
+@3 = ~I know that you probably have no interest in this, but where else can my wife and I seek help?~
+@4 = ~I was travelling with my wife to Elthurel, when our caravan was attacked by a horde of orcs. We fled in panic with all the others. Unfortunately, our children - Falton and Vanessa, were travelling with us. It's a shame for us, but in the confusion of the attack we lost track of our children... We came back as soon as possible, but we have found no sign of the caravan or our children! One of the wounded guards, whom we found nearby, told us that as the orcs were carrying off the prisoners they had been talking about Fealn Datoon... That is an ancient name of a land located north of here: Fields of the Dead. We don't know how to get there, let alone how to defeat the orcs and get our children back.~
+@5    = ~Well. That's a very sad story, but we don't have time to take care of it now. We have other tasks. Good bye.~
+@6 = ~We have never been north of Baldur's Gate but your story has caught our attention. We'll take care of it as soon as we can.~
+@7    = ~You can't do this to me. Think about it a bit more. I'll be waiting here.~
+@8    = ~Thank you... I think that you should go to Ulgoth's Beard. Maybe there you'll find someone who knows how to get to the Fields of the Dead. These are very dangerous and rather rarely visited areas. Good luck. I'll be waiting for you here.~
+/* @9 -> @10036 */
+@10   = ~Please, do not give up searching. We're in fear of our children...~
+@11   = ~Have you changed your mind?... We still can't find anyone who would be able to help us...~
+@12   = ~Yes, we'll take care of it.~
+@13   = ~No, not now.~
+@14 = ~Thank you! We really appreciate your help, but this gift is all we can offer you as a reward. We must go to our children now...~
+
+/* new for v2.0 */
+@15 = ~We know where that is. We will search for your children when we go there.~
+@16 = ~You saved our children!~
+@17 = ~Oh no!... My family! Why did you do this?!~
+@18 = ~Thank you! We will be ever so grateful.~

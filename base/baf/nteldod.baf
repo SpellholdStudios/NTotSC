@@ -1,0 +1,44 @@
+IF
+  OR(3)
+    SpellCastOnMe([PC],CLERIC_LESSER_RESTORATION)
+    SpellCastOnMe([PC],CLERIC_RESTORATION)
+    Dead("NTKROTAN")
+  Global("NT_EldodRestored","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("NT_EldodRestored","GLOBAL",1)
+    ChangeEnemyAlly(Myself,NEUTRAL)
+    Wait(2)
+    StartDialogNoSet([PC])
+END
+
+IF
+	!AreaCheck("AR34PB")
+	Allegiance(Myself,ENEMY)
+	Global("NT_CitadelHostile","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NT_CitadelHostile","GLOBAL",1)
+END
+
+IF 
+	!AreaCheck("AR34PB")
+	Global("NT_CitadelHostile","GLOBAL",1)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,ENEMY)
+END
+
+IF
+	AreaCheck("AR34PB")
+	HasItem("NTKEYPB5",Myself)
+THEN
+	RESPONSE #100
+		DestroyItem("NTKEYPB5")
+END
+		
+
+
+

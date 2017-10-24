@@ -1,0 +1,7 @@
+BEGIN ~NTBALEN~
+
+IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 DO ~Enemy()~ EXTERN ~NTCHOLGA~ 1
+  IF ~~ THEN REPLY @2 DO ~Enemy()~ EXTERN ~NTCHOLGA~ 2
+END

@@ -1,0 +1,20 @@
+// #3209 (change "Eldoth" to "Eldod")
+@0 = ~He, Ihr da. Im Gegensatz zu Eldod haben nicht alle Wachsoldaten etwas dagegen, dass Ihr hier seid.~
+// #3210
+@1 = ~Es ist gefährlich, sich dem Kommandanten so zu widersetzen.~
+// #3211
+@2 = ~Gut zu wissen, aber ich bezweifle, dass ich von großem Nutzen sein werde, wenn er in der Nähe ist.~
+// #3212
+@3 = ~Ich vertraue keiner der Wachen, solange er Euch befehligt. Lasst mich in Frieden.~
+// #3213 (change "Eldoth" to "Eldod")
+@4 = ~Eldod ist NICHT mein Hauptmann. MEIN Hauptmann ist ein anständiger Mann und hätte schon viel früher etwas unternommen. Durch Eldod ist die ganze Sache erst so richtig schlimm geworden. Das muss aber unter uns bleiben, klar? Von mir wisst Ihr nichts. Ich muss gehen.~
+// #3214
+@5 = ~Ich mache Euch keine Vorwürfe. Er scheint es förmlich darauf angelegt zu haben, uns hier zu isolieren. Manchmal habe ich fast den Verdacht, er hat wegen dieser Geschichte mit den verschwundenen Leuten den Verstand verloren. Na ja, es geht mich eigentlich nichts an. Ich habe schon zu viel gesagt. Ich muss gehen.~
+// #3215
+@6 = ~Ich habe meine Zweifel, ob auch nur einer von uns Euch irgendwie weiterhelfen kann, solange er die Befehlsgewalt innehat. Ich muss dieses Gespräch jetzt beenden, bevor er uns zusammen sieht. Lebt wohl.~
+// #8742
+@7 = ~Ich kann es mir nicht leisten, mit jemandem wie Euch gesehen zu werden. Geht!~
+// #8743 (change "Eldoth" to "Eldod")
+@8 = ~An Eurer Stelle würde ich mich vor Eldod in Acht nehmen. Dem kann man nicht trauen, glaubt mir!~
+// #8967
+@9 = ~Nach dem, was Ihr getan habt, sage ich kein Wort mehr!~

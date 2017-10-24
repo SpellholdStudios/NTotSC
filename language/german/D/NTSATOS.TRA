@@ -1,0 +1,34 @@
+// #3131 (change "Ajantis" to "<CHARNAME>")
+@0 = ~Ah, Ihr seid wohl <CHARNAME>, nehme ich an. Ich hoffe, Eure Reise ist ohne Zwischenfälle verlaufen. Meine Brüder und ich danken Euch für Euer Kommen, obgleich es uns unangenehm ist, dass wir Eure Hilfe benötigen. Außenstehende haben normalerweise keinen Zugang zur Burg, doch die besonderen Umstände machen ungewöhnliche Maßnahmen erforderlich. Sicherlich wurdet Ihr bereits von Herzog Eltan unterrichtet, worum es sich handelt. Acht Leute sind spurlos verschwunden, drei allein in den letzten beiden Tagen. Da wir hier völlig von der Außenwelt abgeschnitten sind, haben wir nicht die Mittel etwas zu unternehmen. Bitte tut was Ihr könnt.~
+// #3132
+@1 = ~Habt Ihr hier keine Wachen? Die Feste kann doch nicht VÖLLIG ungeschützt sein. Ich muss mit dem Kommandanten der Garde sprechen.~
+// #3133
+@2 = ~Welche Aufgabe habt Ihr hier? Ich weiß nicht mal Euren Namen.~
+// #3137
+@3 = ~Wo sind Eure übrigen Gefährten? Ich muss mit ihnen allen sprechen.~
+// #3134 (insert "Eldod")
+@4 = ~Für gewöhnlich verfügen wir tatsächlich über eine beträchtliche Anzahl von Wachsoldaten. Die meisten wurden jedoch gen Osten zum Küstenweg entsandt, wo sie sich an der Niederschlagung der Räuber beteiligen, die dort verstärkt ihr Unwesen treiben. Seither haben wir mit besagten Schwierigkeiten zu kämpfen. Unter den Vermissten sind zwei der verbliebenen Wachsoldaten, und auch der Hauptmann selbst wurde seit gestern nicht mehr gesehen. Wir haben einen Vertreter an seiner Statt ernannt, Eldod, den Ihr auf dem Burggelände antrefft.~
+// #3144
+@5 = ~Ich bin Euch für diese Informationen sehr verbunden und werde tun, was ich kann. Für mich alleine wird das jedoch recht schwierig sein.~
+// #3135
+@6 = ~Ich muss Euch um Verzeihung bitten, dass ich mich Euch noch nicht vorgestellt habe. Ich bin Satos, der amtierende Abt. Zwar ist es mir eine Ehre, diese Funktion wahrzunehmen; doch die Umstände, denen ich sie verdanke, sind von zuhöchst unglücklicher Art. Unser eigentlicher Klostervorsteher verschwand gleich ganz zu Anfang.~
+// #3146
+@7 = ~Ihr werdet einige von uns auf dem Burggelände antreffen, doch ich fürchte, dass die meisten zu erschüttert sind, um den Bergfried zu verlassen. Ich habe Anweisung erteilt, dass man Euch jede erdenkliche Unterstützung zukommen lässt.~
+// #3148
+@8 = ~Oh! Ich hatte vor, das zu erwähnen, doch dann vergaß ich's wohl. Ich bin infolge der Ereignisse ein wenig durcheinander. Herzog Eltan ahnte bereits, dass Ihr ein wenig Unterstützung gut würdet gebrauchen können, und so hat er für die Entsendung einiger Leute durch eine Söldnergilde gesorgt. Zugegebenermaßen eine etwas merkwürdige Kombination, doch bin ich sicher, dass Ihr mit den Söldnern gut auskommen werdet. Sie scheinen recht fähige Leute zu sein, auf ihre Weise. Es wäre gut, wenn Ihr Euch alsbald mit ihnen verständigen könntet.~
+// #3149
+@9 = ~Ähm... tja... was nun?~
+// #3150
+@10 = ~Ja... da nun alle Fragen geklärt sind, will ich Euch nicht länger von der Erfüllung Eurer Pflichten abhalten. Ihr könnt Euch nach Belieben auf dem Burggelände umtun und habt überallhin freien Zugang, außer zum Bergfried. Wegen der zahllosen wertvollen Bücher, die darin verwahrt sind, muss dieses Gebäude als einziges um jeden Preis verschlossen bleiben. Nicht dass wir Euch misstrauen würden; wir wollen lediglich jeden unnötigen Publikumsverkehr vermeiden. Ich hoffe, Ihr habt hierfür Verständnis. Entschuldigt mich nun bitte, ich muss mein Gebet verrichten.~
+/* @11 -> @10060 */ 
+// #3151
+@12 = ~Da vorn... viele von ihnen... müssen aufgehalten werden...~
+// #3152
+@13 = ~Nehmt dies... setzt ihm ein Ende, damit...~
+/* @14 -> @10061 */ 
+// #8972
+@15 = ~Es gibt nicht viel, was ich Euch sagen könnte, das ich nicht schon gesagt habe. Ich bitte Euch, helft meinen Brüdern.~
+@16 = ~Ihr habt Euch als vertrauenswürdig erwiesen. Die Zitadelle bleibt immer für Euch geöffnet.~
+@17 = ~Warum seid Ihr in solch einer Eile, meine Freunde? ~
+@18 = ~Wir haben die Ursache des Durcheinanders in Eurer Zitadelle gefunden! Ein Ungeheuer, genannt Krotan, das sich innerhalb des Mausoleums verbirgt, ist derjenige, der Eldod verzauberte! Eldod folgte seinen Befehlen, alle Eure Leute zu töten! Jetzt werden wir uns um diesen Schuft kümmern.~
+@19 = ~Das ist gut! Viel Glück! Ich werde sofort alle meine Leute dorthin senden, die Euch helfen könnten.~

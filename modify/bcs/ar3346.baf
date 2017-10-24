@@ -1,0 +1,18 @@
+IF
+  Global("NTSpawn","%Beregost_House04_L2%",0)
+THEN
+  RESPONSE #100
+    ActionOverride("SLEEPFH",DestroySelf())
+    ActionOverride("SLEEPMH",DestroySelf())
+    ActionOverride("BOYBE1",DestroySelf())
+    SetGlobal("NTSpawn","%Beregost_House04_L2%",1)
+END
+
+IF
+  Global("NTMummyDaddyWillCome","GLOBAL",2)
+THEN
+  RESPONSE #100
+    CreateCreature("NTOGREMU",[378.310],8)
+    SetGlobal("NTMummyDaddyWillCome","GLOBAL",3)
+END
+

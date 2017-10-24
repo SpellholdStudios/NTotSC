@@ -1,0 +1,979 @@
+@0    = ~NTotSC para BGT-Weidu~
+@1    = ~Flechas Venenosas~
+@2    = ~Estas son unas flechas normales que han sido preparadas con un veneno vegetal de rápida actuación.
+ESTADISTICAS:
+Daño:  1d6
+Tipo de daño:  proyectil (perforante)
+Especial:  Veneno
+Peso:  0
+Lanzada desde:  Arco~
+@4    = ~Flechas Infernales~
+@6    = ~A parte de su artesanía, se pueden observar como se han engarzado pequeñas runas de poder por toda su superficie. Es obvio el tiempo y el esfuerzo que se dedicó en su creación y aunque no sea aparente a primera vista, se puede ver como emana un brillo azul de las runas.
+ESTADISTICAS:
+Daño: 1d8+2 (+1d10 fuego)
+THAC0:  +2
+Tipo de daño:  proyectil (perforante)
+Peso:  0
+Lanzada desde:  Arco~
+@7    = ~Flecha de la Suerte de Llindellyn~
+@8    = ~Quizás esta felcha no sea diferente a las demás, a parte de los sentimientos de Llindellyn que le decían donde encontrarlos.~
+/*@10   = ~Estas flechas están envenenadas por Will usando una resina que gotea de su curioso mayal. Aprendió a utilizar el veneno siendo muy joven y puede preparar una cantidad suficiente para 5 flechas.
+ESTADISTICAS:
+Daño (proyectil): 1d6+1
+Especial:  Veneno
+Peso:  0
+Lanzada desde:  Arco~*/
+@11   = ~Flechas de Translocación~
+@12   = ~Normalmente, estas flechas tan peligrosas son raras y solo se encuentran algunas muestras. Como arma son casi inútiles, pero estratégicamente pueden volverse unos artefactos muy útiles. El guerrero con las habilidades adecuadas las puede hacer precisas en combate. Cuando la flecha golpea al objetivo, se teletransporta lejos del del campo de batalla para limitar el número de enemigos.
+ESTADISTICAS:
+Daño: 1d3
+THAC0:  Penalización -3
+Tipo de daño: proyectil (perforante)
+Especial:  
+  Después de un golpe exitoso, el enemigo se transfiere a un lugar aleatorio
+Lanzada desde: Arco~
+@14   = ~Hacha de Descarga~
+@16   = ~A parte de su artesanía, se pueden observar como se han engarzado pequeñas runas de poder por toda su superficie. Es obvio el tiempo y el esfuerzo que se dedicó en su creación y aunque no sea aparente a primera vista, se puede ver como emana un brillo azul de las runas.
+ESTADISTICAS:
+Daño: 1d8+2
+THAC0:  +2
+Especial:
+  50% de posibilidad de 1d3 de daño por electricidad
+  15% de posibilidad de atontar
+Tipo de daño:  Cuchillada
+Peso: 7
+Factor de velocidad: 7
+Talento marcial: Hacha
+Tipo: 1 mano
+Requisito: 10 Fuerza
+No lo puede usar:
+ Druida
+ Clérigo
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+@18   = ~Mayal de Choque Eléctrico~
+@20   = ~El mayal se compone de una asa de madera robusta unida a una barra de metal, una barra de madera con pinchos o una bola de metal con pinchos. Entre el asa y sus complementos hay o bien una visagra o un cadena.  Inicialmente el arma se usaba como herramienta para machacar el grano. Este mayal se ha mejorado mágicamente. Se puede ver como las runas brillan por toda la superfície.
+ESTADISTICAS:
+Daño: 1d6+4
+THAC0:  +3
+Bonificador de Clase de Armadura: 1
+Especial:
+  50% de posibilidades de +2d3 de daño eléctrico
+  10% de posibilidad de atontar
+Tipo de daño:  Aplastamiento
+Peso: 15
+Factor de velocidad: 7
+Talento marcial: Mayal/Lucero del alba
+Tipo:  1 mano
+Requisito: 11 Fuerza
+No lo puede usar:
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+@22   = ~Maza +3: "Profanadora"~
+@24   = ~El arma personal de Nirel, un clérigo poderoso, del cual no se conoce casi nada.  Sin embargo, la historia cuenta que fue un infame seguidor religioso con un inmenso odio a los seguidores de otras creencias.  Se dice que guardaba las cabezas de sus víctimas como trofeos.  Era el responsable de la profanación de cientos de templos de otras doctrinas; por lo que se ganó, al igual que su maza, el apodo de 'Profanador'.
+ESTADISTICAS:
+Daño: 1d6+4
+THAC0:  +3
+Tipo de daño: Aplastamiento
+Peso: 7
+Factor de velocidad: 6
+Talento marcial: Maza
+Tipo:  1 mano
+Requisito: 3 Fuerza
+Solo lo puede usar:
+ Clérigo con alineación maligna~
+@25   = ~Mayal de Batalla de Will~
+@26   = ~El mayal se compone de una asa de madera robusta unida a una barra de metal, una barra de madera con pinchos o una bola de metal con pinchos. Entre el asa y sus complementos hay o bien una visagra o un cadena.  Este mayal ha sido mejorada mágicamente, generando de forma efectiva una unión entre éste y su portador.
+ESTADISTICAS:
+Daño: 1d8+1
+THAC0:  +1
+Especial:
+  Cuando Will lleva este mayal, es capaz de crear 5 balas envenenadas
+Tipo de daño:  Aplastamiento
+Peso: 10
+Factor de velocidad: 6
+Talento marcial: Mayal/Lucero del alba
+Tipo:  1 mano
+Requisito: 13 Fuerza
+Solo lo puede usar:
+  Will~
+@27   = ~El mayal se compone de una asa de madera robusta unida a una barra de metal, una barra de madera con pinchos o una bola de metal con pinchos. Entre el asa y sus complementos hay o bien una visagra o un cadena.  Este mayal ha sido mejorada mágicamente, generando de forma efectiva una unión entre éste y su portador.
+ESTADISTICAS:
+Daño:  1d8+3
+THAC0:  +3
+Especial:
+  Cuando Will lleva este mayal, es capaz de crear 5 balas envenenadas
+  50% de posibilidad de ralentizar al objetivo en ataque exitoso
+  Fuerza +2
+  +10 a puntos de golpe máximos
+Tipo de daño:  Aplastamiento
+Peso: 10
+Factor de velocidad: 6
+Talento marcial: Mayal/Lucero del alba
+Tipo:  1 mano
+Requisito: 13 Fuerza
+Solo lo puede usar:
+  Will~
+@28   = ~Virotes Envenenados~
+@29   = ~Estos virotes normales han sido tratados con un veneno vegetal de actuación rápida.
+ESTADISTICAS:
+Daño:  1d8
+Tipo de daño:  proyectil (perforante)
+Especial:  Veneno
+Peso:  0
+Lanzado desde:  Ballesta~
+@31   = ~Botas Protectoras de Nirel~
+@33   = ~Estas son las Botas de Nivel, un clérigo poderoso, del cual no se conoce casi nada.  Sin embargo, la historia cuenta que fue un infame seguidor religioso con un inmenso odio a los seguidores de otras creencias.  Se dice que guardaba las cabezas de sus víctimas como trofeos.  Era el responsable de la profanación de cientos de templos de otras doctrinas.
+ESTADISTICAS:
+Tiradas de salvación:  Bonificador +1
+Resistencia mágica:  50%
+Peso:  3
+Solo lo puede usar:
+  Clérigo con alineación maligna~
+@35   = ~Arco de las Tormentas~
+@37   = ~Esta arma es sagrada para los guerreros al servicio de Talos, dios de las tormentas y la destrucción, y se ha visto usada en las manos adecuadas durante décadas.  Compuesto por varias capas de madera, el Arco de las Tormentas se ha usado contra miles de enemigos de la iglesia de Talos.  Recientemente, este arco estaba en posesión del Caballero de las Tormentas llamado Kalassan Brevered, que fué abatido después de derrotar a unos cuantos exploradores y druidas en las Islas Lunshae.
+ESTADISTICAS:
+Daño:  Bonificador +3
+THAC0: Bonificador +2
+Especial:  
+  +30% Resistencia eléctrica
+  1 ataque extra por asalto
+Peso:  3
+Factor de velocidad:  3
+Talento marcial: Arco corto
+Tipo:  2 manos
+Requisito: 5 Fuerza
+No lo puede usar:
+ Clérigo
+ Druida
+ Mago
+ Monje
+ Kensái
+ Caballero~
+@38   = ~Arco corto Emanador de Energía~
+@40   = ~Este arco emana calor a pesar de que parezca que está frío en las manos - como si el arco estuviera satisfecho por sus habilidades.
+Tales arcos a veces se encuentran en los fríos territorios como los de las Diez Ciudades, pero éste es excepcionalmente peligroso.
+ESTADISTICAS:
+Daño:  Bonificador +3
+THAC0: Bonificador +3
+Especial:
+  55% de posibilidad de hacer 2d3 de daño por fuego
+  1 ataque extra por asalto
+  +1 Constitución
+  30% de resistencia al fuego/frío
+Peso: 3
+Factor de velocidad: 7
+Talento marcial: Arco corto
+Tipo:  2 manos
+Requisito: 3 Fuerza
+No lo puede usar:
+ Clérigo
+ Druida
+ Mago
+ Monje
+ Kensái
+ Caballero~
+@42   = ~Arco largo compuesto de Vinoardiente~
+@44   = ~Hecho durante la época dorada de los élfos de Vinoardiente. Con un peso y equilibrio perfectos puede penetrar la armadura más resistente, y se vuelve un arma especialmente letal en manos de un elfo.
+ESTADISTICAS:
+Daño:  Bonificador +2 (proyectil)
+THAC0: Bonificador +2
+Especial: 1 ataque extra por asalto
+Peso: 3
+Factor de velocidad: 7
+Talento marcial: Arco largo
+Tipo:  2 manos
+Requisito: 15 Fuerza
+No lo puede usar:
+ Clérigo
+ Druida
+ Mago
+ Ladrón
+ Bardo
+ Monje
+ Kensái
+ Caballero~
+@46   = ~Guantes de Robo Maestro~
+@48   = ~Guantes de Robo Maestro: 'Dedos Hábiles'
+Estos guantes - conocidos por los adeptos del robo - fueron una vez propiedad del famoso carterista All An Woo-Dy.
+ESTADISTICAS:
+Robar bolsillos:  +25%
+Abrir cerraduras: +25%
+Peso: 1
+No lo puede usar:
+ Personajes legales
+ Otros que no sean ladrones y bardos~
+@50   = ~Proyectil Envenenado de Will~
+@52   = ~Estas balas, las cuales son preparadas por Will a partir de la resina que babea de su mayal, están envenenadas. Aprendió a usar el veneno siendo muy joven y puede preparar el suficiente para un total de 5 balas.
+ESTADISTICAS:
+Daño (proyectil): 1d5+2
+THAC0:  Bonificador +1
+Especial:  Veneno
+Peso: 0
+Lanzado desde:  Honda~
+@54   = ~Cota de Mallas +3: 'Armadura de Sage'~
+@56   = ~Creadas por Sage, uno de los Antiguos, para que le ayudara en su lucha contra el mal.  La tradición popular Antigua afirma que Sage fué un gran gerrero que raramente notaba el roce de sus enemigos en la batalla, aunque se dice que cuando eso sucedía se recuperaba rápidamente indistintamente de la fiereza del ataque o de la batalla.
+ESTADISTICAS:
+Clase de Armadura: 2
+Especial:
+  +5% Resistencia mágica
+  El usuario gana Regeneración
+Peso: 9
+Requisito: 6 Fuerza
+No lo puede usar:
+  Ladrón
+  Monje
+  Druida
+  Mago
+  Kensái
+  Arquero
+  Señor de las bestias
+  Acechador
+  Cambiaformas
+  Personajes de alineación maligna~
+@57   = ~Cota de Mallas élfica de Brujería~
+@58   = ~La Cota de Mallas élfica es alabada por su capacidad para el mago de lanzar conjuros cuando la lleva. Esta en particular está encantada para dar al portador más inteligencia, pero no gratuitamente.
+ESTADISTICAS:
+Clase de Armadura: 2
+Especial:
+  +1 Inteligencia
+  Conjuros extra de Nivel 4-6 para Sacerdote o Mago
+  -4000 Puntos de experiencia
+Peso: 8
+Requisito: 7 Fuerza
+No lo puede usar:
+  Monje
+  Druida
+  Kensái
+  Arquero
+  Señor de las bestias
+  Acechador
+  Cambiaformas
+Utilizable solo por:
+ Elfos y semielfos~
+@59   = ~Cota de Mallas +5: 'Mallas de Ebon'~
+@60   = ~Entregada al mejor guerrero y al sacerdote más resistente de la Mano de Ebon.
+ESTADISTICAS:
+Clase de Armadura: 0
+Especial: 5% Resistencia mágica
+Peso: 10
+Requisito: 6 Fuerza
+No lo puede usar:
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Kensái
+ Cambiaformas
+ Arquero
+ Señor de las bestias
+ Kensái~
+@61   = ~Cota de Mallas de Vinoardiente~
+@62   = ~Durante los momentos de prosperidad de Vinoardiente, se creó una versión especial de la ilustre cota de mallas élfica que añadía protección contra las tormentas de rayos que aparecían, a veces, por la zona.
+ESTADISTICAS:
+Clase de Armadura: 1
+Resistencia eléctrica: +30%
+Peso: 15
+Requisito: 8 Fuerza
+No lo puede usar:
+ Kensái~
+@63   = ~NeJ instalado, saltando la instalación de capas/mantos~
+@65   = ~Capa de Colores Fascinantes~
+@67   = ~Los orígenes de esta capa se han perdido en la nibla de los tiempos. Sin embargo, durante algún tiempo estuvo en posesión de Drosus, un mago con gran poder de Aguas Profundas. Drosus topó de forma tonta con un gran grupo de lobos de invierno en una expedición a las montañas del Espinazo del mundo, viéndose obligado a ponerse, para mantener el calor, una capa con tal resistencia.
+A primera vista, esta capa parece deslumbrar por su color blanco. Sin embargo, es de echo, un compuesto de cientos de colores, que bailan y juegan con cualquier fuente de luz. Esta mezcla tan fascinante de colores tiende a distraer y cegar, parcialmente, a cualquiera mirando directamente a su portador.
+ESTADISTICAS:
+La capa otorga un bonificador +3 a la Clase de Armadura y se puede llevar en combinación con cualquier otro encantamiento de protección - incluso sobre otra armadura mágica, no como la típica capa de protección.
+Clase de Armadura:  Bonificador +3
+Peso:  3
+No lo puede usar: 
+  Asesino de magos~
+@69   = ~Té de Momia~
+@71   = ~Sacerdotes de Horus-Re en la lejana Mulhorand fueron los primeros en crear este poción salva-vida.  Un brebaje nauseabundo, hecho por de tejidos hervidos de momia junto con restos de animales discados de forma natural.  El té resultante se puede consumir para neutralizar los efectos de las enfermedades.~
+@73   = ~Túnica de Namji~
+@75   = ~Un mago de Thesk llamado Namji fué el creador de esta poderosa túnica.  Aunque no tenga añadidas resistencias mágicas para el portador, es extremadamente útil para lanzadores de conjuros que se encuentran, a menudo, en situaciones peligrosas.  El mismo Namji fué un mago de batalla temerario que el encantaba lanzar conjuros en medio del meollo.  Fué temido por el uso de las Manos Ardientes de Namji, una adaptación del conocido conjuro Manos Ardientes.
+ESTADISTICAS:
+Clase de Armadura: 2
+Especial:  El portador se regenera 1 punto de golpe por asalto
+Peso:  5
+Utilizable solo por:
+  Mago (Solo)~
+@77   = ~Picadura Letal~
+@79   = ~El nombre original de esta curiosa espada se ha perdido en las profundidades del Mar de las Espadas.  Creada a partir de un hueso mágicamente endurecido, se cree, que esta arma, fué usada por los kuo-toa en sus rituales. El mango está hecho de coral envuelto por piel sahuagin.  Una vez fué propiedad de Lockhart, un ladrón aventurero prominente y contrabandista en la Costa de la Espada. Fué él el que le dió a la espada su actual nombre.
+ESTADISTICAS:
+Daño: 1d4+2
+THAC0:  +2
+Especial:
+  2% de posibilidad de lanzar Dedo de la muerte al objetivo
+Tipo de daño:  penetrante
+Peso:  1
+Factor de velocidad:  1
+Talento marcial: Daga
+Tipo:  1 mano
+No lo puede usar:
+  Clérigo
+  Señor de las bestias~
+@81   = ~Dardo con Punta envenenada~
+@83   = ~Este dardo parece como cualquier otro dardo, a parte de que a éste se le ha echado un veneno muy fuerte.
+ESTADISTICAS:
+Daño:  1d3
+Especial:  
+  Alta posibilidad de Envenenar al objetivo por 10 asaltos
+  Ataque extra por asalto
+Tipo de daño:  proyectil (perforante)
+Factor de velocidad: 2
+Talento marcial: Armas de proyectil
+Tipo:  1 mano
+Utilizable solo por:
+  Ladrón
+  Druida~
+@85   = ~Llave del Ministerio~
+@86   = ~Esta llave estaba en posesión del Duque Belt. Probablemente por alguna razón excepcional.~
+@88   = ~Anillo de la Tumba~
+@89   = ~Mirando a la superfície brillante del anillo, puedes ver una imagen reflejada de una habitación desconocida difícil de describir debido a la oscuridad que la cubre. El texto grabado en el anillo dice: "La Daga corta el círculo de piedras, el anillo da luz a la oscuridad".~
+@91   = ~Esta daga rústica parece inútil en una escaramuza, pero la magia la hace sensible. Cuando una parte se rompe, en un abrir y cerrar de ojos, una nueva sustancia repara el daño.~
+@92   = ~Llave del escritorio
+Llave de metal usada regularmente para abrir pequeñas cerraduras de cajas, cajones y escritorios. Así que posiblemente esta sea para ese uso.~
+@93   = ~Has recibido esta llave en la Ciudadela del Norte. Abre la entrada del Mausoleo.~
+@94   = ~Esta es la llave que guarda Meander, del altar de la Ciudadela del Norte.~
+@95   = ~Esta llave fué encontrada cerca del cuerpo de Haeball.~
+@97   = ~Armadura de las Sombras mejorada~
+@99   = ~La Armadura de las Sombras es una armadura de cuero tachonado creada para ser usada por los Maestros de las Sombras de Amn.  Los Maestros de las Sombras son la Orden más elevada dentro de la jerarquia de los Ladrones de las Sombras.  Es una armadura de cuero tachonado +3 que se funde con las sombras. Esta en particular se ha mejorado gracias a un gran ladrón de los Reinos. Sin dar mención a su nombre, y debido a que realmente era muy bueno, ¡nunca lo vió nadie partir hacia el más allá!
+ESTADISTICAS:
+Clase de Armadura: 0
+Especial:  +15% Ocultarse en las Sombras
+Peso: 1
+Requisito: 6 Fuerza
+Utilizable solo por:
+  Ladrón (Solo, dual y multiclase)~
+@100  = ~Armadura de Will con Manto~
+@101  = ~Taerom ha fabricado un buen conjunto de armadura de cuero, deberíamos visitarlo alguna vez - nunca se sabe si el viejo herrero puede mejorar esta preciosidad.
+ESTADISTICAS:
+Clase de Armadura: 4
+Especial:
+  +2 Salvación contra petrificación/polimorfarse
+  +1 Conjuro de mago adicional, niveles 1-4
+Peso: 15
+Solo lo puede usar:
+  Will~
+@102  = ~Taerom hizo un buen trabajo en esta armadura de cuero. Ahora la armadura de Will es realmente una protección bastante sólida.
+ESTADISTICAS:
+Clase de Armadura: 0
+Especial:
+  +3 Salvación contra petrificación/polimorfarse
+  +1 Suerte
+  +15% Resistencia eléctrica
+  +30% Resistencia al ácido
+  +1 Conjuro de mago adicional, niveles 1-8
+Peso: 15
+Solo lo puede usar:
+  Will~
+@103  = ~Armadura de cuero tachonado +3~
+@104  = ~Esta armadura fué propiedad del famoso Príncipe Bárbaro de la Nieve, Corbus Denolx de Greyhawk.  Cómo o porqué abandonó su posesión se desconoce.
+ESTADISTICAS:
+Clase de Armadura: 4
+Peso: 8
+Requisito: 6 Fuerza
+No lo puede usar:
+ Mago
+ Kensái~
+@105  = ~Armadura de cuero tachonado de Resistencia~
+@106  = ~La armadura de cuero tachonado tiene poco en común con la armadura de cuero normal.  Mientras la armadura de cuero es una coraza endurecida, la armadura de cuero tachonado es blanda y flexibe fijada con cientos de remaches de metal.  Los remaches están tan juntos entre ellos que forman una capa flexible de metal duro que resiste los cortes y golpes de los ataques.  El trasero blando de cuero sirve de poco más que asgurar los remaches en su lugar.
+ESTADISTICAS:
+Clase de Armadura: 4
+Bonificadores de resistencia:
+  +15% Resistencia a Penetración
+  +15% Resistencia a Cuchillada
+  +15% Resistencia al fuego
+  +15% Resistencia a la electricidad
+  +2 a salvación contra conjuros
+Peso: 15
+Requisito: 6 Fuerza
+No lo puede usar:
+ Mago
+ Kensái~
+@107  = ~Laúd~
+@108  = ~Laúd de Hirsuhnite~
+@109  = ~Este laúd tan delicado tiene cuerdas plateadas situadas en un marco de madera teñida y con incrustaciones de oro.  La artesanía parece exquisita, perfecta, y casi, inhumana.  Demasiado por el echo de que dedos no experimentados en tocar las cuerdas parecen emitir unos coros maravillosos.  Curiosamente, no hay un método visible para ajustarla, como si no fuera necesario. Un sentimiento sobrecogedor empieza a subir por la espalda cuando se observan los detalles de este intrumento tan bonito.~
+@110  = ~Laúd de Hirsuhnite 'La Audiencia Apaciguada'
+Este laúd de calidad es bien conocido por los Hiphroditas del este.  Se dice que es el origen del sueño.  Se rumoreaba que Hirsuhnite, un Bardo Hiphrodita, encontrándose een la amplitud de la noche, oyó una canción de rendición y la escribió con el laúd.
+ESTADISTICAS:
+Especial:  El objetivo se queda inconsciente
+Duración:  2 turnos
+Peso:  3
+Utilizable solo por:
+  Bardo~
+@112  = ~Escoba~
+@114  = ~Un equipo de lo más común utilizado en los Reinos, siempre tan práctico, que ninguna ama de casa respetada podría imaginar su existencia sin él. Esta copia no parece diferenciarse con otras, pero está ensuciada con una sustancia grasienta, con un olor especial, y equipada con un cinturón de seguridad con el agujero que hace posible fiajarla en su conjunto. Actuando con desesperación, también se puede usar para defender a alguien.
+ESTADISTICAS:
+Daño:  1d1+1
+Especial:  100% golpe crítico al impactar
+Tipo de daño:  Aplastamiento
+Peso: 3
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo:  2 manos
+Requisito: 5 Fuerza
+No lo puede usar:
+  Monje~
+@115  = ~Pergamino del Conocimiento~
+@116  = ~Estos pergaminos están hechos de un material no identificable y pueden contener grandes encantamientos mágicos. A veces estos pergaminos contienen poderosos encantamientos que cuando se activan permiten al individuo que los invoca, aprender o adquirir la magia impresa en la página. Se sabe que contienen conjuros de mago raros y olvidados de épocas pasadas, oraciones de clérigos olvidados o el poder de habilidades innatas.
+Este pergamino parece que continene la Habilidad Innata de Inmovilizar muerto viviente.~
+@117  = ~Estos pergaminos están hechos de un material no identificable y pueden contener grandes encantamientos mágicos. A veces estos pergaminos contienen poderosos encantamientos que cuando se activan permiten al individuo que los invoca, aprender o adquirir la magia impresa en la página. Se sabe que contienen conjuros de mago raros y olvidados de épocas pasadas, oraciones de clérigos olvidados o el poder de habilidades innatas.
+Este pergamino parece que continene la Habilidad Innata de Azote espiritual.~
+@118  = ~Estos pergaminos están hechos de un material no identificable y pueden contener grandes encantamientos mágicos. A veces estos pergaminos contienen poderosos encantamientos que cuando se activan permiten al individuo que los invoca, aprender o adquirir la magia impresa en la página. Se sabe que contienen conjuros de mago raros y olvidados de épocas pasadas, oraciones de clérigos olvidados o el poder de habilidades innatas.
+Este pergamino parece que continene la Habilidad Innata de Toque de curación.~
+@120  = ~A algunos sacerdotes les gusta llevar un pequeño símbolo de su deidad con ellos vayan donde vayan.  Tal diligencia solo puede ser recompensada.
+Especial: Permite aprender el conjuro "Muro de protección"~
+@121  = ~Montgomery~
+@122  = ~Este es el cuerpo de Montgomery.~
+@123  = ~Cuerpo sin identificar~
+@124  = ~El cuerpo que has encontrado, parece un cuerpo de un mago, pero considerando la condición de sus restos, no puedes estar seguro.~
+@125  = ~Rata muerta~
+@127  = ~Este símbolo creado artesanalmente es sagrado para el dios Helmo. El símbolo representa un guante de guerra con un ojo de mirada fija delante. El guantelete en sí, se ha creado con platino de calidad, el color blanco del ojo tallado de madre perla y un zafiro azul se ha usado para la pupila.~
+@128  = ~Gran Libro del Desconocimiento~
+@129  = ~Cuando pasas los capítulos del libro no puedes ver ninguna inscripción, pero a su vez sientes evidencias de que no recuerdas cual era el propósito de abrirlo.~
+@55130 = ~Cuerpo de Fey'Doch~
+@130  = ~Hierro de la mina~
+@133  = ~Pergamino de Charleston Nib
+Este pergamino enrollado contiene una nota corta sobre la localización de unas ruinas cerca del Puente de Vinoardiente. Está cerrado con un sello de mago sin nombre conocido, pero probablemente es algún tipo de llave para desactivar la barrera mágica.~
+@134 = ~Mucha información ilegible está garabateada en el papel, pero es posible leer algunos trozos:
+
+"...al final. Hasdar siempre trae buenas noticias. Ahora, con el trabajo del templo acabado, protegido contra cualquier intruso por el Bosque de Dientes Afilados, mis hermanos se pueden concentrar en el verdadero destino de la Mano Negra...................... con el Culto de Balor................... necesario."
+
+"¿Porqué demonios intenté volver a estas ruinas sumergidas del sur, que solían ser mías?... huyendo por el estiércol... ¡ahora encuentro que está perdido!... sin esa llave no puedo ni abrir mi propio escritorio... Precioso como es el lugar, y no es seguro... Debo ir allí de nuevo para encontrarlo... si no fuera por esa molesta agua...  el hombre no tiene otro lugar donde vivir más que en los pantanos..."
+
+"..malditos orcos estúpidos yendo locos por el Bosque de la Muerte... intentando encontrar un pasaje hacia... pero solo los antiguos druidas de nuestra hermandad conocen la combinación correcta de llaves para abrir la cripta y hemos ocultado cada llave....sin......la daga y el anillo de........nunca se podrá entrar............. en el templo del círculo de piedras..."
+
+"......efectivamente Shaella está loca..."~
+@135  = ~Mensaje para Yness~
+@136  = ~¡Querida!
+Los héroes a los que les has pedido ayuda me han salvado y han matado a los monstruos. Voy directo a la granja en una pieza, nos veremos allí. ¡Que los Dioses bendigan a nuestros salvadores!
+Tu Pandris~
+@137  = ~Tracea - creyente de verdad!
+Nuestro mensaje te llegará a tiempo para recibir tu sello y bendición después que llames a tu Señor. Nuestro culto está muy agradecido por tu ayuda y ten por seguro que tus actos no serán olvidados.
+D.~
+@141  = ~Hechando un vistazo más de cerca a esta armadura de placas, el metal parece encontrarse en un estado corpóreo, de ahí su parecido sombrío.  Al llevarlo puesto, hará que el portador parezca ocultarse como lo está la armadura.  También proveerá de protecciones extra contra armas de proyectil mientras el usuario esté en su estado de ocultación.
+ESTADISTICAS:
+Clase de Armadura: 0
+Especial: Bonificador CA +3 contra proyectiles
+Peso: 20
+Requisito: 12 Fuerza
+No lo puede usar:
+ Bardo
+ Druida
+ Mago
+ Ladrón
+ Explorador
+ Monje
+ Arquero
+ Acechador
+ Señor de las bestias
+ Cambiaformas
+ Bárbaro
+ Kensái~
+@142  = ~Cerveza embotellada de Bentley~
+@143  = ~El "Mesón del Brazo Amigo" es famoso por un brebaje de Bentley que por su precio es la bebida favorita de muchos viajeros que cruzan el lugar de los Espejosombra. Pero los efectos de tomarla son imprevistos.~
+@144  = ~Poción de Escudo de Fuego~
+@145  = ~Este poderoso elixir imbuye al bebedor con un escudo formado por la llamas de un fénix.  Los efectos son muy poderosos pero de corta duración.~
+@147  = ~La etiqueta en esta botella de vino dice "Rubor Marsémber - Buena Cosecha" y está formado por una combinación de especias afrutadas y de fragancias de rocíos florales. Los viñedos de Marsémber son bien conocidos por sus uvas, que dejan su sabor como la fragancia del aire salado del Mar de las Estrellas Fugaces. ~
+@148  = ~Botella de Vino élfico~
+@149  = ~Esta botella de vino élfico también tiene las propiedades de una poción de curación. Durante uno de los festivales élficos, los sacerdotes de la Mano de Seldarine una vez se emborracharon demasiado y accidentalmente añadieron un barril de vino élfico a una mezcla que era destinada para las pociones de curación.
+ESTADISTICAS:
+Cura 35 puntos de golpe
+80% de posibilidades de emborracharse durante 30 minutos~
+@151  = ~Anillo Mágico de Will~
+@153  = ~Will no quiere decir de donde viene el anillo, pero sus ventajas son raras y probablemente fué creado por un mago, amigo de Will.
+ESTADISTICAS:
+Reducción del daño mágico: 20%
+Solo lo puede usar:
+  Will~
+@154  = ~Anillo de Resistencia~
+@155  = ~Un anillo es un pequeño aro de metal precioso que se usa en joyería.  Algunos anillos están encantados y ofrecen varias habilidades mágicas.  Estos anillos son vistos, en gran parte, y especialmente, por aventureros. Sin motivo aparente, este anillo parece cálido al tacto.
+ESTADISTICAS:
+Bonificador de Clase de Armadura: 2
+Bonificadores de resistencia: 
+ +25% Resistencia al aplastamiento
+ +3 a salvación contra conjuros~
+@157  = ~Túnica del Archimago del Mal~
+@158  = ~ 'Velo Negro de Sauron'
+Esta túnica en particular de mago es el resultado de la gran habilidad de los poderes de brujo y de sacerdote de Sauron. Ofrece una protección típica para todas las formas de ataques físicos y al mismo tiempo aumenta la resistencia mágica y los tiros de salvación. También otorga la habilidad, para el mago que lo lleva, de crear puertas dimensionales, convirtiéndose una "sombra" de si mismo. Debido a la naturaleza de su encantamiento, solo pueden llevarlo magos de alineación maligna.
+ESTADISTICAS:
+Clase de Armadura:  5
+Resistencia mágica:  30%
+Tiradas de salvación:  Bonificador +1
+Habilidades especiales:
+  Puerta dimensional
+  Puerta de las Sombras
+Peso:  2
+Utilizable solo por:
+ Mago (Solo, dual y multiclase)
+ Personajes de alineación maligna~
+@159  = ~Manto de Chamán Orco~
+@160  = ~Los chamanes orcos a veces hacen sus ropas con materiales de baja calidad fijados a trozos de cuero, con acabados visualmente horribles, pesadas y normalmente sin interés alguno para los aventureros, por muchas ventajas que posean.
+ESTADISTICAS:
+Clase de Armadura: 4
+  40% Resistencia a electriccidad, fuego y frío
+  -5 Carisma
+  -3 Condición
+Peso: 35
+No lo puede usar:
+ Personajes de alineación buena~
+@162  = ~Escudo pequeño +2, 'Escudo de Acción Libre'~
+@164  = ~El portador es inmune a todo, mágico o no, que afecte a la mobilidad de cualquier forma, aunque todavía puede ir de prisa.   Hay que sabe, sin embargo, que este también protegera al usuario de efectos beneficiosos, como los que otorgan las botas de velocidad.
+ESTADISTICAS:
+Bonificador de Clase de Armadura: 3
+Especial: Sin protección a proyectiles
+Peso: 3
+Requisito: 4 Fuerza
+No lo puede usar:
+ Bardo
+ Druida
+ Mago 
+ Ladrón
+ Monje
+ Kensái~
+@166  = ~Escudo de Vinoardiente~
+@168  = ~Grabado con runas élficas por la cara, este escudo está hecho de algún metal duro que llegó a manos de los elfos.  Cualquier usuario de este escudo está seguro ya que reflejará cualquier golpe que le llegue.
+ESTADISTICAS:
+Bonificador de Clase de Armadura: 3
+Especial:  +1 contra Armas de proyectil
+Peso: 8
+Requisito: 15 Fuerza
+No lo puede usar:
+ Bardo
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Kensái~
+@169  = ~Escudo largo Reforzado~
+@170  = ~El escudo de cuerpo, conocido como el escudo cometa o escudo torre, es un escudo enorme de metal o madera que alcanza desde la barbilla hasta el pié del usuario.  Debe agarrarse fírmemente al antebrazo y la mano lo debe sujetar bien en todo momento.  Naturalmente, esto descarta el uso de la mano donde se equipa para nada más que esta utilidad.
+ESTADISTICAS:
+Bonificador de Clase de Armadura: 3
+Especial: Bonificador CA +1 contra Armas de proyectil
+Bonificadores de resistencia:
+  +15% Resistencia al fuego
+  +15% Resistencia al aplastamiento
+Peso: 12
+Requisito: 14 Fuerza
+No lo puede usar:
+ Druida
+ Bardo
+ Mago
+ Ladrón
+ Monje
+ Kensái~
+@172  = ~Guadaña del Licántropo~
+@174  = ~Raasi'doch de Velle pasó muchas lunas trabajando con los artesanos del Pueblo Errante en la creación de esta lanza de cazador encantada. El explorador elfo necesitaba un arma para exterminar a los hombres lobo que aterrorizaban los bosques de Tethyr. Como el propio hombre, aunque el arma está llena de ornamentos extravagantes siempre corta el aire con su filo.  Cuando la cruzada se terminó probablemente vendió su inventorio a algún militar famoso.
+ESTADISTICAS:
+Daño:  1d6+1, +1d6+1 a daño de cuchilla, bonificador +3 contra licántropos
+THAC0: +2, bonificador +3 contra licántropos
+Tipo de daño:  Penetrante y Cuchillada
+Peso: 5
+Factor de velocidad: 2
+Talento marcial: Lanza
+Tipo:  2 manos
+Requisito: 5 Fuerza
+No lo puede usar:
+ Clérigo
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+@175  = ~Guadaña de Eron~
+@176  = ~Eron el Consternado era un mago pesimista propenso a los duelos de magia.  Creía que la única forma de volverse fuerte en ese Arte era probar sus poderes contra otros magos.  Sin embargo, también creía que los ladrones y asesinos estaban constantemente buscando robar sus riquezas.  Para que pareciera de clase normal, llevaba las ropas de un peregrino y un simple bastón de olmo.  En realidad, el bastón estaba mágicamente encantado para ser más potente en combate, pero Eron no se quería arriesgar a advertir este echo.
+ESTADISTICAS:
+Daño: 1d6+3
+THAC0:  +3
+Especial: 80% para 1d8 de daño adicional de cuchilla
+Tipo de daño:  Aplastamiento
+Peso:  3
+Factor de velocidad:  1
+Talento marcial:  Bastón
+Tipo:  2 manos
+Requisito: 5 Fuerza
+No lo puede usar:
+ Monje~
+@177  = ~Bastón Misionero +3~
+@178  = ~Los bastones misioneros fueron creados originalmente en algún otro reino, pero han encontrado su forma de venir a Faerun. Normalmente están repletos de conjuros que ofrecen alguna protección, encantos o solo ofrecen simplemente conocimiento, así como también resguardan de algunos elementos. Este bastón en particular lanza Apertura, Armadura fantasmal, Detectar el mal, Curar heridas graves y Revivir a los muertos, cada uno con su orden, y sin límite. Además, ofrece protección al fuego como el anillo con este nombre y alguna resistencia contra la magia.
+ESTADISTICAS:
+Daño: 1d6+3
+THAC0:  +3
+Especial:
+  +40% Resistencia al fuego
+  +20% Resistencia mágica
+Tipo de daño:  Aplastamiento
+Peso: 4
+Factor de velocidad: 2
+Talento marcial: Bastón
+Tipo:  2 manos
+Requisito: 5 Fuerza
+No lo puede usar:
+ Luchador
+ Paladín
+ Explorador
+ Ladrón
+ Bardo
+ Monje~
+@179  = ~Bastón +3: 'Succionador de Sangre'~
+@180  = ~Este bastón de calidad estaba entre los regalos presentados como oferta de paz de los Nigromantes de Perregal a los Druidas de Erreth-Akbe cuando hubieron terminado sus 200 años..  Los Druidas por si solos nunca lo podrían haber usado, pero rechazar el regalo podría haber roto la paz.
+ESTADISTICAS:
+Daño: 1d6+3
+THAC0:  +3
+Especial: Vampírico
+Tipo de daño:  Aplastamiento
+Peso: 3
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo:  2 manos
+Requisito: 5 Fuerza
+No lo puede usar:
+ Monje
+ Personajes de alineación legal o neutra~
+@182  = ~Pesadilla del Troll~
+@184  = ~Esta Espada fue forjada por Kid'Seroki para combatir a sus enemigos de sangre, los trolls.  Después de robarles el Anillo Mágico del Troll, los dioses trolls habían enviado innumerables grupos de trolls en busca de Kid'Seroki para retomarlo. Para evitar esto, Kid'Seroki había añadido varias magias a esta espada y la llamó la Pesadilla del Troll.
+ESTADISTICAS:
+Daño: 1d10+3, +3 contra Trolls
+THAC0:  +3, +4 contra Trolls
+Especial:
+  +1d6 de daño adicional por fuego
+Tipo de daño: Cuchillada
+Peso: 5
+Factor de velocidad: 2
+Talento marcial: Espada larga
+Tipo: 1 mano
+Requisito: 4 Fuerza
+No lo puede usar:
+ Druida
+ Clérigo
+ Mago
+ Señor de las bestias~
+@185  = ~Espada del Dragón~
+@186  = ~Esta espada fue creada por un matadragones que perdió su vida en... bueno... su profesión.
+ESTADISTICAS:
+Daño:  1d10+1
+Tipo de daño:  Cuchillada
+Peso: 9
+Factor de velocidad: 9
+Talento marcial: Espada larga
+Tipo:  1 mano
+No lo puede usar:
+ Druida
+ Clérigo
+ Mago
+ Señor de las bestias~
+@188  = ~Filo Flamígero de Evalt~
+@190  = ~Esta potente arma fué creada por los herreros del antiguo Myth Drannor. Esta espada, que ha pasado de generación a generación, ha estado en la familia de Evalt durante centurias.  Esta espada en particular da resistencia al fuego y un bonificador a la clase de armadura.
+ESTADISTICAS:
+Daño: 1d8+3
+THAC0:  +3
+Especial:
+ Bonificador CA +1
+ +50% Resistencia al fuego
+Tipo de daño:  Cuchillada
+Peso: 4
+Factor de velocidad: 5
+Talento marcial:  Espada corta
+Tipo:  1 mano
+No lo puede usar:
+ Clérigo~
+@192  = ~Espada de Morridin~
+@194  = ~Morridin fué el sujeto de tantas bromas acerca de su espada.  Muchos bromeaban como un hombre tan pequeño no podía llevar una espada larga.  Aunque esos que se reían no lo hacían durante el tiempo suficiente o por segunda vez, debido a la gran precisión y habilidad con la que blandía su espada.
+ESTADISTICAS:
+Daño: 1d10+1
+THAC0:  +1
+Especial: +3 Destreza
+Tipo de daño: Cuchillada
+Peso:  5
+Factor de velocidad: 7
+Talento marcial: Armas a dos manos
+Tipo: 2 manos
+Requisito: 10 Fuerza
+Solo lo puede usar:
+ Bardo~
+@196 = ~Espada a dos manos del General Ghotal~
+@197 = ~Esta gran espada estuvo una vez en manos de Ghotal, líder famoso de las hordas orcas del Norte. Con ella pudo presionar instantáneamente a Luskan, Targos y otras ciudades, incluida Nuncainvierno. La fama de la espada era tal que hacía a muchos defensores no estar dispuestos a ofrecer una resistencia organizada. Pero Ghotal fue demasiado lejos cuando Targos fue finalmente conquistada y destruida. Las fuerzas aliadas de los elfos de Everaska y gente de otras ciudades norteñas, emboscaron al general y aniquilaron muchas de sus legiones. Sin embargo, el mismo Ghotal escapó del campo de batalla, pero fue herido de muerte. Nunca fue visto ni oído desde entonces, aunque una leyenda orca dice que hoy en día aún existe, esperando la oportunidad de causar estragos otra vez por todo el país.
+
+ESTADISTICAS:
+
+Daño: 1d12+5
+THAC0:  +5
+Especial:
+  40% de posibilidad de petrificar al objetivo con golpe exitoso
+Tipo de daño: Cuchillada
+Peso: 12
+Factor de velocidad: 9
+Talento marcial: Espada a dos manos
+Tipo: 2 manos
+Requisito: 13 Fuerza
+
+No lo puede usar:
+ Druida
+ Clérigo
+ Mago
+ Ladrón
+ Monje
+ Señor de las Bestias~
+@198  = ~Espada Larga 'Valarius'~
+@199  = ~Creada por el Rey Mago Varashar para el comandante de sus CaballerosMuerte.  La espada rápidamente se volvió legendaria por su habilidad de cortar a través de casi todo.  Se sabe que legiones enteras huían del campo de batalla al ver una espada tan legendaria.
+ESTADISTICAS:
+Daño:  1d8
+Especial: inflige Horror si golpe exitoso
+Tipo de daño: Cuchillada
+Peso: 3
+Factor de velocidad: 3
+Talento marcial: Espada larga
+Tipo: 1 mano
+Requisito: 10 Fuerza
+No lo puede usar:
+ Clérigo
+ Mago
+ Druida
+ Señor de las bestias~
+@200  = ~Espada a dos manos +1 'Orgullo de Dúrlag'~
+@201  = ~Espada a dos manos +1 'Orgullo de Dúrlag'
+ESTADISTICAS:
+Daño: 1d10+1
+THAC0:  Bonificador +1
+Tipo de daño:  Cuchillada
+Peso:  11
+Factor de velocidad:  9
+Talento marcial:  Espada larga
+Tipo:  2 manos
+Requisito: 13 Fuerza
+No lo puede usar:
+ Druida
+ Clérigo
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+@202  = ~Quietus~
+@203  = ~Espada antigua de origen desconocido.  Se rumoreaba que se encontraba en la Torre de Dúrlag.  Algunos dicen que la espada se forjó en Myth Drannor; aunque muchos sitúan la espada en manos de Sage el Antiguo.
+ESTADISTICAS:
+Daño: 2d2+2
+THAC0:  +2
+Especial: 5d2 de daño por ácido
+Tipo de daño: Cuchillada
+Peso:  0
+Factor de velocidad: 2
+Tipo: 1 mano
+No lo puede usar:
+ Clérigo~
+@204  = ~Fuego de Bhaal~
+@205  = ~Estas espadas se refieren normalmente a espadas de doble filo, espadas de guerra o espadas militares.  En muchos casos, la espada larga tiene solo un filo en la hoja. La espada larga no existe en este último caso; el diseño y la longitud varían de una cultura a otra, y puede variar incluso en la misma cultura dependiendo de la era.  Junto las características más comunes de todas las espadas largas, es su longitud, la cual oscila entre 0,9 y 1,2 metros.  En el último caso, la hoja puede llegar a 1 metro de la longitud total.  Muchas espadas largas tienen doble filo y una punta muy aguda.  A parte de la punta, la espada larga está diseñada para acuchillar, no para empujar. La hoja de esta espada está cubierta con todo tipo de símbolos arcanos.
+ESTADISTICAS:
+Daño:  1d8+3, +2d4 por fuego
+THAC0 :  Bonificador +3
+Especial: 15% de posibilidades de atontar
+Tipo de daño:  Cuchillada
+Peso: 4
+Factor de velocidad: 4
+Talento marcial: Espada larga
+Tipo: 1 mano
+Requisito: 6 Fuerza
+No lo puede usar:
+ Personajes de alineación buena
+ Druida
+ Clérigo
+ Mago
+ Ladrón
+ Señor de las bestias~
+@206  = ~Azote espiritual~
+@208  = ~Toque de curación~
+@209  = ~Muro de protección~
+@210  = ~Guardia esqueleto~
+@211  = ~Guardia esqueleto (Conjuración/Convocatoria)
+Nivel:  7
+Alcance:  20
+Duración:  4 horas
+Tiempo de lanzamiento:  5
+Area de efecto:  Especial
+Tirada de salvación:  No
+El lanzador convoca 4 Guerreros esqueleto para luchas con él en la batalla.~
+@213  = ~Nube incendiaria~
+@214  = ~Nube incendiaria (Evocación)
+Nivel: 8
+Alcance: A la vista del lanzador
+Duración: 4 asaltos +1d6 asaltos
+Tiempo de lanzamiento: 2
+Area de efecto: radio de 9 metros
+Tirada de salvación: 1/2
+Este conjuro levanta una fina y humeante niebla que llena el area de efecto y que en principio parece inofensiva. Sin embargo, un asalto después, chispea y se enciende, provocando 1-2 puntos de daño por fuego por nivel en el primer asalto. En el cuarto asalto hace de 1-4 puntos/nivel, y en el quinto asalto, de nuevo entre 1-2 puntos. Las tiradas de salvación pueden reducir el daño la mitad en cada asalto mientras dura. La nube continuará incendiándose durante cada asalto mientras dure el conjuro.~
+@215  = ~Maid~
+@216  = ~Sellanio~
+@217  = ~Haeball~
+@218  = ~Templo de Yondalla y Vinos de Calidad de Alvanhendar~
+@219  = ~Nuevos objetos y almacenaje instalado.~
+@220  = ~Instalando nuevas criaturas~
+@221  = ~Garra Negra de élite~
+@222  = ~Amelka~
+@223  = ~Archandra~
+@224  = ~Hermano Aschmaan~
+@226  = ~Assaia~
+@227  = ~Aurelinus~
+@229  = ~Balen~
+@230  = ~Caballero de la tumba~
+@231  = ~Cultista de la Mano Negra~
+@232  = ~Celador de la Catacumba~
+@233  = ~Brentaw~
+@234  = ~Brigand~
+@235  = ~Cholga~
+@236  = ~Caballero demoníaco~
+@237  = ~La muerte os da la bienvenida.~ [SHAEL_01]
+@238  = ~¡Aquí seréis derrotados!~ [SHAEL_03]
+@239  = ~~ [SHAEL_05]
+@240  = ~~ [SHAEL_06]
+@241  = ~~ [SHAEL_04]
+@242  = ~Cuentamuertes~
+@244  = ~Teddy el Cuentamuertes~
+@245  = ~Hermano Draagis~
+@246  = ~Hermana La Pequeña~
+@247  = ~Eldod~
+@248  = ~Elka~
+@249  = ~Essila~
+@250  = ~Falton~
+@252  = ~General Ghotal~
+@255  = ~Clérigo mediano~
+@256  = ~Hermano Hasdar~
+@257  = ~Hasten~
+@258  = ~¿Os podría estar ayudando?~
+@259  = ~¡Ahh!  ¡Esto es una locura!~
+@260  = ~¡Esto es una locura! ¡No tenemos necesidad de luchar entre nosotros!~
+@261  = ~~
+@262  = ~~
+@263  = ~Poco más tengo que decir. ~
+@264  = ~Habéis escuchado mis historias.  Nada ha cambiado desde que hablamos la última vez.~
+@265  = ~¡Dejadme!  ¡Estaré solo!~
+@266  = ~¡¡Malvado!!  ¡Solo es un niño!  ¡¡Ayuda!!~
+@267  = ~Salamandra de Fuego~
+@268  = ~Humbaba~
+@269  = ~Oogoor~
+@270  = ~Hobgod~
+@271  = ~Tanar'ri Menor~
+@272  = ~Kamira~
+@273  = ~Keelor~
+@277  = ~Koldar~
+@278  = ~Krestian~
+@280  = ~Legión~
+@281  = ~Lenore~
+@302  = ~Llindellyn~
+@303  = ~Lucretia~
+@304  = ~Magnad~
+@305  = ~Mariel~
+@306  = ~Milea~
+@308  = ~Que el conocimiento bendito de Oghma sea alabado.~ [MONKS01]
+@309  = ~~ [MONKS05]
+@310  = ~~ [MONKS06]
+@311  = ~Nos debemos apresurar, el sermón de Atlar va a empezar en unos minutos.~ [MONKS02]
+@312  = ~El conocimiento, usado sabiamente, es la más poderosa de las herramientas.~ [MONKS03]
+@313  = ~Perdonadme, pero llego tarde a mis clases.~ [MONKS04]
+@314  = ~Mardoroan~
+@315  = ~Nadalin~
+@316  = ~Natalka~
+@318  = ~La gente raramente tiene tiempo para una charla.~ [ELFFF01]
+@319  = ~~ [ELFFF05]
+@320  = ~~ [ELFFF06]
+@321  = ~Papá~
+@322  = ~Mamá~
+@324  = ~¿Cuál es vuestra historia?~ [GENFG14]
+@325  = ~~ [NOBLW05]
+@326  = ~~ [NOBLW06]
+@327  = ~Ordolath~
+@328  = ~Orpeho~
+@329  = ~Oupaste~
+@330  = ~Pandris~
+@331  = ~Paulia~
+@343  = ~Pooch~
+@346  = ~Reedrig~
+@347  = ~Rudier~
+@348  = ~Meandar~
+@349  = ~Kolchear~
+@351  = ~Sar'garin Ve'xelt~
+@354  = ~¿Necesitas algo?~ [GENFG07]
+@355  = ~~ [FTOWN05]
+@356  = ~~ [FTOWN06]
+@369  = ~Amigo de Krestian~
+@371  = ~Araña fantasma~
+@373  = ~Mi vida es un caos.~ [LOTHR02]
+@374  = ~~ [LOTHR03]
+@375  = ~~ [LOTHR04]
+@376  = ~Skipper~
+@377  = ~Tamael~
+@378  = ~Torqion~
+@379  = ~Tytus~
+@381  = ~Vanessa~
+@383  = ~Winorma~
+@384  = ~Draco de fuego~
+@385  = ~Yness~
+@387  = ~~ [ZOMBI03]
+@388  = ~~ [ZOMBI04]
+@389  = ~~ [ZOMBI05]
+@390  = ~~ [ZOMBI06]
+@391  = ~~ [SKELT08]
+@392  = ~~ [SKELT09]
+@393  = ~~ [ZOMBI01]
+@394  = ~~ [ZOMBI02]
+@395  = ~Will Scarlet O'Hara~
+@396  = ~¡Will Scarlet, a vuestro servicio!~ [WILL01]
+@397  = ~¿Alguien necesita asesinar?~ [WILL02]
+@398  = ~¡Esta vida me va como anillo al dedo!~ [WILL04]
+@399  = ~¿Y ahora qué?~ [WILL05]
+@400  = ~No está incluido en mis órdenes.~ [WILL06]
+@401  = ~Oh, no puedo.~ [WILL07]
+@402  = ~¡Bien, muy bien!~ [WILL08]
+@403  = ~¡Demasiadas cosas dejadas por hacer!~ [WILL10]
+@404  = ~¡Vamos, probad mi mayal!~ [WILL03]
+@408  = ~¡Todavía vivo!~ [WILL11]
+@409  = ~¡A la aventura!~ [WILL13]
+@410  = ~¿Imagina, quién va a morir?~ [WILL12]
+@411  = ~¡Me gusta - comprad un mayal!~ [WILL17]
+@412  = ~¡De nuevo fuera!~ [WILL18]
+@413  = ~Y algo bueno por hacer.~ [WILL19]
+@414  = ~¡Mi mayal y yo esperamos solo vuestras órdenes!~ [WILL20]
+@415  = ~¡Al fin, pero no demasiado pronto!~ [WILL21]
+@416  = ~¡Sangre, intestinos y entrañas!~ [WILL22]
+@417  = ~¿Alguien me necesita?~ [WILL23]
+@418  = ~No tengo nada contra esa idea, pero desafortunadamente no es posible.~ [WILL24]
+@419  = ~¡Qué dolor de cabeza!~ [WILL26]
+@420  = ~Me voy a contener. ¿Feliz?~ [WILL32]
+@421  = ~¡Ja! ¡Soy demasiado fuerte!~ [WILL34]
+@422  = ~Bueno Viconia, si fuera mecánico os engrasaría el motor cada dia.~
+@423  = ~A éste no lo volveremos a ver durante un rato.~ [WILL40]
+@424  = ~Si me entero de quién ha hecho esto.~ [WILL50]
+@425  = ~Scarlet Will, nombre familiar O'Hara, antes conocido como Will Tell Helm, pero no le tenía mucho cariño a su nombre y se las apañó para convencer a la gente local para cambiarlo. Ha estado viviendo en Beregost durante algún tiempo y encomienda la paz de la ciudad.  Está viviendo en buena relación con sus habitantes, aunque se ha vuelto famoso al participar en algunos escándalos. No obstante los habitantes elogian su presencia, gracias a su gran coraje, que ha mostrado últimamente, especialmente durante las emboscadas contra bandidos cercanos.~
+@426  = ~Nuevas criaturas instaladas.~
+@427  = ~Diálogos instalados.~
+@428  = ~Instalando areas nuevas y actualizadas.~
+@429  = ~La entrada a esta catacumba está protegida por magia poderosa. Necesitáis una llave para entrar.~
+@430  = ~Cuidado con el poder que encontréis aquí.  La puerta que no se debe abrir - abierta estará.~
+@431  = ~Víctimas orcas~
+@432  = ~Casa común de pescadores. Miras dentro y no ves nada realmente interesante.~
+@433  = ~Faro~
+@434  = ~Ciudadela Septentrional~
+@435  = ~Debe haber sido el vino o algo. No lo se. No lo puedo recordar.~
+@436  = ~Perseguido por un oso, por lo que se dió por muerto. Después no puedo recordar como pretendía estar vivo..~
+@437  = ~Retirado a la chimenea, chamuscado por el fuego y no tenía agua.~
+@438  = ~Había una orgía excitante que preparé, pero nadie vino.~
+@439  = ~Debe haber un cambio en el clima, mis huesos me lo dicen.~
+@440  = ~Así que, miento.~
+@441  = ~Realmente bonito. ¿Qué esperáis encontrar en las tumbas?~
+@442  = ~Cuidado con los lobos dentro de una piel humana.~
+@443  = ~No hay nada dentro a parte de un cuerpo putrefacto.~
+@444  = ~Estas escaleras una vez llevaban a otras habitaciones~
+@445  = ~Bosques de Dientes Afilados~
+@446  = ~Nuevas areas instaladas.~
+@447  = ~Instalando scripts~
+@448  = ~Ahora la descompresión de ficheros .tis de areas.~
+@500  = ~Aceite Llameante~ 
+@501  = ~Dentro de este pote de cristal hay una mezcla muy cara de aceite y otras sustancias químicas.  Cuando esta mezcla se enciende, arde durante varios segundos a altas temperaturas.  El Aceite Llameante es algo difícil de usar porque le lleva mucho tiempo al usuario de lanzarlo adecuadamente.  A menudos, los aventureros llevan aceite con ellos para lidiar contra los trolls en los momentos de desfortunio que se los encuentran.
+ESTADISTICAS:
+Cuando se lanza al objetivo, se rompe el pote de cristal, esparciendo el aceite llameante por todo en un radio de 1 metro y haciendo de 2-16 puntos de daño por fuego.
+Utilizable solo por:
+ Todos~
+@502 = ~Northern Coast~

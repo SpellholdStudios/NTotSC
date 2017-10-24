@@ -1,0 +1,134 @@
+IF
+  Global("NTKrotanAppears","GLOBAL",1)
+  Exists("NTKAMIRA")
+THEN
+  RESPONSE #100
+    ActionOverride("NTKamira",DestroySelf())
+    Continue()
+END
+
+IF 
+	OR(2)
+		Dead("NTORPEHO")
+		Global("NT_HostileMoveOrpeho","GLOBAL",1)
+	InMyArea("NTORPEHO")
+THEN
+  RESPONSE #100
+	ActionOverride("NTORPEHO",DestroySelf())
+	Continue()
+END
+
+IF 
+	OR(2)
+		Dead("NTKAMIRA")
+		Global("NT_HostileMoveKamira","GLOBAL",1)
+	InMyArea("NTKAMIRA")
+THEN
+  RESPONSE #100
+	ActionOverride("NTKAMIRA",DestroySelf())
+	Continue()
+END
+
+IF  
+	OR(2)
+		Dead("NTMORDOR")
+		Global("NT_HostileMoveMordor","GLOBAL",1)
+	InMyArea("NTMORDOR")
+THEN
+  RESPONSE #100
+	ActionOverride("NTMORDOR",DestroySelf())
+	Continue()
+END
+
+IF 
+	Global("NTTalkedToSatos","GLOBAL",1)
+	InMyArea("NTORPEHO")
+THEN
+  RESPONSE #100
+	ActionOverride("NTORPEHO",EscapeArea())
+	Continue()
+END
+
+IF 
+	Global("NTTalkedToSatos","GLOBAL",1)
+	InMyArea("NTKAMIRA")
+THEN
+  RESPONSE #100
+	ActionOverride("NTKAMIRA",EscapeArea())
+	Continue()
+END
+
+IF  
+	Global("NTTalkedToSatos","GLOBAL",1)
+	InMyArea("NTMORDOR")
+THEN
+  RESPONSE #100
+	ActionOverride("NTMORDOR",EscapeArea())
+	Continue()
+END
+
+IF 
+	Global("NT_HostileMoveSatos","GLOBAL",1)
+	InMyArea("NTSATOS")
+THEN
+  RESPONSE #100
+	ActionOverride("NTSATOS",DestroySelf())
+	Continue()
+END
+
+IF 
+	Global("NT_CitadelHostile","GLOBAL",1)
+	!Exists("NTORPEHO")
+	!Dead("NTORPEHO")
+THEN
+  RESPONSE #100
+	CreateCreature("NTORPEHO",[495.337],0)
+END
+
+IF 
+	Global("NT_CitadelHostile","GLOBAL",1)
+	!Exists("NTKAMIRA")
+	!Dead("NTKAMIRA")
+THEN
+  RESPONSE #100
+	CreateCreature("NTKAMIRA",[417.325],0)
+END
+
+IF 
+	Global("NT_CitadelHostile","GLOBAL",1)
+	!Exists("NTMORDOR")
+	!Dead("NTMORDOR")
+THEN
+  RESPONSE #100
+	CreateCreature("NTMORDOR",[351.346],0)
+END
+
+IF 
+	Global("NT_CitadelHostile","GLOBAL",1)
+	Global("NT_HostileMoveBrenta","GLOBAL",0)
+	!Dead("NTBRENTA")
+THEN
+  RESPONSE #100
+	SetGlobal("NT_HostileMoveBrenta","GLOBAL",1)
+	CreateCreature("NTBRENTA",[351.346],0)
+END
+
+
+IF
+  Global("NTSatosMustDie","GLOBAL",1)
+  !Dead("NTSATOS")
+  Exists("NTSATOS")
+THEN
+  RESPONSE #100
+    ActionOverride("NTSATOS",DestroySelf())
+    ActionOverride("GUARPB1",DestroySelf())
+    ActionOverride("GUARPB2",DestroySelf())
+    ActionOverride("GUARPB3",DestroySelf())
+    ActionOverride("GUARPB4",DestroySelf())
+    CreateCreature("NTSATOS1",[332.437],0)
+    CreateCreature("NTKAMIRA",[414.427],5)
+    SetGlobal("NTSatosMustDie","GLOBAL",2)
+END
+
+
+

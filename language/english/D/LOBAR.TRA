@@ -1,0 +1,17 @@
+@0    = ~We come here on business. We are interested in a certain book.~
+@1    = ~Obviously this case couldn't slip the attention of suspicious people. Not so long ago a Haalruan mage asked about her, just like you today. And my answer is simple. My beloved friend has lost her mind. The possesion of this book was my curse. But some time ago, a madman just like you removed the curse from me and probably he's cursed by it right now.~
+@2    = ~So how much will the information cost?~
+@3    = ~You're gonna prolong this forever? Tell us your price.~
+@4    = ~3000 gold pieces. If I tell you who has it, I'll need some adequate security for some time.~
+@5    = ~Ok, here is your money.~
+@6    = ~Unfortunately we do not have enough money right now... we'll come back later.~
+@7    = ~Okay, go to the Blushing Mermaid. You will find Oupaste there. He was the mediator in this transaction so he surely knows who he sold the book to. I have nothing more to say.~
+/* @8 -> @10002  */ 
+@9    = ~As you wish.~
+@11 = ~We come here on business. We are interested in a certain book.~
+
+/* new for v2.0 */
+@12 = ~I hope you will enjoy your stay.~
+@13 = ~I have the gold now.~
+@14 = ~Farewell.~
+@15 = ~Have a good day.~

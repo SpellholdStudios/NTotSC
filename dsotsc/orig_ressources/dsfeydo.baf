@@ -1,0 +1,47 @@
+IF
+  See([PC])
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+
+IF
+  ReputationLT(LastTalkedToBy,8)
+THEN
+  RESPONSE #100
+    SetGlobal("Feydoch","GLOBAL",1)
+END
+
+IF
+  See([PC])
+  NumberOfTimesTalkedTo(1)
+  TimerExpired(1)
+THEN
+  RESPONSE #100
+    SetGlobal("Feydoch","GLOBAL",1)
+    StartDialogNoSet([PC])
+END
+
+IF
+  See([PC])
+  AttackedBy([ANYONE],DEFAULT)
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    Enemy()
+    SetGlobal("Feydoch","GLOBAL",1)
+    StartDialogNoSet([PC])
+END
+
+IF
+  See([PC])
+  AttackedBy([ANYONE],DEFAULT)
+  NumberOfTimesTalkedTo(1)
+THEN
+  RESPONSE #100
+    Enemy()
+    SetGlobal("Feydoch","GLOBAL",1)
+    StartDialogNoSet([PC])
+END
+

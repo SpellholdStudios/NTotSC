@@ -1,0 +1,18 @@
+BEGIN ~NTMORDOR~
+
+IF ~~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXTERN ~NTKAMIRA~ 4
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN DO ~EscapeArea()
+~ EXTERN ~NTORPEHO~ 0
+END
+
+IF ~Dead("NTKROTAN")~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN DO ~EscapeArea()
+~ EXIT
+END

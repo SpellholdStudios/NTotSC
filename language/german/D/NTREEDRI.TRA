@@ -1,0 +1,13 @@
+@0 = ~Danke, wer auch immer Ihr seid. Ich bin auf einer wichtigen Mission nach Ulgoths Bart, und diese Bastarde hatten mich gerade gefangen genommen... Ich weiß nicht, was geschehen wäre, wenn Ihr nicht rechtzeitig gekommen wäret...~
+/* @1 -> @10059 */
+@2 = ~Willkommen! Was bringt Euch hierher?~
+@3 = ~Wir sind auf der Reise. So wie immer.~
+@4 = ~So wisst Ihr bereits alles über den Kult... Ich schaffte es nicht, rechtzeitig herzukommen wegen dieser verdammten Orks. Jetzt wartet nichts außer Unannehmlichkeiten auf mich in der Konklave... oder sollte ich sagen - der Tod...~
+@5 = ~Ihr redet von der Schwarzen Hand? Was planen sie?~
+@6 = ~Wir sind... der Kult der Schwarzen Hand ist eine Zusammenkunft von Kriegern und Magiern, geführt von Draagis... gar mächtig und ein Experte der alten Rituale. Deshalb interessiert er sich für verschiedene Artefakte und war mit den Anhängern des Baalor Kults im Kontakt. Wir planten, einen noch stärkeren Dämon herbeizurufen - den Prinz von Baalor. Aber ohne jenes von Traceas Kult verwendete Siegel wird die Zusammenarbeit zwischen unseren Kulten nicht zustande kommen... Ich muss jetzt verschwinden. Mir wäre lieber, der Kult würde nicht herausfinden, dass ich schlechte Nachrichten überbringe...~
+@7 = ~Wartet! Wo kann ich den Kult der Schwarzen Hand finden? Ich will ihn suchen und ihre Geißel beenden.~
+@8 = ~Nun gut - lebt wohl! Und viel Glück.~
+@9 = ~Wenn Ihr sie finden wollt, geht in den Scharfzahnwald, dann weiter nach Osten und ein bisschen nach Norden. Aber ich würde an Eurer Stelle kein herzliches Willkommen erwarten...~
+/* new for v2.0 */
+
+@10  = ~So, der Kult der Schwarzen Hand ist zerstört. Ich verdanke Euch mein Leben, wie es scheint. Lebt wohl!~ 

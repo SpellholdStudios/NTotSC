@@ -1,0 +1,23 @@
+@0 = ~Es ist schön, Euch zu treffen. Ich bin Nadalin.~
+@1 = ~Hallo. Ich bin Nadalin. Ich komme aus dem Norden, aus der Gegend, wo sich die Schwertküste in einen Golf mündet. Leider wurde mein Dorf durch einige Feuerungeheuer terrorisiert, und mein Boot ist jetzt das Heim einiger Sirenen. Ich entfloh dem Dorf, und jetzt lebe ich hier. Aber ich möchte zu meinen Aufgaben zurückkehren.~
+/* @2 = @10039 */ 
+@3 = ~Ihr habt nicht den Mumm, stimmt's? Das macht nichts, ich weiß, wie das ist. Ich könnte es selbst nicht tun.~
+@4 = ~Ihr habt es getan, richtig? Ich glaube, dass Ihr noch mehr Mumm habt, als mir lieb ist. Ich sage es nicht mit Vergnügen, aber wenn Ihr jemals Hilfe braucht, findet Ihr mich wahrscheinlich in der Nähe meines Boot in meinem Dorf.~
+/* @5 -> @10040 */ 
+@6 = ~Danke für Eure Hilfe. Jetzt kann ich zu meinem Dorf zurückkehren. Wenn Ihr mich jemals braucht, könnt Ihr mich in der Nähe von meinem Boot finden. Ich liebe meinen alten Kahn.~
+@7 = ~Ich bin kein Kämpfer, Freund.~ ~Ich bin kein Kämpfer, Freundin.~
+@8 = ~Willkommen, meine Freunde. Wie kann ich Euch helfen?~
+@9 = ~Ich möchte, dass Ihr uns zu einer von einigen Eissalamandern bewohnten Insel bringt. Habt Ihr jemals davon gehört?~
+@10 = ~Wir kamen nur vorbei, um zu sehen, wie Ihr zurechtkommt.~
+@11 = ~Ich denke, das habe ich, aber es ist ein gefährlicher Ort. Die Echsen greifen ohne Warnung an. Ich landete einst während eines Sturms auf dieser Insel. Ich schaffte es gerade so, davon zu kommen. Wollt Ihr jetzt dorthin reisen?~
+@12 = ~Ja, ich denke, dass wir aufbrechen können.~
+@13 = ~Nein, nicht jetzt. Aber es ist nett zu hören, dass Ihr uns helfen wollt.~
+@14 = ~Habt Ihr von dieser Insel bereits die Nase voll?~
+@15 = ~Ja, lasst uns von hier wegkommen.~
+@16 = ~Nein, wartet noch ein wenig länger.~
+@17 = ~Erneut willkommen, mein Freund. Wie kann ich Euch helfen?~
+@18 = ~Könntet Ihr uns zur Salamander-Insel bringen?~
+@19 = ~Sicherlich. Dann lasst uns loslegen.~
+@20 = ~Der Anführer eines Fischerdorfes hat uns von Euch erzählt. Wir haben die Probleme dort gelöst.~
+/* new for v2.0 */
+@21 = ~Willkommen zurück, meine Freunde!~

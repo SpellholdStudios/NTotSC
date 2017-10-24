@@ -1,0 +1,22 @@
+@0 = ~Seid gegrüßt, gute Abenteurer! Kann ich mit Euch bitte einen Moment sprechen?~
+@1 = ~Sagt mir, was Ihr braucht, aber macht schnell!~
+@2 = ~Lasst mich in Ruhe. ~
+@3 = ~Sicherlich, meine Dame. Sagt, was Ihr wollt. ~
+@4 = ~Ich bitte um Entschuldigung dafür, Euch aufzuhalten, aber ich bin verzweifelt. Mein Mann wurde von Orks aus dem Norden entführt, und meine Bitten halfen überhaupt nichts... Sie kamen zu unserer Farm genau nordlich der Brücke und schleppten ihn mit! Ich weiß nicht, warum sie ihn in ihre Ansiedlung in den Feldern der Toten brachten... Ich flehe Euch an, helft mir! Ich kam hier vor einer Woche an, um Hilfe zu suchen, aber keiner will von meinem Kummer hören...~
+@5 = ~Ich habe keine Zeit dafür.~
+@6 = ~Ich werde tun, worum Ihr bittet.~
+@7 = ~Was ist dabei für mich drin?~
+@8 = ~Oh, nein... Ihr wart meine letzte Hoffnung, und jetzt habe ich niemanden... Geht weg und lasst mich mit meinem Kummer alleine...~
+@9 = ~Mögen die Götter Euch segnen! Danke! Die Reise durch die Ödlande zu den Feldern der Toten ist sehr schwierig, aber mit Pandris - meinem Mann - gelangten wir aus dem Norden direkt durch diese Wildnis und ließen uns im Norden von Baldurs Tor nieder. Der Ort, den ich auf dieser Reise sah und wo sie ihn wohl festhalten, ist ein Tag von hier entfernt oder vielleicht ein wenig länger, wenn Ihr von den Farmen im Südosten losgeht. Ich werde hier auf Nachricht warten. Rettet ihn bitte...~
+/* @10 -> @10076 */ 
+@11 = ~Ich wünschte, dass ich etwas Gold hätte. Die letzten Münzen gab ich aus, um Söldner anheuern, um Zombies auf unserer Farm auszurotten... Ich bitte Euch - helft ihm...!~
+@12 = ~Ich werde es tun.~
+@13 = ~Ich werde es nicht ohne Bezahlung tun.~
+@14 = ~Ihr habt noch keine Nachrichten von meinen Mann, oder? Bitte beeilt Euch! Sein Leben ist in Euren Händen...~
+@15 = ~Oh! Ist das eine Nachricht von meinem Mann...? Ist er am Leben? Ihr müsst tatsächlich tapfere Kämpfer sein! Oh! Danke, ich muss nach Hause eilen! Viel Glück, Freunde!~
+/* @16 -> @10077 */  
+@17 = ~Wieder zurück? Lasst mich bitte allein.~
+@18 = ~Vielleicht. Bitte, könnt Ihr uns mehr darüber erzählen, was Euch stört?~
+@19 = ~Nichts Außergewöhnliches. Ich schaue nur, ob Ihr noch hier seid...~ 
+/* new for v2.0 */
+@20   = ~Er... er ist tot, nicht wahr? (schluchz) Diese verdammten Orks! (schluchz)~

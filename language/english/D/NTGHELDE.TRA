@@ -1,0 +1,17 @@
+// #15499
+@0    = ~Take your piety elsewhere, fools. It has no place here.~
+// #15500
+@1    = ~An old "friend" of mine took too close of a liking to some boots of mine. Her name's Pilar and she's probably hiding out at the Friendly Arm Inn, if I know her right. I don't care how you have to do it but I must have those boots back. ~
+// #15797
+/* @2 -> @10014 */ 
+// #15501
+@3    = ~I see you don't have my boots with you. Do not test my patience as I do not take well to enemies.~
+// #15502
+@4    = ~My boots... Just let me put these on for a moment...~
+@5    = ~Your service has been exemplary. Here is 90 gp for a rainy day...~
+// #15504
+@6    = ~Ah, my boots. You have done well. In payment, allow me to heal some of your wounds.~
+// #15505
+@7    = ~Your ongoing visits are less than discreet. I urge you to discontinue them at once.~
+// #15506
+@8    = ~Feeling brave, are we?~

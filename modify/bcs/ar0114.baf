@@ -1,0 +1,9 @@
+IF
+  Global("NTotSCSpawn","%NEBaldursGate_BlushingMermaid_L1%",0)
+//  Global("NTTalkedToLobarMage","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("NTOUPAST",[622.575],3)
+    SetGlobal("NTotSCSpawn","%NEBaldursGate_BlushingMermaid_L1%",1)
+END
+

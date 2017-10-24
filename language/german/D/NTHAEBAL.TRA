@@ -1,0 +1,58 @@
+@0 = ~Reisende sind hier in der Tat selten anzutreffen, aber seit kurzem erschienen des öfteren Fremde und gewaltbereite Wesen aller Art. Was kann ich für Euch tun?~
+@1 = ~Habt Ihr irgendetwas zu verkaufen? Lasst es uns genauer ansehen.~
+/* @2 -> @10016 */ 
+@3 = ~Ich komme gerade vorbei... und reise sofort weiter. ~
+@4 = ~Reisende sind hier tatsächlich selten anzutreffen. Die Gerüchte brodeln angesichts der Schwierigkeiten im Süden. Was kann ich für Euch tun?~
+@5 = ~Danke. Ich komme gerade vorbei und werde hier nicht länger bleiben.~
+@6 = ~Es tut mir leid. Ihr seid hier nicht willkommen; um genau zu sein, seid Ihr einfach überflüssig. Es ist höchste Zeit zu sterben, ihr wehleidigen Bälger!!!~
+/* @7 -> @10017 */ 
+@8 = ~Mein Verhalten tut mir leid, aber die Dinge stehen jetzt wirklich schlecht. Kürzlich starb ein enger Freund von mir in Baldurs Tor. Sein Name war Hasdar. Ich stellte ihn an, um einige Informationen zu bekommen, und jetzt hat die Sache ihn dahingerafft.~
+@9 = ~Eigentlich starb er durch unsere Hände. Und er war nicht solch ein freundlicher Gefährte wie Ihr sagtet. Aber die Zeiten sind nicht sicher. Woher sollten wir wissen, dass Ihr einander kanntet? ~
+@10 = ~Entschuldigung dafür. Könnten wir trotzdem helfen? ~
+@11 = ~Ihr solltet Euch schämen, unschuldige Leute zu töten. Aber andererseits war er nicht wirklich mein Freund, nur jemand, den ich anheuerte, um einige Artefakte für mich wiederzubeschaffen. Ich bezahlte das Dreifache dessen, was sie wirklich wert sind. Schicksal. Wenn wenigstens Ihr im Stande wäret, ihn zu ersetzen, wäre ich äußerst dankbar. Ich kann Euch ebenso gut bezahlen wie ihn.~
+@12 = ~Wir haben Lust, etwas Nützliches und Gewinnbringendes in der Gelegenheit zu tun... Unsere Ohren sind offen. ~
+@13 = ~Tut mir leid, wir haben jetzt viel zu tun. Vielleicht ein anderes Mal. ~
+@14 = ~Nun, passt auf. Ich suche nach zwei Gegenständen, tatsächlich genügt auch einer. Ich brauche jemanden, der sie für mich holt. Ich kann ausreichende Bezahlung anbieten.~
+@15 = ~Das erste Artefakt ist ein magischer Bogen, einst der Stolz von Elfen-Soldaten aus vergangenen Zeiten. Jedoch wurde ich unterrichtet, dass Fey'doch, ein Elf, der sich nördlich von hier im Elfenwald einquartiert hat, in den Besitz dieses wertvollen Gegenstandes gelangt ist. Vielleicht könntet Ihr ihn zurückkaufen. Ich werde alle Eure Ausgaben erstatten und 2500 Goldmünzen dazulegen.~
+@16 = ~Und der zweite Gegenstand...?~
+@17 = ~Das zweite Artefakt - eines, das ungleich wertvoller ist und für Magier meiner Art unschätzbar, ist Das Große Buch der Unwissenden. Man sagt, dass es in der Sammlung von Kerzenburg enthalten ist, aber wahrscheinlich ist die einzige Person, die nachweislichetwas weiß, Lobar, der Eigentümer der Leuchtenden Laterne im Hafenbezirk von Baldurs Tor. Ihm eine gediegene Summe Gold anzubieten wird sicherlich sein Gedächtnis "auffrischen". Natürlich kümmern mich die Kosten nicht, und ich werde Euch zusätzlich 5000 Goldmünzen geben.~
+@18 = ~Wir nehmen die Aufgaben an, aber ich werde Euch nichts versprechen.~
+/* @19 -> @10018 */ 
+@20 = ~Wir haben bereits diesen magischen Bogen. Wie viel ist er Euch wert?~
+@21 = ~Wir haben bereits Das Große Buch der Unwissenden. Wie viel ist es Euch wert?~
+@22 = ~Wir haben bereits diese beiden Gegenstände bei uns.~
+@23 = ~Wollt Ihr in diesem Fall meine Waren sehen, bevor Ihr geht? ~
+@24 = ~Wollen wir, zeigt uns, was Ihr habt. ~
+@25 = ~Das hat keine Eile, vielleicht ein anderes mal... ~
+@26 = ~Und Eure Belohnung sollt Ihr haben! Es scheint, dass dies das Ende unserer Zusammenarbeit sein wird, die Sachen gehören endlich mir - nichts für ungut, es ist rein geschäftlich... STERBT, ihr Bälger!~
+/* @27 -> @10020 */ 
+@28 = ~Habt Ihr über mein Angebot nachgedacht? Interessiert Ihr Euch dafür?~
+@29 = ~Könntet Ihr wiederholen, was Eure Aufgaben waren? Wir sind jetzt vielleicht interessiert.~
+@30 = ~Nein, haben wir nicht, wir brauchen mehr Zeit, um darüber nachzudenken.~
+@31 = ~Es scheint, dass das Böse in Euch erwacht, hi, hi, hi... Das ist sogar besser, mmmm?...~
+@32 = ~Das mag so sein, aber wir haben eines der Artefakte, die Ihr wolltet, und wir verlangen die Belohnung.~
+@33 = ~So, es ist vollbracht. Das Große Buch der Unwissenden ist zurück bei seinem rechtmäßigen Eigentümer. Und der Eigentümer ist sehr zufrieden.~
+@34 = ~Ihr scheint wirklich ziemlich zufrieden, aber die "Kosten", um das Buch wiederzubekommen, waren sehr hoch, und auch wir erwarten Entlohnung.~
+@35 = ~Ihr habt meine Gegenstände? Herrlich!~
+@36 = ~Ja, wir haben sie, und jetzt ist es Zeit für uns, entsprechend belohnt zu werden.~
+@37 = ~Habt Ihr nach meinen Gegenständen gesucht? Es kann einige Zeit dauern, wenn ich eine Vermutung wagen darf...~
+@38 = ~Gewiss waren wir es, aber wir haben Bedarf an einigen Eurer Waren.~
+@39 = ~Wie Ihr sehen könnt, suchen wir unablässig...~
+@40 = ~Ist Euer Name vielleicht Haeball?~
+/* @41 -> @10019 */ 
+@42 = ~Haeball, könnte ich Euch eine Frage stellen?~
+@43 = ~Ahhhh, das ist sehr nett. Es ist gut zu sehen, wie die Finsternis in Euch zunimmt, hi, hi... Wir werden später zu Eurer Belohnung kommen.~
+@44 = ~Was auch immer...~
+@45 = ~Wunderbar! Jetzt fort mit Euch, um den magischen Bogen zu finden, und wenn Ihr zurückkehrt, werden wir uns um diese Belohnung kümmern... hi, hi...~
+@46 = ~Sehr gut, wir werden zurückkehren, nachdem wir den Bogen wiederbekommen.~
+@47 = ~Das ist einer meiner vielen Namen, ja. Wie kann ich Euch helfen?~
+@48 = ~Einige Wesen, denen wir südlich von hier begegneten deuteten an, dass Ihr etwas über den Magier wissen könntet, der sie hier auf diese Ebene rief. Sie weigern sich, fortzugehen, es sei denn, ich bringe den Magier zu ihnen.~
+@49 = ~Ahhhh, ha ha ha, ja.... das Magierlein... der sie herbeirief, sagtet Ihr? Nun, wir alle wollen etwas, mich selbst eingeschlossen. Ich werde mit Euch ein Geschäft betreffs dieses Magiers machen, wenn Ihr wollt.~
+@50 = ~Nun, wenn ich irgendwelche Fortschritte mit dieser Suche machen will, habe ich keine andere Wahl.~
+
+/* new for v2.0 */
+// similar to @15
+@51 = ~Ich möchte, dass Ihr mir ein Artefakt bringt, ein magischer Bogen, einst der Stolz von Elfen-Soldaten aus vergangenen Zeiten. Jedoch wurde ich unterrichtet, dass Fey'doch, ein Elf, der sich nördlich von hier im Elfenwald einquartiert hat, in den Besitz dieses wertvollen Gegenstandes gelangt ist. Vielleicht könntet Ihr ihn zurückkaufen. Ich werde alle Eure Ausgaben erstatten und 2500 Goldmünzen dazulegen.~
+@52 = ~Da seid Ihr wieder! Habt Ihr nach meinem Bogen gesucht?~
+//similar to @49
+@53 = ~Ahhhh, ha ha ha, ja.... das Magierlein... der sie herbeirief, sagtet Ihr? Nun, wir alle wollen etwas, mich selbst eingeschlossen. Haltet Euch an den Handel, den wir eingegangen sind, und ich werde Euch mit diesem Magier helfen.~

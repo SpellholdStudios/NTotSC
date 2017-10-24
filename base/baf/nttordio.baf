@@ -1,0 +1,16 @@
+IF
+  Global("NTTorkionReadyToFight","Global",1)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+    Continue()
+END
+
+IF
+  Die()
+THEN
+  RESPONSE #100
+    ReallyForceSpell(Myself,RED_SWIRL)
+END
+

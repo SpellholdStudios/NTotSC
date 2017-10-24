@@ -1,0 +1,20 @@
+IF
+  Global("NTEldodIsFriendKrotan","GLOBAL",1)
+  Global("NTEldodIsSpawnedRoom","GLOBAL",0)
+  !Dead("NTELDOD")
+THEN
+  RESPONSE #100
+    CreateCreature("NTELDOD1",[725.625],0)
+    SetGlobal("NTEldodIsSpawnedRoom","GLOBAL",1)
+    ActionOverride("NTELDOD1",SetNumTimesTalkedTo(2))
+END
+
+IF 
+	PartyHasItem("NTPBLET7")
+	Global("NTAR20PBReveal_Northern_Coast","GLOBAL",0)
+THEN
+	RESPONSE #100
+		RevealAreaOnMap("AR20PB")
+		SetGlobal("NTAR20PBReveal_Northern_Coast","Global",1)
+		AddJournalEntry(@10005,QUEST)
+END

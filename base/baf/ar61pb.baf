@@ -1,0 +1,33 @@
+IF
+  Global("NTTalkedToHasdar","GLOBAL",4)
+  !Dead("NTHASDAR")
+THEN
+  RESPONSE #100
+    CreateCreature("NTHASDAR",[233.268],0)
+    SetGlobal("NTTalkedToHasdar","GLOBAL",5)
+    Wait(1)
+END
+
+IF
+  Dead("NTDRAAGI")
+  Global("NT_DestroyedCult","MYAREA",0)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@10017)
+    EraseJournalEntry(@10020)
+    EraseJournalEntry(@10037)
+    EraseJournalEntry(@10059)
+    EraseJournalEntry(@10085)
+    AddJournalEntry(@10102,QUEST_DONE)
+    SetGlobal("NT_DestroyedCult","MYAREA",1)
+END
+
+IF
+	Global("NT_InsertEEItems","MYAREA",0)
+THEN
+	RESPONSE #100
+		ActionOverride("Kontener1",CreateItem("%POTN55%",25,0,0))
+		SetGlobal("NT_InsertEEItems","MYAREA",1)
+END
+
+

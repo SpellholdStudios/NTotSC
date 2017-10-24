@@ -1,0 +1,61 @@
+// #3182
+@0    = ~By Ilmater, please, send him home. OH! You... you startled me. You are the one sent from Baldur's Gate, are you not? I welcome you, though I am all but without hope we will see our... our friends again.~
+// #3189
+@1    = ~Tell me, what did you know of the missing people?~
+/* @2 -> @10033 */    
+// #3190
+@3    = ~What do you think has happened to your lost friends?~
+// #3191
+@4    = ~Where were you when the last person went missing? SPEAK!~
+// #3183 (shortened to avoid repetition)
+@5 = ~I know... knew them all, though I knew... a great deal more about one of them. We were... we... Montgomery and I were... I cannot speak of this! To think of losing him... 'tis not fair you know... We fought the other night and he left so mad. Such unions are... frowned upon by our order, but now he's gone and I...  Please... find him. Find all of them, and bring them home safely.~
+// #3192
+@6    = ~I shall do my best for all concerned.  Thank you for your time.~
+// #3184
+@7    = ~...I know not...I only know they are sorely missed...by most if not all.~
+// #3195
+@8    = ~What do you mean by that?  Who does not miss them?~
+// #3185
+@9    = ~I...I should not have said that. It's unfair to think ill of another with no proof. It's just that... well... Some seem to have had much to gain in this loss.~
+// #3199
+@10   = ~An interesting point, to be sure. I will think on this.~
+// #3186
+@11   = ~Please! These people were closer than family! How could you accuse me so?~
+// #3202
+@12   = ~Cry me a river sweetheart, I'm just trying to get the job done.~
+// #3203
+@13   = ~Forgive my manner, but this is unpleasant business. Please, might we begin again?~
+// #3187
+@14   = ~This is all so painful. I must do something besides sit idly by. Please, might I join with thee? I need to know what has happened to my... to all my friends.~
+// #6091
+@15   = ~I have little room for you, and less time to protect you. This work is dangerous and I cannot have a liability along. What good will you be to me?~
+// #6092
+@16   = ~I fear my task is depressing enough without your company. I'd rather proceed without you.~
+// #6093
+@17   = ~It does not seem wise for me to lead you into danger when I am meant to protect. I understand your wish to help, but I think it is best that you stay here.~
+// #3188
+@18   = ~Oh please leave me be! There is pain enough without suffering your company too.~
+// #3204
+@19   = ~I...I suppose. This is all so difficult...~
+// #3208
+@20   = ~Oh please leave me be! I have pain enough without suffering your company too.~
+// #6094
+@21   = ~Liability?! I shall be a danger to no one but myself! You lose nothing with my presence. Indeed, I can be of some use to you. The Abbot never approved but... many tomes in the Keep hold magical knowledge for those that look. I have studied much in secret, and wager I am as good a mage as any of you could be. I will be NO liability.~
+// #6096
+@22   = ~Studied or not, I've no need of you. I will continue without you.~
+// #6097
+@23   = ~No. Even though you are eager, I cannot endanger a single person more than I have to. I am sorry.~
+// #6098
+@24   = ~How you can refuse help is beyond me!  It is a mystery how you can claim to be doing all you can, when you do not even exploit all your assets.  Luck be with you, for all our sakes.~
+// contains parts of #6099
+@25 = ~I...understand. Please then, at least take this. Only someone who is not himself could possibly be behind the disappearances and this surreptitious attack on the Citadel, so use this when you feel the time is right. This will help in your trials ahead. I shall be in great trouble when 'tis found missing, but your success is crucial. I fear for the life of brave Satos, filling in as he has in place of our Head Abbot. It would be best to be certain he remains safe. I don't know what we would do if we lost him now!~
+// #6101
+@26   = ~That body... it looks like... no... NO!~
+// #6103
+@27   = ~It's a note for me here... proclaiming his love with his dying words... all that could have been... Well (sniff), there is... little I can do here.  Onward... we must put an end to... to all of this.~
+// #8748
+@28   = ~I... I cannot speak to you. I just... wish to be left alone.~
+// #8749
+@29   = ~If you be my friends, then you'll find my Montgomery. Please... I so wish to see him again.~
+// #8969
+@30   = ~Get out of my sight!  I'll do nothing for you!~

@@ -1,0 +1,17 @@
+IF
+  Global("NTSpawn","%Beregost_House04_L1%",0)
+THEN
+  RESPONSE #100
+    ActionOverride("MTOWBE_C",DestroySelf())
+    CreateCreature("NTBOYBE1",[481.121],3) // Boy
+    SetGlobal("NTSpawn","%Beregost_House04_L1%",1)
+END
+
+IF
+  Global("NTMummyDaddyWillCome","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("NTOGREDA",[398.316],8)
+    SetGlobal("NTMummyDaddyWillCome","GLOBAL",2)
+END
+

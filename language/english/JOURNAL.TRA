@@ -1,0 +1,367 @@
+//@7 from bart5.tra
+@10000    = ~Will O'Hara
+
+Will's favorite weapon is back in his hands. I hope he can handle it correctly.~
+// @5 from Charle.tra
+@10001 = ~Warded Dungeon Under Firewine Bridge
+
+Charleston Nib, who we saved after his diggers went insane in Kozah's crypt, offered us an additional quest. There is a warded entrance on the Firewine Bridge leading into a new dungeon. However, "evil spirits" are dwelling inside and he is unable to explore them. He has asked us to clear them out for him.~
+// @8 from lobar.tra
+@10002  = ~The Great Book of the Unknowing
+
+Lobar directed us to the Blushing Mermaid in our task to find the magical Book of The Unknowing. We are to find Oupaste, the mediator of Lobar, who knows the recipient of the book.~
+// @1 from NT#DELTA.tra
+@10003  = ~Mystery at the Northern Citadel
+
+Duke Eltan has asked me to go to the Northern Citadel northeast of Baldur's Gate.  It seems that people have been disappearing from there. He wants me to find out what is really going on...~
+// @15 from NTARCHAN.tra
+@10004  = ~Isle of the Sirines
+
+Damn. I will have a date with Archandra if I can find a bottle of wine... Where can I get it from?~
+// @24 from NTAVERY.tra 
+@10005  = ~The Symbol of Helm 
+
+Avery revealed to us the history of Monoach, the founder of this stronghold. In the altar to Helm there is stored the Symbol of Helm. But no one knows what it may be used for. It is rumored that the key was given to some trusted friends of his who resides on an island far to the northwest for safekeeping.~
+//and @1 of NTPBWAT1.tra and @1 of NTPBWATC.tra 
+@10006    = ~Immediately after coming into the catacomb we were stopped by a ghost-knight. He didn't explain anything but attacked furiously...~
+// @6 from NTELDOD.tra
+@10007    = ~Mystery at the Northern Citadel 
+
+Finally, we managed to talk to Eldod, the guard captain of Northern Citadel. He behaved quite unsightly. That's really suspicious...~
+// @10 from NTELDOD.tra
+@10008    = ~Mystery at the Northern Citadel 
+
+The guard captain of Northern Citadel was furious for our sequential visits... and he left quickly...~
+@10009    = ~Mystery at the Northern Citadel
+
+The charmed guard captain of the Northern Citadel, finally released from the influence of the spell managed to tell us what power stands behind all these disappearances. It is Krotan - the ogre, who is preparing to capture the Citadel in the basement of the Mausoleum behind the Citadel.~
+@10010    = ~Mystery at the Northern Citadel~
+@10011    = ~Isle of the Sirines
+
+Sirine called Essila needs a cure 'cause she feels ill... Is it the head or the finger? And maybe she is just saying the truth?~
+//@1 from NTGGOTHA.tra
+@10012    = ~The Fields of the Dead
+
+Quite unrewarding, we finally got into the crypt of the orcs' respected leader... He took his sword and he and his cour attacked us... Dramatic experience...~
+//@3 from NTGGOTHA.tra
+@10013    = ~The Fields of the Dead
+
+When we finally got into the crypt that was so respected by the orcs, we were stopped by Ghotal himself and his court... Dramatic experience...~
+//@2 from NTGHELDE.tra 
+//#15797
+@10014    = ~Pilar and Gheldehar
+
+I stumbled across a dirty little gnome called Gheldehar in an alleyway today. He claims that Pilar, an old 'friend' currently staying at the Friendly Arm Inn, has stolen his boots and he would like to have them returned. As Gheldehar didn't seem to care how I might acquire them, I suspect his use of the term 'friend' was little more than window-dressing.~
+//@1 from NTGUARNC.tra
+@10015    = ~Mystery at the Northern Citadel
+
+We didn't meet a warm welcome as we walked into the Northern Citadel.~
+//@2 from NTHAEBAL.tra 
+@10016    = ~Haeball, a mage living in Larswood has a few choice items for sale.~
+//@7 from NTHAEBAL.tra 
+@10017    = ~The Cult of the Black Hand
+
+Well, well...! We pay a friendly visit with Haebal and we are met with weapons and black magic... What could this Haeball be hiding? We need to make a thorough search of his tower.~
+//@19 from NTHAEBAL.tra 
+@10018    = ~The Great Book of the Unknowing
+
+The mage Haeball, who lives in the tower in Larswood, southeast of the Friendly Arm Inn, sent us with the tasks to get the Great Book of Unknowing and a magical bow possessed by an elf who lives somewhere in the north. If we are lucky enough, we'll find both of them and earn some good money...~
+//@41 from NTHAEBAL.tra 
+@10019    = ~The Great Book of the Unknowing
+
+The mage Haeball, who lives in the tower in Larswood, southeast of the Friendly Arm Inn, sent us with the task to get a magical bow possessed by an elf who lives somewhere in the north. If we are lucky enough, we'll find it and earn some good money...~
+//@27 from NTHAEBAL.tra 
+@10020    = ~The Cult of the Black Hand
+
+So much for our labors being appreciated! We trudged our shoes to shreds and instead of the reward Haeball promised us, he tried to kill us! I don't know why, but I have the feeling that Haeball is not the last or only link of a greater chain...~
+//@16 from NTHASDAR.tra  
+@10021    = ~The Great Book of the Unknowing
+
+A man named Hasdar claims that the book does exist and that Lobar of the Low Lantern now has it. He is willing to give me 10,000 gold for it!~
+//@34 from NTHASDAR.tra  
+@10022    = ~The Great Book of the Unknowing
+
+I have returned the magical book to Hasdar, just to find that he planned to kill me. I should have expected this.  Unfortunately, I never got my money. If I ever meet him again, things will be different.~
+@10023    = ~Isle of the Sirines
+
+We left the isle of the friendly sirines, probably never to return.~
+//@3 from NTHUMBAB.tra 
+@10024    = ~Trouble at the Northern Coast
+
+The fishermen from a village on the Northern Coast asked us a favor and we "dropped by" a volcanic cave inhabited by some Fire Salamanders! We were challenged at the entrance by their sentry Humbaba so we had to gut him.~
+//@5 from NTHUMBAB.tra 
+@10025    = ~Trouble at the Northern Coast
+
+On the far Northern Coast we met a group of Fire Salamanders inhabiting the volcanic caves and terrorizing the local fishermen.~
+//@11 from NTHUMBAB.tra 
+@10026    = ~Trouble at the Northern Coast
+
+The meeting with the Fire Salamanders appeared to be very dangerous and we had to withdraw tactically for now...~
+//@1 from NTKEELOR.tra #15737
+@10027    = ~Keelor the Dwarf 
+
+Upon restoring Keelor to consciousness, the battered dwarf informed me that there are gnolls in the area. As has been made clear to me by Keelor's condition, they are becoming an ever-increasing threat.~
+//@3 from NTKEELOR.tra #15738
+@10028    = ~Keelor the Dwarf
+
+Upon restoring Keelor to consciousness, the battered dwarf informed me of the presence of gnolls in the area. As has been made clear to me by Keelor's condition, they are becoming an ever-increasing threat. I had better check in with him next time I pass through Beregost as I suspect he was in more pain than he chose to admit.~
+//@5 from NTKEELOR.tra #15739
+@10029    = ~Keelor the Dwarf
+
+Upon restoring Keelor to consciousness, the battered dwarf informed me that the gnolls have been increasing their presence in the area. As has been made clear to me by Keelor's condition, they represent a growing threat. In a move of unexpected kindness, he also offered the healing services of his sister, Nasha, a cleric in the southern quarter of Baldur's Gate, should I or my party ever require them.~
+//@6 from NTKOLDAR.tra 
+@10030    = ~The Fields of the Dead
+
+To the north of Baldur's Gate in the Fields of the Dead we met the lone ranger, Koldar who warned us about Orcs appearing in this area more often than they usually do. It looks like they are trying to solve the mystery of the ancient orcish sanctuary built in the woods.~
+// @10 from NTKRESTI.tra
+@10031    = ~Isle of the Sirines
+
+There is one more elf from Balduran's crew on the "Paradise Island". But it seems he likes the local climax, and his "girlfriends" are the most important for him now...~
+//@6 from NTKROTAN.tra 
+@10032    = ~Mystery at the Northern Citadel
+
+We met Krotan inside the mausoleum. He was preparing to take up the reigns of the Citadel. The guards and our "supporters" stood on the side of the enemy and the battle began... In the end Krotan and his "supporters" were killed.~
+//@2 from NTLENORE.tra 
+@10033    = ~Lenore and Montgomery
+
+In the Northern Citadel we met Lenore who hardly bears these disappearances. She cares for Montgomery most who is among the lost. We should look for him and maybe we'll manage to sooth the pain of Lenore.~
+//@2 from NTLLINDE.tra #15731
+@10034    = ~Llindellyn's Lucky Arrow
+
+Here I am, yet another lowly adventurer beating about the bushes, looking for some stranger's lucky arrow. I mean, Llindellyn is a nice enough guy but... shouldn't I be out slaying tarrasques or something?~
+//@11 from NTLUCRET.tra 
+@10035    = ~Isle of the Sirines
+
+Lucretia is ready to spend some nice time with me... But she wants some jewels in exchange... Women will never change...~
+//@3 of NTMAGDAD.tra (splitted in two: @10036 and @10106)
+@10036    = ~Rescue Magnad's and Winorma's Children 
+
+In Baldur's Gate we met Magnad and Winorma who lost their children during their journey to Elthurel after their caravan was attacked by a group of orcs. Magnad suspects that the orcs took their children to the Fields of the Dead, which are located somewhere north of Baldur's Gate.~
+//@18 of NTMEANDA.tra (split in two with @10087)
+@10037    = ~The Cult of the Black Hand
+
+Meander, the leader of the Ice Salamanders demands the destruction of the Cult of the Black Hand and the death of it's leader. Now, if only we knew how to find the cult, perhaps we could make some progress. Meander has suggested we search in Ulgoth's Beard and the Fields of the Dead for answers.~
+//@10 in NTMILEA.tra 
+@10038    = ~Isle of the Sirines
+
+Really nice sirine Milea, living on the magic island, likes to have demands in spite of what she says... And that is a paradise island!?~
+//@2 of NTNADALI.tra 
+@10039    = ~Nadalin the Fisherman
+
+In Baldur's Gate we met a friendly fisherman, Nadalin. It looks as though some very strange things are happening in the north in the village where he lived. He claims that Fire Salamanders have attacked his village and now no one can fish in the area. I must take a good look at the problem when I get up there.~
+//@5 of NTNADALI.tra (added content)
+@10040   = ~Nadalin the Fisherman  
+
+We have told Nadalin, who's a fisherman and a sailor, that we have destroyed the Fire Salamanders and Sirenes that were plaguing his village. He can now return to his homeland. He said he will be ready to take us in his boat, if we have the need.~
+@10041   = ~Trouble at the Northern Coast~
+//@1 of NTNIMFUR.tra #15715
+@10042    = ~Nim Furlwing's Hunting Hounds
+
+I feel more a fool than a hearty adventurer today. It appears I arrived too late and did too little to rescue the fine hunting hounds of a certain Nim Furlwing in the Wood of Sharp Teeth.~
+//@4 of NTNIMFUR.tra
+@10043   = ~Nim Furlwing's Hunting Hounds
+
+The Wood of Sharp Teeth, indeed! Today, I rescued the purebred hounds of Nim Furlwing from dire wolves and am, admittedly, still a little sore from the attempt.~
+// @2 of NTOLIVIA.tra #15792
+@10044   = ~Olivia and the Gulls
+
+The druid Olivia, in her seat by the sea, weaves her words as one would weave a spell. She yearns to be a gull, someday, and fly in their midst. It is a noble dream and, if I can grant it, I surely will, if for no other reason that to watch the beauty of her flight...~
+// @4 of NTOLIVIA.tra #15792
+@10045   = ~Olivia and the Gulls
+
+We have found the way to make the dreams of Olivia the druid come true. You can imagine how surprised we were when we realized her true nature...~
+@10046   = ~Olivia and the Gulls~
+@10047    = ~Nim Furlwing's Hunting Hounds~
+//@10 of NTORDOL.tra
+@10048   = ~Ordolath's Candle
+
+A strange man, Ordolath, whom we met in the wilderness west of Nashkel offered us 2000 gp and a precious item for bringing his candle from Baldur's Gate. He left it in his home in the North Ward, a white house behind a blue tower.~
+//@20 of NTORDOL.tra
+@10049   = ~Ordolath's Candle
+
+We have brought Ordolath the candle from his house in Baldur's Gate, and true to his word, before departing he gave us a fine wand from his collection. Sadly, it appears he forgot that he promised to pay us 2000 GP for our troubles as well. We'll need to keep an eye out for him in the future and remind him of this if we ever come across him again...~
+//@22 of NTORDOL.tra
+@10050   = ~Ordolath's Candle
+
+We have brought Ordolath's candle to him, and he has given us our reward,and disappeared into the mists. It seems that hardly do you get to know someone, then they are gone forever. A sad thing!...~
+@10051   = ~Ordolath's Candle~
+//@13 from NTOUPAST.tra (content added) 
+@10052   = ~The Great Book of the Unknowing
+
+Oupaste wasn't very helpful but he did say that the wizard he sold the book to lived in the Cloud Peaks south from the Fire Leaf Forest. I've been there before but I guess I'll have to return and search for a way to a pass.~
+//@6 from NTPANDRI.tra (splitted into several: @10053, @10097, @10098)
+@10053  = ~Rescue Pandris from the Orcs
+
+We rescued Pandris, Yness's husband from the orcs in the Fields of the Dead. He gave us a letter for his wife. I'm not only the life saver, now I'm the messenger to bring the good news, as well!~
+//@7 from NTPAULIA.tra 
+@10054  = ~Isle of the Sirines
+
+A sirine called Paulia likes grapes... But who doesn't, if they are fresh and sweet?~
+//@2 from NTPILAR.tra 
+@10055   = ~Pilar and Gheldehar
+
+Over a frothy ale at the Friendly Arm Inn, Pilar the half-elf has warned me of Gheldehar, an old gnomish cleric in Baldur's Gate. He still has an old ring of hers and, if I could ever get it back to her, she has promised to make the journey worth my while.~
+@10056  = ~Pilar and Gheldehar~
+//@5 from NTPRIHEL.tra 
+@10057  = ~The Locked Altar of Helm
+
+There is a locked altar in the citadel. That's interesting... It's said that Avery knows something about it. We must ask him if we get a chance...~
+//@7 from NTREDEDG.dlg #7120
+@10058    = ~The Thieves' Guild has had a lot of troubles since Angelo became commander of the Flaming Fist.~
+//@1 from NTREEDRI.dlg 
+@10059    = ~The Cult of the Black Hand
+
+We met a monk in one of the caves near the orcish camp in the Fields of the Dead. The orcs apparently wanted to martyr him. He was so grateful that he neglected to reward us and ran away quickly for his important mission to Ulgoth's Beard. Interesting that the orcs would be bothering a simple monk. This will need more investigating when we get to Ulgoth's Beard again.~
+//@11 from NTSATOS.dlg 
+@10060   = ~Mystery at the Northern Citadel
+
+There is a new abbot in the Northern Citadel after his predecessor disappeared together with seven other people. As it turned out, a group of three from Baldur's Gate came here as well; they were supposed to help us with the investigation, but it looks as if they have their own plans...~
+//@14 from NTSATOS.dlg 
+@10061   = ~Mystery at the Northern Citadel
+
+So the abbot Satos was killed as well before we managed to stop Krotan. Satos has given us the key to the Mausoleum. It's time for the showdown.~
+//@33 from NTSHAELL.dlg 
+@10062   = ~The Great Book of the Unknowing
+
+Shaella, a most interesting priestess of Leira, has sent me on a pilgrimage home to Candlekeep, wherein lies the Great Book of the Unknowing. To read from its pages, nay, even to touch it, confers upon a person the ignorance that only it can grant. I will speak with her again once I have found it.~
+//@45 from NTSHAELL.dlg 
+@10063   = ~The Great Book of the Unknowing
+
+Shaella, or rather Elnaedra now, says that I have found the book even though I didn't find it. What does that mean?~
+//@3 from NTSVLAST.dlg // #15713 
+@10064   = ~Svlast's Torment
+
+I have been witness to sad events within the Firewine ruins. An ex-paladin by the name of Svlast is being hunted by the spirit of his brother in the faith, whom he wrongfully killed. Never have I seen a more dejected and repentant soul than poor Svlast. He has begged us not to interfere but my heart does not rest easy with such a choice...~
+//@5 from NTSVLAST.dlg // #15703
+@10065   = ~Svlast's Torment
+
+Having survived the revenant's assault with our assistance, poor and wretched Svlast has begged us to complete its task... The day is dark within these ruins, and I fear it's growing ever darker.~
+@10066   = ~Svlast's Torment~
+//@1 from NTSZYPER.dlg (changed content)
+@10067   = ~Trouble at the Northern Coast
+
+Along the Northern Coast lives a small community of fishermen. It seems that monsters intruded into the area north of their village which frighten them badly: fire salamanders and sirenes!~
+//parts from @18 from NTSZYPER.dlg 
+@10068   = ~Trouble at the Northern Coast
+
+We eliminated the fishermen's problem with the Sirenes and Fire Salamanders along the Northern Coast.~
+//parts from @18 from NTSZYPER.dlg 
+@10069   = ~The Symbol of Helm
+
+The skipper from the village at the Northern Coast told us there would be an island like the one we are looking for nearby. He says that the way to this island is only known by a fisherman called Nadalin, who escaped from the village some time ago when the Sirenes and Fire Salamanders first appeared.~
+// @1 from NTTAMASS.dlg 
+@10070   = ~Isle of the Sirines
+
+Coming back from the island of werewolves, we stopped on a friendly looking island to replenish our supplies, which due to the hurry we couldn't do earlier. On the shore we were welcomed by some kind sirens, who live on the island. Maybe we should stay here for a while...?~
+// @18 from NTTORDIO.dlg 
+@10071   = ~Phantom East of Beregost
+
+A phantom, or phantoms, reside in the cave, east of the Song of the Morning Temple. This "something" tells stories about the vampire's revenge... It needs the Vampiric Sword and holy water or some true tough guys to "send" them to the beyond... We'll see what can be done.~
+// @24 from NTTORDIO.dlg
+@10072   = ~Phantom East of Beregost
+
+The phantom from the cave of Beregost received all the required items and finally it went away... they went away... It's time to peek into its chamber!~
+@10073   = ~Phantom East of Beregost~
+// @2 from NTWELT.dlg #15741
+@10074   = ~Rats for Pooch
+
+Welt, a man in the slums of Baldur's Gate who has mastered the art of the monosyllabic word and who looks, nay, even smells like an ogre has asked me to gather rats for his dog Pooch. He doesn't look like the type one would typically say no to...~
+// @1 from WENRIC.tra 
+@10075   = ~The Fields of the Dead
+
+A farmer from North of Baldur's Gate told us about unusual activity of orcs in the area. Those are kidnapping villagers and they seem to be very dangerous. I should investigate this in the near future.~
+// @10 from NTYNESS.tra
+@10076   = ~Rescue Pandris from the Orcs
+
+We must move to help Pandris, a farmer that lives near Baldur's Gate. He has been kidnapped by orcs from the Fields of the Dead. The orcs have become active recently. I wonder why...~
+// @16 from NTYNESS.tra
+@10077   = ~Rescue Pandris from the Orcs
+
+We brought Yness a message from her husband, who we saved from Orcs' hands. She was very pleased, but she didn't have any money to pay.~
+@10078   = ~Rescue Pandris from the Orcs~
+// @26 from WILL.tra 
+@10079   = ~Will O'Hara
+
+There is an unusual young man living in Beregost - Will Scarlet, though some call him Will Tell Helm. I decided to take him with me, his extraordinary abilities and verve can appear helpful one day...~
+// @37 from WILL.tra
+@10080   = ~Will O'Hara
+
+Will pledged his original flail at Feldepost's for a thousand gold coins. I should consider taking it back. He also ordered a new armor at smithery of Taerom Thunderhammer in Beregost. If we have the money it will be available for ... 5000 gold coins...! My new friend is "precious" indeed!~
+@10081   = ~Will O'Hara~
+@10082   = ~The Fields of the Dead~
+@10083   = ~Isle of the Sirines~
+@10084   = ~The Cult of the Black Hand~
+@10085   = ~The Cult of the Black Hand
+
+Reedrig said the Cult of the Black Hand can be found northeast in the Wood of the Sharp Teeth.~
+@10086   = ~The Symbol of Helm~
+//@18 of NTMEANDA.tra (split in two with @10037)
+@10087    = ~The Symbol of Helm
+
+Meander, the leader of the Ice Salamanders has refused to even consider talking about the key to the locked altar in the Northern Citadel, until after the destruction of the Cult of the Black Hand and the death of it's leader.~
+@10088    = ~The Symbol of Helm
+
+We received the key to the locked altar in the Northern Ciradel from Meander, the leader of the Ice Salamanders.~
+@10089    = ~The Symbol of Helm
+
+We received the Symbol of Helm out of the altar in the Northern Citadel.~
+// similar to @10069 (if Nadalin already returned home)
+@10090   = ~The Symbol of Helm
+
+The skipper from the village at the Northern Coast told us there would be an island like the one we are looking for nearby. He says that the way to this island is only known by the fisherman Nadalin.~
+@10091   = ~The Symbol of Helm
+
+Nadalin, the fishermen from the Northern Coast, returned to his boat and is ready to take us to other places if we want to.~
+@10092   = ~The Tanar'ri in the Cloud Peaks~
+@10093   = ~The Tanar'ri in the Cloud Peaks
+
+I met several Tanar'ri in a dungeon in the Cloud Peaks who offererd to return to their home plane peacefully if I bring them the corpse of the mage who summoned them. They mentioned someone named Haeball I should talk to.~
+@10094   = ~The Tanar'ri in the Cloud Peaks
+
+Maybe I shouldn't have asked - now the Tanar'ri insist on receiving the bow of a captain Fey'doch...~
+@10095   = ~The Great Book of the Unknowing
+
+I found the Great Book of the Unknowing! I think.~   
+@10096   = ~Nadalin the Fisherman~
+//@6 from NTPANDRI.tra (splitted into several: @10053, @10097, @10098)
+@10097   = ~Rescue Magnad's and Winorma's Children
+
+We rescued Magnad's and Winorma's children from the orcs. They can return to their parents now.~
+@10098   = ~The Fields of the Dead
+
+Pandris, who we saved from the orcs, told us the orcs had some conflict with a cult in the area. He also mentioned the orcs were actively trying to enter an abandoned chapel in the Wood of the Dead to the southeast. We should go investigate this.~
+@10099   = ~Rescue Magnad's and Winorma's Children~
+@10100   = ~Svlast's Torment
+
+I decided to make an end to Svalst's torment, just as he wished.~
+@10101   = ~Svlast's Torment
+
+I couldn't bare killing this tormented man. He went off, probably to atone for his sins.~
+@10102   = ~The Cult of the Black Hand
+
+We destroyed the Cult of the Black Hand!~
+//@13 from NTOUPAST.tra (content added) (similar to @10052 if PC already visited the Cloud Peak)
+@10103   = ~The Great Book of the Unknowing
+
+Oupaste wasn't very helpful but he did say that the wizard he sold the book to lived in the Cloud Peaks south from the Fire Leaf Forest. I guess I already found the pass he is talking about, the one in the north accessible from the patch of land between the two little streams.~
+@10104   = ~The Cult of the Black Hand
+
+It seems the Cult of the Black Hand can be found northeast in the Wood of the Sharp Teeth.~
+// similar to @10032 with content added
+@10105    = ~Mystery at the Northern Citadel
+
+We met Krotan inside the mausoleum. He was preparing to take up the reigns of the Citadel. The guards and our "supporters" stood on the side of the enemy and the battle began... In the end Krotan and his "supporters" were killed. As were all of the monks ... ups... I don't think Duke Eltan will be happy with this. But then - there is no-one left to tell him what really happened, now is there?...~
+@10106    = ~Rescue Magnad's and Winorma's Children 
+
+Magnad doesn't know the exact location of the Fields of the Dead, but has suggested we travel to Ulgoth's Beard to see if we can find somebody who knows the way there.~
+@10107    = ~Rescue Magnad's and Winorma's Children 
+
+We... 'rescued' Magnad's family from the orcs. Why are people so picky!~
+@10108   = ~Rescue Pandris from the Orcs
+
+We brought Yness a message from her husband, who we..., er, 'saved' from Orcs' hands. Ah, it's so heart warming to be able to help.~
+@10109   = ~The Great Book of the Unknowing
+
+Shaella, or rather Elnaedra now, says that I have found the book even though I didn't find it. What does that mean?~
+
+

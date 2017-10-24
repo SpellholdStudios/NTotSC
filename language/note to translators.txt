@@ -1,0 +1,48 @@
+Currently some language versions are not available. This is due to the balancing changes in items and spells, so strings had to be updated. 
+
+Also mod now supports EE engine, so items also need additional version of item descriptions that follows Beamdog formatting: Item descriptions needs to be added to new "setup-EE.tra" file following Beamdog item description style.
+
+All journal entries were moved into the file journal.tra.
+
+The file dsfeydo.tra of NTotSC was renamed to dsfeydo_ntotsc.tra. The original file dsfeydo.tra from DSotSC was added.
+
+Following *existing* lines were edited concerning content:
+
+-lobar.tra: removed the "welcome" from @0 
+-ntavery.tra: changed wording in line @19 so it's a reply to line @18
+-NTINDFIG.tra, @31 : edited the line to make it clearer it contains the name "Haeball"
+-NTSILUA.tra: changed the name in @0 to "Syl"
+-setup.tra, setup-ee.tra, journal.tra, ntllinde.tra: unified Llindellyn's name to "Llindellyn"
+
+
+
+
+New lines were added to the following tra files:
+-journal.tra
+-baf.tra
+-setup(-ee).tra
+
+-lobar.tra
+-ntabigai.tra
+-ntbrenta.tra
+-ntdextpb.tra
+-nteldod.tra
+-ntfalton.tra
+-ntindfig.tra
+-nthaebal.tra
+-nthasdar.tra
+-ntmagnad.tre
+-ntmeanda.tra
+-ntnadali.tra
+-ntpandri.tra
+-ntreedri.tra
+-ntvaness.tra
+-ntwinorm.tra
+-ntyness.tra
+
+
+
+New tra files were added:
+-ntsalmi3.tra (Ice Salamanders)
+-ntslavex.tra (Fishermen at Northern Coast)
+-ntwdelf.tra (Woodelves in Northern Forest)

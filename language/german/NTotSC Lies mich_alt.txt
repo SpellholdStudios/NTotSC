@@ -1,0 +1,162 @@
+Über die deutsche Übersetzung von Northern Tales of the Swordcoast 1.45
+
+
+Es gibt eine ganze Menge inoffizielle Erweiterungen für Baldurs Gate 1 und 2, von denen hier bei uns im deutschsprachigen Raum wenig bekannt ist, weil sie einfach fast alle nur in englisch sind.
+
+Als begeisterter Rollenspieler  habe ich aus eigenem Interesse damit begonnen, Mods zu übersetzen.
+
+Meine ersten Gehversuche habe ich dabei mit der Übersetzung von "Epic Endeavours" gemacht, weil dies ein in sich abgeschlossenes eigenständiges Abenteuer ist, bevor ich mich an die großen Erweiterungen der Baldurs Gate Reihe heranwagte.
+
+Die Schwierigkeiten bei der Übersetzung bestanden für mich darin, dass es sich bei den Texten nicht um eine durchgängige Handlung, sondern um lauter einzelne Dialoge (89 verschiedene) Dialoge handelt und dadurch anfangs kein Sinnzusammenhang zu erkennen ist. Erst mit fortschreitender Übersetzung zeichnet sich ein roter Faden ab. Dies erfordert jedoch mitunter Änderungen an den bereits übersetzten Teilen.
+
+Ein weiteres Problem stellten viele Redewendungen dar, für die es in der deutsche Sprache keine Entsprechungen gibt.
+
+Es ist jedoch geschafft: insgesamt 70 DIN A 4 Seiten Text, soviel wie in einem Taschenbuch.
+
+Ich wünsche viel Spass mit diesem Mod.
+
+Anregungen oder Fehlermeldungen die Übersetzung betreffend bitte nur an mich:
+leonardo_watson@yahoo,de
+
+
+Leonardo Watson am 22.10.05 / Textrevision: 17.07.06
+
+
+
+
+Und das schreibt Sir BillyBob in seiner ReadMe Datei:
+
+
+
+
+                     Legenden der Nördlichen Schwertküste
+                      ein Weidu Mod für Baldurs Tor II
+                         BGT-Weidu (Verlangt TotSC)
+                                VERSION 1.45
+                         Eine Sir BillyBob Produktion
+
+
+1. Einführung
+2. Geschichte
+3. Installierung
+4. Spieleanleitung
+5. Autorenangaben
+6. HÄUFIG GESTELLTE FRAGEN
+7. Änderungen
+
+
+EINFÜHRUNG
+ ++++++++++++ 
+
+Das ist eine auf BGT Weidu beruhende Version des Original-Mods. Er ist nur mit BGT-Weidu und DSotSC verwendbar. Er kann jederzeit installiert werden, nachdem Ihr DSotSC installiert habt. Diese Version funktioniert weder mit BGT-BP noch mit BGT-Weidu, wenn Ihr TotSC NICHT installiert habt.
+
+Setzt Euch mit mir im Spellhold Studio-Forum in Verbindung, wenn Ihr Fragen/Probleme habt.
+
+
+GESCHICHTE
+ +++++++ 
+
+Wie DSotSC fängt der Mod spät im Spiel an. Eine große Aufgabe wird Euch von Duke Eltan aufgegeben (bevor Ihr nach Kerzenburg geht). Eine der längsten Aufgaben fängt bereits vor Kerzenburg an. Sprecht mit der Dame außerhalb Zauberers Allerlei. Der Rest kann während der TotSC Suchen Ulgoths Bart gemacht werden. Wie im DSotSC-Mod werden auch andere Gebiete modifiziert, so dass Ihr einige Teile dieses Mods vor Kapitel 5 sehen könnt.
+
+
+INSTALLATION
+ ++++++++++++ 
+
+Er ist im Weidu-Format. Um ihn zu installieren, entpackt die Zip-Datei in Eurem Spieleordner und doppelklickt auf Setup-NTotSC.exe. Um ihn zu deinstallieren, doppelklickt wieder auf Setup-NTotSC.exe und wählt Uninstall aus.
+
+Wenn Ihr ihn mit CtB installiert, installiert CtB zuerst. DSotSC muss auch vor NTotSC installiert werden. Dieser Mod funktioniert auch mit BG1NPC und SoBH.
+
+Neu: Diese Version beinhaltet ein Biff-Dienstprogramm. Führt NTotSC-Biff.BAT nach der Installation dieses Mods aus und alle Dateien werden ins Biff-Format übertragen und aus dem Override Ordner entfernt. Falls Ihr es nicht wisst, wenn die Dateien in BIF Dateien verwandelt und ins \DATA Verzeichnis gelegt werden, vergrößert es die Leistung des Spiels. BEACHTET: die Verwandlung in Biff-Dateien nimmt Weidu die Möglichkeit, den Mod zu deinstallieren. Ihr könntet alle DSC-*, und NT-* aus dem \DATA Verzeichnis löschen und sehen, ob er arbeitet, aber ich vermute, dass Ihr Euer Spiel völlig neu wiederaufbauen müsst, um sicherzustellen, dass das Spiel stabil ist.
+
+Anmerkung zum Biff: BoneHill und BG1NPC modifizieren beide einige derselben Dateien, die sowohl DSotSC als auch NTotSC modifizieren. Führt deshalb das Biff-Dienstprogramm nach der Installation aller Mods aus, so dass nur die Endversion der Datei wird ins \DATA Verzeichnis gelegt wird.
+
+
+SPIELANLEITUNG
+ +++++++++++ 
+
+Haeball
+  Haeball sucht nach zwei Gegenständen, einen Goblin-Bogen und dem Großen Buch des Unwissens. Der Bogen ist im Norden von Baldurs Tor im Wald. Die Suche des Buches verlangt, dass Ihr mit Hasdar in BG sprechen.
+
+Wenric
+  Wenric ist der Bauer nahe BG, für den Sie die Zombies beseitigen. Er wird Euch von dem Feld der Toten erzählen, ein von Orks bedecktem Gebiet im Norden von BG.
+
+Winorma oder Magnad
+  Winorma und Magnad sind jetzt in BG, weil einige Orks ihren Wohnwagen angriffen. Ihre Kinder wurden festgenommen und sind jetzt Gefangene im Feld der Toten im Norden von BG.
+
+Yness
+  Der Mann von Yness, Pandris, wurde von Orks festgenommen. Er kann im Feld der Toten gefunden werden.
+
+Nördliche Zitadelle
+  Duke Eltan gibt Ihnen diese Suche. Ihr müsst in den Norden zur Zitadelle gehen und herausfinden, was die Probleme sind.
+
+Ungeheuer und Poochy
+  Ein Ungeheuer in der Nähe vom Hafen will einige Rattenchwänze für seinen Hund. Sie werdet viele in den Abwasserleitungen finden.
+
+Shaella
+  Eine wirkliche Psychopathin in der Nähe von Zauberers Allerlei will, dass Ihr ein Buch in den Grüften von Kerzenburg findet. Ihr müssen mit ihr vor der Abreise nach Kerzenburg sprechen, da Ihr keine Gelegenheit haben werdet, das später zu tun.
+
+
+SPIELVERDERBER
+ ++++++++ 
+
+Der Schlüssel zum Schreibtisch neben Haebal kann in einem Baum auf AR9700 (Im Süden von Beregost) gefunden werden.
+
+Haebal trägt den Schlüssel, der für die Kiste in seinem Keller erforderlich ist.
+
+Die Ork-Gruft verlangt zwei Schlüssel, einen rostigen Dolch und einen Ring. Der Schreibtisch von Haeball beinhaltet den einen, Draagis hat den anderen.
+
+Das Buch, das jeder will, ist mit den drei Dämonen im Süden des Wolkengipfeln. Kein Schlüssel ist erforderlich.
+
+Charles Nib wird Ihnen ein Dokument geben, das eine Tür an der Feuerwein-Brücke öffnet.
+
+Der Altar in der Nördlichen Zitadelle verlangt einen Schlüssel, den Ihr von einem Eissalamander erhaltet. Der Salamander will Draagis Tot.
+
+Die magische Tür im Feld der Toten öffnet sich, wenn Ihr das Heilige Symbol von Helm vom Altar habt.
+
+Das Gebiet des Kults der Schwarzen Hand (Draagis) wird offenbart, wenn Ihr  mit Reedrig in Ulgoths Bart sprecht.
+
+Reedrig wird in Bart nicht ankommen, solange Ihr den herbeigerufenen Dämonen im Ulgoths Bart nicht getötet habt.
+
+Der Mod ist abgeschlossen, wenn Ihr in die Grüfte betreten sind und den Ork-General bekämpft habt.
+
+
+AUTORENANGABEN
+ +++++++ 
+
+TeamBG, die das alles gefangen haben.
+
+Hlid, Horred, Seanas, und die anderen, die mir immer aushelfen. Ich brauche es!
+
+Aurelinus, Hathor, und die wunderbaren Leute von Forgotten Isle (http://www.isle.px.pl/index_eng.htm), die diesen Mod machten und ihn dann ins Englische übersetzten. Das ist ihre wunderbare Arbeit.
+
+
+F.A.Q.
+ ++++++ 
+
+1. Ja, Ihr müsst BGT installiert haben. Ihr müsst auch DSotSC-BGT haben.
+
+2. Dies funktioniert nur als BGT-Weidu Spiel. Ihr müsst TotSC in Eurem BG1 Spiel installiert haben.
+
+3. BG1NPC kann vor oder nach diesem Mod installiert werden. Ich habe diesen Mod berichtigt, so dass er jetzt mit BG1NPC11 richtig funktioniert.
+
+4. SoBH kann jederzeit installiert werden, aber es kann besser sein, ihn nach DSotSC und NTotSC zu installieren (sie ändern viele Gebiete und Dateien, aber es sollte keinen Konflikt geben).
+
+5. Weil mehrere Aufgaben in Ulgoths Bart beginnen, müsst Ihr vor der Installation dieses Mod TotSC installiert haben. Für eine BGT-Weidu Installation bedeutet das, dass es in Eurem BG1-Spiel sein muss, bevor Ihr BGT-Weidu installiert.
+
+
+ÄNDERUNGEN
+ +++++++ 
+
+1.45 	Dies beinhaltet die wichtigen Reparaturen von King Diamond. Die Reparaturen 			umfassen Kompatibilität mit seiner Baldurdash Version und Reparatur für BGT-	Weidu. 
+1.42 	Berichtigung des Dialogs mit Taerom und einem Barmixer. Zusätzliche Unterstützung 	der russischen und polnischen Sprache. Dieses behebt auch den Fehler im AR10PB 			Bereich und den Dialogfehler Lobars.
+1.40 	Mehr Dialog-Probleme beseitigt. Zusätzliche Unterstützung der Deutschen Sprache. 		Änderung der Gebiet aktualisiert ist, um Weidu zu verwenden, anstatt die ARE 			Dateizu kopieren.
+1.32 	Mehr Bereichs-Probleme Beseitigt. Aktualisierte Dialoge, um mit BG1NPC zu 			arbeiten.
+1.31 	Mehrere Gebiete berichtigt, die Version 1.3 überschrieb.
+1.3 	Gebiete und Dialoge berichtigt. Das Schwert des Generals berichtigt. Mod 			modifiziert, um mit BGT-Weidu zu arbeiten.
+1.2 	Mehr Gebiete und Dialoge berichtigt. Degradiert einige Gegenstände, um  mit einem 	BG1 Spiel besser ausgewogen zu sein. DSotSC Berichtigungen zurück geführt zu 			DSotSC.
+1.0 	Erste Vollversion. Dialoge, Skripte, Gebiete, usw. berichtigt.
+0.2 	Mehrere Gebiete und Skripte berichtigt.
+0.1 	Erste Version, Programmfehler und so weiter.
+
+	
+

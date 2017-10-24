@@ -1,0 +1,8 @@
+IF
+  GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+  Global("NTGheldeharSpawn","%NWBaldursGate%",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTGHELDE",[3595.1793],0)
+    SetGlobal("NTGheldeharSpawn","%NWBaldursGate%",1)
+END

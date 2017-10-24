@@ -1,0 +1,41 @@
+
+//NTotSC Area Links Table (with DSotSC)
+SRC_AREA  SRC_NWSE  TARGET_ARE  ENTRY_NAME  TRV_TIME  DEF_ENTRY  ENC1     ENC2     ENC3     ENC4     ENC5     ENC_PROB
+
+AR1000    E         AR20PB      EXIT1000    5         1          N        N        N        N        N        0
+AR1000    E         AR10PB      Exit20PB    6         1          N        N        N        N        N        0
+AR1000    S         AR0400      Exit10PB    4         1          N        N        N        N        N        0
+AR0400    N         AR10PB      Exit20PB    4         1          N        N        N        N        N        0
+AR0400    N         AR01PB      Exit30PB    6         1          N        N        N        N        N        0
+AR0400    E         AR30PB      Exit0400    5         1          N        N        N        N        N        0
+AR0900    N         AR30PB      Exit0400    5         1          N        N        N        N        N        0
+AR1400    N         AR30PB      Exit0400    5         1          N        N        N        N        N        0
+AR1900    N         AR60PB      Exit2900    6         1          N        N        N        N        N        0
+AR2400    N         AR60PB      Exit2900    6         1          N        N        N        N        N        0
+AR2900    E         AR60PB      Exit2900    6         1          N        N        N        N        N        0
+AR3000    N         AR60PB      Exit2900    6         1          N        N        N        N        N        0
+AR20PB    E         AR10PB      Exit20PB    4         1          N	  	  N        N        N        N        0
+AR20PB    E         AR0400      Exit10PB    6         1          AR5700   N        N        N        N        20
+AR20PB    S         AR1000      Exit1400    6         1          N        N        N        N        N        0
+AR10PB    S         AR1000      Exit1400    5         1          N        N        N        N        N        0
+AR10PB    S         AR0400      Exit10PB    6         1          N        N        N        N        N        0
+AR10PB    E         AR40PB      Exit10PB    6         1          N        N        N        N        N        0
+AR10PB    N         AR40PB      Exit10PB    6         1          N        N        N        N        N        0
+AR10PB    E         AR01PB      Exit10PB    5         1          N        N        N        N        N        0
+AR10PB    W         AR20PB      Exit10PB    6         1          N        N        N        N        N        0
+AR40PB    S         AR01PB      Exit40PB    6         1          N        N        N        N        N        0
+AR40PB    N         AR10PB      Exit40PB    6         1          N        N        N        N        N        0
+AR40PB    S         AR10PB      Exit40PB    6         1          N        N        N        N        N        0
+AR01PB    W         AR10PB      Exit01PB    6         1          N        N        N        N        N        0
+AR01PB    W         AR40PB      Exit01PB    4         1          N        N        N        N        N        0
+AR01PB    S         AR30PB      Exit01PB    5         1          N        N        N        N        N        0
+AR01PB    E         AR40PB      Exit01PB    4         1          N        N        N        N        N        0
+AR01PB    W         AR0400      N           6         1          N        N        N        N        N        0
+AR30PB    W         AR0400      Exit10PB    5         1          N        N        N        N        N        0
+AR30PB    S         AR1400      Exit0900    5         1          N        N        N        N        N        0
+AR30PB    W         AR01PB      Exit30PB    4         1          N        N        N        N        N        0
+AR60PB    S         AR2900      Exit9100    6         1          N        N        N        N        N        0
+AR60PB    W         AR2900      Exit9100    6         1          N        N        N        N        N        0
+AR60PB    W         DSC004      Exit60PB    6         1          N        N        N        N        N        0
+DSC002    N         AR60PB      Exit2900    6         1          N        N        N        N        N        0
+DSC004    N         AR60PB      Exit2900    6         1          N        N        N        N        N        0

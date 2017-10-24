@@ -1,0 +1,79 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//BEGIN Macros
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//patch 2da both column and row wise (for example INTERACT.2DA)
+DEFINE_ACTION_FUNCTION ~patch_matrix_2da~
+	STR_VAR
+		file_to_patch = ~~
+		labels_array = ~~
+		patch_table = ~~
+	BEGIN
+
+	COPY_EXISTING ~%file_to_patch%.2DA~ ~override~
+		PRETTY_PRINT_2DA
+		READ_2DA_ENTRY 1 0 1 "default"
+
+	ACTION_PHP_EACH ~%labels_array%~ AS index => name BEGIN
+		SILENT
+		COPY_EXISTING - ~%file_to_patch%.2DA~ ~override~
+			COUNT_2DA_COLS "cntcol"
+			COUNT_2DA_ROWS (cntcol - 1) "cntrow"
+			COUNT_REGEXP_INSTANCES ~^%name% ~ num_matches
+		ACTION_IF (num_matches > 0) BEGIN
+			//PRINT ~%name% already exists in %file_to_patch%.2DA~
+		END ELSE BEGIN
+			OUTER_SPRINT append ~dummy_entry dummy_entry %name% ~
+			OUTER_FOR (cnt = 1; cnt < cntcol; cnt = cnt + 1) BEGIN
+				OUTER_SPRINT append ~%append%%default% ~
+			END
+			APPEND_COL ~%file_to_patch%.2DA~ ~%append%~
+			APPEND ~%file_to_patch%.2DA~ ~%append% %default%~
+			COPY_EXISTING ~%file_to_patch%.2DA~ ~override~
+				REPLACE_TEXTUALLY ~dummy_entry~ ~~
+				PRETTY_PRINT_2DA
+		END
+		VERBOSE
+	END
+
+	ACTION_PHP_EACH ~%patch_table%~ AS name => value BEGIN
+		//PRINT ~Patching %file_to_patch%.2DA: %name_1% - %name_2% => %value%~
+		COPY_EXISTING ~%file_to_patch%.2DA~ ~override~
+			PRETTY_PRINT_2DA
+			COUNT_2DA_COLS "cntcol"
+			COUNT_2DA_ROWS (cntcol - 1) "cntrow"
+			COUNT_REGEXP_INSTANCES ~%name_1% ~ num_matches
+			COUNT_REGEXP_INSTANCES ~%name_2% ~ num_matches2
+			PATCH_IF (num_matches > 0) AND (num_matches2 > 0) BEGIN
+				FOR (cnt = 0; cnt < (cntcol - 1); cnt = cnt + 1) BEGIN
+					READ_2DA_ENTRY cnt 0 cntcol "name"
+					PATCH_IF (~%name%~ STRING_EQUAL_CASE ~%name_1%~) BEGIN
+						FOR (cnt2 = 0; cnt2 < (cntrow - 1); cnt2 = cnt2 + 1) BEGIN
+							READ_2DA_ENTRY 0 cnt2 (cntcol - 1) "name"
+							PATCH_IF (~%name%~ STRING_EQUAL_CASE ~%name_2%~) BEGIN
+								READ_2DA_ENTRY cnt (cnt2 + 1) cntcol "old_value"
+								PATCH_IF (~%old_value%~ STRING_EQUAL_CASE ~%value%~) BEGIN
+									//PATCH_PRINT ~%name_1% - %name_2% already set to %value%, no patching needed~
+								END ELSE BEGIN
+									SET_2DA_ENTRY cnt (cnt2 + 1) cntcol ~%value%~
+									PRETTY_PRINT_2DA
+									//PATCH_PRINT ~%name_1% - %name_2% set to %value%~
+								END
+								SET cntrow = 0
+								SET cntcol = 0
+							END
+						END
+					END
+				END
+			END ELSE BEGIN
+				PATCH_IF (num_matches = 0) AND (num_matches2 = 0) BEGIN
+					//PATCH_PRINT ~%name_1% and %name_2% don't exist in %file_to_patch%.2DA~
+				END ELSE PATCH_IF (num_matches = 0) BEGIN
+					//PATCH_PRINT ~%name_1% entry doesn't exist in %file_to_patch%.2DA~
+				END ELSE BEGIN
+					//PATCH_PRINT ~%name_2% entry doesn't exist in %file_to_patch%.2DA~
+				END
+			END
+		BUT_ONLY
+	END
+END

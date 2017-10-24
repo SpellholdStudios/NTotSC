@@ -1,0 +1,349 @@
+Changelog for v2.0 (by k4thos / jastey)
+
+fixes from Turambar_fixes_tweaks:
+- Corrects Nadali's dialogue file, allowing all missions related to Draagis to be completed even if you haven't spoken to Nadali before finishing the Northern Citadel quest.
+- Corrects the Fire of Bhaal Sword, which couldn't be used by thieves although it was a longsword.
+- Corrects some graphical problems (black square near the Northern Citadel, missing icons...)
+- Fixes a mummy-related issue which could break Korgan's quest
+
+changes from BP_Balancer_v0.33g_beta:
+- lowered XP rewards for quests
+- item rebalancing changes added as separated components directly to the mod (higly recommended)
+
+changes in tp2:
+- internalized fixes present in tp2 that were awkardly separated in external files
+- rewritten tp2 code
+- support for EET
+
+Internalized NTotSC patch
+
+Splitted into components:
+--Main component 
+--Keelor the Dwarf
+--Pilar and Gheldehar
+--Nim Furlwing
+--Llindellyn's Lucky Arrow
+--Svlast's Torment
+--Will O'Hara NPC
+
+-EET compatibility added
+
+-BG:EE compatibility added (with or without SoD) - all BGII ressources were substituted, provided, or removed (items, creatures, animations, area music). changed name str-refs of some items so they are also valid in BG:EE (no change inside game except "Key" now is "A Key")
+
+-DSotSC references are optional - mod no longer depends on DSotSC being installed. If DSotSC is installed, the ressources will be considered (items in shops and on creatures, accessible areas from worldmap). 
+For BGT/EET, k4thos DSotSC built will be considered.
+For BG:EE, Red Carnelian's built will be considered.
+
+-adjusted item descriptions to nerfed stats (English and German)
+
+-adjusted setup-ee.tra to EE item description style (English and German)
+
+-reworked journal entries: all are in one journal.tra, changed to UNSOLVED_JOuRNAL and SOLVED_JOURNAL system, entries were added were necessary 
+
+-integrated needed Woodelf-ressources from DSotSC directly into NTotSC (if not already installed)
+
+
+
+1) Areas:
+
+AR10PB.are - added sentence to Trigger 2 "InfoHouse" info trigger at dungeon entrance to lel the player know that it was priests of Helm who sealed the entrance to the catacombs.
+
+AR37PB.are  - added area script AR37PB.baf for journal entry handling
+
+AR40PB.are - added area script AR40PB.bcs. removed NTLLINDE.cre - will be spawned via script (/llindellyn/ar40pb_llindellyn.baf)
+
+ar52pb.are - changed entrance to third level (to ar53pb.are) to script(entrance combo, too (removed the "door") [ar52pb.baf, indo52pb.baf]. will be accessible if the PC has one of the items: MISC74 candle, MISC9R light gem, POTN13 Oil of Fiery Burning, or NTPOTN05 Flaming Oil.
+
+AR53PB.are - added area script AR53PB.baf for journal entry handling, changed bounding box of exit to prevent "stuck" (N)PCs
+
+AR82PB.are - added area script AR82PB.baf for journal entry handling
+
+AR9001.are  - fixed AR9001SR (unreachable travel region)
+
+
+AR90PB.are - changed NTSALMIC.cre to NTSALMI3.cre (neutral ice Salamanders), added script block to AR90PB.bcs for journal entry management in case the PC kills Meandar instead of doing his quest(s)
+
+
+2) Items:
+
+ADISEASE - invalid strref for 'Gulp!' string fixed
+CLOAKSC  - usability fixed (no Wizardslayer)
+NAMJI    - price reduced
+           Regeneration equipping effect must bupass resistance
+NTARROW1 - 'max in stack' changed from 9999 to 40
+NTARROW2 - 'max in stack' changed from 9999 to 40
+NTARROW4 - 'max in stack' changed from 9999 to 40
+           damage amount (+1) fixed
+           UNUSED ITEM
+NTAXE01  - usability fixed
+           additional damage amount fixed (1d3 - was 1d6)
+NTBLUN03 - usability fixed
+NTBLUN06,07 - magic effect fixed
+NTBLUN07 - HP bonus amount fixed
+           non-declared Bonus to AC effect removed
+NTBOLT1  - 'max in stack' changed from 9999 to 40
+NTBOW02  - STR requirement fixed (from 15 to 5)
+           usability fixed
+           Attack per Rnd bonus fixed
+NTBOW03  - usability fixed
+           Attack per Rnd bonus fixed
+           equipping effects fixed
+NTBOW04  - usability fixed
+           Attack per Rnd bonus fixed
+
+NTBULL01 - 'max in stack' changed from 9999 to 40
+NTCHAN03 - strange usability...fixed
+           Regeneration effect fixed
+NTCHAN04 - usability fixed
+NTCHAN05 - usability fixed
+           1 color effect fixed
+NTDAGG01 - usability fixed
+NTDART1  - usability fixed
+           'max in stack' changed from 9999 to 40
+NTLEAT04 - effects optimized
+NTLEAT05 - all equipping effects must Bypass resistance
+NTMIOTPB - carried icon fixed
+
+NTMIOTPB - optcode 186 doesn't mean 'Increased Critical Hit', but 'applying of DestroySelf()
+           command on target'. So it's gonna be very powerful weapon!!! (left as it is)
+
+NTMISC01-03 - 'max in stack' changed from 9999 to 40
+NTMISC04 - spell learning ability fixed
+NTPLAT01 - usability fixed
+NTPOTN02 - effects should bypass resistance
+NTPOTN04 - drunk effect time fixed
+NTRING03 - Ring of Pilar/Gheldehar has now unique name (was unique item before already)
+NTROBE01 - magical abilities fully rebuilt
+NTROBE02 - effects should bypass resistance
+	   removed the cursed flag - no mentioning in the description
+NTSHLD01 - usability fixed
+           carried icon
+NTSHLD03 - usability fixed
+           effects should bypass resistance
+NTSPEAR1 - usability fixed
+           slashing damage bonus fixed (was 6d1 instead of 1d6)
+NTSTAFF1 - usability fixed
+           proficiency fixed
+           slashing damage bonus effect fixed
+NTSTAFF2 - all magic effects fixed
+
+NTSWD01  - bonuses vs Trolls rebuilt completely (2 .EFF added to the mod)
+           Slashing damage (was piercing)
+NTSWD02  - usability fixed
+           proficiency fixed
+NTSWD04  - DEX bonus fixed
+           Melee ability fixed
+NTSWD07  - damage amount fixed
+NTSWD08  - Acid damage effect fixed
+
+SCRLNT71 - usability fixed (no Diviner)
+           'max in stack' changed from 9999 to 10
+SCRLNT81 - usability fixed (no Enchanter)
+           'max in stack' changed from 9999 to 10
+
+
+3) Existing Creatures.
+Patching DVs for all creatures must be done through WRITE_ASCII, not SAY (!).
+
+NTAVERY   - Avery will drop a note about the key to the Altar if killed which will give a journal entry (so player will not be stuck with the main quest if he decided to kill him).
+
+NTBALEN   - changed "Unknown" animation to "FIGHTER_MALE_HUMAN"
+
+NTDXTER   - changed alignment to NEUTRAL_EVIL since "LAWFULL_GOOD" really didn't make any sense. This way, at least paladins can get a heads up.
+
+NTELDOD   - added non-stealable Mausoleum key. Eldod will drop the Mausoleum key now if dead.
+
+NTGHELDE  - changed "Unknown" animation to "FIGHTER_MALE_GNOME"
+
+NTGUARP1  - corrected string name to #12890 "Guard" (the other one meant "to guard" in German)
+
+NTGUARP2  - corrected string name to #12890 "Guard" (the other one meant "to guard" in German)
+
+NTGUARP3  - corrected string name to #12890 "Guard" (the other one meant "to guard" in German)
+
+NTGUARP4  - corrected string name to #12890 "Guard" (the other one meant "to guard" in German)
+
+NTHELLS1  - removed BGT shoutscript GRPSHT01.bcs (the salamanders are hostile anyway in a small area)
+
+NTKEELOR  - added script ntkeelor.baf with dialogue initiation if PC attacks after healing him first.
+
+NTINDFI1  - added dialogue "NTINDFI1" (just one line so they do not give the "has nothing to say to you")
+
+NTINDFI2  - added dialogue "NTINDFI1" (just one line so they do not give the "has nothing to say to you")
+
+NTKOLDAR  - changed "Unknown" animation to "FIGHTER_MALE_HUMAN"
+
+NTKrotan  - changed non-game script to "WTASIGHT"
+
+NTMARIEL  - deleted nonexistant item "ROGUE.ITM", changed "Unknown" animation to Thief_female_human
+
+NTMORDOR  - changed AX1H06.itm (special item in BG:EE) to AX1H05.itm (general throwing ax +2)
+
+NTNADALI  - changed animation to PEASANT_MAN and added SHOUT.bcs (it's no use givng him both RUNENEMY.bcs and STATIC_PEASANT_MAN animation...)
+
+NTNIMFUR  - added DV "ntnimfur" and changed class to "Fighter" (because she will fight back)
+
+NTOGREDA  - changed non-game script "BPWTSIGT.bcs" to "WTASIGHT"; changed unique game item "Flame of the North" ("SW2H12") to generic two-handed sword +2 (SW2H11.itm)
+
+NTOGREMU  - changed non-game scripts "HUMANSHT.bcs" to "None" and "BPWTSIGT.bcs" to "WTASIGHT"; removed non-game item "BOOTFOR.itm" 
+
+NTOLIVIA  - removed random walk (changed "WDASIGHT" to "WTASIGHT")
+
+NTORPEHO  - changed "Unknown" animation to CLERIC_MALE_GNOME, added Citadel-specific script "NTCITAD3.baf"
+
+NTPILAR   - now has ntboot02.itm: new item, created via tp2. unique item for boots of Pilar / Gheldehar
+
+NTPIQUE   - changed non-game script to "WTASIGHT" (removed random walk), added script so initiates dialogue if PC talked to Lenore or after Eldod moved upstairs
+
+NTSALMI1  - (Meandar): removed random walk from Meandar, added item "NTKEYPB6" (unstealable)
+
+NTSALMI3  - removed random walk from Ice Salamanders outside hut, added script NTSALMI1.baf to turn Ice Salamanders hostile if Meandar is dead, added NTSALMI3.dlg with random dialogue lines
+
+NTSHAELLA - removed. The ingame Shaella will be used now.
+
+NTSILUA   - changed name to "Sirene" (stringref. of game, same for BG:EE) to remove doubled "Sil" in game
+
+NTSIRIN2  - changed Allegiance to "Enemy()", DV to "Sirine02", and removed the SHOUT script (used in AR40PB.are for hostile sirines)
+
+ntslavex  - (Fisherman): dialogue "ntslavex" with random lines added.
+
+NTSVLAST  - removed SHOUT (because it doesn't make sense he would shout if he wants the PC to kill him) and changed Default script to WTASIGHT.bcs (removed the random-walk)
+added override script ntsvlast.bcs: He will initiate dialogue if attacked.
+
+NTTYTUS   - changed non-game ressource "SWANARM.itm" to "PLAT14" for BGT/EET and "PLAT06" for BG:EE. Changed "BELT08" to "BELT07" for BG:EE
+
+NTWELT    - removed random walk (changed WDASIGHT" to "WTASIGHT")
+
+NTWINORM  - changed animation to NOBLE_WOMAN (so she is able to walk)
+
+NTZOMBJU  - attack item changed to B-24.itm (compatibility with BG:EE), removed shout script GENSHT01.bcs
+
+
+
+4) New Creatures.
+
+BTELITE  - soundset restored
+NTBKNIGH - RING98A->RING98
+NTDEMON  - ring and weapon fixed
+Many small fixes...
+
+5) Dialogues and scripts.
+All invalid Pausing dialogue flags removed
+Numerous incorrect triggers with DV usage fixed (were CRE names instead of DV)
+
+LOBAR.d: added check whether PC already has the book. added internal variables so Lobar can't be asked about money if the PC never asked him about the book etc. changed E_B to LOBAR 8 to an INTERJECT which will be only valid until the information is given or the book is found (compatibility with other mods)
+
+NTABIGAI.d: changed dialogue trigger from "True()" to newly introduced check variable "!Global("NT_CitadelHostile","GLOBAL",1)" and added dialogue state in case PC attacked the citadel
+
+NTARCHAN.d: added local variable to prevent Archandra first taking the wine and then tellng about it, added dialogue state in case she told about it and the PC doesn't have wine.
+
+NTBRENTA.d: removed faulty EXTERN ~NTKAMIRA~ (she is not here). Added lines after Krotan is dead. Brentaw will give XP if Satos is dead. Added EscapeAreaMove("AR32PB",424,283,1): Brentaw will return into keep, not remain in crypt.
+
+NTELDOD.d: changed variable for tracking of quest status, refer to varibales list
+
+NTFALTON.d, NTVANESS.d: Falton and Vanessa now leave together if PC talked to one of them
+
+NTHAEBAL.d: state 0: added existant reply option (no new line) (from state 18) to make question about Tanar'ri shorter
+
+NTHASDAR.d: unified variables for quest staus, unified hostile reaction to one additional state, added reactions for dead Draagis and also if PC talks to Hasdar before talking to Shaella
+
+NTHASTEN.d: removed restriction that PC has to have talked to Lenore before talking to Hastenback
+
+NTHUMBAB.d: fixed - there were wrong creature and wrong DV check. Added checkvariable Global("NT_HumbabSpawnEnemyOnce","LOCALS",0) to prevent spawning of other salamanders infinitely
+
+NTINDFIG.d:  fully restored - modified DSotSC item names used.
+
+NTKEELOR.d: corrected HP to "7" for intermediate dialogue, added script ntkeelor.baf(class script) with dialogue initiation if PC attacks after healing him first.
+
+NTKOLDAR.d: added reveal of area of Fields of the dead (AR10PB.are)
+
+NTKROTAN.d etc.: fixed wrong transitions before the final fight (Eldod leaving instead of staying, Eldod not turning hostile). Also, all of the three mercenaries will turn hostile as stated in the journal entry.
+
+NTLLINDE.d: moved into folder /llindellyn. unified Llindellyn's name to "Llindellyn".
+
+NTMAGDAD.d, NTWILLORM.d: unified tracking variable for quest "Save Magnad's and winorma's Children". The relatives now react to the death of other family members.
+
+NTMEANDA.d: When Meander mentions the Field of the Dead, the area will be revealed on the worldmap as well. Added one reply line for reluctant PC (flow of dialogue states is not changed), added intermediate dialogue states to prevent "has nothing to say to you" between quests
+
+NTMILEA.d: removed wrong journal entry (was for Paulina)
+
+NTORPEHO.d: added ActionOverride for Brentaw to attack Orpeho, too
+
+NTOUPAST.d: changed Oupaste's dialogue so he can be talked to indefinitely times until he was asked about the book of the unknowing, and also disabled the question in case the PC already found the book.
+
+NTREDEDG.d: disabled reply options that looped back to the dialogue state they were in, added journal entry for all reply options of the same dialogue states.
+
+NTREEDRI.d: consideres if PC already killed Draagis (although I know now that this is not possible)
+
+ntsatos.d: added a state that is true if Satos was talked to the first time (no more "has nothing to say to you)
+
+NTSHAELL.d: removed. Instead, the original game dialogue SHAELL.dlg will be patched (modify/dlg/shaell.d). Also, removed journal entry @23 (it didn't make any sense)
+
+NTSILUA.d: changed the spawning of game sirines to "NTSIRIN2" (fixed conflict with peacified sirines from bg1re)
+
+NTSZYPER.d: added Dead("NTSILUA") check since the sirenes were supposed to be killed, too.
+
+NTSVLAST.d: activated the hostile response if attacked
+
+NTTORDIO.d: added BGII item "MISCAU" as possible holy water for the quest with the haunting spirit. The Phantom Torqion in Temple area dungeon can now be released using the Vampiric Sword of the mod The Vault, too. considers holy water from both BGT/EET version and BG:EE version of DSotSC.
+
+WENRIC.d: introduced WEIGHT and removed extra state trigger for state 5 + extra "always true" dialogue - not necessary and bad for compatibility
+
+
+
+ar0114.baf: oupaste is spawned from the beginning so the player already met him and doesn't have to search in places he already was.
+
+ar0020.baf : the candle for Ordolath will now be created in "Container 2" (shelf) instead of locked and warded chest (it doesn't make sense that hostile mage will call the guards)
+
+ar0800.baf: removed NTHASDAR.cre's spawn (is moved into ar1300.baf). Removed spawn of NTSHAELL.cre (original game Shaella will be used now, no more doubled Shaella).
+
+ar1000.baf: addd script block for journal entry handling in case PC killed Reedrig
+
+ar1300.baf: added NTHASDAR.cre spawn to 100.680 into  so he stands beside the entrance to Blade and Stars where Shealla is inside.
+
+ar33pb.baf: removed trigger Global("NTDeadUtorByOrpeho","GLOBAL",1): Eldod will spawn in this room directly after he went away from the entrance.
+
+ar35pb.baf: added "!Dead("NTKROTAN")" check so the murder of Utor won't happen after Krotan is defeated. Added DestroySelf() to Brenta in case he is still there after Krotan is defeated
+
+ar4500.baf: changed entrance to dungeon in Firewine bridge  (quest by Charleston Nib) to a script/entrance combo (PC sees the entrance but can't enter without the scroll) (nttr50pb.baf is script of "entrance")
+
+ar5300.baf: removed the closing fo travel region to AR80PB.are: pass will be open always.
+
+cutrest.baf: changed so it actually rests and heals the group.
+
+ntdxter.baf: witches in Jovial Juggler. All will participate in the fight. If the Tanar'ri is killed before them, they will all initiate dialogue and leave.
+
+NTHUMBAB.baf: added checkvariable Global("NT_HumbabSpawnEnemyOnce","LOCALS",0) to prevent spawning of other salamanders infinitely
+
+
+6) Stores.
+STHAEBAL.sto: references of DSotSC-items removed, will be inserted if install of DSotSC is detected. References of BGII scrolls removed, will be inserted for BGT/EET install.
+
+
+
+7) General things.
+
+-opened transition to AR80PB (Pass to the cave with the book of the unknowing) from the start.
+
+-added script block to Tracea (cult in Ulgoth's Beard) that adds a note in case Reedrig was killed before he could reveal AR60PB.are (only in this case).
+Added the same note to Reedrig if spawned in Ulgoth's Beard - the player will only find one note. Added script block to ar1000.are (Ulgoth's Beard) to reveal the AR60PB.are and journal entry in case player has the note.
+
+-ntprihel: changed store to a custom store with one scroll of lesser restoration and holy water. removed restriction of "spoke to Satos" before temple services can be requested.
+
+-moved journal entry about "no warm welcome" from the guard to Eldod's first line.
+
+-patched AR0602.bcs for BGT so journal entries get removed upon transitiont to BGII
+
+-Northern Citadel quest: the quest itself is less restrictive, i.e. Eldo can be freed and Krotan confronted without talking to anyone else (including Satos) if the PC knows how. Pique will talk to the PC either after talking to Lenore OR after Eldod moved into his room. If PC confronts Krotan before talking to Shelton, Orpeho will participate in the confrontation and not kill Utor (+ not fight with Brentaw).
+
+-added citadel-script(s) to all inhabitants of the Northern Citadel to detect an PC attack.
+
+-except Utor, Abigail and the Cook, none of the Citadel cres will give rep loss if killed
+
+-Nim Furlwing's Hunting Hounds: changed to custom vampiric wolves (NTWOLFVA) that will only attack if PC is present and primarily the hounds, reduced the number of vampiric wolves to 3. ("ntwolfva.bcs", and changed fighting script of the dogs NTDOGFUN.cre to a custom script "ntdogfu2.baf" so the dogs don't kill the wolves before the PC reaches the scene.)
+
+-added random lines to DSotSC's Woodelves to prevent the "has nothing to say to you": ntwdelf.tra
+
+-inserted ntpblet5.itm: a note from Draagis to Haeball about the dagger and the ring (placed into Haeball's locked desk in AR9001.are)
+
+-BGII- and / or DSotSC items are inserted into the areas via script if game/mod is detcted

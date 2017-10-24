@@ -1,0 +1,8 @@
+IF
+  GlobalGT("Chapter","GLOBAL",%tutu_chapter_2%)
+  Global("NTPilarSpawnToArm","%FriendlyArmInn%",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTPILAR",[2015.2233],14)
+    SetGlobal("NTPilarSpawnToArm","%FriendlyArmInn%",1)
+END

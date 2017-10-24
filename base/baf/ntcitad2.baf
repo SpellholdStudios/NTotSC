@@ -1,0 +1,7 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Global("NT_CitadelHostile","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NT_CitadelHostile","GLOBAL",1)
+END

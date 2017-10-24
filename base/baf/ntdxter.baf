@@ -1,0 +1,59 @@
+IF
+  Dead("NTROACH")
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+	ChangeEnemyAlly(Myself,NEUTRAL)
+	Wait(2)
+	StartDialogNoSet([PC])
+END
+
+
+IF
+  Global("NTDexterWrong","GLOBAL",0)
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    SetGlobal("NTDexterWrong","GLOBAL",1)
+END
+
+IF
+  Global("NTDexterSetupPB","%Beregost_JovialJuggler_L2R%",1)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    SetGlobal("NTDexterSetupPB","%Beregost_JovialJuggler_L2R%",2)
+    SetGlobal("NTDexterWrong","GLOBAL",1)
+    Enemy()
+END
+
+IF
+  OR(2)
+	Global("NTDexterWrong","GLOBAL",1)
+	Global("NTDexterSetupPB","%Beregost_JovialJuggler_L2R%",2)
+  Global("NTDexterHostile","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("NTDexterHostile","LOCALS",1)
+    Enemy()
+END
+
+IF
+  Global("NTDexterWrong","GLOBAL",1)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_DEATH_SPELL)
+    SetGlobal("NTDexterWrong","GLOBAL",2)
+END
+
+IF
+  Global("NTDexterWrong","GLOBAL",2)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_DEATH_SPELL)
+    SetGlobal("NTDexterWrong","GLOBAL",3)
+END
+

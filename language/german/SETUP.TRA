@@ -1,0 +1,1112 @@
+@0 = ~NTotSC fuer BGT-WeiDU und EET~
+@1 = ~Vergiftete Pfeile~
+@2 = ~Dies sind normale Flugpfeile, die mit einem schnell wirkendem pflanzlichen Gift vergiftet wurden.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W6
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+Besondere Fähigkeiten: Gift
+Gewicht: 0
+Schusswaffe: Bogen
+Kann nicht verwendet werden von:
+ Klerikern
+ Druiden
+ Magiern~
+@4 = ~Inferno Pfeile~
+@6 = ~Neben seiner vorzüglichen Handwerkskunst sind entlang der ganzen Oberfläche winzige Runen der Macht zu erkennen. Es wurde offensichtlich eine Menge Zeit und Anstrengung für seine Schöpfung aufgewendet. Auch wenn es nicht auf den ersten Blick auffällt, kann man doch erkennen, dass ein schwaches blaues Glimmen von den Runen ausgeht.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W8+2 (+1W10 Feuer)
+ETW0-Bonus: -2
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+Gewicht: 0
+Schusswaffe: Bogen
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern~
+@7 = ~Llindellyn's Glückspfeil~
+@8 = ~Dieser Pfeil ist wohl nichts Besonderes außer für Llindellyn, dessen Gefühle ihn dazu bringen, ihn immer wieder zu finden.~
+/*@10 = ~Diese vergifteten Kugeln kann Will anfertigen, indem er das Harz benutzt, das von seinem ungewöhnlichen Flegel tröpfelt. Er erlernte den Umgang mit Gift sehr jung, und kann genug für 5 Pfeile zubereiten.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden (Fernwaffe): 1W6 + 1
+Besondere Fähigkeiten: Gift
+Gewicht: 0
+Schusswaffe: Bogen
+Kann nicht verwendet werden von:
+ Klerikern
+ Druiden
+ Magiern~*/
+@11 = ~Pfeil der Versetzung~
+@12 = ~Diese gefährlichen Pfeile sind ungewöhnlich selten und nur wenige Probestücke können gefunden werden. Sie sind als Waffe fast wertlos, können aber zu strategisch nützlichen Werkzeuge werden. Krieger mit ausreichenden Fähigkeiten können sie während des Kampfes zielgenau einsetzen. Wenn der Pfeil ein Ziel trifft, wird dieses weit von dem Schlachtfeld weg teleportiert, so dass sich hierdurch die Maximalanzahl der Feinde begrenzen lässt.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W3
+ETW0-Malus: 3 
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+Besondere Fähigkeiten: Nach einem erfolgreichen Treffer wird der Feind zu einem zufälligen Ort teleportiert.
+Schusswaffe: Bogen
+Kann nicht verwendet werden von:
+ Klerikern
+ Druiden
+ Magiern~
+@14 = ~Axt des Schockes~
+@16 = ~Neben seiner vorzüglichen Handwerkskunst sind entlang der ganzen Oberfläche winzige Runen der Macht zu erkennen. Es wurde offensichtlich eine Menge Zeit und Anstrengung für seine Schöpfung aufgewendet. Auch wenn es nicht auf den ersten Blick auffällt, kann man doch erkennen, dass ein schwaches blaues Glimmen von den Runen ausgeht.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W8 +2
+ETW0-Bonus: -2
+Schadensart: mit Klingenwaffe aufschlitzen
+Besondere Fähigkeiten:
+50% Chance für zusätzlichen 1W3 Elektrizitäts-Schaden
+15% Chance, dass das Ziel betäubt wird
+Gewicht: 7
+Geschwindigkeit: 7
+Waffenfertigkeit: Axt
+Waffentyp: einhändig
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@18 = ~Entsetzlicher Flegel~
+@20 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem mit Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt. Dieser Flegel wurde magisch verbessert. Auf der Oberfläche kann man Runen glühen sehen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W6 + 4
+ETW0-Bonus: -3
+Schadensart: mit Hiebwaffe zertrümmern
+Besondere Fähigkeiten:
+50% Chance +2D3 elektrischer Schaden
+10% Chance, dass das Ziel betäubt wird
+Gewicht: 15
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: Flegel / Morgenstern
+Waffentyp: Einhändig
+Mindeststärke: 11
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@22 = ~Streitkolben +3~
+@24 = ~Streitkolben +3: "Schänder"
+Persönliche Waffe von Nirel, einem mächtigen Kleriker, von dem wenig bekannt ist. Jedoch verzeichnet die Geschichte, dass er ein gemeiner Fanatiker war, dessen Hass auf Anhänger eines anderen Glaubens fast keine Grenzen kannte. Es wird gesagt, dass er die Köpfe seiner Opfer als Trophäen behielt. Er war persönlich verantwortlich für das Schänden von über einhundert Tempeln anderer Religionen; das verschaffte ihm selbst und seinem Streitkolben den Spitznamen "Schänder".
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W6 + 3
+ETW0-Bonus: -4
+Schadensart: mit Hiebwaffe zertrümmern
+Gewicht: 7
+Geschwindigkeitsfaktor: 6
+Waffenfertigkeit: Streitkolben
+Typ: Einhändig
+Mindeststärke: 3
+Kann nur verwendet werden von:
+ Böse gesinnten Klerikern~
+@25 = ~Will's Kampfflegel~
+@26 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem mit Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt. Die Waffe wurde magisch verbessert, indem eine wirksame Verbindung zwischen der Waffe und seinem Träger gebildet wird.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W8 + 1
+ETW0-Bonus: -1
+Schadensart: mit Hiebwaffe zertrümmern
+Besondere Fähigkeiten:
+Wenn Will seinen Flegel handhabt, ist er in der Lage, 5 vergiftete Kugeln zu erzeugen.
+Gewicht: 10
+Geschwindigkeitsfaktor: 6
+Waffenfertigkeit: Flegel / Morgenstern
+Typ: Einhändig
+Mindeststärke: 13
+Kann nur verwendet werden von:
+ Will~
+@27 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem mit Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt. Die Waffe wurde magisch verbessert, indem eine wirksame Verbindung zwischen der Waffe und seinem Träger gebildet wird.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W8 + 3
+ETW0-Bonus: -3
+Schadensart: mit Hiebwaffe zertrümmern
+Besondere Fähigkeiten: 
+Wenn Will seinen Flegel handhabt, ist er in der Lage, 5 vergiftete Kugeln zu erzeugen.
+50% Chance, Ziel nach erfolgreichem Angriff zu verlangsamen.
+Stärke: +2
+Maximale Trefferpunkte: +10
+Gewicht: 10
+Geschwindigkeitsfaktor: 6
+Waffenfertigkeit: Flegel / Morgenstern
+Typ: Einhändig
+Kann nur verwendet werden von:
+ Will~
+@28 = ~Vergifteter Bolzen~
+@29 = ~Dies sind normale Armbrustbolzen, die mit einem schnell wirkendem pflanzlichen Gift vergiftet wurden.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W8
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+Besondere Fähigkeiten: Gift
+Gewicht: 0
+Schusswaffe: Armbrust~
+@31 = ~Nirel's Stiefel der Abwehr~
+@33 = ~Dies sind die Stiefel von Nirel, einem mächtigen Kleriker, von dem wenig bekannt ist. Jedoch verzeichnet die Geschichte, dass er ein gemeiner Fanatiker war, dessen Hass für Anhänger eines anderen Glaubens fast keine Grenzen kannte. Es wird gesagt, dass er die Köpfe seiner Opfer als Trophäen behielt. Er war persönlich verantwortlich für das Schänden von über einhundert Tempeln anderer Religionen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rettungswurf: +1 Bonus
+Magieresistenz: +5% Bonus
+Gewicht: 3
+Kann verwendet werden von:
+ grausam gesinnten Klerikern~
+@35 = ~Sturmbogen~
+@37 = ~Diese Waffe ist den Kriegern im Dienste Talos, dem Gott der Stürme und der Zerstörung, geweiht und hat Dekaden des Gebrauches in ihren fähigen Händen gesehen. Der Sturmbogen ist ein Kurzbogen, der aus vielen zusammengesetzten Schichten Holz gebildet wird, und wurde gegen die unzähligen Feinde der Kirche Talos benutzt. Vor kurzem war der Bogen im Besitz eines Sturm-Ritters namens Kalassan Brevered, der getötet wurde, nachdem er eine Anzahl von Waldläufern und Druiden auf den Mondschein-Inseln niedergeschlagen hatte.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schadensbonus: 1
+ETW0 Bonus: 1
+Besondere Fähigkeiten: 
+ + 30% Elektrizitäts-Widerstand
+ Angriffe pro Runde: 3
+Gewicht: 3
+Geschwindigkeitsfaktor: 3
+Waffenfertigkeit: Kurzbogen
+Waffentyp: Beidhändig
+Kann nicht verwendet werden von:
+ Klerikern
+ Druiden
+ Magiern
+ Mönchen
+ Kensai
+ Rittern~
+@38 = ~Kurzbogen der Strömenden Energie~
+@40 = ~Dieser Bogen strömt Hitze aus, obwohl er in Euren Händen kalt zu sein scheint - als ob der Bogen von seinen Fähigkeiten überzeugt wäre.
+Solche Bögen sind häufig in den kalten Ländern des Zehn-Städte-Gebietes anzutreffen, aber dieser ist außergewöhnlich gefährlich.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schadensbonus: 1
+ETW0 Bonus: 1
+Besondere Fähigkeiten:
+50% Chance, zusätzlich 2D3 Feuerschaden zuzufügen
+Angriffe pro Runde: 2
+Feuer / Kältewiderstands-Bonus: 20%
+Gewicht: 3
+Geschwindigkeit: 7
+Waffenfertigkeit: Kurzbogen
+Waffentyp: Beidhändig
+Mindeststärke: 3
+Kann nicht verwendet werden von:
+ Magiern
+ Klerikern
+ Druiden
+ Mönchen
+ Kensai
+ Rittern~
+@42 = ~Komposit-Langbogen von Feuerwein~
+@44 = ~Gefertigt während des goldenen Zeitalters der Elfen von Feuerwein. Verstärkt und tadellos ausgewogen kann er die stärkste Rüstung durchbohren. Besonders in den Händen eines Elfs wird er zu einer lebensgefährlichen Waffe.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schadensbonus: 2 (Fernwaffe)
+ETW0 Bonus: 3
+Besondere Fähigkeiten:
+Angriffe pro Runde: 2
+Gewicht: 3
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: Langbogen
+Waffentyp: Beidhändig
+Mindeststärke: 15
+Kann nicht verwendet werden von:
+ Klerikern
+ Druiden
+ Magiern
+ Dieben
+ Barden
+ Mönchen
+ Kensai
+ Rittern~
+@46 = ~Handschuhe des meisterhaften Stehlens~
+@48 = ~Die Handschuhe des Meisterdiebes "Klebriger Finger"
+Diese Handschuhe, die von vielen Dieben begehrt werden, waren einmal das Eigentum des berühmten Taschendiebes "All An Woo-Dy".
+SPEZIFISCHE EIGENSCHAFTEN:
+Taschendiebstahl: +15%
+Schlösser öffnen: +15%
+Gewicht: 1
+Kann nicht verwendet werden von:
+ Rechtschaffenen Charakteren
+ Andere als Diebe und Barden ~
+@50 = ~Vergiftete Geschosse von Will~
+@52 = ~Diese vergifteten Kugeln kann Will anfertigen, indem er das Harz benutzt, das von seinem ungewöhnlichen Flegel tröpfelt. Er erlernte sehr jung, das Gift zu verwenden, und kann genug für 5 Kugeln zubereiten.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden (Fernwaffe): 1W5 + 1
+Besondere Fähigkeiten: Gift
+Gewicht: 0
+Schusswaffe: Schleuder~
+@54 = ~Sage's Rüstung~
+@56 = ~Kettenhemd +3: "Sage's Rüstung"
+In Handarbeit gefertigt von Sage, einem der Menschen des Altertums, um ihm bei seiner Suche nach dem Bösen zu helfen. Alte Überlieferungen geben an, dass Sage ein mächtiger Krieger war, der selten die Treffer seiner Feinde in der Schlacht gespürt hat, es wird sogar gesagt, dass er sich immer schnell erholt hat, ganz gleich wie heftig der Angriff oder die Schlacht war.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 4
+RK-Bonus: -2 gg. Klingenwaffen
+RK-Malus: +2 gg. Wuchtwaffen
+Besondere Fähigkeiten:
++5% Magischer Widerstand
+Regeneration
+Gewicht: 9
+Kann nicht verwendet werden von:
+ Dieben
+ Mönchen
+ Druiden
+ Magiern
+ Kensai
+ Bogenschützen
+ Tiermeistern
+ Pirschern
+ Gestaltwandlern
+ böse gesinnten Charakteren~
+@57 = ~Elfenkettenhemd der Zauberei~
+@58 = ~Elfenketten werden gepriesen für ihre Fähigkeit, dass der Anwender Magiezauber beim Tragen werfen kann. Diese bestimmte ist verzaubert, um seinem Träger mehr Intelligenz zu geben, allerdings hat dies seinen Preis.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 2
+RK-Bonus: -2 gg. Klingenwaffen
+RK-Malus: +2 gg. Wuchtwaffen
+Gewicht: 8
+Besondere Fähigkeiten:  
+ Konstitution -2 Malus
+ Intelligenz +1 Bonus
+ Bonus bei Priester- oder Magierzauber Level 2 und 3
+ Mindeststärke: 8
+Kann nicht verwendet werden von:
+ Mönchen
+ Druiden
+ Kensai
+ Bogenschützen
+ Tiermeistern
+ Pirschern
+ Gestaltwandlern
+ Elfen und Halbelfen~
+@59 = ~Kettenhemd +5~
+@60 = ~Kettenhemd +5: "Ebenholzkette"
+Dem besten Krieger und stärkstem Priester der Ebenholz Hand gewidmet.  
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 2
+RK-Bonus: -2 gg. Klingenwaffen
+RK-Malus: +2 gg. Wuchtwaffen
+5% Magischer Widerstand
+Gewicht: 10
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Kensai
+ Bogenschützen
+ Tiermeistern
+ Pirschern
+ Gestaltwandlern~
+@61 = ~Kettenhemd des Feuerwein~
+@62 = ~Während der Zeiten des Wohlstandes von Feuerwein wurden spezielle Versionen der berühmten Elfenkettenhemden gefertigt, die zusätzlichen Schutz boten gegen die Gewitterstürme, die manchmal in der Gegend auftraten.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 4
+RK-Bonus: -2 gg. Klingenwaffen
+RK-Malus: +2 gg. Wuchtwaffen
+Elektrizitäts-Widerstand: +30%
+Gewicht: 15
+Mindeststärke: 8
+Kann nicht verwendet werden von:
+ Kensai~
+@63 = ~NeJ installiert, Umgehung der Umhang-Installation~
+@65 = ~Umhang der Sprühenden Farben ~
+@67 = ~Der Ursprung dieses Mantels ging in den Nebeln der Zeit verloren. Einige Zeit war sie jedoch im Besitz von Drosus, einem Magier aus Tiefwasser mit nicht wenig Energie. Drosus geriet während einer Expedition alleine auf den Bergrücken der Weltberge mit einer ungewöhnlich großen Gruppe Winterwölfe in Schwierigkeiten, als er gezwungen war, einen schwereren Mantel anzuziehen, um die Kälte abzuhalten.
+Auf den ersten Blick scheint der Mantel von blendend weißer Farbe zu sein. Tatsächlich ist es jedoch eine Zusammensetzung von Tausenden von Farben, die in jeglicher vorhandenen Lichtquelle tanzen und spielen. Dieser Schwall der funkelnden Farben führt dazu, jedermann abzulenken und teilweise zu blenden, der direkt den Trägers anstarrt.
+SPEZIFISCHE EIGENSCHAFTEN:
+Der Umhang gewährt eine +3 Bonus zur Rüstungsklasse und kann in Verbindung mit jeder anderen Form von Schutzzauber getragen werden. Daher kann er anders als ein Schutzumhang über magische Rüstungen getragen werden.
+Rüstungsklasse-Bonus: +2
+Gewicht: 3~
+@69 = ~Mumientee~
+@71 = ~Priester von Horus-Re aus dem weit entfernten Mulhorand waren die Ersten, die diesen lebensrettenden Trank herstellten. Ein faulig riechendes Gebräu, das durch Kochen benutzter Mumienbinden zusammen mit natürlich ausgedörrten tierischen Resten gemacht wird. Der entstandene Tee kann dann verwendet werden, um die Folgen einer Krankheit zu neutralisieren.~
+@73 = ~Namji's Robe~
+@75 = ~Ein Zauberer aus Thesk namens Namji war der Schöpfer dieser mächtigen Robe. Obwohl er dem Träger nicht viel Magiewiderstand verleiht, ist er äußerst nützlich für Zauberwirker, die sich häufig in gefährlichen Situationen befinden. Namji selbst war ein rücksichtsloser Schlachtzauberer, der mit größtem Vergnügen inmitten einer Schlacht Zauber aussprach. Er war wegen seinem Gebrauch von Namjis brennenden Händen gefürchtet, einer Anpassung des allgemeinen Brennende-Hände-Zaubers.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 2
+Besondere Fähigkeiten: Träger regeneriert 1 Trefferpunkt pro Runde
+Gewicht: 5
+Kann nur verwendet werden von:
+ Magiern (einklassig) ~
+@77 = ~Tödlicher Dorn~
+@79 = ~Der ursprüngliche Name dieses ungewöhnlichen Dolches ging in den düsteren Tiefen des Meeres der Klingen verloren. In Handarbeit gefertigt aus magisch verstärkten Knochen der Sahuagin, wird von der Waffe angenommen, dass sie von den Kuo-Toa bei seltsamen Ritualen benutzt wurde. Der Handgriff ist in Handarbeit aus einer Koralle gemacht, die von Sahuagin-Haut umwickelt ist. In früherer Zeit gehörte er Lockhart, einem bekannten wagemutigen Dieb und Schmuggler an der Schwertküste. Er war es, der der Klinge seinen gegenwärtigen Namen gab.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W4+2
+ETW0-Malus: +2
+Schadensart: mit Stichwaffe durchbohren
+Besondere Fähigkeiten:
+2% Chance beim Wurf "Finger des Todes" gegen das Ziel
+Gewicht: 1
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Dolch
+Typ: Einhändig
+Kann nicht verwendet werden von:
+ Klerikern
+ Tiermeistern~
+@81 = ~vergifteter Wurfpfeil~
+@83 = ~Dieser Pfeil sieht aus wie jeder andere Pfeil, abgesehen davon, dass er mit einem mächtigen Gift getränkt ist.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W3
+Besondere Fähigkeiten: vergiftet Ziele für 10 Runden
+Schadensart: mit Stichwaffe durchbohren (Fernkampf)
+1 Angriff pro Runde als Bonus
+Gewicht: 0
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Fernwaffen
+Typ: Einhändig
+Kann verwendet werden von:
+ Dieben
+ Druiden~
+@85 = ~Schlüssel für die Schatzkammer~
+@86 = ~Dieser Schlüssel war im Besitz von Herzog Belt. Wahrscheinlich aus einem außergewöhnlichen Grund~ 
+@88 = ~Ring aus dem Grab~
+@89 = ~Indem Ihr die leuchtende Oberfläche des Ringes betrachtet, seid Ihr in der Lage, das Spiegelbild eines unbekannten Raumes zu sehen, der schwierig zu beschreiben ist, da die Dunkelheit ihn umhüllt. Der Text, der entlang des Ringes eingeätzt ist, lautet:
+"Dolch schneidet durch Steinkreis, Ring erhellt die Dunkelheit".~
+@91 = ~Dieser verrostete Dolch scheint gewöhnlich in jedem Kampf nutzlos, aber die Magie um ihn ist noch wirksam. Wenn ein Teil abgebrochen ist, füllt augenblicklich eine neue Substanz den Schaden.~
+@92 = ~Schreibtischschlüssel
+Gewöhnlich werden Metallschlüssel dazu benutzt, um kleine Verriegelungen in Kisten, Regalen und Sekretären oder Schreibtischen zu öffnen. So kann dieser wahrscheinlich zum gleichen Zweck benutzt werden.~
+@93 = ~Ihr bekamt diesen Schlüssel in der Nördlichen Zitadelle. Er öffnet den Eingang zum Mausoleum.~
+@94 = ~Dies ist der Schlüssel zum Altar in der nördlichen Zitadelle, aufbewahrt von Meander.~
+@95 = ~Dieser Schlüssel wurde neben dem Körper von Haeball gefunden.~
+@97 = ~Verbesserte Schatten-Rüstung~
+@99 = ~Bei der Schattenrüstung handelt es sich um ein beschlagenes Lederwams, das speziell für die Schattenmeister von Amn hergestellt wurde. Die Schattenmeister nehmen innerhalb der Hierarchie der Schattendiebe den höchsten Rang ein. Die Schattenrüstung ist ein beschlagenes Lederwams +3, mit dessen Hilfe man mit dem Schatten verschmelzen kann.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 3
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -1 gg. Stichwaffen
+ -2 gg. Klingenwaffen
+RK-Malus: 
+ +2 gg. Wuchtwaffen
+Besondere Fähigkeiten: 
+ Schlösser öffnen: +15 %
+ Fallen finden: +15 %
+ Taschendiebstahl: +15 %
+ Leise bewegen: +15 % 
+Gewicht: 1
+Mindeststärke: 6
+Kann nur verwendet werden von:
+ Dieben (auch mehrklassig und mit Klassenkombination)~
+@100 = ~Wills Rüstung mit Umhang~
+@101 = ~Taerom hat eine gute Garnitur Lederrüstungen gefertigt, wir sollten ihn eines Tages besuchen - man weiß nie, ob der alte Schmid das Prachtstück verbessern kann.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 4
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -2 gg. Stichwaffen
+ -1 gg. Klingenwaffen
+Besondere Fähigkeiten:
+RW gegen Versteinerung / Verwandlung: +2
+1 zusätzlichen Zauber für die Grade 1-4
+Kann nur verwendet werden von:
+ Will~
+@102 = ~Taerom machte seine beste Arbeit mit dieser Lederrüstung. Nun ist Wills Rüstung zu einem zuverlässigem Schutz geworden.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 0
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -2 gg. Stichwaffen
+ -1 gg. Klingenwaffen
+Besondere Fähigkeiten:
+Rettungswurf gegen Versteinerung / Verwandlung: +3
+Glück: +1
+Elektrizitätswiderstand: +15%
+Säurewiderstand: +30%
+1 zusätzlichen Zauber der Grade 1-8
+Gewicht: 15
+Kann nur verwendet werden von:
+ Will~
+@103 = ~Beschlagenes Lederwams +3~
+@104 = ~Diese Rüstung war das Eigentum des bekannten Schnee-Barbar-Fürsten, Corbus Denolx von Greyhawk. Wie oder warum es seinen Besitz verlies ist nicht bekannt.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 5
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -2 gg. Stichwaffen
+ -1 gg. Klingenwaffen
+Gewicht: 8
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Magiern
+ Kensai~
+@105 = ~Beschlagenes Lederwams des Widerstandes~
+@106 = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Während die normale Ausführung aus einem gehärteten Panzer besteht, ist das beschlagene Lederwams weich und geschmeidig und mit Hunderten von Metallnieten versehen. Die Nieten sitzen so nahe beieinander, dass sie eine flexible Ummantelung aus Hartmetall ergeben, die vor Schnitten und Schwerthieben schützt. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammenzuhalten.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 5
+RK-Bonus:
+ -1 gg. Geschosswaffen
+ -2 gg. Stichwaffen
+ -1 gg. Klingenwaffen
+Widerstands-Bonus:
++15% Widerstand gegen Stichwunden
++15% Widerstand gegen Schnittwunden
++15% Widerstand gegen Feuer
++15% Elektrischer Widerstand
++2 auf Rettungswürfe
+Gewicht: 15
+Mindeststärke: 2
+Kann nicht verwendet werden von:
+ Magiern
+ Kensai~
+@107 = ~Laute~
+@108 = ~Hirsuhnite's Laute~
+@109 = ~Diese in feiner Handarbeit hergestellte Laute hat silberne Saiten, die in einen dunkel gebeizten Holzrahmen aufgereiht werden, der mit Gold eingelegt ist. Die Kunstfertigkeit sieht ausgezeichnet, vollkommen und beinahe übernatürlich aus. Tatsächlich so sehr, dass sogar unerfahrene Finger, die über die Saiten spielen, die schönsten Akkorde anzuschlagen scheinen. Ungewöhnlich genug, gibt es keine sichtbare Methode für das Stimmen, als ob es nicht notwendig wäre. Ein Gefühl von Ehrfurcht beginnt Euren Rücken herauf zu kriechen, während Ihr die ganze Kompliziertheit dieses schönen Instrumentes betrachtet.~
+@110 = ~Hirsuhnite's Laute "Das Ruhige Publikum"
+Diese fein gearbeitete Laute ist unter dem Hiphroditen des Ostens weithin bekannt. Man sagt, es soll der Ursprung des Schlafes sein. Hirsuhnite, ein Hiphroditen Barde, soll gerüchteweise innerhalb des ergiebigen Zeitraumes der Nacht das Lied der vollständigen Hingebung gefunden und es innerhalb der Laute festgehalten haben.
+SPEZIFISCHE EIGENSCHAFTEN:
+Besondere Fähigkeiten: Ziel wird ohnmächtig.
+Dauer: 2 Runden
+Gewicht: 3
+Kann nur verwendet werden von:
+ Barden~
+@112 = ~Besen~
+@114 = ~Innerhalb der Reiche allgemein verwendetes Gerät, durchwegs praktisch, so dass sich keine der hoch geachteten Hausfrauen ein Leben ohne ihn vorstellen kann. Dieses Exemplar scheint sich nicht irgendwie von anderen zu unterscheiden, aber es ist verdreckt mit schmieriger Substanz und riecht spezifisch. Es ist ausgestattet mit Sicherheitsgurt und einem Loch, das es ermöglicht, das fremdartige Antriebsteil zu befestigen, das der Garnitur beigefügt ist. Aus Verzweiflung kann es genauso gut zur Verteidigung verwendet werden.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W1 +1
+Schadensart: mit Hiebwaffe zertrümmern
+Besondere Fähigkeiten: 100% für kritischen Treffer beim Auftreffen
+Gewicht: 3
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Stab
+Waffentyp: Beidhändig
+Kann nicht verwendet werden von:
+ Mönchen~
+@115 = ~Schriftrolle des Wissens~
+@116 = ~Diese Schriftrollen werden aus einem unidentifizierbaren Material gemacht und können großen magischen Zauber enthalten. Normalerweise enthalten diese Schriftrollen leistungsfähige Zauber, die, wenn sie aktiviert werden, der hervorrufenden Einzelperson erlauben, die Zaubersprüche zu erlernen oder sich einzuprägen, die auf der Seite abgedruckt sind. Sie sind bekannt dafür, seltene und vergessene Zaubersprüche vergangener Zeiten und längst vergessene klerikale Gebete zu bewahren, oder die Energie angeborener Fähigkeiten zu übertragen.
+Diese Schriftrolle scheint die Angeborene Fähigkeit "Untote festhalten" zu beinhalten.~ 
+@117 = ~Diese Schriftrollen werden aus einem unidentifizierbaren Material gemacht und können großen magischen Zauber enthalten. Normalerweise enthalten diese Schriftrollen leistungsfähige Zauber, die, wenn sie aktiviert werden, der hervorrufenden Einzelperson erlauben, die Zaubersprüche zu erlernen oder sich einzuprägen, die auf der Seite abgedruckt sind. Sie sind bekannt dafür, seltene und vergessene Zaubersprüche vergangener Zeiten und längst vergessene klerikale Gebete zu bewahren, oder die Energie angeborener Fähigkeiten zu übertragen.
+Diese Schriftrolle scheint die Angeborene Fähigkeit "Geisterpeitsche" zu beinhalten.~ 
+@118 = ~Diese Schriftrollen werden aus einem unidentifizierbaren Material gemacht und können großen magischen Zauber enthalten. Normalerweise enthalten diese Schriftrollen leistungsfähige Zauber, die, wenn sie aktiviert werden, der hervorrufenden Einzelperson erlauben, die Zaubersprüche zu erlernen oder sich einzuprägen, die auf der Seite abgedruckt sind. Sie sind bekannt dafür, seltene und vergessene Zaubersprüche vergangener Zeiten und längst vergessene klerikale Gebete zu bewahren, oder die Energie angeborener Fähigkeiten zu übertragen.
+Diese Schriftrolle erscheint, die Angeborene Fähigkeit von "Heilender Berührung" zu beinhalten.~ 
+@120 = ~Einige Priester tragen gerne ein kleines Abbild ihrer Gottheit mit sich, wohin sie auch gehen. Solche Gewissenhaftigkeit kann nur belohnt werden.
+Besondere Fähigkeiten:
+Ihr lernt den Zauber: "Mündel des Schutzes"~
+@121 = ~Montgomery~
+@122 = ~Dies ist der Körper von Montgomery.~
+@123 = ~Unidentifizierter Körper~
+@124 = ~Die Leiche, die Ihr gefunden habt, sieht aus wie der Körper eines Magiers, aber angesichts des Zustandes der sterblichen Reste könnt Ihr nicht sicher sein.~
+@125 = ~Tote Ratte~
+@127 = ~Dieses fein gefertigte heilige Symbol ist dem Gott Helm geweiht. Das Symbol stellt einen aufrechten Kriegshandschuh mit einem starrenden Auge auf der Vorderseite bildlich dar. Der Handschuh selbst wurde aus feinsten Platin in Handarbeit gemacht, das Weiß des Auges aus Perlmutt geschnitzt, und ein blauer Saphir wurde als Pupille verwendet.~
+@128 = ~Das Große Buch der Unwissenden~
+@129 = ~Als Ihr über die Tafeln des Buches gleitet, könnt Ihr keine Beschreibung darauf sehen, aber gleichzeitig fühlt Ihr, dass Ihr Euch offenbar nicht daran erinnert, was der Grund war, es zu öffnen.~
+@55130 = ~Körper des Fey'Doch~
+@130 = ~Eisen aus dem Bergwerk~
+@133 = ~Schriftrolle von Charleston Nib
+Diese aufgerollte Schriftrolle enthält kurze Notizen über die Lokalisation von einigen Ruinen nahe der Feuerwein-Brücke. Sie wird durch das Siegel eines Magiers mit vergessenem Namen versperrt, aber wahrscheinlich kann mit eine Art Schlüssel die magische Wand entschärft werden.~
+@134 = ~Eine Menge unleserlicher Informationen sind auf das Papier gekritzelt, aber es ist möglich, einige Teile zu lesen:
+
+"...schließlich. Hasdar bringt immer gute Nachrichten. Jetzt, da die Arbeiten am Tempel fertig gestellt sind, um ihn gegen irgendwelche Eindinglinge aus dem Scharfzahnwald zu schützen, können sich meine Brüder auf das wahre Schicksal der Schwarzen Hand konzentrieren...................... mit Balors Kult................... notwendig."
+
+"Warum zum Teufel versuchte ich, zu jenen versunkenen Ruinen im Süden zurückzugehen, die einmal meine waren?... in dem Dreck ausgerutscht... jetzt stelle ich fest, dass er verloren ist!... ohne diesen Schlüssel kann ich nicht einmal meinen eigenen Schreibtisch öffnen... So schön der Ort auch ist, er ist nicht sicher... Ich muss wieder dorthin gehen, um ihn zu finden... wenn nur dieses verdammte Wasser nicht wäre... der Mann hat keinen anderen Platz zu leben als Sümpfe..."
+
+"..dumme verdammte Orks, die im Holz der Toten verrückt werden... versuche, einen Durchgang zu finden nach... aber nur frühere Druiden unserer Bruderschaft kennen die richtige Kombination von Schlüsseln, um die Gruft zu öffnen, und wir haben jeden Schlüssel versteckt.... ohne den...... Dolch und Ring von ........ nie wieder Zugang erlangen............. in den Tempel des Steinkreises..."
+
+"...... Shaella ist tatsächlich wahnsinnig..."~
+@135 = ~Nachricht für Yness~
+@136 = ~Mein Lieber!
+Die Helden, die Ihr um Hilfe batet, haben mich gerettet und die Ungeheuer getötet. Ich gehe geradewegs zum Bauernhof, treffe mich dort. Lasset die Götter unsere Retter segnen!
+Eure Pandris~
+@137 = ~Tracea - der wahre Gläubige!
+Unser Bote wird zu Euch zur rechten Zeit kommen, um Euer Zeichen und eine Segnung zu erhalten, nachdem Ihr Euren Herren anruft. Unser Kult ist für Eure Hilfe sehr dankbar und Ihr könnt sicher sein, dass Eure Taten nicht vergessen werden.
+D.~
+@141 = ~Nach genauerem Blick auf diesen Plattenpanzer scheint sein Metall in einem unstofflichen Zustand zu sein, daher sein schattenhaftes Aussehen. Kaum dass er getragen wird, lässt er den Träger genauso schattenhaft erscheinen wie die Rüstung selbst ist. Sie stellt auch Extraschutz gegen Geschosswaffen dar, während der Träger in seinem schattenhaften Zustand ist.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 2
+Rüstungsklasse-Bonus: 
+ -3 gg. Geschosswaffen
+ -3 gg. Klingenwaffen
+Gewicht: 20
+Mindeststärke: 12
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben
+ Waldläufern
+ Mönchen
+ Bogenschützen
+ Pirschern
+ Tiermeistern
+ Gestaltwandlern
+ Barbaren
+ Kensai~
+@142 = ~Bentley's Flaschenbier~
+@143 = ~Das Gasthaus "Freundlicher Arm" ist für ein von Bentley zubereitetes Gebräu berühmt, das wegen seines Preises ein Lieblingsgetränk für viele Reisende bleibt, die den Platz von Spiegelschatten kreuzen. Aber die Auswirkungen des Trinkens sind meistens nicht vorhergesehen.~
+@144 = ~Trank des Feuerschildes~
+@145 = ~Dieses starke Elixier erfüllt den Trinker mit einem von den Feuern des Phönixes gebildeten Schild. Die Wirkungen sind stark, aber kurzlebig.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: -4
+Feuerwiderstand: +50% Bonus
+Kältewiderstand: +25% Bonus
+Säurewiderstand: +25% Bonus
+Elektrizitätswiderstand: +25% Bonus
+Verleiht Immunität gegen nichtmagische Waffen
+Dauer: 60 Sekunden~
+@147 = ~Das Etikett auf dieser Weinflasche lautet "Marsember Erröten - Feine Weinlese" und beansprucht für sich, eine fruchtige Mischung aus Gewürzen und Düften der Tau-Blume zu sein. Die Weinberge von Marsember sind für ihre festen Trauben weithin bekannt, welche ihren Geschmack von der wohlriechenden Salzluft des Meeres der Gefallenen Sterne erhalten.~ 
+@148 = ~Flasche Elfenwein~
+@149 = ~Diese Flasche Elfenwein hat auch die Eigenschaften eines heilenden Tranks. Während eines Elfenfestivals tranken die Priester von der "Hand Seldarines" zu viel an diesem Tag und fügten zufällig ein Fass des Elfenweins einer Mischung hinzu, die für heilsame Tränke bestimmt war.
+SPEZIFISCHE EIGENSCHAFTEN:
+Heilt 35 Trefferpunkte
+80% Chance sich für 30 Minuten zu betrinken~ 
+@151 = ~Will's Magischer Ring~
+@153 = ~Will möchte nicht erzählen, woher der Ring stammt. Seine Vorzüge sind selten und wahrscheinlich wurde er von einem freundlichen Magier für Will gefertigt.
+SPEZIFISCHE EIGENSCHAFTEN:
+Reduzierung von Schaden durch Magie: 20%
+Kann nur verwendet werden von:
+ Will~
+@154 = ~Ring des Widerstands~
+@155 = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck verwendet wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Sie sind heiß begehrt, insbesondere von Menschen, deren Beruf das Abenteuer ist. Aus keinem ersichtlichen Grund fühlt sich dieser Ring bei Berührung warm an.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse-Bonus: 1
+Widerstands-Bonus:
++25% Widerstand gegen Zertrümmerung
++1 auf Rettungswürfe ~
+@156 = ~Rubys Ring ~
+@157 = ~Robe der bösen Erzmagier~
+@158 = ~"Saurons Schwarzer Schleier"
+Diese besondere magische Robe ist das Resultat von Saurons großem Wissen sowohl um priesterliche Energien als auch Zauberkräfte. Sie bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig die eigene Magieresistenz und Rettungswürfe. Sie verleiht auch dem Zauberer, der sie trägt, die Fähigkeit, ein Tor zwischen den Dimensionen zu schaffen und ein "Schatten" seiner Selbst zu werden. Aufgrund ihrer Verzauberung kann sie nur von Magiern schlechter Gesinnung getragen werden.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse: 5
+Magieresistenz: +15% Bonus
+Rettungswurf: +1 Bonus
+Gewicht: 2
+Spezielle Fähigkeiten:
+Dimensionentor
+Schattentor
+Kann nur verwendet werden von:
+ Magiern (auch mehrklassig und mit Klassenkombination)
+ Charakteren mit schlechter Gesinnung~
+@159 = ~Umhang des Ork-Schamanen~
+@160 = ~Ork-Schamanen machten oft ihre Kleider aus schlechten mit Lederteilen zusammengehaltenen Materialien, so dass sie ein Schandfleck sind, schwer und gewöhnlich nicht das Hauptinteresse für Abenteurer, obwohl sie viele Vorteile besitzen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse-Bonus: -2
+Elektrizität, Feuer- und Kältewiderstand: +40% Bonus
+Gewicht: 35
+Charisma-Malus: - 5
+Kann nicht verwendet werden von:
+ Charakteren mit guter Gesinnung~
+@162 = ~Kleiner Schild +2, Schild der Freien Handlung~
+@164 = ~Der Träger ist gegen alles immun, magisches und sonstiges, was Beweglichkeit in jeder Hinsicht betrifft, auch wenn sie noch beschleunigt werden kann. Seid Euch jedoch bewusst, dass der Träger auch vor vorteilhaften Auswirkungen geschützt wird wie denen, die von den Stiefeln der Geschwindigkeit ausgehen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse-Bonus: 2
+Kein Schutz vor Fernwaffen
+Besondere Fähigkeiten: Träger ist immun gegen alles, was seine Bewegungsfreiheit einschränken würde.
+Gewicht: 3
+Mindeststärke: 4
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Kensai~
+@166 = ~Schild von Feuerwein~
+@168 = ~Dieser Schild mit auf seiner Oberfläche eingeätzten Elfen-Runen wurde aus einigen der härtesten Metalle gemacht, die jemals aus Händen der Elfen kamen. Jeder Träger dieses Schildes ist von der Tatsache überzeugt, dass dieser Schild jeden darauf ausgeführten Schlag ablenken wird.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse-Bonus: -3
+Besondere Fähigkeiten: Rüstungsklasse-Bonus -4 gegenüber Fernwaffen
+Gewicht: 8
+Mindeststärke: 15
+Kann nicht verwendet werden von:
+ Barden
+ Druiden
+ Magiern
+ Dieben
+ Mönchen
+ Kensai~
+@169 = ~Verstärkter Langschild~
+@170 = ~Der Langschild, auch Drachen- oder Turmschild genannt, ist ein riesiger Schild aus Metall oder Holz, der dem Träger vom Fuß bis fast zum Kinn reicht. Er muss gut am Unterarm befestigt sein und jederzeit fest in der Hand gehalten werden, was es natürlich unmöglich macht, mit der Schildhand noch andere Aktionen auszuführen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Rüstungsklasse-Bonus: 2
+Besondere Fähigkeiten: +3 Rüstungsklasse-Bonus gegenüber Fernkampfwaffen
+Widerstand-Bonus:
+ +15% Feuerwiderstand
+ +15%, Widerstand gegen Wuchtwaffen
+Gewicht: 12
+Mindeststärke: 14
+Kann nicht verwendet werden von:
+ Druiden
+ Barden
+ Magiern
+ Dieben
+ Mönchen
+ Kensai~
+@172 = ~Sense des Lykanthropen~
+@174 = ~Raasi'doch de Velle verbrachte viele Monde damit, mit den Handwerkern des Wandernden Dorfes bei der Schaffung des verzauberten Jagdspeers mitzuarbeiten. Der Elfen-Waldläufer brauchte eine Waffe, um Werwölfe auszurotten, die die Wälder von Tethyr terrorisierten. Wie der Mann selbst, fliegt die Waffe immer noch gerade und treffsicher, obwohl sie ihrer extravaganten Verzierung beraubt ist.
+Als der Kreuzzug beendet war, verkaufte er vermutlich sein Inventar einem berühmten Militaristen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W6 +2, + 1W6 Klingenschaden
+ETW0-Bonus: -2, -3 Bonus gegenüber Lykanthropen
+Schadensart: Durchdringen und Aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Speer
+Waffentyp: Beidhändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@175 = ~Eron's Sense~
+@176 = ~"Eron der Schreckhafte" war ein pessimistischer Zauberer mit einer Neigung zu magischem Duellen. Er glaubte, der einzige Weg, um in der Kunst stark zu werden, sei es, seine Kräfte gegen andere Zauberer zu testen. Jedoch glaubte er auch, dass Diebe und Meuchelmörder ständig versuchten, seinen Reichtum zu stehlen. Um weltlich auszusehen trug er die Kleidung eines Pilgers und trug einen einfachen Wanderstab aus Ulme. In Wirklichkeit war der Stab magisch verzaubert, um im Kampf stärker zu sein, aber Eron wollte nicht riskieren, diese Tatsache anzuzeigen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W6+2
+ETW0-Bonus: -3
+Schadensart: mit Hiebwaffe zertrümmern
+Besondere Fähigkeiten: zusätzlich 1W8+2 mit Klingenwaffe aufschlitzen
+Gewicht: 3
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Stab
+Waffentyp: Beidhändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+ Mönchen~
+@177 = ~Abenteuerstab +2~
+@178 = ~Abenteuerstäbe wurden ursprünglich in einem anderen Reich geschaffen, aber sie haben ihren Weg nach Faerun gefunden. Sie sind normalerweise mit Zauberformeln angefüllt, die einigen Schutz bieten, Zugang oder Auswege bereitstellen oder einfach Kenntnisse verleihen, ebenso wie sie Schutz gegen verschiedene Elemente bieten. Dieser besondere Stab wirkt Klopfen, Geisterrüstung, Böses entdecken, kritische Wunden heilen und Tote erwecken, jedes auf Befehl und ohne Begrenzung. Außerdem stellt er Schutz vor Feuer ebenso wie der Ring gleichen Namens und etwas Widerstand gegen Magie zur Verfügung.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W6 +2
+ETW0-Bonus: -2
+Schadensart: mit Hiebwaffe zertrümmern
+Besondere Fähigkeiten:
+ +40% Widerstand gegen Feuer
+ +20% Magiewiderstand
+Gewicht: 4
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Stumpfe Waffen
+Waffentyp: Beidhändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+ Kämpfern
+ Paladinen
+ Waldläufern
+ Dieben
+ Barden
+ Mönchen~
+@179 = ~Kampfstab +3 "Blutsauger"~
+@180 = ~Dieser fein gefertigte Stab war unter den Geschenken, die den Druiden aus Erret-Akb von den Nekromanten aus Perregal als ein Friedensangebot überreicht wurden, als ihr Jahr 200 schließlich endete. Die Druiden selbst hätten es nie verwendet, aber das Geschenk abzulehnen, hätte möglicherweise ausgereicht, um den zerbrechlichen Frieden zu stören.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W6 + 3
+ETW0-Bonus: -1
+Besondere Fähigkeiten: Vampirismus
+Schadensart: mit Hiebwaffe zertrümmern
+Gewicht: 3
+Geschwindigkeitsfaktor: 1
+Waffenfertigkeit: Stab
+Waffentyp: Beidhändig
+Mindeststärke: 5
+Kann nicht verwendet werden von:
+ Charakteren mit rechtschaffener oder neutraler Gesinnung~
+@182 = ~Alptraum der Trolle~
+@184 = ~Diese Klinge wurde von Kid'Seroki geschmiedet, um seine Blutsfeinde, die Trolle, zu bekämpfen. Nach dem Diebstahl des Rings der Trollmagier haben die Trollgötter endlose Gruppen von Trollen zu Kid'Seroki ausgesendet, um ihn von ihm wieder zurückbekommen. Um dies zu verhindern, hat Kid'Seroki verschiedene Magien in diese Klinge geschmiedet und sie "Alptraum der Trolle" genannt.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W10 +3
+Schadensbonus: +3 (Säure)
+ETW0-Bonus: -1 
+Schadensart: mit Klingenwaffe aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Langschwert
+Typ: Einhändig
+Mindeststärke: 4
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Tiermeistern~
+@185 = ~Drachenklinge~
+@186 = ~Diese Klinge von durch einen Drachentöter hergestellt, der sein Leben durch... nun ja... seinen Beruf verlor. 
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W10 +1
+Schadensart: mit Klingenwaffe aufschlitzen
+ETW0-Bonus: -1
+Gewicht: 9
+Geschwindigkeitsfaktor: 9
+Waffenfertigkeit: Langschwert
+Typ: Einhändig
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Tiermeistern~
+@188 = ~Evalt's Flammenschwert~
+@190 = ~Diese Waffe wurde von den Schmieden des alten Mythus Drannor hergestellt. Diese Klinge, die seit Generationen weitergeben wurde, war Jahrhunderte lang in der Familie Evalts. Diese bestimmte Klinge verleiht seinem Benutzer Widerstand gegen Feuer und eine Prämie zu seiner Rüstungsklasse.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W6 +1
+ETW0-Bonus: -1
+Schadensart: mit Klingenwaffe aufschlitzen
+Besondere Fähigkeiten:
++30% Feuerwiderstand
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Kurzschwert
+Typ: Einhändig
+Kann nicht verwendet werden von:
+ Klerikern~
+@192 = ~Morridin's Schwert~
+@194 = ~Morridin war der Gegenstand manch eines Witzes wegen seines Schwerts. Viele scherzten, das ein solch kleiner Mann ein solch großes Schwert nicht schwingen könnte. Jedoch jene, die lachten, lachten nicht lange oder jemals wieder infolge der tödlichen Genauigkeit und Geschicklichkeit, mit der er sein Schwert schwang.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W10 +1
+ETW0-Bonus: -1
+Besondere Fähigkeiten: +2 Geschicklichkeit
+Schadensart: mit Klingenwaffe aufschlitzen
+Gewicht: 5
+Geschwindigkeitsfaktor: 7
+Waffenfertigkeit: Zweihänderschwert
+Waffentyp: Beidhändig
+Mindeststärke: 10
+Kann nur verwendet werden von:
+ Barden~
+@196 = ~General Ghotals Zweihänder-Schwert~
+@197 = ~Dieses große Schwert wurde einst von den Händen Ghotals, einem berühmten Anführer der Ork-Horden im Norden geschwungen. Damit war er imstande, gegen Luskan, Targos und andere Städte einschließlich Niewinter zu rücken. Die Berühmtheit des Schwertes reichte aus, die meisten Verteidiger unwillig zu machen, bevor auch nur Art organisierten Widerstandes aufgebaut wurde. Aber Ghotal ging zu weit, als Targos schließlich erobert und zerstört wurde. Die vereinten Heere der Elfen aus Everaska und anderer nördlicher Städte stellten den General und vernichteten die meisten seiner Legionen. Ghotal selbst entwich dem Schlachtfeld, wurde jedoch tödlich verwundet. Seitdem ward nie wieder etwas von ihm gehört oder gesehen, obwohl die orkische Legende sagt, dass er bis auf den heutigen Tag lebt und nur auf die Gelegenheit wartet, Faerun noch einmal mit Chaos und Verwüstung zu überziehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12 +3
+ETW0-Bonus: -3
+Schadensart: aufschlitzen
+Gewicht: 12
+Geschwindigkeit: 9
+Waffenfertigkeit: Zweihänderschwert
+Waffentyp: Beidhändig
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@198 = ~Langschwert "Valarius"~
+@199 = ~Gefertigt von dem Magierkönig Varashar für den Kommandanten seiner Toten Ritter. Das Schwert wurde schnell legendär wegen seiner Fähigkeit, durch fast alles zu schneiden. Von ganzen Legionen weiß man, dass sie beim Anblick des legendären Schwertes vom Schlachtfeld flohen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden 1W8 +1
+ETW0-Bonus: -1
+Besondere Fähigkeiten: verursacht Panik bei erfolgreichem Treffer mit einer Wahrscheinlichkeit von 20%.
+Schadensart: mit Klingenwaffe aufschlitzen
+Gewicht: 3
+Geschwindigkeit: 3
+Waffenfertigkeit: Langschwert
+Waffentyp: Einhändig
+Mindeststärke: 10
+Kann nicht verwendet werden von:
+ Klerikern
+ Magiern
+ Druiden
+ Tiermeistern~
+@200 = ~Zweihänderschwert +1 "Durlags Stolz"~
+@201 = ~Zweihänderschwert +1: "Durlags Stolz"
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W10 +1
+ETW0-Bonus: -1
+Schadensart: mit Klingenwaffe aufschlitzen
+Gewicht: 10
+Geschwindigkeitsfaktor: 9
+Waffenfertigkeit: Großes Schwert
+Waffentyp: Beidhändig
+Mindeststärke: 13
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@202 = ~Todesstoß~
+@203 = ~Antikes Schwert unbekannten Ursprungs. Einst wurde das Gerücht verbreitet, es sei in Durlags Turm. Einige sagen, dass das Schwert in Mythos Drannor gefertigt wurde; trotzdem legen die genauesten Erzählungen das Schwert in die Hände der Weisen aus alter Zeit.
+SPEZIFISCHE EIGENSCHAFTEN:
+ETW0-Bonus: -2
+Schaden: 2W4 + 2 Säureschaden
+Gewicht: 0
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Langschwert
+Typ: Einhändig
+Kann nicht verwendet werden von:
+ Klerikern~
+@204 = ~Bhaals Feuer~
+@205 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 und 120 cm beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen. Die Klinge dieses Schwertes ist mit allen Arten von geheimnisvollen Symbolen bedeckt.
+SPEZIFISCHE EIGENSCHAFTEN:
+Schaden: 1W8 + 2 (+1D4 Feuer)
+ETW0-Bonus: -2
+Schadensart: mit Klingenwaffe aufschlitzen
+Besondere Fähigkeiten: 10% Chance, dass das Ziel betäubt wird.
+Gewicht: 4
+Geschwindigkeit: 4
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Charakteren mit guter Gesinnung
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Tiermeistern~
+@206 = ~Geisterpeitsche~
+@208 = ~Heilende Hände~
+@209 = ~Schutzbezirk~
+@210 = ~Skelettwache~
+@211 = ~Skelettwache (Beschwörung)
+Grad: 7
+Bereich: 20
+Dauer: 4 Stunden
+Zeitaufwand: 5
+Wirkungsbereich: Speziell
+Rettungswurf: Keiner
+Der Werfer ruft 2 skelettartige Krieger herbei, um für ihn in der Schlacht zu kämpfen.~
+@213 = ~Glühende Wolke~
+@214 = ~Glühende Wolke
+(Hervorrufung)
+Grad: 7
+Bereich: Sicht des Anwenders
+Dauer: 4 Runden +1W6 Runden
+Zeitaufwand: 2
+Wirkungsbereich: Umkreis von 3 m
+Rettungswurf: 1/2
+Dieser Zauber ruft eine dünne, rauchige Wolke hervor, die den Wirkungsbereich füllt und zuerst harmlos aussieht. Jedoch eine Runde später sprüht sie Funken und spuckt Flammen und verursacht 1 - 2 Punkte Brandschaden pro Stufe in der ersten Runde. In der vierten Runde verursacht sie 1 - 4 Punkte pro Stufe, und in der fünften Runde wieder 1 - 2 Punkte. Rettungswürfe können die Schäden für die Dauer einer Runde um die Hälfte verringern. Die Wolke wirft weiterhin für die Dauer des Zaubers regelmäßig im Abstand einer Runde Flammen.~
+@215 = ~Mädchen~
+@216 = ~Sellanio~
+@217 = ~Haeball~
+@218 = ~Tempel von Yondalla und Alvanhendars Feinen Weinen~
+@219 = ~Neue Gegenstände und Läden wurden installiert.~
+@220 = ~Installation neuer Geschöpfe ~
+@221 = ~Elite der Schwarzen Krallen~
+@222 = ~Amelka~
+@223 = ~Archandra~
+@224 = ~Bruder Aschmaan~
+@225 = ~Ashirukuru~
+@226 = ~Assaia~
+@227 = ~Aurelinus~
+@229 = ~Balen~
+@230 = ~Ritter des Grabes~
+@231 = ~Anhänger des Kultes der Schwarzen Hand~
+@232 = ~Wächter der Katakomben~
+@233 = ~Brentaw~
+@234 = ~Brigand~
+@235 = ~Cholga~
+@236 = ~Dämonenritter~
+@237 = ~Der Tod heißt Euch willkommen.~ [SHAEL_01]
+@238 = ~Hier wirst du fallen!~ [SHAEL_03]
+@239 = ~~ [SHAEL_05]
+@240 = ~~ [SHAEL_06]
+@241 = ~~ [SHAEL_04]
+@242 = ~Schwarzseher~
+@244 = ~Teddy der Schwarzseher~
+@245 = ~Bruder Draagis~
+@246 = ~Kleine Schwester~
+@247 = ~Eldod~
+@248 = ~Elka~
+@249 = ~Essila~
+@250 = ~Falton~
+@252 = ~General Ghotal~
+@255 = ~Halbling-Kleriker~
+@256 = ~Brother Hasdar~
+@257 = ~Hasten~
+@258 = ~Kann ich Euch helfen?~
+@259 = ~Ahh! Das ist sinnlos!~
+@260 = ~Das ist sinnlos! Wir haben keinen Grund gegeneinander zu kämpfen!~
+@261 = ~~
+@262 = ~~
+@263 = ~Ich habe noch etwas mehr zu sagen.~
+@264 = ~Du hast meine Geschichten gehört. Es hat sich nichts geändert, seid wir das letzte Mal miteinander gesprochen haben.~
+@265 = ~Lasst mich! Ich möchte alleine sein!~
+@266 = ~Satan!! Er ist nur ein Kind! Helft mir!!~
+@267 = ~Feuersalamander~
+@268 = ~Humbaba~
+@269 = ~Oogoor~
+@270 = ~Hobgod~
+@271 = ~Lesser Tanar'ri~
+@272 = ~Kamira~
+@273 = ~Keelor~
+@277 = ~Koldar~
+@278 = ~Krestian~
+@280 = ~Legion~
+@281 = ~Lenore~
+@302 = ~Llindellyn~
+@303 = ~Lucretia~
+@304 = ~Magnad~
+@305 = ~Mariel~
+@306 = ~Milea~
+@308 = ~[MONKS 1] Gelobt sei die selige Kenntnis von Oghma.~ [MONKS01]
+@309 = ~~ [MONKS05]
+@310 = ~~ [MONKS06]
+@311 = ~Wir sollten uns beeilen, die Altarpredigt soll in einigen Minuten beginnen.~ [MONKS02]
+@312 = ~Wissen, weise eingesetzt, ist das mächtigste Werkzeug.~ [MONKS03]
+@313 = ~Entschuldigt mich, aber Ich komme zu spät zu meinem Unterricht.~ [MONKS04]
+@314 = ~Mardoroan~
+@315 = ~Nadalin~
+@316 = ~Natalka~
+@318 = ~Die redlichen Leute haben selten Zeit für ein kleines Gespräch.~ [ELFFF01]
+@319 = ~~ [ELFFF05]
+@320 = ~~ [ELFFF06]
+@321 = ~Papa~
+@322 = ~Mama~
+@324 = ~Was ist Deine Geschichte?~ [GENFG14]
+@325 = ~~ [NOBLW05]
+@326 = ~~ [NOBLW06]
+@327 = ~Ordolath~
+@328 = ~Orpeho~
+@329 = ~Oupaste~
+@330 = ~Pandris~
+@331 = ~Paulia~
+@343 = ~Köter~
+@346 = ~Reedrig~
+@347 = ~Rudier~
+@348 = ~Meandar~
+@349 = ~Kolchear~
+@351 = ~Sar'garin Ve'xelt~
+@354 = ~Braucht Ihr etwas?~ [GENFG07]
+@355 = ~~ [FTOWN05]
+@356 = ~~ [FTOWN06]
+@369 = ~Krestians Freund~
+@371 = ~Phantomspinne~
+@373 = ~Mein Leben ist ein Chaos.~ [LOTHR02]
+@374 = ~~ [LOTHR03]
+@375 = ~~ [LOTHR04]
+@376 = ~Schiffer~
+@377 = ~Tamael~
+@378 = ~Torqion~
+@379 = ~Tytus~
+@381 = ~Vanessa~
+@383 = ~Winorma~
+@384 = ~Feuerdrachen~
+@385 = ~Yness~
+@387 = ~~ [ZOMBI03]
+@388 = ~~ [ZOMBI04]
+@389 = ~~ [ZOMBI05]
+@390 = ~~ [ZOMBI06]
+@391 = ~~ [SKELT08]
+@392 = ~~ [SKELT09]
+@393 = ~~ [ZOMBI01]
+@394 = ~~ [ZOMBI02]
+@395 = ~Will Scarlet O'Hara~
+@396 = ~Will Scarlet, zu Euren Diensten!~ [WILL01]
+@397 = ~Jemand soll ermordet werden?~ [WILL02]
+@398 = ~Dieses Leben entspricht mir!~ [WILL04]
+@399 = ~Was nun?~ [WILL05]
+@400 = ~Das ist nicht in meinen Aufträgen eingeschlossen.~ [WILL06]
+@401 = ~Oh, ich kann nicht.~ [WILL07]
+@402 = ~Gut, sehr gut!~ [WILL08]
+@403 = ~So viele Dinge bleiben zu tun übrig!~ [WILL10]
+@404 = ~Los, schmecke meinen Flegel!~ [WILL03]
+@408 = ~Noch am Leben!~ [WILL11]
+@409 = ~Auf ins Abenteuer!~ [WILL13]
+@410 = ~Rate mal, wer jetzt sterben wird?~ [WILL12]
+@411 = ~Macht es wie ich - kauft Euch selbst einen Flegel!~ [WILL17]
+@412 = ~Wir sind wieder weg!~ [WILL18]
+@413 = ~Und eine gute Sache zu tun.~ [WILL19]
+@414 = ~Mein Flegel und ich warten nur auf Eure Aufträge!~ [WILL20]
+@415 = ~Schlussendlich, aber nicht zu früh!~ [WILL21]
+@416 = ~Blut, Därme und Innereien!~ [WILL22]
+@417 = ~Braucht mich jemand?~ [WILL23]
+@418 = ~Ich habe nichts gegen die Idee, aber unglücklicherweise ist es nicht möglich.~ [WILL24]
+@419 = ~Was für Kopfschmerzen!~ [WILL26]
+@420 = ~Ich halte mich zurück. Zufrieden?~ [WILL32]
+@421 = ~Ha! Ich bin zu stark!~ [WILL34]
+@422 = ~Nun, Viconia, wenn ich ein Mechaniker wäre, könnte ich Euren Motor täglich waschen.~
+@423 = ~Den werden wir für eine Weile nicht wieder sehen.~ [WILL40]
+@424 = ~Wenn ich denjenigen erwische, der das gemacht hat.~ [WILL50]
+@425 = ~Scarlet Will, Familienname O'Hara, wurde früher Will Tell Helm genannt, aber er mag diesen Namen nicht und daher schaffte er es, Einheimische zu überzeugen, ihn zu ändern. Er wohnte einige Zeit in Beregost und empfiehlt es als friendliche Stadt. Er lebt in ziemlich guter Beziehung zu den Einwohnern, obgleich er für seine Beteiligung an einigen Krawallen bekannt ist. Dennoch begrüßen die Einwohner seine Anwesenheit wegen seines außerordentlichen Mutes, den er kürzlich zeigte, besonders während des Kampfes mit den Banditen aus der Nähe. ~
+@426 = ~Neue Geschöpfe installiert.~
+@427 = ~Dialoge installiert.~
+@428 = ~Installation neuer und aktualisierter Gebiete.~
+@429 = ~Der Eingang zu diesen Katakomben ist durch mächtige Magie geschützt. Ihr braucht einen Schlüssel, um hineinzukommen.~
+@430 = ~Seid Euch der Macht dessen bewusst, die Ihr hier findet. Die Tür, die nicht geöffnet sein darf - ist geöffnet.~
+@431 = ~Opfer der Orks~
+@432 = ~Gemeinschaftshaus der Fischer. Ihr schaut hinein und seht nichts interessantes.~
+@433 = ~Leuchtturm~
+@434 = ~Nördliche Zitadelle~
+@435 = ~Es muss der Wein oder so etwas gewesen sein. Ich weiß es nicht. Ich kann mich nicht erinnern.~
+@436 = ~Von einem Bären gejagt legte ich mich hin, um vorzutäuschen, tot zu sein. Konnte mich später nicht erinnern, wie man vortäuscht, lebendig zu sein.~
+@437 = ~An die Feuerstelle zurückgezogen, in das Feuer gelegt und ohne Wasser. ~
+@438 = ~Es gab eine aufregende Orgie, die ich vorbereitet hatte, aber niemand kam.~
+@439 = ~Es muss ein Wetterumschwung kommen, das sagen mir meine Knochen.~
+@440 = ~So, ich lüge.~
+@441 = ~Das täuscht wirklich. Was erwartet Ihr, in den Gräbern zu finden?~
+@442 = ~Passt vor den Wölfen in menschlicher Haut auf.~
+@443 = ~Es gibt nichts darin, abgesehen von einer verrottenden Leiche. ~
+@444 = ~Diese Treppen müssen einst in andere Räume geführt haben.~
+@445 = ~Scharfzahnwald~
+@446 = ~Neue Gebiete installiert.~
+@447 = ~Skripte werden installiert ~
+@448 = ~Nun zur Dekompression der area.tis Dokumente.~
+@500  = ~Loderndes Öl~
+@501  = ~In diesem Glastopf ist eine teure Mischung aus Öl und anderen Chemikalien. Wenn diese Mischung entzündet wird, brennt sie für mehrere Sekunden bei sehr heißer Temperatur. Brennendes Öl ist manchmal schwierig zu verwenden, weil es für den Benutzer eine lange Zeit dauert, um es richtig zu werfen. Abenteurer tragen häufig Öl mit sich, um mit Trollen in dem unglücklichen Fall fertig zu werden, dass sie mit ihnen zusammenstoßen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Wenn er auf ein Ziel geworfen wird, zerbricht der Glastopf und breitet brennendes Öl über alles innerhalb eines Radius von 1,5 m aus, und verursacht dabei 2-16 Punkte Feuerschaden.
+Verwendbar von: 
+ Allen~
+@502 = ~Nördliche Küste~
+/* new for v2.0 */
+@503 = ~Pilars Ring~
+@504 = ~Gheldehars Stiefel~
+@505 = ~Haeball,
+I send you this dagger for savekeeping. In the name of our god, we have to prevent that the orcs get their hands on it. I will keep the ring that came along with it - separated like this, these two artefacts will not serve their evil purpose anytime soon.
+
+D.~
+// #34932 (BGII)
+@506 = ~Abenteurer~
+// #33246 (BGII)
+@507 = ~Dämonenherz~
+// #33248 (BGII)
+@508 = ~Niemand hat gesagt, dass Dämonenherzen hübsch sind, aber diesen widerwärtigen, breiigen Fleischklumpen, der das Böse förmlich ausstrahlt, hättet Ihr nicht erwartet. Das Organ ist schwer, nass und pulsiert noch immer. Selbst wenn Ihr es tief in Eurem Rucksack verstaut, könnt Ihr das unheimlich klingende Pochen hören. Ihr könnt Euren Impuls, regelmäßig in den Rucksack zu schauen, ob sich das grausige Ding nicht gerade daranmacht, sich zu befreien, nur schwer unterdrücken.~
+// #36938 (BGII)
+@509 = ~Finsterer Düsterschrecken~
+// #73254 (BGII)
+@510 = ~Feuersalamander~
+// #73272 (BGII)
+@511 = ~Skelett-Bogenschütze~
+// #39680 (BGII)
+@512 = ~Junger Vampir~
+
+@513 = ~DSotSC fuer BGT/EET detektiert.~
+@514 = ~Magierzauber von DSotSC detektiert. Referenzen werden eingefügt...~
+@515 = ~Hauptkomponente von DSotSC nicht detektiert. Ressourcen werden installiert...~
+@516 = ~Dies scheint eine Art Schatzkarte zu sein. Eine Eintragung lautet "Scharfzahnwald". Weiter im Nordosten ist eine Markierung, als würde sich hier etwas wichtiges befinden.~
+// some part of this is from NTAVERY.tra line @21
+@517 = ~Dies sind die persönlichen Aufzeichnungen des Mönchs Avery aus der Nördlichen Zitadelle. Wie Ihr entnehmen könnt, hat er Nachforschungen über den Gründer der Zitadelle namens Monoach durchgeführt. Ihr findet auch einen Absatz über den Altar im Tempel des Helm: "Aufgrund der Entscheidung des Gründers der Zitadelle, Monoach, haben wir eine unserer Reliquien dort sicher verwahrt - es ist ein heiliges Symbol von Helm. Aber wir wissen nicht, wo der Schlüssel zum Altar ist. Es wird gesagt, dass Monoach ihn seinen vertrauten Freunden irgendwo weit weg zur Verwahrung gab... Sie wohnen auf einer Insel weit im Nordwesten... Das muss ich wirklich noch weiter erforschen."~
+@518  = ~Der Eingang zu diesen Katakomben ist durch mächtige Magie geschützt. Ihr braucht einen Schlüssel, um hineinzukommen. Den angebrachten Symbolen entnehmt Ihr, dass hier Priester des Helm den Eingang vor langer Zeit versiegelt haben.~
+// #65113 (BGII)
+@519 = ~Heiliges Symbol des Helm~
+// #2483 (BGII)
+@520 = ~Eissalamander~
+// #34784 (BGII)
+@521 = ~Ork~
+// #2197 (BGII)
+@522 = ~Orkischer Bogenschütze~
+// #2331 (BGII)
+@523 = ~Ork-Priester~
+// #2329 (BGII)
+@524 = ~Ork-Magier~
+// #2327 (BGII)
+@525 = ~Orog~
+// #26284 (BGII)
+@526 = ~Fischer~
+@527 = ~Hauptkomponente von DSotSC fuer BG:EE detektiert.~
+@528 = ~Hauptkomponente von DSotSC detektiert. Referenzen werden eingefügt...~
+@529 = ~Diese Modifikation ist nicht mit Ihrem Spiel kompatibel.~
+@530 = ~Diese Modifikation muss VOR BP-BGT Worldmap installiert werden.~
+@531 = ~Für diese Komponente wird die Hauptkomponente dieser Mod (NTotSC) benötigt.~
+@532 = ~Diese Begegnung wird bereits von einer anderen Modifikation eingefügt.~
+
+
+/* Strings from DSotSC (k4thos' BGT/EET version) */
+
+@1244 = ~Heiliges Wasser~
+@1245 = ~Das Wasser in dieser Flasche wurde gesegnet und verursacht bei untoten Kreaturen 1W8 Schadenspunkte, so als wäre es Säure.~
+
+@1452 = ~Elfenbogen "Goblins Verderben"~
+@1454 = ~Dieser Bogen wurde von Elfen geschaffen, die ihre Wälder besser gegen Überfälle durch Goblins und Hobgoblins schützen wollten. Allerdings besitzt er keine magischen Eigenschaften gegen diese Kreaturen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0-Bonus: -2
+Schadensbonus: +2
+Gewicht: 2
+Geschwindigkeitsfaktor: 3
+Mindeststärke: 3
+Fertigkeit: Bogen
+Waffentyp: beidhändig
+
+Kann nur verwendet werden von:
+ Elfen guter Gesinnung~
+
+@2134 = ~Fey'doch~
+
+@2293 = ~Waldelf-Krieger~
+@2294 = ~Waldelf-Elite~

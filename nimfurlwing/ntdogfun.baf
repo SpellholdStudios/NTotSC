@@ -1,0 +1,21 @@
+IF
+  Global("NTNimFurlong","GLOBAL",2)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+	Allegiance("NTNIMFUR",ENEMY)
+	!Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+	Enemy()
+END
+
+IF
+	Dead("NTNIMFUR")
+THEN
+  RESPONSE #100
+	EscapeArea()
+END

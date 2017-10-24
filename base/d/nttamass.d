@@ -1,0 +1,13 @@
+BEGIN ~NTTAMASS~
+
+IF ~NumberOfTimesTalkedTo(0)
+~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN JOURNAL @10070 EXIT
+END
+
+IF ~True()
+~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN EXIT
+END

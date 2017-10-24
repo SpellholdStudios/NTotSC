@@ -1,0 +1,9 @@
+// #15397 (slightly changed)
+@0    = ~Welcome in our chapel. Our devotion to He of the Unsleeping Eye is unswerving. Please, allow us to shield and protect you under the ceaseless gaze of Helm.~
+// #15400
+@1    = ~Sorry, the thought of being watched by some kind of ceaseless eye disturbs me immensely. I'll find my own way out.~
+// #15399
+@2    = ~I'd like to see what services you have to provide.~
+@3    = ~Why is your altar locked? That's very interesting...~
+@4    = ~Don't even dare to touch it! If you're so interested in this, you should go and talk to Avery. He takes care of this altar. But I doubt he'll be willing to talk about it considering the current situation...~
+/* @5 -> @10057 */

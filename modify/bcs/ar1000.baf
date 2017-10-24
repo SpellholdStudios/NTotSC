@@ -1,0 +1,31 @@
+IF
+  Global("NTYnessSpawn","%UlgothsBeard%",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTYness",[2587.746],14)
+    SetGlobal("NTYnessSpawn","%UlgothsBeard%",1)
+END
+
+IF
+  Global("NTTalkedToReedig","GLOBAL",1)
+  !Exists("NTREEDRI")
+  !Dead("NTREEDRI")
+  Dead("TANAR")
+THEN
+  RESPONSE #100
+    CreateCreature("NTREEDRI",[1267.769],0)
+    SetGlobal("NTTalkedToReedig","GLOBAL",2)
+    ActionOverride("NTREEDRI",CreateItem("NTPBLET6",1,0,0))
+END
+
+IF 
+	!Dead("NTDRAAGI")
+	PartyHasItem("NTPBLET6")
+	GlobalLT("NTTalkedToReedig","GLOBAL",3)
+THEN
+	RESPONSE #100
+		RevealAreaOnMap("AR60PB")
+		SetGlobal("NTTalkedToReedig","GLOBAL",3)
+		AddJournalEntry(@10104,QUEST)
+END
+

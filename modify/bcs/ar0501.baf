@@ -1,0 +1,10 @@
+IF
+  Global("NTItems","%DurlagsTower_Cellar%",0)
+THEN
+  RESPONSE #100
+    ActionOverride("Container2",CreateItem("NTBLUN04",0,0,0))
+    ActionOverride("Container6",CreateItem("NTBOOT01",0,0,0))
+    SetGlobal("NTItems","%DurlagsTower_Cellar%",1)
+    Continue()
+END
+

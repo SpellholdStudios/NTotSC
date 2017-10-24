@@ -1,0 +1,14 @@
+IF
+  PartyHasItem("NTKEYPB0")
+  Global("NT_HasSymbolOfHelm","MYAREA",0)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@10005)
+    EraseJournalEntry(@10069)
+    EraseJournalEntry(@10087)
+    EraseJournalEntry(@10088)
+    EraseJournalEntry(@10091)
+    AddJournalEntry(@10089,QUEST_DONE)
+    SetGlobal("NT_HasSymbolOfHelm","MYAREA",1)
+END
+
