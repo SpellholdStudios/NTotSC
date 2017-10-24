@@ -152,13 +152,13 @@ END
 LANGUAGE
 	~English~
 	~english~
-	~NTotSC/language/english/prompts.tra~
+//	~NTotSC/language/english/prompts.tra~
 	~NTotSC/language/english/setup.tra~
 	~NTotSC/language/english/journal.tra~
 LANGUAGE
 	~German (translation by Leonardo Watson)~
 	~german~
-	~NTotSC/language/english/prompts.tra~
+//	~NTotSC/language/english/prompts.tra~
 	~NTotSC/language/german/setup.tra~
 	~NTotSC/language/german/journal.tra~
 
