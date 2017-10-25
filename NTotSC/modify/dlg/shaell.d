@@ -32,13 +32,9 @@ BEGIN END
 
 ADD_TRANS_ACTION SHAELL
 BEGIN 16 END
-BEGIN 2 END
-~SetGlobal("HelpShaella","GLOBAL",2)~
-
-ADD_TRANS_ACTION SHAELL
-BEGIN 16 END
-BEGIN 0 END
+BEGIN END
 ~SetGlobal("NTTalkedToElnaedraPB","GLOBAL",1)
+SetGlobal("HelpShaella","GLOBAL",2)
 EraseJournalEntry(%shaella_journal%)~
 
 
