@@ -2508,6 +2508,13 @@ COPY ~NTotSC/will/ntwill2.cre~ ~override~
 	SAY 0x194 @417
 	SAY 0x1cc @425
 
+ACTION_IF GAME_IS ~bgt~ BEGIN
+  COPY_EXISTING ~ntwill2.cre~ ~override~
+	~ntwill4.cre~ ~override~
+	~ntwill6.cre~ ~override~
+	WRITE_ASCII 0x3c ~WILLYM~ #8
+END	
+
 COPY_EXISTING ~golinv.cre~ ~override~
 	WRITE_ASCII SCRIPT_OVERRIDE ~INITGOLV~ #8 // Override Script was INITDLG
 
