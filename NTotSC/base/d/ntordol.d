@@ -63,6 +63,7 @@ IF ~~ THEN BEGIN 10
   SAY @21
   IF ~~ THEN DO ~DropInventory()
 GiveGoldForce(2000)
+TakePartyItem("misc74")
 EraseJournalEntry(@10048)
 EscapeArea()~ SOLVED_JOURNAL @10050 EXIT
 END
