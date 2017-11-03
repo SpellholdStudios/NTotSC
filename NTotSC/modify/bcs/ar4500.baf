@@ -7,14 +7,22 @@ If PC has Charleston Nib's Scroll ("ntpblet1") will activate the entrance (in "N
 */
 
 IF
-	!PartyHasItem("NTPBLET1")
-	Global("NT_ExitTRAN51PBActivation","GLOBAL",0)
+	Global("NT_ExitTRAN51PBActivation","MYAREA",0)
 THEN
 	RESPONSE #100
-		SetGlobal("NT_ExitTRAN51PBActivation","GLOBAL",3)
+		SetGlobal("NT_ExitTRAN51PBActivation","MYAREA",1)
 		AddMapNote([3029.2005],@54)
 		TriggerActivation("TRAN51PB",FALSE)
 		TriggerActivation("NTTR51PB",TRUE)
+		Continue()
+END
+
+IF
+	!PartyHasItem("NTPBLET1")
+	Global("NT_ExitTRAN51PBActivation","MYAREA",3)
+THEN
+	RESPONSE #100
+		SetGlobal("NT_ExitTRAN51PBActivation","MYAREA",0)
 		Continue()
 END
 

@@ -17,7 +17,7 @@
 
 //nttr51pb.baf (trigger before dungeon in Firewine Bridge is opened by Charleston Nib's Scroll
 @50  = ~Die Schriftrolle beschützt Euch vor der Magie, die den Eingang versiegelt hatte. Ihr könnt nun eintreten.~
-@51  = ~Ihr werft einen Blick durch den Eingang. In der spärlichen Beleuchtung unter Euch herrscht genug Bewegung um klarzustellen, dass Ihr diese Ruine nicht unvorbereitet betreten solltet.~
+@51  = ~Ihr werft einen Blick durch den Eingang. In der spärlichen Beleuchtung unter Euch herrscht genug Bewegung um klarzustellen, dass Ihr diese Ruine nicht unvorbereitet betreten solltet - und möglichst mit einem fähigen Kleriker.~
 @52  = ~Der weitere Weg ist durch mächtige und Euch völlig unvertraute Schutzzeichen blockiert. Ihr werdet einen Weg finden müssen, sie zu deaktivieren, wenn Ihr hier weiterkommen wollt.~
 @53  = ~Ihr müsst näher herantreten, um diesen Eingang zu untersuchen.~
 

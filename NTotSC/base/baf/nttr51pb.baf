@@ -1,37 +1,41 @@
 //similar to lichrope.bcs. Info trigger with this script
 
-IF
-	Clicked([ANYONE])
-	Range(LastTrigger,15)
-	PartyHasItem("NTPBLET1") // Charleston Nib's Scroll
-THEN
-	RESPONSE #100
-		DisplayString(Myself,@50)
-		SetGlobal("NT_ExitTRAN51PBActivation","GLOBAL",0)
-		TriggerActivation("TRAN51PB",TRUE)
-		TriggerActivation("NTTR51PB",FALSE)
-END
 
 IF
 	Clicked([ANYONE])
 	Range(LastTrigger,15)
-	!PartyHasItem("NTPBLET1") // Charleston Nib's Scroll
-	!Global("NT_ExitTRAN51PBActivation","GLOBAL",1)
+//	!PartyHasItem("NTPBLET1") // Charleston Nib's Scroll
+	GlobalLT("NT_ExitTRAN51PBActivation","MYAREA",2)
 THEN
 	RESPONSE #100
 		DisplayStringHead(Myself,@51)
-		SetGlobal("NT_ExitTRAN51PBActivation","GLOBAL",1)
+		SetGlobal("NT_ExitTRAN51PBActivation","MYAREA",2)
 END
+
+
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,15)
+	PartyHasItem("NTPBLET1") // Charleston Nib's Scroll
+	Global("NT_ExitTRAN51PBActivation","MYAREA",2)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@50)
+		SetGlobal("NT_ExitTRAN51PBActivation","MYAREA",3)
+		TriggerActivation("TRAN51PB",TRUE)
+		TriggerActivation("NTTR51PB",FALSE)
+END
+
 
 IF
 	Clicked([ANYONE])
 	Range(LastTrigger,15)
 	!PartyHasItem("NTPBLET1") // Rune
-	!Global("NT_ExitTRAN51PBActivation","GLOBAL",2)
+	Global("NT_ExitTRAN51PBActivation","MYAREA",2)
 THEN
 	RESPONSE #100
 		DisplayStringHead(Myself,@52) // The way is blocked by powerful and bizarre wards. You shall have to find some way to deactivate them if you wish to enter.
-		SetGlobal("NT_ExitTRAN51PBActivation","GLOBAL",2)
 END
 
 IF

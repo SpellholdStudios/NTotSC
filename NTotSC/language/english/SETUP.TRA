@@ -1,4 +1,4 @@
-@0    = ~NTotSC for BGT-Weidu and EET~
+@0    = ~Northern Tales of the Sword Coast (NTotSC) for BGT-Weidu, BG:EE, and EET~
 @1    = ~Poisoned Arrows~
 @2    = ~These are normal flight arrows that have been envenomed with a fast acting vegetable poison.
 
@@ -1158,6 +1158,12 @@ D.~
 @530 = ~This mod should be installed BEFORE BP-BGT Worldmap~
 @531 = ~Main component of this mod (NTotSC) needed~
 @532 = ~Encounter is already restored by another mod.~
+@533 = ~Keelor the Dwarf~
+@534 = ~Llindellyn's Lucky Arrow~
+@535 = ~Nim Furlwing's Hunting Hounds~
+@536 = ~Pilar and Gheldehar~
+@537 = ~Svlast's Torment~
+@538 = ~Will O'Hara NPC~
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 

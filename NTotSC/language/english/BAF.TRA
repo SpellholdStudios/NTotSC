@@ -18,7 +18,7 @@
 
 //nttr51pb.baf (trigger before dungeon in Firewine Bridge is opened by Charleston Nib's Scroll
 @50  = ~The scroll protects you from the magic that sealed the entrance. You may now enter.~
-@51  = ~You have a quick peek into the entrance. In the dim light you see enough movement to know that this is a dungeon where you should not decent into unprepared.~
+@51  = ~You have a quick peek into the entrance. In the dim light you see enough movement to know that this is a dungeon where you should not decent into unprepared - and preferably with a capable cleric.~
 @52  = ~The way is blocked by powerful and bizarre wards. You shall have to find some way to deactivate them if you wish to enter.~
 @53  = ~To examine this entrance, move closer.~
 

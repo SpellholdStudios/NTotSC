@@ -202,7 +202,7 @@ LANGUAGE
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN ~Northern Tales of the Sword Coast (NTotSC)~
+BEGIN @0 /* ~Northern Tales of the Sword Coast (NTotSC)~ */
 REQUIRE_PREDICATE GAME_IS ~bgt eet bgee~ @529
 FORBID_COMPONENT ~setup-bp-bgt-worldmap.tp2~ ~0~ @530
 
@@ -2260,7 +2260,7 @@ END
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 
-BEGIN ~Keelor the Dwarf~
+BEGIN @533 /* ~Keelor the Dwarf~ */
 REQUIRE_COMPONENT ~NTotSC/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#KEELO.CRE~ @532
 
@@ -2285,7 +2285,7 @@ EXTEND_TOP ~AR01PB.bcs~ ~NTotSC/keelor/ar01pb_keelor.baf~ EVALUATE_BUFFER
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 
-BEGIN ~Llindellyn's Lucky Arrow~
+BEGIN @534 /* ~Llindellyn's Lucky Arrow~ */
 REQUIRE_COMPONENT ~NTotSC/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#LLIND.CRE~ @532
 
@@ -2315,7 +2315,7 @@ EXTEND_TOP ~AR40PB.bcs~ ~NTotSC/llindellyn/ar40pb_llindellyn.baf~ EVALUATE_BUFFE
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 
-BEGIN ~Nim Furlwing's Hunting Hounds~
+BEGIN @535 /* ~Nim Furlwing's Hunting Hounds~ */
 
 REQUIRE_COMPONENT ~NTotSC/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/ubnimfur.CRE~ @532
@@ -2355,7 +2355,7 @@ EXTEND_TOP ~AR60PB.bcs~ ~NTotSC/nimfurlwing/ar60pb_nimfur.baf~ EVALUATE_BUFFER
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 
-BEGIN ~Pilar and Gheldehar~
+BEGIN @536 /* ~Pilar and Gheldehar~ */
 REQUIRE_COMPONENT ~NTotSC/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#GHELD.CRE.CRE~ @532
 
@@ -2386,7 +2386,7 @@ EXTEND_BOTTOM ~%NWBaldursGate_BCS%.bcs~ ~NTotSC/pilargheldehar/ar0100.baf~ EVALU
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 
-BEGIN ~Svlast's Torment~
+BEGIN @537 /* ~Svlast's Torment~ */
 REQUIRE_COMPONENT ~NTotSC/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/UBSVLAST.CRE~ @532
 FORBID_FILE ~override/JA#SVLST.CRE~ @532
@@ -2423,7 +2423,7 @@ EXTEND_BOTTOM ~%FirewineBridge_BCS%.bcs~ ~NTotSC/svlast/ar4500_svlast.baf~ EVALU
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 
-BEGIN ~Will O'Hara NPC~
+BEGIN @538 /* ~Will O'Hara NPC~ */
 REQUIRE_COMPONENT ~NTotSC/NTotSC.tp2~ 0 @531
 
 /* @10081   = ~Will O'Hara~ */

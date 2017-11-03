@@ -1,4 +1,4 @@
-@0 = ~NTotSC fuer BGT-WeiDU und EET~
+@0 = ~NTotSC fuer BGT-WeiDU, BG:EE und EET~
 @1 = ~Vergiftete Pfeile~
 @2 = ~Dies sind normale Flugpfeile, die mit einem schnell wirkendem pflanzlichen Gift vergiftet wurden.
 SPEZIFISCHE EIGENSCHAFTEN:
@@ -1083,6 +1083,12 @@ D.~
 @530 = ~Diese Modifikation muss VOR BP-BGT Worldmap installiert werden.~
 @531 = ~Für diese Komponente wird die Hauptkomponente dieser Mod (NTotSC) benötigt.~
 @532 = ~Diese Begegnung wird bereits von einer anderen Modifikation eingefügt.~
+@533 = ~Keelor der Zwerg~
+@534 = ~Llindellyns Glueckspfeil~
+@535 = ~Nim Furlwings Jagdhunde~
+@536 = ~Pilar und Gheldehar~
+@537 = ~Svlasts Pein~
+@538 = ~Will O'Hara NPC~
 
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
