@@ -6,6 +6,8 @@ All journal entries were moved into the file journal.tra.
 
 The file dsfeydo.tra of NTotSC was renamed to dsfeydo_ntotsc.tra. The original file dsfeydo.tra from DSotSC was added.
 
+The setup-ee.tra file needs to be provided in ANSII format.
+
 Following *existing* lines were edited concerning content:
 
 -lobar.tra: removed the "welcome" from @0 

@@ -95,7 +95,7 @@ ALWAYS
 				"castilian" => "CP1252"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup journal END
-			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN worldmap END
+//			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN ## END
 			LAF ~HANDLE_CHARSETS~
 				INT_VAR
 				infer_charsets = 0

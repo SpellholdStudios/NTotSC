@@ -119,7 +119,7 @@ IF WEIGHT #1
 	Global("NTHaeballQuestWanted","GLOBAL",2)
 	PartyHasItem("NTMISC10")
 PartyHasItem("DSGBBOW")~ THEN BEGIN 13
-  SAY @35
+  SAY @54
   IF ~~ THEN REPLY @36 GOTO 12
 END
 
