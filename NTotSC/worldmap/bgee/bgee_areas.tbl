@@ -1,0 +1,12 @@
+
+//BGEE Changes Areas
+SHORT_NAME  CONTENT  LONG_NAME  FLAGS  BAM_ANIM  X_POS  Y_POS  NAME         TOOLTIP      LOAD_IM
+
+AR20PB      AR20PB   AR20PB     2      33		 80     140    @NT_783001   @NT_783001   N        //Northern Coast
+AR10PB      AR10PB   AR10PB     4      35		 550    85     @NT_783002   @NT_783002   N        //Field of the Dead
+AR40PB      AR40PB   AR40PB     2      45		 755    60     @NT_783003   @NT_783003   N        //Northern Wood
+AR01PB      AR01PB   AR01PB     2      9		 665    110    @NT_783004   @NT_783004   N        //Wood of the Dead
+AR30PB      AR30PB   AR30PB     4      17		 850    95     @NT_783005   @NT_783005   N        //Northern Citadel
+AR60PB      AR60PB   AR60PB     4      11		 730    300    @NT_783006   @NT_783006   N        //Temple of the Black Hand
+AR0400      AR0400   MAPAR0400  2      28		 600    190    N            N            N        //Farmland
+AR1000      AR1000   MAPAR1000  3      51		 180    250    @NT_783010   @NT_783010   N        //Ulgoth's Beard

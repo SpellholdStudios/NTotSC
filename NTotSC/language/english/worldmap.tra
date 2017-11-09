@@ -5,3 +5,6 @@
 @NT_783004  = "Wood###of###the###Dead"
 @NT_783005  = "Northern###Citadel"
 @NT_783006  = "Temple###of###the###Black###Hand"
+
+#BGEE: 22853
+@NT_783010  = "Ulgoth's###Beard"

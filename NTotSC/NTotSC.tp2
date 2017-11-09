@@ -2151,6 +2151,20 @@ END ELSE BEGIN
 	COPY ~NTotSC/language/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
 END
 
+ACTION_IF GAME_IS ~bgee~ BEGIN
+	INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
+	LAF ADD_WORLDMAP_TBL
+		INT_VAR
+		verbose = 1
+		inclSv = 0
+		STR_VAR
+		path_to_areas = EVAL ~%MOD_FOLDER%/Worldmap/bgee/bgee_areas.tbl~
+		path_to_areas_bp = ~%MOD_FOLDER%/Worldmap/areas.tbl~
+		path_to_links = EVAL ~%MOD_FOLDER%/Worldmap/bgee/bgee_links.tbl~
+		path_to_trans = EVAL ~%MOD_FOLDER%/language/%LANGUAGE%/worldmap.tra~
+	END
+END
+
 ACTION_IF GAME_IS ~eet~ BEGIN
 	INCLUDE ~%MOD_FOLDER%/lib/add_worldmap_tbl.tpa~
 	LAF ADD_WORLDMAP_TBL
