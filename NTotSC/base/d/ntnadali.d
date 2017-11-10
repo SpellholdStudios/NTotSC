@@ -62,8 +62,7 @@ IF ~Global("NTIn_90PB","GLOBAL",0)
 Global("NTHelpNadalin","GLOBAL",2)
 AreaCheck("AR20PB")~ THEN BEGIN 6
   SAY @8
-  IF ~!Dead("NTDRAAGI")
-Global("NTAverySaysOfKey","GLOBAL",1)
+  IF ~Global("NTAverySaysOfKey","GLOBAL",1)
 Global("NTSzyperNadalin","GLOBAL",1)~ THEN REPLY @9 GOTO 7
   IF ~~ THEN REPLY @10 EXIT
 END
