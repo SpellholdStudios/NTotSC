@@ -17,6 +17,8 @@ THEN
 		Continue()
 END
 
+/* entrance stays open
+
 IF
 	!PartyHasItem("NTPBLET1")
 	Global("NT_ExitTRAN51PBActivation","MYAREA",3)
@@ -26,16 +28,5 @@ THEN
 		Continue()
 END
 
-
-
-/*
-
-IF
-  PartyHasItem("NTPBLET1")
-THEN
-  RESPONSE #100
-    TriggerActivation("TRAN51PB",TRUE)
-    Continue()
-END
-
 */
+

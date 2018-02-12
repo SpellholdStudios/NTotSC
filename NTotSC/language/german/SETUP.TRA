@@ -895,7 +895,7 @@ Dieser Zauber ruft eine dünne, rauchige Wolke hervor, die den Wirkungsbereich fü
 @250 = ~Falton~
 @252 = ~General Ghotal~
 @255 = ~Halbling-Kleriker~
-@256 = ~Brother Hasdar~
+@256 = ~Bruder Hasdar~
 @257 = ~Hasten~
 @258 = ~Kann ich Euch helfen?~
 @259 = ~Ahh! Das ist sinnlos!~
@@ -1036,7 +1036,7 @@ Verwendbar von:
 @503 = ~Pilars Ring~
 @504 = ~Gheldehars Stiefel~
 @505 = ~Haeball,
-I send you this dagger for savekeeping. In the name of our god, we have to prevent that the orcs get their hands on it. I will keep the ring that came along with it - separated like this, these two artefacts will not serve their evil purpose anytime soon.
+ich sende Euch den Dolch zur sicheren Aufbewahrung. Im Namen unseres Gottes müssen wir verhindern, dass er in die Hände der Orks fällt. Den dazugehörigen Ring werde ich behalten - auf diese Weise getrennt, sollten die Artefakte ihrem ursprünglichen Zweck bis auf weiteres nicht zur Verfügfung stehen.
 
 D.~
 // #34932 (BGII)
@@ -1089,6 +1089,8 @@ D.~
 @536 = ~Pilar und Gheldehar~
 @537 = ~Svlasts Pein~
 @538 = ~Will O'Hara NPC~
+
+@539 = ~Erfahrung um 5000 Punkte reduziert~
 
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */

@@ -1,8 +1,8 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 2.0
-            A Sir BillyBob Production (now maintained by k4thos/jastey)
+                                VERSION 2.1.0
+            A Sir BillyBob Production (version 2.0 packed by k4thos + jastey)
 
 
 1. Introduction
@@ -142,6 +142,30 @@ F.A.Q.
 
 CHANGES
 +++++++
+
+2.1.0
+	-BG:EE: bmp-worldmap mod is no longer needed to visit the new areas from the
+	worldmap. Thank you to AstroBryGuy for providing this tweak!
+	-"dead rat" item no longer has a dead cat for description BAM
+	-Nadalin: after returning to his boat, he will ship the PC to the salamandr 
+	island any time (even if quest is finished).
+	-Olivia now transforms as planned after receiving the potion of freedom 
+	(spell wasn't copied into override)
+	-entrance to AR52PB.are now also accepts a light gem from a not-yet-released BGII mod 
+	-reduction of experience by 5000 points if Gotha's sword is brought into the crypt 		now plays correctly and is also announced as string.
+	-General Ghota will no longer drop Sarevok's chaos sword
+	-General Ghota at the entrance will teleport away during the fight, then the player
+	has to fight the second one inside the dungeon ("NTGGHOT1")
+	-removed unused script ghotale.baf
+	-reduced number of cultists in AR61PB.are (temple of Black Hand) for difficulty 
+	lower than hard
+	-AR51PB.are (dungeon in Firewine Bridge) exit to Firewine area now requires 
+	whole party, as well
+	-Once entered Firewine dungeon, the scroll will disappear and the entrance 
+	will stay open.
+	-German version completed (two lines in setup.tra were still in English)
+	-update to weidu v243
+
 
 2.0   For details please refer to the Changes.txt and the Variable_changes_v2-0.xls!
       EET and BG:EE compatibility added.

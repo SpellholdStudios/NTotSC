@@ -1,7 +1,8 @@
 /* 
--known issues: 
---in BG:EE AR40PB (Northern Forst" will only show on worldmap if PC got quest to go there. No idea why (it's flagged as accessible via Worldmap just like for BGT and EET)
+-known issues (that can probably be fixed by someone else): 
 -- in AR9001 NTHAEBAL.cre always gets 3 damage when PC enters area. No idea why.
+
+-- EET: some of the symbols are very near to SoD symbols on the worldmap
 
 --BG:EE DSotSC (v1.01b): Fey'doch will be doubled into Bear River. Only the bow from the Fey'doch from Northern Woods can be used in the quest. This will be so until the doubling in ds will be fixed.
 
@@ -19,7 +20,7 @@
 
 BACKUP ~NTotSC/backup~
 AUTHOR ~~
-VERSION ~2.1.x~
+VERSION ~2.1.0~ //180212
 README ~NTotSC/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~NTotSC/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~NTotSC/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -57,6 +58,8 @@ ALWAYS
 		OUTER_SPRINT FireLeafForest_entrance ~EXIT4300~
 		OUTER_SPRINT Larswood_entrance ~EXIT9000~
 		OUTER_SPRINT Temple_entrance ~EXIT9300~
+		OUTER_SPRINT PLAT09 ~PLAT09~
+		OUTER_SPRINT POTN55 ~POTN55~
 	END 
 	ACTION_IF GAME_IS ~eet~ BEGIN
 		INCLUDE ~EET/other/cpmvars/eet_cpmvars.tpa~
@@ -386,6 +389,16 @@ COPY ~NTotSC/base/spl/spinnt03.spl~ ~override~
 
 COPY ~NTotSC/base/spl/spinnt04.spl~ ~override~
 	SAY NAME1 @209
+
+COPY ~NTotSC/base/spl/ntswd5xp.spl~ ~override~
+   LPF ALTER_SPELL_EFFECT
+   INT_VAR
+     match_opcode  = 139   // Display String
+     parameter1    = RESOLVE_STR_REF(@539)  // 
+   END
+
+COPY ~NTotSC/base/spl/nostring~ ~override~
+
 
 /////                                                  \\\\\
 ///// install effects                                  \\\\\
@@ -999,15 +1012,15 @@ COPY ~NTotSC/base/cre/ntgghot1.cre~ ~override~
 	SAY NAME1 @252
 	SAY NAME2 @252
 
-/* adjust to BG:EE ressources */
+/* adjust to BG:EE ressources / removing unique items */
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   COPY_EXISTING ~ntgghot1.cre~ ~override~
   REMOVE_CRE_ITEM ~SW2H16~
-  ADD_CRE_ITEM ~SW2H11~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~SW2H11~ #0 #0 #0 ~UNDROPPABLE~ ~WEAPON1~ EQUIP
 
   COPY_EXISTING ~ntgghota.cre~ ~override~
   REMOVE_CRE_ITEM ~SW2H16~
-  ADD_CRE_ITEM ~SW2H11~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~SW2H11~ #0 #0 #0 ~UNDROPPABLE~ ~WEAPON1~ EQUIP
 END
 
 COPY ~NTotSC/base/cre/nthaebal.cre~ ~override~
@@ -1577,31 +1590,31 @@ END
 
 COPY ~NTotSC/base/are/%platform%/nostring~ ~override~
 	PATCH_IF (GAME_IS ~eet~) BEGIN
-		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
 
 COPY ~NTotSC/base/are/%platform%/ar01pb.are~ ~override~
 	PATCH_IF (GAME_IS ~eet~) BEGIN
-		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
 	SAY 0x2aa4 @429
 
 COPY ~NTotSC/base/are/%platform%/ar02pb.are~ ~override~
 	PATCH_IF (GAME_IS ~eet~) BEGIN
-		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
 	SAY 0x1ab4 @430
 
 COPY ~NTotSC/base/are/%platform%/ar10pb.are~ ~override~
 	PATCH_IF (GAME_IS ~eet~) BEGIN
-		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
 	SAY 0x3874 @431
 	SAY 0x3938 @518
 
 COPY ~NTotSC/base/are/%platform%/ar20pb.are~ ~override~
 	PATCH_IF (GAME_IS ~eet~) BEGIN
-		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
 	SAY 0x2994 @432
 	SAY 0x2a58 @432
@@ -1613,7 +1626,7 @@ COPY ~NTotSC/base/are/%platform%/ar20pb.are~ ~override~
 
 COPY ~NTotSC/base/are/%platform%/ar30pb.are~ ~override~
 	PATCH_IF (GAME_IS ~eet~) BEGIN
-		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
 	SAY 0x10d8 @434
 	SAY 0x119c @434
@@ -1629,7 +1642,7 @@ COPY ~NTotSC/base/are/%platform%/ar30pb.are~ ~override~
 
 COPY ~NTotSC/base/are/%platform%/ar34pb.are~ ~override~
 	PATCH_IF (GAME_IS ~eet~) BEGIN
-		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
 	SAY 0x1eb4 @443
 
@@ -1642,7 +1655,7 @@ ACTION_IF GAME_IS ~eet bgee~ BEGIN
   COPY ~NTotSC/base/are/%platform%/ar51pb.are~ ~override~
 	SAY 0x1124 @444
 	PATCH_IF (GAME_IS ~eet~) BEGIN
-		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
 END
 
@@ -1655,7 +1668,7 @@ ACTION_IF GAME_IS ~eet bgee~ BEGIN
   COPY ~NTotSC/base/are/%platform%/ar60pb.are~ ~override~
 	SAY 0x3040 @445
 	PATCH_IF (GAME_IS ~eet~) BEGIN
-		WRITE_SHORT 0x48 THIS | (1 << BG1AREA)
+		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
 END
 

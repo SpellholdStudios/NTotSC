@@ -4,3 +4,5 @@ But you - ignorants - you make me free now... The time to gather my forces and r
 @2    = ~Welcome, cursed ones! Have you come to set me free from this ugly crypt? The company of skeletons and spiders can make oneself bored indeed... for so many years... But... Where is my sword?... cannot sense it... This way... You will DIE!~
 /* @3 -> @10013 */   
 @4 = ~You have just given General Ghotal the ability to escape from his tomb, and wreak havoc on the surrounding countryside. Hopefully you have the strength, courage and fighting ability to stop him!~
+/* new for v2.1.0 */
+@5 = ~Fools! You will not defeat me so easily. Find me inside, if you dare!~

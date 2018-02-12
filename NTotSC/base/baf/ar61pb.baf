@@ -1,4 +1,19 @@
 IF
+	DifficultyGT(NORMAL)
+	Global("NT_PlaceCultists","MYAREA",0)
+THEN
+	RESPONSE #100
+		CreateCreature("NTBLHCUL",[181.430],0) //Actor 5
+		CreateCreature("NTBLHCUL",[260.467],0) //Actor10
+		CreateCreature("NTBLHCUL",[369.461],0) //Actor 9
+		CreateCreature("NTBLHCUL",[427.439],0) //Actor 4
+		SetGlobal("NT_PlaceCultists","MYAREA",1)
+
+END
+	
+
+
+IF
   Global("NTTalkedToHasdar","GLOBAL",4)
   !Dead("NTHASDAR")
 THEN

@@ -4,3 +4,6 @@ Aber Ihr - Ignoranten - Ihr habt mich jetzt befreit... Die Zeit, um meine Kräfte
 @2 = ~Willkommen, Ihr Verdammten! Seid Ihr gekommen, um mich aus dieser hässlichen Gruft zu befreien? Die Gesellschaft von Skeletten und Spinnen kann einen tatsächlich langweilen... nach so vielen Jahren... aber... Wo ist mein Schwert?... kann es nicht fühlen... Wenn das so ist... dann werdet Ihr STERBEN!~
 /* @3 -> @10013 */ 
 @4 = ~Ihr habt gerade General Ghotal die Gelegenheit verschafft, seiner Grabstätte zu entweichen und Chaos und Verwüstung über die Lande zu bringen. Hoffentlich habt Ihr die Kraft, den Mut und das Kampfesgeschick, ihn aufzuhalten!~
+
+/* new for v2.1.0 */
+@5 = ~Narren! Ihr besiegt mich nicht so leicht. Folgt mir in die Tiefen des Grabmals, falls Ihr es wagt!~

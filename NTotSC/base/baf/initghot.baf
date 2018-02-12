@@ -1,4 +1,14 @@
 IF
+	HPLT(Myself,50)
+	Global("NTGGHOTA_Death","MYAREA",0)
+THEN
+  RESPONSE #100
+	SetGlobal("NTGGHOTA_Death","MYAREA",1)
+	StartDialogue("NTGGHOTA",Myself)
+END
+
+
+IF
   Detect([PC])
   NumberOfTimesTalkedTo(0)
 THEN

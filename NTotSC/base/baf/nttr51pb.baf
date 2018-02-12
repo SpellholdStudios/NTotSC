@@ -22,6 +22,8 @@ IF
 THEN
 	RESPONSE #100
 		DisplayString(Myself,@50)
+		TakePartyItem("NTPBLET1")
+		DestroyItem("NTPBLET1")
 		SetGlobal("NT_ExitTRAN51PBActivation","MYAREA",3)
 		TriggerActivation("TRAN51PB",TRUE)
 		TriggerActivation("NTTR51PB",FALSE)

@@ -27,7 +27,9 @@ IF
 	Clicked([ANYONE])
 	Range(LastTrigger,15)
 	!Global("NT_DOOR52PBActivation","GLOBAL",0)
-	PartyHasItem("MISC9R") // light Gem
+	OR(2)
+		PartyHasItem("MISC9R") // light Gem
+		PartyHasItem("RRSSUNST") // light Gem from Knight's Tomb-Mod
 THEN
 	RESPONSE #100
 		DisplayString(Myself,@62)
@@ -55,6 +57,7 @@ IF
 	!PartyHasItem("NTPOTN05") //Flaming Oil
 	!PartyHasItem("MISC74") //candle
 	!PartyHasItem("MISC9R") //Light Gem
+	!PartyHasItem("RRSSUNST") // light Gem from Knight's Tomb-Mod
 	!PartyHasItem("POTN13") //Oil of Fiery Burning
 THEN
 	RESPONSE #100

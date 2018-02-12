@@ -1,0 +1,102 @@
+IF
+	Global("NTAR11PB_PCHasSword","MYAREA",1)
+	Global("NTAR11PB_JournalEntries","MYAREA",0)
+	OR(2)
+		Dead("NTGGHOTA")
+		Dead("NTGGHOT1")
+THEN
+	RESPONSE #100
+		EraseJournalEntry(@10030)
+		EraseJournalEntry(@10053)
+		EraseJournalEntry(@10075)
+		AddJournalEntry(@10012,QUEST_DONE)
+		SetGlobal("NTAR11PB_JournalEntries","MYAREA",1)
+END
+
+IF
+	Global("NTAR11PB_PCHasSword","MYAREA",0)
+	Global("NTAR11PB_JournalEntries","MYAREA",0)
+	OR(2)
+		Dead("NTGGHOTA")
+		Dead("NTGGHOT1")
+THEN
+	RESPONSE #100
+		EraseJournalEntry(@10030)
+		EraseJournalEntry(@10053)
+		EraseJournalEntry(@10075)
+		AddJournalEntry(@10013,QUEST_DONE)
+		SetGlobal("NTAR11PB_JournalEntries","MYAREA",1)
+END
+
+IF 
+	XPGT(Player1,5000)
+	Global("NTAR11PB_PCHasSword","MYAREA",1)
+	!Dead("NTGGHOTA")
+	Global("NTAR11PB_ExpDrop1","MYAREA",0)
+THEN
+	RESPONSE #100
+		ApplySpellRES("NTSWD5XP",Player1)
+		SetGlobal("NTAR11PB_ExpDrop1","MYAREA",1)
+		Continue()
+END
+
+IF 
+	XPGT(Player2,5000)
+	Global("NTAR11PB_PCHasSword","MYAREA",1)
+	!Dead("NTGGHOTA")
+	Global("NTAR11PB_ExpDrop2","MYAREA",0)
+THEN
+	RESPONSE #100
+		ApplySpellRES("NTSWD5XP",Player2)
+		SetGlobal("NTAR11PB_ExpDrop2","MYAREA",1)
+		Continue()
+END
+
+IF 
+	XPGT(Player3,5000)
+	Global("NTAR11PB_PCHasSword","MYAREA",1)
+	!Dead("NTGGHOTA")
+	Global("NTAR11PB_ExpDrop3","MYAREA",0)
+THEN
+	RESPONSE #100
+		ApplySpellRES("NTSWD5XP",Player3)
+		SetGlobal("NTAR11PB_ExpDrop3","MYAREA",1)
+		Continue()
+END
+
+IF 
+	XPGT(Player4,5000)
+	Global("NTAR11PB_PCHasSword","MYAREA",1)
+	!Dead("NTGGHOTA")
+	Global("NTAR11PB_ExpDrop4","MYAREA",0)
+THEN
+	RESPONSE #100
+		ApplySpellRES("NTSWD5XP",Player4)
+		SetGlobal("NTAR11PB_ExpDrop4","MYAREA",1)
+		Continue()
+END
+
+IF 
+	XPGT(Player5,5000)
+	Global("NTAR11PB_PCHasSword","MYAREA",1)
+	!Dead("NTGGHOTA")
+	Global("NTAR11PB_ExpDrop5","MYAREA",0)
+THEN
+	RESPONSE #100
+		ApplySpellRES("NTSWD5XP",Player5)
+		SetGlobal("NTAR11PB_ExpDrop5","MYAREA",1)
+		Continue()
+END
+
+IF 
+	XPGT(Player6,5000)
+	Global("NTAR11PB_PCHasSword","MYAREA",1)
+	!Dead("NTGGHOTA")
+	Global("NTAR11PB_ExpDrop6","MYAREA",0)
+THEN
+	RESPONSE #100
+		ApplySpellRES("NTSWD5XP",Player6)
+		SetGlobal("NTAR11PB_ExpDrop6","MYAREA",1)
+END
+
+

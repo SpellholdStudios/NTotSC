@@ -1,0 +1,14 @@
+IF
+	Global("NTGGHOTA_Deactivate","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NTGGHOTA_Deactivate","MYAREA",1)
+		Deactivate(Myself)
+END
+
+IF
+	Dead("NTGGHOTA")
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
