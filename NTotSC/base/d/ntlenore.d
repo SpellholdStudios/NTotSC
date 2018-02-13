@@ -95,7 +95,7 @@ ReputationInc(1)~ EXIT
 END
 
 IF ~!Global("NTTalkedToSatos","GLOBAL",1)~ THEN BEGIN 14
-  SAY @28
+  SAY @30
   IF ~~ THEN EXIT
 END
 
@@ -107,6 +107,6 @@ END
 
 IF WEIGHT #1
 ~Global("NTMontgomeryIsDead","GLOBAL",1)~ THEN BEGIN 16
-  SAY @30
+  SAY @28
   IF ~~ THEN EXIT
 END

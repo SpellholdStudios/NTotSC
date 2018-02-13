@@ -9,6 +9,7 @@ THEN
 		EraseJournalEntry(@10030)
 		EraseJournalEntry(@10053)
 		EraseJournalEntry(@10075)
+		EraseJournalEntry(@10098)
 		AddJournalEntry(@10012,QUEST_DONE)
 		SetGlobal("NTAR11PB_JournalEntries","MYAREA",1)
 END
@@ -24,6 +25,7 @@ THEN
 		EraseJournalEntry(@10030)
 		EraseJournalEntry(@10053)
 		EraseJournalEntry(@10075)
+		EraseJournalEntry(@10098)
 		AddJournalEntry(@10013,QUEST_DONE)
 		SetGlobal("NTAR11PB_JournalEntries","MYAREA",1)
 END

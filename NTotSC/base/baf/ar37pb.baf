@@ -1,5 +1,5 @@
 IF
-  PartyHasItem("NTKEYPB0")
+  PartyHasItem("ntmisc08")
   Global("NT_HasSymbolOfHelm","MYAREA",0)
 THEN
   RESPONSE #100

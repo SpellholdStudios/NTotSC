@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 2.1.0
+                                VERSION 2.1.1
             A Sir BillyBob Production (version 2.0 packed by k4thos + jastey)
 
 
@@ -21,7 +21,7 @@ This is a BGT, BG:EE, and EET version of the original mod. As of version 2.0, NT
 -DSotSC for BGT/EET version by k4thos
 -DSotSC for BG:EE by Red Carnelian
 
-To reach the new areas via worldmap, you need to install BP-BGT-worldmap for BGT and BG:EE after NtotSC an start a new game.
+To reach the new areas via worldmap, you need to install BP-BGT-worldmap for BGT after NTotSC an start a new game.
 
 HISTORY
 +++++++
@@ -143,8 +143,17 @@ F.A.Q.
 CHANGES
 +++++++
 
+2.1.1
+	-journal entries about symbol of Helm will now be deleted if symbol is taken 
+	out of the altar
+	-journal entry about Pandris' information that the Orcs are trying to get 
+	into the temple will be deleted after defeating Ghotal
+	-Lenore's line after finshing the Montgomery quest is less hostile.
+	-update readme with information that bp-BGT-worldmap mod is only needed for BGT
+	(-corrected spelling and added a line to the 2.1.0 changelog)
+
 2.1.0
-	-BG:EE: bmp-worldmap mod is no longer needed to visit the new areas from the
+	-BG:EE: bp-BGT-worldmap mod is no longer needed to visit the new areas from the
 	worldmap. Thank you to AstroBryGuy for providing this tweak!
 	-"dead rat" item no longer has a dead cat for description BAM
 	-Nadalin: after returning to his boat, he will ship the PC to the salamandr 
@@ -163,6 +172,7 @@ CHANGES
 	whole party, as well
 	-Once entered Firewine dungeon, the scroll will disappear and the entrance 
 	will stay open.
+	-EET: in AR52PB.are, the fledgling vampires will no longer turn into bats
 	-German version completed (two lines in setup.tra were still in English)
 	-update to weidu v243
 

@@ -20,7 +20,7 @@
 
 BACKUP ~NTotSC/backup~
 AUTHOR ~~
-VERSION ~2.1.0~ //180212
+VERSION ~2.1.1~ //180213
 README ~NTotSC/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~NTotSC/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~NTotSC/language/%s/D~
 ASK_EVERY_COMPONENT
