@@ -1,8 +1,8 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 2.1.1
-            A Sir BillyBob Production (version 2.0 packed by k4thos + jastey)
+                                VERSION 2.2.0
+            A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
 1. Introduction
@@ -21,7 +21,9 @@ This is a BGT, BG:EE, and EET version of the original mod. As of version 2.0, NT
 -DSotSC for BGT/EET version by k4thos
 -DSotSC for BG:EE by Red Carnelian
 
-To reach the new areas via worldmap, you need to install BP-BGT-worldmap for BGT after NTotSC an start a new game.
+To reach the new areas via worldmap, you need to install BP-BGT-worldmap for BGT after NTotSC.
+
+You need to start a new game, or the new areas will not show on your worldmap.
 
 HISTORY
 +++++++
@@ -47,7 +49,7 @@ The install has six parts: the main component (obligatory for the mod) and five 
 
 DSotSC must also be installed before NTotSC.  This mod also works with BG1NPC.
 
-New:  This version includes a Biff utility.  The biffing will be done automatically at the end of the installation.
+As of version 2.2.0, the biffing was disabled due to problems with modding iOS devices. For BGT, you can use General Biffing Mod to biff your override folder.
 
 
 WALKTHROUGH
@@ -142,6 +144,13 @@ F.A.Q.
 
 CHANGES
 +++++++
+
+2.2.0
+	-added note to readme that a new game has to be started to see the new areas 
+	on the worldmap
+	-removed biffing
+	-moved audio and portrait copying into according subcomponent (Will O'Hara NPC)
+	-update to weidu v244
 
 2.1.1
 	-journal entries about symbol of Helm will now be deleted if symbol is taken 

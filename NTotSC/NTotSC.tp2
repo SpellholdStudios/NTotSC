@@ -20,7 +20,7 @@
 
 BACKUP ~NTotSC/backup~
 AUTHOR ~~
-VERSION ~2.1.1~ //180213
+VERSION ~2.2.0~ //180224
 README ~NTotSC/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~NTotSC/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~NTotSC/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -2196,7 +2196,7 @@ END
 ///// Decompressing and biffing                        \\\\\
 /////                                                  \\\\\
 
-MKDIR ~NTotSC/biff~
+MKDIR //~NTotSC/biff~
 	~NTotSC/language/%LANGUAGE%/ogg~
 
 ACTION_IF !GAME_IS ~bgee~ BEGIN
@@ -2205,11 +2205,11 @@ ACTION_IF !GAME_IS ~bgee~ BEGIN
 END
 
 ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
-	COPY ~NTotSC/base/tis/ee~ ~NTotSC/biff~
+	COPY ~NTotSC/base/tis/ee~ ~override~ //~NTotSC/biff~
 
         ACTION_IF GAME_IS ~bgee~ BEGIN
-		COPY ~NTotSC/base/are/bgee/a91pb00.PVRZ~ ~NTotSC/biff~
-		COPY ~NTotSC/base/are/bgee/a91pb01.PVRZ~ ~NTotSC/biff~
+		COPY ~NTotSC/base/are/bgee/a91pb00.PVRZ~ ~override~ //~NTotSC/biff~
+		COPY ~NTotSC/base/are/bgee/a91pb01.PVRZ~ ~override~ //~NTotSC/biff~
 //		COPY ~NTotSC/base/are/bgee/ar91pb.tis~ ~NTotSC/biff~
 	END
 
@@ -2233,7 +2233,7 @@ END ELSE BEGIN
 	  STR_VAR
 	    tiz_path = ~NTotSC/base/tis/old~
 	    tisunpack_path = ~NTotSC/bin/~
-	    output_path = ~NTotSC/biff~
+	    output_path = ~override~ //~NTotSC/biff~
 	END
 
 /* Deactivated and switched back to HANDLE_TILESETS above - I have no idea what this does and it doesn't remove the .tis files from the biff folder upon deinstallation of the mod
@@ -2251,22 +2251,12 @@ LAF HANDLE_AUDIO
     audio_path = ~NTotSC/base/ogg~
     oggdec_path = ~NTotSC/bin/win32~
     sox_path = ~NTotSC/bin/osx~
-	output_path = ~NTotSC/biff~
+	output_path = ~override~ //~NTotSC/biff~
 END
 
-ACTION_BASH_FOR ~NTotSC/language/english/ogg~ ~^.+\.ogg$~ BEGIN
-	ACTION_IF NOT FILE_EXISTS ~NTotSC/language/%LANGUAGE%/ogg/%BASH_FOR_FILE%~ BEGIN
-		COPY ~%BASH_FOR_FILESPEC%~ ~NTotSC/language/%LANGUAGE%/ogg~
-	END
-END
 
-LAF HANDLE_AUDIO
-	STR_VAR
-	audio_path = EVAL ~NTotSC/language/%LANGUAGE%/ogg~
-	oggdec_path = ~NTotSC/bin/win32~
-	sox_path = ~NTotSC/bin/osx~
-	output_path = ~NTotSC/biff~
-END
+/* Deactivated biffing because it caused problems with modding iOS devices
+also for BGT: for Megamod installs, player can use General Biffing if wanted.
 
 PRINT ~Biffing files....~
 
@@ -2278,6 +2268,13 @@ MAKE_BIFF ~NTotSC~ BEGIN
 	~NTotSC/base/portraits/%engine%~ ~^.*$~
 	~NTotSC/base/portraits/l~ ~^.*$~
 END
+*/
+
+
+//COPY	~NTotSC/biff~ ~override~
+COPY	~NTotSC/base/bam~ ~override~
+COPY	~NTotSC/base/bmp~ ~override~
+COPY	~NTotSC/base/mos/%engine%~ ~override~
 
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
@@ -2548,3 +2545,22 @@ COPY_EXISTING ~golinv.cre~ ~override~
 EXTEND_BOTTOM ~INITGOLV.BCS~ ~NTotSC/will/NTGOLINV.baf~ EVALUATE_BUFFER
 
 EXTEND_BOTTOM ~%Beregost_BCS%.bcs~ ~NTotSC/will/ar3300.baf~ EVALUATE_BUFFER
+
+ACTION_BASH_FOR ~NTotSC/language/english/ogg~ ~^.+\.ogg$~ BEGIN
+	ACTION_IF NOT FILE_EXISTS ~NTotSC/language/%LANGUAGE%/ogg/%BASH_FOR_FILE%~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~NTotSC/language/%LANGUAGE%/ogg~
+	END
+END
+
+
+COPY	~NTotSC/base/portraits/%engine%~ ~override~
+COPY	~NTotSC/base/portraits/l~ ~override~
+
+LAF HANDLE_AUDIO
+	STR_VAR
+	audio_path = EVAL ~NTotSC/language/%LANGUAGE%/ogg~
+	oggdec_path = ~NTotSC/bin/win32~
+	sox_path = ~NTotSC/bin/osx~
+//	output_path = ~NTotSC/biff~
+	output_path = ~override~
+END
