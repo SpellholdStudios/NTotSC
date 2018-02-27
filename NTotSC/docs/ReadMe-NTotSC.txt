@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 2.2.0
+                                VERSION 2.2.1
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -144,6 +144,9 @@ F.A.Q.
 
 CHANGES
 +++++++
+
+2.2.1
+	-random CTD in areas hopefully fixed (amients and animations are being copied to the override, spawn points and rest encounters were stripped from suspicious creature files)
 
 2.2.0
 	-added note to readme that a new game has to be started to see the new areas 

@@ -20,7 +20,7 @@
 
 BACKUP ~NTotSC/backup~
 AUTHOR ~~
-VERSION ~2.2.0~ //180224
+VERSION ~2.2.1~ //180227
 README ~NTotSC/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~NTotSC/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~NTotSC/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -1575,6 +1575,159 @@ COPY_EXISTING ~DSWELF2E.cre~ ~override~
 /////                                                  \\\\\
 ///// install areas (ARE, WED)                         \\\\\
 /////                                                  \\\\\
+
+
+/* copy ambients to override to prevent crashing */
+
+ACTION_IF GAME_IS ~bgee~ BEGIN
+  COPY ~NTotSC/bgee/AM0310.wav~ ~override~
+  COPY ~NTotSC/bgee/AM0310B.wav~ ~override~
+//  COPY_EXISTING ~AM_2101.wav~ ~override~
+//  COPY_EXISTING ~AM_2107.wav~ ~override~
+//  COPY_EXISTING ~AM_2107V.wav~ ~override~
+//  COPY_EXISTING ~AM_3301A.wav~ ~override~
+//  COPY_EXISTING ~AM_3603A.wav~ ~override~
+//  COPY_EXISTING ~AM_LVA1.wav~ ~override~
+  COPY_EXISTING ~AMB_E04A.wav~ ~override~
+  COPY_EXISTING ~AMB_E04B.wav~ ~override~
+  COPY_EXISTING ~AMB_E06A.wav~ ~override~
+  COPY_EXISTING ~AMB_E06C.wav~ ~override~
+  COPY_EXISTING ~AMB_E07A.wav~ ~override~
+  COPY_EXISTING ~AMB_E08A.wav~ ~override~
+  COPY_EXISTING ~AMB_E08B.wav~ ~override~
+  COPY_EXISTING ~AMB_E09A.wav~ ~override~
+  COPY_EXISTING ~AMB_E10A.wav~ ~override~
+//  COPY_EXISTING ~AMB_E10B.wav~ ~override~
+  COPY_EXISTING ~AMB_E14A.wav~ ~override~
+  COPY_EXISTING ~AMB_E14B.wav~ ~override~
+  COPY_EXISTING ~AMB_E15B.wav~ ~override~
+  COPY_EXISTING ~AMB_E17A.wav~ ~override~
+  COPY_EXISTING ~AMB_E17B.wav~ ~override~
+  COPY_EXISTING ~AMB_E18L.wav~ ~override~
+  COPY_EXISTING ~AMB_E18N.wav~ ~override~
+  COPY_EXISTING ~AMB_E22L.wav~ ~override~
+  COPY_EXISTING ~AMB_E22N.wav~ ~override~
+  COPY_EXISTING ~AMB_E24.wav~ ~override~
+  COPY_EXISTING ~AMB_E25.wav~ ~override~
+  COPY_EXISTING ~AMB_M30.wav~ ~override~
+  COPY_EXISTING ~AMB_E45A.wav~ ~override~
+
+//  COPY_EXISTING ~2107sa1.wav~ ~override~
+  COPY_EXISTING ~BUTRFLY.BAM~ ~override~
+  COPY_EXISTING ~CHIMSMK.BAM~ ~override~
+
+  COPY ~NTotSC/bgee/FIRE_2B.BAM~ ~override~
+
+  COPY_EXISTING ~FLAME2L.BAM~ ~override~
+  COPY_EXISTING ~FPIT1S.BAM~ ~override~
+  COPY_EXISTING ~FISH2S.BAM~ ~override~
+  COPY_EXISTING ~FISH3S.BAM~ ~override~
+  COPY_EXISTING ~FPIT1S.BAM~ ~override~
+  COPY_EXISTING ~FPIT1M.BAM~ ~override~
+  COPY_EXISTING ~SPLASH.BAM~ ~override~
+END
+
+
+ACTION_IF GAME_IS ~bgt~ BEGIN
+  COPY_EXISTING ~AM0310.wav~ ~override~
+  COPY_EXISTING ~AM0310B.wav~ ~override~
+//  COPY_EXISTING ~AM_2101.wav~ ~override~
+//  COPY_EXISTING ~AM_2107.wav~ ~override~
+//  COPY_EXISTING ~AM_2107V.wav~ ~override~
+//  COPY_EXISTING ~AM_3301A.wav~ ~override~
+//  COPY_EXISTING ~AM_3603A.wav~ ~override~
+//  COPY_EXISTING ~AM_LVA1.wav~ ~override~
+  COPY_EXISTING ~AMB_E01A.wav~ ~override~
+  COPY_EXISTING ~AMB_E02B.wav~ ~override~
+  COPY_EXISTING ~AMB_E04A.wav~ ~override~
+  COPY_EXISTING ~AMB_E04B.wav~ ~override~
+  COPY_EXISTING ~AMB_E06A.wav~ ~override~
+  COPY_EXISTING ~AMB_E06C.wav~ ~override~
+  COPY_EXISTING ~AMB_E07A.wav~ ~override~
+  COPY_EXISTING ~AMB_E08A.wav~ ~override~
+  COPY_EXISTING ~AMB_E08B.wav~ ~override~
+  COPY_EXISTING ~AMB_E09A.wav~ ~override~
+  COPY_EXISTING ~AMB_E10A.wav~ ~override~
+//  COPY_EXISTING ~AMB_E10B.wav~ ~override~
+  COPY_EXISTING ~AMB_E14A.wav~ ~override~
+  COPY_EXISTING ~AMB_E14B.wav~ ~override~
+  COPY_EXISTING ~AMB_E15B.wav~ ~override~
+  COPY_EXISTING ~AMB_E17A.wav~ ~override~
+  COPY_EXISTING ~AMB_E17B.wav~ ~override~
+//##  COPY_EXISTING ~AMB_E18.wav~ ~override~
+  COPY_EXISTING ~AMB_E18L.wav~ ~override~
+  COPY_EXISTING ~AMB_E18N.wav~ ~override~
+  COPY_EXISTING ~AMB_E19L.wav~ ~override~
+  COPY_EXISTING ~AMB_E19N.wav~ ~override~
+//##    COPY_EXISTING ~AMB_E22.wav~ ~override~
+  COPY_EXISTING ~AMB_E22L.wav~ ~override~
+  COPY_EXISTING ~AMB_E22N.wav~ ~override~
+  COPY_EXISTING ~AMB_E23L.wav~ ~override~
+  COPY_EXISTING ~AMB_E23N.wav~ ~override~
+  COPY_EXISTING ~AMB_E24.wav~ ~override~
+  COPY_EXISTING ~AMB_E25.wav~ ~override~
+  COPY_EXISTING ~AMB_E45A.wav~ ~override~
+  COPY_EXISTING ~AMB_M09B.wav~ ~override~
+  COPY_EXISTING ~AMB_M30.wav~ ~override~
+  COPY_EXISTING ~AMB_S08.wav~ ~override~
+  COPY_EXISTING ~AMB_S08A.wav~ ~override~
+
+//  COPY_EXISTING ~2107sa1.wav~ ~override~
+  COPY_EXISTING ~BUTRFLY.BAM~ ~override~
+  COPY_EXISTING ~CHIMSMK.BAM~ ~override~
+  COPY_EXISTING ~FIRE_2B.BAM~ ~override~
+  COPY_EXISTING ~FISH1S.BAM~ ~override~
+  COPY_EXISTING ~FISH2S.BAM~ ~override~
+  COPY_EXISTING ~FISH3S.BAM~ ~override~
+  COPY_EXISTING ~FLAME2L.BAM~ ~override~
+  COPY_EXISTING ~FPIT1S.BAM~ ~override~
+  COPY_EXISTING ~FPIT1M.BAM~ ~override~
+  COPY_EXISTING ~SPLASH.BAM~ ~override~
+END
+
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+  COPY_EXISTING ~AM0310.wav~ ~override~
+  COPY_EXISTING ~AM0310B.wav~ ~override~
+//  COPY_EXISTING ~AM_2101.wav~ ~override~
+//  COPY_EXISTING ~AM_2107.wav~ ~override~
+//  COPY_EXISTING ~AM_2107V.wav~ ~override~
+//  COPY_EXISTING ~AM_3301A.wav~ ~override~
+//  COPY_EXISTING ~AM_3603A.wav~ ~override~
+//  COPY_EXISTING ~AM_LVA1.wav~ ~override~
+  COPY_EXISTING ~AMB_E04A.wav~ ~override~
+  COPY_EXISTING ~AMB_E04B.wav~ ~override~
+  COPY_EXISTING ~AMB_E06A.wav~ ~override~
+  COPY_EXISTING ~AMB_E06C.wav~ ~override~
+  COPY_EXISTING ~AMB_E07A.wav~ ~override~
+  COPY_EXISTING ~AMB_E08A.wav~ ~override~
+  COPY_EXISTING ~AMB_E08B.wav~ ~override~
+  COPY_EXISTING ~AMB_E09A.wav~ ~override~
+  COPY_EXISTING ~AMB_E10A.wav~ ~override~
+//  COPY_EXISTING ~AMB_E10B.wav~ ~override~
+  COPY_EXISTING ~AMB_E14A.wav~ ~override~
+  COPY_EXISTING ~AMB_E14B.wav~ ~override~
+  COPY_EXISTING ~AMB_E15B.wav~ ~override~
+  COPY_EXISTING ~AMB_E17A.wav~ ~override~
+  COPY_EXISTING ~AMB_E17B.wav~ ~override~
+  COPY_EXISTING ~AMB_E24.wav~ ~override~
+  COPY_EXISTING ~AMB_E25.wav~ ~override~
+  COPY_EXISTING ~AMB_M30.wav~ ~override~
+  COPY_EXISTING ~AMB_E45A.wav~ ~override~
+
+//  COPY_EXISTING ~2107sa1.wav~ ~override~
+  COPY_EXISTING ~BUTRFLY.BAM~ ~override~
+  COPY_EXISTING ~CHIMSMK.BAM~ ~override~
+  COPY_EXISTING ~FIRE_2B.BAM~ ~override~
+  COPY_EXISTING ~FISH1S.BAM~ ~override~
+  COPY_EXISTING ~FISH2S.BAM~ ~override~
+  COPY_EXISTING ~FISH3S.BAM~ ~override~
+  COPY_EXISTING ~FLAME2L.BAM~ ~override~
+  COPY_EXISTING ~FPIT1S.BAM~ ~override~
+  COPY_EXISTING ~FPIT1M.BAM~ ~override~
+  COPY_EXISTING ~SPLASH.BAM~ ~override~
+END
+
 
 // Install new areas
 
