@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 2.2.1
+                                VERSION 2.2.2
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -144,6 +144,9 @@ F.A.Q.
 
 CHANGES
 +++++++
+
+2.2.2
+	-NOW General Ghota won't drop Sarevok's Chaos sword two times any more.
 
 2.2.1
 	-random CTD in areas hopefully fixed (amients and animations are being copied to the override, spawn points and rest encounters were stripped from suspicious creature files)
