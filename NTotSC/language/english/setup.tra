@@ -440,6 +440,7 @@ Weight: 8
 Requires: 6 Strength
 Not Usable By:
  Mage
+ Monk
  Kensai~
 @105  = ~Studded Leather of Resistance~
 @106  = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks. The soft leather backing is little more than a means of securing the rivets in place.
@@ -795,6 +796,7 @@ Proficiency Type:  Short Sword
 Type:  1-handed
 Not Usable By:
  Cleric
+ Druid
  Mage~
 @192  = ~Morridin's Sword~
 @194  = ~Morridin was the subject of many a joke about his sword. Many jested that such a little man could not wield such a large sword. However those who laughed didn’t laugh long or ever again due to the deadly accuracy and deftness with which Morridin handled his blade.
