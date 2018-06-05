@@ -478,18 +478,6 @@ COPY ~NTotSC/base/itm/ntbull01.itm~ ~override~
 	SAY NAME2 @50
 	SAY DESC @52
 
-COPY ~NTotSC/base/itm/ntchan03.itm~ ~override~
-	SAY NAME2 @54
-	SAY DESC @56
-
-COPY ~NTotSC/base/itm/ntchan04.itm~ ~override~
-	SAY NAME2 @57
-	SAY DESC @58
-
-COPY ~NTotSC/base/itm/ntchan05.itm~ ~override~
-	SAY NAME2 @59
-	SAY DESC @60
-
 COPY ~NTotSC/base/itm/ntchan06.itm~ ~override~
 	SAY NAME2 @61
 	SAY DESC @62
@@ -507,10 +495,6 @@ END ELSE BEGIN
 		SAY NAME2 @73
 		SAY DESC @75
 END
-
-COPY ~NTotSC/base/itm/ntdagg01.itm~ ~override~
-	SAY NAME2 @77
-	SAY DESC @79
 
 COPY ~NTotSC/base/itm/ntdart1.itm~ ~override~
 	SAY NAME2 @81
@@ -546,23 +530,9 @@ COPY ~NTotSC/base/itm/ntkeypb7.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @95
 	SAY DESC @95
 
-COPY ~NTotSC/base/itm/ntleat01.itm~ ~override~
-	SAY NAME2 @97
-	SAY DESC @99
-
-COPY ~NTotSC/base/itm/ntleat04.itm~ ~override~
-	SAY NAME2 @103
-	SAY DESC @104
-
 COPY ~NTotSC/base/itm/ntleat05.itm~ ~override~
 	SAY NAME2 @105
 	SAY DESC @106
-
-COPY ~NTotSC/base/itm/ntlute01.itm~ ~override~
-	SAY NAME1 @107
-	SAY NAME2 @108
-	SAY UNIDENTIFIED_DESC @109
-	SAY DESC @110
 
 COPY ~NTotSC/base/itm/ntmiotpb.itm~ ~override~
 	SAY NAME2 @112
@@ -705,25 +675,13 @@ COPY ~NTotSC/base/itm/ntring02.itm~ ~override~
 	SAY NAME2 @154
 	SAY DESC @155
 
-COPY ~NTotSC/base/itm/ntrobe01.itm~ ~override~
-	SAY NAME2 @157
-	SAY DESC @158
-
 COPY ~NTotSC/base/itm/ntrobe02.itm~ ~override~
 	SAY NAME2 @159
 	SAY DESC @160
 
-COPY ~NTotSC/base/itm/ntshld01.itm~ ~override~
-	SAY NAME2 @162
-	SAY DESC @164
-
 COPY ~NTotSC/base/itm/ntshld02.itm~ ~override~
 	SAY NAME2 @166
 	SAY DESC @168
-
-COPY ~NTotSC/base/itm/ntshld03.itm~ ~override~
-	SAY NAME2 @169
-	SAY DESC @170
 
 COPY ~NTotSC/base/itm/ntspear1.itm~ ~override~
 	SAY NAME2 @172
@@ -733,45 +691,13 @@ COPY ~NTotSC/base/itm/ntstaff1.itm~ ~override~
 	SAY NAME2 @175
 	SAY DESC @176
 
-COPY ~NTotSC/base/itm/ntstaff2.itm~ ~override~
-	SAY NAME2 @177
-	SAY DESC @178
-
-COPY ~NTotSC/base/itm/ntstaff3.itm~ ~override~
-	SAY NAME2 @179
-	SAY DESC @180
-
-COPY ~NTotSC/base/itm/ntswd01.itm~ ~override~
-	SAY NAME2 @182
-	SAY DESC @184
-
-COPY ~NTotSC/base/itm/ntswd02.itm~ ~override~
-	SAY NAME2 @185
-	SAY DESC @186
-
 COPY ~NTotSC/base/itm/ntswd03.itm~ ~override~
 	SAY NAME2 @188
 	SAY DESC @190
 
-COPY ~NTotSC/base/itm/ntswd04.itm~ ~override~
-	SAY NAME2 @192
-	SAY DESC @194
-
 COPY ~NTotSC/base/itm/ntswd05.itm~ ~override~
 	SAY NAME2 @196
 	SAY DESC @197
-
-COPY ~NTotSC/base/itm/ntswd06.itm~ ~override~
-	SAY NAME2 @198
-	SAY DESC @199
-
-COPY ~NTotSC/base/itm/ntswd07.itm~ ~override~
-	SAY NAME2 @200
-	SAY DESC @201
-
-COPY ~NTotSC/base/itm/ntswd08.itm~ ~override~
-	SAY NAME2 @202
-	SAY DESC @203
 
 COPY ~NTotSC/base/itm/ntswd09.itm~ ~override~
 	SAY NAME2 @204
@@ -788,7 +714,6 @@ COPY ~NTotSC/base/itm/scrlnt81.itm~ ~override~
 //Items needed by creatures
 
 COPY ~NTotSC/base/itm/nostring~ ~override~
-
 
 
 /* Items from DsotSC */
