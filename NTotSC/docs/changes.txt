@@ -109,15 +109,8 @@ NTBOW04  - usability fixed
            Attack per Rnd bonus fixed
 
 NTBULL01 - 'max in stack' changed from 9999 to 40
-NTCHAN03 - strange usability...fixed
-           Regeneration effect fixed
-NTCHAN04 - usability fixed
-NTCHAN05 - usability fixed
-           1 color effect fixed
-NTDAGG01 - usability fixed
 NTDART1  - usability fixed
            'max in stack' changed from 9999 to 40
-NTLEAT04 - effects optimized
 NTLEAT05 - all equipping effects must Bypass resistance
 NTMIOTPB - carried icon fixed
 
@@ -130,28 +123,13 @@ NTPLAT01 - usability fixed
 NTPOTN02 - effects should bypass resistance
 NTPOTN04 - drunk effect time fixed
 NTRING03 - Ring of Pilar/Gheldehar has now unique name (was unique item before already)
-NTROBE01 - magical abilities fully rebuilt
 NTROBE02 - effects should bypass resistance
 	   removed the cursed flag - no mentioning in the description
-NTSHLD01 - usability fixed
-           carried icon
-NTSHLD03 - usability fixed
-           effects should bypass resistance
 NTSPEAR1 - usability fixed
            slashing damage bonus fixed (was 6d1 instead of 1d6)
 NTSTAFF1 - usability fixed
            proficiency fixed
            slashing damage bonus effect fixed
-NTSTAFF2 - all magic effects fixed
-
-NTSWD01  - bonuses vs Trolls rebuilt completely (2 .EFF added to the mod)
-           Slashing damage (was piercing)
-NTSWD02  - usability fixed
-           proficiency fixed
-NTSWD04  - DEX bonus fixed
-           Melee ability fixed
-NTSWD07  - damage amount fixed
-NTSWD08  - Acid damage effect fixed
 
 SCRLNT71 - usability fixed (no Diviner)
            'max in stack' changed from 9999 to 10
