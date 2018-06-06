@@ -1392,6 +1392,8 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~dsgbbow.itm~ BEGIN
   COMPILE EVALUATE_BUFFER ~NTotSC/dsotsc/orig_ressources/dsfeydo.baf~
   COMPILE EVALUATE_BUFFER ~NTotSC/dsotsc/orig_ressources/dssylvan.baf~
  
+  COPY ~NTotSC/dsotsc/orig_ressources/dsgbbow.bam~ ~override~
+
   COPY ~NTotSC/dsotsc/orig_ressources/dsgbbow.itm~ ~override~
 	SAY NAME2 @1452
 	SAY DESC @1454
