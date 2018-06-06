@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 2.2.2
+                                VERSION 2.2.3
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -12,6 +12,7 @@
 5. Credits
 6. FAQ
 7. Changes
+8. Legal Note
 
 
 INTRODUCTION
@@ -145,6 +146,17 @@ F.A.Q.
 CHANGES
 +++++++
 
+2.2.3   
+Fixes by Angel:
+	-Slightly modified the directory structure to G3 best practices, and lower-cased all files to be Linux-friendly. Most notable here is that NTotSC.tp2 is now setup-ntotsc.tp2.
+	-Removed all unused items as noted in https://www.baldurs-gate.de/index.php?threads/ntotsc-f%C3%BCr-bgt-bg-ee-und-eet.44467/page-7#post-1073489 (Their translation strings still remain though, I intend to clean that up later.)
+	-Monk usability flags are corrected on a number of items, most notably ntchan06.itm.
+	-Added the missing .bam file for dsgbbow.itm, dsgbbow.bam. (Copied from the DSotSC mod.)
+	-Fixed a CtD issue I forgot to report in ar20pb.are on BGEE, one spawn point had two empty entries out of four, giving a 50% chance of game crash on every spawn.
+	-minor fixes
+-Changes by jastey:
+	-added legal note with regard to Wizards' Fan Content Policy
+
 2.2.2
 	-NOW General Ghota won't drop Sarevok's Chaos sword two times any more.
 
@@ -234,3 +246,12 @@ CHANGES
 1.0   First full version.  Fixed dialogs, scripts, areas, etc
 0.2   Fixed several areas and scripts
 0.1   First version, bugs and all.  Get out a can of RAID.
+
+LEGAL NOTE
++++++
+
+=============================================================================
+This Mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp., Overhaul Games or Beamdog. All other trademarks and copyrights are property of their respective owners.
+=================================================================================
+
