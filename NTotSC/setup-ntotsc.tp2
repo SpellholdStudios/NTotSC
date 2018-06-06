@@ -1,7 +1,5 @@
 /* 
 -known issues (that can probably be fixed by someone else): 
--- in AR9001 NTHAEBAL.cre always gets 3 damage when PC enters area. No idea why.
-
 -- EET: some of the symbols are very near to SoD symbols on the worldmap
 
 --BG:EE DSotSC (v1.01b): Fey'doch will be doubled into Bear River. Only the bow from the Fey'doch from Northern Woods can be used in the quest. This will be so until the doubling in ds will be fixed.
