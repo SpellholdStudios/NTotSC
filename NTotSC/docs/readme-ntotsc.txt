@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 2.2.3
+                                VERSION 2.3.0
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -39,7 +39,7 @@ INSTALLATION
 
 It is in Weidu format.  To install, unzip the zip file to your game folder and double-click on Setup-NTotSC.exe.  To uninstall, double-click on Setup-NTotSC.exe again and select the Uninstall option.
 
-The install has six parts: the main component (obligatory for the mod) and five optional componantes of restored game content and Will O'Hara the NPC:
+The install has eight parts: the main component (obligatory for the mod) and five optional componantes of restored game content, Will O'Hara the NPC, and some fighting encounters:
 
 --Keelor the Dwarf
 --Pilar and Gheldehar
@@ -47,6 +47,7 @@ The install has six parts: the main component (obligatory for the mod) and five 
 --Llindellyn's Lucky Arrow
 --Svlast's Torment
 --Will O'Hara NPC
+--Fighting Encounters
 
 DSotSC must also be installed before NTotSC.  This mod also works with BG1NPC.
 
@@ -56,7 +57,10 @@ As of version 2.2.0, the biffing was disabled due to problems with modding iOS d
 WALKTHROUGH
 +++++++++++
 
-Shaella
+Content of the main component:
+++++
+
+Shaella (original game character)
   A really psycho woman inside Blade and Stars wants you to find a book in the Candlekeep crypts. 
 
 Hasdar
@@ -86,8 +90,81 @@ Nadarin
 Reedrig
   Reedrig is a monk who you free from the orcs in the Fields of the Dead. But that is not all. Talk to him again after clearing the cult in Ulgoth's Beard.
 
+
+More content included into the main component that is not connected to the main quest(s):
+++++
+
+Additional Dungeons
+  Two more dungeons are added: 
+-one Dungeon in Beregost Temple Area. 
+-Another one in the Firewine Bridge. For the latter, Charlston Nibb will give the needed key after the (original game) quest at the archeological site is finished.
+
+Additional Items
+  This refers to items that are just placed into the game and do not come with a quest: 
+-Mace +3: 'Defiler' (added to DurlagsTower Cellar)
+-Nirel's Boots of Protection (added to DurlagsTower Cellar)
+-new spell scroll "Fiery Cloud" (shop in Sorcerous Sundries)
+-new spell scroll "Skeleton Guard" (shop in Sorcerous Sundries)
+
+Halfling Cleric in Gullykin Winery
+  A character with little dialogue lines is added to the Gullykin Winery.
+
+Island of the Sirines
+  After coming from Balduran's Isle, the PC and his/her group will find themselves on an island inhabited by friendly sirenes. Given the right presents they are happy to help the PC to a very refreshing rest... 
+
 Ogre and Poochy
   An ogre near the docks wants some rat tails for his dog. You will find plenty in the sewers.
+
+Ordolath and his Candle
+  A man in the Fireleaf Forest wants you to get his candle from his home in the northern part of Baldur's Gate for him.
+
+Sellanio and his shop in Cloakwood Mines
+  In Cloakwood Mines in the small Storehouse, Sellanio will not ask any questions and be happy to trade with you.
+
+Rededge in Chapter 7
+  Restores original game encounter with a rogue from the thieves' guild after Angelo took over the Flaming Fist.
+
+
+
+Component Keelor the Dwarf 
+++++
+  Adds Keelor the dwarf to the mod area "Wood of the Dead". Help him with his injuries from a Gnoll attack. If the healing is high enough, his sister Nasha in the temple of Umberlee in south Baldur's Gate will heal the party for free afterwards.
+
+
+Component Pilar and Gheldehar
+++++
+  Adds Pilar and Geldehar to Baldur's Gate. They do not talk to each other but everyone has one item the other one would like to have back. 
+Note: This quest can only be solved with pickpocketing skills.
+
+
+Component Nim Furlwing
+++++
+  Adds Nim and her hounds to the mod area "Temple of the Black Hand". Help saving the hounds against a monster attack!
+
+
+Component Llindellyn's Lucky Arrow
+++++
+  Adds Llindellyn to teh mod area "Northern Wood". Help him find his lucky arrow!
+
+
+Component Svlast's Torment
+++++
+  Adds the fallen apaldin Svlast to the Firewine Bridge. Svlast did wrong to one of his brethren who is now coming for him! 
+
+
+Component Will O'Hara NPC
+++++
+  Adds a joinable NPC who can be met in Beregost. Apart from some interjections in Beregost and some custom items, Will has no further content.
+
+
+Component Fighting Encounters
+++++
+  Some unrelated fighting encounters were moved into this separate component:
+--Two additional fighters for Lamalha in the Valley of the Tombs
+--Boy and his parents in Beregost House
+--Six Sisters in the Jovial Juggler L1
+--Officer Tytus in Cloakwood Mines
+--Black Talon Elite Fighters in Cloackwood and Cloakwood Mines.
 
 
 
@@ -146,16 +223,59 @@ F.A.Q.
 CHANGES
 +++++++
 
-2.2.3   
-Fixes by Angel:
-	-Slightly modified the directory structure to G3 best practices, and lower-cased all files to be Linux-friendly. Most notable here is that NTotSC.tp2 is now setup-ntotsc.tp2.
-	-Removed all unused items as noted in https://www.baldurs-gate.de/index.php?threads/ntotsc-f%C3%BCr-bgt-bg-ee-und-eet.44467/page-7#post-1073489 (Their translation strings still remain though, I intend to clean that up later.)
+2.3.0  
+Changes by MadeInHeaven:
+	-Slightly modified the directory structure, and lower-cased all files to be Linux-friendly. Most notable here is that NTotSC.tp2 is now setup-ntotsc.tp2.
+	-Removed all unused items as identified by Dachrisma: 
+		--ntbrac01.itm
+		--ntchan03.itm
+		--ntchan04.itm
+		--ntchan05.itm
+		--ntdagg01.itm
+		--ntleat01.itm
+		--ntleat04.itm
+		--ntlute01.itm
+		--NTMISC01.itm
+		--NTMISC02.itm
+		--NTMISC03.itm
+		--NTMISC04.itm
+		--ntrobe01.itm
+		--ntshld01.itm
+		--ntshld03.itm
+		--ntstaff2.itm
+		--ntstaff3.itm
+		--ntswd01.itm
+		--ntswd02.itm
+		--ntswd04.itm
+		--ntswd06.itm
+		--ntswd07.itm
+		--ntswd08.itm
+		--SPINNT01.spl
+		--SPINNT02.spl
+		--SPINNT03.spl
+		--SPINNT04.spl
+
 	-Monk usability flags are corrected on a number of items, most notably ntchan06.itm.
 	-Added the missing .bam file for dsgbbow.itm, dsgbbow.bam. (Copied from the DSotSC mod.)
-	-Fixed a CtD issue I forgot to report in ar20pb.are on BGEE, one spawn point had two empty entries out of four, giving a 50% chance of game crash on every spawn.
-	-minor fixes
--Changes by jastey:
-	-added legal note with regard to Wizards' Fan Content Policy
+	-Fixed a CtD issue in ar20pb.are on BGEE, one spawn point had two empty entries out of four, giving a 50% chance of game crash on every spawn.
+	-more minor fixes
+
+Changes by jastey:
+	-resting with the sirenes should be like a real rest (renamed the cutscene as it didn't use the prefix "NT")
+	-(German version) integrated Dachrisma's setup.tra corrections
+	-Area "Northern Wood" will also be revealed if quest for Fey'Doch's bow was given by Tanar'Ri
+	-"Keelor the Dwarf" now includes his sister Nasha, too (in Temple of Umberlee)
+	-new component: "Fighting Encounters" some of the mere fighting encounters were moved into this new component
+	-Ordolath won't drop his whole inventory any more
+	-Krotan is now Ogre-Mage (changed animation)
+	-AR82PB.are, Container0 ("Bookshelf"): fall detection changed to 90, trap removal to 101
+	-tuned down the non-detectable traps:
+		-Krotan's crypt (AR34PB.are): removed trap at the entrance and changed one of the other ones to "miscast Magic" trap.
+		-Haeball (AR9001, AR9002): traps on containers changed to 90/90. Trap in cellar is removable for 101
+		-Temple of the Black Hand (AR61PB): removed arrows of detonation from cultist archers. Moved trap with fireball away from entrance point
+	-update to WeiDU v246
+
+
 
 2.2.2
 	-NOW General Ghota won't drop Sarevok's Chaos sword two times any more.

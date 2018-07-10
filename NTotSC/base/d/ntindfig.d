@@ -46,7 +46,7 @@ END
 IF ~Global("NTMeetIndfigtToOffer","GLOBAL",1)
 PartyHasItem("NTMISC06")~ THEN BEGIN 5
   SAY @15
-  IF ~~ THEN REPLY @16 DO ~EraseJournalEntry(@10093)~ UNSOLVED_JOURNAL @10094 GOTO 6
+  IF ~~ THEN REPLY @16 DO ~EraseJournalEntry(@10093) RevealAreaOnMap("AR40PB")~ UNSOLVED_JOURNAL @10094 GOTO 6
   IF ~~ THEN REPLY @17 GOTO 8
 END
 

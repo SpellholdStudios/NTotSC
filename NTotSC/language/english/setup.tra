@@ -505,7 +505,8 @@ Special: Allow to learn "Ward of Protection" Spell~
 @127  = ~This finely crafted holy symbol is sacred to the god Helm. The symbol depicts an upright war gauntlet with a staring eye on the front. The gauntlet itself is crafted from the finest platinum, the white of the eye is carved from mother of pearl, and a blue sapphire has been used for the pupil.~
 @128  = ~Great Book of the Unknowing~
 @129  = ~When you turn the pages of the book you cannot see any writing, and simultaneously you do not remember what was the purpose to open it.~
-@55130 = ~Body of Fey'Doch~
+
+
 @130  = ~Iron from the mine~
 @133  = ~Charleston Nib's Scroll
 This rolled-up scroll contains a short note about the location of some ruins under the Firewine Bridge. The ruins are locked by an unnamed mage's ward, but the scroll should act as a key with the ability to deactivate any magical wall.~
@@ -1169,6 +1170,10 @@ D.~
 
 @539 = ~Experience reduced by 5000 points~
 
+/* new for v 2.3.0 */
+
+@540 = ~Fighting Encounters~
+
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
 @1244 = ~Holy Water~
@@ -1195,3 +1200,7 @@ Not Usable By:
 
 @2293 = ~Wood Elf Warrior~
 @2294 = ~Wood Elf Elite~
+
+/* --- */
+
+@55130 = ~Body of Fey'Doch~

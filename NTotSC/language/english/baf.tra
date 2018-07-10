@@ -1,7 +1,7 @@
 //AR9PBA.baf
 @0    = ~On the way back you have noticed a small island and despite many difficulties you managed to put ashore to replenish your supplies for the further journey. The island looks to be inhabited.~
 
-//CUTREST.baf
+//ntcutres.baf
 @10    = ~You have gotten some much needed rest.~
 
 //NTTOMBDO.baf

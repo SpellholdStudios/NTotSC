@@ -17,8 +17,8 @@
 // BG:EE compatibility, independence to DSotSC, and journal system by jastey
 
 BACKUP ~NTotSC/backup~
-AUTHOR ~~
-VERSION ~2.2.3~ //180606
+AUTHOR ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
+VERSION ~2.3.0~ //180710
 README ~NTotSC/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~NTotSC/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~NTotSC/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -355,8 +355,7 @@ BUT_ONLY*/
 INCLUDE ~NTotSC/lib/tooltip.tpa~
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~NTBLUN06~ tooltips = ~@25 @50~ END
 LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~NTBLUN07~ tooltips = ~@25 @50~ END
-LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~NTROBE01~ tooltips = ~12082 12022~ END
-LAF ~ADD_ITEM_TOOLTIPS~ STR_VAR item = ~NTSTAFF2~ tooltips = ~@177 12131 12129 12041 12116 12117~ END
+
 
 COPY_EXISTING ~interact.2da~ ~override~
 	~death.2da~ ~override~
@@ -376,17 +375,6 @@ COPY ~NTotSC/base/spl/ntspwi71.spl~ ~override~
 COPY ~NTotSC/base/spl/ntspwi81.spl~ ~override~
 	SAY NAME1 @213
 	SAY UNIDENTIFIED_DESC @214
-
-COPY ~NTotSC/base/spl/spinnt01.spl~ ~override~
-	SAY NAME1 @206
-
-COPY ~NTotSC/base/spl/spinnt02.spl~ ~override~
-
-COPY ~NTotSC/base/spl/spinnt03.spl~ ~override~
-	SAY NAME1 @208
-
-COPY ~NTotSC/base/spl/spinnt04.spl~ ~override~
-	SAY NAME1 @209
 
 COPY ~NTotSC/base/spl/ntswd5xp.spl~ ~override~
    LPF ALTER_SPELL_EFFECT
@@ -417,10 +405,6 @@ COPY ~NTotSC/base/itm/ntarrow1.itm~ ~override~
 COPY ~NTotSC/base/itm/ntarrow2.itm~ ~override~
 	SAY NAME2 @4
 	SAY DESC @6
-
-/*COPY ~NTotSC/base/itm/ntarrow4.itm~ ~override~
-	SAY NAME2 @1
-	SAY DESC @10*/
 
 COPY ~NTotSC/base/itm/ntarrow5.itm~ ~override~
 	SAY NAME2 @11
@@ -467,10 +451,6 @@ END
 COPY ~NTotSC/base/itm/ntbow04.itm~ ~override~
 	SAY NAME2 @42
 	SAY DESC @44
-
-COPY ~NTotSC/base/itm/ntbrac01.itm~ ~override~
-	SAY NAME2 @46
-	SAY DESC @48
 
 COPY ~NTotSC/base/itm/ntbull01.itm~ ~override~
 	SAY NAME2 @50
@@ -531,32 +511,6 @@ COPY ~NTotSC/base/itm/ntkeypb7.itm~ ~override~
 COPY ~NTotSC/base/itm/ntleat05.itm~ ~override~
 	SAY NAME2 @105
 	SAY DESC @106
-
-COPY ~NTotSC/base/itm/ntmiotpb.itm~ ~override~
-	SAY NAME2 @112
-	SAY DESC @114
-
-COPY ~NTotSC/base/itm/ntmisc01.itm~ ~override~
-	SAY NAME1 @115
-	SAY NAME2 @115
-	SAY UNIDENTIFIED_DESC @116
-	SAY DESC @116
-
-COPY ~NTotSC/base/itm/ntmisc02.itm~ ~override~
-	SAY NAME1 @115
-	SAY NAME2 @115
-	SAY UNIDENTIFIED_DESC @117
-	SAY DESC @117
-
-COPY ~NTotSC/base/itm/ntmisc03.itm~ ~override~
-	SAY NAME1 @115
-	SAY NAME2 @115
-	SAY UNIDENTIFIED_DESC @118
-	SAY DESC @118
-
-COPY ~NTotSC/base/itm/ntmisc04.itm~ ~override~
-	SAY UNIDENTIFIED_DESC @120
-	SAY DESC @120
 
 COPY ~NTotSC/base/itm/ntmisc05.itm~ ~override~
 	SAY NAME1 @121
@@ -827,9 +781,6 @@ COPY_EXISTING ~sto0703.sto~ ~override~
 
 //install new creatures
 
-COPY ~NTotSC/base/cre/btelite.cre~ ~override~
-	SAY NAME1 @221
-	SAY NAME2 @221
 
 COPY ~NTotSC/base/cre/ntabigai.cre~ ~override~
 	SAY NAME1 @215
@@ -886,7 +837,6 @@ COPY ~NTotSC/base/cre/ntcholga.cre~ ~override~
 	SAY NAME2 @235
 
 COPY ~NTotSC/base/cre/ntdeath1.cre~ ~override~
-	~NTotSC/base/cre/ntdeathk.cre~ ~override~
 	SAY NAME1 @236
 	SAY NAME2 @236
 	SAY 0xa4 @237
@@ -908,9 +858,6 @@ COPY ~NTotSC/base/cre/ntdraagi.cre~ ~override~
 	SAY NAME1 @245
 	SAY NAME2 @245
 
-COPY ~NTotSC/base/cre/ntdxter.cre~ ~override~
-	SAY NAME1 @246
-	SAY NAME2 @246
 
 COPY ~NTotSC/base/cre/nteldod.cre~ ~override~
 	~NTotSC/base/cre/nteldod1.cre~ ~override~
@@ -918,9 +865,7 @@ COPY ~NTotSC/base/cre/nteldod.cre~ ~override~
 	SAY NAME2 @247
   ADD_CRE_ITEM ~NTKEYPB5~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~ 
 
-COPY ~NTotSC/base/cre/ntelka.cre~ ~override~
-	SAY NAME1 @248
-	SAY NAME2 @248
+
 
 COPY ~NTotSC/base/cre/ntessila.cre~ ~override~
 	SAY NAME1 @249
@@ -1057,17 +1002,8 @@ COPY ~NTotSC/base/cre/ntnadali.cre~ ~override~
 	SAY NAME1 @315
 	SAY NAME2 @315
 
-COPY ~NTotSC/base/cre/ntnatalk.cre~ ~override~
-	SAY NAME1 @316
-	SAY NAME2 @316
 
-COPY ~NTotSC/base/cre/ntogreda.cre~ ~override~
-	SAY NAME1 @321
-	SAY NAME2 @321
 
-COPY ~NTotSC/base/cre/ntogremu.cre~ ~override~
-	SAY NAME1 @322
-	SAY NAME2 @322
 
 COPY ~NTotSC/base/cre/ntolivia.cre~ ~override~
 	SAY 0xa4 @324
@@ -1104,9 +1040,7 @@ COPY ~NTotSC/base/cre/ntreedri.cre~ ~override~
 	SAY NAME2 @346
 	WRITE_ASCII 0x248 ~ntreedri~ #8
 
-COPY ~NTotSC/base/cre/ntroach.cre~ ~override~
-	SAY NAME1 @271
-	SAY NAME2 @271
+
 
 COPY ~NTotSC/base/cre/ntrudier.cre~ ~override~
 	SAY NAME1 @347
@@ -1159,18 +1093,7 @@ COPY ~NTotSC/base/cre/nttordi1.cre~ ~override~
 	SAY NAME1 @378
 	SAY NAME2 @378
 
-COPY ~NTotSC/base/cre/nttytus.cre~ ~override~
-	SAY NAME1 @379
-	SAY NAME2 @379
 
-/* adjust to BG:EE ressources */
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  COPY_EXISTING ~nttytus.cre~ ~override~
-  REMOVE_CRE_ITEM ~BELT08~
-  ADD_CRE_ITEM ~BELT07~ #0 #0 #0 ~NONE~ ~BELT~ 
-  REMOVE_CRE_ITEM ~PLAT14~
-  ADD_CRE_ITEM ~PLAT06~ #0 #0 #0 ~NONE~ ~ARMOR~ 
-END
 
 COPY ~NTotSC/base/cre/ntvaness.cre~ ~override~
 	SAY NAME1 @381
@@ -1722,7 +1645,7 @@ COPY ~NTotSC/base/are/%platform%/ar34pb.are~ ~override~
 	PATCH_IF (GAME_IS ~eet~) BEGIN
 		WRITE_SHORT 0x48 THIS | IDS_OF_SYMBOL(~AREATYPE~ ~BG1AREA~)
 	END
-	SAY 0x1eb4 @443
+	SAY 0x1df0 @443
 
 ACTION_IF GAME_IS ~bgt~ BEGIN
   COPY ~NTotSC/base/are/%platform%/ar51pb.are~ ~override~
@@ -2094,22 +2017,18 @@ COMPILE EVALUATE_BUFFER ~NTotSC/base/baf~ USING ~NTotSC/language/%LANGUAGE%/baf.
 EXTEND_BOTTOM ~%FirewineBridge_BCS%.bcs~ ~NTotSC/modify/bcs/ar4500.baf~ EVALUATE_BUFFER
 USING ~NTotSC/language/%LANGUAGE%/baf.tra~
 
-EXTEND_BOTTOM ~%ValleyoftheTombs_BCS%.bcs~ ~NTotSC/modify/bcs/ar5000.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%FireLeafForest_BCS%.bcs~ ~NTotSC/modify/bcs/ar5300.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%Beregost_JovialJuggler_L2R_BCS%.bcs~ ~NTotSC/modify/bcs/ar3306.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%Beregost_House04_L1_BCS%.bcs~ ~NTotSC/modify/bcs/ar3345.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%Beregost_House04_L2_BCS%.bcs~ ~NTotSC/modify/bcs/ar3346.baf~ EVALUATE_BUFFER
+
+
 EXTEND_BOTTOM ~%NEBaldursGate_BlushingMermaid_L1_BCS%.bcs~ ~NTotSC/modify/bcs/ar0114.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%NEBaldursGate_BCS%.bcs~ ~NTotSC/modify/bcs/ar0300.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%Farmlands_BCS%.bcs~ ~NTotSC/modify/bcs/ar0400.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%EBaldursGate_BCS%.bcs~ ~NTotSC/modify/bcs/ar0800.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%BaldursGateDocks_BCS%.bcs~ ~NTotSC/modify/bcs/ar1200.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%SEBaldursGate_BCS%.bcs~ ~NTotSC/modify/bcs/ar1300.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodWyverns_BCS%.bcs~ ~NTotSC/modify/bcs/ar1700.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~NTotSC/modify/bcs/ar1800.baf~ EVALUATE_BUFFER
+
 EXTEND_BOTTOM ~%CloakwoodMines_Storehouse_BCS%.bcs~ ~NTotSC/modify/bcs/ar1808.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%CloakwoodMines_MineShed_BCS%.bcs~ ~NTotSC/modify/bcs/ar1809.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%Peldvale_BCS%.bcs~ ~NTotSC/modify/bcs/ar2400.baf~ EVALUATE_BUFFER
+
 EXTEND_BOTTOM ~%Temple_BCS%.bcs~ ~NTotSC/modify/bcs/ar3400.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%Gullykin_Winery_L1_BCS%.bcs~ ~NTotSC/modify/bcs/ar4003.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%NBaldursGate_House6_L1_BCS%.bcs~ ~NTotSC/modify/bcs/ar0020.baf~ EVALUATE_BUFFER
@@ -2369,14 +2288,22 @@ FORBID_FILE ~override/JA#KEELO.CRE~ @532
 /* Keelor The Dwarf */
 ADD_JOURNAL @10027 @10028 @10029 USING ~NTotSC/language/%LANGUAGE%/journal.tra~
 
-COPY ~NTotSC/keelor/ntkeelor.cre~ ~override~
-	SAY NAME1 @273
-	SAY NAME2 @273
-
 COMPILE EVALUATE_BUFFER ~NTotSC/keelor/ntkeelor.d~
 COMPILE EVALUATE_BUFFER ~NTotSC/keelor/ntkeelor.baf~
 
+COMPILE EVALUATE_BUFFER ~NTotSC/keelor/ntnasha.d~
+
+COPY ~NTotSC/keelor/ntkeelor.cre~ ~override~
+	SAY NAME1 #15625 //@273
+	SAY NAME2 #15625 //@273
+
+COPY ~NTotSC/keelor/NTNASHA.CRE~ ~override~
+SAY NAME1 #15671 //~Nasha~ (string ref is true for BGT and BG:EE)
+SAY NAME2 #15671 //~Nasha~ (string ref is true for BGT and BG:EE)
+
 EXTEND_TOP ~AR01PB.bcs~ ~NTotSC/keelor/ar01pb_keelor.baf~ EVALUATE_BUFFER
+
+EXTEND_BOTTOM ~%BaldursGateDocks_WaterQueensHouse%.bcs~ ~NTotSC/keelor/ar0609.baf~ EVALUATE_BUFFER
 
 
 //////////////////////////////////////////////////////////////////////////////
@@ -2642,3 +2569,112 @@ LAF HANDLE_AUDIO
 //	output_path = ~NTotSC/biff~
 	output_path = ~override~
 END
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+////
+//// Fighting Encounters
+////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+BEGIN @540 /* ~Fighting Encounters~ */
+REQUIRE_COMPONENT ~NTotSC/NTotSC.tp2~ 0 @531
+
+
+
+/* additional comrades to Lamalha (AR5000 Valley of the Tombs) */
+
+COPY ~NTotSC/base/cre/ntelka.cre~ ~override~
+	SAY NAME1 @248
+	SAY NAME2 @248
+
+COPY ~NTotSC/base/cre/ntnatalk.cre~ ~override~
+	SAY NAME1 @316
+	SAY NAME2 @316
+
+EXTEND_BOTTOM ~%ValleyoftheTombs_BCS%.bcs~ ~NTotSC/modify/bcs/ar5000.baf~ EVALUATE_BUFFER
+
+
+/* Boy and his "parents" in Beregost House */
+
+COPY ~NTotSC/base/cre/ntogreda.cre~ ~override~
+	SAY NAME1 @321
+	SAY NAME2 @321
+
+COPY ~NTotSC/base/cre/ntogremu.cre~ ~override~
+	SAY NAME1 @322
+	SAY NAME2 @322
+
+COPY ~NTotSC/fightingencounter/ntboybe1.cre~ ~override~
+COMPILE EVALUATE_BUFFER ~NTotSC/fightingencounter/ntboybe1.d~
+
+EXTEND_BOTTOM ~%Beregost_House04_L1_BCS%.bcs~ ~NTotSC/modify/bcs/ar3345.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Beregost_House04_L2_BCS%.bcs~ ~NTotSC/modify/bcs/ar3346.baf~ EVALUATE_BUFFER
+
+
+/* Six sisters in Jovial Juggler L1 */
+
+COPY ~NTotSC/base/cre/ntroach.cre~ ~override~
+	SAY NAME1 @271
+	SAY NAME2 @271
+
+
+COMPILE EVALUATE_BUFFER ~NTotSC/fightingencounter/ntdeathk.d~
+
+COPY ~NTotSC/base/cre/ntdeath1.cre~ ~override~
+	~NTotSC/base/cre/ntdeathk.cre~ ~override~
+	SAY NAME1 @236
+	SAY NAME2 @236
+	SAY 0xa4 @237
+	SAY 0xc8 @238
+	SAY 0xec @239
+	SAY 0xf0 @240
+	SAY 0x10c @241
+	SAY 0x1b8 @241
+
+COMPILE EVALUATE_BUFFER ~NTotSC/fightingencounter/ntdxter.baf~
+COMPILE EVALUATE_BUFFER ~NTotSC/fightingencounter/ntdextpb.d~
+
+COPY ~NTotSC/base/itm/ntmiotpb.itm~ ~override~
+	SAY NAME2 @112
+	SAY DESC @114
+
+COPY ~NTotSC/base/cre/ntdxter.cre~ ~override~
+	SAY NAME1 @246
+	SAY NAME2 @246
+
+EXTEND_BOTTOM ~%Beregost_JovialJuggler_L2R_BCS%.bcs~ ~NTotSC/modify/bcs/ar3306.baf~ EVALUATE_BUFFER
+
+/* Ogre Magii in Peldvale */
+
+COPY ~NTotSC/fightingencounter/ntforeog.cre~ ~override~
+
+EXTEND_BOTTOM ~%Peldvale_BCS%.bcs~ ~NTotSC/modify/bcs/ar2400.baf~ EVALUATE_BUFFER
+
+
+/* Officer Tytus and Black Talon Fighters in Cloakwood & Cloakwood Mine */
+
+COPY ~NTotSC/base/cre/nttytus.cre~ ~override~
+	SAY NAME1 @379
+	SAY NAME2 @379
+
+/* adjust to BG:EE ressources */
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  COPY_EXISTING ~nttytus.cre~ ~override~
+  REMOVE_CRE_ITEM ~BELT08~
+  ADD_CRE_ITEM ~BELT07~ #0 #0 #0 ~NONE~ ~BELT~ 
+  REMOVE_CRE_ITEM ~PLAT14~
+  ADD_CRE_ITEM ~PLAT06~ #0 #0 #0 ~NONE~ ~ARMOR~ 
+END
+
+EXTEND_BOTTOM ~%CloakwoodMines_MineShed_BCS%.bcs~ ~NTotSC/modify/bcs/ar1809.baf~ EVALUATE_BUFFER
+
+
+COPY ~NTotSC/base/cre/btelite.cre~ ~override~
+	SAY NAME1 @221
+	SAY NAME2 @221
+
+EXTEND_BOTTOM ~%CloakwoodWyverns_BCS%.bcs~ ~NTotSC/modify/bcs/ar1700.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~NTotSC/modify/bcs/ar1800.baf~ EVALUATE_BUFFER

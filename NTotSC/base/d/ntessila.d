@@ -50,13 +50,13 @@ IF ~~ THEN BEGIN 8
   SAY @15
   IF ~~ THEN DO ~ClearAllActions()
 StartCutSceneMode()
-StartCutScene("CUTREST")~ EXIT
+StartCutScene("ntcutres")~ EXIT
 END
 
 IF ~Global("NTEssila","GLOBAL",2)~ THEN BEGIN 9
   SAY @16
   IF ~~ THEN REPLY @17 DO ~ClearAllActions()
 StartCutSceneMode()
-StartCutScene("CUTREST")~ EXIT
+StartCutScene("ntcutres")~ EXIT
   IF ~~ THEN REPLY @18 EXIT
 END

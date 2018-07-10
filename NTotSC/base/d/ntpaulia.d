@@ -36,7 +36,7 @@ DestroyItem("MISC91")
 EraseJournalEntry(@10054)
 ClearAllActions()
 StartCutSceneMode()
-StartCutScene("CUTREST")
+StartCutScene("ntcutres")
 ~ EXIT
   IF ~~ THEN REPLY @10 DO ~EraseJournalEntry(@10054)~ EXIT
 END

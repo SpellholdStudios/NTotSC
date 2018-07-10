@@ -1,0 +1,9 @@
+IF
+  Global("NT_NashaSpawn","MYAREA",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTNASHA",[1147.602],0)
+    SetGlobal("NT_NashaSpawn","MYAREA",1)
+    Continue()
+END
+

@@ -1,7 +1,7 @@
 //AR9PBA.baf
 @0    = ~Auf dem Rückweg bemerkt Ihr eine kleine Insel und beschließt trotz vieler Schwierigkeiten an Land zu gehen, um Eure dringend benötigten Vorräte aufzufrischen. Die Insel scheint bewohnt zu sein.~
 
-//CUTREST.baf
+//ntcutres.baf
 @10    = ~Ihr habt die dringend benötigte Rast eingelegt.~
 
 //NTTOMBDO.baf

@@ -56,7 +56,7 @@ AddexperienceParty(200)
 SetGlobal("NTLucretia","GLOBAL",1)
 ClearAllActions()
 StartCutSceneMode()
-StartCutScene("CUTREST")~ EXIT
+StartCutScene("ntcutres")~ EXIT
   IF ~~ THEN REPLY @17 GOTO 9
 END
 

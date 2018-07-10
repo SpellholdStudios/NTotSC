@@ -14,7 +14,7 @@ Following *existing* lines were edited concerning content:
 -ntavery.tra: changed wording in line @19 so it's a reply to line @18
 -NTINDFIG.tra, @31 : edited the line to make it clearer it contains the name "Haeball"
 -NTSILUA.tra: changed the name in @0 to "Syl"
--setup.tra, setup-ee.tra, journal.tra, ntllinde.tra: unified Llindellyn's name to "Llindellyn"
+-setup.tra, setup-ee.tra, journal.tra, ntllinde.tra: unified Llindellyn's name to "Llindellyn". Several lines from deprecated items were removed.
 
 
 

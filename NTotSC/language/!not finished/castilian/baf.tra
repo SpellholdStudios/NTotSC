@@ -1,7 +1,7 @@
 //AR9PBA.baf
 @0    = ~De regreso habéis visto una isla pequeña, a pesar de las dificultades que tuvisteis para llegar a tierra con el fin de abasteceros de suministros para vuestro viaje. La isla no parece que esté habitada.~
 
-//CUTREST.baf
+//ntcutres.baf
 @10    = ~Habéis tenido una inmensa necesidad de descansar.~
 
 //NTTOMBDO.baf

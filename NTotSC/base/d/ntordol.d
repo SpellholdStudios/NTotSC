@@ -61,7 +61,7 @@ END
 
 IF ~~ THEN BEGIN 10
   SAY @21
-  IF ~~ THEN DO ~DropInventory()
+  IF ~~ THEN DO ~GiveItem("wand07",LastTalkedToBy)
 GiveGoldForce(2000)
 TakePartyItem("misc74")
 EraseJournalEntry(@10048)

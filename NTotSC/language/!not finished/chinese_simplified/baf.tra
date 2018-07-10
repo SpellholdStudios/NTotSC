@@ -1,7 +1,7 @@
 //AR9PBA.baf
 @0    = ~在回去的路上,你发现了一个小岛,尽管上岸为旅途补给可能会引来很多麻烦。这个岛屿看起来有人居住。~
 
-//CUTREST.baf
+//ntcutres.baf
 @10   = ~你必须休息。~
 
 //NTTOMBDO.baf

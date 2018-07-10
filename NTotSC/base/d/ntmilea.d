@@ -28,14 +28,14 @@ IF ~~ THEN BEGIN 4
 TakePartyGold(100)
 ClearAllActions()
 StartCutSceneMode()
-StartCutScene("CUTREST")~ UNSOLVED_JOURNAL @10038 EXIT
+StartCutScene("ntcutres")~ UNSOLVED_JOURNAL @10038 EXIT
 END
 
 IF ~False()~ THEN BEGIN 5
   SAY @11
   IF ~~ THEN REPLY @12 DO ~ClearAllActions()
 StartCutSceneMode()
-StartCutScene("CUTREST")~ EXIT
+StartCutScene("ntcutres")~ EXIT
   IF ~~ THEN REPLY @13 EXIT
 END
 

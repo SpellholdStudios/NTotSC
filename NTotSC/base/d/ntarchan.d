@@ -60,7 +60,7 @@ DestroyItem("NTPOTN03")
 EraseJournalEntry(@10004)
 ClearAllActions()
 StartCutSceneMode()
-StartCutScene("CUTREST")~ EXIT
+StartCutScene("ntcutres")~ EXIT
   IF ~~ THEN REPLY @22 GOTO 7
 END
 

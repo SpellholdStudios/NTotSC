@@ -18,7 +18,7 @@ END
 IF ~HPGT(Myself,24)
 Global("Attacked","LOCALS",0)~ THEN BEGIN 2
   SAY @4
-  IF ~~ THEN DO ~Polymorph(FIGHTER_MALE_DWARF) EscapeArea()~ SOLVED_JOURNAL @10029 EXIT
+  IF ~~ THEN DO ~SetGlobal("NT_KeelorNASHA","GLOBAL",1) Polymorph(FIGHTER_MALE_DWARF) EscapeArea()~ SOLVED_JOURNAL @10029 EXIT
 END
 
 IF ~NumTimesTalkedTo(0)

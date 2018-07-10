@@ -1,7 +1,7 @@
 //AR9PBA.baf
 @0    = ~W drodze powrotnej odkry³eœ ma³¹ wyspê i mimo wielu trudnoœci uda³o Ci siê przybiæ do brzegu by uzupe³niæ zapasy na dalsz¹ podró¿. Wyspa wydaje siê byæ zamieszkana.~
 
-//CUTREST.baf
+//ntcutres.baf
 @10    = ~Wreszcie zazna³eœ niezbêdnego Ci wypoczynku.~
 
 //NTTOMBDO.baf

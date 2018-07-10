@@ -44,5 +44,5 @@ IF ~~ THEN BEGIN 7
   IF ~~ THEN REPLY @17 GOTO 6
   IF ~~ THEN REPLY @18 DO ~ClearAllActions()
 StartCutSceneMode()
-StartCutScene("CUTREST")~ EXIT
+StartCutScene("ntcutres")~ EXIT
 END

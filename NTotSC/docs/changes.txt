@@ -304,7 +304,7 @@ ar4500.baf: changed entrance to dungeon in Firewine bridge  (quest by Charleston
 
 ar5300.baf: removed the closing fo travel region to AR80PB.are: pass will be open always.
 
-cutrest.baf: changed so it actually rests and heals the group.
+cutrest.baf: changed so it actually rests and heals the group (is now renamed to "ntcutres")
 
 ntdxter.baf: witches in Jovial Juggler. All will participate in the fight. If the Tanar'ri is killed before them, they will all initiate dialogue and leave.
 
