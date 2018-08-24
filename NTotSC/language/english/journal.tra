@@ -364,4 +364,9 @@ We brought Yness a message from her husband, who we..., er, 'saved' from Orcs' h
 
 Shaella, or rather Elnaedra now, says that I have found the book even though I didn't find it. What does that mean?~
 
+/* new for version 3.0.0 */
+@10110 = ~Warded Dungeon Under Firewine Bridge
 
+The dungeon under the Firewine Bridge is cleared out.~
+
+@10111 = ~Warded Dungeon Under Firewine Bridge~

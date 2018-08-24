@@ -1,5 +1,6 @@
 IF
   Global("NTotSCSpawn","%ValleyoftheTombs%",0)
+  Dead("Mulahey")
 THEN
   RESPONSE #100
     CreateCreatureObject("NTNATALK","LAMALH",3,0,0)

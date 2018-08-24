@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 2.3.0
+                                VERSION 3.0.0
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -222,6 +222,13 @@ F.A.Q.
 
 CHANGES
 +++++++
+
+3.0.0
+	-additional comrades to Lamalha will only spawn together with Lamalha and not be present before 
+	-ntotsc.tp2 changed back the name for compatibility reasons
+	-dungeon under Firewine Bridge: added solved journal entry and 500 xp if cleared (detected if loot from ar53pb.are is taken)
+
+
 
 2.3.0  
 Changes by MadeInHeaven:

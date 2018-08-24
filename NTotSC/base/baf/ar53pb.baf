@@ -3,7 +3,9 @@ IF
   Global("NT_FirewineDungeonCleared","MYAREA",0)
 THEN
   RESPONSE #100
+    AddJournalEntry(@10110,QUEST_DONE)
     EraseJournalEntry(@10001)
+    AddExperienceParty(500)
     SetGlobal("NT_FirewineDungeonCleared","MYAREA",1)
 END
 

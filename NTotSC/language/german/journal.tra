@@ -5,7 +5,7 @@ Wills Lieblingswaffe ist zurück in seinen Händen. Ich hoffe, dass er sie richtig
 // @5 from Charle.tra
 @10001 = ~Weitere Ruinen unter der Feuerweinbrücke
 
-Charleston Nib, den wir retteten, nachdem seine Arbeiter in der Gruft Kozahs wahnsinnig wurden, bot uns eine weitere Suche an. Es gibt einen bewachten Eingang auf der Feuerwein-Brücke, die in einen neues Verlies führt. Jedoch hausen "Dämonen" dort drinnen, und er ist außerstande, es zu erforschen. Er hat uns gebeten, die Dämonen für ihn zu beseitigen.~
+Charleston Nib, den wir retteten, nachdem seine Arbeiter in der Gruft Kozahs wahnsinnig wurden, bot uns eine weitere Suche an. Es gibt einen durch Runenmagie blockierten Eingang auf der Feuerwein-Brücke, die in ein neues Verlies führt. Jedoch hausen "Dämonen" dort drinnen, und er ist außerstande, es zu erforschen. Er hat uns gebeten, das Verlies von Monstern zu befreien.~
 // @8 from lobar.tra
 @10002  = ~Das Große Buch der Unwissenden
 
@@ -363,3 +363,10 @@ Wir haben Yness die Nachricht überbracht, dass ihr Mann vor den Orks "gerettet" 
 @10109   = ~Das Große Buch der Unwissenden
 
 Shaella, oder eher Elnaedra jetzt, sagt, dass ich das Buch gefunden habe, wenn auch ich es nicht fand. Was bedeutet das?~
+
+/* new for version 3.0.0 */
+@10110 = ~Weitere Ruinen unter der Feuerweinbrücke
+
+Das Verlies unter der Feuerwein-Brücke ist von Monstern befreit.~
+
+@10111 = ~Weitere Ruinen unter der Feuerweinbrücke~

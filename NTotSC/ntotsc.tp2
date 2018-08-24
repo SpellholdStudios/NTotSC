@@ -1,4 +1,5 @@
 /* 
+
 -known issues (that can probably be fixed by someone else): 
 -- EET: some of the symbols are very near to SoD symbols on the worldmap
 
@@ -18,7 +19,7 @@
 
 BACKUP ~NTotSC/backup~
 AUTHOR ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~2.3.0~ //180710
+VERSION ~3.0.0~ //180824
 README ~NTotSC/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~NTotSC/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~NTotSC/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -265,7 +266,7 @@ ADD_JOURNAL @10006 USING ~NTotSC/language/%LANGUAGE%/journal.tra~
 ADD_JOURNAL @10016 USING ~NTotSC/language/%LANGUAGE%/journal.tra~
 
 /* Warded Dungeon Under Firewine Bridge */
-ADD_JOURNAL @10001 USING ~NTotSC/language/%LANGUAGE%/journal.tra~
+ADD_JOURNAL TITLE (@10111) @10001 @10110 USING ~NTotSC/language/%LANGUAGE%/journal.tra~
 
 /* @10046: Olivia and the Gulls */
 ADD_JOURNAL TITLE (@10046) @10044 @10045 USING ~NTotSC/language/%LANGUAGE%/journal.tra~
