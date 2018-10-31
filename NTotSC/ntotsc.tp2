@@ -3,8 +3,6 @@
 -known issues (that can probably be fixed by someone else): 
 -- EET: some of the symbols are very near to SoD symbols on the worldmap
 
---BG:EE DSotSC (v1.01b): Fey'doch will be doubled into Bear River. Only the bow from the Fey'doch from Northern Woods can be used in the quest. This will be so until the doubling in ds will be fixed.
-
 */
 
 
@@ -19,7 +17,7 @@
 
 BACKUP ~NTotSC/backup~
 AUTHOR ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~3.0.0~ //180824
+VERSION ~3.0.1~ //181031
 README ~NTotSC/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~NTotSC/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~NTotSC/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -1341,6 +1339,7 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~dsgbbow.itm~ BEGIN
 	SAY NAME2 @2294
 END
 
+/*
 /* BG:EE DSotSC-EE is installed: deactivate DSotSC-EE's Wood Elves in Bear River */
 ACTION_IF MOD_IS_INSTALLED ~ds/setup-ds.TP2~ "0" BEGIN
   COPY_EXISTING ~%BearRiver%.bcs~ ~override~
@@ -1349,6 +1348,7 @@ ACTION_IF MOD_IS_INSTALLED ~ds/setup-ds.TP2~ "0" BEGIN
 	END
 	BUT_ONLY_IF_IT_CHANGES
 END
+*/
 
 /* add quest reply option to Fey'Doch's dialogue */
 COMPILE EVALUATE_BUFFER ~NTotSC/dsotsc/dsfeydo_ntotsc.d~

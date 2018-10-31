@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 3.0.0
+                                VERSION 3.0.1
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -18,7 +18,7 @@
 INTRODUCTION
 ++++++++++++
 
-This is a BGT, BG:EE, and EET version of the original mod. As of version 2.0, NTotSC is no longer dependent on DSotSC. If you want to play the two mods together, install DSotSC first. The versions suppoerted are: 
+This is a BGT, BG:EE, and EET version of the original mod. As of version 2.0, NTotSC is no longer dependent on DSotSC. If you want to play the two mods together, install DSotSC first. The versions supported are: 
 -DSotSC for BGT/EET version by k4thos
 -DSotSC for BG:EE by Red Carnelian
 
@@ -222,6 +222,9 @@ F.A.Q.
 
 CHANGES
 +++++++
+
+3.0.1
+	-compatibility with DSotSC BG:EE (removing of script change Bear River area)
 
 3.0.0
 	-additional comrades to Lamalha will only spawn together with Lamalha and not be present before 
