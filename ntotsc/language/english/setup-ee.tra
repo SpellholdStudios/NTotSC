@@ -197,10 +197,10 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-– Attacks per round: 2
+– Attacks per round: 3
 
-THAC0: +3
-Damage: +2 
+THAC0: +2
+Damage: +1 
 Speed Factor: 7
 Proficiency Type: Longbow
 Type: Two-handed
@@ -552,35 +552,21 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-– Armor Class: +3, +4 vs. missile attacks
+– Armor Class: +2, +3 vs. missile attacks
+– Saving Throws: +1
 
 Requires: 
  15 Strength
 
 Weight: 8~
-
-@170  = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
-
-STATISTICS:
-
-Equipped abilities:
-– Armor Class: +2, +3 vs. missile attacks
-- Fire Resistance: +15%
-- Resistance against Crushing: +15% 
-
-Requires: 
- 14 Strength
-
-Weight: 12~
-
 @174  = ~Raasi'doch de Velle spent many moons working with artisans of the Wandering Village on the creation of this enchanted hunter's spear. The elven ranger needed a weapon to exterminate werewolves terrorizing the Tethyr's woods. Like the man himself, the weapon is bereft of extravagant ornamentation but it always flies straight and true.  When the crusade was finished de Velle probably sold his gear to some famous militarist.
 
 STATISTICS:
 
 Combat abilities:
 – +1d6 additional slashing damage upon hit
-- +3 damage bonus vs. lycanthropes
-- additional THAC0 bonus vs. lycanthropes: +1
+– +3 damage bonus vs. lycanthropes
+– additional THAC0 bonus vs. lycanthropes: +1
 
 THAC0: +2 
 Damage: 1d6+2 (piercing) 

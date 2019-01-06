@@ -1,0 +1,7 @@
+Dungeon under Firewine
+- Changed ntshld02.itm to a +1 shield that gives bonuses to saving throws.
+  (This was an exact copy of the large shield +2 from Durlag's Tower)
+- Changed ntbow04.itm to a +1 composite long bow with an extra attack per
+  round.  This was an exact copy of "The Dead Shot" from the bandit camp.
+
+

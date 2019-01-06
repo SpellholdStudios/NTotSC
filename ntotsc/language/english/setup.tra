@@ -204,14 +204,14 @@ Not Usable By:
  Monk
  Kensai
  Cavalier~
-@42   = ~Composite Long Bow of the Firewine~
-@44   = ~Made during the golden age of the elves of the Firewine. Weighted and balanced perfectly this bow becomes an especially lethal weapon in an elf's hands, able to pierce any armor with its arrows.
+@42   = ~Composite Long Bow of Firewine~
+@44   = ~Made during the golden age of the elves of Firewine. Weighted and balanced perfectly this bow becomes an especially lethal weapon in an elf's hands, able to pierce any armor with its arrows.
 
 STATISTICS:
 
-Damage bonus: +2 (missile)
-THAC0 bonus: +3
-Special: Attack per round set to 2
+Damage bonus: +1 (missile)
+THAC0 bonus: +2
+Special: Attack per round set to 3
 Weight: 3
 Speed Factor: 7
 Proficiency Type: Longbow
@@ -311,7 +311,7 @@ Not Usable By:
  Archer
  Beast Master
  Kensai~
-@61   = ~Chainmail of the Firewine~
+@61   = ~Chainmail of Firewine~
 @62   = ~During the times of prosperity of Firewine, special versions of the illustrious elven chainmail were made that added protection against the thunderstorms which appeared sometimes in the area.
 
 STATISTICS:
@@ -631,37 +631,19 @@ Not Usable By:
  Thief
  Monk
  Kensai~
-@166  = ~Shield of the Firewine~
+@166  = ~Shield of Firewine~
 @168  = ~Etched with Elven runes across its surface, this shield was made from one of the strongest metals to ever come from Elven hands. Any bearer of this shield will be confident that any blow brought upon it will be deflected.
 
 STATISTICS:
 
-Armor Class Bonus: 3
+Armor Class Bonus: 2
 Special:  +1 vs. Missile Weapons
+Special:  +1 on all saving throws
 Weight: 8
 Requires: 15 Strength
 Not Usable By:
  Bard
  Druid
- Mage
- Thief
- Monk
- Kensai~
-@169  = ~Reinforced Large Shield~
-@170  = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
-
-STATISTICS:
-
-Armor Class Bonus: 2
-Special: +1 AC vs. Missile Weapons
-Resistance Bonuses:
-  +15% Fire Resistance
-  +15% Crushing Resistance
-Weight: 12
-Requires: 14 Strength
-Not Usable By:
- Druid
- Bard
  Mage
  Thief
  Monk
