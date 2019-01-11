@@ -459,12 +459,13 @@ COPY ~ntotsc/base/itm/ntchan06.itm~ ~override~
 	SAY NAME2 @61
 	SAY DESC @62
 
+COPY ~ntotsc/base/itm/ntclck01.itm~ ~override~
+	SAY NAME2 @65
+	SAY DESC @67
+
 ACTION_IF FILE_EXISTS_IN_GAME ~bag02nej.itm~ BEGIN
 	PRINT @63
 END ELSE BEGIN
-	COPY ~ntotsc/base/itm/cloaksc.itm~ ~override~
-		SAY NAME2 @65
-		SAY DESC @67
 	COPY ~ntotsc/base/itm/adisease.itm~ ~override~
 		SAY NAME2 @69
 		SAY DESC @71
