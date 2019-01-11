@@ -4,9 +4,6 @@
 //ntcutres.baf
 @10    = ~Ihr habt die dringend benötigte Rast eingelegt.~
 
-//NTTOMBDO.baf
-@20   = ~Falle ausgelöst!~
-
 //SHIP.baf; SHIP1.baf
 @30   = ~Ihr benötigt die entsprechenden Seekarten, um sicher zurück auf das Festland zu kommen.~
 

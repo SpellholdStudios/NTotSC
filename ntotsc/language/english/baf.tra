@@ -4,9 +4,6 @@
 //ntcutres.baf
 @10    = ~You have gotten some much needed rest.~
 
-//NTTOMBDO.baf
-@20   = ~Trap Sprung!~
-
 //SHIP.baf; SHIP1.baf
 @30   = ~You need to obtain the sea charts if you wish to navigate safely back to the main land.~
 
