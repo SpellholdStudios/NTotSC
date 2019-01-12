@@ -299,7 +299,6 @@ Equipped abilities:
 
 Weight: 3~
 
-@71   = ~Priests of Horus-Re in far off Mulhorand were the first to create this life-saving potion. Being a foully smelling brew, it is made by boiling used mummy wrappings along with naturally desiccated animal remains. The resulting tea can then be consumed to neutralize the effects of a disease.~
 @73   = ~Namji's Robe~
 @75   = ~A wizard from Thesk named Namji was the creator of this powerful robe. While it does not impart magical resistances onto the wearer, it is still extremely useful for spellcasters who find themselves in dangerous situations often. Namji himself was a reckless battle wizard who delighted in hurling spells from the midst of the fray. He was feared for his use of Namji's Burning Hands, an adaptation of the common Burning Hands spell.
 
@@ -837,6 +836,7 @@ Requires:
 
 Weight: 40~
 
+@71 = ~Priester von Horus-Re aus dem weit entfernten Mulhorand waren die Ersten, die diesen lebensrettenden Trank herstellten. Ein faulig riechendes Gebräu, das durch Kochen benutzter Mumienbinden zusammen mit natürlich ausgedörrten tierischen Resten gemacht wird. Der entstandene Tee kann dann verwendet werden, um die Folgen einer Krankheit zu neutralisieren.2
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 

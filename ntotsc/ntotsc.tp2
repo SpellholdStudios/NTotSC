@@ -468,9 +468,6 @@ COPY ~ntotsc/base/itm/ntclck01.itm~ ~override~
 ACTION_IF FILE_EXISTS_IN_GAME ~bag02nej.itm~ BEGIN
 	PRINT @63
 END ELSE BEGIN
-	COPY ~ntotsc/base/itm/adisease.itm~ ~override~
-		SAY NAME2 @69
-		SAY DESC @71
 	COPY ~ntotsc/base/itm/namji.itm~ ~override~
 		SAY NAME2 @73
 		SAY DESC @75
@@ -771,8 +768,11 @@ END
 
 //Modify existing stores
 
-COPY_EXISTING ~highhedg.sto~ ~override~
-	ADD_STORE_ITEM ~ADISEASE~ #0 #0 #0 ~IDENTIFIED~ #10
+ACTION_IF FILE_EXISTS_IN_GAME ~adisease.itm~
+BEGIN
+	COPY_EXISTING ~highhedg.sto~ ~override~
+		ADD_STORE_ITEM ~ADISEASE~ #0 #0 #0 ~IDENTIFIED~ #10
+END
 
 COPY_EXISTING ~friend.sto~ ~override~
 	ADD_STORE_ITEM ~NTPOTN01~ #0 #0 #0 ~IDENTIFIED~ #5
