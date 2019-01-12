@@ -835,8 +835,20 @@ Requires:
  12 Strength
 
 Weight: 40~
+@546  = ~This armor was made by the dwarven smith Karador and an elven enchanter known as Elameth of Five Trees. During the time of cooperation between the Hand of the Seldarine and Dorn's Deep, many wondrous items were produced. This suit of armor was one of them. Exceptionally light and beautiful, the armor was originally worn by a female elven marshal in the Severed Hand, which is why the orcs didn't take it when they sacked the towers. The armor was later stolen from the Hand by the evil elf Maiden Ilmadia, who wore it in her final battle against the Defenders of Easthaven at Lower Dorn's Deep. What happened to the armor after her defeat and how it traveled from the Spine of the World to the Sword Coast is unclear.
 
-@71 = ~Priester von Horus-Re aus dem weit entfernten Mulhorand waren die Ersten, die diesen lebensrettenden Trank herstellten. Ein faulig riechendes Gebräu, das durch Kochen benutzter Mumienbinden zusammen mit natürlich ausgedörrten tierischen Resten gemacht wird. Der entstandene Tee kann dann verwendet werden, um die Folgen einer Krankheit zu neutralisieren.2
+STATISTICS:
+
+Equipped abilities:
+- Charisma: +1
+- Fire Resistance: +10%
+- Cold Resistance: +10%
+- Electrical Resistance: +10%
+- Acid Resistance: +10%
+
+Armor Class: 1 (-2 vs. slashing)
+Requires:
+ 12 Strength
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
@@ -854,3 +866,5 @@ Requires:
  3 Strength
 
 Weight: 2~
+
+

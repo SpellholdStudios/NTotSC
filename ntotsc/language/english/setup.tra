@@ -1176,7 +1176,24 @@ Weight: 40
 Not Usable By:
  Bard
  Mage~
+@545 = ~Black Swan Armor +2~
+@546 = ~This armor was made by the dwarven smith Karador and an elven enchanter known as Elameth of Five Trees. During the time of cooperation between the Hand of the Seldarine and Dorn's Deep, many wondrous items were produced. This suit of armor was one of them. Exceptionally light and beautiful, the armor was originally worn by a female elven marshal in the Severed Hand, which is why the orcs didn't take it when they sacked the towers. The armor was later stolen from the Hand by the evil elf Maiden Ilmadia, who wore it in her final battle against the Defenders of Easthaven at Lower Dorn's Deep. What happened to the armor after her defeat and how it traveled from the Spine of the World to the Sword Coast is unclear.
 
+STATISTICS:
+
+Armor Class: 1
+Weight: 20
+Charisma: +1 bonus
+Resistance Bonuses:
+  +10% Fire Resistance
+  +10% Cold Resistance
+  +10% Electrical Resistance
+  +10% Acid Resistance
+Not Usable By:
+ Bard 
+ Druid 
+ Mage 
+ Thief~
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
