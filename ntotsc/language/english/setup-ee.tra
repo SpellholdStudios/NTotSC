@@ -816,6 +816,26 @@ STATISTICS:
 When thrown at a target, the glass pot breaks, spreading flaming oil over everything within a 5' radius, doing 2-16 points of fire damage.~
 
 
+/* Added by Angel */
+
+@542  = ~The enchanter Presdon of the Vast created this girdle several hundred years ago for his bodyguard, Dendes the Wry. He named the broad belt after a hill giant who had almost killed him when he was looking for spell components. Dendes died defending Presdon from rival mages near Ordulin.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: 19
+
+Weight: 2~
+@544  = ~The hard plates that protect umber hulks are reasonably easy to craft into humanoid armor. This dark suit of armor was fashioned into plate mail by duergar smiths. The dark dwarves, skilled in handling umber hulk exoskeletons, cured and reinforced the armor.
+
+STATISTICS:
+
+Armor Class: 2 (-2 vs. slashing)
+
+Requires:
+ 12 Strength
+
+Weight: 40~
 
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */

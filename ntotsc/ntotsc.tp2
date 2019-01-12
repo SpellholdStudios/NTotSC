@@ -421,6 +421,10 @@ COPY ~ntotsc/base/itm/ntblun04.itm~ ~override~
 	SAY NAME2 @22
 	SAY DESC @24
 
+COPY ~ntotsc/base/itm/ntbelt01.itm~ ~override~
+	SAY NAME2 @541
+	SAY DESC @542
+
 COPY ~ntotsc/base/itm/ntbolt1.itm~ ~override~
 	SAY NAME2 @28
 	SAY DESC @29
@@ -430,22 +434,20 @@ COPY ~ntotsc/base/itm/ntboot01.itm~ ~override~
 	SAY DESC @33
 
 COPY ~ntotsc/base/itm/ntbow02.itm~ ~override~
+	PATCH_IF GAME_IS ~bgee~ BEGIN
+		SAY NAME1 #6864  //Shortbow
+	END
+
 	SAY NAME2 @35
 	SAY DESC @37
 
-ACTION_IF GAME_IS ~bgee~ BEGIN
- COPY_EXISTING ~ntbow02.itm~ ~override~
-	SAY NAME1 #6864  //Shortbow
-END
-
 COPY ~ntotsc/base/itm/ntbow03.itm~ ~override~
+	PATCH_IF GAME_IS ~bgee~ BEGIN
+		SAY NAME1 #6864 //Shortbow
+	END
+
 	SAY NAME2 @38
 	SAY DESC @40
-
-ACTION_IF GAME_IS ~bgee~ BEGIN
- COPY_EXISTING ~ntbow03.itm~ ~override~
-	SAY NAME1 #6864 //Shortbow
-END
 
 COPY ~ntotsc/base/itm/ntbow04.itm~ ~override~
 	SAY NAME2 @42
@@ -594,6 +596,10 @@ COPY ~ntotsc/base/itm/ntpblet1.itm~ ~override/ntpblet7.itm~
 
 COPY ~ntotsc/base/itm/ntplat01.itm~ ~override~
 	SAY DESC @141
+
+COPY ~ntotsc/base/itm/ntplat04.itm~ ~override~
+	SAY NAME2 @543
+	SAY IDENTIFIED_DESC @544
 
 COPY ~ntotsc/base/itm/ntpotn01.itm~ ~override~
 	SAY NAME1 @142
@@ -2661,15 +2667,6 @@ EXTEND_BOTTOM ~%Peldvale_BCS%.bcs~ ~ntotsc/modify/bcs/ar2400.baf~ EVALUATE_BUFFE
 COPY ~ntotsc/base/cre/nttytus.cre~ ~override~
 	SAY NAME1 @379
 	SAY NAME2 @379
-
-/* adjust to BG:EE ressources */
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-  COPY_EXISTING ~nttytus.cre~ ~override~
-  REMOVE_CRE_ITEM ~BELT08~
-  ADD_CRE_ITEM ~BELT07~ #0 #0 #0 ~NONE~ ~BELT~ 
-  REMOVE_CRE_ITEM ~PLAT14~
-  ADD_CRE_ITEM ~PLAT06~ #0 #0 #0 ~NONE~ ~ARMOR~ 
-END
 
 EXTEND_BOTTOM ~%CloakwoodMines_MineShed_BCS%.bcs~ ~ntotsc/modify/bcs/ar1809.baf~ EVALUATE_BUFFER
 

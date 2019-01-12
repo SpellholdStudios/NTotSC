@@ -1156,6 +1156,30 @@ D.~
 
 @540 = ~Fighting Encounters~
 
+/* added by Angel */
+
+@541 = ~Girdle of Stromnos~
+@542 = ~The enchanter Presdon of the Vast created this girdle several hundred years ago for his bodyguard, Dendes the Wry.  He named the broad belt after a hill giant who had almost killed him when he was looking for spell components.  Dendes died defending Presdon from rival mages near Ordulin.
+
+STATISTICS:
+
+Raises the user's Strength to 19
+Only Usable By:
+  Fighters (Single, Dual-, and Multi-Class)
+  Rangers (Singe, Dual-, and Multi-Class)
+  Paladins
+  Monks~
+@543 = ~Umber Hulk Plate +1~
+@544 = ~The hard plates that protect umber hulks are reasonably easy to craft into humanoid armor.  This dark suit of armor was fashioned into plate mail by duergar smiths.  The dark dwarves, skilled in handling umber hulk exoskeletons, cured and reinforced the armor.
+
+Armor Class: 2
+Special:  +1 vs. Slashing Weapons
+Weight: 40
+Not Usable By:
+ Bard
+ Mage~
+
+
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
 @1244 = ~Holy Water~
