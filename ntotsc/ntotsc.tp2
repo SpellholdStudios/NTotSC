@@ -465,14 +465,6 @@ COPY ~ntotsc/base/itm/ntclck01.itm~ ~override~
 	SAY NAME2 @65
 	SAY DESC @67
 
-ACTION_IF FILE_EXISTS_IN_GAME ~bag02nej.itm~ BEGIN
-	PRINT @63
-END ELSE BEGIN
-	COPY ~ntotsc/base/itm/namji.itm~ ~override~
-		SAY NAME2 @73
-		SAY DESC @75
-END
-
 COPY ~ntotsc/base/itm/ntdart1.itm~ ~override~
 	SAY NAME2 @81
 	SAY DESC @83
@@ -633,6 +625,10 @@ COPY ~ntotsc/base/itm/ntpotn05.itm~ ~override~
 COPY ~ntotsc/base/itm/ntring02.itm~ ~override~
 	SAY NAME2 @154
 	SAY DESC @155
+
+COPY ~ntotsc/base/itm/ntrobe01.itm~ ~override~
+	SAY NAME2 @547
+	SAY DESC @548
 
 COPY ~ntotsc/base/itm/ntrobe02.itm~ ~override~
 	SAY NAME2 @159

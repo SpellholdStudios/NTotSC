@@ -850,6 +850,18 @@ Armor Class: 1 (-2 vs. slashing)
 Requires:
  12 Strength
 
+Weight: 20~
+@548  = ~This robe was fashioned from strong fabric and dyed dark blue, the favorite color of its proud owner, the archmage Ogi-Luc. A Sembian by birth, Ogi-Luc was a powerful man, as strong in body as he was in mind. However, Ogi-Luc wasn't content to merely be strong. He wanted to be exceptionally strong. When he put on these robes, proud men stood aside and braggarts stilled their tongues. For all of Ogi-Luc's pride and prowess, he was unable to defeat the Red Wizard abjurer Nesk Vhaltim. Nesk took the robes as a prize. They were later stolen and sold by a daring rogue.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: 4
+- Strength: 18/99
+- Constitution: +2
+
+Weight: 5~
+
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
 

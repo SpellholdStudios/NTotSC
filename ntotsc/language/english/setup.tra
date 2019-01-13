@@ -322,28 +322,17 @@ Weight: 15
 Requires: 8 Strength
 Not Usable By:
  Kensai~
-@63   = ~NeJ installed, bypassing cloak install~
 @65   = ~Cloak of Scintillating Colors~
 @67   = ~The origins of this cloak were lost in the mists of time. However, for some time it was in the possession of Drosus, a mage of no small power from Waterdeep. Drosus fell afoul to an unusually large group of winter wolves on a solo expedition into the Spine of the World Mountains, having been forced to don a heavier cloak to keep out the cold.
 At first glance this cloak appears to be blinding white in color. However, it is in fact a composite of thousands of colors, which dance and play in any available light source. This barrage of scintillating colors tends to distract and partially blind anyone staring directly at the wearer.
 
 STATISTICS:
 
-The cloak grants a +3 bonus to Armor Class and can be worn in combination with any other form of protection enchantment - thus it can be worn over magical armor unlike a cloak of protection.
+The cloak grants a +2 bonus to Armor Class and can be worn in combination with any other form of protection enchantment - thus it can be worn over magical armor unlike a cloak of protection.
 Armor Class:  +2 bonus
 Weight:  3
 Not Usable By: 
   Wizardslayer~
-@73   = ~Namji's Robe~
-@75   = ~A wizard from Thesk named Namji was the creator of this powerful robe. While it does not impart magical resistances onto the wearer, it is still extremely useful for spellcasters who find themselves in dangerous situations often. Namji himself was a reckless battle wizard who delighted in hurling spells from the midst of the fray. He was feared for his use of Namji's Burning Hands, an adaptation of the common Burning Hands spell.
-
-STATISTICS:
-
-Armor Class: 2
-Special:  Wearer regenerates 1 hit point per round
-Weight:  5
-Only Usable By:
-  Mage (Single Class)~
 @77   = ~Lethal Sting~
 @79   = ~The original name of this odd blade is lost in the murky depths of the Sea of Swords. Crafted of magically strengthened sahuagin bone, the weapon is believed to have been used by kuo-toa in bizarre rituals. The handle is crafted from coral wrapped in sahuagin skin. At one time, it was owned by Lockhart, a prominent adventuring thief and smuggler on the Sword Coast. It was he who gave the blade its current name.
 
@@ -1194,6 +1183,16 @@ Not Usable By:
  Druid 
  Mage 
  Thief~
+@547 = ~Ogi-Luc's Great Robe~
+@548 = ~This robe was fashioned from strong fabric and dyed dark blue, the favorite color of its proud owner, the archmage Ogi-Luc.  A Sembian by birth, Ogi-Luc was a powerful man, as strong in body as he was in mind.  However, Ogi-Luc wasn't content to merely be strong.  He wanted to be exceptionally strong.  When he put on these robes, proud men stood aside and braggarts stilled their tongues.  For all of Ogi-Luc's pride and prowess, he was unable to defeat the Red Wizard abjurer Nesk Vhaltim.  Nesk took the robes as a prize.  They were later stolen and sold by a daring rogue.
+
+STATISTICS:
+
+Armor Class:  4
+Special:  Grants 18/99 Strength, +2 to Con
+Weight:  5
+Only Usable By:
+  Mage (Single Class)~
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
