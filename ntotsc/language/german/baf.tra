@@ -1,0 +1,28 @@
+//AR9PBA.baf
+@0    = ~Auf dem Rückweg bemerkt Ihr eine kleine Insel und beschließt trotz vieler Schwierigkeiten an Land zu gehen, um Eure dringend benötigten Vorräte aufzufrischen. Die Insel scheint bewohnt zu sein.~
+
+//ntcutres.baf
+@10    = ~Ihr habt die dringend benötigte Rast eingelegt.~
+
+//SHIP.baf; SHIP1.baf
+@30   = ~Ihr benötigt die entsprechenden Seekarten, um sicher zurück auf das Festland zu kommen.~
+
+/* new for v2.0 */
+
+//ar30pb.baf
+@40   = ~Verteidigt die Zitadelle!~
+
+//nttr51pb.baf (trigger before dungeon in Firewine Bridge is opened by Charleston Nib's Scroll
+@50  = ~Die Schriftrolle beschützt Euch vor der Magie, die den Eingang versiegelt hatte. Ihr könnt nun eintreten.~
+@51  = ~Ihr werft einen Blick durch den Eingang. In der spärlichen Beleuchtung unter Euch herrscht genug Bewegung um klarzustellen, dass Ihr diese Ruine nicht unvorbereitet betreten solltet - und möglichst mit einem fähigen Kleriker.~
+@52  = ~Der weitere Weg ist durch mächtige und Euch völlig unvertraute Schutzzeichen blockiert. Ihr werdet einen Weg finden müssen, sie zu deaktivieren, wenn Ihr hier weiterkommen wollt.~
+@53  = ~Ihr müsst näher herantreten, um diesen Eingang zu untersuchen.~
+
+/* ar4500.baf */
+@54  = ~Eingang zur Ruine~
+
+//indo52pb.baf (triggers entrance to ar53pb.are)
+@60  = ~Das Feuer das flammenden Öls gibt ein schwaches aber stetes Licht. Ihr könnt nun die Treppe hinab steigen.~
+@61  = ~Die Treppe führt in komplette Dunkelheit. Ihr braucht eine Lichtquelle, wenn Ihr hier weitergehen wollt.~
+@62  = ~Das Licht des Edelsteins ist hell und klar. Ihr könnt nun die Treppe hinab steigen.~
+@63  = ~Das Licht der Kerze ist nicht sehr hell und flackert, aber Ihr könnt nun die Treppe hinab steigen.~
