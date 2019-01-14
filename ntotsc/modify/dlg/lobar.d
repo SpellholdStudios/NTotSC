@@ -42,7 +42,7 @@ END
 IF ~~ THEN BEGIN GiveGold
   SAY @7
   IF ~~ THEN DO ~TakePartyGold(3000)
-SetGlobal("NTTalkedToLobarMage","GLOBAL",2)~ JOURNAL @10002 + Farewell
+SetGlobal("NTTalkedToLobarMage","GLOBAL",2)~ UNSOLVED_JOURNAL @10002 + Farewell
 END
 
 IF ~~ THEN BEGIN NotEnough

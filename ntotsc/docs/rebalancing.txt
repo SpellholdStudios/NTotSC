@@ -1,7 +1,79 @@
-Dungeon under Firewine
+Dungeon under Firewine:
 - Changed ntshld02.itm to a +1 shield that gives bonuses to saving throws.
-  (This was an exact copy of the large shield +2 from Durlag's Tower)
+  This was an exact copy of "Pellidan's Shield +2" from Durlag's Tower with
+  just a different icon.
 - Changed ntbow04.itm to a +1 composite long bow with an extra attack per
-  round.  This was an exact copy of "The Dead Shot" from the bandit camp.
+  two rounds.  This was an exact copy of "The Dead Shot" from the bandit camp
+  with just a different icon.
+
+
+Cave east of Beregost:
+- Replaced extra copy of ankheg plate with The Black Swan Armor +2 (imported
+  from Icewind Dale).
+- Removed the Proximity Bomb joke item.
+
+  New items: ntplat03 - Black Swan Armor +2
+
+
+Haeball fight
+- Reduced his impossible base AC of -6 (which gave him an effective AC of -8,
+  fully buffed level 7-9 party could only hit him on a critical) to something
+  much more sane: Elven Chain +1 (base AC 4), plus his Cloak of Scintilating
+  Colors gives him a much more manageable AC of 2 plus his dexterity bonus.
+- Reduced his impossibly high HP (230, more than some BG2 dragons) to a more
+  sane value (88).
+- Changed class from fighter/druid to fighter/mage as he had only mage spells
+  and no druid spells, updated his mage spells to match his level (12/12),
+  gave him proper mage script mage10a.
+- Made Cloud Kill trap on his desk detectable and removeable.
+- Renamed item file of Cloak of Scintilating Colors to ntclck01.itm (and
+  ntclck01.bam), removing dependency with DSotSC.
+
+  New items: ntclck01 - Cloak of Scintilating Colors
+  Files removed: cloaksc.itm, cloaksc.bam
+
+
+Officer Tytus fight
+- Reduced his impossible THAC0 (0, better than a 20th level fighter, he pretty
+  much could not miss, not even counting his girdle) to the appropriate value
+  for his level (11, 9th level fighter).
+- Replaced his ankheg plate mail with umber hulk plate (imported from IWD).
+- Replaced his Girdle of Hill/Stone Giant Strength with the Girdle of Stromnos
+  (imported from IWD, like Hill Giant girdle, but with more restrictions)
+
+  New items: ntplat04 - Umber Hulk Plate +1
+             ntbelt01 - Girdle of Stromnos
+
+
+Black Hand Temple
+- Cultists' HP and AC adjusted to more level-appropriate values.
+- Reduced Draagis' impossibly high HP and AC to more sane levels, made him a
+  proper 10th level wizard with appropriate spells.  (He already was a mage,
+  but his prepared spells didn't match his mage script.)
+- Removed overpowered Namji's Robe, introduced Ogi-Luc's Great Robe (AC 4,
+  from Icewind Dale) instead.
+
+  New Items: ntrobe01 - Ogi-Luc's Great Robe
+
+
+General Ghotal fight
+- Reduced ridiculous amount of hit points (625!!) to something sane (150). 
+- Reduced ridiculous AC (-11!!) to something sane (-1).
+- Set proper THAC0 and APR for 15th level fighter.  He will now actually be
+  able to hit back properly.
+- Marked him as undead/spectre.
+- Gave him a new custom armor.
+
+  New Items: ntplat02 - Ghotal's Plate +2
+
+
+Miscellaneous changes:
+- Few minor code changes, mainly to reduce redundant copying.
+- Removed Mummy's Tea item from non-DSotSC game, it serves no purpose
+  whatsoever (Elixer of Health does more for less gold, and very few things
+  in BG1 cause disease to begin with.)  Thalantyr's shop still gets them in a
+  DSotSC game.
+
+  Files removed: adisease.itm, adisease.bam
 
 
