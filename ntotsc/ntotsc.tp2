@@ -586,6 +586,10 @@ COPY ~ntotsc/base/itm/ntpblet1.itm~ ~override/ntpblet7.itm~
 COPY ~ntotsc/base/itm/ntplat01.itm~ ~override~
 	SAY DESC @141
 
+COPY ~ntotsc/base/itm/ntplat02.itm~ ~override~
+	SAY NAME2 @549
+	SAY IDENTIFIED_DESC @550
+
 COPY ~ntotsc/base/itm/ntplat03.itm~ ~override~
 	SAY NAME2 @544
 	SAY IDENTIFIED_DESC @546

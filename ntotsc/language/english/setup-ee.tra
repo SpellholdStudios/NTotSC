@@ -861,6 +861,20 @@ Equipped abilities:
 - Constitution: +2
 
 Weight: 5~
+@550 = ~This heavy golden plate mail was crafted for general Ghotal by captured dwarven smithes and enchanted by the tribe shamans in foul rites best not spoken of.  Although it offers excellent protection, this armor is heavy and unwieldy, requiring great physical strength to wear.  It certainly looks very impressive though.
+
+STATISTICS:
+
+Equipped abilities:
+- Charisma: +2
+- Dexterity: -2
+
+Armor Class: -1 (-5 vs. slashing, -4 vs. piercing and missile)
+Requires:
+ 17 Strength
+
+Weight: 60~
+
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
