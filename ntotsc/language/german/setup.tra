@@ -356,7 +356,7 @@ Kann nicht verwendet werden von:
 - Mönchen
 - Kensai~
 
-@63 = ~NeJ installiert, Umgehung der Umhang-Installation~
+//@63 = ~NeJ installiert, Umgehung der Umhang-Installation~
 @65 = ~Umhang der Sprühenden Farben~
 @67 = ~Der Ursprung dieses Mantels ging in den Nebeln der Zeit verloren. Einige Zeit war er jedoch im Besitz von Drosus, einem Magier aus Tiefwasser von nicht geringer Macht. Drosus fiel, während einer Expedition alleine auf dem Grat der Welt, einer ungewöhnlich großen Gruppe Winterwölfe in die Hände, da er einen besonders schweren Umhang anziehen musste, um die Kälte abzuhalten.
 Auf den ersten Blick scheint dieser Mantel blendend weiß zu sein. Tatsächlich ist es jedoch eine Zusammensetzung von Tausenden von Farben, die in jeglicher vorhandenen Lichtquelle tanzen und spielen. Diese Flut von funkelnden Farben neigt dazu, denjenigen abzulenken und teilweise zu blenden, der den Träger direkt ansieht.
@@ -365,6 +365,7 @@ EIGENSCHAFTEN:
 
 RK-Bonus: -2
 Gewicht: 3~
+/*
 @73 = ~Namjis Robe~
 @75 = ~Ein Zauberer aus Thesk namens Namji ist der Schöpfer dieser mächtigen Robe. Obwohl sie für den Träger nicht besonders viele magische Resistenzen hat, ist sie sehr nützlich für diejenigen Anwender von Zauber, die sich oft in gefährlichen Situationen finden. Namji selbst war ein waghalsiger Kriegs-Zauberer, der mit Vorliebe Zauber mitten aus dem Schlachtgetümmel herausschleuderte. Sein Zauber "Namjis Brennende Hände", eine Variante des normalen Zaubers "Brennende Hände", war gefürchtet.
 
@@ -377,6 +378,7 @@ Gewicht: 5
 
 Kann nur verwendet werden von:
  Magiern (einklassig)~
+*/
 /* @77 = ~Tödlicher Dorn~ */
 /* @79 = ~Der ursprüngliche Name dieses ungewöhnlichen Dolches ging in den düsteren Tiefen des Meeres der Klingen verloren. In Handarbeit gefertigt aus magisch verstärkten Knochen der Sahuagin, wird von der Waffe angenommen, dass sie von den Kuo-Toa bei seltsamen Ritualen benutzt wurde. Der Handgriff ist in Handarbeit aus einer Koralle gemacht, die von Sahuagin-Haut umwickelt ist. In früherer Zeit gehörte er Lockhart, einem bekannten wagemutigen Dieb und Schmuggler an der Schwertküste. Er war es, der der Klinge seinen gegenwärtigen Namen gab.
 SPEZIFISCHE EIGENSCHAFTEN:
@@ -1199,6 +1201,83 @@ D.~
 /* new for v 2.3.0 */
 
 @540 = ~Kampfbegegnungen~
+
+/* added by Angel */
+
+@541 = ~Gürtel des Stromnos~
+@542 = ~Der Zauberer Presdon von Vast erschuf diesen Gürtel vor mehreren hundert Jahren für seinen Leibwächter Dendes der Hinterhältige. Den Namen des breiten Gürtels wählte er nach einem Bergriesen, der ihm während einer Suche nach Zutaten beinahe den Garaus gemacht hätte. Dendes starb bei der Verteidigung Presdons gegen rivalisierende Magier nahe Ordulin.
+
+EIGENSCHAFTEN:
+
+Erhöht die Stärke des Trägers auf 19
+Nur verwendbar von:
+  Kämpfer 
+  Waldläufer 
+  Paladine
+  Mönche~
+@543 = ~Umberhulk Plattenpanzer +1~
+@544 = ~Die harten Panzer der Umberhulks lassen sich vergleichsweise einfach für Rüstungen verwenden. Diese dunkle Rüstung wurde von Duergarschmieden als Plattenpanzer gefertigt. Die Umberhulkpanzer wurden von den in der Verarbeitung geübten dunklen Zwergen gehärtetet und verstärkt.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+RK-Bonus:  
+ -1 gg. Klingenwaffen
+Gewicht: 40
+Kann nicht verwendet werden von:
+ Barden
+ Magiern~
+@545 = ~Rüstung des Schwarzer Schwans +2~
+@546 = ~Diese Rüstung wurde vom Zwergenschmied Karador zusammen mit dem Elfenbeschwörer Elameth der Fünf Bäume gefertigt. Viele bemerkenswerte Gegenstände wurden während der Zeit der Kooperation zwischen der Seldarine und Dornens Tiefen gefertigt, und diese Rüstung war einer davon. Außergewöhnlich leicht und schön anzusehen, wurde sie zuerst von einer elfischen Anführerin der Hand getragen. Dies ist der Grund, warum die Orks die Rüstung nicht mitnahmen als sie die Türme der Hand ausplünderten. Sie wurde später von der bösen Elfmaid Ilmadia gestohlen, die sie in ihrem letzten Gefecht gegen die Verteidiger von Osthafen trug. Was danach mit der Rüstung geschah und wie sie ihren Weg an die Schwertküste gefunden hat, ist unklar.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+  Charisma: +1 bonus
+  Bonus zu Widerständen:
+    +10% Feuerwiderstand
+    +10% Widerstand gegen Kälte
+    +10% Widerstand gegen Elektrizität
+    +10% Widerstand gegen Säure
+
+Rüstungsklasse: 1
+Gewicht: 20
+
+Kann nicht verwendet werden von:
+ Barden 
+ Druiden 
+ Magiern 
+ Dieben~
+@547 = ~Ogi-Lucs Große Robe~
+@548 = ~Diese Robe wurde aus hochwertigem Stoff gefertigt und tiefblau gefärbt, die bevorzugte Farbe ihres stolzen Besitzers, dem Magier Ogi-Luc. Ogi-Luc war geborener Sembianer, ein mächtiger Mann, stark sowohl physisch als auch mental. Jedoch stellte ihn dies nicht zufrieden. Er wollte außergewöhnlich stark sein, und diese prächtige Robe verhalf ihm zu noch mehr Ansehen, denn ihre Prächtigkeit ließ Hochmütige beiseite treten und Bittsteller verstummen. Doch trotz all seines Stolzes und Könnens konnte Ogi-Luc es nicht verhindern, dass der Rote Magier Nesk Vhaltim ihn besiegte und diese Robe an sich nahm. Sie wurde später von einem waghalsigen Hehler verkauft.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten: Setzt die Stärke auf 18/99, +2 Bonus auf Konstitution
+
+Rüstungsklasse: 4
+Gewicht:  5
+
+Kann nur verwendet werden von:
+  Magier (einklassig)~
+@549 = ~Ghotals Prunkharnisch +2~
+@550 = ~Dieser schwere goldene Plattenpanzer wurde für General Ghotal von versklavten Zwergenschmieden gefertigt und von Orkschamanen mit dunklen Ritualen verzaubert, über die hier besser nicht weiter berichtet werden soll. Die Rüstung bietet hervorragenden Schutz, aber sie ist ungewöhnlich schwer und unbeweglich und erfordert große physische Kraft beim Tragen. Sie sieht jedoch sehr imposant aus.
+
+EIGENSCHAFTEN:
+
+Besondere Fähigkeiten:
+  Charisma: +2 Bonus
+  Geschicklichkeit: -2 Malus
+  Benötigt: 17 Stärke
+
+Rüstungsklasse: -1
+Gewicht: 60
+
+Kann nicht verwendet werden von:
+ Barden 
+ Druiden 
+ Magiern 
+ Dieben~
 
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */

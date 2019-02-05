@@ -1,3 +1,5 @@
+/* last addition / changes for v 3.1.0 */
+
 Currently some language versions are not available. This is due to the balancing changes in items and spells, so strings had to be updated. 
 
 Also mod now supports EE engine, so items also need additional version of item descriptions that follows Beamdog formatting: Item descriptions needs to be added to new "setup-EE.tra" file following Beamdog item description style.

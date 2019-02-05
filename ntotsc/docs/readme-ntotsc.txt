@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 3.0.1
+                                VERSION 3.1.0
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -222,6 +222,21 @@ F.A.Q.
 
 CHANGES
 +++++++
+
+3.1.0 Angel's rebalancing fixes:
+	-Officer Tytus, Haeball, the Black Hand cultists and General Ghotal now have appropriate stats for their levels, especially in HP and AC
+	-Haeball has been given a proper spell list and script
+	-General Ghotal will now actually be able to hit back much more often than once every two rounds 
+	-Tytus will no longer have guaranteed hits every round as his THAC0 has been fixed.
+	-removed some items (one robe that was just too good for BG1, a potion that was utterly useless in BG1, and the duplicate ankheg plates), 
+	-added a few new ones (one original, the rest IWD imports)
+	-tweaked a few existing ones (mainly those in Firewine).
+	-included a few fixes for install issues on Linux, mainly the installer not being able to install tilesets properly on EE, resulting in black lines between the tiles.
+	jastey's bugfixes and changes:
+		-Giving Ordolath his candle will now give exp, always
+		-added reply option to decline Lobar's offer eben though the PC has the gold
+		-several traps are now detectable (flagg was missing)
+		-added ntotsc.ini
 
 3.0.1
 	-compatibility with DSotSC BG:EE (removing of script change Bear River area)

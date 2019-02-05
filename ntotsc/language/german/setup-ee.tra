@@ -436,6 +436,72 @@ Typ: 1-händig
 
 Gewicht: 4~
 
+@501  = ~In diesem Glastopf ist eine teure Mischung aus Öl und anderen Chemikalien. Wenn diese Mischung entzündet wird, brennt sie für mehrere Sekunden bei sehr heißer Temperatur. Brennendes Öl ist manchmal schwierig zu verwenden, weil es für den Benutzer eine lange Zeit dauert, um es richtig zu werfen. Abenteurer tragen häufig Öl mit sich, um mit Trollen in dem unglücklichen Fall fertig zu werden, dass sie mit ihnen zusammenstoßen.
+SPEZIFISCHE EIGENSCHAFTEN:
+Wenn er auf ein Ziel geworfen wird, zerbricht der Glastopf und breitet brennendes Öl über alles innerhalb eines Radius von 1,5 m aus, und verursacht dabei 2-16 Punkte Feuerschaden.~
+
+
+/* Added by Angel */
+
+@542  = ~Der Zauberer Presdon von Vast erschuf diesen Gürtel vor mehreren hundert Jahren für seinen Leibwächter Dendes der Hinterhältige. Den Namen des breiten Gürtels wählte er nach einem Bergriesen, der ihm während einer Suche nach Zutaten beinahe den Garaus gemacht hätte. Dendes starb bei der Verteidigung Presdons gegen rivalisierende Magier nahe Ordulin.
+
+EIGENSCHAFTEN:
+
+Stärke des Trägers wird auf 19 gesetzt.
+
+Gewicht: 2~
+@544  = ~Die harten Panzer der Umberhulks lassen sich vergleichsweise einfach für Rüstungen verwenden. Diese dunkle Rüstung wurde von Duergarschmieden als Plattenpanzer gefertigt. Die Umberhulkpanzer wurden von den in der Verarbeitung geübten dunklen Zwergen gehärtetet und verstärkt.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2 
+RK-Bonus:
+ -2 gg. Klingenwaffen
+Mindeststärke: 12 
+
+Gewicht: 40~
+@546  = ~Diese Rüstung wurde vom Zwergenschmied Karador zusammen mit dem Elfenbeschwörer Elameth der Fünf Bäume gefertigt. Viele bemerkenswerte Gegenstände wurden während der Zeit der Kooperation zwischen der Seldarine und Dornens Tiefen gefertigt, und diese Rüstung war einer davon. Außergewöhnlich leicht und schön anzusehen, wurde sie zuerst von einer elfischen Anführerin der Hand getragen. Dies ist der Grund, warum die Orks die Rüstung nicht mitnahmen als sie die Türme der Hand ausplünderten. Sie wurde später von der bösen Elfmaid Ilmadia gestohlen, die sie in ihrem letzten Gefecht gegen die Verteidiger von Osthafen trug. Was danach mit der Rüstung geschah und wie sie ihren Weg an die Schwertküste gefunden hat, ist unklar.
+
+EIGENSCHAFTEN:
+
+Charisma: +1
+Feuerwiderstand: +15 %
+Kältewiderstand: +15 %
+Elektrizitätswiderstand: +15 %
+Säurewiderstand: +15 %
+
+Rüstungsklasse: 1 
+RK-Bonus:
+ -2 gg. Klingenwaffen
+Mindeststärke: 12 
+
+Gewicht: 20~
+@548  = ~Diese Robe wurde aus hochwertigem Stoff gefertigt und tiefblau gefärbt, die bevorzugte Farbe ihres stolzen Besitzers, dem Magier Ogi-Luc. Ogi-Luc war geborener Sembianer, ein mächtiger Mann, stark sowohl physisch als auch mental. Jedoch stellte ihn dies nicht zufrieden. Er wollte außergewöhnlich stark sein, und diese prächtige Robe verhalf ihm zu noch mehr Ansehen, denn ihre Prächtigkeit ließ Hochmütige beiseite treten und Bittsteller verstummen. Doch trotz all seines Stolzes und Könnens konnte Ogi-Luc es nicht verhindern, dass der Rote Magier Nesk Vhaltim ihn besiegte und diese Robe an sich nahm. Sie wurde später von einem waghalsigen Hehler verkauft.
+
+EIGENSCHAFTEN:
+
+Stärke des Trägers wird auf 18/99 gesetzt.
+Konstitution: +2
+
+Rüstungsklasse: 4
+
+Gewicht: 5~
+@550 = ~Dieser schwere goldene Plattenpanzer wurde für General Ghotal von versklavten Zwergenschmieden gefertigt und von Orkschamanen mit dunklen Ritualen verzaubert, über die hier besser nicht weiter berichtet werden soll. Die Rüstung bietet hervorragenden Schutz, aber sie ist ungewöhnlich schwer und unbeweglich und erfordert große physische Kraft beim Tragen. Sie sieht jedoch sehr imposant aus.
+
+EIGENSCHAFTEN:
+
+Charisma: +2
+Geschicklichkeit: -2
+
+Rüstungsklasse: -1
+RK-Bonus:
+ -4 gg. Geschosswaffen
+ -4 gg. Stichwaffen
+ -5 gg. Klingenwaffen
+Mindeststärke: 17
+
+Gewicht: 60~
+
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 

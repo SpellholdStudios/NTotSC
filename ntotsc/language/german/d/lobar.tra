@@ -14,3 +14,8 @@
 @13 = ~Ich habe nun genug Gold.~
 @14 = ~Lebt wohl.~
 @15 = ~Ich wünsche Euch einen angenehmen Tag.~
+
+
+/* new for v3.1.0 */
+@16 = ~Ich zahl' nicht so viel Gold für eine einfache Information.~
+

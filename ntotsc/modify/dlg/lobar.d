@@ -37,6 +37,7 @@ IF ~~ THEN BEGIN BookOffer
   SAY @4
   IF ~PartyGoldGT(2999)~ THEN REPLY @5 GOTO GiveGold
   IF ~PartyGoldLT(2999)~ THEN REPLY @6 GOTO NotEnough
+  IF ~~ THEN REPLY @16 GOTO NotEnough
 END
 
 IF ~~ THEN BEGIN GiveGold
