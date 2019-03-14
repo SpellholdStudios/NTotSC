@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 3.1.0
+                                VERSION 3.1.1
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -222,6 +222,11 @@ F.A.Q.
 
 CHANGES
 +++++++
+
+3.1.1
+	-name of the "Black Swan Armor +2" (ntplat03.itm) fixed  
+	-(BG:EE): RING05.are from area AR25PB has 8 charges as per description
+	-(compatibility) Pilar and Gheldehar: JAP detection fixed
 
 3.1.0 Angel's rebalancing fixes:
 	-Officer Tytus, Haeball, the Black Hand cultists and General Ghotal now have appropriate stats for their levels, especially in HP and AC
