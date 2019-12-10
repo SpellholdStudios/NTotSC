@@ -193,7 +193,7 @@ Special:
   Constitution bonus: +1
   Fire/Cold Resistance bonus: 20%
 Weight: 3
-Speed: 7
+Speed Factor: 7
 Proficiency Type: Short Bow
 Type:  2-handed
 Requires: 3 Strength
@@ -309,8 +309,7 @@ Not Usable By:
  Kensai
  Shapeshifter
  Archer
- Beast Master
- Kensai~
+ Beast Master~
 @61   = ~Chainmail of Firewine~
 @62   = ~During the times of prosperity of Firewine, special versions of the illustrious elven chainmail were made that added protection against the thunderstorms which appeared sometimes in the area.
 
@@ -720,13 +719,13 @@ Not Usable By:
 STATISTICS:
 
 Combat Abilities: 3 extra point of acid damage
-Damage:  1D10 + 1, 
+Damage:  1D10 + 1
 THAC0:  +1
 Damage Type: slashing
 Weight: 5
 Speed Factor: 2
 Proficiency Type: Large Sword
-Type: One Handed
+Type: 1-handed
 Requires: 4 Strength
 Not Usable By:
  Druid
@@ -793,7 +792,7 @@ Damage: 1D12 + 3
 THAC0:  +3
 Damage Type: Slashing
 Weight: 12
-Speed: 9
+Speed Factor: 9
 Proficiency Type: Two Handed Sword
 Weapon Type: 2-handed
 Requires: 13 Strength
@@ -869,7 +868,7 @@ THAC0 :  +2 bonus
 Special: 10% chance target is stunned
 Damage Type:  Slashing
 Weight: 4
-Speed: 4
+Speed Factor: 4
 Proficiency Type: Long Sword
 Weapon type: 1-handed
 Requires: 6 Strength
