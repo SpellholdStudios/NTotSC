@@ -152,15 +152,18 @@ END
 LANGUAGE
 	~English~
 	~english~
-//	~ntotsc/language/english/prompts.tra~
 	~ntotsc/language/english/setup.tra~
 	~ntotsc/language/english/journal.tra~
 LANGUAGE
 	~German (translation by Leonardo Watson)~
 	~german~
-//	~ntotsc/language/english/prompts.tra~
 	~ntotsc/language/german/setup.tra~
 	~ntotsc/language/german/journal.tra~
+LANGUAGE
+	~Polski~
+	~polish~
+	~ntotsc/language/polish/setup.tra~
+	~ntotsc/language/polish/journal.tra~
 
 /*
 LANGUAGE
@@ -182,17 +185,12 @@ LANGUAGE
 	~ntotsc/language/italian/setup.tra~
 	~ntotsc/language/italian/journal.tra~
 LANGUAGE
-	~Polski~
-	~polish~
-	~ntotsc/language/english/prompts.tra~
-	~ntotsc/language/polish/setup.tra~
-	~ntotsc/language/polish/journal.tra~
-LANGUAGE
 	~Russian~
 	~russian~
 	~ntotsc/language/english/prompts.tra~
 	~ntotsc/language/russian/setup.tra~
-	~ntotsc/language/russian/journal.tra~*/
+	~ntotsc/language/russian/journal.tra~
+*/
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
