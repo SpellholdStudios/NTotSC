@@ -22,7 +22,7 @@ Damn. I will have a date with Archandra if I can find a bottle of wine... Where 
 @10005  = ~The Symbol of Helm 
 
 Avery revealed to us the history of Monoach, the founder of this stronghold. In the altar to Helm there is stored the Symbol of Helm. But no one knows what it may be used for. It is rumored that the key was given to some trusted friends of his who resides on an island far to the northwest for safekeeping.~
-//and @1 of NTPBWAT1.tra and @1 of NTPBWATC.tra 
+// @1 of NTPBWATC.tra 
 @10006    = ~Immediately after coming into the catacomb we were stopped by a ghost-knight. He didn't explain anything but attacked furiously...~
 // @6 from NTELDOD.tra
 @10007    = ~Mystery at the Northern Citadel 
@@ -36,6 +36,7 @@ The guard captain of Northern Citadel was furious for our sequential visits... a
 
 The charmed guard captain of the Northern Citadel, finally released from the influence of the spell managed to tell us what power stands behind all these disappearances. It is Krotan - the ogre, who is preparing to capture the Citadel in the basement of the Mausoleum behind the Citadel.~
 @10010    = ~Mystery at the Northern Citadel~
+// @7 from NTESSILA.tra
 @10011    = ~Isle of the Sirines
 
 Sirine called Essila needs a cure 'cause she feels ill... Is it the head or the finger? And maybe she is just saying the truth?~
@@ -301,7 +302,7 @@ Reedrig said the Cult of the Black Hand can be found northeast in the Wood of th
 Meander, the leader of the Ice Salamanders has refused to even consider talking about the key to the locked altar in the Northern Citadel, until after the destruction of the Cult of the Black Hand and the death of it's leader.~
 @10088    = ~The Symbol of Helm
 
-We received the key to the locked altar in the Northern Ciradel from Meander, the leader of the Ice Salamanders.~
+We received the key to the locked altar in the Northern Citadel from Meander, the leader of the Ice Salamanders.~
 @10089    = ~The Symbol of Helm
 
 We received the Symbol of Helm out of the altar in the Northern Citadel.~
@@ -360,6 +361,7 @@ We... 'rescued' Magnad's family from the orcs. Why are people so picky!~
 @10108   = ~Rescue Pandris from the Orcs
 
 We brought Yness a message from her husband, who we..., er, 'saved' from Orcs' hands. Ah, it's so heart warming to be able to help.~
+// same as @10063
 @10109   = ~The Great Book of the Unknowing
 
 Shaella, or rather Elnaedra now, says that I have found the book even though I didn't find it. What does that mean?~
