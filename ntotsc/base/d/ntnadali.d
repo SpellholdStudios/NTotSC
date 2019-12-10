@@ -96,11 +96,15 @@ ActionOverride(Player6,LeaveAreaLUA("AR20PB","",[374.1835],12))
   IF ~~ THEN REPLY @16 EXIT
 END
 
-IF ~Dead("NTDRAAGI")
+IF WEIGHT #-1
+~Dead("NTDRAAGI")
 !Dead("NTSALMI2")
-!Global("NTMeandarNeedHelp","GLOBAL",2)~ THEN BEGIN 9
+!Global("NTMeandarNeedHelp","GLOBAL",2)
+Global("NTHelpNadalin","GLOBAL",2)
+AreaCheck("AR20PB")~ THEN BEGIN 9
   SAY @17
   IF ~~ THEN REPLY @18 GOTO 10
+  IF ~~ THEN REPLY @13 EXIT
 END
 
 IF ~~ THEN BEGIN 10

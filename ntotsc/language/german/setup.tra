@@ -86,12 +86,12 @@ EIGENSCHAFTEN:
 
 10% Chance, dass das Ziel betäubt wird
 
-Schaden: 1W6 +4 (Wucht)
+Schaden: 1W6 +3 (Wucht)
 Schadensbonus:
  +2W3 (Elektrizität): 50% Chance
-ETW0-Bonus: -3
+ETW0-Bonus: -2
 Gewicht: 12
-Initiativefaktor: 6
+Initiativefaktor: 7
 Mindeststärke: 12
 Fertigkeit: Flegel
 Typ: 1-händig
@@ -495,10 +495,10 @@ Kann nicht verwendet werden von:
 
 EIGENSCHAFTEN:
 
-Resistenz gg. Stichwaffen: +15%
-Resistenz gg. Klingenwaffen: +15%
-Feuerresistenz: +15%
-Elektrizitätsresistenz: +15%
+Resistenz gg. Stichwaffen: +10%
+Resistenz gg. Klingenwaffen: +10%
+Feuerresistenz: +10%
+Elektrizitätsresistenz: +10%
 
 Rüstungsklasse: 5
 RK-Bonus:
@@ -1227,7 +1227,7 @@ Gewicht: 40
 Kann nicht verwendet werden von:
  Barden
  Magiern~
-@545 = ~Rüstung des Schwarzer Schwans +2~
+@545 = ~Rüstung des Schwarzen Schwans +2~
 @546 = ~Diese Rüstung wurde vom Zwergenschmied Karador zusammen mit dem Elfenbeschwörer Elameth der Fünf Bäume gefertigt. Viele bemerkenswerte Gegenstände wurden während der Zeit der Kooperation zwischen der Seldarine und Dornens Tiefen gefertigt, und diese Rüstung war einer davon. Außergewöhnlich leicht und schön anzusehen, wurde sie zuerst von einer elfischen Anführerin der Hand getragen. Dies ist der Grund, warum die Orks die Rüstung nicht mitnahmen als sie die Türme der Hand ausplünderten. Sie wurde später von der bösen Elfmaid Ilmadia gestohlen, die sie in ihrem letzten Gefecht gegen die Verteidiger von Osthafen trug. Was danach mit der Rüstung geschah und wie sie ihren Weg an die Schwertküste gefunden hat, ist unklar.
 
 EIGENSCHAFTEN:
@@ -1311,3 +1311,7 @@ Kann nur verwendet werden von:
 
 
 @55130 = ~Leiche von Fey'Doch~
+
+/* new in v3.2.0 */
+@55131 = ~Pass zum Wolkengipfelgebirge~
+@55132 = ~Höhleneingang~

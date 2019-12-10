@@ -64,7 +64,8 @@ IF ~~ THEN BEGIN 6
 
 IF ~~ THEN BEGIN 7
   SAY @17
-  IF ~~ THEN REPLY @18 DO ~SetGlobal("NTHaeballQuestWanted","GLOBAL",1)~ UNSOLVED_JOURNAL @10018 GOTO 8
+  IF ~~ THEN REPLY @18 DO ~SetGlobal("NTHaeballQuestWanted","GLOBAL",1)
+AddJournalEntry(@10019,QUEST)~ UNSOLVED_JOURNAL @10018 GOTO 8
   IF ~PartyHasItem("DSGBBOW")
 !PartyHasItem("NTMISC10")~ THEN REPLY @20 DO ~SetGlobal("NTHaeballQuestWanted","GLOBAL",1)~ UNSOLVED_JOURNAL @10018 GOTO 15
   IF ~PartyHasItem("NTMISC10")

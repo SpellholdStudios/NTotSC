@@ -1,0 +1,50 @@
+@0 = ~Aspettate viaggiatori! Per caso *o no* - Ho ascoltato mentre parlavi con Shaella, o come preferisci chiamarla, Elnaedra. Sei veramente interessato a trovare questo strano libro?~
+@1    = ~No. E noi siamo stufi di queste strane persone che incontriamo, e che non sanno di cosa stanno parlando.~
+@2    = ~E perché dovremmo essere interessati?~
+@3 = ~Shaella sa quello di cui sta parlando - o  piuttosto dice ciò che ancora sa. Lei vide questo libro e tu puoi vedere l'influenza che ha avuto su di lei. Il mio compito è di trovare questo libro e renderlo inutilizzabile per le persone che non sanno molto, che potrebbero condividere lo stesso destino di Shaella.~
+@4    = ~Possiamo sentire adesso "l'offerta che non potremmo rifiutare"?~
+@5 = ~So quello che stai cercando di dire e ti ascolterò in base alla ragionevolezza del prezzo; sono stato abbastanza chiaro amico mio?~
+@6 = ~Se vuoi metterla in questo modo, per tutta la mia vita ho messo via denaro per prendere questo libro. Posso dartelo se tu accetti la mia offerta.~
+@7 = ~Perché non te ne occupi personalmente, se ci tieni tanto?~
+@8    = ~No. Abbiamo ascoltato abbastanza. Per noi è tempo di andare.~
+@9 = ~Se solo fosse stato così semplice. Non posso incontrarmi con colui che ha le informazioni su questo libro. Noi siamo stati amici una volta, ma una donna si è messa tra noi. Preferirei non incontrarlo. E anche lui penso che non lo vorrebbe.~
+@10   = ~Chi è LUI?~
+@11   = ~Lobar. Il possessore della Lanterna Fioca. Una volta, ha visto questo libro o almeno la sua potenza.~
+@12   = ~Abbiamo ascoltato abbastanza. Se dici che è così pericoloso, preferiremmo non toccarlo.~
+@13   = ~Andiamo - sto ascoltando con attenzione.~
+@14   = ~Ti offro tutto il mio tesoro per questo libro. 10,000 monete d'oro.  Non haiu bisogno di leggerlo o di adoperalo, di certo. Quindi dallo a me.~
+@15   = ~Questi sono un sacco di soldi. Andrò da Lobar e vedrò se dici veramente la verità.~
+/* @16 -> @10016 */
+@17 = ~Perché non potrei prendere i tuoi soldi e fare a modo mio?~
+@18   = ~Non siamo ancora interessati alla tua offerta. Cercati qualcun'altro.~
+@19   = ~Certo potresti provare a farlo, ma non sono sicuro che sarebbe così facile.~
+@20   = ~Bene - Proverò a farlo, monaco.~
+@21 = ~Ok. A me non piace la violenza, specialmente quando é inutile. Andrò da Lobar e vedrò quello che posso scoprire.~
+@22   = ~Bentornato. Posso desumere che hai cambiato idea?~
+@23   = ~No, ma abbiamo voglia di occuparci della tua salvezza.~
+@24   = ~No, stavamo solo girovagando. Abbiamo altre preoccupazioni.~
+@25   = ~Si, accetteremo la tua offerta.~
+@26   = ~Meraviglioso. Ti aspetterò qui.~
+@27   = ~Dovresti cercare questo libro, è molto importante.~
+@28   = ~Naturalmente, ma penso che non ci sia niente di male nel chiederti semplicemente come stai.~
+@29   = ~Fondamentalmente, non stiamo correndo appresso ad uno stupido libro. Correrti dietro potrebbe essere più facile e divertente.~
+@30 = ~E così lo hai trovato. La ragione della mia ricerca che dura da una vita. Ora per te è tempo della ricompensa.~
+@31   = ~Ce l'abbiamo messa veramente tutta in questo, così otterremo sicuramente quello che ci hai promesso.~
+@32   = ~E' stato veramente difficile ottenere questo libro. Sicuramente è di grande valore e così ho deciso di tenere entrambi, il libro e la ricompensa.~
+@33   = ~Lo posso immaginare. E' tempo per la ricompensa - venite amici miei!~
+/* @34 -> @10022 */
+@35   = ~Tu sei pazzo, non ti lascerò nulla.~
+
+/* new for v2.0 */
+@36   = ~Salve, ma io non desidero parlare con te.~
+@37   = ~Ho trovato una nota interessante con il tuo nome sopra e la menzione di un qualche culto.~
+@38  = ~Ci vediamo.~
+@39  = ~Haeball mi ha assunto per recuperare un oggetto per lui. Questo è tutto ciò che devi sapere.~
+@40  = ~Non avresti dovuto ficcare il naso in cose che non capisci!~
+@41  = ~Aspettate viaggiatori! Per caso *o no* - Ho ascoltato mentre parlavi con Shaella. Devi sapere che lei ha visto un libro di grande valore – il Grande Libro della Non Conoscenza. Saresti interessato a cercare un libro simile?~
+@42  = ~Vuoi dire questo libro?~
+@43  = ~Come procede la ricerca?~
+@44  = ~Cosa vuoi?~
+@45  = ~Sei un folle.~
+
+

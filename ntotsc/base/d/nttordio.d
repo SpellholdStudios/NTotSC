@@ -49,7 +49,9 @@ END
 IF ~Global("NTTorkionNeedYou","Global",1)
 Global("NTTorkionReadyToFight","Global",0)
 !PartyHasItem("%DSPOTN01%")
+!PartyHasItem("MISCAU")
 !PartyHasItem("SW1H19")
+!PartyHasItem("SW1HVAM")
 ~ THEN BEGIN 7
   SAY @19
   IF ~~ THEN GOTO 8

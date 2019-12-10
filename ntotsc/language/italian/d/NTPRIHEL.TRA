@@ -1,0 +1,11 @@
+// #15397 (slightly changed)
+@0    = ~Benvenuto nel nostro tempio. La nostra fede nell'Occhio che Sempre Vigila è incrollabile. Prego, lascia che l'occhio protettivo di Helm ti protegga sempre.~
+// #15400
+@1    = ~Mi dispiace, il pensare di essere osservato di continuo da qualcuno mi disturba tremendamente. Troverò la mia strada fuori.~
+// #15399
+@2    = ~Mi piacerebbe vedere quali servizi fornite.~
+@3    = ~Perchè il tuo altare è chiuso a chiave? Questo è molto strano...~
+@4    = ~Non osare mai nemmeno toccarlo! Se sei così interessato a quest'altare, potresti andare a parlare con Avery. E' lui che si prende cura di questo altare. Ma dubito che sarà disposto a parlare di questo vista la situazione attuale...~
+/* @5 -> @10057 */
+
+

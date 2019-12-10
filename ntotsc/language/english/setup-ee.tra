@@ -67,8 +67,8 @@ Combat abilities:
 - 50% chance per hit of additional 2d3 electricity damage 
 - 10% chance per hit of stunning target for 1 round
 
-THAC0: +3
-Damage: 1d6+4 (crushing)
+THAC0: +2
+Damage: 1d6+3 (crushing)
 Speed Factor: 7
 Proficiency Type: Flail/Morning Star
 Type: One-handed
@@ -299,17 +299,6 @@ Equipped abilities:
 
 Weight: 3~
 
-@73   = ~Namji's Robe~
-@75   = ~A wizard from Thesk named Namji was the creator of this powerful robe. While it does not impart magical resistances onto the wearer, it is still extremely useful for spellcasters who find themselves in dangerous situations often. Namji himself was a reckless battle wizard who delighted in hurling spells from the midst of the fray. He was feared for his use of Namji's Burning Hands, an adaptation of the common Burning Hands spell.
-
-STATISTICS:
-
-Equipped abilities:
-– Regeneration of 1 hit point per round
-
-Armor Class: 2
-
-Weight:  5~
 
 @79   = ~The original name of this odd blade is lost in the murky depths of the Sea of Swords. Crafted of magically strengthened sahuagin bone, the weapon is believed to have been used by kuo-toa in bizarre rituals. The handle is crafted from coral wrapped in sahuagin skin. At one time, it was owned by Lockhart, a prominent adventuring thief and smuggler on the Sword Coast. It was he who gave the blade its current name.
 
@@ -504,7 +493,7 @@ Equipped abilities:
 
 Weight: 0~
 
-@158  = ~ 'Sauron's Black Veil'
+@158  = ~'Sauron's Black Veil'
 This particular robe of the magi is the result of Sauron's great skill with both sorcerous and priestly powers. It offers the usual protection against all forms of physical attacks while at the same time increasing one's magical resistance and saving throws. It also grants the wearer the ability to create dimensional doorways and become a 'shadow' of his or her normal self. Due to the nature of its enchantment, it can only be worn by mages of evil alignment.
 
 STATISTICS:
@@ -519,7 +508,7 @@ Charge abilities:
 
 Armor Class: 5
 
-Weight:  2~
+Weight: 2~
 
 @160  = ~Orcish shamans often made their clothes with poor materials fixed with leather parts so they are eyesore, heavy and regularly are not the top interest for adventurers, although they possess many advantages.
 

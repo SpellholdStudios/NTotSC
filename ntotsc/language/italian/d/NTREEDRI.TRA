@@ -1,0 +1,15 @@
+@0 = ~Vi ringrazio, chiunque voi siate. Ero diretto ad Ulgoth's Beard per una missione importante quando questi bastardi mi hanno catturato... Chissà cosa sarebbe potuto accadermi, se non foste arrivati in tempo...~
+/* @1 -> @10059 */
+@2    = ~Benvenuto! Cosa ti porta qui?~
+@3    = ~Stiamo viaggiando. Come sempre.~
+@4 = ~E così sapete già tutto del culto... Non sono riuscito ad arrivare in tempo a causa di quei dannati orchi... ora mi aspetterà qualcosa di sgradevole all'assemblea... o dovrei dire... che mi aspetterà la morte...~
+@5    = ~State parlando della Mano Nera? Cosa stanno progettando?~
+@6 = ~Siamo... il Culto della Mano Nera è un unione di maghi e guerrieri... sotto la guida di Draagis... un temibile avversario ed un esperto di antichi riti. Per questo è interessato ad innumerevoli artefatti ed è stato in contatto con i cultisti di Baalor... Il nostro scopo é l'evocazione di un demone ancora più potente - il Principe di Baalor. Ma senza l'anello con sigillo usato dal culto di Tracea, non potrà esserci alcuna cooperazione tra i nostri culti... Ora devo sparire. E’ meglio che i cultisti non mi sorprendano a parlare delle loro cose con te...~
+@7 = ~Aspetta! Dove possiamo trovare il Culto della Mano nera? Voglio andarci per porre fine ai loro tormenti...~
+@8    = ~Bene ora - addio e buona fortuna.~
+@9 = ~Se vuoi trovarli vai al Bosco dei Denti Aguzzi... poi proseguite verso est e muovete leggermente a nord. Non aspettatevi un caloroso benvenuto, naturalmente...~
+
+/* new for v2.0 */
+
+@10  = ~E quindi il Culto della Mano Nera é distrutto. Sembra che ti debba la vita. Ci vediamo!~
+

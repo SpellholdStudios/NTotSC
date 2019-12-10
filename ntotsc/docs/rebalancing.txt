@@ -16,15 +16,7 @@ Cave east of Beregost:
 
 
 Haeball fight
-- Reduced his impossible base AC of -6 (which gave him an effective AC of -8,
-  fully buffed level 7-9 party could only hit him on a critical) to something
-  much more sane: Elven Chain +1 (base AC 4), plus his Cloak of Scintilating
-  Colors gives him a much more manageable AC of 2 plus his dexterity bonus.
-- Reduced his impossibly high HP (230, more than some BG2 dragons) to a more
-  sane value (88).
-- Changed class from fighter/druid to fighter/mage as he had only mage spells
-  and no druid spells, updated his mage spells to match his level (12/12),
-  gave him proper mage script mage10a.
+- nthaebal.cre nerfed again: is now clone of Ramazith with mage script mage4.bcs. Should be detected by SCS this way now.
 - Made Cloud Kill trap on his desk detectable and removeable.
 - Renamed item file of Cloak of Scintilating Colors to ntclck01.itm (and
   ntclck01.bam), removing dependency with DSotSC.
@@ -52,6 +44,7 @@ Black Hand Temple
   but his prepared spells didn't match his mage script.)
 - Removed overpowered Namji's Robe, introduced Ogi-Luc's Great Robe (AC 4,
   from Icewind Dale) instead.
+- number of archers depending on game difficulty. Arrows of piercing removed from most Balck Cultist archers.
 
   New Items: ntrobe01 - Ogi-Luc's Great Robe
 
@@ -65,6 +58,22 @@ General Ghotal fight
 - Gave him a new custom armor.
 
   New Items: ntplat02 - Ghotal's Plate +2
+
+
+Fire Salamander in AR25PB.are
+- nerved fire slamander fight: for level PC lower 4 or game difficulty lower NORMAL, number of fire slamander will be halved.
+-nerved fire slamanders: less HP, no immunity to nonmagical weapons, less damage
+
+
+Tanar'ri in Cloud Peaks AR82PB.are
+-Lesser Tanar'ri nerved: lower XP, immunity to slashing, crishing, piercing set to 0, nerfed Tanar'ri spell script.
+-fight with Lesser Tanar'ri nerved: number of Lesser Tanar'ri depending in game difficulty
+-Invisible Stalkers removed
+
+
+Crypt AR02PB.are
+-monster count in AR02PB reduced depending on game difficulty. For INSANE, all monsters will still be there.
+-nerved Knights of the Grave: reduced HP, nerved undroppable flame blade
 
 
 Miscellaneous changes:

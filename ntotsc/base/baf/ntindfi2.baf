@@ -1,0 +1,29 @@
+IF
+  DifficultyLT(HARDEST)
+THEN
+  RESPONSE #100
+	DestroySelf()
+END
+
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    ActionOverride("NTINDFIG",Enemy())
+    ActionOverride("NTINDFI1",Enemy())
+    ActionOverride("NTINDFI2",Enemy())
+    Enemy()
+END
+
+
+
+IF
+  Allegiance(Myself,ENEMY)
+  !AttackedBy([GOODCUTOFF],DEFAULT)
+  !Range([PC],20)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END

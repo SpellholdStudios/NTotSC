@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 3.1.1
+                                VERSION 3.2.0
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -26,12 +26,15 @@ To reach the new areas via worldmap, you need to install BP-BGT-worldmap for BGT
 
 You need to start a new game, or the new areas will not show on your worldmap.
 
+NTotSC is compatible with BG:EE, BGT, and EET.
+Language versions: English, German, Italian, Polish
+
 HISTORY
 +++++++
 
 One large quest is given to you by Duke Eltan (before you go to Candlekeep).  One of the longest quests also starts before Candlekeep: Talk to the lady outside the Sorceror's Sundries. One quest can be started by talking to Yness in Ulgoth's Beard. The rest can be done during the TotSC quests in Ulgoth's Beard.  
 
-For v2.0, the quests are less restrictive in their order, especially in the order of when to talk to whom. The only restrictions remaining are: The Northern Citadel Quest will be handed out from Duke Eltan when he summons the PC in the original game. The Temple of the Black Hand will only be revealed after the demon in Ulgoth's Beard is defeated. 
+For v2.0 and higher, the quests are less restrictive in their order, especially in the order of when to talk to whom. The only restrictions remaining are: The Northern Citadel Quest will be handed out from Duke Eltan when he summons the PC in the original game. The Temple of the Black Hand will only be revealed after the demon in Ulgoth's Beard is defeated. 
 All other quests can either be "walked into", received from multiple persons (e.g. "The Field of the Dead"), or received by killing the quest giver instead of going on his fedex quest (e.g. the Ice Slamander or Eldod - they will have the appropriate keys on them.)
 
 INSTALLATION
@@ -52,6 +55,8 @@ The install has eight parts: the main component (obligatory for the mod) and fiv
 DSotSC must also be installed before NTotSC.  This mod also works with BG1NPC.
 
 As of version 2.2.0, the biffing was disabled due to problems with modding iOS devices. For BGT, you can use General Biffing Mod to biff your override folder.
+
+Note: Will O'Hara NPC will have some interjections in his home town Beregost but apart from that is a silent NPC with no dialogues or banter with the PC or party.
 
 
 WALKTHROUGH
@@ -222,6 +227,33 @@ F.A.Q.
 
 CHANGES
 +++++++
+
+3.2.0
+	-Completed and revised Italian version by ilot
+	-Completed and revised Polish version by Roberciiik
+	-Map Note to Fire Leaf Forest added (entrance to pass to Cloud Peak)
+	-Map Note added to AR80PB.are (Entrance to Cave)
+	-description of Shocking Flail adjusted to real stats
+	-Draagis' staff should have correct damage effect
+	-all keys tagged as keys so they fit into the key chain
+	-Nadalin recognizes whether he brought PC to island before (should not give his first dialogue every time after quest is finished)
+	-AR9001.are: trap at desk should be removable/reachable
+	-AR25PB.are: removed original fire slamander references, also from dialogues (replaced with mod ones)
+	-journal entry for elven bow will also be added if PC gets quest without any of the items already in inventory
+	-assigned fighting script to Demon Knights (should not stand idle)
+	-nerved fire slamander fight: for level PC lower 4 or game difficulty lower NORMAL, number of fire slamander will be halved.
+	-nerved fire slamanders: less HP, no immunity to nonmagical weapons, less damage
+	-Lesser Tanar'ri nerved: lower XP, immunity to slashing, crishing, piercing set to 0, nerfed Tanar'ri spell script.
+	-fight with Lesser Tanar'ri nerved: number of Lesser Tanar'ri depending in game difficulty
+	-removed elven chain mail +1 from Haebal
+	-Haebal cre nerfed and corrected: is now mage with legal stats
+	-Hasdar cre nerfed: has now legal amount of HP
+	-nerved Knights of the Grave: reduced HP, nerved undroppable flame blade
+	-monster count in AR02PB reduced depending on game difficulty. For INSANE, all monsters will still be there.
+	-DSotSC ressources: Holy Water effect should work on undead, Holy Water can be bought in almost all Temples.
+	-put a note into the readme that Will is a rather silent NPC.
+	-German version: corrected description of Studded Leather of Resistance
+	-German version: effects description of Armor of Black Swan corrected
 
 3.1.1
 	-name of the "Black Swan Armor +2" (ntplat03.itm) fixed  

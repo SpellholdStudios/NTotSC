@@ -1,0 +1,25 @@
+@0 = ~Ehi tu! Mio caro amico! Aspetta un momento!~
+@1 = ~E tu chi saresti, vecchio?~
+@2 = ~Levati dai piedi, vecchio bislacco!~
+@3 = ~Bene, é molto meglio per te che io ti lasci stare.~
+@4 = ~Bene... bene, benvenuto. Sono molto felice di vedere qualcuno che non sia un Non Morto qui in zona! Io sono Ordolath e mi sono preso un periodo di riposo qui... Sai, qualche volta è bello uscire un po' dal trambusto di Baldur's Gate...~
+@5 = ~Tutto ciò è veramente piacevole ma, per i Nove Inferni, cosa vuoi da me?~
+@6 = ~Sicuro, sicuro, ed ora levati dai piedi, vecchio matusa!~
+@7 = ~Niente di speciale, amico, hehe. La sfortuna mi ha fatto dimenticare la mia candela quando mi stavo preparando per venire qui. Senza la mia candela non sono capace di scrivere il mio diario o leggere i miei libri. Le notti sono molto buie... Tu non puoi neanche immaginare cosa significa questo per un amante dei libri come me!~
+@8 = ~Ho un'offerta da farti. Se puoi dedicare qualche giorno per aiutarmi e portarmi il mio piccolo tesoro di cera, posso ricompensarti molto bene! E non credere che sia una ricompensa da poco! Oltre a 2000 monete d'oro, posso dividere con te amico, un oggetto prezioso che penso ti piacerà... Allora? Vuoi aiutarmi?~
+@9 = ~Sembra interessante, dicci dove possiamo trovare la tua casa così potremo portarti questa... candela.~
+/* @10 -> @10048 */
+@11 = ~Non ho tempo che mi avanza per tali inutili sforzi, ora andatevene.~
+@12 = ~Eccellente! Dal primo momento che ti ho visto, mi sei sembrata una persona fidata! La mia casa, giovane amico, non è molto lontana dalla parte Nord di Gate, è una casa bianca dietro la torre blu del mago. Non puoi sbagliare. Per favore fai in fretta. Aspetterò con impazienza il tuo ritorno. A presto!~
+@13   = ~Benissimo, ciao!~
+@14   = ~Sei tornato? Dov'è la mia candela?~
+@15   = ~Eccola qui...~
+@16 = ~Sfortunatamente non abbiamo avuto ancora l’opportunità di recuperarla...~
+@17 = ~Ottimo! Ti ringrazio di cuore! Ecco qui la ricompensa che ti ho promesso! Devo affrettarmi ad andare via adesso.~
+@18   = ~Non avere tanta fretta! Mi domando se sapevi della presenza di un uomo nella tua casa...~
+@19 = ~Sei il benvenuto. Fai attenzione durante i tuoi viaggi.~
+/* @20 -> @10049 */
+@21 = ~Oh, si, si... mi dispiace della sorpresa che hai trovato. Lascia che mi scusi con te amico mio, ti ho esposto al pericolo ma spero che, in compenso, i miei regali saranno una buona ricompensa per i tuoi sforzi. Ma ora basta parlare, devo partire. Sii prudente!~
+/* @22 -> @10050 */
+@23 = ~Allora, cosa stai aspettando? Per favore affrettati e recupera la mia candela!~
+

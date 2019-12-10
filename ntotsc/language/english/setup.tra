@@ -68,8 +68,8 @@ Not Usable By:
 
 STATISTICS:
 
-Damage: 1D6 + 4
-THAC0:  +3
+Damage: 1D6 + 3
+THAC0:  +2
 Armor Class Bonus: 1
 Special:
   50% chance +2D3 electrical damage
@@ -309,7 +309,8 @@ Not Usable By:
  Kensai
  Shapeshifter
  Archer
- Beast Master~
+ Beast Master
+ Kensai~
 @61   = ~Chainmail of Firewine~
 @62   = ~During the times of prosperity of Firewine, special versions of the illustrious elven chainmail were made that added protection against the thunderstorms which appeared sometimes in the area.
 
@@ -1241,3 +1242,7 @@ Not Usable By:
 /* --- */
 
 @55130 = ~Body of Fey'Doch~
+
+/* new in v3.2.0 */
+@55131 = ~Pass to Cloud Peaks~
+@55132 = ~Entrance to Cave~
