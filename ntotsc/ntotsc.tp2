@@ -1,7 +1,13 @@
 /* 
 
--known issues (that can probably be fixed by someone else): 
+-known issues
+Could probably be fixed by someone else:
 -- EET: some of the symbols are very near to SoD symbols on the worldmap
+--wenn man von der Karte mit dem Tempel der Schwarzen Hand direkt nach Larswood (Turm) geht, dann landet außerhalb der Karte und steckt somit fest (ohne Teleportieren).
+--Some scripts seem off. some orc priests and mages only attacked me with melee weapons, they didn't cast spells. 
+
+Will probably stay:
+--You can tell the Phantasm inside “hey you are the hot topic in Beregost discussions”, without hearing about the cave in any conversation --> I have also no idea what this is referring to, but I'll leave it in.
 
 */
 
@@ -17,7 +23,7 @@
 
 BACKUP ~ntotsc/backup~
 AUTHOR ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~3.1.1~ //190314
+VERSION ~3.2.0~ //191210
 README ~ntotsc/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~ntotsc/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~ntotsc/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -57,6 +63,7 @@ ALWAYS
 		OUTER_SPRINT Temple_entrance ~EXIT9300~
 		OUTER_SPRINT PLAT09 ~PLAT09~
 		OUTER_SPRINT POTN55 ~POTN55~
+		OUTER_SPRINT SPIN996 ~BGIN996~ //TANARI_DEATH_GAZE
 	END 
 	ACTION_IF GAME_IS ~eet~ BEGIN
 		INCLUDE ~EET/other/cpmvars/eet_cpmvars.tpa~
@@ -69,6 +76,7 @@ ALWAYS
 		OUTER_SET BG1AREA = IDS_OF_SYMBOL (~areatype~ ~BG1AREA~)
 		OUTER_SPRINT PLAT09 ~PLAT09~
 		OUTER_SPRINT POTN55 ~POTN55~
+		OUTER_SPRINT SPIN996 ~SPIN996~ //TANARI_DEATH_GAZE
 	END
 	ACTION_IF GAME_IS ~bgee~ BEGIN
 		INCLUDE ~ntotsc/lib/liam_bgee_vars.tpa~
@@ -80,6 +88,7 @@ ALWAYS
 		OUTER_SPRINT Temple_entrance ~EXIT3400~
 		OUTER_SPRINT PLAT09 ~PLAT04~
 		OUTER_SPRINT POTN55 ~POTN52~
+		OUTER_SPRINT SPIN996 ~SPIN996~ //TANARI_DEATH_GAZE
 	END
 	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
 		COPY - ~weidu.conf~ ~.../weidu.conf~
@@ -159,6 +168,13 @@ LANGUAGE
 	~german~
 	~ntotsc/language/german/setup.tra~
 	~ntotsc/language/german/journal.tra~
+
+LANGUAGE
+	~Italian (translation by ilot)~
+	~italian~
+	~ntotsc/language/italian/setup.tra~
+	~ntotsc/language/italian/journal.tra~
+
 LANGUAGE
 	~Polski~
 	~polish~
@@ -169,7 +185,6 @@ LANGUAGE
 LANGUAGE
 	~Castilian~
 	~castilian~
-	~ntotsc/language/english/prompts.tra~
 	~ntotsc/language/castilian/setup.tra~
 	~ntotsc/language/english/journal.tra~
 LANGUAGE
@@ -178,16 +193,11 @@ LANGUAGE
 	~ntotsc/language/english/prompts.tra~
 	~ntotsc/language/chinese_simplified/setup.tra~
 	~ntotsc/language/chinese_simplified/journal.tra~
-LANGUAGE
-	~Italian (translation Ilot (rtt.altervista.org) in collaboration with Kelvan, reaper_cuts and Andariel (bgcommunity.forumfree.net))~
-	~italian~
-	~ntotsc/language/english/prompts.tra~
-	~ntotsc/language/italian/setup.tra~
-	~ntotsc/language/italian/journal.tra~
+
+
 LANGUAGE
 	~Russian~
 	~russian~
-	~ntotsc/language/english/prompts.tra~
 	~ntotsc/language/russian/setup.tra~
 	~ntotsc/language/russian/journal.tra~
 */
@@ -668,6 +678,8 @@ COPY ~ntotsc/base/itm/scrlnt81.itm~ ~override~
 	SAY NAME2 @213
 	SAY DESC @214
 
+COPY ~ntotsc/base/itm/nthellsw.itm~ ~override~ //fire salamander weapon
+
 //Items needed by creatures
 
 COPY ~ntotsc/base/itm/nostring~ ~override~
@@ -728,7 +740,51 @@ COPY_EXISTING ~tem0002.sto~ ~override/ntprihel.sto~
 COPY_EXISTING ~ntprihel.sto~ ~override~
 	READ_BYTE "0x10" "buy_flags"
 	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
-	ADD_STORE_ITEM ~%DSPOTN01%~ #0 #0 #0 ~IDENTIFIED~ #1
+	ADD_STORE_ITEM ~%DSPOTN01%~ #0 #0 #0 ~IDENTIFIED~ #2
+
+/* add holy water to temple of Helm in NBG */
+COPY_EXISTING ~tem0002.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~%DSPOTN01%~ #0 #0 #0 ~IDENTIFIED~ #2
+
+/* add holy water to High House of Wonders */
+COPY_EXISTING ~tem0131.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~%DSPOTN01%~ #0 #0 #0 ~IDENTIFIED~ #2
+
+/* add holy water to Lady's Hall */
+COPY_EXISTING ~tem0132.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~%DSPOTN01%~ #0 #0 #0 ~IDENTIFIED~ #2
+
+/* add holy water to Temple of Wisdom */
+COPY_EXISTING ~tem2304.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~%DSPOTN01%~ #0 #0 #0 ~IDENTIFIED~ #2
+
+/* add holy water to temple of Oghma */
+COPY_EXISTING ~tem2601.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~%DSPOTN01%~ #0 #0 #0 ~IDENTIFIED~ #2
+
+/* add holy water to Song of the Morning */
+COPY_EXISTING ~tem3402.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~%DSPOTN01%~ #0 #0 #0 ~IDENTIFIED~ #2
+
+/* add holy water to temple of Helm in Nashkel */
+COPY_EXISTING ~tem4802.sto~ ~override~
+	READ_BYTE "0x10" "buy_flags"
+	WRITE_BYTE "0x10" ("%buy_flags%" + 0x02)
+	ADD_STORE_ITEM ~%DSPOTN01%~ #0 #0 #0 ~IDENTIFIED~ #2
+
+
 
 
 /* Add BGII items for BGT/EET */
@@ -935,6 +991,10 @@ COPY ~ntotsc/base/cre/nthells1.cre~ ~override~
 	SAY NAME2 @267
 
 COPY ~ntotsc/base/cre/nthells2.cre~ ~override~
+	SAY NAME1 @268
+	SAY NAME2 @268
+
+COPY ~ntotsc/base/cre/nthells3.cre~ ~override~
 	SAY NAME1 @268
 	SAY NAME2 @268
 
@@ -2573,7 +2633,8 @@ COPY	~ntotsc/base/portraits/l~ ~override~
 
 LAF HANDLE_AUDIO
 	STR_VAR
-	audio_path = EVAL ~ntotsc/language/%LANGUAGE%/ogg~
+//	audio_path = EVAL ~ntotsc/language/%LANGUAGE%/ogg~
+	audio_path = EVAL ~ntotsc/language/english/ogg~
 	oggdec_path = ~ntotsc/bin/win32~
 	sox_path = ~ntotsc/bin/osx~
 //	output_path = ~ntotsc/biff~

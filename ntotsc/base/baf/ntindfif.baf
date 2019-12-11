@@ -1,0 +1,164 @@
+/* nerfed Tanari.bcs */
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC])
+	Global("Paralyze","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell([PC],TANARI_PARALYZE)  // SPIN999.SPL (Paralyze)
+		SetGlobal("Paralyze","LOCALS",1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC.0.0.CLERIC_MAGE])
+	Global("Silence","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.CLERIC_MAGE],TANARI_SILENCE)  // SPIN998.SPL (Silence 15' Radius)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC.0.0.MAGE])
+	Global("Silence","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.MAGE],TANARI_SILENCE)  // SPIN998.SPL (Silence 15' Radius)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC.0.0.MAGE_THIEF])
+	Global("Silence","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.MAGE_THIEF],TANARI_SILENCE)  // SPIN998.SPL (Silence 15' Radius)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC.0.0.CLERIC])
+	Global("Silence","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.CLERIC],TANARI_SILENCE)  // SPIN998.SPL (Silence 15' Radius)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC.0.0.BARD])
+	Global("Silence","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.BARD],TANARI_SILENCE)  // SPIN998.SPL (Silence 15' Radius)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC.0.0.DRUID])
+	Global("Silence","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell([PC.0.0.DRUID],TANARI_SILENCE)  // SPIN998.SPL (Silence 15' Radius)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC])
+	Global("Silence","LOCALS",0)
+THEN
+	RESPONSE #100
+		ForceSpell([PC],TANARI_SILENCE)  // SPIN998.SPL (Silence 15' Radius)
+		SetGlobal("Silence","LOCALS",1)
+END
+
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC])
+	StateCheck([PC],STATE_HELPLESS)	
+	Global("DeathGaze","LOCALS",0)
+THEN
+	RESPONSE #70
+		SetGlobal("DeathGaze","LOCALS",1)
+		ForceSpellRES("%SPIN996%",SecondNearest([PC]))  // Death Gaze
+		ForceSpell(NearestEnemyOf(Myself),TANARI_VAMPIRIC_TOUCH)  // SPIN997.SPL (Vampiric Touch)
+		AttackOneRound([PC])
+	RESPONSE #30
+		SetGlobal("DeathGaze","LOCALS",1)
+		ForceSpellRES("%SPIN996%",ThirdNearest([PC]))  // Death Gaze
+		ForceSpell(NearestEnemyOf(Myself),TANARI_VAMPIRIC_TOUCH)  // SPIN997.SPL (Vampiric Touch)
+		AttackOneRound(NearestEnemyOf(Myself))
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC.0.0.0.0.FEMALE])
+	NotStateCheck([PC.0.0.0.0.FEMALE],STATE_HELPLESS)
+	Global("DeathGaze","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeathGaze","LOCALS",1)
+		ForceSpellRES("%SPIN996%",[PC.0.0.0.0.FEMALE])  // Death Gaze
+		ForceSpell(NearestEnemyOf(Myself),TANARI_VAMPIRIC_TOUCH)  // SPIN997.SPL (Vampiric Touch)
+		AttackOneRound([PC])
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC.0.0.0.0.MALE])
+	See([PC.0.0.0.0.FEMALE])
+	StateCheck([PC.0.0.0.0.FEMALE],STATE_HELPLESS)
+	Global("DeathGaze","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeathGaze","LOCALS",1)
+		ForceSpellRES("%SPIN996%",[PC.0.0.0.0.MALE])  // Death Gaze
+		ForceSpell(NearestEnemyOf(Myself),TANARI_VAMPIRIC_TOUCH)  // SPIN997.SPL (Vampiric Touch)
+		AttackOneRound([PC.0.0.0.0.FEMALE])
+		AttackOneRound([PC.0.0.0.0.FEMALE])
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC.0.0.0.0.FEMALE])
+	StateCheck([PC.0.0.0.0.FEMALE],STATE_HELPLESS)
+	Global("DeathGaze","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeathGaze","LOCALS",1)
+		ForceSpellRES("%SPIN996%",FourthNearest([PC]))  // Death Gaze
+		ForceSpell(NearestEnemyOf(Myself),TANARI_VAMPIRIC_TOUCH)  // SPIN997.SPL (Vampiric Touch)
+		AttackOneRound([PC.0.0.0.0.FEMALE])
+		AttackOneRound(NearestEnemyOf(Myself))
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	See([PC])
+	Global("DeathGaze","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("DeathGaze","LOCALS",1)
+		ForceSpellRES("%SPIN996%",SecondNearest([PC]))  // Death Gaze
+		ForceSpell(NearestEnemyOf(Myself),TANARI_VAMPIRIC_TOUCH)  // SPIN997.SPL (Vampiric Touch)
+		AttackOneRound([PC])
+		AttackOneRound([PC])
+END
+
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    Attack(NearestEnemyOf(Myself))
+END

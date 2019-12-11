@@ -94,8 +94,8 @@ Nie mo¿e u¿ywaæ:
 
 PARAMETRY:
 
-Obra¿enia: 1K6 +4
-TraK0: +3
+Obra¿enia: 1K6 +3
+TraK0: +2
 Typ obra¿eñ: obuchowe
 Specjalne:
  50% szans na zadanie 2K3 obra¿eñ od elektrycznoœci
@@ -550,7 +550,7 @@ Ten zwój zawiera inkantacjê czaru Rozdzielenie Ducha.~
 
 Ten zwój zawiera inkantacjê czaru Dotyk Znachora.~
 
-@120  = ~ Niektórzy kap³ani lubi¹ mieæ przy sobie niewielkie symbole swoich zgromadzeñ, gdziekolwiek siê nie udaj¹. Taka starannoœæ zawsze jest nagradzana.
+@120  = ~Niektórzy kap³ani lubi¹ mieæ przy sobie niewielkie symbole swoich zgromadzeñ, gdziekolwiek siê nie udaj¹. Taka starannoœæ zawsze jest nagradzana.
 
 Specjalne:
  Pozwala nauczyæ siê czaru "Protekcja"~
@@ -1363,6 +1363,7 @@ Nie mo¿e u¿ywaæ:
 /* --- */
 
 @55130 = ~Ca³o Fey'docha~
+
 
 /* new in v3.2.0 */
 @55131 = ~Prze³êcz Chmurnych Szczytów~

@@ -56,11 +56,11 @@ EIGENSCHAFTEN:
 
 10% Chance, dass das Ziel betäubt wird
 
-Schaden: 1W6 +4 (Wucht)
+Schaden: 1W6 +3 (Wucht)
 Schadensbonus:
  +2W3 (Elektrizität): 50% Chance
-ETW0-Bonus: -3
-Initiativefaktor: 6
+ETW0-Bonus: -2
+Initiativefaktor: 7
 Mindeststärke: 12
 Fertigkeit: Flegel
 Typ: 1-händig
@@ -289,10 +289,10 @@ Gewicht: 15~
 
 EIGENSCHAFTEN:
 
-Resistenz gg. Stichwaffen: +15%
-Resistenz gg. Klingenwaffen: +15%
-Feuerresistenz: +15%
-Elektrizitätsresistenz: +15%
+Resistenz gg. Stichwaffen: +10%
+Resistenz gg. Klingenwaffen: +10%
+Feuerresistenz: +10%
+Elektrizitätsresistenz: +10%
 
 Rüstungsklasse: 5
 RK-Bonus:
@@ -465,10 +465,10 @@ Gewicht: 40~
 EIGENSCHAFTEN:
 
 Charisma: +1
-Feuerwiderstand: +15 %
-Kältewiderstand: +15 %
-Elektrizitätswiderstand: +15 %
-Säurewiderstand: +15 %
+Feuerwiderstand: +10 %
+Kältewiderstand: +10 %
+Elektrizitätswiderstand: +10 %
+Säurewiderstand: +10 %
 
 Rüstungsklasse: 1 
 RK-Bonus:

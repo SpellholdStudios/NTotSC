@@ -3,6 +3,7 @@ IF
   Global("NT_PCEnteredPass80PB","GLOBAL",0)
 THEN
   RESPONSE #100
+    AddMapNote([1067.476],@55132)
     SetGlobal("NT_PCEnteredPass80PB","GLOBAL",1)
 END
 

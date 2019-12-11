@@ -6,23 +6,17 @@ THEN
 	RESPONSE #100
 		ActionOverride("NTINDFI1",Enemy())
 		ActionOverride("NTINDFI2",Enemy())
-		CreateCreature("STALKE",[2054.780],0) // Invisible Stalker
-		CreateCreature("STALKE",[1231.561],0) // Invisible Stalker
-		CreateCreature("STALKE",[455.598],0) // Invisible Stalker
-		CreateCreature("STALKE",[421.689],0) // Invisible Stalker
-		CreateCreature("STALKE",[897.731],0) // Invisible Stalker
-		CreateCreature("STALKE",[1534.420],0) // Invisible Stalker
-		CreateCreature("STALKE",[1642.576],0) // Invisible Stalker
+/*
+		CreateCreature("STALKE",[2054.780],0)
+		CreateCreature("STALKE",[1231.561],0)
+		CreateCreature("STALKE",[455.598],0)
+		CreateCreature("STALKE",[421.689],0)
+		CreateCreature("STALKE",[897.731],0)
+		CreateCreature("STALKE",[1534.420],0)
+		CreateCreature("STALKE",[1642.576],0)
+*/
 		SetGlobal("NTSpawnCreateStalkers","GLOBAL",1)
 		Enemy()
-END
-
-IF
-	Allegiance(Myself,ENEMY)
-	See(NearestEnemyOf(Myself))
-THEN
-	RESPONSE #100
-		Attack(NearestEnemyOf(Myself))
 END
 
 

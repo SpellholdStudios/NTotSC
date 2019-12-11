@@ -25,3 +25,12 @@ THEN
     TriggerActivation("Tran80PB",TRUE)
 END
 */
+
+/* Set Map Point */
+IF
+  Global("NTMapPoint","MYAREA",0)
+THEN
+  RESPONSE #100
+    AddMapNote([3188.3775],@55131)
+    SetGlobal("NTMapPoint","MYAREA",1)
+END

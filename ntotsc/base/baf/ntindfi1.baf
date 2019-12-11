@@ -1,4 +1,14 @@
 IF
+  OR(2)
+	LevelLT(Player1,4)
+	DifficultyLT(NORMAL)
+THEN
+  RESPONSE #100
+	DestroySelf()
+END
+
+
+IF
   AttackedBy([GOODCUTOFF],DEFAULT)
   Allegiance(Myself,NEUTRAL)
 THEN
@@ -11,9 +21,9 @@ END
 
 IF
   Allegiance(Myself,ENEMY)
-  See(NearestEnemyOf(Myself))
+  !AttackedBy([GOODCUTOFF],DEFAULT)
+  !Range([PC],20)
 THEN
   RESPONSE #100
-    Attack(NearestEnemyOf(Myself))
+    MoveToObject(Player1)
 END
-
