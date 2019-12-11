@@ -10,7 +10,7 @@ This is a BGT, BG:EE, and EET version of the original mod. For versions 2.0 and 
 
 To reach the new areas via worldmap, you need to install BP-BGT-worldmap for BGT after NTotSC and start a new game. For BG:EE and EET, the worldmap mod is no longer needed but you still need to start a new game to see the mod areas on your worldmap. Thank you to AstroBryGuy for providing the worldmap tweak for BG:EE!
 
-Note: For downloading the current version from GitHUb, make sure you go to the releases page and download the [latest release of this mod!](https://github.com/SpellholdStudios/NTotSC/releases)
+Note: For downloading the current version from GitHub, make sure you go to the releases page and download the [latest release of this mod!](https://github.com/SpellholdStudios/NTotSC/releases)
 
 [Read the Readme](http://spellholdstudios.github.io/SpellholdStudios.github.io/readmes/readme-ntotsc.txt)
 
