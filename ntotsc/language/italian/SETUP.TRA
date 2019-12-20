@@ -1295,6 +1295,13 @@ Non utilizzabile da:
  Mago
  Ladro~
 
+/* Will O'Hara soundset subcomponent */
+@551 = ~Will O'Hara suoni~
+@552 = ~Richiede [Will O'Hara NPC] componente~
+@553 = ~Installa suoni~
+@554 = ~Non installare suoni~
+@555 = ~I suoni mancanti verranno visualizzati nella chat di gioco~
+
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
