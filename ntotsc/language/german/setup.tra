@@ -1280,10 +1280,10 @@ Kann nicht verwendet werden von:
  Dieben~
 
 /* Will O'Hara soundset subcomponent */
-@551 = ~Will O'Hara Geräusche~
+@551 = ~Will O'Hara Soundset~
 @552 = ~Erfordert [Will O'Hara NPC] Komponente~
-@553 = ~Installieren Geräusche (wenden Sie englische Geräusche an, wenn keine sprachspezifischen Geräusche verfügbar sind)~
-@554 = ~Nicht installieren Geräusche~
+@553 = ~Installieren Soundset (wenden Sie englische Soundset an, wenn keine sprachspezifischen Soundset verfügbar sind)~
+@554 = ~Nicht installieren Soundset~
 @555 = ~Fehlende Sounds werden im Chat im Spiel angezeigt~
 
 
