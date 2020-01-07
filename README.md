@@ -4,7 +4,7 @@ Northern Tales of the Sword Coast (NTotSC) adds several quests to the BG1 part (
 
 This is a BGT, BG:EE, and EET version of the original mod. For versions 2.0 and higher, NTotSC is no longer dependent on DSotSC. If you want to play the two mods together, install DSotSC first. The versions supported are:
 
--DSotSC for BGT/EET (version by k4thos)
+-[DSotSC for BGT/EET](https://github.com/SpellholdStudios/DSotSC): EET compatibility and restructured by k4thos
 
 -[DSotSC for BG:EE](https://forums.beamdog.com/discussion/73241/mod-dark-side-of-the-sword-coast-for-bg-ee/p1): version by Red Carnelian.
 
@@ -17,3 +17,7 @@ Note: For downloading the current version from GitHub, make sure you go to the r
 [Visit the mod's forum at Spellhold Studios](http://www.shsforums.net/topic/59505-ntotsc-for-eet-and-bgt-and-bgee-bugthread/)
 
 [Download the mod from Spellhold Studios](http://www.shsforums.net/files/file/71-northern-tales-of-the-sword-coast/) (same version as here)
+
+## Copyrights Information
+
+DSotSC is not developed, supported, or endorsed by BioWare™ or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast in any way.
