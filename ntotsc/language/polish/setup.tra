@@ -1,4 +1,4 @@
-@0    = ~NTotSC dla BGT-Weidu, BG:EE i EET przetlumaczyl Kelthar (na podstawie tlumaczenia Evendura) (v.1.0) i Roberciiik (do v3.1.0)~
+@0    = ~NTotSC dla BGT-Weidu, BG:EE i EET przetlumaczyl Kelthar (na podstawie tlumaczenia Evendura) (v.1.0) i Roberciiik (do v3.2.0)~
 
 @1    = ~Zatrute strza³y~
 @2    = ~Te strza³y zosta³y pokryte szybko dzia³aj¹c¹ trucizn¹ roœlinnego pochodzenia.
@@ -1333,6 +1333,14 @@ Nie mo¿e u¿ywaæ:
  Mag
  Z³odziej~
 
+/* Will O'Hara soundset subcomponent */
+@551 = ~UdŸwiêkowienie Willa O'Hara~
+@552 = ~Wymaga komponentu [Will O'Hara NPC]~
+@553 = ~Instaluj odg³osy postaci (aplikuje dŸwiêki angielskie jeœli polskie nie s¹ dostêpne)~
+@554 = ~Nie instaluj og³osów postaci~
+@555 = ~Brakuj¹ce dŸwiêki zostan¹ wyœwietlone w konsoli gry~
+
+
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
 @1244 = ~Woda œwiêcona~
@@ -1344,7 +1352,7 @@ Nie mo¿e u¿ywaæ:
 PARAMETRY:
 
 Obra¿enia: +2
-Trak0: +2
+TraK0: +2
 Waga: 2
 OpóŸnienie: 3
 Rodzaj bieg³oœci: krótki £uk
