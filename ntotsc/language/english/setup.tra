@@ -1211,6 +1211,13 @@ Not Usable By:
  Mage
  Thief~
 
+/* Will O'Hara soundset subcomponent */
+@551 = ~Will O'Hara soundset~
+@552 = ~Requires [Will O'Hara NPC] component~
+@553 = ~Install soundset~
+@554 = ~Do not install soundset~
+@555 = ~Missing sounds will be displayed on in-game chat~
+
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 

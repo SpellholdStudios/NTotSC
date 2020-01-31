@@ -2621,27 +2621,41 @@ EXTEND_BOTTOM ~INITGOLV.BCS~ ~ntotsc/will/NTGOLINV.baf~ EVALUATE_BUFFER
 
 EXTEND_BOTTOM ~%Beregost_BCS%.bcs~ ~ntotsc/will/ar3300.baf~ EVALUATE_BUFFER
 
-ACTION_BASH_FOR ~ntotsc/language/english/ogg~ ~^.+\.ogg$~ BEGIN
-	ACTION_IF NOT FILE_EXISTS ~ntotsc/language/%LANGUAGE%/ogg/%BASH_FOR_FILE%~ BEGIN
-		COPY ~%BASH_FOR_FILESPEC%~ ~ntotsc/language/%LANGUAGE%/ogg~
-	END
-END
-
-
 COPY	~ntotsc/base/portraits/%engine%~ ~override~
 COPY	~ntotsc/base/portraits/l~ ~override~
 
-LAF HANDLE_AUDIO
-	STR_VAR
-//	audio_path = EVAL ~ntotsc/language/%LANGUAGE%/ogg~
-	audio_path = EVAL ~ntotsc/language/english/ogg~
-	oggdec_path = ~ntotsc/bin/win32~
-	sox_path = ~ntotsc/bin/osx~
-//	output_path = ~ntotsc/biff~
-	output_path = ~override~
-END
+////////////////////////////////////////////////////////////////////////////
+//
+//  Will O'Hara Soundset subcomponent
+//
+////////////////////////////////////////////////////////////////////////////
 
+BEGIN @553 /* Install soundset */
+	SUBCOMPONENT @551  /* Will O'Hara soundset */
+	REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 6 @552 /* Requires 'Will O'Hara' component */
 
+	// Apply English soundset if language-specific sounds are not available
+	ACTION_BASH_FOR ~ntotsc/language/english/ogg~ ~^will.+\.ogg$~ BEGIN // Only files in "will*.ogg" pattern
+		ACTION_IF NOT FILE_EXISTS ~ntotsc/language/%LANGUAGE%/ogg/%BASH_FOR_FILE%~ BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~ntotsc/language/%LANGUAGE%/ogg~
+		END
+	END
+
+	// Probably should be moved to the end of file if there are more sounds to be converted
+	// or all component-ralated sounds should be copied here to base/ogg directory and then installed
+	LAF HANDLE_AUDIO
+		STR_VAR
+		audio_path = EVAL ~ntotsc/language/%LANGUAGE%/ogg~
+		oggdec_path = ~ntotsc/bin/win32~
+		sox_path = ~ntotsc/bin/osx~
+		output_path = ~override~
+	END
+
+// The same as [Install Component -> No]
+BEGIN @554 /* Do not install soundset */
+	SUBCOMPONENT @551  /* Will O'Hara soundset */
+	REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 6 @552 /* Requires [Will O'Hara NPC] component */
+		PRINT @555 /* Messages for missing sounds will be displayed on in-game chat */
 
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
@@ -2655,7 +2669,7 @@ REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 
 
 
-/* additional comrades to Lamalha (AR5000 Valley of the Tombs) */
+/* Additional comrades to Lamalha (AR5000 Valley of the Tombs) */
 
 COPY ~ntotsc/base/cre/ntelka.cre~ ~override~
 	SAY NAME1 @248
