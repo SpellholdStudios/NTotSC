@@ -2423,6 +2423,8 @@ FORBID_FILE ~override/JA#NIMFU.CRE~ @532
 /* @10047: Nim Furlwing's Hunting Hounds */
 ADD_JOURNAL TITLE (@10047) @10042 @10043 USING ~ntotsc/language/%LANGUAGE%/journal.tra~
 
+COPY ~ntotsc/nimfurlwing/ntscrlnf.itm~ ~override~
+
 COMPILE EVALUATE_BUFFER ~ntotsc/nimfurlwing/ntnimfur.d~
 COMPILE EVALUATE_BUFFER ~ntotsc/nimfurlwing/ntdogfun.baf~
 COMPILE EVALUATE_BUFFER ~ntotsc/nimfurlwing/ntdogfu2.baf~
