@@ -15,7 +15,7 @@ IF ~PartyHasItem("POTN45")~ THEN BEGIN 2
   IF ~~ THEN DO ~TakePartyItemNum("POTN45",1)
 DestroyItem("POTN45")
 EraseJournalEntry(@10044)
-GiveItemCreate("WAND07",LastTalkedToBy(Myself),1,10,0)
+GiveItemCreate("WAND07",LastTalkedToBy(Myself),12,0,0)
 ReallyForceSpellRES("NTOLIVIA",Myself)
 EscapeAreaDestroy(90)~ SOLVED_JOURNAL @10045 EXIT
 END

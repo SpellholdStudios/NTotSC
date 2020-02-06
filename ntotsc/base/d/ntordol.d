@@ -53,7 +53,7 @@ IF ~~ THEN BEGIN 9
   SAY @17
   IF ~~ THEN REPLY @18 GOTO 10
   IF ~~ THEN REPLY @19 DO ~AddexperienceParty(2000)
-GiveItem("wand07",LastTalkedToBy)
+GiveItem("wand09",LastTalkedToBy)
 TakePartyItem("misc74")
 EraseJournalEntry(@10048)
 EscapeArea()~ SOLVED_JOURNAL @10049 EXIT

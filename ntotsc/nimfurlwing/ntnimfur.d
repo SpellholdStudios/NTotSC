@@ -19,7 +19,7 @@ IF ~NumDead("NTDOGFUN",0)
 Global("NTNimFurlong","GLOBAL",1)~ THEN BEGIN 2
   SAY @3
   IF ~~ THEN DO ~AddexperienceParty(2000)
-GiveItemCreate("SCRLZZ",LastTalkedToBy,0,0,0)
+GiveItemCreate("ntscrlnf",LastTalkedToBy,1,0,0)
 SetGlobal("NTNimFurlong","GLOBAL",2)
 EscapeArea()~ SOLVED_JOURNAL @10043 EXIT
 END
