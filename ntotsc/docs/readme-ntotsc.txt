@@ -241,7 +241,7 @@ CHANGES - VERSION HISTORY
 4.0.0 - by jastey
 	-Russian version by Arkie
 	-"Will O'Hara soundset subcomponent" splitted from component "Will O'Hara NPC", by Roberciiik
-	-"Spawn less Monsters depending on Game Difficulty" splitted from main component (changes in monster numbers introduced in v.3.2.0 now optional)
+	-"Spawn less Monsters depending on Game Difficulty" splitted from main component (changes in monster numbers introduced in v.3.2.0 now optional); Polish translation by Cahir
 	-Journal entry about Haeball wanting the elven bow should not be doubled.
 	-Ordolath should give his wand of Polymorphing in all cases as a reward.
 	-Pass entrance in Fire Leaf Forest is open after talking to Oupaste, not before (Book of the Unknowing)
