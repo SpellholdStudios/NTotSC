@@ -161,13 +161,12 @@ TraK0: +1
 Specjalne:
  50% szans na zadanie dodatkowych 2K3 obra¿eñ od ognia
  Liczba ataków ustalona na 2
- +1 do Kondycji
  +20% do odpornoœci na ogieñ/zimno
 Waga: 3
-OpóŸnienie: 7
+OpóŸnienie: 2
 Rodzaj bieg³oœci: krótki ³uk
 Typ broni: 2-rêczna
-Wymagana si³a: 3~
+Wymagana si³a: 6~
 
 @44   = ~Stworzony przez elfy zamieszkuj¹ce niegdyœ Firewine. Chocia¿ sam w sobie jest œwietnie wywa¿onym i magicznym ³ukiem, w d³oniach elfa staje siê jeszcze bardziej œmiercionoœn¹ broni¹.
 
@@ -241,7 +240,7 @@ Wymagana si³a: 6~
 
 PARAMETRY:
 
-Klasa Pancerza: 4
+Klasa Pancerza: 4 (2 przeciw broniom siecznym, 6 przeciw broniom obuchowym)
 Specjalne:
  +30% do odpornoœci na elektrycznoœæ
 Waga: 15
@@ -337,7 +336,7 @@ Specjalne:
  +10% do odpornoœci na obra¿enia sieczne
  +10% do odpornoœci na ogieñ
  +10% do odpornoœci na elektrycznoœæ
- +2 do rzutów obronnych
+ +2 to Saving Throw vs. Breath
 Waga: 15
 Wymagana si³a: 6~
 
@@ -479,7 +478,7 @@ Wymagana si³a: 5~
 PARAMETRY:
 
 Obra¿enia: 1K6 +2
-TraK0: +3
+TraK0: +2
 Typ obra¿eñ: obuchowe
 Specjalne:
  80% szans na dodatkowe 1K8 +2 obra¿eñ siecznych
@@ -704,8 +703,9 @@ PARAMETRY:
 
 Klasa Pancerza: 2
 Specjalne:
- +1 do KP przeciw broniom siecznym 
-Waga: 40~
+ -2 do KP przeciw broniom siecznym 
+Waga: 40
+Wymagana si³a: 12~
 @546  = ~Zbroja ta zosta³a wykonana przez krasnoludzkiego kowala o imieniu Karador. Potem elfi mistrz zauroczeñ o imieniu Elemeth z Piêciu Drzew obdarzy³ j¹ moc¹ magiczn¹. W czasie, kiedy D³oñ Seldarine i G³êbia Dorna ze sob¹ wspó³pracowa³y, powsta³o wiele wspania³ych przedmiotów, a ta zbroja jest w³aœnie jednym z nich. Niezwykle lekka i piêkna, zbroja ta by³a pocz¹tkowo noszona przez elfkê, która pe³ni³a funkcjê dowódcy w Odciêtej D³oni, dlatego osada nie pad³a, kiedy orki dokonywa³y grabie¿y wie¿. Potem zbroja ta zosta³a ukradziona przez Pannê Ilmadiê i by³a noszona a¿ do momentu bitwy z Obroñcami Easthaven w G³êbi Dorna. To co siê sta³o ze zbroj¹ po zakoñczeniu bitwy i to w jaki sposób trafi³a na Wybrze¿e Mieczy jest nieznane.
 
 PARAMETRY:
@@ -717,7 +717,8 @@ Specjalne:
  +10% do odpornoœci na ogieñ
  +10% do odpornoœci na zimno
  +10% do odpornoœci na elektrycznoœæ
- +10% do odpornoœci na kwas~
+ +10% do odpornoœci na kwas
+Wymagana si³a: 12~
 @548  = ~Ta szata wykonana jest z mocnego materia³u i zabarwiona w kolorze ciemnoniebieskim, ulubionym kolorze jej dumnego w³aœciciela, arcymaga Ogi-Luka. Arcymag urodzi³ siê w Sembii i by³ potê¿nym cz³owiekiem, zarówno fizycznie jak i umys³owo. Jednak zwyk³a si³a mu nie wystarcza³a. Chcia³ byæ wyj¹tkowo silny. Gdy zak³ada³ tê szatê, dumni odsuwali siê na bok a che³piarze milkli. Jednak mimo ca³ej swojej dumy i umiejêtnoœci nie by³ w stanie pokonaæ mistrza odrzucania, Czerwonego Maga, Neska Vhaltima. Nesk zabra³ szatê jako nagrodê. PóŸniej zosta³a ona skradziona i sprzedana przez pewnego œmia³ego ³otra.
 
 PARAMETRY:
@@ -752,6 +753,6 @@ Waga: 2
 OpóŸnienie: 3
 Rodzaj bieg³oœci: krótki £uk
 Typ broni: 2-rêczna
-Wymagana si³a: 3~
+Wymagana si³a: 6~
 
 

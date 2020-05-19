@@ -9,7 +9,6 @@ Tipo di danno: proiettile (perforante)
 Speciale: Veleno
 Peso:  0
 Tipo di competenza: Arco~
-
 @4    = ~Frecce Infernali~
 @6    = ~Oltre alla sua eccellente mano d'opera, piccole rune di potere possono essere viste impresse su tutta la superficie di queste frecce. E' evidente che per costruire queste frecce ci vogliono molto tempo e molti sforzi e, sebbene non molto visibile a prima vista, un leggero bagliore blu può essere visto emanarsi dalle rune.
 
@@ -17,10 +16,9 @@ STATISTICHE:
 
 Danno: 1D8 + 2 (+1D10 da fuoco)
 THAC0:  +2
-Tipo di danno:  Proiettile (perforante)
+Tipo di danno: Proiettile (perforante)
 Peso:  0
 Tipo di competenza: Arco~
-
 @7    = ~La Freccia Fortunata di Llindellyn~
 @8    = ~Probabilmente questa freccia non è molto differente dalle altre, ma Llindellyn tuttavia ne ha un'opinione diversa.~
 /*@10   = ~Queste sono frecce avvelenate che Will è capace di preparare usando gocce di resina prelevate dal suo mazzafrusto. Ha imparato ad usare il veleno quando era molto giovane e può preparare fino a 5 frecce.
@@ -41,15 +39,16 @@ THAC0: -3 di penalità
 Tipo di danno: proiettile (perforante)
 Speciale:  
   Dopo un colpo andato a segno, il nemico sarà trasportato in un posto casuale
+Peso:  0
 Tipo di competenza: Arco~
-
 @14   = ~Ascia della Scossa~
 @16   = ~Oltre alla sua eccellente mano d'opera, piccole rune di potere possono essere viste impresse su tutta la sua superficie. E' evidente che per costruire quest'ascia ci vogliono molto tempo e molti sforzi e, sebbene non molto visibile a prima vista, un leggero bagliore blu può essere visto emanarsi dalle rune.
 
 STATISTICHE:
 
 Danno: 1D8 + 2
-THAC0:  +2 Speciale:
+THAC0:  +2
+ Speciale:
   50% di possibilità di aggiungere 1D3 di Danno Elettrico
   15% di possibilità che il bersaglio rimanga stordito
 Tipo di danno:  Tagliente
@@ -66,7 +65,6 @@ Non utilizzabile da:
  Ladro
  Monaco
  Addestratore di animali~
-
 @18   = ~Mazzafrusto della Scossa~
 @20   = ~Il mazzafrusto è composto da una solida impugnatura di legno attaccata a una verga di ferro o di legno, oppure a una palla, provvista di spine. Tra l'impugnatura e il resto si trova un perno o un anello. Originariamente quest'arma era usata come attrezzo per trebbiare il grano. Questo mazzafrusto è stato magicamente incantato. Si possono vedere delle rune che brillano su ogni parte della superficie dell'arma.
 
@@ -74,7 +72,6 @@ STATISTICHE:
 
 Danno: 1D6 + 3
 THAC0:  +2
-Bonus Classe Armatura: 1
 Speciale:
   50% di possibilità +2D3 di Danno Elettrico
   10% di possibilità che il bersaglio rimanga stordito
@@ -204,13 +201,12 @@ THAC0 bonus: +1
 Speciale:
   50% di possibilità di infliggere un'aggiunta di 2D3 di danno da fuoco
   Attacco bonus per round settato a 2
-  Bonus alla Costituzione: +1
   Fuoco/Freddo Resistenza bonus: 20%
 Peso: 3
-Velocità: 7
+Velocità: 2
 Tipo di Competenza: Arco Corto
 Tipo:  a due mani
-Richiede: 3 alla Forza
+Richiede: 6 alla Forza
 
 Non utilizzabile da:
  Chierico
@@ -343,7 +339,7 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-Classe Armatura: 4
+Classe Armatura: 4 (2 contro danno tagliente, 6 contro danno contundente)
 Resistenza all'Elettricità: +30%
 Peso: 15
 Richiede: 8 alla Forza
@@ -482,7 +478,7 @@ Resistenze Bonus:
   +10% di Resistenza ai danni Taglienti
   +10% di Resistenza al Fuoco
   +10% di Resistenza all'Elettricità
-  +2 ai Tiri Salvezza contro Incantesimi
+  +2 ai Tiri-salvezza contro Soffio
 Peso: 15
 Richiede: 6 alla Forza
 
@@ -594,7 +590,9 @@ Resistenza al Freddo: +25% bonus
 Resistenza all’Acido: +25% bonus
 Resistenza all’Elettricità: +25% bonus
 Immunità alle armi non magiche
-Durata: 60 secondi~
+Durata: 60 secondi
+Non utilizzabile da: 
+  Ammazzastregoni~
 
 @147  = ~Sull'etichetta di questa bottiglia di vino si legge "Rosso di Marsember - Buona annata" e sostiene trattarsi di una bevanda ricavata da uve fruttate e fragranze rinfrescanti. I vigneti di Marsember sono rinomati per le loro forti uve il cui sapore viene influenzato dal salmastro del Mare delle Stelle Cadute. ~
 @148  = ~Bottiglia di Vino Elfico~
@@ -623,7 +621,9 @@ STATISTICHE:
 Classe Armatura Bonus: 1
 Resistenze Bonus: 
  +25% Resistenza allo Schiacciamento
- +1 sul Tiro Salvezza contro Incantesimi~
+ +1 sul Tiro Salvezza contro Incantesimi
+Non utilizzabile da: 
+  Ammazzastregoni~
 
 @157  = ~Abito dell'Arcimago Malvagio~
 @158  = ~'Il Velo Nero di Sauron'
@@ -654,7 +654,8 @@ Penalità al Carisma: -5
 Peso: 35
 
 Non utilizzabile da:
- Personaggi di allineamento buono~
+ Personaggi di allineamento buono 
+ Ammazzastregoni~
 
 @162  = ~Scudo Piccolo +2, 'Scudo della Libertà di Movimento'~
 @164  = ~Il possessore é immune ad ogni cosa, magica e non, che ha effetti sulla mobilità, sebbene possa essere ancora affrettato. Bisogna tener conto, tuttavia, che chi indossa questo scudo sarà protetto dai benefici effetti che danno, ad esempio, gli Stivali della Velocità.
@@ -718,7 +719,7 @@ Non utilizzabile da:
 STATISTICHE:
 
 Danno: 1D6 + 2
-THAC0: +3
+THAC0: +2
 Speciale: 80% di un ulteriore 1D8+2 di Danno Tagliente
 Tipo di danno:  Schiacciamento
 Peso:  3
@@ -1229,6 +1230,7 @@ D.~
 STATISTICHE:
 
 Aumenta la Forza di chi la indossa a 19
+Peso: 2
 
 Utilizzabile solo da:
   Guerrieri (classe singola, biclasse e multiclasse)
@@ -1242,8 +1244,9 @@ Utilizzabile solo da:
 STATISTICHE:
 
 Classe Armatura: 2
-Speciale:  +1 contro Armi da Taglio
+Speciale:  -2 contro Armi da Taglio
 Peso: 40
+Richiede: 12 alla Forza
 
 Non utilizzabile da:
  Bardi
@@ -1256,10 +1259,11 @@ STATISTICHE:
 Classe Armatura:  1
 Peso: 20
 Carisma +1
-Resistenza al Fuoco: +10%
-Resistenza al Freddo: +10%
-Resistenza all'Elettricità: +10%
-Resistenza all'Acido: +10%
+ Resistenza al Fuoco: +10%
+ Resistenza al Freddo: +10%
+ Resistenza all'Elettricità: +10%
+ Resistenza all'Acido: +10%
+Richiede: 12 alla Forza
 
 Non utilizzabile da:
  Bardi
@@ -1295,13 +1299,14 @@ Non utilizzabile da:
  Mago
  Ladro~
 
+/* new in v4.0.0 */
 /* Will O'Hara soundset subcomponent */
-@551 = ~Will O'Hara suoni~
-@552 = ~Richiede [Will O'Hara NPC] componente~
-@553 = ~Installa suoni (applica il suoni inglese se i suoni specifici della lingua non sono disponibili)~
-@554 = ~Non installare suoni~
-@555 = ~I suoni mancanti verranno visualizzati nella chat di gioco~
-
+@551 = ~Will O'Hara Soundset~
+@552 = ~Richiede componente [Will O'Hara NPC].~
+@553 = ~Installare il soundset in inglese~
+@554 = ~Non installare soundset~
+@555 = ~I suoni mancanti verranno visualizzati nella finestra di testo del gioco.~
+/* ------ */
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
@@ -1319,7 +1324,7 @@ Peso: 2
 Fattore Velocità: 3
 Tipo di Competenza: Arco Corto
 Tipo:  a due mani
-Richiede: 3 alla Forza
+Richiede: 6 alla Forza
 
 Non utilizzabile da:
  Chiunque eccetto gli Elfi
@@ -1338,3 +1343,6 @@ Non utilizzabile da:
 @55131 = ~Passaggio dei Picchi delle Nuvole~
 @55132 = ~Entrata della Grotta~ 
 
+
+/* new in v4.0.0 */
+@55133 = ~Meno mostri a seconda della difficoltà del gioco~

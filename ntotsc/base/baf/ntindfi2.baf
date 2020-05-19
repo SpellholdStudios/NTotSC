@@ -1,12 +1,4 @@
 IF
-  DifficultyLT(HARDEST)
-THEN
-  RESPONSE #100
-	DestroySelf()
-END
-
-
-IF
   AttackedBy([GOODCUTOFF],DEFAULT)
   Allegiance(Myself,NEUTRAL)
 THEN

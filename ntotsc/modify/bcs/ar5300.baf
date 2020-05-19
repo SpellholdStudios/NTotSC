@@ -6,7 +6,7 @@ THEN
     CreateCreature("NTOrdol",[1511.401],9) // Ordolath
 END
 
-/* Pass entrance is open always
+/* Pass entrance is open after talking to Oupaste */
 IF
   GlobalLT("NTTalkedToOupaste","GLOBAL",1)
   Global("NTCaveOpen","%FireLeafForest%",0)
@@ -23,10 +23,11 @@ THEN
   RESPONSE #100
     SetGlobal("NTCaveOpen","%FireLeafForest%",2)
     TriggerActivation("Tran80PB",TRUE)
+    AddMapNote([3188.3775],@55131)
 END
-*/
 
-/* Set Map Point */
+
+/* Set Map Point 
 IF
   Global("NTMapPoint","MYAREA",0)
 THEN
@@ -34,3 +35,4 @@ THEN
     AddMapNote([3188.3775],@55131)
     SetGlobal("NTMapPoint","MYAREA",1)
 END
+*/

@@ -5,6 +5,9 @@ Could probably be fixed by someone else:
 -- EET: some of the symbols are very near to SoD symbols on the worldmap
 --wenn man von der Karte mit dem Tempel der Schwarzen Hand direkt nach Larswood (Turm) geht, dann landet außerhalb der Karte und steckt somit fest (ohne Teleportieren).
 --Some scripts seem off. some orc priests and mages only attacked me with melee weapons, they didn't cast spells. 
+-     Setup.tra errors: Will ring, ring of resistance, girdle of stromos, potions - weight not mentioned
+    Will armor and evalt blade dont have Str requirements
+-Will's voiceset: some lines seem in wrong order 
 
 Will probably stay:
 --You can tell the Phantasm inside “hey you are the hot topic in Beregost discussions”, without hearing about the cave in any conversation --> I have also no idea what this is referring to, but I'll leave it in.
@@ -23,7 +26,7 @@ Will probably stay:
 
 BACKUP ~ntotsc/backup~
 AUTHOR ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~3.2.0~ //191210
+VERSION ~4.0.0~ //200517
 README ~ntotsc/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~ntotsc/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~ntotsc/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -181,6 +184,12 @@ LANGUAGE
 	~ntotsc/language/polish/setup.tra~
 	~ntotsc/language/polish/journal.tra~
 
+LANGUAGE
+	~Russian~
+	~russian~
+	~ntotsc/language/russian/setup.tra~
+	~ntotsc/language/russian/journal.tra~
+
 /*
 LANGUAGE
 	~Castilian~
@@ -193,14 +202,8 @@ LANGUAGE
 	~ntotsc/language/english/prompts.tra~
 	~ntotsc/language/chinese_simplified/setup.tra~
 	~ntotsc/language/chinese_simplified/journal.tra~
-
-
-LANGUAGE
-	~Russian~
-	~russian~
-	~ntotsc/language/russian/setup.tra~
-	~ntotsc/language/russian/journal.tra~
 */
+
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -211,6 +214,7 @@ LANGUAGE
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN @0 /* ~Northern Tales of the Sword Coast (NTotSC)~ */
+DESIGNATED 0 LABEL ~NTotSC_MainComponent~
 REQUIRE_PREDICATE GAME_IS ~bgt eet bgee~ @529
 FORBID_COMPONENT ~setup-bp-bgt-worldmap.tp2~ ~0~ @530
 
@@ -995,8 +999,8 @@ COPY ~ntotsc/base/cre/nthells2.cre~ ~override~
 	SAY NAME2 @268
 
 COPY ~ntotsc/base/cre/nthells3.cre~ ~override~
-	SAY NAME1 @268
-	SAY NAME2 @268
+	SAY NAME1 @267
+	SAY NAME2 @267
 
 COPY ~ntotsc/base/cre/nthellsa.cre~ ~override~
 	SAY NAME1 @269
@@ -2343,6 +2347,35 @@ COPY	~ntotsc/base/bam~ ~override~
 COPY	~ntotsc/base/bmp~ ~override~
 COPY	~ntotsc/base/mos/%engine%~ ~override~
 
+
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+////
+////  Spawn less Monsters depending on Game Difficulty
+////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+BEGIN @55133 /* ~Spawn less Monsters depending on Game Difficulty~ */
+DESIGNATED 1 LABEL ~NTotSC_LessMonsters~
+REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
+
+
+COMPILE EVALUATE_BUFFER ~ntotsc/less_monsters/ntindfig_lm.d~
+COMPILE EVALUATE_BUFFER ~ntotsc/less_monsters/nthumbab_lm.d~
+
+EXTEND_BOTTOM ~ar02pb.bcs~ ~ntotsc/less_monsters/ar02pb_lm.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~ar61pb.bcs~ ~ntotsc/less_monsters/ar61pb_lm.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~ntindfi1.bcs~ ~ntotsc/less_monsters/ntindfi1_lm.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~ntindfi2.bcs~ ~ntotsc/less_monsters/ntdest04.baf~ EVALUATE_BUFFER
+COMPILE EVALUATE_BUFFER ~ntotsc/less_monsters/nthellsb.baf~
+COMPILE EVALUATE_BUFFER ~ntotsc/less_monsters/ntdest01.baf~
+COMPILE EVALUATE_BUFFER ~ntotsc/less_monsters/ntdest02.baf~
+COMPILE EVALUATE_BUFFER ~ntotsc/less_monsters/ntdest03.baf~
+COMPILE EVALUATE_BUFFER ~ntotsc/less_monsters/ntdest04.baf~
+
+
+
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 ////
@@ -2352,6 +2385,7 @@ COPY	~ntotsc/base/mos/%engine%~ ~override~
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @533 /* ~Keelor the Dwarf~ */
+DESIGNATED 2 LABEL ~NTotSC_KeelortheDwarf~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#KEELO.CRE~ @532
 
@@ -2385,6 +2419,7 @@ EXTEND_BOTTOM ~%BaldursGateDocks_WaterQueensHouse%.bcs~ ~ntotsc/keelor/ar0609.ba
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @534 /* ~Llindellyn's Lucky Arrow~ */
+DESIGNATED 3 LABEL ~NTotSC_LlindellynsLuckyArrow~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#LLIND.CRE~ @532
 
@@ -2415,6 +2450,7 @@ EXTEND_TOP ~AR40PB.bcs~ ~ntotsc/llindellyn/ar40pb_llindellyn.baf~ EVALUATE_BUFFE
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @535 /* ~Nim Furlwing's Hunting Hounds~ */
+DESIGNATED 4 LABEL ~NTotSC_NimFurlwing~
 
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/ubnimfur.CRE~ @532
@@ -2457,6 +2493,7 @@ EXTEND_TOP ~AR60PB.bcs~ ~ntotsc/nimfurlwing/ar60pb_nimfur.baf~ EVALUATE_BUFFER
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @536 /* ~Pilar and Gheldehar~ */
+DESIGNATED 5 LABEL ~NTotSC_PilarandGeldehar~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#GHELD.CRE~ @532
 
@@ -2488,6 +2525,7 @@ EXTEND_BOTTOM ~%NWBaldursGate_BCS%.bcs~ ~ntotsc/pilargheldehar/ar0100.baf~ EVALU
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @537 /* ~Svlast's Torment~ */
+DESIGNATED 6 LABEL ~NTotSC_SvlastsTorment~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/UBSVLAST.CRE~ @532
 FORBID_FILE ~override/JA#SVLST.CRE~ @532
@@ -2525,6 +2563,7 @@ EXTEND_BOTTOM ~%FirewineBridge_BCS%.bcs~ ~ntotsc/svlast/ar4500_svlast.baf~ EVALU
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @538 /* ~Will O'Hara NPC~ */
+DESIGNATED 7 LABEL ~NTotSC_WillNPC~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 
 /* @10081   = ~Will O'Hara~ */
@@ -2573,41 +2612,41 @@ COPY ~ntotsc/will/ntwill2.cre~ ~override~
 	~ntotsc/will/ntwill6.cre~ ~override~
 	SAY NAME1 @395
 	SAY NAME2 @395
-	SAY 0xa4 @396
-	SAY 0xa8 @397
-	SAY 0xac @398
-	SAY 0xb0 @399
-	SAY 0xb4 @400
-	SAY 0xb8 @401
-	SAY 0xbc @402
-	SAY 0xc0 @401
-	SAY 0xc4 @403
-	SAY 0xc8 @404
+	SAY 0xa4 @396 /* ~Will Scarlet, at your service!~ [WILL01] */
+	SAY 0xa8 @397 /* ~Somebody needs assassinating?~ [WILL02] */
+	SAY 0xac @398 /* ~This life suits me!~ [WILL04] */
+	SAY 0xb0 @399 /* ~What now?~ [WILL05] */
+	SAY 0xb4 @400 /* ~It's not included in my orders.~ [WILL06] */
+	SAY 0xb8 @401 /* ~Oh, I can't.~ [WILL07] */
+	SAY 0xbc @402 /* ~Good, very good!~ [WILL08] */
+	SAY 0xc0 @401 /* ~Oh, I can't.~ [WILL07]  */
+	SAY 0xc4 @403 /* ~So many things left to do!~ [WILL10]  */
+	SAY 0xc8 @404 /*  ~Come on, try my flail!~ [WILL03] */
 	SAY 0xcc ~~ [will03a]
 	SAY 0xec ~~ [will35]
 	SAY 0xf0 ~~ [will39]
-	SAY 0xf4 @408
-	SAY 0xf8 @409
-	SAY 0xfc @410
-	SAY 0x108 @410
-	SAY 0x10c @411
-	SAY 0x110 @412
-	SAY 0x114 @413
-	SAY 0x124 @414
-	SAY 0x128 @415
-	SAY 0x12c @416
-	SAY 0x130 @417
-	SAY 0x134 @418
-	SAY 0x138 @419
-	SAY 0x140 @420
-	SAY 0x144 @420
-	SAY 0x154 @420
-	SAY 0x160 @421
-	SAY 0x16c @422
-	SAY 0x178 @423
-	SAY 0x17c @424
-	SAY 0x194 @417
-	SAY 0x1cc @425
+	SAY 0xf4 @408 /* ~Still alive!~ [WILL11]  */
+	SAY 0xf8 @409 /* ~To adventure!~ [WILL13]  */
+	SAY 0xfc @410 /*  ~Guess, who's going to die?~ [WILL12] */
+	SAY 0x108 @410 /* ~Guess, who's going to die?~ [WILL12]  */
+	SAY 0x10c @411 /* ~Do like me - buy yourself a flail!~ [WILL17]  */
+	SAY 0x110 @412 /* ~We're off again!~ [WILL18]  */
+	SAY 0x114 @413 /* ~And a good thing to do.~ [WILL19]  */
+	SAY 0x124 @414 /*  ~My flail and I await only your orders!~ [WILL20] */
+	SAY 0x128 @415 /* ~At last, but not too soon!~ [WILL21]  */
+	SAY 0x12c @416 /*  ~Blood, guts and entrails!~ [WILL22] */
+	SAY 0x130 @417 /*  ~Does somebody need me?~ [WILL23] */
+	SAY 0x134 @418 /* ~I've nothing against the idea, but unfortunately it's not possible.~ [WILL24]  */
+	SAY 0x138 @419 /* ~What a headache!~ [WILL26]   */
+	SAY 0x140 @420 /* ~I'll restrain myself. Happy?~ [WILL32]  */
+	SAY 0x144 @420 /* ~I'll restrain myself. Happy?~ [WILL32]  */
+	SAY 0x154 @420 /* ~I'll restrain myself. Happy?~ [WILL32]  */
+	SAY 0x160 @421 /* ~Ha! I'm too strong!~ [WILL34]  */
+	SAY 0x16c @422 /* ~Well Viconia, if I was a mechanic I could wash your engine day by day.~  */
+	SAY 0x178 @423 /* ~This one we won't see again for a while.~ [WILL40]  */
+	SAY 0x17c @424 /* ~If I get ahold of the one who did that.~ [WILL50]  */
+	SAY 0x194 @417 /* ~Does somebody need me?~ [WILL23]  */
+	SAY 0x1cc @425 /* ~Scarlet Will, family name O'Hara, formerly was called Will Tell Helm, but he isn't fond of this name and therefore he managed to convince local people to change it. He's been living in Beregost for some time and commends the peace of the city. He's living in quite good terms with its inhabitants, although he became famous from his participation in a few rows. Nevertheless inhabitants commend his presence, due to his extraordinary courage, he has shown lately, especially during the brushes with the nearby bandits.~  */
 
 ACTION_IF GAME_IS ~bgt~ BEGIN
   COPY_EXISTING ~ntwill2.cre~ ~override~
@@ -2633,7 +2672,8 @@ COPY	~ntotsc/base/portraits/l~ ~override~
 ////////////////////////////////////////////////////////////////////////////
 
 BEGIN @553 /* Install soundset */
-	SUBCOMPONENT @551  /* Will O'Hara soundset */
+DESIGNATED 8 LABEL ~NTotSC_WillSoundset~
+//	SUBCOMPONENT @551  /* Will O'Hara soundset */
 	REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 6 @552 /* Requires 'Will O'Hara' component */
 
 	// Apply English soundset if language-specific sounds are not available
@@ -2652,12 +2692,13 @@ BEGIN @553 /* Install soundset */
 		sox_path = ~ntotsc/bin/osx~
 		output_path = ~override~
 	END
-
+/*
 // The same as [Install Component -> No]
 BEGIN @554 /* Do not install soundset */
 	SUBCOMPONENT @551  /* Will O'Hara soundset */
 	REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 6 @552 /* Requires [Will O'Hara NPC] component */
 		PRINT @555 /* Messages for missing sounds will be displayed on in-game chat */
+*/
 
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
@@ -2667,6 +2708,7 @@ BEGIN @554 /* Do not install soundset */
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 BEGIN @540 /* ~Fighting Encounters~ */
+DESIGNATED 9 LABEL ~NTotSC_FightingEncounters~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 
 

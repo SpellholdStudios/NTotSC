@@ -213,8 +213,8 @@ Schadensbonus:
 ETW0-Bonus: -1
 Angriffe/Runde: 2
 Gewicht: 3
-Initiativefaktor: 7
-Mindeststärke: 3
+Initiativefaktor: 2
+Mindeststärke: 6
 Fertigkeit: Kurzbogen
 Typ: 2-händig
 
@@ -739,7 +739,7 @@ EIGENSCHAFTEN:
 Schaden: 1W6 +2 (Wucht)
 Schadensbonus:
  +1W8 +2 (Klinge): 80% Chance
-ETW0-Bonus: -3
+ETW0-Bonus: -2
 Gewicht: 3
 Initiativefaktor: 1
 Mindeststärke: 5
@@ -1222,8 +1222,10 @@ EIGENSCHAFTEN:
 
 Rüstungsklasse: 2
 RK-Bonus:  
- -1 gg. Klingenwaffen
+ -4 gg. Klingenwaffen
+Mindeststärke: 12
 Gewicht: 40
+
 Kann nicht verwendet werden von:
  Barden
  Magiern~
@@ -1241,6 +1243,7 @@ Besondere Fähigkeiten:
     +10% Widerstand gegen Säure
 
 Rüstungsklasse: 1
+Mindeststärke: 12
 Gewicht: 20
 
 Kann nicht verwendet werden von:
@@ -1279,13 +1282,14 @@ Kann nicht verwendet werden von:
  Magiern 
  Dieben~
 
+/* new in v4.0.0 */
 /* Will O'Hara soundset subcomponent */
 @551 = ~Will O'Hara Soundset~
-@552 = ~Erfordert [Will O'Hara NPC] Komponente~
-@553 = ~Installieren Soundset (wenden Sie englische Soundset an, wenn keine sprachspezifischen Soundset verfügbar sind)~
-@554 = ~Nicht installieren Soundset~
-@555 = ~Fehlende Sounds werden im Chat im Spiel angezeigt~
-
+@552 = ~Erfordert die Komponente [Will O'Hara NPC]~
+@553 = ~Englisches Soundset installieren~
+@554 = ~Englisches Soundset nicht installieren (keine Sprachausgabe)~
+@555 = ~Sounds werden im Textfenster im Spiel angezeigt (ohne Sprachausgabe)~
+/* ------ */
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
@@ -1322,3 +1326,7 @@ Kann nur verwendet werden von:
 /* new in v3.2.0 */
 @55131 = ~Pass zum Wolkengipfelgebirge~
 @55132 = ~Höhleneingang~
+
+
+/* new in v4.0.0 */
+@55133 = ~Weniger Monster in Abhaengigkeit vom Schweregrad des Spiels~

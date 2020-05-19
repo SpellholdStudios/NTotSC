@@ -1,7 +1,7 @@
                      Northern Tales of the Sword Coast
                       a Weidu mod For Baldur’s Gate:
                            BGT, BG:EE, and EET
-                                VERSION 3.2.0
+
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
 
 
@@ -130,6 +130,11 @@ Rededge in Chapter 7
   Restores original game encounter with a rogue from the thieves' guild after Angelo took over the Flaming Fist.
 
 
+Component Spawn less Monsters depending on Game Difficulty
+++++
+ This component makes changes in monster numbers depending on game difficulty which were introducd in v.3.2.0 an optional component.
+Depending on game difficulty, number and variety of monsters in the mod's dungeons are reduced.
+
 
 Component Keelor the Dwarf 
 ++++
@@ -160,6 +165,11 @@ Component Svlast's Torment
 Component Will O'Hara NPC
 ++++
   Adds a joinable NPC who can be met in Beregost. Apart from some interjections in Beregost and some custom items, Will has no further content.
+ 
+
+Component Will O'Hara NPC Soundset
+++++
+This component will install the English audio files of Will O'Hara's soundset.
 
 
 Component Fighting Encounters
@@ -225,8 +235,22 @@ F.A.Q.
     before installing this mod.  For a BGT-Weidu install, that means it has to be in your
     BG1 game before you install BGT-Weidu.
 
-CHANGES
+CHANGES - VERSION HISTORY
 +++++++
+
+4.0.0 - by jastey
+	-Russian version by Arkie
+	-"Will O'Hara soundset subcomponent" splitted from component "Will O'Hara NPC", by Roberciiik
+	-"Spawn less Monsters depending on Game Difficulty" splitted from main component (changes in monster numbers introduced in v.3.2.0 now optional)
+	-Journal entry about Haeball wanting the elven bow should not be doubled.
+	-Ordolath should give his wand of Polymorphing in all cases as a reward.
+	-Pass entrance in Fire Leaf Forest is open after talking to Oupaste, not before (Book of the Unknowing)
+	-Fire Salamander in cave should not all be called "Humbaba" and should turn hostile
+	-Quest reward fixes, by Angel
+	-Item descriptions and abilities corrected
+	-Tolowered all new files, by Angel
+	-Italian setup-ee.tra created from setup.tra
+	-English setup-ee.tra revised by Cahir
 
 3.2.0
 	-Completed and revised Italian version by ilot

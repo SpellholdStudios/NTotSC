@@ -19,10 +19,6 @@ IF ~~ THEN BEGIN 2
   SAY @8
   IF ~~ THEN DO ~ActionOverride("NTINDFI1",Enemy())
 ActionOverride("NTINDFI2",Enemy())
-Enemy()~ EXIT
-/*
-  IF ~DifficultyGT(HARD)~ THEN DO ~ActionOverride("NTINDFI1",Enemy())
-ActionOverride("NTINDFI2",Enemy())
 CreateCreature("STALKE",[2054.780],0)
 CreateCreature("STALKE",[1231.561],0)
 CreateCreature("STALKE",[455.598],0)
@@ -31,7 +27,6 @@ CreateCreature("STALKE",[897.731],0)
 CreateCreature("STALKE",[1534.420],0)
 CreateCreature("STALKE",[1642.576],0)
 Enemy()~ EXIT
-*/
 END
 
 IF ~~ THEN BEGIN 3

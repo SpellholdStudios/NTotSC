@@ -7,21 +7,5 @@ THEN
 		SetGlobal("NT_InsertEEItems","MYAREA",1)
 END
 
-IF
-	DifficultyLT(NORMAL)
-	Global("NTDeactivateTrap01","MYAREA",0)
-THEN
-	RESPONSE #100
-		TriggerActivation("Trap01",FALSE)
-		SetGlobal("NTDeactivateTrap01","MYAREA",1)
-END
 
-IF
-	DifficultyLT(EASY)
-	Global("NTDeactivateTrap02","MYAREA",0)
-THEN
-	RESPONSE #100
-		TriggerActivation("Trap02",FALSE)
-		SetGlobal("NTDeactivateTrap02","MYAREA",1)
-END
 	
