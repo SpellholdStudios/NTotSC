@@ -163,8 +163,8 @@ Schadensbonus:
  +2W3 (Feuer): 50% Chance
 ETW0-Bonus: -1
 Angriffe/Runde: 2
-Initiativefaktor: 7
-Mindeststärke: 3
+Initiativefaktor: 2
+Mindeststärke: 6
 Fertigkeit: Kurzbogen
 Typ: 2-händig
 
@@ -299,7 +299,7 @@ RK-Bonus:
  -1 gg. Geschosswaffen
  -2 gg. Stichwaffen
  -1 gg. Klingenwaffen
-RW-Malus gg. Odem: +2 auf Rettungswürfe
+RW-Bonus: -2 gg. Odemwaffen
 Mindeststärke: 6
 
 Gewicht: 15~
@@ -383,7 +383,7 @@ EIGENSCHAFTEN:
 Schaden: 1W6 +2 (Wucht)
 Schadensbonus:
  +1W8 +2 (Klinge): 80% Chance
-ETW0-Bonus: -3
+ETW0-Bonus: -2
 Initiativefaktor: 1
 Mindeststärke: 5
 Fertigkeit: Kampfstab
@@ -456,7 +456,7 @@ EIGENSCHAFTEN:
 
 Rüstungsklasse: 2 
 RK-Bonus:
- -2 gg. Klingenwaffen
+ -4 gg. Klingenwaffen
 Mindeststärke: 12 
 
 Gewicht: 40~

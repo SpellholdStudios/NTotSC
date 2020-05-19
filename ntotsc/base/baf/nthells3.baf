@@ -1,8 +1,20 @@
 IF
-  Global("NTOogoorHostile","MYAREA",1)
-  Allegiance(Myself,NEUTRAL)
+  OR(2)
+  	Global("NTOogoorHostile","MYAREA",1)
+	Allegiance("NTHUMBAB",ENEMY)
+  Global("NTHostile","LOCALS",0)
 THEN
   RESPONSE #100
+  	SetGlobal("NTHostile","LOCALS",1)
 	Enemy()
+END
+
+IF
+  Global("NTOogoorHostile","MYAREA",0)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+  	SetGlobal("NTOogoorHostile","MYAREA",1)
+	ActionOverride("NTHUMBAB",Enemy())
 END
 

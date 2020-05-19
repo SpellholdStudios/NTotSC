@@ -5,7 +5,8 @@ STATISTICS:
 Combat abilities:
 - Afflicts target with poison
 
-Damage: 1d6 (missile)
+Damage: 1d6 
+Damage type: Missile (piercing)
 Launcher: Bow
 
 Weight: 0~
@@ -14,12 +15,12 @@ Weight: 0~
 
 STATISTICS:
 
-THAC0:  +2
-Damage: 1d8+2, +1d10 fire damage
-Damage type:  Missile
-Launcher:  Bow
+THAC0: +2
+Damage: 1d8+2, +1d10 fire
+Damage type: Missile
+Launcher: Bow
 
-Weight  0~
+Weight 0~
 
 /*@10   = ~These are poisoned arrows which Will is able to prepare using the resin dribbling from his curious flail. He learned to use the poison at a very young age and can obtain enough for 5 arrows.
 STATISTICS:
@@ -36,7 +37,8 @@ Combat abilities:
 - After a successful hit, the enemy is transferred to a random place
 
 THAC0: -3 penalty
-Damage: 1d3 (missile)  
+Damage: 1d3
+Damage type: Missile (piercing)
 Launcher: Bow
 
 Weight: 0~
@@ -46,50 +48,56 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- 50% chance per hit of additional 1d3 electricity damage
-- 15% chance per hit of stunning target for 1 round
+- 50% chance each hit that target will suffer additional 1d3 electricity damage
+- 15% chance each hit of stunning target for 1 round
 
 THAC0: +2
-Damage: 1d8+2 (slashing)
+Damage: 1d8+2
+Damage type: Slashing
 Speed Factor: 7
 Proficiency Type: Axe
 Type: One-handed
 Requires: 
  10 Strength
 
-Weight: 7~
+Weight: 7
+~
 
 @20   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain. This flail has been enhanced magically. Runes can be seen glowing on every surface.
 
 STATISTICS:
 
 Combat abilities:
-- 50% chance per hit of additional 2d3 electricity damage 
-- 10% chance per hit of stunning target for 1 round
+- 50% chance each hit that target will suffer additional 2d3 electricity damage
+- 10% chance each hit of stunning target for 1 round
 
 THAC0: +2
-Damage: 1d6+3 (crushing)
+Damage: 1d6+3
+Damage type: Crushing
 Speed Factor: 7
 Proficiency Type: Flail/Morning Star
 Type: One-handed
 Requires: 
  11 Strength
 
-Weight: 15~
+Weight: 15
+~
 
 @24   = ~This was the personal weapon of Nirel, a powerful cleric, whom little is know about.  However, history does record that he was a vile zealot whose hatred for followers of other faiths knew almost no bounds. It is said that he kept the heads of his victims as trophies. He was personally responsible for defiling over one hundred temples of other faiths; thus earning himself, and his mace, the nickname 'Defiler'.
 
 STATISTICS:
 
 THAC0: +2
-Damage: 1d6+3 (crushing)
+Damage: 1d6+3
+Damage type: Crushing
 Speed Factor: 6
 Proficiency Type: Mace
 Type: One-handed
 Requires: 
  3 Strength
 
-Weight: 7~
+Weight: 7
+~
 @26   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder.
 
 STATISTICS:
@@ -98,7 +106,8 @@ Equipped abilities:
 – When Will wields his flail, he is able to create 5 poisoned bullets
 
 THAC0: +1
-Damage: 1d8+1 (crushing)
+Damage: 1d8+1
+Damage type: Crushing
 Weight: 10
 Speed Factor: 6
 Proficiency Type: Flail/Morning Star
@@ -106,29 +115,31 @@ Type: One-handed
 Requires: 
  13 Strength
 
-Weight: 10~
+Weight: 10
+~
 @27   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder.
 
 STATISTICS:
 
 Equipped abilities:
 – When Will wields his flail, he is able to create 5 poisoned bullets
-- Strength +2
-- Maximum HP +10
+- Strength: +2
+- Maximum Hit Points: +10
 
 Combat abilities:
 - 50% chance to slow target upon successful attack
 
 THAC0: +3
-Damage: 1d8+3 (crushing)
+Damage: 1d8+3
+Damage type: Crushing
 Speed Factor: 6
 Proficiency Type: Flail/Morning Star
 Type: One-handed
 Requires: 
  13 Strength
 
-Weight: 10~
-
+Weight: 10
+~
 @29   = ~These are normal crossbow quarrels that have been envenomed with a fast acting vegetable poison.
 
 STATISTICS:
@@ -136,22 +147,24 @@ STATISTICS:
 Combat abilities:
 - Additional poison damage
 
-Damage: 1d8 (missile)
-Launcher:  Crossbow
+Damage: 1d8
+Damage type: Missile (piercing)
+Launcher: Crossbow
 
-Weight:  0~
-
+Weight: 0
+~
 @33   = ~These were the boots of Nirel, a powerful cleric, whom little is know about.  However, history does record that he was a vile zealot whose hatred for followers of other faiths knew almost no bounds. It is said that he kept the heads of his victims as trophies. He was personally responsible for defiling over one hundred temples of other faiths.
 
 STATISTICS:
 
 Equipped abilities:
-– Saving Throws: +1 bonus
+– Saving Throws: +1
 - Magic Resistance: +5%
 
-Weight: 3~
+Weight: 3
+~
+@37   = ~This weapon is holy to warriors in the service of Talos, god of storms and destruction, and has seen decades of use in their capable hands. A short bow made of many composite layers of wood, the Storm Bow has been used against the myriad enemies of the church of Talos.
 
-@37   = ~This weapon is holy to warriors in the service of Talos, god of storms and destruction, and has seen decades of use in their capable hands. A short bow made of many composite layers of wood, the Storm Bow has been used against the myriad enemies of the church of Talos.  
 Most recently, the bow was in the possession of a Storm Knight named Kalassan Brevered, who was killed after striking down a number of rangers and druids on the Moonshae Isles.
 
 STATISTICS:
@@ -160,7 +173,7 @@ Equipped abilities:
 – Electricity Resistance: +30%
 - Attacks per round: 3
 
-THAC0:  +1
+THAC0: +1
 Damage: +1
 Speed Factor: 3
 Proficiency Type: Shortbow
@@ -168,30 +181,32 @@ Type: Two-handed
 Requires: 
  5 Strength
 
-Weight: 3~
-
+Weight: 3
+~
 @40   = ~This bow emanates heat despite the fact that it seems to be cold in your hands - as if the bow would be content with its abilities.
+
 Such bows are often met in the cold lands of the Ten Towns area, but this one is exceptionally dangerous.
 
 STATISTICS:
 
 Equipped abilities:
 – Attacks per round: 2
-- Fire/Cold Resistance bonus: 20%
+- Fire Resistance: +20%
+- Cold Resistance: +20%
 
 Combat abilities:
-- 50% chance per hit of additional 2d3 fire damage
+- 50% chance each hit that target will suffer additional 2d3 fire damage
 
 THAC0: +1
 Damage: +1
-Speed Factor: 7
+Speed Factor: 2
 Proficiency Type: Shortbow
 Type: Two-handed
 Requires: 
- 3 Strength
+ 6 Strength
 
-Weight: 3~
-
+Weight: 3
+~
 @44   = ~Made during the golden age of the elves of the Firewine. Weighted and balanced perfectly this bow becomes an especially lethal weapon in an elf's hands, able to pierce any armor with its arrows.
 
 STATISTICS:
@@ -207,19 +222,21 @@ Type: Two-handed
 Requires: 
  15 Strength
 
-Weight: 3~
-
+Weight: 3
+~
+/*
 @48   = ~Gloves of Master Thievery: 'Sticky Fingers'
 These gloves - sought by the adepts of thieving - were once the property of a famous pickpocketer All An Woo-Dy.
 
 STATISTICS:
 
 Equipped abilities:
-– Pickpocketing: +15%
-- Lockpicking: +15%
+– Pick Pockets: +15%
+- Open Locks: +15%
 
-Weight: 1~
-
+Weight: 1
+~
+*/
 @52   = ~These are poisoned bullets which Will is able to prepare using the resin dribbling from his curios flail. He learned to use the poison at a very young age and can obtain enough for 5 bullets.
 
 STATISTICS:
@@ -228,40 +245,42 @@ Combat abilities:
 - Afflicts target with poison
 
 THAC0: +1
-Damage: 1d5+2 (missile)
-Launcher:  sling
+Damage: 1d5+2 
+Damage type: Missile (piercing)
+Launcher: Sling
 
-Weight: 0~
-
+Weight: 0
+~
+/*
 @56   = ~Crafted by Sage, one of the Ancients, to help him in his guest against evil.  Ancient lore states that Sage was a mighty warrior who rarely felt the touch of his foes in battle, yet it is said when he did he always recovered quickly no matter how fierce the attack or battle had been.
 
 STATISTICS:
 
 Equipped abilities:
 – Magic Resistance: +5% 
-- Regeneration of 3 HP per second
+- Regeneration: 3 Hit Points each second
 
-Armor Class: 4 (2 vs. slashing, 6 vs. crushing)
+Armor Class: 4 (6 vs. crushing, 2 vs. slashing)
 Requires: 
  6 Strength
 
-Weight: 9~
-
+Weight: 9
+~
 @58   = ~Elven Chain is praised for its capability of enabling spellcasting abilities while being worn. This particular one is enchanted to give its wearer more intelligence, but not for free. It can only be worn by elves.
 
 STATISTICS:
 
 Equipped abilities:
-– Intelligence: +1 bonus
-– Constitution: -2 penalty
+– Intelligence: +1
+– Constitution: -2
 - Can memorize one extra divine or arcane spell of 2nd and 3rd level
 
-Armor Class: 2 (0 vs. slashing, 4 vs. crushing)
+Armor Class: 2 (4 vs. crushing, 0 vs. slashing)
 Requires: 
  7 Strength
 
-Weight: 8~
-
+Weight: 8
+~
 @60   = ~Given to the best warriors and strongest priests of the Ebon Hand.
 
 STATISTICS:
@@ -269,12 +288,13 @@ STATISTICS:
 Equipped abilities:
 – Magic Resistance: +5% 
 
-Armor Class: 2 (0 vs. slashing, 4 vs. crushing)
+Armor Class: 2 (4 vs. crushing, 0 vs. slashing)
 Requires: 
  6 Strength
 
-Weight: 10~
-
+Weight: 10
+~
+*/
 @62   = ~During the times of prosperity of Firewine, special versions of the illustrious elven chainmail were made that added protection against the thunderstorms which appeared sometimes in the area.
 
 STATISTICS:
@@ -286,10 +306,12 @@ Armor Class: 4 (2 vs. slashing, 6 vs. crushing)
 Requires: 
  8 Strength
 
-Weight: 15~
-
+Weight: 15
+~
 @67   = ~The origins of this cloak were lost in the mists of time. However, for some time it was in the possession of Drosus, a mage of no small power from Waterdeep. Drosus fell afoul to an unusually large group of winter wolves on a solo expedition into the Spine of the World Mountains, having been forced to don a heavier cloak to keep out the cold.
+
 At first glance this cloak appears to be blinding white in color. However, it is in fact a composite of thousands of colors, which dance and play in any available light source. This barrage of scintillating colors tends to distract and partially blind anyone staring directly at the wearer.
+
 This cloak can be worn in combination with any other form of enchanted protection - thus it can be worn over magical armor unlike a Cloak of Protection.
 
 STATISTICS:
@@ -297,24 +319,26 @@ STATISTICS:
 Equipped abilities:
 - Armor Class: +2
 
-Weight: 3~
-
-
+Weight: 3
+~
+/*
 @79   = ~The original name of this odd blade is lost in the murky depths of the Sea of Swords. Crafted of magically strengthened sahuagin bone, the weapon is believed to have been used by kuo-toa in bizarre rituals. The handle is crafted from coral wrapped in sahuagin skin. At one time, it was owned by Lockhart, a prominent adventuring thief and smuggler on the Sword Coast. It was he who gave the blade its current name.
 
 STATISTICS:
 
 Combat abilities:
-– 2% chance of casting Finger of Death on target
+– 2% chance each hit of casting Finger of Death on target
 
 THAC0: +2
-Damage: 1d4+2 (piercing)
-Speed Factor:  1
+Damage: 1d4+2 
+Damage type: Missile (piercing)
+Speed Factor: 1
 Proficiency Type: Dagger
 Type: One-handed
 
-Weight:  1~
-
+Weight: 1
+~
+*/
 @83   = ~This dart looks like any other dart except for the fact that it has been laced with a powerful poison.
 
 STATISTICS:
@@ -323,99 +347,107 @@ Equipped abilities:
 – Attacks per round: 4 
 
 Combat abilities:
-– High chance to Poison target for 10 rounds
+– High chance of poisoning target for 10 rounds
 
-Damage: 1d3 (missile)
+Damage: 1d3 
+Damage type: Missile (piercing)
 Speed Factor: 2
 Proficiency Type: Dart
 Type: One-handed
 
-Weight: 0~
-
+Weight: 0
+~
+/*
 @99   = ~A Shadow Armor is a studded leather armor created for use by the Shadowmasters of Amn. Shadowmasters are of the highest ranks within the Shadow Thief hierarchy. It is +3 studded leather armor that melds into shadows. This particular brand has been improved upon by a great thief of the Realms. No mention of his name is given, due to the fact that he was so damn good, no one ever saw him unless they were about to depart to the hereafter.
 
 STATISTICS:
 
 Equipped abilities:
-– +15% Find Traps
-- +15% Move Silently
-- +15% Open Locks
-- +15% Pick Pockets
+– Find Traps: +15%
+- Move Silently: +15%
+- Open Locks: +15%
+- Pick Pockets: +15%
 
-Armor Class: 3 (2 vs. piercing, 1 vs. slashing, 2 vs. missiles, 4 vs. crushing)
+Armor Class: 3 (4 vs. crushing, 2 vs. piercing and missile, 1 vs. slashing)
 Requires: 
  6 Strength
 
-Weight: 1~
-
+Weight: 1
+~
+*/
 @101  = ~Taerom has made a good set of leather armor for Will. You should visit him again at some point - it is possible the old smith can improve that gem even further.
 
 STATISTICS:
 
 Equipped abilities:
-– Saves vs. Petrification/Polymorph: +2
+– Saving Throw vs. Petrification: +2
+– Saving Throw vs. Polymorph: +2
 - Can memorize one extra arcane spell of each level from 1st to 4th
 
-Armor Class: 4 (3 vs. piercing, 2 vs. slashing, 3 vs. missiles)
-Special:
-  Saves vs. Petrification/Polymorph: +2
-  +1 Bonus Mage spell for levels 1-4
-Weight: 15~
+Armor Class: 4 (3 vs. piercing and missile, 2 vs. slashing)
+
+Weight: 15
+~
 @102  = ~Taerom did his best job on this leather armor. Now Will's armor has become solid protection indeed.
 
 STATISTICS:
 
 Equipped abilities:
-– Saves vs. Petrification/Polymorph: +3
+– Saving Throw vs. Petrification: +3
+– Saving Throw vs. Polymorph: +3
 - Luck: +1
-- Electricity resistance: +15%
-- Acid resistance: +30%
+- Electricity Resistance: +15%
+- Acid Resistance: +30%
 - Can memorize one extra arcane spell of each level from 1st to 8th
 
-Armor Class: 0 (-1 vs. piercing, -2 vs. slashing, -1 vs. missiles)
+Armor Class: 0 (-1 vs. piercing and missile, -2 vs. slashing)
 
-Weight: 15~
-
+Weight: 15
+~
+/*
 @104  = ~This armor was the property of the famous Snow Barbarian Prince, Corbus Denolx of Greyhawk. How or why it left his possession is not known.
 
 STATISTICS:
 
-Armor Class: 5 (4 vs. piercing, 3 vs. slashing, 4 vs. missiles)
+Armor Class: 5 (4 vs. piercing and missile, 3 vs. slashing)
 Requires: 
  6 Strength
 
-Weight: 8~
-
+Weight: 8
+~
+*/
 @106  = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks. The soft leather backing is little more than a means of securing the rivets in place.
 
 STATISTICS:
 
 Equipped abilities:
-– +10% Piercing Resistance
-- +10% Slashing Resistance
-- +10% Fire Resistance
-- +10% Electrical Resistance
-- +2 to Saves vs Spells
+– Piercing Resistance: +10%
+- Slashing Resistance: +10%
+- Fire Resistance: +10%
+- Electrical Resistance: +10%
+- Saving Throw vs. Breath: +2
 
-Armor Class: 5 (4 vs. piercing, 3 vs. slashing, 4 vs. missiles)
+Armor Class: 5 (4 vs. piercing and missile, 3 vs. slashing)
 Requires: 
  6 Strength
 
-Weight: 15~
-
-@109  = ~This delicately crafted Lute has silvery strings strung into a deeply stained wooden frame inlaid with gold. The craftsmanship appears exquisite, perfect, and almost inhuman. So much so in fact that even inexperienced fingers playing across the strings seem to strike the most beautiful chords. Oddly enough, there is no visible method for tuning, as if it wasn't necessary. A feeling of awe begins to creep up your spine as you observe all the intricacies of this beautiful instrument.~
-@110  = ~Hirsuhnite's Lute 'The Quiet Audience'
+Weight: 15
+~
+/*
+@110  = ~Hirsuhnite's Lute: 'The Quiet Audience'
 This finely made Lute is well known among the Hiphrodites of the east. It is said to be the origins of sleep. As far as rumors go, a Hiphrodite bard named Hirsuhnite found the song of complete surrender within the bountiful sanctum of the night, scribing it into the lute.
 
 STATISTICS:
 
 Charge abilities:
 – Target is rendered unconscious
-  Duration:  2 turns
+Duration: 2 turns
 
-Weight:  3~
+Weight:  3
+~
+*/
+@114  = ~Commonly used equipment within the Realms. So very practical in every aspect that no respected house maid could imagine an existence without it.
 
-@114  = ~Commonly used equipment within the Realms. So very practical in every aspect that no respected house maid could imagine an existence without it. 
 This copy does not seem to differ from others, but it is dirtied with a greasy substance, smells peculiarly, and is equipped with a safety belt and a hole which makes it possible to fix the strange drive part submitted to the set onto it. 
 Acting desperately, it can also be used to defend oneself as well.
 
@@ -424,15 +456,16 @@ STATISTICS:
 Combat abilities:
 – 100% chance of critical hit upon impact
 
-Damage: 1d1+1 (crushing)
+Damage: 1d1+1
+Damage type: Crushing
 Speed Factor: 1
 Proficiency Type: Quarterstaff
 Type: Two-handed
-Requires: 5 Strength
+Requires: 
+ 5 Strength
 
-Weight: 3~
-
-
+Weight: 3
+~
 @120  = ~Some priest like to carry a small effigy of their deity with them wherever they may go. Such diligence can only be rewarded.
 
 STATISTICS:
@@ -444,34 +477,33 @@ Special:
 
 STATISTICS:
 
-Armor Class: 2 (-1 vs. slashing, -1 vs. missiles)
+Armor Class: 2 (-1 vs. missiles, -1 vs. slashing)
 Requires: 
  12 Strength
 
-Weight: 20~
-
+Weight: 20
+~
 @145  = ~This powerful elixir will activate a shield formed from the fires of a phoenix around the imbiber. The effects are powerful but short lived.
 
 STATISTICS:
 
-Armor Class: +4
-Fire resistance: +50%
-Cold Resistance: +25%
-Acid Resistance: +25%
-Electrical Resistance: +25%
-Immunity to non-magical weapons
+Equipped abilities:
+- Armor Class: +4
+- Fire resistance: +50%
+- Cold Resistance: +25%
+- Acid Resistance: +25%
+- Electrical Resistance: +25%
+- Immunity to non-magical weapons
 Duration: 60 seconds
 
-Weight: 1~
-
+Weight: 1
+~
 @149  = ~This bottle of elven wine will heal just as much as it might intoxicate. During an elven festival, one of the priests of Seldarine's Hand imbibed too much and accidentally added a barrel to a mixture that was intended for healing potions.
 
 STATISTICS:
 
-Special: Heals 35 hit points
-	 80% chance to get drunk for 30 minutes~
-
-
+Special: Heals 35 hit points (80% chance to get drunk for 30 minutes)
+~
 @153  = ~Will does not want to tell where the ring comes from, but its advantages are rare and it probably was done by a friend of Will with magical powers.
 
 STATISTICS:
@@ -479,8 +511,8 @@ STATISTICS:
 Equipped abilities:
 – Magic Resistance +20%
 
-Weight: 0~
-
+Weight: 0
+~
 @155  = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession.
 For no apparent reason, this ring feels warm to the touch.
 
@@ -488,12 +520,13 @@ STATISTICS:
 
 Equipped abilities:
 - Armor Class: +1
-– Resistance against Crushing: +25%
-- Saving Throws vs Spells: +1
+– Crushing Resistance: +25%
+- Saving Throws vs. Spells: +1
 
-Weight: 0~
-
-@158  = ~'Sauron's Black Veil'
+Weight: 0
+~
+/*
+@158  = ~Sauron's Black Veil
 This particular robe of the magi is the result of Sauron's great skill with both sorcerous and priestly powers. It offers the usual protection against all forms of physical attacks while at the same time increasing one's magical resistance and saving throws. It also grants the wearer the ability to create dimensional doorways and become a 'shadow' of his or her normal self. Due to the nature of its enchantment, it can only be worn by mages of evil alignment.
 
 STATISTICS:
@@ -508,19 +541,23 @@ Charge abilities:
 
 Armor Class: 5
 
-Weight: 2~
-
+Weight: 2
+~
+*/
 @160  = ~Orcish shamans often made their clothes with poor materials fixed with leather parts so they are eyesore, heavy and regularly are not the top interest for adventurers, although they possess many advantages.
 
 STATISTICS:
 
 Equipped abilities:
 - Armor Class: +2
-– Electricity, Fire and Cold Resistance: +40%
-- Charisma penalty: -5
+– Electricity Resistance: +40%
+– Fire Resistance: +40%
+– Cold Resistance: +40%
+- Charisma: -5
 
-Weight: 35~
-
+Weight: 35
+~
+/*
 @164  = ~The wearer is immune to everything, magical and otherwise, that effects mobility in any way, although can still be hasted. Be aware, however, this will also protect the wearer from beneficial effects such as those received from the boots of speed.
 
 STATISTICS:
@@ -533,8 +570,9 @@ Equipped abilities:
 Requires: 
  4 Strength
 
-Weight: 3~
-
+Weight: 3
+~
+*/
 @168  = ~Etched with Elven runes across its surface, this shield was made from one of the strongest metals to ever come from Elven hands. Any bearer of this shield will be confident that any blow brought upon it will be deflected.
 
 STATISTICS:
@@ -546,44 +584,47 @@ Equipped abilities:
 Requires: 
  15 Strength
 
-Weight: 8~
+Weight: 8
+~
 @174  = ~Raasi'doch de Velle spent many moons working with artisans of the Wandering Village on the creation of this enchanted hunter's spear. The elven ranger needed a weapon to exterminate werewolves terrorizing the Tethyr's woods. Like the man himself, the weapon is bereft of extravagant ornamentation but it always flies straight and true.  When the crusade was finished de Velle probably sold his gear to some famous militarist.
 
 STATISTICS:
 
 Combat abilities:
 – +1d6 additional slashing damage upon hit
-– +3 damage bonus vs. lycanthropes
-– additional THAC0 bonus vs. lycanthropes: +1
+– +3 damage vs. lycanthropes
+– +1 THAC0 vs. lycanthropes
 
 THAC0: +2 
-Damage: 1d6+2 (piercing) 
+Damage: 1d6+2 
+Dagae type: Piercing
 Speed Factor: 2
 Proficiency Type: Spear 
 Type: Two-handed
 Requires: 
  5 Strength
 
-Weight: 5~
-
+Weight: 5
+~
 @176  = ~Eron the Dismayed was a pessimistic wizard with a propensity for magical dueling. He believed that the only way to become strong in the Art was to test his powers against other mages. He also believed that thieves and assassins were constantly plotting to steal his wealth. To make himself appear ordinary, he wore the clothes of a pilgrim and carried a simple elm walking staff. In reality, the staff was magically enchanted to be more potent in combat, but Eron did all he can to hide this fact.
 
 STATISTICS:
 
 Combat abilities:
-– Chance for additional 1d8+2 slashing damage upon hit: 80%
+– 80% chance each hit for additional 1d8+2 slashing damage
 
-THAC0: +3
-Damage: 1d6+2 (crushing)
+THAC0: +2
+Damage: 1d6+2 
+Damage type: Crushing
 Speed Factor:  1
 Proficiency Type: Quarterstaff
 Type: Two-handed
 Requires: 
  5 Strength
 
-Weight: 3~
-//ntstaff2.itm
-
+Weight: 3
+~
+/*
 @178  = ~Questing staves were originally created in some other realm, but they have found their way to Faerûn. They are usually filled with spells that provide some protection like warding against certain elements, or grant either entrance or egress, or bestow the wielder with simple knowledge. This particular staff casts Knock, Detect Evil, Cure Critical Wounds, and Raise Dead, each at least once per day. Moreover, it provides protection from fire like the ring of that name and increases resistance against magic.
 
 STATISTICS:
@@ -593,40 +634,40 @@ Equipped abilities:
 - Magic Resistance: +20%
 
 Charge abilities:
-– Knock three times per day
-- Detect Evil twice per day
-- Cure Critical Wounds once per day
-- Raise Dead once per day
+– Knock, three times per day
+- Detect Evil, twice per day
+- Cure Critical Wounds, once per day
+- Raise Dead, once per day
 
 THAC0: +2
-Damage: 1d6+2 (crushing)
+Damage: 1d6+2
+Damage type: Crushing
 Speed Factor: 2
 Proficiency Type: Quarterstaff
 Type: Two-handed
 Requires: 
  5 Strength
 
-Weight: 4~
-//ntstaff3.itm
-
+Weight: 4
+~
 @180  = ~This finely crafted staff was among the gifts presented as a peace offering from the Necromancers of Perregal to the Druids of Erreth-Akbe when their 200 year war finally ended. The Druids themselves would never have used it, but to refuse the gift might have been all it would take to break the fragile peace.
 
 STATISTICS:
 
 Combat abilities:
-– Vampiric: wielder heals 4 HP upon every hit
+– Vampiric: wielder heals 4 Hit Points upon every hit
 
 THAC0: +1
-Damage: 1d6+3 (crushing)
+Damage: 1d6+3
+Damage type: Crushing
 Speed Factor: 1
 Proficiency Type: Quarterstaff
 Type: Two-handed
 Requires: 
  5 Strength
 
-Weight: 3~
-//ntswd01.itm
-
+Weight: 3
+~
 @184  = ~This Sword was forged by Kid'Seroki to combat his blood enemy, trolls. After stealing from them The Ring of the Troll Magi the troll gods sent endless parties of trolls after Kid'Seroki to retake it from him. To prevent this, Kid'Seroki forged various magics into this sword and called it Troll's Nightmare.
 
 STATISTICS:
@@ -640,22 +681,24 @@ Type: One-handed
 Requires: 
  4 Strength
 
-Weight: 5~
-//ntswd02.itm
-
+Weight: 5
+~
 @186  = ~This blade was created by a dragonslayer who lost his life due to... well... his profession.
 
 STATISTICS:
 
 THAC0: +1
-Damage: 1d10+1 (slashing)
+Damage: 1d10+1
+Damage type: Slashing
 Speed Factor: 9
 Proficiency Type: Long Sword
 Type: One-handed
 Requires: 
  11 Strength
 
-Weight: 9~
+Weight: 9
+~
+*/
 //ntswd03.itm
 
 @190  = ~This weapon was created by the smiths of ancient Myth Drannor. This sword, which has been passed through the generations, has been in Evalt's family for centuries. This particular blade gives resistance to fire.
@@ -665,15 +708,16 @@ STATISTICS:
 Equipped abilities:
 – Fire Resistance: +30%
 
-THAC0:  +1
-Damage: 1d6+1 (slashing)
+THAC0: +1
+Damage: 1d6+1
+Damage type: Slashing
 Speed Factor: 5
 Proficiency Type: Short Sword
 Type: One-handed
 
-Weight: 4~
-//ntswd04.itm
-
+Weight: 4
+~
+/*
 @194  = ~Morridin was the subject of many a joke about his sword. Many jested that such a little man could not wield such a large sword. However those who laughed didn’t laugh long or ever again due to the deadly accuracy and deftness with which Morridin handled his blade.
 
 STATISTICS:
@@ -681,76 +725,81 @@ STATISTICS:
 Equipped abilities:
 – Dexterity: +2
 
-THAC0:  +1
-Damage: 1d10+1 (slashing)
+THAC0: +1
+Damage: 1d10+1
+Damage type: Slashing
 Speed Factor: 7
-Proficiency Type: Two-handed Sword
+Proficiency Type: Two-Handed Sword
 Type: Two-handed
 Requires: 
  10 Strength
 
-Weight:  5~
+Weight: 5
+~
+*/
 //ntswd05.itm
 
 @197 = ~This great sword was once wielded by the hands of Ghotal, famous leader of the orcish hordes from the North. With it he was able to instantly press against Luskan, Targos and other towns, even including Neverwinter. The fame of the sword was such that it made most of the defenders unwilling to put up any sort of organized resistance. But Ghotal went too far when Targos was finally conquered and destroyed. Allied forces of elves from Everaska and people of other northern towns ambushed the general and annihilated most of his legions. Ghotal himself however escaped from the battlefield, but was mortally wounded. He was never heard or seen of since, though orcish legend says he exists to this day, awaiting the opportunity to once again wreak havok upon the countryside.
 
 STATISTICS:
 
-THAC0:  +3
-Damage: 1d12 + 3
+THAC0: +3
+Damage: 1d12+3
+Damage type: Slashing
 Speed Factor: 7
-Proficiency Type: Two-handed Sword
+Proficiency Type: Two-Handed Sword
 Type: Two-handed
 Requires: 
  13 Strength
 
-Weight: 12~
-//ntswd06.itm
-
+Weight: 12
+~
+/*
 @199  = ~Crafted by the Mage King Varashar for the commander of his Death Knights. The sword quickly became legendary for its ability to cut through almost anything. Entire legions were known to flee the battlefield upon sight of the legendary blade.
 
 STATISTICS:
 
 Combat abilities:
-- Chance to inflict Panic upon sucessful hit: 20%
+- 20% chance each hit to inflict panic
 
 THAC0: +1
-Damage:  1d8+1 (slashing)
+Damage: 1d8+1
+Damage type: Slashing
 Speed Factor: 3
 Proficiency Type: Long Sword
 Type: One-handed
 Requires: 
  10 Strength
 
-Weight: 3~
-//ntswd07.itm
-
+Weight: 3
+~
 @201  = ~Two-Handed Sword +1: 'Durlag's Pride'
 
 STATISTICS:
 
-THAC0: +1 
-Damage: 1d10+1 (slashing)
-Speed Factor:  9
-Proficiency Type: Two-handed Sword
+THAC0: +1
+Damage type: Slashing
+Speed Factor: 9
+Proficiency Type: Two-Handed Sword
 Type: Two-handed
 Requires: 
  13 Strength
 
-Weight:  10~
-//ntswd08.itm
-
+Weight: 10
+~
 @203  = ~This is an ancient sword of unknown origin, once rumored to be in Durlag's Tower. Some say the sword was crafted at Myth Drannor; yet the most accurate account places the sword in the hands of Sage the Ancient.
 
 STATISTICS:
 
-THAC0:  +2
-Damage: 2d4+2 Acid damage
+THAC0: +2
+Damage: 2d4+2 acid damage
 Speed Factor: 2
 Proficiency Type: Long Sword
 Type: One-handed
 
-Weight: 0~
+Weight: 0
+~
+*/
 //ntswd09.itm
 
 @205  = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. 
@@ -759,9 +808,9 @@ The blade of this sword is covered with all sorts of arcane symbols.
 STATISTICS:
 
 Combat abilities:
-- Chance target is stunned upon hit: 10%
+- 10% chance target is stunned
 
-THAC0 : +2
+THAC0: +2
 Damage: 1d8+2, +1d4 fire
 Damage type: Slashing
 Speed: 4
@@ -770,9 +819,8 @@ Type: One-handed
 Requires: 
  6 Strength
 
-Weight: 4~
-
-
+Weight: 4
+~
 //scrlnt71.itm
 
 @211  = ~Skeleton Guard 
@@ -796,13 +844,12 @@ Saving Throw: 1/2
 
 This spell brings forth a thin, smoky cloud that fills the area of effect and initially appears harmless. However, one round later it sparks and flames, dealing 1 - 2 points of fire damage per level in this round. In fourth round it deals 1 - 4 points per level, and in fifth round 1 - 2 points again. Saving throw can reduce the damage by half for every round of duration. The cloud will continue to flare at regular one round intervals for the duration of the spell.~
 
-
-@501  = ~Inside of this glass pot is an expensive mixture of oil and other chemicals.  When this mixture is set ablaze, it burns for several seconds at a very hot temperature.  Flaming oil is sometimes difficult to use because it takes a long time for the user to properly throw it.  Adventurers often carry oil with them to deal with trolls in the unfortunate event that they are encountered.
+@501  = ~Inside of this glass pot is an expensive mixture of oil and other chemicals. When this mixture is set ablaze, it burns for several seconds at a very hot temperature. Flaming oil is sometimes difficult to use because it takes a long time for the user to properly throw it. Adventurers often carry oil with them to deal with trolls in the unfortunate event that they are encountered.
 
 STATISTICS:
 
-When thrown at a target, the glass pot breaks, spreading flaming oil over everything within a 5' radius, doing 2-16 points of fire damage.~
-
+Special:
+– When thrown at a target, the glass pot breaks, spreading flaming oil over everything within a 5-ft. radius, doing 2-16 points of fire damage.~
 
 /* Added by Angel */
 
@@ -813,7 +860,8 @@ STATISTICS:
 Equipped abilities:
 - Strength: 19
 
-Weight: 2~
+Weight: 2
+~
 @544  = ~The hard plates that protect umber hulks are reasonably easy to craft into humanoid armor. This dark suit of armor was fashioned into plate mail by duergar smiths. The dark dwarves, skilled in handling umber hulk exoskeletons, cured and reinforced the armor.
 
 STATISTICS:
@@ -823,7 +871,8 @@ Armor Class: 2 (-2 vs. slashing)
 Requires:
  12 Strength
 
-Weight: 40~
+Weight: 40
+~
 @546  = ~This armor was made by the dwarven smith Karador and an elven enchanter known as Elameth of Five Trees. During the time of cooperation between the Hand of the Seldarine and Dorn's Deep, many wondrous items were produced. This suit of armor was one of them. Exceptionally light and beautiful, the armor was originally worn by a female elven marshal in the Severed Hand, which is why the orcs didn't take it when they sacked the towers. The armor was later stolen from the Hand by the evil elf Maiden Ilmadia, who wore it in her final battle against the Defenders of Easthaven at Lower Dorn's Deep. What happened to the armor after her defeat and how it traveled from the Spine of the World to the Sword Coast is unclear.
 
 STATISTICS:
@@ -839,7 +888,8 @@ Armor Class: 1 (-2 vs. slashing)
 Requires:
  12 Strength
 
-Weight: 20~
+Weight: 20
+~
 @548  = ~This robe was fashioned from strong fabric and dyed dark blue, the favorite color of its proud owner, the archmage Ogi-Luc. A Sembian by birth, Ogi-Luc was a powerful man, as strong in body as he was in mind. However, Ogi-Luc wasn't content to merely be strong. He wanted to be exceptionally strong. When he put on these robes, proud men stood aside and braggarts stilled their tongues. For all of Ogi-Luc's pride and prowess, he was unable to defeat the Red Wizard abjurer Nesk Vhaltim. Nesk took the robes as a prize. They were later stolen and sold by a daring rogue.
 
 STATISTICS:
@@ -849,8 +899,9 @@ Equipped abilities:
 - Strength: 18/99
 - Constitution: +2
 
-Weight: 5~
-@550 = ~This heavy golden plate mail was crafted for general Ghotal by captured dwarven smithes and enchanted by the tribe shamans in foul rites best not spoken of.  Although it offers excellent protection, this armor is heavy and unwieldy, requiring great physical strength to wear.  It certainly looks very impressive though.
+Weight: 5
+~
+@550 = ~This heavy golden plate mail was crafted for general Ghotal by captured dwarven smithes and enchanted by the tribe shamans in foul rites best not spoken of.  Although it offers excellent protection, this armor is heavy and unwieldy, requiring great physical strength to wear. It certainly looks very impressive though.
 
 STATISTICS:
 
@@ -862,9 +913,8 @@ Armor Class: -1 (-5 vs. slashing, -4 vs. piercing and missile)
 Requires:
  17 Strength
 
-Weight: 60~
-
-
+Weight: 60
+~
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
 
@@ -878,8 +928,7 @@ Speed Factor: 3
 Proficiency Type: Shortbow
 Type: Two-handed
 Requires: 
- 3 Strength
+ 6 Strength
 
-Weight: 2~
-
-
+Weight: 2
+~

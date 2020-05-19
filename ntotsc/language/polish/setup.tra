@@ -230,13 +230,12 @@ TraK0: +1
 Specjalne:
  50% szans na zadanie dodatkowych 2K3 obra¿eñ od ognia
  Liczba ataków ustalona na 2
- +1 do Kondycji
  +20% do odpornoœci na ogieñ/zimno
 Waga: 3
-OpóŸnienie: 7
+OpóŸnienie: 2
 Rodzaj bieg³oœci: krótki ³uk
 Typ broni: 2-rêczna
-Wymagana si³a: 3
+Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
  Kap³an
  Druid
@@ -365,7 +364,7 @@ Nie mo¿e u¿ywaæ:
 
 PARAMETRY:
 
-Klasa Pancerza: 4
+Klasa Pancerza: 4 (2 przeciw broniom siecznym, 6 przeciw broniom obuchowym)
 Specjalne:
  +30% do odpornoœci na elektrycznoœæ
 Waga: 15
@@ -500,7 +499,7 @@ Specjalne:
  +10% do odpornoœci na obra¿enia sieczne
  +10% do odpornoœci na ogieñ
  +10% do odpornoœci na elektrycznoœæ
- +2 do rzutów obronnych
+ +2 do rzutów obronnych przeciw zioniêciom
 Waga: 15
 Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
@@ -620,7 +619,9 @@ Specjalne:
  +25% do odpornoœci na kwas
  +25% do odpornoœci na b³yskawice
  Odpornoœæ na niemagiczn¹ broñ
-Czas trwania: 60 sekund~
+Czas trwania: 60 sekund
+Nie mo¿e u¿ywaæ: 
+ Zabójca magów~
 
 @147  = ~Na ok³adce tej butelki napisane jest "Marsember’owy Rumieniec – Wyborny rocznik". Utrzymuje tak¿e, ¿e wino jest owocow¹ mieszank¹ aromatu przypraw i zroszonych kwiatów. Winiarnie Marsember s¹ szeroko znane z ich firmowych winogron, które czerpi¹ swój smak ze s³onego powietrza Morza Upad³ych Gwiazd.~
 @148  = ~Butelka elfiego wina~
@@ -649,7 +650,9 @@ PARAMETRY:
 Specjalne:
  +1 do Klasy Pancerza
  +25% do odpornoœci na obra¿enia obuchowe
- +1 do rzutów obronnych~
+ +1 do rzutów obronnych
+Nie mo¿e u¿ywaæ: 
+ Zabójca magów~
 
 @157  = ~Szata z³ego arcymaga~
 @158  = ~Szata z³ego arcymaga: 'Mroczny Sekret Saurona'
@@ -678,7 +681,8 @@ Specjalne:
  -5 do Charyzmy
 Waga: 35
 Nie mo¿e u¿ywaæ:
- Postaæ dobra~
+ Postaæ dobra
+ Zabójca magów~
 
 @162  = ~Ma³a tarcza +2: 'Tarcza swobody ruchów'~
 @164  = ~Posiadacz tej tarczy mo¿e na prawdê czuæ siê swobodnie, bowiem nie straszne mu czary ograniczaj¹ce ruch. Postaæ mo¿e byæ przyspieszana, ale nie mo¿e jednoczeœnie korzystaæ z butów szybkoœci.
@@ -743,7 +747,7 @@ Nie mo¿e u¿ywaæ:
 PARAMETRY:
 
 Obra¿enia: 1K6 +2
-TraK0: +3
+TraK0: +2
 Typ obra¿eñ: obuchowe
 Specjalne:
  80% szans na dodatkowe 1K8 +2 obra¿eñ siecznych
@@ -1277,8 +1281,9 @@ PARAMETRY:
 
 Klasa Pancerza: 2
 Specjalne:
- +1 do KP przeciw broniom siecznym 
+ -2 do KP przeciw broniom siecznym 
 Waga: 40
+Wymagana si³a: 12
 Nie mo¿e u¿ywaæ:
  Bard
  Mag
@@ -1297,6 +1302,7 @@ Specjalne:
  +10% do odpornoœci na zimno
  +10% do odpornoœci na elektrycznoœæ
  +10% do odpornoœci na kwas
+Wymagana si³a: 12
 Nie mo¿e u¿ywaæ:
  Bard 
  Druid 
@@ -1333,13 +1339,14 @@ Nie mo¿e u¿ywaæ:
  Mag
  Z³odziej~
 
+/* new in v4.0.0 */
 /* Will O'Hara soundset subcomponent */
 @551 = ~UdŸwiêkowienie Willa O'Hara~
 @552 = ~Wymaga komponentu [Will O'Hara NPC]~
 @553 = ~Instaluj odg³osy postaci (aplikuje dŸwiêki angielskie jeœli polskie nie s¹ dostêpne)~
 @554 = ~Nie instaluj og³osów postaci~
 @555 = ~Brakuj¹ce dŸwiêki zostan¹ wyœwietlone w konsoli gry~
-
+/* ------ */
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
@@ -1357,7 +1364,7 @@ Waga: 2
 OpóŸnienie: 3
 Rodzaj bieg³oœci: krótki £uk
 Typ broni: 2-rêczna
-Wymagana si³a: 3
+Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
  Postaæ rasy innej ni¿ elf
  Z³a postaæ
@@ -1376,3 +1383,7 @@ Nie mo¿e u¿ywaæ:
 /* new in v3.2.0 */
 @55131 = ~Prze³êcz Chmurnych Szczytów~
 @55132 = ~Wejœcie do jaskini~
+
+
+/* new in v4.0.0 */
+@55133 = ~Przywo³uje mniej potworów w zale¿noœci od poziomu trudnoœci gry~

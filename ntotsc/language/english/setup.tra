@@ -39,6 +39,7 @@ THAC0:  -3 penalty
 Damage type: missile (piercing)
 Special:  
   After a successful hit, the enemy is ransferred to a random place
+Weight:  0
 Launcher: Bow~
 @14   = ~Axe of Shocking~
 @16   = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It is obvious that a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
@@ -64,13 +65,13 @@ Not Usable By:
  Monk
  Beast Master~
 @18   = ~Shocking Flail~
+
 @20   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain. This flail has been enhanced magically. Runes can be seen glowing on every surface.
 
 STATISTICS:
 
 Damage: 1D6 + 3
 THAC0:  +2
-Armor Class Bonus: 1
 Special:
   50% chance +2D3 electrical damage
   10% chance target is stunned
@@ -86,6 +87,7 @@ Not Usable By:
  Thief
  Monk
  Beast Master~
+
 @22   = ~Mace +3: 'Defiler'~
 @24   = ~This was the personal weapon of Nirel, a powerful cleric, whom little is know about.  However, history does record that he was a vile zealot whose hatred for followers of other faiths knew almost no bounds. It is said that he kept the heads of his victims as trophies. He was personally responsible for defiling over one hundred temples of other faiths; thus earning himself, and his mace, the nickname 'Defiler'.
 
@@ -101,6 +103,7 @@ Type:  1-handed
 Requires: 3 Strength
 Usable Only By:
  Evil-aligned Clerics~
+
 @25   = ~Will's Battle Flail~
 @26   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder.
 
@@ -118,6 +121,7 @@ Type:  1-handed
 Requires: 13 Strength
 Usable Only By:
   Will~
+
 @27   = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder.
 
 STATISTICS:
@@ -190,13 +194,12 @@ THAC0 bonus: +1
 Special:
   50% chance to inflict additional 2D3 fire damages
   Attacks per round set to 2
-  Constitution bonus: +1
   Fire/Cold Resistance bonus: 20%
 Weight: 3
-Speed Factor: 7
+Speed Factor: 2
 Proficiency Type: Short Bow
 Type:  2-handed
-Requires: 3 Strength
+Requires: 6 Strength
 Not Usable By:
  Cleric
  Druid
@@ -226,6 +229,7 @@ Not Usable By:
  Monk
  Kensai
  Cavalier~
+/*
 @46   = ~Gloves of Master Thievery~
 @48   = ~Gloves of Master Thievery: 'Sticky Fingers'
 These gloves - sought by the adepts of thieving - were once the property of a famous pickpocketer All An Woo-Dy.
@@ -238,6 +242,7 @@ Weight: 1
 Not Usable By:
  Lawful characters
  Other than thieves and bards~
+*/
 @50   = ~Poisoned Missile of Will~
 @52   = ~These are poisoned bullets which Will is able to prepare using the resin dribbling from his curios flail. He learned to use the poison at a very young age and can obtain enough for 5 bullets.
 
@@ -248,6 +253,7 @@ THAC0:  +1 bonus
 Special:  Poison
 Weight: 0
 Launcher:  sling~
+/*
 @54   = ~Chain Mail +3: 'Sage's Armor'~
 @56   = ~Crafted by Sage, one of the Ancients, to help him in his guest against evil.  Ancient lore states that Sage was a mighty warrior who rarely felt the touch of his foes in battle, yet it is said when he did he always recovered quickly no matter how fierce the attack or battle had been.
 
@@ -311,12 +317,13 @@ Not Usable By:
  Archer
  Beast Master
  Kensai~
+*/
 @61   = ~Chainmail of Firewine~
 @62   = ~During the times of prosperity of Firewine, special versions of the illustrious elven chainmail were made that added protection against the thunderstorms which appeared sometimes in the area.
 
 STATISTICS:
 
-Armor Class: 4
+Armor Class: 4 (2 vs. slashing, 6 vs. crushing)
 Electricity Resistance: +30%
 Weight: 15
 Requires: 8 Strength
@@ -333,6 +340,7 @@ Armor Class:  +2 bonus
 Weight:  3
 Not Usable By: 
   Wizardslayer~
+/*
 @77   = ~Lethal Sting~
 @79   = ~The original name of this odd blade is lost in the murky depths of the Sea of Swords. Crafted of magically strengthened sahuagin bone, the weapon is believed to have been used by kuo-toa in bizarre rituals. The handle is crafted from coral wrapped in sahuagin skin. At one time, it was owned by Lockhart, a prominent adventuring thief and smuggler on the Sword Coast. It was he who gave the blade its current name.
 
@@ -350,6 +358,7 @@ Type:  1-handed
 Not Usable By:
   Cleric
   Beast Master~
+*/
 @81   = ~Poison Tipped Dart~
 @83   = ~This dart looks like any other dart except for the fact that it has been laced with a powerful poison.
 
@@ -376,6 +385,7 @@ This key is sized to fit a small lock, such as a cabinet or desk.~
 @93   = ~You received this key in the Northern Citadel. It opens the entrance to the Mausoleum.~
 @94   = ~This is the key, kept by Meander, to the altar in the Northern Citadel.~
 @95   = ~This key was found near the body of Haeball.~
+/*
 @97   = ~Improved Shadow Armor~
 @99   = ~A Shadow Armor is a studded leather armor created for use by the Shadowmasters of Amn. Shadowmasters are of the highest ranks within the Shadow Thief hierarchy. It is +3 studded leather armor that melds into shadows. This particular brand has been improved upon by a great thief of the Realms. No mention of his name is given, due to the fact that he was so damn good, no one ever saw him unless they were about to depart to the hereafter.
 
@@ -391,6 +401,7 @@ Weight: 1
 Requires: 6 Strength
 Only Usable By:
   Thief (single, multi and dual class)~
+*/
 @100  = ~Will's Armor with Cloak~
 @101  = ~Taerom has made a good set of leather armor for Will. You should visit him again at some point - it is possible the old smith can improve that gem even further.
 
@@ -417,6 +428,7 @@ Special:
 Weight: 15
 Usable Only By:
   Will~
+/*
 @103  = ~Studded Leather Armor +3~
 @104  = ~This armor was the property of the famous Snow Barbarian Prince, Corbus Denolx of Greyhawk. How or why it left his possession is not known.
 
@@ -429,6 +441,7 @@ Not Usable By:
  Mage
  Monk
  Kensai~
+*/
 @105  = ~Studded Leather of Resistance~
 @106  = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks. The soft leather backing is little more than a means of securing the rivets in place.
 
@@ -440,12 +453,13 @@ Resistance Bonuses:
   +10% Slashing Resistance
   +10% Fire Resistance
   +10% Electrical Resistance
-  +2 to Saves vs Spells
+  +2 to Saving Throw vs. Breath
 Weight: 15
 Requires: 6 Strength
 Not Usable By:
  Mage
  Kensai~
+/*
 @107  = ~Lute~
 @108  = ~Hirsuhnite's Lute~
 @109  = ~This delicately crafted Lute has silvery strings strung into a deeply stained wooden frame inlaid with gold. The craftsmanship appears exquisite, perfect, and almost inhuman. So much so in fact that even inexperienced fingers playing across the strings seem to strike the most beautiful chords. Oddly enough, there is no visible method for tuning, as if it wasn't necessary. A feeling of awe begins to creep up your spine as you observe all the intricacies of this beautiful instrument.~
@@ -459,6 +473,7 @@ Duration:  2 Turns
 Weight:  3
 Only Usable By:
   Bard~
+*/
 @112  = ~Broom~
 @114  = ~Commonly used equipment within the Realms, very practical all the way, that none of the respected housewives can imagine the existence without it. This copy doesn't seem to differ anyhow than others, but it is dirtied with greasy substance, smells specifically, equipped with safety belt and the hole which makes possible to fix the strange drive part submitted to the set. Acting desperately, it can be used to defense someone as well.
 
@@ -474,6 +489,7 @@ Type:  2-handed
 Requires: 5 Strength
 Not Usable By:
   Monk~
+/*
 @115  = ~Scroll of Knowledge~
 @116  = ~Scrolls like this one usually are made out of unidentifiable material and hold great magical enchantments - rare and forgotten wizard spells of ages past, clerical prayers most have forgotten, or even innate abilities. When activated, they allow the invoking individual to learn or acquire the magics imprinted on the page.
 This scroll appears to contain the Innate Ability 'Hold Undead'.~
@@ -484,6 +500,7 @@ This scroll appears to contain the Innate Ability 'Healer's Touch'.~
 @120  = ~Some priest like to carry a small effigy of their deity with them wherever they may go. Such diligence can only be rewarded.
 
 Special: Allow to learn "Ward of Protection" Spell~
+*/
 @121  = ~Montgomery~
 @122  = ~This is the body of Montgomery.~
 @123  = ~Unidentified Body~
@@ -548,7 +565,9 @@ Cold Resistance:  +25% bonus
 Acid Resistance:  +25% bonus
 Electrical Resistance:  +25% bonus
 Immunity to non-magical weapons
-Duration: 60 seconds~
+Duration: 60 seconds
+Not Usable By: 
+  Wizardslayer~
 @147  = ~The label on this wine bottle reads 'Marsember Blush - Fine Vintage' and claims to be a fruity blend of spices and dew-flower fragrances. The vineyards of Marsember are well known for their crispy grapes which draw their flavor from the fragrant salt air of the Sea of Fallen Stars.~
 @148  = ~Bottle of Elven Wine~
 @149  = ~This bottle of elven wine will heal just as much as it might intoxicate. During an elven festival, one of the priests of Seldarine's Hand imbibed too much and accidentally added a barrel to a mixture that was intended for healing potions.
@@ -574,8 +593,11 @@ STATISTICS:
 Armor Class Bonus: 1
 Resistance Bonuses: 
  +25% Crushing Resistance
- +1 on Saves vs Spells~
+ +1 on Saves vs Spells
+Not Usable By: 
+  Wizardslayer~
 @157  = ~Robe of the Evil Archmagi~
+/*
 @158  = ~ 'Sauron's Black Veil'
 This particular robe of the magi is the result of Sauron's great skill with both sorcerous and priestly powers. It offers the usual protection against all forms of physical attacks while at the same time increasing one's magical resistance and saving throws. It also grants the wearer the ability to create dimensional doorways and become a 'shadow' of his or her normal self. Due to the nature of its enchantment, it can only be worn by mages of evil alignment.
 
@@ -591,6 +613,7 @@ Weight:  2
 Only Usable By:
  Mage (single, dual, & multi-class)
  Evil-aligned characters~
+*/
 @159  = ~Orc Shaman's Cloak~
 @160  = ~Orcish shamans often made their clothes with poor materials fixed with leather parts so they are eyesore, heavy and regularly are not the top interest for adventurers, although they possess many advantages.
 
@@ -601,7 +624,9 @@ Electricity, Fire and Cold Resistance: +40%
 Charisma penalty: -5
 Weight: 35
 Not Usable By:
- Good-aligned~
+ Good-aligned
+ Wizardslayer~
+/*
 @162  = ~Small Shield +2, 'Shield of Free Action'~
 @164  = ~The wearer is immune to everything, magical and otherwise, that effects mobility in any way, although can still be hasted. Be aware, however, this will also protect the wearer from beneficial effects such as those received from the boots of speed.
 
@@ -618,6 +643,7 @@ Not Usable By:
  Thief
  Monk
  Kensai~
+*/
 @166  = ~Shield of Firewine~
 @168  = ~Etched with Elven runes across its surface, this shield was made from one of the strongest metals to ever come from Elven hands. Any bearer of this shield will be confident that any blow brought upon it will be deflected.
 
@@ -660,7 +686,7 @@ Not Usable By:
 STATISTICS:
 
 Damage: 1D6 + 2
-THAC0:  +3
+THAC0:  +2
 Special: 80% for additional 1D8+2 Slashing Damage
 Damage type:  Crushing
 Weight:  3
@@ -670,6 +696,7 @@ Type:  2-handed
 Requires: 5 Strength
 Not Usable By:
  Monk~
+/*
 @177  = ~Questing Staff +3~
 @178  = ~Questing staves were originally created in some other realm, but they have found their way to Faerûn. They are usually filled with spells that provide some protection like warding against certain elements, or grant either entrance or egress, or bestow the wielder with simple knowledge. This particular staff casts Knock, Detect Evil, Cure Critical Wounds, and Raise Dead, each at least once per day. Moreover, it provides protection from fire like the ring of that name and increases resistance against magic.
 
@@ -750,6 +777,7 @@ Not Usable By:
  Cleric
  Mage
  Beast Master~
+*/
 @188  = ~Evalt's Flameblade~
 @190  = ~This weapon was created by the smiths of ancient Myth Drannor. This sword, which has been passed through the generations, has been in Evalt's family for centuries. This particular blade gives resistance to fire.
 
@@ -768,6 +796,7 @@ Not Usable By:
  Cleric
  Druid
  Mage~
+/*
 @192  = ~Morridin's Sword~
 @194  = ~Morridin was the subject of many a joke about his sword. Many jested that such a little man could not wield such a large sword. However those who laughed didn’t laugh long or ever again due to the deadly accuracy and deftness with which Morridin handled his blade.
 
@@ -784,6 +813,7 @@ Type: 2-handed
 Requires: 10 Strength
 Usable Only By:
  Bard~
+*/
 @196 = ~Two-Handed Sword of General Ghotal~
 @197 = ~This great sword was once wielded by the hands of Ghotal, famous leader of the orcish hordes from the North. With it he was able to instantly press against Luskan, Targos and other towns, even including Neverwinter. The fame of the sword was such that it made most of the defenders unwilling to put up any sort of organized resistance. But Ghotal went too far when Targos was finally conquered and destroyed. Allied forces of elves from Everaska and people of other northern towns ambushed the general and annihilated most of his legions. Ghotal himself however escaped from the battlefield, but was mortally wounded. He was never heard or seen of since, though orcish legend says he exists to this day, awaiting the opportunity to once again wreak havok upon the countryside.
 
@@ -805,6 +835,7 @@ Not Usable By:
  Thief
  Monk
  Beast Master~
+/*
 @198  = ~Long Sword 'Valarius'~
 @199  = ~Crafted by the Mage King Varashar for the commander of his Death Knights.  The sword quickly became legendary for its ability to cut through almost anything.  Entire legions were known to flee the battlefield upon sight of the legendary blade.
 
@@ -858,6 +889,7 @@ Speed Factor: 2
 Type: 1-handed
 Not Usable By:
  Cleric~
+*/
 @204  = ~Bhaal's Fire~
 @205  = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting. 
 The blade of this sword is covered with all sorts of arcane symbols.
@@ -1162,8 +1194,8 @@ Only Usable By:
 STATISTICS:
 
 Armor Class: 2
-Special:  +1 vs. Slashing Weapons
 Weight: 40
+Requires: 12 Strength
 Not Usable By:
  Bard
  Mage~
@@ -1180,6 +1212,7 @@ Resistance Bonuses:
   +10% Cold Resistance
   +10% Electrical Resistance
   +10% Acid Resistance
+Requires: 12 Strength
 Not Usable By:
  Bard 
  Druid 
@@ -1211,13 +1244,14 @@ Not Usable By:
  Mage
  Thief~
 
+/* new in v4.0.0 */
 /* Will O'Hara soundset subcomponent */
-@551 = ~Will O'Hara soundset~
-@552 = ~Requires [Will O'Hara NPC] component~
-@553 = ~Install soundset~
-@554 = ~Do not install soundset~
-@555 = ~Missing sounds will be displayed on in-game chat~
-
+@551 = ~Will O'Hara Soundset~
+@552 = ~Requires Component [Will O'Hara NPC]~
+@553 = ~Install English Soundset~
+@554 = ~Do not install Soundset~
+@555 = ~Missing sounds will be displayed on in-game text window.~
+/* ------ */
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
@@ -1235,7 +1269,7 @@ Weight: 2
 Speed Factor: 3
 Proficiency Type: Short Bow
 Type: 2-handed
-Requires: 3 Strength
+Requires: 6 Strength
 
 Not Usable By:
  anyone except Elves
@@ -1253,3 +1287,6 @@ Not Usable By:
 /* new in v3.2.0 */
 @55131 = ~Pass to Cloud Peaks~
 @55132 = ~Entrance to Cave~
+
+/* new in v4.0.0 */
+@55133 = ~Spawn less Monsters depending on Game Difficulty~

@@ -10,10 +10,6 @@ IF ~~ THEN BEGIN 1
   SAY @4
   IF ~~ THEN DO ~CreateCreature("NTHELLS1",[494.1381],0)
 Enemy()~ JOURNAL @10025 EXIT
-  IF ~!LevelLT(Player1,4)
-  !DifficultyLT(NORMAL)~ THEN DO ~CreateCreature("NTHELLS1",[494.1381],0)
-CreateCreature("NTHELLS1",[264.1379],0)
-Enemy()~ JOURNAL @10025 EXIT
 END
 
 IF ~~ THEN BEGIN 2
@@ -31,14 +27,6 @@ END
 IF ~Dead("NTOOGOOR") Global("NT_HumbabSpawnEnemyOnce","LOCALS",0)~ THEN BEGIN 4
   SAY @13
   IF ~~ THEN DO ~SetGlobal("NT_HumbabSpawnEnemyOnce","LOCALS",1)
-CreateCreature("NTHELLS1",[496.1375],0)
-CreateCreature("NTHELLS1",[262.1365],0)
-EraseJournalEntry(@10025)
-Enemy()~ EXIT
-  IF ~!LevelLT(Player1,4)
-  !DifficultyLT(NORMAL)~ THEN DO ~SetGlobal("NT_HumbabSpawnEnemyOnce","LOCALS",1)
-CreateCreature("NTHELLS1",[494.1381],0)
-CreateCreature("NTHELLS1",[264.1379],0)
 CreateCreature("NTHELLS1",[496.1375],0)
 CreateCreature("NTHELLS1",[262.1365],0)
 EraseJournalEntry(@10025)

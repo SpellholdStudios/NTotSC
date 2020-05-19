@@ -1,14 +1,4 @@
 IF
-  OR(2)
-	LevelLT(Player1,4)
-	DifficultyLT(NORMAL)
-THEN
-  RESPONSE #100
-	DestroySelf()
-END
-
-
-IF
   AttackedBy([GOODCUTOFF],DEFAULT)
   Allegiance(Myself,NEUTRAL)
 THEN

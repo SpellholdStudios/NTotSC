@@ -1,0 +1,8 @@
+IF
+	!DifficultyGT(NORMAL)
+	Global("NT_PlaceCultists","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NT_PlaceCultists","MYAREA",1)
+
+END

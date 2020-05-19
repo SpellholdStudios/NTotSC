@@ -1,5 +1,4 @@
 IF
-	DifficultyGT(NORMAL)
 	Global("NT_PlaceCultists","MYAREA",0)
 THEN
 	RESPONSE #100
