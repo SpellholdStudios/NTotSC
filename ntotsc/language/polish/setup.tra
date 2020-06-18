@@ -1343,7 +1343,7 @@ Nie mo¿e u¿ywaæ:
 /* Will O'Hara soundset subcomponent */
 @551 = ~UdŸwiêkowienie Willa O'Hara~
 @552 = ~Wymaga komponentu [Will O'Hara NPC]~
-@553 = ~Instaluj odg³osy postaci (aplikuje dŸwiêki angielskie jeœli polskie nie s¹ dostêpne)~
+@553 = ~Will O'Hara: instaluj odg³osy postaci (dŸwiêki angielskie jeœli polskie nie s¹ dostêpne)~
 @554 = ~Nie instaluj og³osów postaci~
 @555 = ~Brakuj¹ce dŸwiêki zostan¹ wyœwietlone w konsoli gry~
 /* ------ */
