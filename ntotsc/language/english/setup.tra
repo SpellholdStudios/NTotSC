@@ -1248,7 +1248,7 @@ Not Usable By:
 /* Will O'Hara soundset subcomponent */
 @551 = ~Will O'Hara Soundset~
 @552 = ~Requires Component [Will O'Hara NPC]~
-@553 = ~Install English Soundset~
+@553 = ~Will O'Hara: Install English Soundset~
 @554 = ~Do not install Soundset~
 @555 = ~Missing sounds will be displayed on in-game text window.~
 /* ------ */

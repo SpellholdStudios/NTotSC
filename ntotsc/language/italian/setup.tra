@@ -1303,7 +1303,7 @@ Non utilizzabile da:
 /* Will O'Hara soundset subcomponent */
 @551 = ~Will O'Hara Soundset~
 @552 = ~Richiede componente [Will O'Hara NPC].~
-@553 = ~Installare il soundset in inglese~
+@553 = ~Will O'Hara: Installare il soundset in inglese~
 @554 = ~Non installare soundset~
 @555 = ~I suoni mancanti verranno visualizzati nella finestra di testo del gioco.~
 /* ------ */

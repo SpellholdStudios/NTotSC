@@ -2673,8 +2673,7 @@ COPY	~ntotsc/base/portraits/l~ ~override~
 
 BEGIN @553 /* Install soundset */
 DESIGNATED 8 LABEL ~NTotSC_WillSoundset~
-//	SUBCOMPONENT @551  /* Will O'Hara soundset */
-	REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 6 @552 /* Requires 'Will O'Hara' component */
+REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 7 @552 /* Requires 'Will O'Hara' component */
 
 	// Apply English soundset if language-specific sounds are not available
 	ACTION_BASH_FOR ~ntotsc/language/english/ogg~ ~^will.+\.ogg$~ BEGIN // Only files in "will*.ogg" pattern
@@ -2692,13 +2691,6 @@ DESIGNATED 8 LABEL ~NTotSC_WillSoundset~
 		sox_path = ~ntotsc/bin/osx~
 		output_path = ~override~
 	END
-/*
-// The same as [Install Component -> No]
-BEGIN @554 /* Do not install soundset */
-	SUBCOMPONENT @551  /* Will O'Hara soundset */
-	REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 6 @552 /* Requires [Will O'Hara NPC] component */
-		PRINT @555 /* Messages for missing sounds will be displayed on in-game chat */
-*/
 
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
