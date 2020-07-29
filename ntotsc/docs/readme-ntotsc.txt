@@ -238,6 +238,9 @@ F.A.Q.
 CHANGES - VERSION HISTORY
 +++++++
 
+4.1.0 - by jastey, fix provided by Roberciiik
+-Corrected component reference number for Will O'Hara Soundset component
+
 4.0.0 - by jastey
 	-Russian version by Arkie
 	-"Will O'Hara soundset subcomponent" splitted from component "Will O'Hara NPC", by Roberciiik
