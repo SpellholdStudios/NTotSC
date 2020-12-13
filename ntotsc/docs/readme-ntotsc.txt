@@ -238,6 +238,9 @@ F.A.Q.
 CHANGES - VERSION HISTORY
 +++++++
 
+4.2.0 - provided by Roberciiik
+-Proof reading of Polish version.
+
 4.1.0 - by jastey, fix provided by Roberciiik
 -Corrected component reference number for Will O'Hara Soundset component
 

@@ -26,7 +26,7 @@ Will probably stay:
 
 BACKUP ~ntotsc/backup~
 AUTHOR ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~4.1.0~ 
+VERSION ~4.2.0~ 
 README ~ntotsc/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~ntotsc/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~ntotsc/language/%s/D~
 ASK_EVERY_COMPONENT
