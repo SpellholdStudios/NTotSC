@@ -356,10 +356,10 @@ AR9305  value~
 END*/
 
 // general rule: cloaks/rings/amulets with AC bonus should not stack with magical armours
-/*APPEND ~itemexcl.2da~ ~~
+APPEND ~itemexcl.2da~ ~ntring04 1~ UNLESS "ntring04"
 COPY_EXISTING ~itemexcl.2da~ ~override~
 	PRETTY_PRINT_2DA
-BUT_ONLY*/
+BUT_ONLY
 
 
 
@@ -599,7 +599,9 @@ COPY ~ntotsc/base/itm/ntplat01.itm~ ~override~
 	SAY DESC @141
 
 COPY ~ntotsc/base/itm/ntplat02.itm~ ~override~
+	SAY NAME1 @562
 	SAY NAME2 @549
+	SAY UNIDENTIFIED_DESC @563
 	SAY IDENTIFIED_DESC @550
 
 COPY ~ntotsc/base/itm/ntplat03.itm~ ~override~
@@ -642,6 +644,10 @@ COPY ~ntotsc/base/itm/ntring02.itm~ ~override~
 	SAY NAME2 @154
 	SAY DESC @155
 
+COPY ~ntotsc/base/itm/ntring04.itm~ ~override~
+	SAY NAME2 @560
+	SAY DESC @561
+
 COPY ~ntotsc/base/itm/ntrobe01.itm~ ~override~
 	SAY NAME2 @547
 	SAY DESC @548
@@ -649,6 +655,14 @@ COPY ~ntotsc/base/itm/ntrobe01.itm~ ~override~
 COPY ~ntotsc/base/itm/ntrobe02.itm~ ~override~
 	SAY NAME2 @159
 	SAY DESC @160
+
+COPY ~ntotsc/base/itm/ntrobe03.itm~ ~override~
+	SAY NAME2 @556
+	SAY DESC @557
+
+COPY ~ntotsc/base/itm/ntrobe04.itm~ ~override~
+	SAY NAME2 @558
+	SAY DESC @559
 
 COPY ~ntotsc/base/itm/ntshld02.itm~ ~override~
 	SAY NAME2 @166

@@ -1230,14 +1230,14 @@ Weight:  5
 Only Usable By:
   Mage (Single Class)~
 @549 = ~Ghotal's Full Plate +2~
-@550 = ~This heavy golden plate mail was crafted for general Ghotal by captured dwarven smithes and enchanted by the tribe shamans in foul rites best not spoken of.  Although it offers excellent protection, this armor is heavy and unwieldy, requiring great physical strength to wear.  It certainly looks very impressive though.
+@550 = ~This heavy golden field plate was crafted for general Ghotal by captured dwarven smithes and enchanted by the tribe shamans in foul rites best not spoken of.  Although it offers excellent protection, this armor is heavy and unwieldy, requiring great physical strength to wear.  It certainly looks very impressive though.
 
 STATISTICS:
 
-Armor Class: -1
-Weight: 60
+Armor Class: 0
+Weight: 75
 Charisma: +2 bonus
-Dexterity: -2 penalty
+Dexterity: -4 penalty
 Requires: 17 Strength
 Not Usable By:
  Bard
@@ -1252,6 +1252,53 @@ Not Usable By:
 @553 = ~Will O'Hara: Install English Soundset~
 @554 = ~Do not install Soundset~
 @555 = ~Missing sounds will be displayed on in-game text window.~
+/* ------ */
+
+/* Angel's new items (2021 revision) */
+@556 = ~Robe of Rock~
+@557 = ~This enchanted mage robe has powers over earth and stone.
+
+STATISTICS:
+
+Immunity to Petrification
+Stone Skin once per day
+Stone to Flesh once per day
+Weight: 4
+Only usable by:
+Mage (single, dual & multi-class)~
+@558 = ~Robe of Eyes~
+@559 = ~This mage robe has many hidden eyes all over it, giving the wearer all-round vision.  As a result they can never be surprised.  The robe's eyes also have infravision and can detect invisible creatures.  However, one drawback is that the wearer is more suspectable to being turned to stone.
+
+STATISTICS:
+
+Saving Throws: -4 vs. Petrification
+Infravision
+Immunity to Backstab
+True Seeing once per day
+Weight: 4
+Only usable by:
+Mage (single, dual & multi-class)~
+@560 = ~Defender Ring~
+@561 = ~Ring of Protection +1, +3 vs. Humanoids: 'Defender Ring'
+This magical ring was once the property of a noble from Baldur's Gate.  Fearing assassination by a rival, he paid a local wizard to create this ring to protect him from humanoid attackers.  Unfortunately for him, his rival decided to use a poisonous snake for the assassination attempt instead.
+
+STATISTICS:
+
+Armor Class: +1 bonus (+3 vs. Humanoids)
+Saving Throws: +1 bonus (+3 vs. Humanoids)~
+@562   = ~Field Plate~
+@563   = ~Field plate dispenses with the chain backing of plate mail and full plate to save weight.  Instead a light suit of padding, or aketon, is worn beneath field plate.  The considerable weight of this armor is distributed over the wearer's body, and a trained knight can lie down, stand up, or vault into the saddle while wearing this armor.
+
+STATISTICS:
+
+Armor Class: 2
+Weight: 60
+Requires: 14 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 /* ------ */
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
