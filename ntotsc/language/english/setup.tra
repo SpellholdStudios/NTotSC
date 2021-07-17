@@ -1299,6 +1299,13 @@ Not Usable By:
  Druid
  Mage
  Thief~
+
+/* Tactical challenges - Angel */
+@564   = ~Tactical Challenges~
+@565   = ~Improved Lesser Fiends~
+@566   = ~Fetch Quests~
+
+
 /* ------ */
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
