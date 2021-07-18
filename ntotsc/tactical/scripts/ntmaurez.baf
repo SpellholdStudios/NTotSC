@@ -1,0 +1,107 @@
+IF
+  See(NearestEnemyOf(Myself))
+  Global("SpawnGhouls", "LOCALS", 0)
+  Difficulty(EASY)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnGhouls", "LOCALS", 1)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("SpawnGhouls", "LOCALS", 0)
+  Difficulty(NORMAL)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnGhouls", "LOCALS", 1)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("SpawnGhouls", "LOCALS", 0)
+  Difficulty(HARD)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnGhouls", "LOCALS", 1)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("SpawnGhouls", "LOCALS", 0)
+  Difficulty(HARDEST)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnGhouls", "LOCALS", 1)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    CreateCreatureObjectEffect("%tutu_var%ghoul", "SPRAISED", Myself)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !StateCheck(Myself, STATE_IMPROVEDINVISIBILITY)
+  Global("Invisible", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetGlobal("Invisible","LOCALS",1)
+    ReallyForceSpell(Myself, WIZARD_IMPROVED_INVISIBILITY)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !StateCheck(Myself, STATE_BLUR)
+  Global("Invisible","LOCALS",1)
+THEN
+  RESPONSE #70
+    SetGlobal("Invisible", "LOCALS", 2)
+    ReallyForceSpell(Myself, WIZARD_BLUR)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_ANIMATE_DEAD)
+THEN
+  RESPONSE #70
+    Spell(LastSeenBy(Myself), CLERIC_ANIMATE_DEAD)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_HOLD_PERSON)
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+  !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+THEN
+  RESPONSE #70
+    Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(CLERIC_CLOAK_OF_FEAR)
+  !StateCheck(LastSeenBy(Myself),STATE_PANIC)
+  !StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+  RESPONSE #70
+    Spell(Myself,CLERIC_CLOAK_OF_FEAR)
+  RESPONSE #30
+    Continue()
+END
+
+

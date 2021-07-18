@@ -1,0 +1,24 @@
+WITH_TRA ~ntotsc/language/english/tactical.tra~ ~ntotsc/language/%s/tactical.tra~
+BEGIN
+  COPY "%MOD_FOLDER%/tactical/actors/ntindfi1.cre" "override"
+       "%MOD_FOLDER%/tactical/actors/ntindfi2.cre" "override"
+    SAY NAME1 @0
+    SAY NAME2 @0
+
+  COPY "%MOD_FOLDER%/tactical/actors/ntindfig.cre" "override"
+    SAY NAME1 @1
+    SAY NAME2 @1
+
+  COPY "%MOD_FOLDER%/tactical/actors/ntghastf.cre" "override"
+    SAY NAME1 @2
+    SAY NAME2 @2
+
+  ACTION_BASH_FOR "%MOD_FOLDER%/tactical/scripts" "^.*\.baf$"
+  BEGIN
+    COMPILE EVALUATE_BUFFER "%BASH_FOR_FILESPEC%"
+  END
+
+  COPY "%MOD_FOLDER%/tactical/areas/ar82pb.are" "override"
+END
+
+

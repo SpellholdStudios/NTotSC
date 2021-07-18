@@ -1,0 +1,263 @@
+IF
+  See(NearestEnemyOf(Myself))
+  Global("SpawnStalker", "LOCALS", 0)
+  Difficulty(HARD)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnStalker", "LOCALS", 1)
+    CreateCreatureObjectEffect("%tutu_scriptbg%stalke", "spfleshs", Myself)
+    CreateCreatureObjectEffect("%tutu_scriptbg%stalke", "spfleshs", Myself)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("SpawnStalker", "LOCALS", 0)
+  Difficulty(HARDEST)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnStalker", "LOCALS", 1)
+    CreateCreatureObjectEffect("%tutu_scriptbg%stalke", "spfleshs", Myself)
+    CreateCreatureObjectEffect("%tutu_scriptbg%stalke", "spfleshs", Myself)
+    CreateCreatureObjectEffect("%tutu_scriptbg%stalke", "spfleshs", Myself)
+    CreateCreatureObjectEffect("%tutu_scriptbg%stalke", "spfleshs", Myself)
+    Continue()
+END
+  
+IF
+  See(NearestEnemyOf(Myself))
+  !StateCheck(Myself, STATE_INVISIBLE)
+  !GlobalTimerNotExpired("Ethereal", "LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Ethereal", "LOCALS", 6)
+    ReallyForceSpell(Myself, SUCCUBUS_ETHEREAL)
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  !Range(LastSeenBy(Myself), 20)
+  !GlobalTimerNotExpired("Teleport", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("Teleport", "LOCALS", 18)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_TELEPORT)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  !Range(LastSeenBy(Myself), 20)
+  !GlobalTimerNotExpired("Teleport", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("Teleport", "LOCALS", 18)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_TELEPORT)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  !Range(LastSeenBy(Myself), 20)
+  !GlobalTimerNotExpired("Teleport", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("Teleport", "LOCALS", 18)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_TELEPORT)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  !Range(LastSeenBy(Myself), 20)
+  !GlobalTimerNotExpired("Teleport", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("Teleport", "LOCALS", 18)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_TELEPORT)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  !Range(LastSeenBy(Myself), 20)
+  !GlobalTimerNotExpired("Teleport", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("Teleport", "LOCALS", 18)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_TELEPORT)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Range(LastSeenBy(Myself), 5)
+  StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Drain", "LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Drain", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_ENERGY_DRAIN)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_MALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  !Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_FEMALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  Gender(LastSeenBy(Myself), MALE)
+  !GlobalTimerNotExpired("Charm","LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_MALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  !Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_FEMALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm","LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_MALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  !Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_FEMALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm","LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_MALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  !Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_FEMALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm","LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_MALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  !Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_FEMALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm","LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_MALE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  !Gender(LastSeenBy(Myself), MALE)
+  !StateCheck(LastSeenBy(Myself), STATE_CHARMED)
+  !GlobalTimerNotExpired("Charm", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("Charm", "LOCALS", 6)
+    ReallyForceSpell(LastSeenBy(Myself), SUCCUBUS_CHARM_FEMALE)
+  RESPONSE #30
+    Continue()
+END
+
+

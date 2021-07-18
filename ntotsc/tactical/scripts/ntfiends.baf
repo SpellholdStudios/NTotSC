@@ -1,0 +1,21 @@
+IF
+  Or(2)
+    AttackedBy([GOODCUTOFF], DEFAULT)
+    Global("NTFiendsAttack", "MYAREA", 1)
+  Allegiance(Myself, NEUTRAL)
+THEN
+  RESPONSE #100
+    SetGlobal("NTFiendsAttack", "MYAREA", 1)
+    Enemy()
+END
+
+IF
+  Global("NTFiendsAttack", "MYAREA", 1)
+  !See([PC])
+  !Range(NearestEnemyOf(Myself), 20)
+THEN
+  RESPONSE #100
+    MoveToObject(NearestEnemyOf(Myself))
+END
+
+
