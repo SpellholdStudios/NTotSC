@@ -356,10 +356,10 @@ AR9305  value~
 END*/
 
 // general rule: cloaks/rings/amulets with AC bonus should not stack with magical armours
-/*APPEND ~itemexcl.2da~ ~~
+APPEND ~itemexcl.2da~ ~ntring04 1~ UNLESS "ntring04"
 COPY_EXISTING ~itemexcl.2da~ ~override~
 	PRETTY_PRINT_2DA
-BUT_ONLY*/
+BUT_ONLY
 
 
 
@@ -599,7 +599,9 @@ COPY ~ntotsc/base/itm/ntplat01.itm~ ~override~
 	SAY DESC @141
 
 COPY ~ntotsc/base/itm/ntplat02.itm~ ~override~
+	SAY NAME1 @562
 	SAY NAME2 @549
+	SAY UNIDENTIFIED_DESC @563
 	SAY IDENTIFIED_DESC @550
 
 COPY ~ntotsc/base/itm/ntplat03.itm~ ~override~
@@ -642,6 +644,10 @@ COPY ~ntotsc/base/itm/ntring02.itm~ ~override~
 	SAY NAME2 @154
 	SAY DESC @155
 
+COPY ~ntotsc/base/itm/ntring04.itm~ ~override~
+	SAY NAME2 @560
+	SAY DESC @561
+
 COPY ~ntotsc/base/itm/ntrobe01.itm~ ~override~
 	SAY NAME2 @547
 	SAY DESC @548
@@ -649,6 +655,14 @@ COPY ~ntotsc/base/itm/ntrobe01.itm~ ~override~
 COPY ~ntotsc/base/itm/ntrobe02.itm~ ~override~
 	SAY NAME2 @159
 	SAY DESC @160
+
+COPY ~ntotsc/base/itm/ntrobe03.itm~ ~override~
+	SAY NAME2 @556
+	SAY DESC @557
+
+COPY ~ntotsc/base/itm/ntrobe04.itm~ ~override~
+	SAY NAME2 @558
+	SAY DESC @559
 
 COPY ~ntotsc/base/itm/ntshld02.itm~ ~override~
 	SAY NAME2 @166
@@ -2357,6 +2371,7 @@ COPY	~ntotsc/base/mos/%engine%~ ~override~
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @55133 /* ~Spawn less Monsters depending on Game Difficulty~ */
+GROUP @564	/* ~Tactical Challenges~ */
 DESIGNATED 1 LABEL ~NTotSC_LessMonsters~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 
@@ -2385,6 +2400,7 @@ COMPILE EVALUATE_BUFFER ~ntotsc/less_monsters/ntdest04.baf~
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @533 /* ~Keelor the Dwarf~ */
+GROUP @566 /* ~Fetch Quests~ */
 DESIGNATED 2 LABEL ~NTotSC_KeelortheDwarf~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#KEELO.CRE~ @532
@@ -2419,6 +2435,7 @@ EXTEND_BOTTOM ~%BaldursGateDocks_WaterQueensHouse%.bcs~ ~ntotsc/keelor/ar0609.ba
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @534 /* ~Llindellyn's Lucky Arrow~ */
+GROUP @566 /* ~Fetch Quests~ */
 DESIGNATED 3 LABEL ~NTotSC_LlindellynsLuckyArrow~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#LLIND.CRE~ @532
@@ -2450,6 +2467,7 @@ EXTEND_TOP ~AR40PB.bcs~ ~ntotsc/llindellyn/ar40pb_llindellyn.baf~ EVALUATE_BUFFE
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @535 /* ~Nim Furlwing's Hunting Hounds~ */
+GROUP @566 /* ~Fetch Quests~ */
 DESIGNATED 4 LABEL ~NTotSC_NimFurlwing~
 
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
@@ -2493,6 +2511,7 @@ EXTEND_TOP ~AR60PB.bcs~ ~ntotsc/nimfurlwing/ar60pb_nimfur.baf~ EVALUATE_BUFFER
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @536 /* ~Pilar and Gheldehar~ */
+GROUP @566 /* ~Fetch Quests~ */
 DESIGNATED 5 LABEL ~NTotSC_PilarandGeldehar~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#GHELD.CRE~ @532
@@ -2525,6 +2544,7 @@ EXTEND_BOTTOM ~%NWBaldursGate_BCS%.bcs~ ~ntotsc/pilargheldehar/ar0100.baf~ EVALU
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @537 /* ~Svlast's Torment~ */
+GROUP @566 /* ~Fetch Quests~ */
 DESIGNATED 6 LABEL ~NTotSC_SvlastsTorment~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/UBSVLAST.CRE~ @532
@@ -2700,6 +2720,7 @@ REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 7 @552 /* Requires 'Will O'Hara' component
 //////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
 BEGIN @540 /* ~Fighting Encounters~ */
+GROUP @564	/* ~Tactical Challenges~ */
 DESIGNATED 9 LABEL ~NTotSC_FightingEncounters~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 
@@ -2790,3 +2811,13 @@ COPY ~ntotsc/base/cre/btelite.cre~ ~override~
 
 EXTEND_BOTTOM ~%CloakwoodWyverns_BCS%.bcs~ ~ntotsc/modify/bcs/ar1700.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~ntotsc/modify/bcs/ar1800.baf~ EVALUATE_BUFFER
+
+
+BEGIN @565	/* ~Improved Lesser Fiends */
+GROUP @564	/* ~Tactical Challenges~ */
+DESIGNATED 10 LABEL ~NTotSC_TacticalChallengesFiends~
+REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
+
+INCLUDE ~%MOD_FOLDER%/tactical/setup_fiends.tpa~
+
+

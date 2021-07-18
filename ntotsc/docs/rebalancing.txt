@@ -42,11 +42,11 @@ Black Hand Temple
 - Reduced Draagis' impossibly high HP and AC to more sane levels, made him a
   proper 10th level wizard with appropriate spells.  (He already was a mage,
   but his prepared spells didn't match his mage script.)
-- Removed overpowered Namji's Robe, introduced Ogi-Luc's Great Robe (AC 4,
-  from Icewind Dale) instead.
+- Removed overpowered Namji's Robe, removed Ogi-Luc's Great Robe, gave custom
+  Robe of Eyes (true seeing, no backstab).
 - number of archers depending on game difficulty. Arrows of piercing removed from most Balck Cultist archers.
 
-  New Items: ntrobe01 - Ogi-Luc's Great Robe
+  New Items: ntrobe04 - Robe of Eyes
 
 
 General Ghotal fight
@@ -57,7 +57,7 @@ General Ghotal fight
 - Marked him as undead/spectre.
 - Gave him a new custom armor.
 
-  New Items: ntplat02 - Ghotal's Plate +2
+  New Items: ntplat02 - Ghotal's Field Plate +2
 
 
 Fire Salamander in AR25PB.are
@@ -84,5 +84,18 @@ Miscellaneous changes:
   DSotSC game.
 
   Files removed: adisease.itm, adisease.bam
+
+
+Item revisions 2021
+===================
+
+- Ghotal's Plate +2 changed from full plate to field plate, base AC one worse,
+  lower bonuses against slashing/piercing), weight increased, dex penalty
+  doubled to -4.
+- Removed Ogi-Luc's Robe (still better than anything found in SoD) from
+  Draagis, replaced with custom Robe of Eyes (true sight, no backstab).
+- Gave Haebal custom Robe of Rock (immune to petrification, stone skin)
+- Replaced duplicate Ring of Protection +2 in orc camp with custom Ring of
+  Protection +1, +3 vs. Humanoids.
 
 
