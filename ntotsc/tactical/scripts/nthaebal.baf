@@ -1,0 +1,764 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    ReallyForceSpellDead(Myself, VAMPIRE_GAS_FORM_CHANGE)
+END
+
+IF
+  AttackedBy([GOODCUTOFF], DEFAULT)
+  Allegiance(Myself, NEUTRAL)
+THEN
+  RESPONSE #100
+    EraseJournalEntry(@10016)
+    Enemy()
+    Continue()
+END
+
+IF
+  Allegiance(Myself, ENEMY)
+  Global("prepared", "LOCALS", 0)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("prepared", "LOCALS", 1)
+    ApplySpell(Myself, WIZARD_STONE_SKIN)
+    ApplySpell(Myself, WIZARD_MINOR_GLOBE_OF_INVULNERABILITY)
+    ForceSpell(Myself, WIZARD_SHADOW_DOOR)
+    SetInterrupt(TRUE)
+    Continue()
+END
+
+IF
+  HPPercentLT(Myself, 50)
+  Global("NTHaeballVampireRevealed", "GLOBAL", 0)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("NTHaeballVampireRevealed", "GLOBAL", 1)
+    CreateVisualEffectObject("spfleshs", Myself)
+    PolyMorph("vampire")
+    DestroyItem("minhp20")
+    SetInterrupt(TRUE)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("NTHaeballVampireRevealed", "GLOBAL", 1)
+  !GlobalTimerNotExpired("fear", "LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("fear", "LOCALS", ONE_ROUND)
+    ReallyForceSpell(LastSeenBy(Myself), VAMPIRE_FEAR)
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("NTHaeballVampireRevealed", "GLOBAL", 1)
+  !GlobalTimerNotExpired("domination", "LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("domination", "LOCALS", ONE_ROUND)
+    ReallyForceSpell(LastSeenBy(Myself), VAMPIRE_DOMINATION)
+    Continue()
+END
+
+IF
+  Allegiance(Myself, ENEMY)
+  HaveSpell(WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(Myself, WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+END
+
+IF
+  Allegiance(Myself, ENEMY)
+  HaveSpell(WIZARD_STONE_SKIN)
+  !CheckStatGT(Myself, 0, STONESKINS)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(Myself, WIZARD_STONE_SKIN)
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_HOLD_PERSON)
+  !StateCheck(LastSeenBy(Myself), STATE_DISABLED)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_HOLD_PERSON)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_HOLD_PERSON)
+  !StateCheck(LastSeenBy(Myself), STATE_DISABLED)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_HOLD_PERSON)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_HOLD_PERSON)
+  !StateCheck(LastSeenBy(Myself), STATE_DISABLED)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_HOLD_PERSON)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_HOLD_PERSON)
+  !StateCheck(LastSeenBy(Myself), STATE_DISABLED)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_HOLD_PERSON)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_HOLD_PERSON)
+  !StateCheck(LastSeenBy(Myself), STATE_DISABLED)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_HOLD_PERSON)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_HOLD_PERSON)
+  !StateCheck(LastSeenBy(Myself), STATE_DISABLED)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_HOLD_PERSON)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_HORROR)
+  !StateCheck(LastSeenBy(Myself), STATE_DISABLED)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_HORROR)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHAIN_LIGHTNING)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTELECTRICITY)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHAIN_LIGHTNING)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHAIN_LIGHTNING)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTELECTRICITY)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHAIN_LIGHTNING)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHAIN_LIGHTNING)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTELECTRICITY)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHAIN_LIGHTNING)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHAIN_LIGHTNING)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTELECTRICITY)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHAIN_LIGHTNING)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHAIN_LIGHTNING)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTELECTRICITY)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHAIN_LIGHTNING)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHAIN_LIGHTNING)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTELECTRICITY)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHAIN_LIGHTNING)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_DISPEL_MAGIC)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_DISPEL_MAGIC)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MIRROR_IMAGE)
+  !StateCheck(Myself, STATE_MIRRORIMAGE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(Myself, WIZARD_MIRROR_IMAGE)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_IMPROVED_INVISIBILITY)
+  !StateCheck(Myself, STATE_IMPROVEDINVISIBILITY)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(Myself, WIZARD_IMPROVED_INVISIBILITY)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_ANIMATE_DEAD)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  !GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    SetGlobalTimer("monsters_summoned", "LOCALS", THREE_ROUNDS)
+    Spell(Myself, WIZARD_ANIMATE_DEAD)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MONSTER_SUMMONING_3)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  !GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    SetGlobalTimer("monsters_summoned", "LOCALS", THREE_ROUNDS)
+    Spell(Myself, WIZARD_MONSTER_SUMMONING_3)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CONE_OF_COLD)
+  CheckStatLT(LastSeenBy(Myself), 70, RESISTCOLD)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CONE_OF_COLD)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MONSTER_SUMMONING_2)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  !GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    SetGlobalTimer("monsters_summoned", "LOCALS", THREE_ROUNDS)
+    Spell(Myself, WIZARD_MONSTER_SUMMONING_2)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MONSTER_SUMMONING_1)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  !GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    SetGlobalTimer("monsters_summoned", "LOCALS", THREE_ROUNDS)
+    Spell(Myself, WIZARD_MONSTER_SUMMONING_1)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FLAME_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_FLAME_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FLAME_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_FLAME_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FLAME_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_FLAME_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FLAME_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_FLAME_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FLAME_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_FLAME_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_FLAME_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_FLAME_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MELF_ACID_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTACID)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MELF_ACID_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MELF_ACID_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTACID)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MELF_ACID_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MELF_ACID_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTACID)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MELF_ACID_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MELF_ACID_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTACID)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MELF_ACID_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MELF_ACID_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTACID)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MELF_ACID_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MELF_ACID_ARROW)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTACID)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MELF_ACID_ARROW)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_AGANNAZAR_SCORCHER)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_AGANNAZAR_SCORCHER)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_AGANNAZAR_SCORCHER)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_AGANNAZAR_SCORCHER)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_AGANNAZAR_SCORCHER)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_AGANNAZAR_SCORCHER)
+  CheckStatLT(LastSeenBy(Myself), 50, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_AGANNAZAR_SCORCHER)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_BURNING_HANDS)
+  CheckStatLT(LastSeenBy(Myself), 70, RESISTFIRE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+  GlobalTimerNotExpired("monsters_summoned", "LOCALS")
+THEN
+  RESPONSE #70
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_BURNING_HANDS)
+  RESPONSE #30
+    Continue()
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MAGIC_MISSILE)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SixthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHROMATIC_ORB)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHROMATIC_ORB)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MAGIC_MISSILE)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(SecondNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHROMATIC_ORB)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHROMATIC_ORB)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MAGIC_MISSILE)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FifthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHROMATIC_ORB)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHROMATIC_ORB)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MAGIC_MISSILE)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(ThirdNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHROMATIC_ORB)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHROMATIC_ORB)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MAGIC_MISSILE)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(FourthNearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHROMATIC_ORB)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHROMATIC_ORB)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_MAGIC_MISSILE)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_MAGIC_MISSILE)
+  RESPONSE #50
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  HaveSpell(WIZARD_CHROMATIC_ORB)
+  !GlobalTimerNotExpired("spell_cast", "LOCALS")
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spell_cast", "LOCALS", ONE_ROUND)
+    Spell(LastSeenBy(Myself), WIZARD_CHROMATIC_ORB)
+  RESPONSE #50
+    Continue()
+END
+
+
