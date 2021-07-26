@@ -2820,4 +2820,11 @@ REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 
 INCLUDE ~%MOD_FOLDER%/tactical/setup_fiends.tpa~
 
+BEGIN @567	/* ~Improved Haeball */
+GROUP @564	/* ~Tactical Challenges~ */
+DESIGNATED 11 LABEL ~NTotSC_TacticalChallengesHaeball~
+REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
+
+INCLUDE ~%MOD_FOLDER%/tactical/setup_haeball.tpa~
+
 
