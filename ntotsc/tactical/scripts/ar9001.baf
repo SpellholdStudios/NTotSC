@@ -1,0 +1,54 @@
+IF
+  Exists("nthaebal")
+  !Dead("nthaebal")
+  Allegiance("nthaebal", ENEMY)
+  Global("minions_spawned", "ar9001", 0)
+  Difficulty(NORMAL)
+THEN
+  RESPONSE #100
+    SetGlobal("minions_spawned", "ar9001", 1)
+    CreateCreatureObjectEffect("%tutu_var%golemf", "spfleshs", "nthaebal")
+END
+
+IF
+  Exists("nthaebal")
+  !Dead("nthaebal")
+  Allegiance("nthaebal", ENEMY)
+  Global("minions_spawned", "ar9001", 0)
+  Difficulty(HARD)
+THEN
+  RESPONSE #100
+    SetGlobal("minions_spawned", "ar9001", 1)
+    CreateCreatureObjectEffect("%tutu_var%golemf", "spfleshs", "nthaebal")
+    CreateCreatureObjectEffect("%tutu_var%golemf", "spfleshs", "nthaebal")
+END
+
+IF
+  Exists("nthaebal")
+  !Dead("nthaebal")
+  Allegiance("nthaebal", ENEMY)
+  Global("minions_spawned", "ar9001", 0)
+  Difficulty(HARDEST)
+THEN
+  RESPONSE #100
+    SetGlobal("minions_spawned", "ar9001", 1)
+    CreateCreatureObjectEffect("%tutu_var%battho", "spfleshs", "nthaebal")
+    CreateCreatureObjectEffect("%tutu_var%golemf", "spfleshs", "nthaebal")
+    CreateCreatureObjectEffect("%tutu_var%golemf", "spfleshs", "nthaebal")
+END
+
+IF
+  Global("NTHaeballVampireRevealed", "GLOBAL", 1)
+  GlobalLT("wolves_spawned", "ar9001", 6)
+  Exists("nthaebal")
+  !Dead("nthaebal")
+  !GlobalTimerNotExpired("spawn_wolves", "ar9001")
+  DifficultyGT(EASY)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("spawn_wolves", "ar9001", 3)
+    IncrementGlobal("wolves_spawned", "ar9001", 1)
+    CreateCreature("%tutu_var%wolfdi", [198.529], 7)
+END
+
+
