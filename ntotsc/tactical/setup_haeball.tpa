@@ -1,13 +1,16 @@
-COPY ~%MOD_FOLDER%/tactical/actors/nthaebal.cre~ ~override~
-  SAY NAME1 ~Haeball~	// Given name, no need to translate.
-  SAY NAME2 ~Haeball~	// Given name, no need to translate.
+WITH_TRA ~ntotsc/language/english/tactical.tra~ ~ntotsc/language/%s/tactical.tra~
+BEGIN
+  COPY ~%MOD_FOLDER%/tactical/actors/nthaebal.cre~ ~override~
+    SAY NAME1 ~Haeball~	// Given name, no need to translate.
+    SAY NAME2 ~Haeball~	// Given name, no need to translate.
 
-COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/tactical/scripts/nthaebal.baf~
-  USING ~ntotsc/language/%LANGUAGE%/journal.tra~
+  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/tactical/scripts/nthaebal.baf~
+    USING ~ntotsc/language/%LANGUAGE%/journal.tra~
 
-COPY_EXISTING "ar9001.are" "override"
-  WRITE_ASCII AREA_SCRIPT "ar9001" #8
+  COPY_EXISTING "ar9001.are" "override"
+    WRITE_ASCII AREA_SCRIPT "ar9001" #8
 
-COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/tactical/scripts/ar9001.baf~
+  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/tactical/scripts/ar9001.baf~
+END
 
 

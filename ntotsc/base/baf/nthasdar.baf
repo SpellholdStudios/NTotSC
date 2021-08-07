@@ -1,13 +1,21 @@
 IF
+  AreaCheck("AR61PB")
+  Allegiance(Myself, NEUTRAL)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+
+IF
   OR(2)
-	Dead("NTDraagi")
-	GlobalGT("NTTalkedToShaellaPB","GLOBAL",0)
+    Dead("NTDraagi")
+    GlobalGT("NTTalkedToShaellaPB","GLOBAL",0)
   Global("NTTalkedToHasdar","GLOBAL",0)
   See([PC])
 THEN
   RESPONSE #100
     SetGlobal("NTTalkedToHasdar","GLOBAL",1)
-    ActionOverride("NTHASDAR",StartDialogue("NTHASDAR",[PC]))
+    StartDialogue("NTHASDAR",[PC])
 END
 
 IF
@@ -15,18 +23,12 @@ IF
   Allegiance(Myself,NEUTRAL)
 THEN
   RESPONSE #100
-    ActionOverride(Myself,Enemy())
     CreateCreature("NTLEGIAN",[628.2376],8)
     CreateCreature("NTMARIEL",[785.2266],8)
     CreateCreature("SHADOW01",[1067.2131],8)
     CreateCreature("SHADOW01",[1048.2325],8)
     CreateCreature("SHADOW01",[877.2368],8)
+    Enemy()
 END
 
-IF
-  AreaCheck("AR61PB")
-THEN
-  RESPONSE #100
-    ActionOverride(Myself,Enemy())
-END
 

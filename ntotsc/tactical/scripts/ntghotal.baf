@@ -1,0 +1,44 @@
+IF
+  ActuallyInCombat()
+  See(NearestEnemyOf(Myself))
+  Global("initial_minions", "LOCALS", 0)
+  DifficultyGT(NORMAL)
+THEN
+  RESPONSE #100
+    SetGlobal("initial_minions", "LOCALS", 1)
+    CreateCreatureObjectEffect("ntshorcg", "spfleshs", Myself)
+    CreateCreatureObjectEffect("ntshorcg", "spfleshs", Myself)
+    CreateCreatureObjectEffect("ntshorca", "spfleshs", Myself)
+    CreateCreatureObjectEffect("ntshorca", "spfleshs", Myself)
+END
+
+IF
+  ActuallyInCombat()
+  See(NearestEnemyOf(Myself))
+  !GlobalTimerNotExpired("spawn_minions", "LOCALS")
+  DifficultyGT(EASY)
+THEN
+  RESPONSE #50
+    SetGlobalTimer("spawn_minions", "LOCALS", TWO_ROUNDS)
+    CreateCreatureObjectEffect("ntshorcg", "spfleshs", Myself)
+    Continue()
+  RESPONSE #50
+    SetGlobalTimer("spawn_minions", "LOCALS", TWO_ROUNDS)
+    CreateCreatureObjectEffect("ntshorca", "spfleshs", Myself)
+    Continue()
+END
+
+
+IF
+  See(NearestEnemyOf(Myself))
+  Range(LastSeenBy(Myself), 20)
+  !GlobalTimerNotExpired("grave_chill", "LOCALS")
+  DifficultyGT(EASY)
+THEN
+  RESPONSE #70
+    SetGlobalTimer("grave_chill", "LOCALS", THREE_ROUNDS)
+    ForceSpell(LastSeenBy(Myself), NTGHOTAL_GRAVE_CHILL)
+    Wait(1)
+END
+
+
