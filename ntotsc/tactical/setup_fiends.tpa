@@ -9,16 +9,10 @@ BEGIN
     SAY NAME1 @1
     SAY NAME2 @1
 
-  COPY "%MOD_FOLDER%/tactical/actors/ntghastf.cre" "override"
-    SAY NAME1 @2
-    SAY NAME2 @2
-
-  ACTION_BASH_FOR "%MOD_FOLDER%/tactical/scripts" "^.*\.baf$"
+  ACTION_BASH_FOR "%MOD_FOLDER%/tactical/scripts" "^ntind.*\.baf$"
   BEGIN
     COMPILE EVALUATE_BUFFER "%BASH_FOR_FILESPEC%"
   END
-
-  COPY "%MOD_FOLDER%/tactical/areas/ar82pb.are" "override"
 END
 
 
