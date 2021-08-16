@@ -36,6 +36,7 @@ THEN
   RESPONSE #100
     SetInterrupt(FALSE)
     SetGlobal("NTHaeballVampireRevealed", "GLOBAL", 1)
+    DisplayStringHead(Myself, @2)
     CreateVisualEffectObject("spfleshs", Myself)
     PolyMorph("vampire")
     DestroyItem("minhp20")

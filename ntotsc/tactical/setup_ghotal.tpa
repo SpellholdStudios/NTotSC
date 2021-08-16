@@ -1,0 +1,69 @@
+WITH_TRA "ntotsc/language/english/tactical.tra" "ntotsc/language/%s/tactical.tra"
+BEGIN
+  COPY "%MOD_FOLDER%/tactical/actors/ntgghota.cre" "override"
+       "%MOD_FOLDER%/tactical/actors/ntgghot1.cre" "override"
+    SAY NAME1 "Ghotal"	// Name, no need to translate
+    SAY NAME2 "Ghotal"	// Name, no need to translate
+
+  COPY "%MOD_FOLDER%/tactical/items/ntghotal.itm" "override"
+
+  ADD_SPELL "%MOD_FOLDER%/tactical/spells/ntgchill.spl" 3 5 NTGHOTAL_GRAVE_CHILL
+    SAY NAME1 @3
+
+  COMPILE EVALUATE_BUFFER "%MOD_FOLDER%/tactical/scripts/ntghotal.baf"
+
+
+  COPY "%MOD_FOLDER%/tactical/actors/ntshorcg.cre" "override"
+    SAY NAME1 @4
+    SAY NAME2 @4
+
+
+  COPY "%MOD_FOLDER%/tactical/actors/ntshorca.cre" "override"
+    SAY NAME1 @5
+    SAY NAME2 @5
+
+
+  COPY "%MOD_FOLDER%/tactical/actors/ntgolbon.cre" "override"
+    SAY NAME1 @6
+    SAY NAME2 @6
+
+
+  COPY "%MOD_FOLDER%/tactical/actors/ntgolsto.cre" "override"
+    SAY NAME1 @7
+    SAY NAME2 @7
+
+
+  ACTION_IF NOT FILE_EXISTS_IN_GAME "s3-8m3.itm"
+  BEGIN
+    COPY_EXISTING "s1-8.itm" "override/s3-8m3"
+      WRITE_LONG 0x0018 THIS | BIT6	// Magical
+      WRITE_LONG 0x0060 3		// Enchantment
+
+      LAUNCH_PATCH_FUNCTION ALTER_ITEM_HEADER
+        INT_VAR
+	dicenumber	= 3
+      END
+  END
+
+
+  COPY_EXISTING "ar11pb.are" "override"
+    LAUNCH_PATCH_FUNCTION ALTER_AREA_ACTOR
+      STR_VAR
+      actor_name	= "Demon Knight"
+      cre_file		= "ntgolsto"
+    END
+
+    LAUNCH_PATCH_FUNCTION ALTER_AREA_ACTOR
+      STR_VAR
+      actor_name	= "Zombie"
+      cre_file		= "zombju01"
+    END
+
+    LAUNCH_PATCH_FUNCTION ALTER_AREA_ACTOR
+      STR_VAR
+      actor_name	= "Revenant"
+      cre_file		= "ntgolbon"
+    END
+END
+
+
