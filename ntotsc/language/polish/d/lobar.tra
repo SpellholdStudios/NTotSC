@@ -1,20 +1,20 @@
 @0    = ~Przybywamy tu w interesach. A konkretnie interesuje nas pewna ksiêga...~
-@1    = ~Oczywiœcie ta sprawa nie mog³a zbyt d³ugo umykaæ uwadze podejrzanych osób. Niedawno pyta³ o ni¹ jakiœ Haalruañski mag, dzisiaj wy. A moja odpowiedŸ jest prosta. Moja ukochana... przyjació³ka postrada³a przez ni¹ zmys³y. Posiadanie tej ksiêgi by³o moim przekleñstwem. Ale w koñcu jakiœ podobny wam szaleniec zdj¹³ ze mnie tê kl¹twê i zapewne trapi teraz jego.~
-@2    = ~Wiêc ile bêdzie kosztowa³a nas ta informacja?~
+@1    = ~Oczywiœcie ta sprawa nie mog³a zbyt d³ugo umykaæ uwadze podejrzanych osób. Niedawno pyta³ o ni¹ jakiœ Haalruañski mag, dzisiaj wy. A moja odpowiedŸ jest prosta. Moja ukochana... przyjació³ka postrada³a przez ni¹ zmys³y. Posiadanie tej ksiêgi by³o moim przekleñstwem. W koñcu jakiœ podobny wam szaleniec zdj¹³ ze mnie tê kl¹twê i zapewne trapi teraz jego.~
+@2    = ~Ile bêdzie kosztowa³a nas ta informacja?~
 @3    = ~Zamierzasz przed³u¿aæ to w nieskoñczonoœæ? Podaj cenê.~
-@4    = ~3000 sztuk z³ota. Je¿eli powiem wam kto j¹ ma, to bêdê musia³ zapewniæ sobie godziw¹ ochronê przez jakiœ czas.~
+@4    = ~Trzy tysi¹ce sztuk z³ota. Je¿eli powiem wam kto j¹ ma, to bêdê musia³ zapewniæ sobie godziw¹ ochronê przez jakiœ czas.~
 @5    = ~Dobrze, oto twoje pieni¹dze.~
 @6    = ~Niestety nie dysponujemy teraz tak¹ kwot¹... Wrócimy tu jeszcze.~
-@7    = ~A wiêc udajcie siê do Sp³onionej Syreny. Odszukajcie tam Oupasta. On poœredniczy³ w tej transakcji i z pewnoœci¹ wie komu odda³ ksiêgê. Ja ju¿ nie mam nic do dodania.~
+@7    = ~A wiêc udajcie siê do „Sp³onionej Syreny”. Odszukajcie tam Oupaste’a. On poœredniczy³ w tej transakcji i z pewnoœci¹ wie komu odda³ ksiêgê. Ja ju¿ nie mam nic do dodania.~
 /* @8 -> @10002  */ 
 @9    = ~Jak sobie ¿yczysz.~
 @11   = ~Przybyliœmy tu w interesach, jesteœmy zainteresowani pewn¹ niezwyk³¹ ksiêg¹.~
 
 /* new for v2.0 */
-@12 = ~Mam nadziejê, ¿e bêdzie ci tu dobrze.~
-@13 = ~Mam z³oto.~
-@14 = ~¯egnaj.~
+@12 = ~Mam nadziejê, ¿e bêdzie wam tu dobrze.~
+@13 = ~Mamy z³oto.~
+@14 = ~¯egnajcie.~
 @15 = ~Dobrego dnia.~
 
 /* new for v3.1.0 */
-@16 = ~Nie zamierzam przeznaczyæ tyle z³ota za prost¹ informacjê.~
+@16 = ~Nie zamierzamy przeznaczyæ tyle z³ota za prost¹ informacjê.~

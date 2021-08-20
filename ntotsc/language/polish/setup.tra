@@ -6,7 +6,7 @@
 PARAMETRY:
 
 Obra¿enia: 1K6
-Typ obra¿eñ: pociski (k³ute)
+Typ obra¿eñ: pocisk (k³ute)
 Specjalne:
  Trafiony cel zostaje zatruty
 Waga: 0
@@ -16,14 +16,14 @@ Nie mo¿e u¿ywaæ:
  Druid
  Mag~
 
-@4    = ~Piekielna strza³a~
+@4    = ~Piekielna strza³a +2~
 @6    = ~Strza³y te s¹ wspaniale wykonane i pokryte runami. Widaæ, ¿e w ich wykonanie w³o¿ono wiele wysi³ku i czasu. Po uwa¿nym przyjrzeniu siê widaæ, ¿e runy emanuj¹ delikatn¹, niebiesk¹ poœwiat¹.
 
 PARAMETRY:
 
 Obra¿enia: 1K8 +2
 TraK0: +2
-Typ obra¿eñ: pociski (k³ute)
+Typ obra¿eñ: pocisk (k³ute)
 Specjalne:
  +1K10 pkt. obra¿eñ od ognia
 Waga: 0
@@ -34,13 +34,18 @@ Nie mo¿e u¿ywaæ:
  Mag~
 
 @7    = ~Szczêœliwa strza³a Llindellyna~
-@8    = ~Chyba poza wartoœci¹ uczuciow¹, ta strza³a niczym siê nie wyró¿nia. Ale Llindellyn bardzo jej poszukuje.~
+@8    = ~Chyba poza wartoœci¹ sentymentaln¹, ta strza³a niczym siê nie wyró¿nia. Mimo wszystko Llindellyn bardzo jej poszukuje.
+
+PARAMETRY:
+
+Waga: 0~
 
 /*@10   = ~To s¹ zatrute pociski, które potrafi robiæ Will, korzystaj¹c z ¿ywicy, któr¹ wydziela jego dziwny cep. Nauczy³ siê on u¿ywaæ trucizny kiedy by³ m³ody i potrafi zrobiæ jej tyle, ¿eby wystarczy³o na 5 pocisków.
 
 PARAMETRY:
 
 Obra¿enia: 1K6 +1
+Typ obra¿eñ: pocisk (k³ute)
 Specjalne:
  Trafiony cel zostaje zatruty
 Waga: 0
@@ -57,7 +62,7 @@ PARAMETRY:
 
 Obra¿enia: 1K3
 TraK0: -3
-Typ obra¿eñ: pociski (k³ute)
+Typ obra¿eñ: pocisk (k³ute)
 Specjalne:
  Trafiony cel jest przenoszony w losowe miejsce
 Waga: 0
@@ -67,7 +72,7 @@ Nie mo¿e u¿ywaæ:
  Druid
  Mag~
 
-@14   = ~Topór iskrzenia~
+@14   = ~Topór iskrzenia +2~
 @16   = ~Broñ jest wspaniale wykonana i pokryta runami. Widaæ, ¿e w jej wykonanie w³o¿ono wiele wysi³ku i czasu. Po uwa¿nym przyjrzeniu siê widaæ, ¿e runy emanuj¹ delikatn¹, niebiesk¹ poœwiat¹.
 
 PARAMETRY:
@@ -91,7 +96,7 @@ Nie mo¿e u¿ywaæ:
  Mnich
  W³adca zwierz¹t~
 
-@18   = ~Cep bojowy szoku~
+@18   = ~Cep bojowy szoku +2~
 @20   = ~Cep bojowy zrobiony jest z mocnej, drewnianej rêkojeœci po³¹czonej za pomoc¹ zawiasu lub ³añcucha, z ¿elaznym prêtem, drewnianym prêtem z kolcami lub ¿elazn¹, kolczast¹ kul¹. Jego pierwotnym przeznaczeniem by³o m³ócenie zbo¿a. Ten cep bojowy zosta³ umagiczniony. Na jego powierzchni widaæ ¿arz¹ce siê runy.
 
 PARAMETRY:
@@ -115,10 +120,10 @@ Nie mo¿e u¿ywaæ:
  Mnich
  W³adca zwierz¹t~
 
-@22   = ~Pustoszyciel +3~
-@24   = ~Wekiera +3: 'Pustoszyciel'
+@22   = ~Profanator +3~
+@24   = ~Wekiera +3: 'Profanator'
 
-Osobista broñ Nirela, potê¿nego, ale ma³o znanego kap³ana. Jednak historia wspomina o jego wyj¹tkowej niechêci do innowierców i schizmatyków. Podobno kolekcjonowa³ g³owy pokonanych. Ale szczególnie zas³yn¹³ ze zniszczenia ponad stu innowierczych œwi¹tyñ, st¹d te¿ i nazwa.
+Osobista broñ Nirela, potê¿nego, ale ma³o znanego kap³ana. Jednak historia wspomina o jego wyj¹tkowej niechêci do innowierców i schizmatyków. Podobno kolekcjonowa³ g³owy pokonanych. Jednak szczególnie zas³yn¹³ ze zniszczenia ponad stu innowierczych œwi¹tyñ, st¹d te¿ i nazwa.
 
 PARAMETRY:
 
@@ -178,7 +183,7 @@ Mo¿e u¿ywaæ:
 PARAMETRY:
 
 Obra¿enia: 1K8
-Typ obra¿eñ: pociski (k³ute)
+Typ obra¿eñ: pocisk (k³ute)
 Specjalne:
  Trafiony cel zostaje zatruty
 Waga: 0
@@ -189,7 +194,7 @@ Nie mo¿e u¿ywaæ:
  Mag~
 
 @31   = ~Buty ochrony Nirela~
-@33   = ~To s¹ buty Nirela, potê¿nego ale ma³o znanego kap³ana. Jednak historia wspomina o jego wyj¹tkowej niechêci do innowierców i schizmatyków. Podobno kolekcjonowa³ g³owy pokonanych. Ale szczególnie zas³yn¹³ ze zniszczenia ponad stu innowierczych œwi¹tyñ.
+@33   = ~To s¹ buty Nirela, potê¿nego ale ma³o znanego kap³ana. Historia wspomina o jego wyj¹tkowej niechêci do innowierców i schizmatyków. Podobno kolekcjonowa³ g³owy pokonanych. Jednak szczególnie zas³yn¹³ ze zniszczenia ponad stu innowierczych œwi¹tyñ.
 
 PARAMETRY:
 
@@ -201,7 +206,7 @@ Mo¿e u¿ywaæ:
  Kap³an
  Postaæ o charakterze z³ym~
 
-@35   = ~£uk burzy~
+@35   = ~£uk burzy +1~
 @37   = ~Ta broñ to œwiêtoœæ dla wojowników w s³u¿bie Talosa, boga burz i zniszczenia. W ich sprawnych d³oniach s³u¿y im od dziesiêcioleci. Jest to krótki ³uk wykonany z wielu ró¿nych warstw drewna. U¿ywany by³ przeciwko miriadom wrogów koœcio³a Talosa. Ostatnio ³uk by³ w posiadaniu Rycerza Burzy o imieniu Kalassan Brevered, który zosta³ zabity po tym, jak powali³ kilku ³owców i druidów na Wyspach Moonshae. Byæ mo¿e dlatego rozz³oszczeni kap³ani przeznaczyli tê broñ dla siebie jako przestrogê.
 
 PARAMETRY:
@@ -224,7 +229,7 @@ Nie mo¿e u¿ywaæ:
  Kensai
  Kawaler~
 
-@38   = ~Krótki ³uk przep³ywaj¹cej energii~
+@38   = ~Krótki ³uk przep³ywaj¹cej energii +1~
 @40   = ~Ten wysmuk³y ³uk emanuje ciep³em, choæ w dotyku wydaje siê byæ zimny - jak gdyby czerpa³ satysfakcjê ze swoich zdolnoœci. Tego typu ³uki s¹ od dawna czêsto spotykane na zimnej pó³nocy, okolicy Dziesiêciu Miast, ale ten egzemplarz jest wyj¹tkowo groŸny.
 
 PARAMETRY:
@@ -248,7 +253,7 @@ Nie mo¿e u¿ywaæ:
  Kensai
  Kawaler~
 
-@42   = ~D³ugi ³uk refleksyjny Firewine~
+@42   = ~D³ugi ³uk Firewine +1~
 @44   = ~Stworzony przez elfy zamieszkuj¹ce niegdyœ Firewine. Chocia¿ sam w sobie jest œwietnie wywa¿onym i magicznym ³ukiem, w d³oniach elfa staje siê jeszcze bardziej œmiercionoœn¹ broni¹.
 
 PARAMETRY:
@@ -259,7 +264,7 @@ Specjalne:
  5 strza³ów na 2 rundy
 Waga: 3
 OpóŸnienie: 7
-Rodzaj bieg³oœci: d³ugi £uk
+Rodzaj bieg³oœci: d³ugi ³uk
 Typ broni: 2-rêczna
 Wymagana si³a: 15
 Nie mo¿e u¿ywaæ:
@@ -296,7 +301,7 @@ PARAMETRY:
 
 Obra¿enia: 1K5 +2
 TraK0: +1
-Typ obra¿eñ: pociski (k³ute)
+Typ obra¿eñ: pocisk (k³ute)
 Specjalne:
  Trafiony cel zostaje zatruty
 Waga: 0
@@ -347,7 +352,7 @@ Nie mo¿e u¿ywaæ:
  W³adca zwierz¹t
  Tropiciel
  Zmiennokszta³tny
- Postaæ o rasie innej ni¿ elf lub pó³elf~
+ Postaæ innej rasy ni¿ elf lub pó³elf~
 
 @59   = ~Hebanowe ogniwo +5~
 @60   = ~Kolczuga +5: 'Hebanowe ogniwo'
@@ -371,20 +376,24 @@ Nie mo¿e u¿ywaæ:
  £ucznik
  W³adca zwierz¹t~
 
-@61   = ~Kolczuga Firewine~
+@61   = ~Kolczuga Firewine +1~
 @62   = ~W czasach dobrobytu miasta Firewine skonstruowano specjalny rodzaj znakomitej elfiej kolczugi, który zapewnia³ ochronê przed przydarzaj¹cymi siê w tej okolicy burzami.
 
 PARAMETRY:
 
 Klasa Pancerza: 4
 Specjalne:
- +2 do Klasy Pancerza przeciw broni siecznej
- -2 do Klasy Pancerza przeciw broni obuchowej
+ Nie ogranicza rzucania zaklêæ
  +30% do odpornoœci na elektrycznoœæ
 Waga: 15
 Wymagana si³a: 8
 Nie mo¿e u¿ywaæ:
- Kensai~
+ Druid
+ Mag
+ Z³odziej
+ Mnich
+ Kensai
+ £ucznik~
 
 @65   = ~P³aszcz iskrz¹cych kolorów~
 @67   = ~Pochodzenie tego p³aszcza ginie w mroku dziejów. Od pewnego czasu znajdowa³ siê on w posiadaniu Drosusa, potê¿nego maga z Waterdeep. Na pierwszy rzut oka p³aszcz wydaje siê mieæ oœlepiaj¹co bia³y kolor. Tak naprawdê jest to efekt na³o¿enia siê tysiêcy kolorów, które tañcz¹ i igraj¹ w ka¿dym œwietle. Te iskrz¹ce siê i mieni¹ce kolory rozpraszaj¹ uwagê, a nawet czêœciowo oœlepiaj¹ ka¿dego, kto patrzy prosto na osobê odzian¹ w P³aszcz Iskrz¹cych Kolorów. P³aszcz zapewnia bonus +2 do Klasy Pancerza i mo¿na go ubieraæ wraz z innymi formami magicznej ochrony, tak¿e mo¿e byæ noszony razem z magicznymi zbrojami w przeciwieñstwie do P³aszcza ochrony.
@@ -397,8 +406,10 @@ Waga: 3
 Nie mo¿e u¿ywaæ: 
  Zabójca magów~
 
-@77   = ~Zabójcze ¿¹d³o~
-@79   = ~Prawdziwa nazwa tego dziwnego sztyletu zaginê³a w mrocznych g³êbinach Morza Mieczy. Broñ ta, wykonana z magicznie wzmocnionej koœci sahuagina, by³a podobno u¿ywana przez kuo-toa w czasie tajemniczych rytua³ów. Rêkojeœæ tego sztyletu wykonano z korala owiniêtego z skórê sahuagina. W pewnym momencie nale¿a³ on do Lockharta, s³ynnego z³odzieja i szmuglera z Wybrze¿a Mieczy. To on nada³ ostrzu jego dzisiejsz¹ nazwê.
+@77   = ~Zabójcze ¿¹d³o +2~
+@79   = ~Sztylet +2: 'Zabójcze ¿¹d³o'
+
+Prawdziwa nazwa tego dziwnego sztyletu zaginê³a w mrocznych g³êbinach Morza Mieczy. Broñ ta, wykonana z magicznie wzmocnionej koœci sahuagina, by³a podobno u¿ywana przez kuo-toa w czasie tajemniczych rytua³ów. Rêkojeœæ tego sztyletu wykonano z korala owiniêtego z skórê sahuagina. W pewnym momencie nale¿a³ on do Lockharta, s³ynnego z³odzieja i szmuglera z Wybrze¿a Mieczy. To on nada³ ostrzu jego dzisiejsz¹ nazwê.
 
 PARAMETRY:
 
@@ -424,7 +435,7 @@ Obra¿enia: 1K3
 Specjalne:
  Wysoka szansa na zatrucie celu na 10 rund
  Liczba ataków ustalona na 4
-Typ obra¿eñ: pociski (k³ute)
+Typ obra¿eñ: pocisk (k³ute)
 Waga: 0
 OpóŸnienie: 2
 Rodzaj bieg³oœci: strza³ka
@@ -434,20 +445,48 @@ Mo¿e u¿ywaæ:
  Druid~
 
 @85   = ~Klucz do skarbca~
-@86   = ~Ten klucz mia³ przy sobie Ksi¹¿ê Belt. Zapewne z wa¿nych powodów...~
+@86   = ~Ten klucz mia³ przy sobie Ksi¹¿ê Belt. Zapewne z wa¿nych powodów...
+
+PARAMETRY:
+
+Waga: 0~
 
 @88   = ~Pierœcieñ z grobu~
-@89   = ~Spogl¹daj¹c w ten wypolerowany pierœcieñ dostrzec mo¿na odbicie nieznanego pomieszczenia, które z powodu zaciemnienia jest s³abo widoczne. Wygrawerowany napis g³osi: "Sztylet przetnie kamienny kr¹g, pierœcieñ rozjaœni mrok...".~
+@89   = ~Spogl¹daj¹c w ten wypolerowany pierœcieñ mo¿na dostrzec odbicie nieznanego pomieszczenia, które z powodu zaciemnienia jest s³abo widoczne. Wygrawerowany napis g³osi: "Sztylet przetnie kamienny kr¹g, pierœcieñ rozjaœni mrok...".
 
-@91   = ~Ten zardzewia³y sztylet nie ma ju¿ ¿adnej wartoœci bojowej, ale mo¿na wyczuæ magiê, która otacza ten przedmiot. Kiedy od³amie siê fragment sztyletu, w mgnieniu oka zniszczenie wype³nia siê now¹ substancj¹...~
-@92   = ~Kluczyk do biurka.
+PARAMETRY:
 
-Niezwykle rozpowszechniona forma metalowego kluczyka, który z regu³y s³u¿y do otwierania ma³ych zamków w szafkach i biurkach. Ten egzemplarz zapewne równie¿.~
-@93   = ~Zdoby³eœ ten klucz w Pó³nocnej cytadeli. Otwiera on wejœcie do mauzoleum.~
-@94   = ~To jest klucz, trzymany przez Meandra, potrzebny do otwarcia o³tarza w Pó³nocnej cytadeli.~
-@95   = ~Ten klucz zosta³ znaleziony przy ciele Haeballa.~
+Waga: 0~
 
-@97   = ~Pancerz wiêkszego cienia~
+@91   = ~Ten zardzewia³y sztylet nie ma ju¿ ¿adnej wartoœci bojowej, ale mo¿na wyczuæ magiê, która otacza ten przedmiot. Kiedy od³amie siê fragment sztyletu, w mgnieniu oka zniszczenie wype³nia siê nowym materia³em...
+
+PARAMETRY:
+
+Waga: 1~
+@92   = ~Kluczyk do biurka
+
+Niezwykle rozpowszechniona forma metalowego kluczyka, który z regu³y s³u¿y do otwierania ma³ych zamków w szafkach i biurkach. Ten egzemplarz zapewne równie¿.
+
+PARAMETRY:
+
+Waga: 0~
+@93   = ~Ten klucz otwiera wejœcie do mauzoleum nieopodal Pó³nocnej Cytadeli.
+
+PARAMETRY:
+
+Waga: 1~
+@94   = ~To jest klucz potrzebny do otwarcia o³tarza w Pó³nocnej Cytadeli.
+
+PARAMETRY:
+
+Waga: 1~
+@95   = ~Ten klucz zosta³ znaleziony przy ciele Haeballa.
+
+PARAMETRY:
+
+Waga: 1~
+
+@97   = ~Pancerz wiêkszego cienia +4~
 @99   = ~Pancerz cienia to skórzana æwiekowana zbroja stworzona przez Mistrzów Cieni z Amnu. Mistrzowie Cieni, jak ³atwo siê domyœliæ, stoj¹ najwy¿ej w hierarchii Z³odziei Cienia. Ta zbroja jest ulepszon¹ wersj¹ orygina³u i zapewnia modyfikator +4.
 
 PARAMETRY:
@@ -456,7 +495,7 @@ Klasa Pancerza: 3
 Specjalne:
  +15% do Otwierania zamków
  +15% do Krycia siê
- +15% do Cichego poruszania
+ +15% do Cichego chodzenia
  +15% do Kradzie¿y kieszonkowej
 Waga: 1
 Wymagana si³a: 6
@@ -524,7 +563,11 @@ Nie mo¿e u¿ywaæ:
 /*
 @107  = ~Lutnia~
 @108  = ~Milcz¹ca publicznoœæ~
-@109  = ~Ta delikatna lutnia posiada srebrne struny, a drewno wykoñczone jest z³otem, czym sprawia wra¿enie niemal nieludzkiego dzie³a. Ale faktem pozostaje, ¿e nawet niewprawne rêce potrafi¹ wydobyæ z niej w³aœciwe brzmienie, tym bardziej, ¿e nie ma ona ¿adnych widocznych sposobów strojenia. Poczucie zdumienia i respektu przebiega ka¿dego, kto zdo³a³ przyjrzeæ siê jej z bliska.~
+@109  = ~Ta delikatna lutnia posiada srebrne struny, a drewno wykoñczone jest z³otem, czym sprawia wra¿enie niemal nieludzkiego dzie³a. Niemniej jednak faktem pozostaje, ¿e nawet niewprawne rêce potrafi¹ wydobyæ z niej w³aœciwe brzmienie, tym bardziej, ¿e nie ma ona ¿adnych widocznych sposobów strojenia. Poczucie zdumienia i respektu przebiega ka¿dego, kto zdo³a³ przyjrzeæ siê jej z bliska.
+
+PARAMETRY:
+
+Waga: 3~
 @110  = ~Lutnia Hirsuhnita: 'Milcz¹ca publicznoœæ'
 
 Jest to znana wœród wschodniego ludu Hifrodytów lutnia, którzy uwa¿aj¹, ¿e pochodzi wprost ze snu. Hirsuhnite, hifrodycki bard, by³ pos¹dzany, ¿e przela³ na ni¹ swe strachliwe wizje podczas pewnej letniej nocy.
@@ -532,8 +575,7 @@ Jest to znana wœród wschodniego ludu Hifrodytów lutnia, którzy uwa¿aj¹, ¿e pocho
 PARAMETRY:
 
 Specjalne:
- Cel staje siê nieprzytomny
-Czas trwania: 2 rundy
+ Cel staje siê nieprzytomny na 2 rundy
 Waga: 3
 Mo¿e u¿ywaæ:
  Bard~
@@ -574,28 +616,45 @@ Specjalne:
 */
 
 @121  = ~Montgomery~
-@122  = ~To jest cia³o Montgomery’ego.~
+@122  = ~To jest cia³o Montgomery’ego.
+
+PARAMETRY:
+
+Waga: 115~
 @123  = ~Niezidentyfikowane cia³o~
-@124  = ~Cia³o, które znalaz³eœ wygl¹da jak cia³o maga, ale bior¹c pod uwagê stan tego cia³a, nie mo¿esz byæ pewien.~
+@124  = ~S¹dz¹c po szatach, cia³o to mog³o nale¿eæ do maga, jednak bior¹c pod uwagê stan tego cia³a, trudno jednoznacznie stwierdziæ.
+
+PARAMETRY:
+
+Waga: 115~
 @125  = ~Martwy szczur~
-@127  = ~Ten wspania³ej roboty œwiêty symbol jest poœwiêcony Helmowi. Przedstawia on stoj¹c¹ rêkawicê z patrz¹cym okiem. Sama rêkawica wykonana jest z przedniej jakoœci platyny, bia³ko oka zrobiono z macicy per³owej, a do wykonania Ÿrenicy u¿yto niebieskiego szafiru.~
+@127  = ~Ten wspania³ej roboty œwiêty symbol jest poœwiêcony Helmowi. Przedstawia on stoj¹c¹ rêkawicê z patrz¹cym okiem. Sama rêkawica wykonana jest z przedniej jakoœci platyny, bia³ko oka zrobiono z macicy per³owej, a do wykonania Ÿrenicy u¿yto niebieskiego szafiru.
+
+PARAMETRY:
+
+Waga: 0~
 @128  = ~Wielka Ksiêga Niewiedzy~
-@129  = ~Kiedy przegl¹dasz stronice tej ksiêgi nie znajdujesz na niej ¿adnych zapisków, ale jednoczeœnie ogarnia ciê przeœwiadczenie, ¿e ju¿ nie pamiêtasz po co j¹ otwiera³eœ...~
+@129  = ~Kiedy przegl¹dasz stronice tej ksiêgi nie znajdujesz na niej ¿adnych zapisków, ale jednoczeœnie ogarnia ciê przeœwiadczenie, ¿e ju¿ nie pamiêtasz po co siê j¹ otwiera³o...
+
+PARAMETRY:
+
+Waga: 3~
 @130  = ~¯elazo z kopalni~
 @133  = ~Zwój Charlestona Niba
 
 Ten zwój zawiera krótk¹ notatkê o po³o¿eniu ruin w pobli¿u mostu Firewine. Jest zaopatrzony pieczêci¹ maga o nierozpoznawalnym imieniu, ale stanowi zapewne rodzaj klucza, pozwalaj¹cego pokonaæ magiczny zamek.~
-@134 = ~Kartka jest zabazgrana mnóstwem nieistotnych informacji, ale mo¿na z niej wyczytaæ kilka fragmentów:
+@134 = ~Kartka jest zabazgrana mnóstwem nieistotnych informacji, ale mo¿na z niej wyczytaæ kilka fragmentów.
 
-"...nareszcie. Hasdar zawsze ma pomyœlne wieœci. Teraz, kiedy œwi¹tynia jest ukoñczona, a Las Ostrych K³ów chroni j¹ przed intruzami, bracia mog¹ skupiæ siê na w³aœciwym powo³aniu Czarnej D³oni..................z tym kultem balora................niezbêdne."
+...nareszcie. Hasdar zawsze ma pomyœlne wieœci. Teraz, kiedy œwi¹tynia jest ukoñczona, a Las Ostrych K³ów chroni j¹ przed intruzami, bracia mog¹ skupiæ siê na w³aœciwym powo³aniu Czarnej D³oni..................z tym kultem balora................niezbêdne.
 
-"...Po kiego grzyba nios³o mnie do tej mojej ruiny na po³udniu?... bez tego klucza nie mogê otworzyæ w³asnego biurka.... No có¿, pomimo, ¿e to niebezpieczne muszê tam wróciæ i odszukaæ go... tylko ta cholerna woda.... Zachcia³o siê mieszkania na bagnie..."
+...Po kiego grzyba nios³o mnie do tej mojej ruiny na po³udniu?... bez tego klucza nie mogê otworzyæ w³asnego biurka.... No có¿, pomimo, ¿e to niebezpieczne muszê tam wróciæ i odszukaæ go... tylko ta cholerna woda.... Zachcia³o siê mieszkania na bagnie...
 
-"Orki s¹ wœciek³e, ale tylko byli druidzi z naszego krêgu znaj¹ w³aœciw¹ kombinacjê otwieraj¹c¹ kryptê i mamy potrzebne............................ w kamiennym krêgu..."
+Orki s¹ wœciek³e, ale tylko byli druidzi z naszego krêgu znaj¹ w³aœciw¹ kombinacjê otwieraj¹c¹ kryptê i mamy potrzebne............................ w kamiennym krêgu...
 
-"...Shaella jest zaiste szalona."~
+...Shaella jest zaiste szalona.~
 @135  = ~Wiadomoœæ dla Yness~
 @136  = ~Moja kochana!
+
 Ludzie, których poprosi³aœ o pomoc, zdo³ali pokonaæ te potwory i dziêki temu, mogê wróciæ do domu ca³y i zdrowy. Niech bogowie chroni¹ naszych wybawców! Czekam na ciebie na farmie.
 
 Twój Pandris~
@@ -604,7 +663,7 @@ Twój Pandris~
 Przybêdzie do ciebie w odpowiednim czasie nasz pos³aniec, by otrzymaæ twój znak i b³ogos³awieñstwo, gdy wezwiecie swego Pana. Nasz kult jest ci wielce wdziêczny za pomoc i wiedz, ¿e takich uczynków siê nie zapomina.
 
 D.~
-@141  = ~Po bli¿szym przyjrzeniu siê tej zbroi p³ytowej widaæ, ¿e zrobiona jest ona z jakiegoœ nieznanego, mrocznego metalu. Nosz¹cy go, bêdzie wydawa³ siê tak mroczny, jak sama zbroja. Oprócz tego, zapewnia ona dodatkow¹ ochronê przez broni¹ strzeleck¹.
+@141  = ~Po bli¿szym przyjrzeniu siê tej zbroi p³ytowej widaæ, ¿e zrobiona jest ona z jakiegoœ nieznanego, mrocznego metalu. Nosz¹cy j¹, bêdzie wydawa³ siê tak mroczny, jak sama zbroja. Oprócz tego, zapewnia ona dodatkow¹ ochronê przez broni¹ strzeleck¹.
 
 PARAMETRY:
 
@@ -628,7 +687,11 @@ Nie mo¿e u¿ywaæ:
  Kensai~
 
 @142  = ~Butelkowane piwo Bentleya~
-@143  = ~Gospoda „Pod Pomocn¹ D³oni¹” s³ynie z wywaru Bentleya, który z powodu ceny jest ulubionym trunkiem podró¿nych, zatrzymuj¹cych siê u Lustrzanych Cieni. Efekt spo¿ycia bywa jednak doœæ nieprzewidywalny...~
+@143  = ~Gospoda "Pod Pomocn¹ D³oni¹" s³ynie z wywaru Bentleya, który z powodu ceny jest ulubionym trunkiem podró¿nych, zatrzymuj¹cych siê u Lustrzanych Cieni. Efekt spo¿ycia bywa jednak doœæ nieprzewidywalny...
+
+PARAMETRY:
+
+Waga: 1~
 @144  = ~Mikstura ognistej tarczy~
 @145  = ~Po wypiciu tego eliksiru wokó³ postaci formuje siê tarcza p³omieni feniksa - potê¿nej, ale krótkotrwa³ej ochrony.
 
@@ -642,37 +705,46 @@ Specjalne:
  +25% do odpornoœci na b³yskawice
  Ochrona przed zwyk³ymi broniami
 Czas trwania: 60 sekund
+Waga: 1
 Nie mo¿e u¿ywaæ: 
  Zabójca magów~
 
-@147  = ~Na ok³adce tej butelki napisane jest „Marsemberowy Rumieniec – Wyborny rocznik”. Utrzymuje tak¿e, ¿e wino jest owocow¹ mieszank¹ aromatu przypraw i zroszonych kwiatów. Winiarnie Marsember s¹ szeroko znane z ich firmowych winogron, które czerpi¹ swój smak ze s³onego powietrza Morza Upad³ych Gwiazd.~
-@148  = ~Butelka elfiego wina~
-@149  = ~W butelce znajduje siê elfie wino, które ma podobne w³aœciwoœci jak mikstura leczenia. W czasie jednego z elfich festynów, kap³ani z D³oni Seldarine wypili zbyt du¿o wina i przez przypadek dodali beczkê elfiego wina do mikstury leczenia.
+@147  = ~Na ok³adce tej butelki napisane jest "Marsemberowy Rumieniec - Wyborny rocznik". Utrzymuje tak¿e, ¿e wino jest owocow¹ mieszank¹ aromatu przypraw i zroszonych kwiatów. Winiarnie Marsember s¹ szeroko znane z ich firmowych winogron, które czerpi¹ swój smak ze s³onego powietrza Morza Upad³ych Gwiazd.
 
 PARAMETRY:
 
-Przywraca 35 punktów ¿ycia
-80% szansa na upojenie winem przez 30 minut~
-
-@151  = ~Magiczny pierœcieñ Willa~
-@153  = ~Will nie chce powiedzieæ, sk¹d wzi¹³ swój pierœcieñ, tym nie mniej, jego zalety s¹ rzadkie i zapewne stanowi¹ dar zaprzyjaŸnionego maga.
+Waga: 1~
+@148  = ~Butelka elfiego wina~
+@149  = ~W butelce znajduje siê elfie wino, które ma podobne w³aœciwoœci jak mikstura leczenia. W czasie jednego z elfich festynów, kap³ani z D³oni Seldarine wypili zbyt du¿o wina i przez przypadek dodali mikstury leczenia do beczki elfiego wina.
 
 PARAMETRY:
 
 Specjalne:
- Redukcja obra¿eñ magicznych: 20%
+ Przywraca 35 punktów ¿ycia
+ 80% szansa na upojenie winem przez 30 minut
+Waga: 1~
+
+@151  = ~Magiczny pierœcieñ Willa~
+@153  = ~Will nie chce powiedzieæ, sk¹d wzi¹³ swój pierœcieñ, niemniej jednak, jego zalety s¹ rzadkie i zapewne stanowi¹ dar od zaprzyjaŸnionego maga.
+
+PARAMETRY:
+
+Specjalne:
+ 20% redukcji obra¿eñ magicznych
+Waga: 0
 Mo¿e u¿ywaæ:
  Will~
 
-@154  = ~Pierœcieñ odpornoœci~
+@154  = ~Pierœcieñ odpornoœci +1~
 @155  = ~Pierœcieñ to ma³y pasek drogocennego metalu u¿ywany jako bi¿uteria. Niektóre, rzadsze okazy maj¹ w³asnoœci magiczne. S¹ one mocno poszukiwane, przede wszystkim przez ³owców przygód. Bez jakiejœ widocznej przyczyny, ten pierœcieñ jest ciep³y w dotyku.
 
 PARAMETRY:
 
 Specjalne:
  +1 do Klasy Pancerza
- +1 do rzutów obronnych
+ +1 do rzutów obronnych przeciw czarom
  +25% do odpornoœci na obra¿enia obuchowe
+Waga: 0
 Nie mo¿e u¿ywaæ: 
  Zabójca magów~
 
@@ -687,7 +759,7 @@ Klasa Pancerza: 5
 Specjalne:
  +15% do odpornoœci na magiê
  +1 do rzutów obronnych
- Pozwalaj¹ rzucaæ czar Wrota wymiarów i Drzwi z cienia
+ Raz dziennie pozwalaj¹ rzucaæ czar Drzwi przez wymiary i Drzwi z cienia
 Waga: 2
 Mo¿e u¿ywaæ:
  Mag (jedno, dwu i wieloklasowiec)
@@ -718,6 +790,7 @@ PARAMETRY:
 Klasa Pancerza: +2
 Specjalne:
  Nie chroni przed pociskami
+ Zapewnia swobodê dzia³ania
 Waga: 3
 Wymagana si³a: 4
 Nie mo¿e u¿ywaæ:
@@ -729,7 +802,7 @@ Nie mo¿e u¿ywaæ:
  Kensai~
 */
 
-@166  = ~Tarcza Firewine~
+@166  = ~Tarcza Firewine +1~
 @168  = ~Na wierzchniej czêœci widniej¹ wyryte napisy w dawnym elfim jêzyku. Tarcza ta zosta³a wykonana z najmocniejszych metali, jakie kiedykolwiek pojawi³y siê w tej czêœci Faerunu. Ka¿dy posiadacz tej tarczy jest przekonany, i¿ obroni go przed wszelkimi ciosami.
 
 PARAMETRY:
@@ -737,7 +810,7 @@ PARAMETRY:
 Klasa Pancerza: +2
 Specjalne:
  +1 do Klasy Pancerza przeciwko pociskom
- +1 do wszystkich rzutów obronnych
+ +1 do rzutów obronnych
 Waga: 8
 Wymagana si³a: 15
 Nie mo¿e u¿ywaæ:
@@ -748,8 +821,10 @@ Nie mo¿e u¿ywaæ:
  Mnich
  Kensai~
 
-@172  = ~Kosa likantropa~
-@174  = ~Raasi'doch de Velle spêdzi³ wiele nocy pracuj¹c z rzemieœlnikami Wedruj¹cej Wioski, by stworzyæ t¹ magiczn¹ broñ. Elfi ³owca potrzebowa³ broni, która pomog³aby mu w wyplenieniu wilko³aków terroryzuj¹cych lasy Tethyru. Broñ, tak jak on, pomimo tego, ¿e jest pozbawiona ekstrawaganckiego zdobnictwa, zawsze trafia prosto i boleœnie. Kiedy krucjata dobieg³a koñca, Raasi'doch sprzeda³ prawdopodobnie swój orê¿ jakiemuœ znanemu militaryœcie. 
+@172  = ~Kosa likantropa +2~
+@174  = ~W³ócznia +2: 'Kosa likantropa'
+
+Raasi'doch de Velle spêdzi³ wiele nocy pracuj¹c z rzemieœlnikami Wedruj¹cej Wioski, by stworzyæ t¹ magiczn¹ broñ. Elfi ³owca potrzebowa³ broni, która pomog³aby mu w wyplenieniu wilko³aków terroryzuj¹cych lasy Tethyru. Broñ, tak jak on, pomimo tego, ¿e jest pozbawiona ekstrawaganckiego zdobnictwa, zawsze trafia prosto i boleœnie. Kiedy krucjata dobieg³a koñca, Raasi'doch sprzeda³ prawdopodobnie swój orê¿ jakiemuœ znanemu militaryœcie. 
 
 PARAMETRY:
 
@@ -770,8 +845,10 @@ Nie mo¿e u¿ywaæ:
  Mnich
  W³adca zwierz¹t~
 
-@175  = ~Kosa Erona~
-@176  = ~Eron Niespokojny by³ pesymistycznie nastawionym czarodziejem obdarzonym naturaln¹ sk³onnoœci¹ do pojedynków na magiê. Uwa¿a³, ¿e jedynym sposobem nabrania mocy w sztuce magii jest sprawdzanie swoich umiejêtnoœci w walce z innymi czarodziejami. Jednak¿e wierzy³ równie¿ i w to, ¿e z³odzieje i p³atni zabójcy tylko czekaj¹, aby mu ukraœæ bogactwa. Aby upodobniæ siê do zwyk³ych ludzi, ubiera³ siê w szaty pielgrzyma, a w rêku dzier¿y³ prosty kij wi¹zowy. W rzeczywistoœci kij mia³ w³aœciwoœci magiczne, gdy¿ dodawa³ mocy w walce, ale Eron nie chcia³ zbyt wiele ryzykowaæ i nikomu o tym nie opowiada³.
+@175  = ~Kosa Erona +2~
+@176  = ~Kij +2: 'Kosa Erona'
+
+Eron Niespokojny by³ pesymistycznie nastawionym czarodziejem obdarzonym naturaln¹ sk³onnoœci¹ do pojedynków na magiê. Uwa¿a³, ¿e jedynym sposobem nabrania mocy w sztuce magii jest sprawdzanie swoich umiejêtnoœci w walce z innymi czarodziejami. Jednak¿e wierzy³ równie¿ i w to, ¿e z³odzieje i p³atni zabójcy tylko czekaj¹, aby mu ukraœæ bogactwa. Aby upodobniæ siê do zwyk³ych ludzi, ubiera³ siê w szaty pielgrzyma, a w rêku dzier¿y³ prosty kij wi¹zowy. W rzeczywistoœci kij mia³ w³aœciwoœci magiczne, gdy¿ dodawa³ mocy w walce, ale Eron nie chcia³ zbyt wiele ryzykowaæ i nikomu o tym nie opowiada³.
 
 PARAMETRY:
 
@@ -789,7 +866,7 @@ Nie mo¿e u¿ywaæ:
  Mnich~
 
 @177  = ~Kij poszukiwaczy +3~
-@178  = ~Kije poszukiwaczy pochodz¹ z innej krainy, ale pojawi³y siê tak¿e w Faerunie. Zawieraj¹ inkantacje zapewniaj¹ce protekcjê, wiedzê jak i ochronê przed niektórymi ¿ywio³ami. Ten konkretny kij pozwala rzuciæ co najmniej raz dziennie ka¿de z wymienionych zaklêæ: Uderzenie, Wykrycie z³a, Leczenie krytycznych ran i Wskrzeszenie. Co wiêcej, zapewnia tak¿e ochronê przed ogniem, jak i pewnymi formami magii.
+@178  = ~Kije poszukiwaczy pochodz¹ z innej Krainy, ale pojawi³y siê tak¿e w Faerunie. Zawieraj¹ inkantacje zapewniaj¹ce protekcjê, wiedzê jak i ochronê przed niektórymi ¿ywio³ami. Ten konkretny kij pozwala rzuciæ co najmniej raz dziennie ka¿de z wymienionych zaklêæ: Uderzenie, Wykrycie z³a, Leczenie krytycznych ran i Wskrzeszenie. Co wiêcej, zapewnia tak¿e ochronê przed ogniem, jak i pewnymi formami magii.
 
 PARAMETRY:
 
@@ -819,7 +896,7 @@ Nie mo¿e u¿ywaæ:
 @179  = ~Wysysacz krwi +3~
 @180  = ~Kij +3: 'Wysysacz krwi'
 
-Ten niezwyk³y kij znalaz³ siê wœród podarunków Nekromantów z Perregal dla druidów Erreth-Akbe kiedy postanowili zakoñczyæ swój 200-letni konflikt. Druidzi nigdy nie odwa¿yli siê u¿yæ tej broni, ale nie odmówili jej przyjêcia w obawie o utrzymanie pokoju. 
+Ten niezwyk³y kij znalaz³ siê wœród podarunków Nekromantów z Perregal dla druidów Erreth-Akbe, kiedy postanowili zakoñczyæ swój 200-letni konflikt. Druidzi nigdy nie odwa¿yli siê u¿yæ tej broni, ale nie odmówili jej przyjêcia w obawie o utrzymanie pokoju. 
 
 PARAMETRY:
 
@@ -827,7 +904,7 @@ Obra¿enia: 1K6 +3
 TraK0: +1
 Typ obra¿eñ: obuchowe
 Specjalne:
- Uderzenie wampiryczne
+ Ka¿de trafienie przywraca w³aœcicielowi 4 punkty ¿ycia
 Waga: 3
 OpóŸnienie: 1
 Rodzaj bieg³oœci: kij
@@ -838,8 +915,10 @@ Nie mo¿e u¿ywaæ:
  Postaæ o praworz¹dnym charakterze
  Postaæ o charakterze neutralnym~
 
-@182  = ~Koszmar trolla~
-@184  = ~Kid'Seroki by³ zaciek³ym trzebicielem, znienawidzonych przez niego, trolli. Po tym, jak zdo³a³ skraœæ trollom pierœcieñ maga trolli, ich bogowie zsy³ali watahy trolli œcigaj¹ce Kida, by odzyskaæ pierœcieñ. Ale bohater mia³ przy sobie broñ, na któr¹ nawet ich bogowie niewiele mogli poradziæ.
+@182  = ~Koszmar trolla +1~
+@184  = ~D³ugi miecz +1: 'Koszmar trolla'
+
+Kid'Seroki by³ zaciek³ym trzebicielem, znienawidzonych przez niego, trolli. Po tym, jak zdo³a³ skraœæ trollom pierœcieñ maga trolli, ich bogowie zsy³ali watahy trolli œcigaj¹ce Kida, by odzyskaæ pierœcieñ. Na szczêœcie bohater mia³ przy sobie broñ, na któr¹ nawet ich bogowie niewiele mogli poradziæ.
 
 PARAMETRY:
 
@@ -857,8 +936,10 @@ Nie mo¿e u¿ywaæ:
  Mag
  W³adca zwierz¹t~
 
-@185  = ~Ostrze smoka~
-@186  = ~Ten miecz stworzy³ na swe potrzeby pewien ³owca smoków, który zmar³... có¿... podczas wykonywania swojej pracy.
+@185  = ~Ostrze smoka +1~
+@186  = ~D³ugi miecz +1: 'Ostrze smoka'
+
+Ten miecz stworzy³ na swe potrzeby pewien ³owca smoków, który zmar³... có¿... podczas wykonywania swojej pracy.
 
 PARAMETRY:
 
@@ -869,14 +950,15 @@ Waga: 9
 OpóŸnienie: 9
 Rodzaj bieg³oœci: d³ugi miecz 
 Typ broni: 1-rêczna
+Wymagana si³a: 11
 Nie mo¿e u¿ywaæ:
  Druid
  Kap³an
  Mag
  W³adca zwierz¹t~
 
-@188  = ~P³omienne ostrze Evalta~
-@190  = ~Ta broñ zosta³a wykuta i znaleziona w ruinach Myth Drannor. Przez wieki nale¿a³a do Evalta i jego spadkobierców. Niezbyt wyj¹tkowe zastosowania wojenne rekompensuje ochron¹ przed ogniem.
+@188  = ~P³omienne ostrze Evalta +1~
+@190  = ~Ta broñ zosta³a wykuta i znaleziona w ruinach Myth Drannor. Przez wieki nale¿a³a do Evalta i jego spadkobierców. Niezbyt wyj¹tkowe zastosowania wojenne rekompensuje ochrona przed ogniem.
 
 PARAMETRY:
 
@@ -892,8 +974,8 @@ Typ broni: 1-rêczna
 Nie mo¿e u¿ywaæ:
  Kap³an~
 
-@192  = ~Miecz Morridina~
-@194  = ~Z powodu swego miecza, Morridin by³ nieustannym celem ¿artów i domniemañ, jak taki maluch mo¿e u¿ywaæ tak wielkiego miecza. Ale Morridin rzadko pochwala³ te ¿arty i z regu³y ich twórcy sami mogli siê przekonaæ, ¿e jest to mo¿liwe.
+@192  = ~Miecz Morridina +1~
+@194  = ~Z powodu swego miecza, Morridin by³ nieustannym celem ¿artów i domniemañ, jak taki maluch mo¿e u¿ywaæ tak wielkiego miecza. Morridin rzadko pochwala³ te ¿arty i, z regu³y, ich twórcy sami mogli siê przekonaæ, ¿e jest to mo¿liwe.
 
 PARAMETRY:
 
@@ -910,7 +992,7 @@ Wymagana si³a: 10
 Mo¿e u¿ywaæ:
  Bard~
 
-@196 = ~Miecz oburêczny genera³a Ghotala~
+@196 = ~Miecz oburêczny +3 genera³a Ghotala~
 @197 = ~Tego miecza u¿ywa³ kiedyœ Ghotal, s³ynny przywódca orkowych hord z pó³nocy, nieustannie nêkaj¹cych Luskan, Neverwinter, Targos i inne miasta. S³awa tego miecza powodowa³a niechêæ wiêkszoœci napadanych do zorganizowanej walki. Miarka siê przebra³a po ostatecznym zdobyciu i zniszczeniu Targos. Po³¹czone si³y elfów z Everaski i ludzi z miast pó³nocy wci¹gnê³y si³y genera³a w pu³apkê, podczas której wybito ich wiêkszoœæ. Sam Ghotal zdo³a³ ujœæ z pola, ale ciê¿ko ranny zapewne nie zdo³a³ znaleŸæ pomocy, poniewa¿ od tamtego czasu s³uch o nim zagin¹³.
 
 PARAMETRY:
@@ -942,7 +1024,7 @@ Obra¿enia: 1K8 +1
 TraK0: +1
 Typ obra¿eñ: sieczne
 Specjalne:
- 20% szansa na rzucenie zaklêcia Groza przy trafieniu
+ 20% szansa przy ka¿dym trafieniu na rzucenie zaklêcia Groza
 Waga: 3
 OpóŸnienie: 3
 Rodzaj bieg³oœci: d³ugi miecz
@@ -957,7 +1039,7 @@ Nie mo¿e u¿ywaæ:
 @200  = ~Duma Durlaga +1~
 @201  = ~Miecz oburêczny +1: 'Duma Durlaga'
 
-Ten miecz by³ u¿ywany przez Durlaga nied³ugo przed jego œmierci¹.
+Ten miecz by³ u¿ywany przez Durlaga nied³ugo przed jego œmierci¹. Wydaje siê, ¿e miecz utraci³ czêœæ swojej mocy po wyjêciu go ze ska³y.
 
 PARAMETRY:
 
@@ -977,26 +1059,25 @@ Nie mo¿e u¿ywaæ:
  Mnich
  W³adca zwierz¹t~
 
-@202  = ~Kres~
+@202  = ~Kres +2~
 @203  = ~Staro¿ytny miecz nieznanego pochodzenia. Podobno znajdowa³o siê w kolekcji samego Durlaga, choæ twierdzi siê równie¿, ¿e jest dzie³em mistrzów z Myth Drannor. Najnowsze badania wskazuj¹ na to, ¿e w³aœcicielem móg³ byæ Sage Staro¿ytny.
 
 PARAMETRY:
 
 Obra¿enia: 2K4 +2
 TraK0: +2
-Typ obra¿eñ: sieczne
-Specjalne:
- Zadane obra¿enia s¹ od kwasu
+Typ obra¿eñ: od kwasu
 Waga: 0
 OpóŸnienie: 2
+Rodzaj bieg³oœci: d³ugi miecz
 Typ broni: 1-rêczna
 Nie mo¿e u¿ywaæ:
  Kap³an~
 */
-@204  = ~Ogieñ Bhaala~
-@205  = ~Miecz d³ugi +2: 'Ogieñ Bhaala'
+@204  = ~Ogieñ Bhaala +2~
+@205  = ~D³ugi miecz +2: 'Ogieñ Bhaala'
 
-Do tej kategorii zaliczaj¹ siê miecze obusieczne, miecze bojowe i wojskowe. Bardzo czêsto miecze d³ugie s¹ jednosieczne. Nie istnieje jedna wersja broni tego typu; sposób wykonania i d³ugoœæ zale¿y od kultury, a nawet miejsca w którym zosta³y zrobione. Ich najczêœciej wystêpuj¹c¹ wspóln¹ cech¹ jest d³ugoœæ, wahaj¹ca siê od 90 do 110 cm. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma zaostrzony koniec. Mimo ostrego koñca, miecze te s³u¿¹ do zadawania ran siecznych, a nie k³utych. Ostrze tego miecza pokrywaj¹ wszelkiego rodzaju tajemne symbole.
+Do kategorii mieczy d³ugich zaliczaj¹ siê miecze obusieczne, miecze bojowe i wojskowe. Bardzo czêsto miecze d³ugie s¹ jednosieczne. Nie istnieje jedna wersja broni tego typu; sposób wykonania i d³ugoœæ zale¿y od kultury, a nawet miejsca w którym zosta³y zrobione. Ich najczêœciej wystêpuj¹c¹ wspóln¹ cech¹ jest d³ugoœæ, wahaj¹ca siê od 90 do 110 cm. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma zaostrzony koniec. Mimo ostrego koñca, miecze te s³u¿¹ do zadawania ran siecznych, a nie k³utych. Ostrze tego miecza pokrywaj¹ wszelkiego rodzaju tajemne symbole.
 
 PARAMETRY:
 
@@ -1009,6 +1090,7 @@ Waga: 4
 OpóŸnienie: 4
 Rodzaj bieg³oœci: d³ugi miecz
 Typ broni: 1-rêczna
+Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
  Druid
  Kap³an
@@ -1024,14 +1106,13 @@ Nie mo¿e u¿ywaæ:
 @210  = ~Szkielet stra¿nik~
 @211  = ~Szkielet stra¿nik (Sprowadzanie/Przywo³ywanie)
 Poziom: 7
-Sfera: Nekromancja
 Zasiêg: 20 metrów
 Czas dzia³ania: 4 godziny
 Czas rzucania: 5
 Obszar dzia³ania: specjalny
 Rzut obronny: brak
 
-Ten czar przyzywa 2 szkieletów wojowników do walki na rozkaz rzucaj¹cego. Przyzwane szcz¹tki martwych ludzi, nieludzi i humanoidów mog¹ wykonywaæ proste s³owne polecenia czaruj¹cego, bez wzglêdu na to, jak porozumiewa³y siê za ¿ycia. Przyzwane szkielety mog¹ pod¹¿aæ za osob¹, która rzuci³a zaklêcie, pozostaæ na danym obszarze i atakowaæ ka¿dego (lub tylko okreœlony rodzaj istot), kto siê zbli¿y itp. Animacja szkieletów wojowników trwa przez 4 godziny lub do zniszczenia nieumar³ych w walce lub przez ich odpêdzenie. Rozproszenie magii nie niweluje dzia³ania tego zaklêcia.~
+Ten czar przyzywa 2 szkielety wojowników do walki na rozkaz rzucaj¹cego. Przyzwane szcz¹tki martwych ludzi, nieludzi i humanoidów mog¹ wykonywaæ proste s³owne polecenia czaruj¹cego, bez wzglêdu na to, jak porozumiewa³y siê za ¿ycia. Przyzwane szkielety mog¹ pod¹¿aæ za osob¹, która rzuci³a zaklêcie, pozostaæ na danym obszarze i atakowaæ ka¿dego (lub tylko okreœlony rodzaj istot), kto siê zbli¿y itp. Animacja szkieletów wojowników trwa przez 4 godziny lub do zniszczenia nieumar³ych w walce lub przez ich odpêdzenie. Rozproszenie magii nie niweluje dzia³ania tego zaklêcia.~
 
 @213  = ~Iskrz¹ca chmura~
 @214  = ~Iskrz¹ca chmura (Wywo³ywanie)
@@ -1042,7 +1123,7 @@ Czas rzucania: 2
 Obszar dzia³ania: w promieniu 3 metrów
 Rzut obronny: 1/2
 
-Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie rundy nie czyni ona ¿adnej krzywdy, ale w trzeciej rundzie zaczyna iskrzyæ i p³on¹æ, zadaj¹c 1-2 punkty obra¿eñ na poziom rzucaj¹cego czar. W czwartej rundzie zadaje 1-4 punkty obra¿eñ/poziom, po czym w pi¹tej ponownie 1-2 punkty. Jeœli istocie atakowanej uda siê wykonaæ rzut obronny przeciw czarom, to otrzymuje ona tylko po³owê obra¿eñ.~
+Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie rundy nie czyni ona ¿adnej krzywdy, ale w trzeciej rundzie zaczyna iskrzyæ i p³on¹æ, zadaj¹c 1-2 punkty obra¿eñ na poziom rzucaj¹cego czar. W czwartej rundzie zadaje 1-4 punkty obra¿eñ na poziom, po czym w pi¹tej ponownie 1-2 punkty. Jeœli istocie atakowanej uda siê wykonaæ rzut obronny przeciw czarom, to otrzymuje ona tylko po³owê obra¿eñ.~
 
 @215  = ~Pokojówka~
 @216  = ~Sellanio~
@@ -1063,14 +1144,14 @@ Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie 
 @233  = ~Brentaw~
 @234  = ~Brigand~
 @235  = ~Cholga~
-@236  = ~Rycerz demon~
+@236  = ~Demoniczny rycerz~
 @237  = ~Powitania od œmierci.~ [SHAEL_01]
 @238  = ~Tu umrzesz, w tym miejscu!~ [SHAEL_03]
 @239  = ~~ [SHAEL_05]
 @240  = ~~ [SHAEL_06]
 @241  = ~~ [SHAEL_04]
-@242  = ~Siewca Zag³ady~
-@244  = ~Miœ Zag³ady~
+@242  = ~Siewca zag³ady~
+@244  = ~Miœ zag³ady~
 @245  = ~Brat Draagis~
 @246  = ~Siostrzyczka~
 @247  = ~Eldod~
@@ -1094,7 +1175,7 @@ Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie 
 @268  = ~Humbaba~
 @269  = ~Oogoor~
 @270  = ~Hobgobóg~
-@271  = ~Mniejszy Tanar'ri~
+@271  = ~Mniejszy tanar'ri~
 @272  = ~Kamira~
 @273  = ~Keelor~
 @277  = ~Koldar~
@@ -1167,7 +1248,7 @@ Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie 
 @398  = ~Pasuje mi takie ¿ycie!~ [WILL04]
 @399  = ~Co teraz?~ [WILL05]
 @400  = ~Nie mam tego w umowie.~ [WILL06]
-@401  = ~Oh, nie mogê.~ [WILL07]
+@401  = ~Och, nie mogê.~ [WILL07]
 @402  = ~Dobrze, bardzo dobrze!~ [WILL08]
 @403  = ~Tak wiele rzeczy jest jeszcze do zrobienia!~ [WILL10]
 @404  = ~ChodŸ, pomacam ciê moim cepikiem!~ [WILL03]
@@ -1194,18 +1275,18 @@ Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie 
 @427  = ~Dialogi zainstalowane.~
 @428  = ~Instalowanie nowych i uaktualnionych obszarow.~
 @429  = ~Wejœcie do tych katakumb jest chronione przez potê¿n¹ magiê. Potrzebujesz klucza, by dostaæ siê do œrodka.~
-@430  = ~B¹dŸ œwiadomy mocy jak¹ tu znajdziesz. Drzwi, które nie mog¹ zostaæ otwarte - otwarte zostan¹.~
+@430  = ~B¹dŸcie œwiadomi mocy jak¹ tu znajdziecie. Drzwi, które nie mog¹ zostaæ otwarte... otwarte zostan¹.~
 @431  = ~Ofiary orków~
 @432  = ~Zwyk³y dom rybaka. Rozgl¹dasz siê i nie znajdujesz nic interesuj¹cego.~
 @433  = ~Latarnia morska~
-@434  = ~Pó³nocna cytadela~
+@434  = ~Pó³nocna Cytadela~
 @435  = ~To musia³o byæ to wino lub coœ w tym rodzaju. Nie wiem. Nie pamiêtam.~
 @436  = ~Œcigany przez niedŸwiedzia, po³o¿y³ siê udaj¹c martwego. PóŸniej nie pamiêta³ jednak jak udawaæ bycie ¿ywym.~
 @437  = ~Odosobniony w kominku, umieszczony w ogniu i nie maj¹cy wody.~
 @438  = ~Przygotowa³em ekscytuj¹c¹ orgiê, ale nikt nie przyszed³.~
 @439  = ~Pogoda siê zmieni, czuje to w koœciach.~
 @440  = ~Wiêc k³amiê.~
-@441  = ~To beznadziejne. Co chcia³eœ znaleŸæ w tych grobach?~
+@441  = ~To s³abe. Co próbujesz znaleŸæ w tych grobach?~
 @442  = ~Strze¿ siê wilków w ludzkiej skórze.~
 @443  = ~Nie ma tam w œrodku nic oprócz gnij¹cych cia³.~
 @444  = ~Te schody musia³y kiedyœ prowadziæ do innych pomieszczeñ.~
@@ -1214,18 +1295,21 @@ Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie 
 @447  = ~Instalowanie skryptow~
 @448  = ~Dekompresja plikow obszarow .tis.~
 @500  = ~P³on¹cy olej~ 
-@501  = ~Wewn¹trz tego szklanego naczynia znajduje siê mikstura oleju i innych chemikaliów. Gdy stanie w ogniu, spala siê przez kilka sekund w bardzo wysokiej temperaturze. P³on¹cy olej jest czasami trudny do u¿ycia, poniewa¿ odpalenie i rzut zajmuje du¿o czasu. Podró¿nicy czêsto nosz¹ ze sob¹ olej do pomocy w walce z trollami, które mo¿na niekiedy nieszczêœliwie napotkaæ.
+@501  = ~W œrodku tego szklanego naczynia znajduje siê kosztowna mieszanka oliwy i innych chemikaliów. Po podpaleniu p³onie przez kilka sekund w wysokiej temperaturze. Czasami ciê¿ko pos³u¿yæ siê p³on¹c¹ oliw¹, poniewa¿ du¿o czasu zajmuje jej posiadaczowi opanowanie umiejêtnoœci wykonania poprawnego rzutu. Poszukiwacze przygód czêsto maj¹ oliwê przy sobie, aby mieæ obronê przed trollami, na wypadek gdyby siê na nich natknêli.
 
 PARAMETRY:
 
-Rzucone w cel, naczynie pêka, rozprzestrzeniaj¹c p³on¹cy olej w promieniu 3 metrów, zadaj¹c 2-16 obra¿eñ od ognia.~
+Specjalne:
+ Po trafieniu w cel szklane naczynie rozbija siê, rozlewaj¹c p³on¹c¹ oliwê na wszystko w promieniu 3 metrów i powoduj¹c 2-16 obra¿eñ od ognia
+Waga: 1~
+
 @502 = ~Pó³nocne wybrze¿e~
 
 /* new for v2.0 */
 @503 = ~Pierœcieñ Pilar~
 @504 = ~Buty Gheldehara~
 @505 = ~Haeballu,
-Wys³a³em ci ten sztylet na przechowanie. W imiê naszych bogów, musimy uniemo¿liwiæ orkom po³o¿enie ich ³ap na nim. Zatrzymam ponadto pierœcieñ, który towarzszy³ sztyletowi. Tak odseparowane, te dwa artefakty nie bêd¹ s³u¿yæ z³ym celom w najbli¿szym czasie.
+Wys³a³em ci ten sztylet na przechowanie. W imiê naszych bogów, musimy uniemo¿liwiæ orkom po³o¿enie ich ³ap na nim. Zatrzymam ponadto pierœcieñ, który towarzyszy³ sztyletowi. Tak odseparowane, te dwa artefakty nie bêd¹ s³u¿yæ z³ym celom w najbli¿szym czasie.
 
 D.~
 
@@ -1234,9 +1318,13 @@ D.~
 // #33246 (BGII)
 @507 = ~Serce demona~
 // #33248 (BGII)
-@508 = ~Nikt nie mówi³, ¿e serca demonów s¹ ³adne, ale na pewno nie spodziewaliœcie siê tego g¹bczastego, miêsistego wora ohydztwa. Ciê¿ki i mokry organ wci¹¿ bije a jego przera¿aj¹ce dudnienie s³ychaæ nawet spomiêdzy twojego wyposa¿enia. Co chwilê musisz upewniaæ siê czy nie wyskoczy³ z twojego plecaka.~
+@508 = ~Nikt nie mówi³, ¿e serca demonów s¹ ³adne, ale na pewno nie spodziewaliœcie siê tego g¹bczastego, miêsistego wora ohydztwa. Ciê¿ki i mokry organ wci¹¿ bije, a jego przera¿aj¹ce dudnienie s³ychaæ nawet spomiêdzy twojego wyposa¿enia. Co chwilê musisz upewniaæ siê, czy nie wyskoczy³ z twojego plecaka.
+
+PARAMETRY:
+
+Waga: 25~
 // #36938 (BGII)
-@509 = ~Upad³y Ghast~
+@509 = ~Upad³y ghast~
 // #73254 (BGII)
 @510 = ~Ognista salamandra~
 // #73272 (BGII)
@@ -1248,10 +1336,10 @@ D.~
 @514 = ~DSotSC Czary Maga znalezione. Dodawanie referencji...~
 @515 = ~DSotSC Glowny Komponent nie znaleziony. Instalowanie zasobow...~
 
-@516 = ~To wydaje siê byæ jakimœ rodzajem mapy. Jedyny znaleziony napis to „Las Ostrych K³ów”. Dalej na wschód i nieco na pó³noc od niego zauwa¿asz znacznik, jakby to by³o wa¿nym miejscem.~
+@516 = ~To wydaje siê byæ jakimœ rodzajem mapy. Jedyny znaleziony napis to "Las Ostrych K³ów". Dalej na wschód i nieco na pó³noc od niego zauwa¿asz znacznik, jakby to by³o wa¿nym miejscem.~
 
 // some part of this is from NTAVERY.tra line @21
-@517 = ~S¹ to osobiste notatki mnicha Avery’ego. Wygl¹da na to, ¿e przeprowadzi³ on badania na temat za³o¿yciela cytadeli, Monoacha. Znajdujesz równie¿ fragment dotycz¹cy o³tarza w cytadeli: "Zgodnie z ¿yczeniem za³o¿yciela cytadeli, Monoacha, przechowujemy tam pewien relikt - œwiêty symbol Helma. Ale gdzie jest klucz, nie wiemy. Podobno Monoach odda³ go na przechowanie zaufanym przyjacio³om, gdzieœ daleko st¹d... na wyspie w pó³nocno-zachodnim kierunku... Naprawdê potrzebujê wiêcej informacji na ten temat."~
+@517 = ~S¹ to osobiste notatki mnicha Avery’ego. Wygl¹da na to, ¿e przeprowadzi³ on badania na temat za³o¿yciela cytadeli, Monoacha. Znajdujesz równie¿ fragment dotycz¹cy o³tarza w cytadeli: "Zgodnie z ¿yczeniem za³o¿yciela cytadeli, Monoacha, przechowujemy tam pewien relikt: œwiêty symbol Helma. Niestety nie wiemy, gdzie jest klucz. Podobno Monoach odda³ go na przechowanie zaufanym przyjacio³om, gdzieœ daleko st¹d... na wyspie w pó³nocno-zachodnim kierunku... Naprawdê potrzebujê wiêcej informacji na ten temat.".~
 
 // similar to @429 with addition
 @518  = ~Wejœcie do tych katakumb jest chronione przez potê¿n¹ magiê. Potrzebujesz klucza, by dostaæ siê do œrodka. Kilka symboli wskazuje na to, ¿e pieczêæ do tego grobowca zosta³a wykonana dawno temu przez kap³anów Helma.~
@@ -1276,9 +1364,9 @@ D.~
 @527 = ~DSotSC dla BG:EE Glowny Komponent znaleziony.~
 @528 = ~DSotSC znalezione. Dodawanie referencji...~
 
-@529 = ~Ta modyfikacja nie jest kompatybilna z ta gra~
-@530 = ~Ta modyfikacja powinna zostac zainstalowana PRZED BP-BGT Worldmap~
-@531 = ~Glowny Komponent tej modyfikacji (NTotSC) jest wymagany~
+@529 = ~Ta modyfikacja nie jest kompatybilna z ta gra.~
+@530 = ~Ta modyfikacja powinna zostac zainstalowana PRZED BP-BGT Worldmap.~
+@531 = ~Glowny Komponent tej modyfikacji (NTotSC) jest wymagany.~
 @532 = ~Spotkanie jest juz przywrocone przez inna modyfikacje.~
 
 
@@ -1304,6 +1392,7 @@ PARAMETRY:
 
 Specjalne:
  Podnosi Si³ê u¿ytkownika do 19
+Waga: 2
 Mo¿e u¿ywaæ:
  Wojownik (jedno, dwu i wieloklasowiec)
  £owca (jedno, dwu i wieloklasowiec)
@@ -1323,19 +1412,19 @@ Nie mo¿e u¿ywaæ:
  Mag
  Z³odziej~
 
-@545 = ~Zbroja Czarnego £abêdzia +2~
+@545 = ~Zbroja czarnego ³abêdzia +2~
 @546 = ~Zbroja ta zosta³a wykonana przez krasnoludzkiego kowala o imieniu Karador. Potem elfi mistrz zauroczeñ o imieniu Elemeth z Piêciu Drzew obdarzy³ j¹ moc¹ magiczn¹. W czasie, kiedy D³oñ Seldarine i G³êbia Dorna ze sob¹ wspó³pracowa³y, powsta³o wiele wspania³ych przedmiotów, a ta zbroja jest w³aœnie jednym z nich. Niezwykle lekka i piêkna, zbroja ta by³a pocz¹tkowo noszona przez elfkê, która pe³ni³a funkcjê dowódcy w Odciêtej D³oni, dlatego osada nie pad³a, kiedy orki dokonywa³y grabie¿y wie¿. Potem zbroja ta zosta³a ukradziona przez Pannê Ilmadiê i by³a noszona a¿ do momentu bitwy z Obroñcami Easthaven w G³êbi Dorna. To co siê sta³o ze zbroj¹ po zakoñczeniu bitwy i to w jaki sposób trafi³a na Wybrze¿e Mieczy jest nieznane.
 
 PARAMETRY:
 
 Klasa Pancerza: 1
-Waga: 20
 Specjalne:
  +1 do Charyzmy
  +10% do odpornoœci na ogieñ
  +10% do odpornoœci na zimno
  +10% do odpornoœci na elektrycznoœæ
  +10% do odpornoœci na kwas
+Waga: 20
 Wymagana si³a: 12
 Nie mo¿e u¿ywaæ:
  Bard 
@@ -1343,8 +1432,8 @@ Nie mo¿e u¿ywaæ:
  Mag 
  Z³odziej~
 
-@547 = ~Wspania³a szata Ogi-Luka~
-@548 = ~Ta szata wykonana jest z mocnego materia³u i zabarwiona w kolorze ciemnoniebieskim, ulubionym kolorze jej dumnego w³aœciciela, arcymaga Ogi-Luka. Arcymag urodzi³ siê w Sembii i by³ potê¿nym cz³owiekiem, zarówno fizycznie jak i umys³owo. Jednak zwyk³a si³a mu nie wystarcza³a. Chcia³ byæ wyj¹tkowo silny. Gdy zak³ada³ tê szatê, dumni odsuwali siê na bok a che³piarze milkli. Jednak mimo ca³ej swojej dumy i umiejêtnoœci nie by³ w stanie pokonaæ mistrza odrzucania, Czerwonego Maga, Neska Vhaltima. Nesk zabra³ szatê jako nagrodê. PóŸniej zosta³a ona skradziona i sprzedana przez pewnego œmia³ego ³otra.
+@547 = ~Wspania³a szata Ogi-Luca~
+@548 = ~Ta szata wykonana jest z mocnego materia³u i zabarwiona w kolorze ciemnoniebieskim, ulubionym kolorze jej dumnego w³aœciciela, arcymaga Ogi-Luca. Arcymag urodzi³ siê w Sembii i by³ potê¿nym cz³owiekiem, zarówno fizycznie jak i umys³owo. Jednak zwyk³a si³a mu nie wystarcza³a. Chcia³ byæ wyj¹tkowo silny. Gdy zak³ada³ tê szatê, dumni odsuwali siê na bok a che³piarze milkli. Jednak mimo ca³ej swojej dumy i umiejêtnoœci nie by³ w stanie pokonaæ mistrza odrzucania, Czerwonego Maga, Neska Vhaltima. Nesk zabra³ szatê jako nagrodê. PóŸniej zosta³a ona skradziona i sprzedana przez pewnego œmia³ego ³otra.
 
 PARAMETRY:
 
@@ -1385,9 +1474,13 @@ Nie mo¿e u¿ywaæ:
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
 @1244 = ~Woda œwiêcona~
-@1245 = ~Woda w tej fiolce zosta³a poœwiêcona i jeœli zostanie rzucona w jakiekolwiek nieumar³e stworzenie to zada odpowiednik 2K8 obra¿eñ od kwasu.~
+@1245 = ~Woda w tej fiolce zosta³a poœwiêcona i jeœli zostanie rzucona w jakiekolwiek nieumar³e stworzenie to zada odpowiednik 2K8 obra¿eñ od kwasu.
 
-@1452 = ~Zguba goblinów~
+PARAMETRY:
+
+Waga: 1~
+
+@1452 = ~Zguba goblinów +2~
 @1454 = ~Elfi ³uk: 'Zguba goblinów'
 
 Elfy stworzy³y ten ³uk z myœl¹ o walce z nêkaj¹cymi je hordami goblinoidów, ale wkrótce okaza³ siê równie skuteczny przeciw innym wrogom.
@@ -1398,11 +1491,11 @@ Obra¿enia: +2
 TraK0: +2
 Waga: 2
 OpóŸnienie: 3
-Rodzaj bieg³oœci: krótki £uk
+Rodzaj bieg³oœci: krótki ³uk
 Typ broni: 2-rêczna
 Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
- Postaæ rasy innej ni¿ elf
+ Postaæ innej rasy ni¿ elf
  Postaæ o charakterze z³ym
  Postaæ o charakterze neutralnym~
 
