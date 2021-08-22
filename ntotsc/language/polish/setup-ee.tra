@@ -480,7 +480,7 @@ Waga: 3~
 Specjalne:
 – Pozwala nauczyæ siê czaru Protekcja~
 
-@141  = ~Po bli¿szym przyjrzeniu siê tej zbroi p³ytowej widaæ, ¿e zrobiona jest ona z jakiegoœ nieznanego, mrocznego metalu. Nosz¹cy j¹, bêdzie wydawa³ siê tak mroczny, jak sama zbroja. Oprócz tego, zapewnia ona dodatkow¹ ochronê przez broni¹ strzeleck¹.
+@141  = ~Po bli¿szym przyjrzeniu siê tej zbroi p³ytowej widaæ, ¿e zrobiona jest ona z jakiegoœ nieznanego, mrocznego metalu. Nosz¹cy j¹ bêdzie wydawa³ siê tak mroczny, jak sama zbroja. Oprócz tego, zapewnia ona dodatkow¹ ochronê przez broni¹ strzeleck¹.
 
 PARAMETRY:
 
@@ -955,18 +955,70 @@ Specjalne:
 
 Waga: 5~
 
-@550 = ~Ta ciê¿ka z³ota zbroja p³ytowa zosta³a wykonana dla genera³a Ghotala przez schwytanych krasnoludzkich kowali oraz zaczarowana przez plemiennych szamanów podczas obrzydliwych obrzêdów, o których lepiej nie wspominaæ. Chocia¿ zbroja zapewnia doskona³¹ ochronê to jest ciê¿ka i nieporêczna, przez co wymaga du¿ej si³y fizycznej do jej noszenia. Z pewnoœci¹ wygl¹da jednak imponuj¹co.
+@550 = ~Ta ciê¿ka z³ota zbroja polowa zosta³a wykonana dla genera³a Ghotala przez schwytanych krasnoludzkich kowali oraz zaczarowana przez plemiennych szamanów podczas obrzydliwych obrzêdów, o których lepiej nie wspominaæ. Chocia¿ zbroja zapewnia doskona³¹ ochronê to jest ciê¿ka i nieporêczna, przez co wymaga du¿ej si³y fizycznej do jej noszenia. Z pewnoœci¹ wygl¹da jednak imponuj¹co.
 
 PARAMETRY:
 
 Specjalne:
 – Charyzma: +2
-– Zrêcznoœæ: -2
+– Zrêcznoœæ: -4
 
-Klasa Pancerza: -1 (-5 przeciw broniom siecznym, -4 przeciw broniom k³utym i pociskom)
+Klasa Pancerza: 0 (-3 przeciw broniom siecznym, -1 przeciw broniom k³utym i pociskom)
 
 Wymagania:
 – Si³a: 17
+
+Waga: 75~
+
+/* Angel's new items (2021 revision) */
+@557 = ~Ta umagiczniona szata maga pozwala w³adaæ si³ami ziemi i kontrolowaæ kamieñ.
+
+PARAMETRY:
+
+Specjalne:
+– Ochrona przed petryfikacj¹
+
+W³aœciwoœci ³adunków:
+– Kamienna skóra, raz dziennie
+– Zamiana kamienia w cia³o, raz dziennie
+
+Waga: 4~
+
+@559 = ~W tê szatê wszyto wiele oczu pochodz¹cych od ró¿nych magicznych stworzeñ. Oczy te rozszerzaj¹ zakres widzenia w³aœciciela do 360°, w zwi¹zku z czym nie mo¿na go zaskoczyæ. Niektóre z oczu posiadaj¹ infrawizjê, inne zaœ mog¹ wykrywaæ niewidzialne istoty. Jedyn¹ wad¹ tej szaty jest to, ¿e nosz¹cy jest bardziej podatny na zamianê w kamieñ.
+
+PARAMETRY:
+
+Specjalne:
+– Rzuty obronne: -4 przeciw petryfikacji
+– Zapewnia nosz¹cemu infrawizjê na odleg³oœæ 40 metrów
+– Niewra¿liwoœæ na cios w plecy
+
+W³aœciwoœci ³adunków:
+– Prawdziwe widzenie, raz dziennie
+Obszar dzia³ania: w³aœciciel
+
+Waga: 4~
+
+@561 = ~Pierœcieñ ochrony +1, +3 przeciw humanoidom: „Ochraniacz”
+
+Ten magiczny pierœcieñ by³ kiedyœ w³asnoœci¹ pewnego szlachcica z Wrót Baldura. By³ na tyle przera¿ony na myœl próby zabójstwa przez swojego s¹siada, ¿e zap³aci³ pewnemu magowi, aby ten wykona³ dla niego pierœcieñ chroni¹cy przed humanoidami wszelkiej maœci. Na nieszczêœcie szlachcica, ów s¹siad uzna³, ¿e wykorzysta do zabójstwa jadowitego wê¿a.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1, +3 przeciw humanoidom
+– Rzuty obronne: +1, +3 przeciw humanoidom
+
+Waga: 0~
+
+@563   = ~Zbroja polowa to czêœciej u¿ywana forma pe³nej zbroi p³ytowej. Sk³ada siê ona z dopasowanych p³yt po³¹czonych nitami w ten sposób, by zakrywaæ ca³e cia³o. Czêsto rezygnuje siê z podk³adu ³añcuchowego, aby zmniejszyæ wagê. Zamiast tego pod p³ytami nosi siê lekki kombinezon z wyœció³k¹ lub przeszywanicê. Spory ciê¿ar takiej zbroi dobrze rozk³ada siê na ciele nosz¹cego, dziêki czemu wyszkolony rycerz nie powinien mieæ problemu, ¿eby siê po³o¿yæ, wstaæ lub wskoczyæ na siod³o podczas noszenia tej zbroi.
+
+PARAMETRY:
+
+Klasa Pancerza: 2 (-1 przeciw broniom siecznym, 1 przeciw broniom k³utym i pociskom)
+
+Wymagania:
+– Si³a: 14
 
 Waga: 60~
 

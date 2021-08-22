@@ -663,13 +663,13 @@ Twój Pandris~
 Przybêdzie do ciebie w odpowiednim czasie nasz pos³aniec, by otrzymaæ twój znak i b³ogos³awieñstwo, gdy wezwiecie swego Pana. Nasz kult jest ci wielce wdziêczny za pomoc i wiedz, ¿e takich uczynków siê nie zapomina.
 
 D.~
-@141  = ~Po bli¿szym przyjrzeniu siê tej zbroi p³ytowej widaæ, ¿e zrobiona jest ona z jakiegoœ nieznanego, mrocznego metalu. Nosz¹cy j¹, bêdzie wydawa³ siê tak mroczny, jak sama zbroja. Oprócz tego, zapewnia ona dodatkow¹ ochronê przez broni¹ strzeleck¹.
+@141  = ~Po bli¿szym przyjrzeniu siê tej zbroi p³ytowej widaæ, ¿e zrobiona jest ona z jakiegoœ nieznanego, mrocznego metalu. Nosz¹cy j¹ bêdzie wydawa³ siê tak mroczny, jak sama zbroja. Oprócz tego zapewnia ona dodatkow¹ ochronê przed broni¹ strzeleck¹.
 
 PARAMETRY:
 
 Klasa Pancerza: 2
 Specjalne:
- +3 do Klasy Pancerza przeciw pociskom
+ +3 do Klasy Pancerza przeciw broniom strzeleckim
 Waga: 20
 Wymagana si³a: 12
 Nie mo¿e u¿ywaæ:
@@ -759,7 +759,7 @@ Klasa Pancerza: 5
 Specjalne:
  +15% do odpornoœci na magiê
  +1 do rzutów obronnych
- Raz dziennie pozwalaj¹ rzucaæ czar Drzwi przez wymiary i Drzwi z cienia
+ Raz dziennie mo¿na rzuciæ czar Drzwi przez wymiary i Drzwi z cienia
 Waga: 2
 Mo¿e u¿ywaæ:
  Mag (jedno, dwu i wieloklasowiec)
@@ -876,10 +876,10 @@ Typ obra¿eñ: obuchowe
 Specjalne:
  +40% do odpornoœci na ogieñ
  +20% do odpornoœci na magiê
- Trzy razy dziennie mo¿e rzucaæ Uderzenie
- Dwa razy dziennie mo¿e rzucaæ Wykrycie z³a
- Raz dziennie mo¿e rzucaæ Leczenie krytycznych ran
- Raz dziennie mo¿e rzucaæ Wskrzeszenie
+ Trzy razy dziennie mo¿na rzuciæ Uderzenie
+ Dwa razy dziennie mo¿na rzuciæ Wykrycie z³a
+ Raz dziennie mo¿na rzuciæ Leczenie krytycznych ran
+ Raz dziennie mo¿na rzuciæ Wskrzeszenie
 Waga: 4
 OpóŸnienie: 2
 Rodzaj bieg³oœci: kij
@@ -992,7 +992,7 @@ Wymagana si³a: 10
 Mo¿e u¿ywaæ:
  Bard~
 
-@196 = ~Miecz oburêczny +3 genera³a Ghotala~
+@196 = ~Miecz oburêczny genera³a Ghotala +3~
 @197 = ~Tego miecza u¿ywa³ kiedyœ Ghotal, s³ynny przywódca orkowych hord z pó³nocy, nieustannie nêkaj¹cych Luskan, Neverwinter, Targos i inne miasta. S³awa tego miecza powodowa³a niechêæ wiêkszoœci napadanych do zorganizowanej walki. Miarka siê przebra³a po ostatecznym zdobyciu i zniszczeniu Targos. Po³¹czone si³y elfów z Everaski i ludzi z miast pó³nocy wci¹gnê³y si³y genera³a w pu³apkê, podczas której wybito ich wiêkszoœæ. Sam Ghotal zdo³a³ ujœæ z pola, ale ciê¿ko ranny zapewne nie zdo³a³ znaleŸæ pomocy, poniewa¿ od tamtego czasu s³uch o nim zagin¹³.
 
 PARAMETRY:
@@ -1345,7 +1345,7 @@ Waga: 25~
 @518  = ~Wejœcie do tych katakumb jest chronione przez potê¿n¹ magiê. Potrzebujesz klucza, by dostaæ siê do œrodka. Kilka symboli wskazuje na to, ¿e pieczêæ do tego grobowca zosta³a wykonana dawno temu przez kap³anów Helma.~
 
 // #65113 (BGII)
-@519 = ~Œwiêty Symbol Helma~
+@519 = ~Œwiêty symbol Helma~
 // #2483 (BGII)
 @520 = ~Lodowa salamandra~
 // #34784 (BGII)
@@ -1445,16 +1445,16 @@ Waga: 5
 Mo¿e u¿ywaæ:
  Mag (jednoklasowiec)~
 
-@549 = ~Pe³na zbroja p³ytowa +2 Ghotala~
-@550 = ~Ta ciê¿ka z³ota zbroja p³ytowa zosta³a wykonana dla genera³a Ghotala przez schwytanych krasnoludzkich kowali oraz zaczarowana przez plemiennych szamanów podczas obrzydliwych obrzêdów, o których lepiej nie wspominaæ. Chocia¿ zbroja zapewnia doskona³¹ ochronê to jest ciê¿ka i nieporêczna, przez co wymaga du¿ej si³y fizycznej do jej noszenia. Z pewnoœci¹ wygl¹da jednak imponuj¹co.
+@549 = ~Zbroja Ghotala +2~
+@550 = ~Ta ciê¿ka z³ota zbroja polowa zosta³a wykonana dla genera³a Ghotala przez schwytanych krasnoludzkich kowali oraz zaczarowana przez plemiennych szamanów podczas obrzydliwych obrzêdów, o których lepiej nie wspominaæ. Chocia¿ zbroja zapewnia doskona³¹ ochronê to jest ciê¿ka i nieporêczna, przez co wymaga du¿ej si³y fizycznej do jej noszenia. Z pewnoœci¹ wygl¹da jednak imponuj¹co.
 
 PARAMETRY:
 
-Klasa Pancerza: -1
+Klasa Pancerza: 0
 Specjalne:
  +2 do Charyzmy
- -2 do Zrêcznoœci
-Waga: 60
+ -4 do Zrêcznoœci
+Waga: 75
 Wymagana si³a: 17
 Nie mo¿e u¿ywaæ:
  Bard
@@ -1469,6 +1469,67 @@ Nie mo¿e u¿ywaæ:
 @553 = ~Will O'Hara: instaluj odglosy postaci (dzwieki angielskie jesli polskie nie sa dostepne)~
 @554 = ~Nie instaluj oglosow postaci~
 @555 = ~Brakujace dzwieki zostana wyswietlone w konsoli gry~
+/* ------ */
+
+/* Angel's new items (2021 revision) */
+@556 = ~Szata ska³y~
+@557 = ~Ta umagiczniona szata maga pozwala w³adaæ si³ami ziemi i kontrolowaæ kamieñ.
+
+PARAMETRY:
+
+Specjalne:
+ Ochrona przed petryfikacj¹
+ Raz dziennie mo¿na rzuciæ Kamienn¹ skórê
+ Raz dziennie mo¿na rzuciæ Zamianê kamienia w cia³o
+Waga: 4
+Mo¿e u¿ywaæ tylko:
+ Mag (jedno, dwu i wieloklasowiec)~
+
+@558 = ~Szata oczu~
+@559 = ~W tê szatê wszyto wiele oczu pochodz¹cych od ró¿nych magicznych stworzeñ. Oczy te rozszerzaj¹ zakres widzenia w³aœciciela do 360 stopni, w zwi¹zku z czym nie mo¿na go zaskoczyæ. Niektóre z oczu posiadaj¹ infrawizjê, inne zaœ mog¹ wykrywaæ niewidzialne istoty. Jedyn¹ wad¹ tej szaty jest to, ¿e nosz¹cy jest bardziej podatny na zamianê w kamieñ.
+
+PARAMETRY:
+
+Specjalne:
+ -4 do rzutów obronnych przeciw petryfikacji
+ Zapewnia nosz¹cemu infrawizjê na odleg³oœæ 40 metrów
+ W³aœciciel jest odporny na cios w plecy
+ Raz dziennie mo¿na rzuciæ Prawdziwe widzenie
+Waga: 4
+Mo¿e u¿ywaæ tylko:
+ Mag (jedno, dwu i wieloklasowiec)~
+
+@560 = ~Ochraniacz +1~
+@561 = ~Pierœcieñ ochrony +1, +3 przeciw humanoidom: 'Ochraniacz'
+
+Ten magiczny pierœcieñ by³ kiedyœ w³asnoœci¹ pewnego szlachcica z Wrót Baldura. By³ na tyle przera¿ony na myœl próby zabójstwa przez swojego s¹siada, ¿e zap³aci³ pewnemu magowi, aby ten wykona³ dla niego pierœcieñ chroni¹cy przed humanoidami wszelkiej maœci. Na nieszczêœcie szlachcica, ów s¹siad uzna³, ¿e wykorzysta do zabójstwa jadowitego wê¿a.
+
+PARAMETRY:
+
+Klasa Pancerza: +1, +3 przeciw humanoidom
+Rzuty obronne: +1, +3 przeciw humanoidom
+Waga: 0~
+
+@562   = ~Zbroja polowa~
+@563   = ~Zbroja polowa to czêœciej u¿ywana forma pe³nej zbroi p³ytowej. Sk³ada siê ona z dopasowanych p³yt po³¹czonych nitami w ten sposób, by zakrywaæ ca³e cia³o. Czêsto rezygnuje siê z podk³adu ³añcuchowego, aby zmniejszyæ wagê. Zamiast tego pod p³ytami nosi siê lekki kombinezon z wyœció³k¹ lub przeszywanicê. Spory ciê¿ar takiej zbroi dobrze rozk³ada siê na ciele nosz¹cego, dziêki czemu wyszkolony rycerz nie powinien mieæ problemu, ¿eby siê po³o¿yæ, wstaæ lub wskoczyæ na siod³o podczas noszenia tej zbroi.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Waga: 60
+Wymagana si³a: 14
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+
+/* Tactical challenges - Angel */
+@564   = ~Wyzwania taktyczne~
+@565   = ~Ulepszone pomniejsze demony~
+@566   = ~Dodatkowe zadania~
+@567   = ~Ulepszony Haeball~
+@568   = ~Ulepszony Ghotal~
 /* ------ */
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
@@ -1508,11 +1569,9 @@ Nie mo¿e u¿ywaæ:
 
 @55130 = ~Cia³o Fey'docha~
 
-
 /* new in v3.2.0 */
 @55131 = ~Prze³êcz Chmurnych Szczytów~
 @55132 = ~Wejœcie do jaskini~
-
 
 /* new in v4.0.0 */
 @55133 = ~Przywoluje mniej potworow w zaleznosci od poziomu trudnosci gry~
