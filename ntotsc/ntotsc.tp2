@@ -701,6 +701,12 @@ COPY ~ntotsc/base/itm/nthellsw.itm~ ~override~ //fire salamander weapon
 
 COPY ~ntotsc/base/itm/nostring~ ~override~
 
+/* Edited items from base game */
+
+// Missing description of Ordolath's candle
+COPY_EXISTING ~misc74.itm~ ~override~
+	SAY UNIDENTIFIED_DESC @55135
+	SAY DESC @55135
 
 /* Items from DsotSC */
 

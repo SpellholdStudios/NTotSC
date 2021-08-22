@@ -1578,3 +1578,8 @@ Nie mo¿e u¿ywaæ:
 
 /* new in v5.0.0 */
 @55134 = ~Cienista zbroja p³ytowa +1~
+@55135 = ~Œwieca jest powszechnym Ÿród³em œwiat³a i zazwyczaj wykonuje siê j¹ z wosku pszczelego uformowanego w walec, wewn¹trz którego, przez ca³¹ d³ugoœæ, umieszczony jest knot. Ze wzglêdu na wysok¹ cenê wosku, biedniejsi korzystaj¹ ze œwiec wykonanych z tañszego t³uszczu zwierzêcego.
+
+PARAMETRY:
+
+Waga: 1~
