@@ -1467,3 +1467,6 @@ THAC0: +2 улучшение
 
 /* new in v4.0.0 */
 @55133 = ~Spawn less Monsters depending on Game Difficulty~
+
+/* new in v5.0.0 */
+@55134 = ~Теневые латы +1~

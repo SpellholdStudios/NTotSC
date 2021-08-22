@@ -1347,3 +1347,7 @@ Not Usable By:
 
 /* new in v4.0.0 */
 @55133 = ~Spawn less Monsters depending on Game Difficulty~
+
+/* new in v5.0.0 */
+// #40189 (IWD) [enhancement +1 instead of +3]
+@55134 = ~Shadowed Plate +1~

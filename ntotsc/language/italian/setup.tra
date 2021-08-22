@@ -1346,3 +1346,6 @@ Non utilizzabile da:
 
 /* new in v4.0.0 */
 @55133 = ~Meno mostri a seconda della difficoltà del gioco~
+
+/* new in v5.0.0 */
+@55134 = ~Piastre d'Ombra +1~

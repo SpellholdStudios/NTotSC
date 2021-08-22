@@ -1575,3 +1575,6 @@ Nie mo¿e u¿ywaæ:
 
 /* new in v4.0.0 */
 @55133 = ~Przywoluje mniej potworow w zaleznosci od poziomu trudnosci gry~
+
+/* new in v5.0.0 */
+@55134 = ~Cienista zbroja p³ytowa +1~
