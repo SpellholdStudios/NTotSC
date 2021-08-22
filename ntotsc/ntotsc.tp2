@@ -407,8 +407,6 @@ COPY ~ntotsc/base/eff~ ~override~
 ///// install items                                    \\\\\
 /////                                                  \\\\\
 
-COPY ~ntotsc/base/itm/nostring~ ~override~
-
 COPY ~ntotsc/base/itm/ntarrow1.itm~ ~override~
 	SAY NAME2 @1
 	SAY DESC @2
