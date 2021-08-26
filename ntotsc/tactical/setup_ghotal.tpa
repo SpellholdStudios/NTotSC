@@ -2,8 +2,8 @@ WITH_TRA "ntotsc/language/english/tactical.tra" "ntotsc/language/%s/tactical.tra
 BEGIN
   COPY "%MOD_FOLDER%/tactical/actors/ntgghota.cre" "override"
        "%MOD_FOLDER%/tactical/actors/ntgghot1.cre" "override"
-    SAY NAME1 "Ghotal"	// Name, no need to translate
-    SAY NAME2 "Ghotal"	// Name, no need to translate
+    SAY NAME1 @252 // General Ghotal from setup.tra
+    SAY NAME2 @252 // General Ghotal from setup.tra
 
   COPY "%MOD_FOLDER%/tactical/items/ntghotal.itm" "override"
 
