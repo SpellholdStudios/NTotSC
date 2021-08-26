@@ -2,446 +2,566 @@
 
 PARAMETRY:
 
-Obra¿enia: 1K6
-Typ obra¿eñ: pociski (k³ute)
 Specjalne:
- Trafiony cel zostaje zatruty
-Waga: 0
-Wyrzutnia: ³uk~
+– Cel zostaje zatruty, po trafieniu
+
+Obra¿enia: 1k6
+Typ obra¿eñ: pocisk
+Wyrzutnia: ³uk
+
+Waga: 0~
 
 @6    = ~Strza³y te s¹ wspaniale wykonane i pokryte runami. Widaæ, ¿e w ich wykonanie w³o¿ono wiele wysi³ku i czasu. Po uwa¿nym przyjrzeniu siê widaæ, ¿e runy emanuj¹ delikatn¹, niebiesk¹ poœwiat¹.
 
 PARAMETRY:
 
-Obra¿enia: 1K8 +2
+Obra¿enia: 1k8 +2, +1k10 obra¿eñ od ognia
 TraK0: +2
-Typ obra¿eñ: pociski (k³ute)
-Specjalne:
- +1K10 pkt. obra¿eñ od ognia
-Waga: 0
-Wyrzutnia: ³uk~
+Typ obra¿eñ: pocisk
+Wyrzutnia: ³uk
+
+Waga: 0~
 
 /*@10   = ~To s¹ zatrute pociski, które potrafi robiæ Will, korzystaj¹c z ¿ywicy, któr¹ wydziela jego dziwny cep. Nauczy³ siê on u¿ywaæ trucizny kiedy by³ m³ody i potrafi zrobiæ jej tyle, ¿eby wystarczy³o na 5 pocisków.
 
 PARAMETRY:
 
-Obra¿enia: 1K6 +1
 Specjalne:
- Trafiony cel zostaje zatruty
-Waga: 0
-Wyrzutnia: ³uk~*/
+– Cel zostaje zatruty, po trafieniu
+
+Obra¿enia: 1k6 +1
+Typ obra¿eñ: pocisk
+Wyrzutnia: ³uk
+
+Waga: 0~*/
 
 @12   = ~Te niebezpieczne strza³y s¹ niezwykle rzadko spotykane, widziano jedynie kilka ich egzemplarzy. Jako broñ prezentuj¹ znikom¹ wartoœæ bojow¹, lecz ze strategicznego punktu widzenia mog¹ okazaæ siê bardzo u¿yteczne. Po trafieniu strza³¹ Translokacji obiekt jest teleportowany w odleg³e miejsce, co pozwala ograniczyæ liczbê przeciwników podczas bitwy.
 
 PARAMETRY:
 
-Obra¿enia: 1K3
-TraK0: -3
-Typ obra¿eñ: pociski (k³ute)
 Specjalne:
- Trafiony cel jest przenoszony w losowe miejsce
-Waga: 0
-Wyrzutnia: ³uk~
+– Cel jest przenoszony w losowe miejsce, po trafieniu
+
+Obra¿enia: 1k3
+TraK0: -3
+Typ obra¿eñ: pocisk
+Wyrzutnia: ³uk
+
+Waga: 0~
 
 @16   = ~Broñ jest wspaniale wykonana i pokryta runami. Widaæ, ¿e w jej wykonanie w³o¿ono wiele wysi³ku i czasu. Po uwa¿nym przyjrzeniu siê widaæ, ¿e runy emanuj¹ delikatn¹, niebiesk¹ poœwiat¹.
 
 PARAMETRY:
 
-Obra¿enia: 1K8 +2
+Specjalne:
+– 50% szans na dodatkowe 1k3 obra¿eñ od elektrycznoœci, po trafieniu
+– 15% szans na og³uszenie celu, po trafieniu
+
+Obra¿enia: 1k8 +2
 TraK0: +2
 Typ obra¿eñ: sieczne
-Specjalne:
- 50% szansa na zadanie dodatkowych 1K3 pkt. obra¿eñ od elektrycznoœci
- 15% szansa na og³uszenie celu
-Waga: 7
 OpóŸnienie: 7
 Rodzaj bieg³oœci: topór
 Typ broni: 1-rêczna
-Wymagana si³a: 10~
+
+Wymagania:
+– Si³a: 10
+
+Waga: 7~
 
 @20   = ~Cep bojowy zrobiony jest z mocnej, drewnianej rêkojeœci po³¹czonej za pomoc¹ zawiasu lub ³añcucha, z ¿elaznym prêtem, drewnianym prêtem z kolcami lub ¿elazn¹, kolczast¹ kul¹. Jego pierwotnym przeznaczeniem by³o m³ócenie zbo¿a. Ten cep bojowy zosta³ umagiczniony. Na jego powierzchni widaæ ¿arz¹ce siê runy.
 
 PARAMETRY:
 
-Obra¿enia: 1K6 +3
+Specjalne:
+– 50% szans na dodatkowe 2k3 obra¿eñ od elektrycznoœci, po trafieniu
+– 10% szans na og³uszenie celu, po trafieniu
+
+Obra¿enia: 1k6 +3
 TraK0: +2
 Typ obra¿eñ: obuchowe
-Specjalne:
- 50% szansa na zadanie dodatkowych 2K3 pkt. obra¿eñ od elektrycznoœci
- 10% szansa na og³uszenie celu
-Waga: 15
 OpóŸnienie: 7
 Rodzaj bieg³oœci: cep bojowy/morgensztern
 Typ broni: 1-rêczna
-Wymagana si³a: 11~
 
-@24   = ~Wekiera +3: 'Pustoszyciel'
+Wymagania:
+– Si³a: 11
 
-Osobista broñ Nirela, potê¿nego, ale ma³o znanego kap³ana. Jednak historia wspomina o jego wyj¹tkowej niechêci do innowierców i schizmatyków. Podobno kolekcjonowa³ g³owy pokonanych. Ale szczególnie zas³yn¹³ ze zniszczenia ponad stu innowierczych œwi¹tyñ, st¹d te¿ i nazwa.
+Waga: 15~
+
+@24   = ~Wekiera +3: „Profanator”
+
+Osobista broñ Nirela, potê¿nego, ale ma³o znanego kap³ana. Jednak historia wspomina o jego wyj¹tkowej niechêci do innowierców i schizmatyków. Podobno kolekcjonowa³ g³owy pokonanych. Jednak szczególnie zas³yn¹³ ze zniszczenia ponad stu innowierczych œwi¹tyñ, st¹d te¿ i nazwa.
 
 PARAMETRY:
 
-Obra¿enia: 1K6 +3
+Obra¿enia: 1k6 +3
 TraK0: +2
 Typ obra¿eñ: obuchowe
-Waga: 7
 OpóŸnienie: 6
 Rodzaj bieg³oœci: wekiera
 Typ broni: 1-rêczna
-Wymagana si³a: 3~
+
+Wymagania:
+– Si³a: 3
+
+Waga: 7~
+
 @26   = ~Cep bojowy sk³ada siê z solidnego drzewca, s³u¿¹cego za uchwyt, do którego przymocowany jest gruby, metalowy prêt, b¹dŸ nabijany ostrymi kawa³kami metalu lub kamieni dr¹g lub te¿ ¿elazna kula ze szpikulcami. Te dwa elementy s¹ zwykle ³¹czone krótkim ³añcuchem lub mocnymi rzemieniami. Ten szczególny egzemplarz jest magiczny. Zawarta w nim magia tworzy wieŸ pomiêdzy broni¹ a w³aœcicielem.
 
 PARAMETRY:
 
-Obra¿enia: 1K8 +1
+W³aœciwoœci ³adunków:
+– Tworzy piêæ zatrutych pocisków, raz dziennie
+
+Obra¿enia: 1k8 +1
 TraK0: +1
 Typ obra¿eñ: obuchowe
-Specjalne:
- Raz dziennie tworzy piêæ zatrutych pocisków
-Waga: 10
 OpóŸnienie: 6
 Rodzaj bieg³oœci: cep bojowy/morgensztern
 Typ broni: 1-rêczna
-Wymagana si³a: 13~
+
+Wymagania:
+– Si³a: 13
+
+Waga: 10~
+
 @27   = ~Cep bojowy sk³ada siê z solidnego drzewca, s³u¿¹cego za uchwyt, do którego przymocowany jest gruby, metalowy prêt, b¹dŸ nabijany ostrymi kawa³kami metalu lub kamieni dr¹g lub te¿ ¿elazna kula ze szpikulcami. Te dwa elementy s¹ zwykle ³¹czone krótkim ³añcuchem lub mocnymi rzemieniami. Ten szczególny egzemplarz jest magiczny. Zawarta w nim magia tworzy wieŸ pomiêdzy broni¹ a w³aœcicielem.
 
 PARAMETRY:
 
-Obra¿enia: 1K8 +3
+Specjalne:
+– 50% szans na spowolnienie celu, po trafieniu
+– Si³a: +2
+– Punkty ¿ycia: +10
+
+W³aœciwoœci ³adunków:
+– Tworzy piêæ zatrutych pocisków, raz dziennie
+
+Obra¿enia: 1k8 +3
 TraK0: +3
 Typ obra¿eñ: obuchowe
-Specjalne:
- Raz dziennie tworzy piêæ zatrutych pocisków
- 50% szansa na spowolnienie celu
- +2 do Si³y
- +10 do maksymalnych punktów ¿ycia
-Waga: 10
 OpóŸnienie: 6
 Rodzaj bieg³oœci: cep bojowy/morgensztern
 Typ broni: 1-rêczna
-Wymagana si³a: 13~
+
+Wymagania:
+– Si³a: 13
+
+Waga: 10~
 
 @29   = ~Te be³ty zosta³y pokryte szybko dzia³aj¹c¹ trucizn¹ roœlinnego pochodzenia.
 
 PARAMETRY:
 
-Obra¿enia: 1K8
-Typ obra¿eñ: pociski (k³ute)
 Specjalne:
- Trafiony cel zostaje zatruty
-Waga: 0
-Wyrzutnia: kusza~
+– Cel zostaje zatruty, po trafieniu
 
-@33   = ~To s¹ buty Nirela, potê¿nego ale ma³o znanego kap³ana. Jednak historia wspomina o jego wyj¹tkowej niechêci do innowierców i schizmatyków. Podobno kolekcjonowa³ g³owy pokonanych. Ale szczególnie zas³yn¹³ ze zniszczenia ponad stu innowierczych œwi¹tyñ.
+Obra¿enia: 1k8
+Typ obra¿eñ: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@33   = ~To s¹ buty Nirela, potê¿nego ale ma³o znanego kap³ana. Historia wspomina o jego wyj¹tkowej niechêci do innowierców i schizmatyków. Podobno kolekcjonowa³ g³owy pokonanych. Jednak szczególnie zas³yn¹³ ze zniszczenia ponad stu innowierczych œwi¹tyñ.
 
 PARAMETRY:
 
 Specjalne:
- +1 do rzutów obronnych
- +5% do odporonoœci na magiê
+– Rzuty obronne: +1
+– Odpornoœæ na magiê: +5%
+
 Waga: 3~
 
 @37   = ~Ta broñ to œwiêtoœæ dla wojowników w s³u¿bie Talosa, boga burz i zniszczenia. W ich sprawnych d³oniach s³u¿y im od dziesiêcioleci. Jest to krótki ³uk wykonany z wielu ró¿nych warstw drewna. U¿ywany by³ przeciwko miriadom wrogów koœcio³a Talosa. Ostatnio ³uk by³ w posiadaniu Rycerza Burzy o imieniu Kalassan Brevered, który zosta³ zabity po tym, jak powali³ kilku ³owców i druidów na Wyspach Moonshae. Byæ mo¿e dlatego rozz³oszczeni kap³ani przeznaczyli tê broñ dla siebie jako przestrogê.
 
 PARAMETRY:
 
+Specjalne:
+– Trzy strza³y na rundê
+– Odpornoœæ na elektrycznoœæ: +30%
+
 Obra¿enia: +1
 TraK0: +1
-Specjalne:
- 3 strza³y na rundê
- +30% do odpornoœci na elektrycznoœæ
-Waga: 3
+Typ obra¿eñ: pocisk
 OpóŸnienie: 3
 Rodzaj bieg³oœci: krótki ³uk
 Typ broni: 2-rêczna
-Wymagana si³a: 5~
 
-@40   = ~Ten wysmuk³y ³uk emanuje ciep³em, choæ w dotyku wydaje siê byæ zimny - jak gdyby czerpa³ satysfakcjê ze swoich zdolnoœci. Tego typu ³uki s¹ od dawna czêsto spotykane na zimnej pó³nocy, okolicy Dziesiêciu Miast, ale ten egzemplarz jest wyj¹tkowo groŸny.
+Wymagania:
+– Si³a: 5
+
+Waga: 3~
+
+@40   = ~Ten wysmuk³y ³uk emanuje ciep³em, choæ w dotyku wydaje siê byæ zimny – jak gdyby czerpa³ satysfakcjê ze swoich zdolnoœci. Tego typu ³uki s¹ od dawna czêsto spotykane na zimnej pó³nocy, okolicy Dziesiêciu Miast, ale ten egzemplarz jest wyj¹tkowo groŸny.
 
 PARAMETRY:
 
+Specjalne:
+– Dwa strza³y na rundê
+– Odpornoœæ na ogieñ: +20%
+– Odpornoœæ na zimno: +20%
+– 50% szans na dodatkowe 2k3 obra¿eñ od ognia, po trafieniu
+
 Obra¿enia: +1
 TraK0: +1
-Specjalne:
- 2 strza³y na rundê
- 50% szansa na zadanie dodatkowych 2K3 pkt. obra¿eñ od ognia
- +20% do odpornoœci na ogieñ/zimno
-Waga: 3
+Typ obra¿eñ: pocisk
 OpóŸnienie: 2
 Rodzaj bieg³oœci: krótki ³uk
 Typ broni: 2-rêczna
-Wymagana si³a: 6~
+
+Wymagania:
+– Si³a: 6
+
+Waga: 3~
 
 @44   = ~Stworzony przez elfy zamieszkuj¹ce niegdyœ Firewine. Chocia¿ sam w sobie jest œwietnie wywa¿onym i magicznym ³ukiem, w d³oniach elfa staje siê jeszcze bardziej œmiercionoœn¹ broni¹.
 
 PARAMETRY:
 
+Specjalne:
+– Piêæ strza³ów na dwie rundy
+
 Obra¿ania: +1
 TraK0: +2
-Specjalne:
- 5 strza³ów na 2 rundy
-Waga: 3
+Typ obra¿eñ: pocisk
 OpóŸnienie: 7
-Rodzaj bieg³oœci: d³ugi £uk
+Rodzaj bieg³oœci: d³ugi ³uk
 Typ broni: 2-rêczna
-Wymagana si³a: 15~
 
-@48   = ~Rêkawice z³odziejskiego mistrzostwa: 'Lepkie palce'
+Wymagania:
+– Si³a: 15
+
+Waga: 3~
+
+@48   = ~Rêkawice z³odziejskiego mistrzostwa: „Lepkie palce”
 
 S¹ poszukiwane przez m³odych adeptów sztuki z³odziejskiej. Te konkretne by³y niegdyœ w³asnoœci¹ s³ynnego kieszonkowca Quinty.
 
 PARAMETRY:
 
 Specjalne:
- +15% do Otwierania zamków
- +15% do Kradzie¿y kieszonkowej
+– Otwieranie zamków: +15%
+– Kradzie¿ kieszonkowa: +15%
+
 Waga: 1~
 
 @52   = ~To s¹ zatrute pociski, które potrafi robiæ Will, korzystaj¹c z ¿ywicy, któr¹ wydziela jego dziwny cep. Nauczy³ siê on u¿ywaæ trucizny kiedy by³ m³ody i potrafi zrobiæ jej tyle, ¿eby wystarczy³o na 5 pocisków.
 
 PARAMETRY:
 
-Obra¿enia: 1K5 +2
-TraK0: +1
-Typ obra¿eñ: pociski (k³ute)
 Specjalne:
- Trafiony cel zostaje zatruty
-Waga: 0
-Wyrzutnia: proca~
+– Cel zostaje zatruty, po trafieniu
 
-@56   = ~Kolczuga +3: 'Zbroja Sage’a'
+Obra¿enia: 1k5 +2
+TraK0: +1
+Typ obra¿eñ: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@56   = ~Kolczuga +3: „Zbroja Sage’a”
 
 Wykonana przez Sage’a, jednego ze znanych przedstawicieli rasy Staro¿ytnych, do walki przeciw z³u. Ówczesne m¹droœci g³osz¹, ¿e by³ to znaczny wojownik, który mia³ niezwyk³¹ zdolnoœæ szybkiego powrotu do zdrowia po bitwie, a nawet w jej czasie trwania.
 
 PARAMETRY:
 
-Klasa Pancerza: 4
 Specjalne:
- +5% do odpornoœci na magiê
- Regeneracja
-Waga: 9
-Wymagana si³a: 6~
+– Odpornoœæ na magiê: +5%
+– Regeneracja punktów ¿ycia
+
+Klasa Pancerza: 4 (2 przeciw broniom siecznym, 6 przeciw broniom obuchowym)
+
+Wymagania:
+– Si³a: 6
+
+Waga: 9~
 
 @58   = ~Elfie kolczugi s¹ szczególnie cenione z uwagi na to, ¿e nie krêpuj¹ ruchów i umo¿liwiaj¹ rzucanie czarów magom oraz noszenie przez ³otrzyków przy niewielkim dyskomforcie. Ten szczególny egzemplarz podnosi równie¿ inteligencjê, niestety nie za darmo.
 
 PARAMETRY:
 
-Klasa Pancerza: 2
 Specjalne:
- +1 do Inteligencji
- -2 do Kondycji
- Pozwala zapamiêtaæ po 1 dodatkowym zaklêciu z poziomów 2. i 3.
-Waga: 8
-Wymagana si³a: 7~
+– Inteligencja: +1
+– Kondycja: -2
+– Pozwala zapamiêtaæ po jednym dodatkowym zaklêciu maga z 2. i 3. poziomu
 
-@60   = ~Kolczuga +5: 'Hebanowe ogniwo'
+Klasa Pancerza: 2 (0 przeciw broniom siecznym, 4 przeciw broniom obuchowym)
+
+Wymagania:
+– Si³a: 7
+
+Waga: 8~
+
+@60   = ~Kolczuga +5: „Hebanowe ogniwo”
 
 Jest to dar dla najpotê¿niejszych wojowników, najlepszych magów i odwa¿nych kap³anów Hebanowej D³oni.
 
 PARAMETRY:
 
-Klasa Pancerza: 2
 Specjalne:
- +5% do odpornoœci na magiê
-Waga: 10
-Wymagana si³a: 6~
+– Odpornoœæ na magiê: +5%
+
+Klasa Pancerza: 2 (0 przeciw broniom siecznym, 4 przeciw broniom obuchowym)
+
+Wymagania:
+– Si³a: 6
+
+Waga: 10~
 
 @62   = ~W czasach dobrobytu miasta Firewine skonstruowano specjalny rodzaj znakomitej elfiej kolczugi, który zapewnia³ ochronê przed przydarzaj¹cymi siê w tej okolicy burzami.
 
 PARAMETRY:
 
-Klasa Pancerza: 4
 Specjalne:
- +2 do Klasy Pancerza przeciw broni siecznej
- -2 do Klasy Pancerza przeciw broni obuchowej
- +30% do odpornoœci na elektrycznoœæ
-Waga: 15
-Wymagana si³a: 8~
+– Odpornoœæ na elektrycznoœæ: +30%
+– Nie ogranicza rzucania zaklêæ
+
+Klasa Pancerza: 4 (2 przeciw broniom siecznym, 6 przeciw broniom obuchowym)
+
+Wymagania:
+– Si³a: 8
+
+Waga: 15~
 
 @67   = ~Pochodzenie tego p³aszcza ginie w mroku dziejów. Od pewnego czasu znajdowa³ siê on w posiadaniu Drosusa, potê¿nego maga z Waterdeep. Na pierwszy rzut oka p³aszcz wydaje siê mieæ oœlepiaj¹co bia³y kolor. Tak naprawdê jest to efekt na³o¿enia siê tysiêcy kolorów, które tañcz¹ i igraj¹ w ka¿dym œwietle. Te iskrz¹ce siê i mieni¹ce kolory rozpraszaj¹ uwagê, a nawet czêœciowo oœlepiaj¹ ka¿dego, kto patrzy prosto na osobê odzian¹ w P³aszcz Iskrz¹cych Kolorów. P³aszcz zapewnia bonus +2 do Klasy Pancerza i mo¿na go ubieraæ wraz z innymi formami magicznej ochrony, tak¿e mo¿e byæ noszony razem z magicznymi zbrojami w przeciwieñstwie do P³aszcza Ochrony.
 
 PARAMETRY:
 
 Specjalne:
- +2 do Klasy Pancerza
+– Klasa Pancerza: +2
+
 Waga: 3~
 
+@79   = ~Sztylet +2: „Zabójcze ¿¹d³o”
 
-@79   = ~Prawdziwa nazwa tego dziwnego sztyletu zaginê³a w mrocznych g³êbinach Morza Mieczy. Broñ ta, wykonana z magicznie wzmocnionej koœci sahuagina, by³a podobno u¿ywana przez kuo-toa w czasie tajemniczych rytua³ów. Rêkojeœæ tego sztyletu wykonano z korala owiniêtego z skórê sahuagina. W pewnym momencie nale¿a³ on do Lockharta, s³ynnego z³odzieja i szmuglera z Wybrze¿a Mieczy. To on nada³ ostrzu jego dzisiejsz¹ nazwê.
+Prawdziwa nazwa tego dziwnego sztyletu zaginê³a w mrocznych g³êbinach Morza Mieczy. Broñ ta, wykonana z magicznie wzmocnionej koœci sahuagina, by³a podobno u¿ywana przez kuo-toa w czasie tajemniczych rytua³ów. Rêkojeœæ tego sztyletu wykonano z korala owiniêtego z skórê sahuagina. W pewnym momencie nale¿a³ on do Lockharta, s³ynnego z³odzieja i szmuglera z Wybrze¿a Mieczy. To on nada³ ostrzu jego dzisiejsz¹ nazwê.
 
 PARAMETRY:
 
-Obra¿enia: 1K4 +2
+Specjalne:
+– 2% szans na rzucenie zaklêcia Palec Œmierci, po trafieniu
+
+Obra¿enia: 1k4 +2
 TraK0: +2
 Typ obra¿eñ: k³ute
-Specjalne:
- 2% szansa na rzucenie zaklêcia Palec Œmierci
-Waga: 1
 OpóŸnienie: 1
 Rodzaj bieg³oœci: sztylet
-Typ broni: 1-rêczna~
+Typ broni: 1-rêczna
+
+Waga: 1~
 
 @83   = ~Strza³ka to ma³y, ³atwy do ukrycia pocisk, który s³u¿y do rzucania, a nie wystrzeliwania z ³uku, kuszy czy procy. Te zwyczajne strza³ki, zosta³y dodatkowo nas¹czone trucizn¹.
 
 PARAMETRY:
 
-Obra¿enia: 1K3
 Specjalne:
- Wysoka szansa na zatrucie celu na 10 rund
- Liczba ataków ustalona na 4
-Typ obra¿eñ: pociski (k³ute)
-Waga: 0
+– Wysoka szansa na zatrucie celu na 10 rund, po trafieniu
+– Cztery ataki na rundê
+
+Obra¿enia: 1k3
+Typ obra¿eñ: pocisk
 OpóŸnienie: 2
 Rodzaj bieg³oœci: strza³ka
-Typ broni: 1-rêczna~
+Typ broni: 1-rêczna
+
+Waga: 0~
+
+@89   = ~Spogl¹daj¹c w ten wypolerowany pierœcieñ dostrzec mo¿na odbicie nieznanego pomieszczenia, które z powodu zaciemnienia jest s³abo widoczne. Wygrawerowany napis g³osi: „Sztylet przetnie kamienny kr¹g, pierœcieñ rozjaœni mrok...”.
+
+PARAMETRY:
+
+Waga: 0~
 
 @99   = ~Pancerz cienia to skórzana æwiekowana zbroja stworzona przez Mistrzów Cieni z Amnu. Mistrzowie Cieni, jak ³atwo siê domyœliæ, stoj¹ najwy¿ej w hierarchii Z³odziei Cienia. Ta zbroja jest ulepszon¹ wersj¹ orygina³u i zapewnia modyfikator +4.
 
 PARAMETRY:
 
-Klasa Pancerza: 3
 Specjalne:
- +15% do Otwierania zamków
- +15% do Krycia siê
- +15% do Cichego poruszania
- +15% do Kradzie¿y kieszonkowej
-Waga: 1
-Wymagana si³a: 6~
+– Otwieranie zamków: +15%
+– Krycie siê w cieniu: +15%
+– Kradzie¿ kieszonkowa: +15%
+– Ciche chodzenie: +15%
+
+Klasa Pancerza: 3 (1 przeciw broniom siecznym, 2 przeciw broniom k³utym i pociskom, 4 przeciw broniom obuchowym)
+
+Wymagania:
+– Si³a: 6
+
+Waga: 1~
 
 @101  = ~Taerom wykona³ niez³y kawa³ roboty, byæ mo¿e nale¿y póŸniej jeszcze go odwiedziæ, nigdy nie wiadomo, czy stary kowal nie mo¿e jeszcze poprawiæ tego cacka...
 
 PARAMETRY:
 
-Klasa Pancerza: 4
 Specjalne:
- +2 do rzutów obronnych przeciwko polimorfii/petryfikacji
- Umo¿liwia zapamiêtanie 1 dodatkowego czaru z poziomów od 1 do 4
+– Rzuty obronne: +2 przeciw petryfikacji/polimorfii
+– Pozwala zapamiêtaæ po jednym dodatkowym zaklêciu maga z poziomów 1-4
+
+Klasa Pancerza: 4 (2 przeciw broniom siecznym, 3 przeciw broniom k³utym i pociskom)
+
 Waga: 15~
 @102  = ~Taerom znowu postara³ siê najlepiej, jak umia³. Teraz pancerz Willa jest naprawdê skutecznym okryciem.
 
 PARAMETRY:
 
-Klasa Pancerza: 0
 Specjalne:
- +3 do rzutów obronnych przeciwko polimorfii/petryfikacji
- +1 do Szczêœcia
- +15% do odpornoœci na elektrycznoœæ
- +30% do odpornoœci na kwas
- Umo¿liwia zapamiêtanie 1 dodatkowego czaru z poziomów od 1 do 8
+– Szczêœcie: +1
+– Rzuty obronne: +3 przeciw petryfikacji/polimorfii
+– Odpornoœæ na elektrycznoœæ: +15%
+– Odpornoœæ na kwas: +30%
+– Pozwala zapamiêtaæ po jednym dodatkowym zaklêciu maga z poziomów 1-8
+
+Klasa Pancerza: 0 (-2 przeciw broniom siecznym, -1 przeciw broniom k³utym i pociskom)
+
 Waga: 15~
 
-@104  = ~Ta zbroja by³a w³asnoœci¹ Ksiêcia Œnie¿nych Barbarzyñców, Corbusa Denolx z Greyhawk. Jak i dlaczego nie jest ju¿ w jego posiadaniu jest niewiadome.
+@104  = ~Ta zbroja by³a w³asnoœci¹ Ksiêcia Œnie¿nych Barbarzyñców, Corbusa Denolxa z Greyhawk. Jak i dlaczego nie jest ju¿ w jego posiadaniu jest niewiadome.
 
 PARAMETRY:
 
-Klasa Pancerza: 5
-Waga: 8
-Wymagana si³a: 6~
+Klasa Pancerza: 5 (3 przeciw broniom siecznym, 4 przeciw broniom k³utym i pociskom) 
+
+Wymagania:
+– Si³a: 6
+
+Waga: 8~
 
 @106  = ~Skórzana zbroja æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzon¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odstêpach nitów, które s¹ tak blisko siebie, ¿e tworz¹ one elastyczn¹, ale trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje ataki broni siecznej i k³utej. Miêkkie skórzane podbicie s³u¿y w³aœciwie tylko do utrzymania nitów w miejscu.
 
 PARAMETRY:
 
-Klasa Pancerza: 5
 Specjalne:
- +10% do odpornoœci na obra¿enia k³ute
- +10% do odpornoœci na obra¿enia sieczne
- +10% do odpornoœci na ogieñ
- +10% do odpornoœci na elektrycznoœæ
- +2 do rzutów obronnych przeciw zioniêciom
-Waga: 15
-Wymagana si³a: 6~
+– Odpornoœæ na obra¿enia k³ute: +10%
+– Odpornoœæ na obra¿enia sieczne: +10%
+– Odpornoœæ na ogieñ: +10%
+– Odpornoœæ na elektrycznoœæ: +10%
+– Rzuty obronne: +2 przeciw zioniêciom
 
-@109  = ~Ta delikatna lutnia posiada srebrne struny, a drewno wykoñczone jest z³otem, czym sprawia wra¿enie niemal nieludzkiego dzie³a. Ale faktem pozostaje, ¿e nawet niewprawne rêce potrafi¹ wydobyæ z niej w³aœciwe brzmienie, tym bardziej, ¿e nie ma ona ¿adnych widocznych sposobów strojenia. Poczucie zdumienia i respektu przebiega ka¿dego, kto zdo³a³ przyjrzeæ siê jej z bliska.~
-@110  = ~Lutnia Hirsuhnita: 'Milcz¹ca publicznoœæ'
+Klasa Pancerza: 5 (3 przeciw broniom siecznym, 4 przeciw broniom k³utym i pociskom) 
+
+Wymagania:
+– Si³a: 6
+
+Waga: 15~
+
+@110  = ~Lutnia Hirsuhnita: „Milcz¹ca publicznoœæ”
 
 Jest to znana wœród wschodniego ludu Hifrodytów lutnia, którzy uwa¿aj¹, ¿e pochodzi wprost ze snu. Hirsuhnite, hifrodycki bard, by³ pos¹dzany, ¿e przela³ na ni¹ swe strachliwe wizje podczas pewnej letniej nocy.
 
 PARAMETRY:
 
 Specjalne:
- Cel staje siê nieprzytomny
+– Nieprzytomnoœæ, raz dziennie
 Czas trwania: 2 rundy
+
 Waga: 3~
 
 @114  = ~Nadzwyczaj powszechne urz¹dzenie w ca³ych Krainach, które ma swoje bardzo praktyczne przeznaczenie i chyba ¿adna szanuj¹ca siê gospodyni nie wyobra¿a sobie egzystencji nie maj¹c go w pobli¿u... Ten model w zasadzie nie wyró¿nia siê niczym szczególnym ponadto, ¿e jest ubrudzony mazist¹ substancj¹, pachnie doœæ dziwnie, ma zamontowany regulowany pas oraz wypustkê, umo¿liwiaj¹c¹ monta¿ tajemniczego dr¹¿ka, który do³¹czony jest do zestawu... W akcie desperacji mo¿na takie narzêdzie wykorzystaæ w obronie w³asnej.
 
 PARAMETRY:
 
-Obra¿enia: 1K1 +1
-Typ obra¿eñ: obuchowe
 Specjalne:
- 100% szansa na trafienie krytyczne
-Waga: 3
+– 100% szans na trafienie krytyczne
+
+Obra¿enia: 1k1 +1
+Typ obra¿eñ: obuchowe
 OpóŸnienie: 1
 Rodzaj bieg³oœci: kij
 Typ broni: 2-rêczna
-Wymagana si³a: 5~
 
+Wymagania:
+– Si³a: 5
+
+Waga: 3~
 
 @120  = ~Niektórzy kap³ani lubi¹ mieæ przy sobie niewielkie symbole swoich zgromadzeñ, gdziekolwiek siê nie udaj¹. Taka starannoœæ zawsze jest nagradzana.
 
 Specjalne:
- Pozwala nauczyæ siê czaru "Protekcja"~
+– Pozwala nauczyæ siê czaru Protekcja~
 
-@141  = ~Po bli¿szym przyjrzeniu siê tej zbroi p³ytowej widaæ, ¿e zrobiona jest ona z jakiegoœ nieznanego, mrocznego metalu. Nosz¹cy go, bêdzie wydawa³ siê tak mroczny, jak sama zbroja. Oprócz tego, zapewnia ona dodatkow¹ ochronê przez broni¹ strzeleck¹.
-
-PARAMETRY:
-
-Klasa Pancerza: 2
-Specjalne:
- +3 do Klasy Pancerza przeciw pociskom
-Waga: 20
-Wymagana si³a: 12~
-
-@145  = ~Po wypiciu tego eliksiru wokó³ postaci formuje siê tarcza p³omieni Feniksa - potê¿nej, ale krótkotrwa³ej ochrony.
+@141  = ~Po bli¿szym przyjrzeniu siê tej zbroi p³ytowej widaæ, ¿e zrobiona jest ona z jakiegoœ nieznanego, mrocznego metalu. Nosz¹cy j¹ bêdzie wydawa³ siê tak mroczny, jak sama zbroja. Oprócz tego, zapewnia ona dodatkow¹ ochronê przez broni¹ strzeleck¹.
 
 PARAMETRY:
 
-Specjalne:
- +4 do Klasy Pancerza
- +50% do odpornoœci na ogieñ
- +25% do odpornoœci na zimno
- +25% do odpornoœci na kwas
- +25% do odpornoœci na b³yskawice
- Odpornoœæ na niemagiczn¹ broñ
-Czas trwania: 60 sekund~
+Klasa Pancerza: 2 (-1 przeciw broniom siecznym, -1 przeciw pociskom)
 
-@149  = ~W butelce znajduje siê elfie wino, które ma podobne w³aœciwoœci jak mikstura leczenia. W czasie jednego z elfich festynów, kap³ani z D³oni Seldarine wypili zbyt du¿o wina i przez przypadek dodali beczkê elfiego wina do mikstury leczenia.
+Wymagania:
+– Si³a: 12
+
+Waga: 20~
+
+@143  = ~Gospoda „Pod Pomocn¹ D³oni¹” s³ynie z wywaru Bentleya, który z powodu ceny jest ulubionym trunkiem podró¿nych, zatrzymuj¹cych siê u Lustrzanych Cieni. Efekt spo¿ycia bywa jednak doœæ nieprzewidywalny...
 
 PARAMETRY:
 
-Przywraca 35 punktów ¿ycia
-80% szansa na upojenie winem przez 30 minut~
+Waga: 1~
 
-
-@153  = ~Will nie chce powiedzieæ, sk¹d wzi¹³ swój pierœcieñ, tym nie mniej, jego zalety s¹ rzadkie i zapewne stanowi¹ dar zaprzyjaŸnionego maga.
+@145  = ~Po wypiciu tego eliksiru wokó³ postaci formuje siê tarcza p³omieni Feniksa – potê¿nej, ale krótkotrwa³ej ochrony.
 
 PARAMETRY:
 
 Specjalne:
- Redukcja obra¿eñ magicznych: 20%~
+– Klasa Pancerze: +4
+– Odpornoœæ na ogieñ: +50%
+– Odpornoœæ na zimno: +25%
+– Odpornoœæ na kwas: +25%
+– Odpornoœæ na b³yskawice: +25%
+– Odpornoœæ na niemagiczn¹ broñ
+Czas trwania: 60 sekund
 
+Waga: 1~
+
+@147  = ~Na ok³adce tej butelki napisane jest „Marsemberowy Rumieniec – Wyborny rocznik”. Utrzymuje tak¿e, ¿e wino jest owocow¹ mieszank¹ aromatu przypraw i zroszonych kwiatów. Winiarnie Marsember s¹ szeroko znane z ich firmowych winogron, które czerpi¹ swój smak ze s³onego powietrza Morza Upad³ych Gwiazd.
+
+PARAMETRY:
+
+Waga: 1~
+
+@149  = ~W butelce znajduje siê elfie wino, które ma podobne w³aœciwoœci jak mikstura leczenia. W czasie jednego z elfich festynów, kap³ani z D³oni Seldarine wypili zbyt du¿o wina i przez przypadek dodali mikstury leczenia do beczki elfiego wina.
+
+PARAMETRY:
+
+Specjalne:
+– Przywraca 35 punktów ¿ycia
+– 80% szans na upojenie winem przez 30 minut
+
+Waga: 1~
+
+@153  = ~Will nie chce powiedzieæ, sk¹d wzi¹³ swój pierœcieñ, niemniej jednak, jego zalety s¹ rzadkie i zapewne stanowi¹ dar od zaprzyjaŸnionego maga.
+
+PARAMETRY:
+
+Specjalne:
+– Redukcja obra¿eñ magicznych: 20%
+ 
+Waga: 0~
 @155  = ~Pierœcieñ to ma³y pasek drogocennego metalu u¿ywany jako bi¿uteria. Niektóre, rzadsze okazy maj¹ w³asnoœci magiczne. S¹ one mocno poszukiwane, przede wszystkim przez ³owców przygód. Bez jakiejœ widocznej przyczyny, ten pierœcieñ jest ciep³y w dotyku.
 
 PARAMETRY:
 
 Specjalne:
- +1 do Klasy Pancerza
- +25% do odpornoœci na obra¿enia obuchowe
- +1 do rzutów obronnych~
+– Klasa Pancerze: +1
+– Rzuty obronne: +1 przeciw czarom
+– Odpornoœæ na obra¿enia obuchowe: +25%
 
-@158  = ~Szata z³ego arcymaga: 'Mroczny sekret Saurona'
+Waga: 0~
 
-Sauron by³ znanym kap³anem i magiem, a to jest owoc jego pracy. Ta szata oferuje odpornoœæ na wiêkszoœæ ataków fizycznych, zwiêkszaj¹c jednoczeœnie rzuty obronne i odpornoœæ na magiê. Daje równie¿ zdolnoœæ utworzenia Wrota Wymiarów i stanie siê "cieniem" swej w³asnej osoby. Ze wzglêdu na naturê tego zaklêcia, szata mo¿e byæ noszona jedynie przez magów o z³ym charakterze.
+@158  = ~Szata z³ego arcymaga: „Mroczny sekret Saurona”
+
+Sauron by³ znanym kap³anem i magiem, a to jest owoc jego pracy. Ta szata oferuje odpornoœæ na wiêkszoœæ ataków fizycznych, zwiêkszaj¹c jednoczeœnie rzuty obronne i odpornoœæ na magiê. Daje równie¿ zdolnoœæ utworzenia Wrota Wymiarów i stanie siê „cieniem” swej w³asnej osoby. Ze wzglêdu na naturê tego zaklêcia, szata mo¿e byæ noszona jedynie przez magów o z³ym charakterze.
 
 PARAMETRY:
 
-Klasa Pancerza: 5
 Specjalne:
- +15% do odpornoœci na magiê
- +1 do rzutów obronnych
- Pozwalaj¹ rzucaæ czar Wrota wymiarów i Drzwi z cienia
+– Klasa Pancerza: 5
+– Rzuty obronne: +1
+– Odpornoœæ na magiê: +15%
+
+W³aœciwoœci ³adunków:
+– Drzwi przez wymiary, raz dziennie
+– Drzwi z cienia, raz dziennie
+
 Waga: 2~
 
 @160  = ~Orkowi szamani wykonuj¹ swoje szaty ze zgrzebnych materia³ów po³¹czonych z elementami skórzanymi. S¹ one brzydkie, ciê¿kie i z regu³y nie stanowi¹ zainteresowania dla poszukiwaczy przygód, pomimo wielu posiadanych zalet.
@@ -449,275 +569,341 @@ Waga: 2~
 PARAMETRY:
 
 Specjalne:
- +2 do Klasy Pancerza
- +40% do odpornoœci na elektrycznoœæ, ogieñ i zimno
- -5 do Charyzmy
+– Klasy Pancerza: +2
+– Odpornoœæ na ogieñ: +40%
+– Odpornoœæ na zimno: +40%
+– Odpornoœæ na elektrycznoœæ: +40%
+– Charyzma: -5
+
 Waga: 35~
 
-@164  = ~Ma³a tarcza +2: 'Tarcza swobody ruchów'
+@164  = ~Ma³a tarcza +2: „Tarcza swobody ruchów”
 
 Posiadacz tej tarczy mo¿e na prawdê czuæ siê swobodnie, bowiem nie straszne mu czary ograniczaj¹ce ruch. Postaæ mo¿e byæ przyspieszana, ale nie mo¿e jednoczeœnie korzystaæ z butów szybkoœci.
 
 PARAMETRY:
 
-Klasa Pancerza: +2
 Specjalne:
- Nie chroni przed pociskami
-Waga: 3
-Wymagana si³a: 4~
+– Klasa Pancerza: +2
+– Swoboda dzia³ania
+– Nie chroni przed pociskami
+
+Wymagania:
+– Si³a: 4
+
+Waga: 3~
 
 @168  = ~Na wierzchniej czêœci widniej¹ wyryte napisy w dawnym elfim jêzyku. Tarcza ta zosta³a wykonana z najmocniejszych metali, jakie kiedykolwiek pojawi³y siê w tej czêœci Faerunu. Ka¿dy posiadacz tej tarczy jest przekonany, i¿ obroni go przed wszelkimi ciosami.
 
 PARAMETRY:
 
-Klasa Pancerza: +2
 Specjalne:
- +1 do Klasy Pancerza przeciwko pociskom
- +1 do wszystkich rzutów obronnych
-Waga: 8
-Wymagana si³a: 15~
+– Klasa Pancerza: +2 (+3 przeciw pociskom)
+– Rzuty obronne: +1
 
-@174  = ~Raasi'doch de Velle spêdzi³ wiele nocy pracuj¹c z rzemieœlnikami Wedruj¹cej Wioski, by stworzyæ t¹ magiczn¹ broñ. Elfi ³owca potrzebowa³ broni, która pomog³aby mu w wyplenieniu wilko³aków terroryzuj¹cych lasy Tethyru. Broñ, tak jak on, pomimo tego, ¿e jest pozbawiona ekstrawaganckiego zdobnictwa, zawsze trafia prosto i boleœnie. Kiedy krucjata dobieg³a koñca, Raasi'doch sprzeda³ prawdopodobnie swój orê¿ jakiemuœ znanemu militaryœcie. 
+Wymagania:
+– Si³a: 15
+
+Waga: 8~
+
+@174  = ~W³ócznia +2: „Kosa likantropa”
+
+Raasi'doch de Velle spêdzi³ wiele nocy pracuj¹c z rzemieœlnikami Wedruj¹cej Wioski, by stworzyæ t¹ magiczn¹ broñ. Elfi ³owca potrzebowa³ broni, która pomog³aby mu w wyplenieniu wilko³aków terroryzuj¹cych lasy Tethyru. Broñ, tak jak on, pomimo tego, ¿e jest pozbawiona ekstrawaganckiego zdobnictwa, zawsze trafia prosto i boleœnie. Kiedy krucjata dobieg³a koñca, Raasi'doch sprzeda³ prawdopodobnie swój orê¿ jakiemuœ znanemu militaryœcie. 
 
 PARAMETRY:
 
-Obra¿enia: 1K6 +2, +3 przeciw likantropom
+Obra¿enia: 1k6 +2, +3 przeciw likantropom, +1k6 obra¿eñ siecznych
 TraK0: +2, +3 przeciw likantropom
 Typ obra¿eñ: k³ute
-Specjalne:
- +1K6 pkt. obra¿eñ siecznych
-Waga: 5
 OpóŸnienie: 2
 Rodzaj bieg³oœci: w³ócznia
 Typ broni: 2-rêczna
-Wymagana si³a: 5~
 
-@176  = ~Eron Niespokojny by³ pesymistycznie nastawionym czarodziejem obdarzonym naturaln¹ sk³onnoœci¹ do pojedynków na magiê. Uwa¿a³, ¿e jedynym sposobem nabrania mocy w sztuce magii jest sprawdzanie swoich umiejêtnoœci w walce z innymi czarodziejami. Jednak¿e wierzy³ równie¿ i w to, ¿e z³odzieje i p³atni zabójcy tylko czekaj¹, aby mu ukraœæ bogactwa. Aby upodobniæ siê do zwyk³ych ludzi, ubiera³ siê w szaty pielgrzyma, a w rêku dzier¿y³ prosty kij wi¹zowy. W rzeczywistoœci kij mia³ w³aœciwoœci magiczne, gdy¿ dodawa³ mocy w walce, ale Eron nie chcia³ zbyt wiele ryzykowaæ i nikomu o tym nie opowiada³.
+Wymagania:
+– Si³a: 5
+
+Waga: 5~
+
+@176  = ~Kij +2: „Kosa Erona”
+
+Eron Niespokojny by³ pesymistycznie nastawionym czarodziejem obdarzonym naturaln¹ sk³onnoœci¹ do pojedynków na magiê. Uwa¿a³, ¿e jedynym sposobem nabrania mocy w sztuce magii jest sprawdzanie swoich umiejêtnoœci w walce z innymi czarodziejami. Jednak¿e wierzy³ równie¿ i w to, ¿e z³odzieje i p³atni zabójcy tylko czekaj¹, aby mu ukraœæ bogactwa. Aby upodobniæ siê do zwyk³ych ludzi, ubiera³ siê w szaty pielgrzyma, a w rêku dzier¿y³ prosty kij wi¹zowy. W rzeczywistoœci kij mia³ w³aœciwoœci magiczne, gdy¿ dodawa³ mocy w walce, ale Eron nie chcia³ zbyt wiele ryzykowaæ i nikomu o tym nie opowiada³.
 
 PARAMETRY:
 
-Obra¿enia: 1K6 +2
+Specjalne:
+– 80% szans na dodatkowe 1k8 +2 obra¿eñ siecznych, po trafieniu
+
+Obra¿enia: 1k6 +2
 TraK0: +2
 Typ obra¿eñ: obuchowe
-Specjalne:
- 80% szansa na zadanie dodatkowych 1K8 +2 pkt. obra¿eñ siecznych
-Waga: 3
 OpóŸnienie: 1
 Rodzaj bieg³oœci: kij
 Typ broni: 2-rêczna
-Wymagana si³a: 5~
+
+Wymagania:
+– Si³a: 5
+
+Waga: 3~
 //ntstaff2.itm
 
-@178  = ~Kije poszukiwaczy pochodz¹ z innej krainy, ale pojawi³y siê tak¿e w Faerunie. Zawieraj¹ inkantacje zapewniaj¹ce protekcjê, wiedzê jak i ochronê przed niektórymi ¿ywio³ami. Ten konkretny kij pozwala rzuciæ co najmniej raz dziennie ka¿de z wymienionych zaklêæ: Uderzenie, Wykrycie z³a, Leczenie krytycznych ran i Wskrzeszenie. Co wiêcej, zapewnia tak¿e ochronê przed ogniem, jak i pewnymi formami magii.
+@178  = ~Kije poszukiwaczy pochodz¹ z innej Krainy, ale pojawi³y siê tak¿e w Faerunie. Zawieraj¹ inkantacje zapewniaj¹ce protekcjê, wiedzê jak i ochronê przed niektórymi ¿ywio³ami. Ten konkretny kij pozwala rzuciæ co najmniej raz dziennie ka¿de z wymienionych zaklêæ: Uderzenie, Wykrycie z³a, Leczenie krytycznych ran i Wskrzeszenie. Co wiêcej, zapewnia tak¿e ochronê przed ogniem, jak i pewnymi formami magii.
 
 PARAMETRY:
 
-Obra¿enia: 1K6 +3
+Specjalne:
+– Odpornoœæ na ogieñ: +40%
+– Odpornoœæ na magiê: +20%
+
+W³aœciwoœci ³adunków:
+– Uderzenie, trzy razy dziennie
+– Wykrycie z³a, dwa razy dziennie
+– Leczenie krytycznych ran, raz dziennie
+– Wskrzeszenie, raz dziennie
+
+Obra¿enia: 1k6 +3
 TraK0: +3
 Typ obra¿eñ: obuchowe
-Specjalne:
- +40% do odpornoœci na ogieñ
- +20% do odpornoœci na magiê
- Trzy razy dziennie mo¿e rzucaæ Uderzenie
- Dwa razy dziennie mo¿e rzucaæ Wykrycie z³a
- Raz dziennie mo¿e rzucaæ Leczenie krytycznych ran
- Raz dziennie mo¿e rzucaæ Wskrzeszenie
-Waga: 4
 OpóŸnienie: 2
 Rodzaj bieg³oœci: kij
 Typ broni: 2-rêczna
-Wymagana si³a: 5~
+
+Wymagania:
+– Si³a: 5
+
+Waga: 4~
 //ntstaff3.itm
 
-@180  = ~Kij +3: 'Wysysacz krwi'
+@180  = ~Kij +3: „Wysysacz krwi”
 
-Ten niezwyk³y kij znalaz³ siê wœród podarunków Nekromantów z Perregal dla druidów Erreth-Akbe kiedy postanowili zakoñczyæ swój 200-letni konflikt. Druidzi nigdy nie odwa¿yli siê u¿yæ tej broni, ale nie odmówili jej przyjêcia w obawie o utrzymanie pokoju. 
+Ten niezwyk³y kij znalaz³ siê wœród podarunków Nekromantów z Perregal dla druidów Erreth-Akbe, kiedy postanowili zakoñczyæ swój dwustuletni konflikt. Druidzi nigdy nie odwa¿yli siê u¿yæ tej broni, ale nie odmówili jej przyjêcia w obawie o utrzymanie pokoju. 
 
 PARAMETRY:
+– Wampiryczne uderzenie: przywraca w³aœcicielowi 4 punkty ¿ycia, po trafieniu
 
-Obra¿enia: 1K6 +3
+Obra¿enia: 1k6 +3
 TraK0: +1
 Typ obra¿eñ: obuchowe
-Specjalne:
- Uderzenie wampiryczne
-Waga: 3
 OpóŸnienie: 1
 Rodzaj bieg³oœci: kij
 Typ broni: 2-rêczna
-Wymagana si³a: 5~
+
+Wymagania:
+– Si³a: 5
+
+Waga: 3~
 //ntswd01.itm
 
-@184  = ~Kid'Seroki by³ zaciek³ym trzebicielem, znienawidzonych przez niego, trolli. Po tym, jak zdo³a³ skraœæ trollom pierœcieñ maga trolli, ich bogowie zsy³ali watahy trolli œcigaj¹ce Kida, by odzyskaæ pierœcieñ. Ale bohater mia³ przy sobie broñ, na któr¹ nawet ich bogowie niewiele mogli poradziæ.
+@184  = ~Miecz d³ugi +1: „Koszmar trolla”
+    
+Kid'Seroki by³ zaciek³ym trzebicielem, znienawidzonych przez niego, trolli. Po tym, jak zdo³a³ skraœæ trollom pierœcieñ maga trolli, ich bogowie zsy³ali watahy trolli œcigaj¹ce Kida, by odzyskaæ pierœcieñ. Na szczêœcie bohater mia³ przy sobie broñ, na któr¹ nawet ich bogowie niewiele mogli poradziæ.
 
 PARAMETRY:
 
-Obra¿enia: 1K10 +1, +3 pkt. obra¿eñ od kwasu
+Obra¿enia: 1k10 +1, +3 obra¿enia od kwasu
 TraK0: +1
 Typ obra¿eñ: sieczne
-Waga: 5
 OpóŸnienie: 2
-Rodzaj bieg³oœci: d³ugi miecz
+Rodzaj bieg³oœci: miecz d³ugi
 Typ broni: 1-rêczna
-Wymagana si³a: 4~
+
+Wymagania:
+– Si³a: 4
+
+Waga: 5~
 //ntswd02.itm
 
-@186  = ~Ten miecz stworzy³ na swe potrzeby pewien ³owca smoków, który zmar³... có¿... podczas wykonywania swojej pracy.
+@186  = ~Miecz d³ugi +1: „Ostrze smoka”
+
+Ten miecz stworzy³ na swe potrzeby pewien ³owca smoków, który zmar³... có¿... podczas wykonywania swojej pracy.
 
 PARAMETRY:
 
-Obra¿enia: 1K10 +1
+Obra¿enia: 1k10 +1
 TraK0: +1
 Typ obra¿eñ: sieczne
-Waga: 9
 OpóŸnienie: 9
-Rodzaj bieg³oœci: d³ugi miecz 
-Typ broni: 1-rêczna~
+Rodzaj bieg³oœci: miecz d³ugi
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 11
+
+Waga: 9~
 //ntswd03.itm
 
-@190  = ~Ta broñ zosta³a wykuta i znaleziona w ruinach Myth Drannor. Przez wieki nale¿a³a do Evalta i jego spadkobierców. Niezbyt wyj¹tkowe zastosowania wojenne rekompensuje ochron¹ przed ogniem.
+@190  = ~Ta broñ zosta³a wykuta i znaleziona w ruinach Myth Drannor. Przez wieki nale¿a³a do Evalta i jego spadkobierców. Niezbyt wyj¹tkowe zastosowania wojenne rekompensuje ochrona przed ogniem.
 
 PARAMETRY:
 
-Obra¿enia: 1K6 +1
+Specjalne:
+– Odpornoœæ na ogieñ: +30%
+
+Obra¿enia: 1k6 +1
 TraK0: +1
 Typ obra¿eñ: sieczne
-Specjalne:
- +30% do odpornoœci na ogieñ
-Waga: 4
 OpóŸnienie: 5
-Rodzaj bieg³oœci: krótki miecz
-Typ broni: 1-rêczna~
+Rodzaj bieg³oœci: miecz krótki
+Typ broni: 1-rêczna
+
+Waga: 4~
 //ntswd04.itm
 
-@194  = ~Z powodu swego miecza, Morridin by³ nieustannym celem ¿artów i domniemañ, jak taki maluch mo¿e u¿ywaæ tak wielkiego miecza. Ale Morridin rzadko pochwala³ te ¿arty i z regu³y ich twórcy sami mogli siê przekonaæ, ¿e jest to mo¿liwe.
+@194  = ~Z powodu swego miecza, Morridin by³ nieustannym celem ¿artów i domniemañ, jak taki maluch mo¿e u¿ywaæ tak wielkiego miecza. Morridin rzadko pochwala³ te ¿arty i, z regu³y, ich twórcy sami mogli siê przekonaæ, ¿e jest to mo¿liwe.
 
 PARAMETRY:
 
-Obra¿enia: 1K10 +1
+Specjalne:
+– Zrêcznoœæ: +2
+
+Obra¿enia: 1k10 +1
 TraK0: +1
 Typ obra¿eñ: sieczne
-Specjalne: 
- +2 do Zrêcznoœci
-Waga: 5
 OpóŸnienie: 7
 Rodzaj bieg³oœci: miecz oburêczny
 Typ broni: 2-rêczna
-Wymagana si³a: 10~
+
+Wymagania:
+– Si³a: 10
+
+Waga: 5~
 //ntswd05.itm
 
 @197 = ~Tego miecza u¿ywa³ kiedyœ Ghotal, s³ynny przywódca orkowych hord z pó³nocy, nieustannie nêkaj¹cych Luskan, Neverwinter, Targos i inne miasta. S³awa tego miecza powodowa³a niechêæ wiêkszoœci napadanych do zorganizowanej walki. Miarka siê przebra³a po ostatecznym zdobyciu i zniszczeniu Targos. Po³¹czone si³y elfów z Everaski i ludzi z miast pó³nocy wci¹gnê³y si³y genera³a w pu³apkê, podczas której wybito ich wiêkszoœæ. Sam Ghotal zdo³a³ ujœæ z pola, ale ciê¿ko ranny zapewne nie zdo³a³ znaleŸæ pomocy, poniewa¿ od tamtego czasu s³uch o nim zagin¹³.
 
 PARAMETRY:
 
-Obra¿enia: 1K12 +3
+Obra¿enia: 1k12 +3
 TraK0: +3
 Typ obra¿eñ: sieczne
-Waga: 12
 OpóŸnienie: 9
 Rodzaj bieg³oœci: miecz oburêczny
 Typ broni: 2-rêczna
-Wymagana si³a: 13~
+
+Wymagania:
+– Si³a: 13
+
+Waga: 12~
 
 /*
 //ntswd06.itm
 
-@199  = ~D³ugi miecz +1: 'Valarius'
+@199  = ~Miecz d³ugi +1: 'Valarius'
 
 Wykonany przez króla magów Varashara dla przywódcy swoich Rycerzy Œmierci. Miecz szybko sta³ siê legend¹ z racji zdolnoœci przebijania niemal wszystkiego. Znane s¹ przypadki kiedy ca³e armie ucieka³y w pop³ochu, gdy w³aœciciel pojawia³ siê na polu walki.
 
 PARAMETRY:
 
-Obra¿enia: 1K8 +1
+Specjalne:
+– 20% szans na rzucenie zaklêcia Groza, po trafieniu
+
+Obra¿enia: 1k8 +1
 TraK0: +1
 Typ obra¿eñ: sieczne
-Specjalne:
- 20% szansa na rzucenie zaklêcia Groza przy trafieniu
-Waga: 3
 OpóŸnienie: 3
-Rodzaj bieg³oœci: d³ugi miecz
+Rodzaj bieg³oœci: miecz d³ugi
 Typ broni: 1-rêczna
-Wymagana si³a: 10~
+
+Wymagania:
+– Si³a: 10
+
+Waga: 3~
 //ntswd07.itm
 
-@201  = ~Miecz oburêczny +1: 'Duma Durlaga'
+@201  = ~Miecz oburêczny +1: „Duma Durlaga”
 
-Ten miecz by³ u¿ywany przez Durlaga nied³ugo przed jego œmierci¹.
+Ten miecz by³ u¿ywany przez Durlaga nied³ugo przed jego œmierci¹. Wydaje siê, ¿e miecz utraci³ czêœæ swojej mocy po wyjêciu go ze ska³y.
 
 PARAMETRY:
 
-Obra¿enia: 1K10 +1
+Obra¿enia: 1k10 +1
 TraK0: +1
 Typ obra¿eñ: sieczne
-Waga: 11
 OpóŸnienie: 9
 Rodzaj bieg³oœci: miecz oburêczny
 Typ broni: 2-rêczna
-Wymagana si³a: 13~
+
+Wymagania:
+– Si³a: 13
+
+Waga: 11~
 //ntswd08.itm
 
 @203  = ~Staro¿ytny miecz nieznanego pochodzenia. Podobno znajdowa³o siê w kolekcji samego Durlaga, choæ twierdzi siê równie¿, ¿e jest dzie³em mistrzów z Myth Drannor. Najnowsze badania wskazuj¹ na to, ¿e w³aœcicielem móg³ byæ Sage Staro¿ytny.
 
 PARAMETRY:
 
-Obra¿enia: 2K4 +2
+Obra¿enia: 2k4 +2
 TraK0: +2
-Typ obra¿eñ: sieczne
-Specjalne:
- Zadane obra¿enia s¹ od kwasu
-Waga: 0
+Typ obra¿eñ: od kwasu
 OpóŸnienie: 2
-Typ broni: 1-rêczna~
+Rodzaj bieg³oœci: miecz d³ugi
+Typ broni: 1-rêczna
+
+Waga: 0~
 */
 
 //ntswd09.itm
 
-@205  = ~Miecz d³ugi +2: 'Ogieñ Bhaala'
+@205  = ~Miecz d³ugi +2: „Ogieñ Bhaala”
 
-Do tej kategorii zaliczaj¹ siê miecze obusieczne, miecze bojowe i wojskowe. Bardzo czêsto miecze d³ugie s¹ jednosieczne. Nie istnieje jedna wersja broni tego typu; sposób wykonania i d³ugoœæ zale¿y od kultury, a nawet miejsca w którym zosta³y zrobione. Ich najczêœciej wystêpuj¹c¹ wspóln¹ cech¹ jest d³ugoœæ, wahaj¹ca siê od 90 do 110 cm. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma zaostrzony koniec. Mimo ostrego koñca, miecze te s³u¿¹ do zadawania ran siecznych, a nie k³utych. Ostrze tego miecza pokrywaj¹ wszelkiego rodzaju tajemne symbole.
+Mieczami d³ugimi nazywa siê zwykle miecze obusieczne, wojenne lub wojskowe. W wielu wypadkach miecz d³ugi posiada jedn¹ krawêdŸ tn¹c¹. Nie istnieje jedna wersja miecza d³ugiego, jego konstrukcja i d³ugoœæ mog¹ siê bowiem ró¿niæ w zale¿noœci od kultury, a nawet w obrêbie tej samej spo³ecznoœci, jeœli weŸmie siê pod uwagê ró¿ne epoki. Jedn¹ z najbardziej charakterystycznych cech mieczy d³ugich jest ich d³ugoœæ, która waha siê od dziewiêædziesiêciu do stu dwudziestu centymetrów. W tym ostatnim przypadku samo ostrze mo¿e mierzyæ nawet do stu centymetrów. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma ostre zakoñczenie. Pomimo posiadania sztychu, miecz d³ugi przeznaczony jest do ciêcia, a nie do wyprowadzania pchniêæ. Ostrze tego miecza pokrywaj¹ wszelkiego rodzaju tajemne symbole.
 
 PARAMETRY:
 
-Obra¿enia: 1K8 +2, +1K4 pkt. obra¿eñ od ognia
+Specjalne:
+– 10% szans na og³uszenie celu, po trafieniu
+
+Obra¿enia: 1k8 +2, +1k4 obra¿eñ od ognia
 TraK0: +2
 Typ obra¿eñ: sieczne
-Specjalne:
- 10% szansa na og³uszenie celu
-Waga: 4
 OpóŸnienie: 4
-Rodzaj bieg³oœci: d³ugi miecz
-Typ broni: 1-rêczna~
+Rodzaj bieg³oœci: miecz d³ugi
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 4~
 
 
 //scrlnt71.itm
 
-@211  = ~Szkielet stra¿nik (Sprowadzanie/Przywo³ywanie)
+@211  = ~Szkielet stra¿nik
+(Sprowadzanie/Przywo³ywanie)
+
 Poziom: 7
-Sfera: Nekromancja
 Zasiêg: 20 metrów
 Czas dzia³ania: 4 godziny
 Czas rzucania: 5
 Obszar dzia³ania: specjalny
 Rzut obronny: brak
 
-Ten czar przyzywa 2 szkieletów wojowników do walki na rozkaz rzucaj¹cego. Przyzwane szcz¹tki martwych ludzi, nieludzi i humanoidów mog¹ wykonywaæ proste s³owne polecenia czaruj¹cego, bez wzglêdu na to, jak porozumiewa³y siê za ¿ycia. Przyzwane szkielety mog¹ pod¹¿aæ za osob¹, która rzuci³a zaklêcie, pozostaæ na danym obszarze i atakowaæ ka¿dego (lub tylko okreœlony rodzaj istot), kto siê zbli¿y itp. Animacja szkieletów wojowników trwa przez 4 godziny lub do zniszczenia nieumar³ych w walce lub przez ich odpêdzenie. Rozproszenie magii nie niweluje dzia³ania tego zaklêcia.~
+Ten czar przyzywa dwa szkielety wojowników do walki na rozkaz rzucaj¹cego. Przyzwane szcz¹tki martwych ludzi, nieludzi i humanoidów mog¹ wykonywaæ proste s³owne polecenia czaruj¹cego, bez wzglêdu na to, jak porozumiewa³y siê za ¿ycia. Przyzwane szkielety mog¹ pod¹¿aæ za osob¹, która rzuci³a zaklêcie, pozostaæ na danym obszarze i atakowaæ ka¿dego (lub tylko okreœlony rodzaj istot), kto siê zbli¿y itp. Animacja szkieletów wojowników trwa przez cztery godziny lub do zniszczenia nieumar³ych w walce lub przez ich odpêdzenie. Rozproszenie magii nie niweluje dzia³ania tego zaklêcia.~
 
-@214  = ~Iskrz¹ca chmura (Wywo³ywanie)
+@214  = ~Iskrz¹ca chmura
+(Wywo³ywanie)
+
 Poziom: 8
-Zasiêg: pole widzenia
-Czas dzia³ania: 4 rundy +1K6 rund
+Zasiêg: pole widzenia rzucaj¹cego czar
+Czas dzia³ania: 4 rundy +1k6 rund
 Czas rzucania: 2
 Obszar dzia³ania: w promieniu 3 metrów
 Rzut obronny: 1/2
 
-Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie rundy nie czyni ona ¿adnej krzywdy, ale w trzeciej rundzie zaczyna iskrzyæ i p³on¹æ, zadaj¹c 1-2 punkty obra¿eñ na poziom rzucaj¹cego czar. W czwartej rundzie zadaje 1-4 punkty obra¿eñ/poziom, po czym w pi¹tej ponownie 1-2 punkty. Jeœli istocie atakowanej uda siê wykonaæ rzut obronny przeciw czarom, to otrzymuje ona tylko po³owê obra¿eñ.~
+Czar ten przywo³uje gêst¹ chmurê dymu o promieniu trzech metrów. Przez pierwsze dwie rundy nie czyni ona ¿adnej krzywdy, ale w trzeciej rundzie zaczyna iskrzyæ i p³on¹æ, zadaj¹c 1-2 obra¿enia na poziom rzucaj¹cego czar. W czwartej rundzie zadaje 1-4 obra¿eñ na poziom, po czym w pi¹tej ponownie 1-2 obra¿eñ. Jeœli istocie atakowanej uda siê wykonaæ rzut obronny przeciw czarom, to otrzymuje ona tylko po³owê obra¿eñ.~
 
-
-@501  = ~Wewn¹trz tego szklanego naczynia znajduje siê mikstura oleju i innych chemikaliów. Gdy stanie w ogniu, spala siê przez kilka sekund w bardzo wysokiej temperaturze. P³on¹cy olej jest czasami trudny do u¿ycia, poniewa¿ odpalenie i rzut zajmuje du¿o czasu. Podró¿nicy czêsto nosz¹ ze sob¹ olej do pomocy w walce z trollami, które mo¿na niekiedy nieszczêœliwie napotkaæ.
+@501  = ~W œrodku tego szklanego naczynia znajduje siê kosztowna mieszanka oliwy i innych chemikaliów. Po podpaleniu p³onie przez kilka sekund w wysokiej temperaturze. Czasami ciê¿ko pos³u¿yæ siê p³on¹c¹ oliw¹, poniewa¿ du¿o czasu zajmuje jej posiadaczowi opanowanie umiejêtnoœci wykonania poprawnego rzutu. Poszukiwacze przygód czêsto maj¹ oliwê przy sobie, aby mieæ obronê przed trollami, na wypadek gdyby siê na nie natknêli.
 
 PARAMETRY:
 
-Rzucone w cel, naczynie pêka, rozprzestrzeniaj¹c p³on¹cy olej w promieniu 3 metrów, zadaj¹c 2-16 obra¿eñ od ognia.~
+Specjalne:
+– Po trafieniu w cel, szklane naczynie rozbija siê, rozlewaj¹c p³on¹c¹ oliwê na wszystko w promieniu 3 metrów, powoduj¹c 2k8 obra¿eñ od ognia.
 
+Waga: 1~
+
+/* new for v2.0 */
+@516 = ~To wydaje siê byæ jakimœ rodzajem mapy. Jedyny znaleziony napis to „Las Ostrych K³ów”. Dalej na wschód i nieco na pó³noc od niego zauwa¿asz znacznik, jakby to by³o wa¿nym miejscem.~
+@517 = ~S¹ to osobiste notatki mnicha Avery’ego. Wygl¹da na to, ¿e przeprowadzi³ on badania na temat za³o¿yciela cytadeli, Monoacha. Znajdujesz równie¿ fragment dotycz¹cy o³tarza w cytadeli: „Zgodnie z ¿yczeniem za³o¿yciela cytadeli, Monoacha, przechowujemy tam pewien relikt: œwiêty symbol Helma. Niestety nie wiemy, gdzie jest klucz. Podobno Monoach odda³ go na przechowanie zaufanym przyjacio³om, gdzieœ daleko st¹d... na wyspie w pó³nocno-zachodnim kierunku... Naprawdê potrzebujê wiêcej informacji na ten temat.”.~
 
 /* Added by Angel */
 
@@ -726,52 +912,127 @@ Rzucone w cel, naczynie pêka, rozprzestrzeniaj¹c p³on¹cy olej w promieniu 3 metr
 PARAMETRY:
 
 Specjalne:
- Podnosi Si³ê u¿ytkownika do 19~
+– Si³a: 19
+
+Waga: 2~
 @544  = ~Twarde p³yty, które stanowi¹ pancerz umbrowych kolosów, ca³kiem ³atwo przerobiæ w zbrojê dla humanoida. Ten mroczny pancerz zosta³ wstawiony w zbrojê p³ytow¹ przez duergarskich p³atnerzy. Mroczne krasnoludy, które doskonale opanowa³y obróbkê szkieletów zewnêtrznych umbrowych kolosów, postara³y siê o to, aby zbroja ta otrzyma³a dodatkowe wzmocnienia.
 
 PARAMETRY:
 
-Klasa Pancerza: 2
-Waga: 40
-Wymagana si³a: 12~
-@546  = ~Zbroja ta zosta³a wykonana przez krasnoludzkiego kowala o imieniu Karador. Potem elfi mistrz zauroczeñ o imieniu Elemeth z Piêciu Drzew obdarzy³ j¹ moc¹ magiczn¹. W czasie, kiedy D³oñ Seldarine i G³êbia Dorna ze sob¹ wspó³pracowa³y, powsta³o wiele wspania³ych przedmiotów, a ta zbroja jest w³aœnie jednym z nich. Niezwykle lekka i piêkna, zbroja ta by³a pocz¹tkowo noszona przez elfkê, która pe³ni³a funkcjê dowódcy w Odciêtej D³oni, dlatego osada nie pad³a, kiedy orki dokonywa³y grabie¿y wie¿. Potem zbroja ta zosta³a ukradziona przez Pannê Ilmadiê i by³a noszona a¿ do momentu bitwy z Obroñcami Easthaven w G³êbi Dorna. To co siê sta³o ze zbroj¹ po zakoñczeniu bitwy i to w jaki sposób trafi³a na Wybrze¿e Mieczy jest nieznane.
+Klasa Pancerza: 2 (-2 przeciw broniom siecznym)
+
+Wymagania:
+– Si³a: 12
+
+Waga: 40~
+
+@546  = ~Zbroja ta zosta³a wykonana przez krasnoludzkiego kowala o imieniu Karador. Potem elfi mistrz zauroczeñ o imieniu Elemeth z Piêciu Drzew obdarzy³ j¹ moc¹ magiczn¹. W czasie, kiedy D³oñ Seldarine i G³êbia Dorna ze sob¹ wspó³pracowa³y, powsta³o wiele wspania³ych przedmiotów, a ta zbroja jest w³aœnie jednym z nich. Niezwykle lekka i piêkna, zbroja ta by³a pocz¹tkowo noszona przez elfkê, która pe³ni³a funkcjê dowódcy w Odciêtej D³oni, dlatego osada nie pad³a, kiedy orkowie dokonywali grabie¿y wie¿. Potem zbroja ta zosta³a ukradziona przez Pannê Ilmadiê i by³a noszona a¿ do momentu bitwy z Obroñcami Easthaven w G³êbi Dorna. To co siê sta³o ze zbroj¹ po zakoñczeniu bitwy i to w jaki sposób trafi³a na Wybrze¿e Mieczy jest nieznane.
 
 PARAMETRY:
 
-Klasa Pancerza: 1
-Waga: 20
 Specjalne:
- +1 do Charyzmy
- +10% do odpornoœci na ogieñ
- +10% do odpornoœci na zimno
- +10% do odpornoœci na elektrycznoœæ
- +10% do odpornoœci na kwas
-Wymagana si³a: 12~
-@548  = ~Ta szata wykonana jest z mocnego materia³u i zabarwiona w kolorze ciemnoniebieskim, ulubionym kolorze jej dumnego w³aœciciela, arcymaga Ogi-Luka. Arcymag urodzi³ siê w Sembii i by³ potê¿nym cz³owiekiem, zarówno fizycznie jak i umys³owo. Jednak zwyk³a si³a mu nie wystarcza³a. Chcia³ byæ wyj¹tkowo silny. Gdy zak³ada³ tê szatê, dumni odsuwali siê na bok a che³piarze milkli. Jednak mimo ca³ej swojej dumy i umiejêtnoœci nie by³ w stanie pokonaæ mistrza odrzucania, Czerwonego Maga, Neska Vhaltima. Nesk zabra³ szatê jako nagrodê. PóŸniej zosta³a ona skradziona i sprzedana przez pewnego œmia³ego ³otra.
+– Charyzma: +1
+– Odpornoœæ na ogieñ: +10%
+– Odpornoœæ na zimno: +10%
+– Odpornoœæ na elektrycznoœæ: +10%
+– Odpornoœæ na kwas: +10%
+
+Klasa Pancerza: 1 (-2 przeciw broniom siecznym)
+
+Wymagania:
+– Si³a: 12
+
+Waga: 20~
+
+@548  = ~Ta szata wykonana jest z mocnego materia³u i zabarwiona w kolorze ciemnoniebieskim, ulubionym kolorze jej dumnego w³aœciciela, arcymaga Ogi-Luca. Arcymag urodzi³ siê w Sembii i by³ potê¿nym cz³owiekiem, zarówno fizycznie jak i umys³owo. Jednak zwyk³a si³a mu nie wystarcza³a. Chcia³ byæ wyj¹tkowo silny. Gdy zak³ada³ tê szatê, dumni odsuwali siê na bok a che³piarze milkli. Jednak mimo ca³ej swojej dumy i umiejêtnoœci nie by³ w stanie pokonaæ mistrza odrzucania, Czerwonego Maga, Neska Vhaltima. Nesk zabra³ szatê jako nagrodê. PóŸniej zosta³a ona skradziona i sprzedana przez pewnego œmia³ego ³otra.
 
 PARAMETRY:
 
-Klasa Pancerza: 4
 Specjalne:
- Si³a: 18/99
- +2 do Kondycji
+– Klasa Pancerza: 4
+– Si³a: 18/99
+– Kondycja: +2
+
 Waga: 5~
-@550 = ~Ta ciê¿ka z³ota zbroja p³ytowa zosta³a wykonana dla genera³a Ghotala przez schwytanych krasnoludzkich kowali oraz zaczarowana przez plemiennych szamanów podczas obrzydliwych obrzêdów, o których lepiej nie wspominaæ. Chocia¿ zbroja zapewnia doskona³¹ ochronê to jest ciê¿ka i nieporêczna, przez co wymaga du¿ej si³y fizycznej do jej noszenia. Z pewnoœci¹ wygl¹da jednak imponuj¹co.
+
+@550 = ~Ta ciê¿ka z³ota zbroja polowa zosta³a wykonana dla genera³a Ghotala przez schwytanych krasnoludzkich kowali oraz zaczarowana przez plemiennych szamanów podczas obrzydliwych obrzêdów, o których lepiej nie wspominaæ. Chocia¿ zbroja zapewnia doskona³¹ ochronê to jest ciê¿ka i nieporêczna, przez co wymaga du¿ej si³y fizycznej do jej noszenia. Z pewnoœci¹ wygl¹da jednak imponuj¹co.
 
 PARAMETRY:
 
-Klasa Pancerza: -1
 Specjalne:
- +2 do Charyzmy
- -2 do Zrêcznoœci
-Waga: 60
-Wymagana si³a: 17~
+– Charyzma: +2
+– Zrêcznoœæ: -4
 
+Klasa Pancerza: 0 (-3 przeciw broniom siecznym, -1 przeciw broniom k³utym i pociskom)
+
+Wymagania:
+– Si³a: 17
+
+Waga: 75~
+
+/* Angel's new items (2021 revision) */
+@557 = ~Ta umagiczniona szata maga pozwala w³adaæ si³ami ziemi i kontrolowaæ kamieñ.
+
+PARAMETRY:
+
+Specjalne:
+– Ochrona przed petryfikacj¹
+
+W³aœciwoœci ³adunków:
+– Kamienna skóra, raz dziennie
+– Zamiana kamienia w cia³o, raz dziennie
+
+Waga: 4~
+
+@559 = ~W tê szatê wszyto wiele oczu pochodz¹cych od ró¿nych magicznych stworzeñ. Oczy te rozszerzaj¹ zakres widzenia w³aœciciela do 360°, w zwi¹zku z czym nie mo¿na go zaskoczyæ. Niektóre z oczu posiadaj¹ infrawizjê, inne zaœ mog¹ wykrywaæ niewidzialne istoty. Jedyn¹ wad¹ tej szaty jest to, ¿e nosz¹cy jest bardziej podatny na zamianê w kamieñ.
+
+PARAMETRY:
+
+Specjalne:
+– Rzuty obronne: -4 przeciw petryfikacji
+– Zapewnia nosz¹cemu infrawizjê na odleg³oœæ 40 metrów
+– Niewra¿liwoœæ na cios w plecy
+
+W³aœciwoœci ³adunków:
+– Prawdziwe widzenie, raz dziennie
+Obszar dzia³ania: w³aœciciel
+
+Waga: 4~
+
+@561 = ~Pierœcieñ ochrony +1, +3 przeciw humanoidom: „Ochraniacz”
+
+Ten magiczny pierœcieñ by³ kiedyœ w³asnoœci¹ pewnego szlachcica z Wrót Baldura. By³ na tyle przera¿ony na myœl próby zabójstwa przez swojego s¹siada, ¿e zap³aci³ pewnemu magowi, aby ten wykona³ dla niego pierœcieñ chroni¹cy przed humanoidami wszelkiej maœci. Na nieszczêœcie szlachcica, ów s¹siad uzna³, ¿e wykorzysta do zabójstwa jadowitego wê¿a.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1, +3 przeciw humanoidom
+– Rzuty obronne: +1, +3 przeciw humanoidom
+
+Waga: 0~
+
+@563   = ~Zbroja polowa to czêœciej u¿ywana forma pe³nej zbroi p³ytowej. Sk³ada siê ona z dopasowanych p³yt po³¹czonych nitami w ten sposób, by zakrywaæ ca³e cia³o. Czêsto rezygnuje siê z podk³adu ³añcuchowego, aby zmniejszyæ wagê. Zamiast tego pod p³ytami nosi siê lekki kombinezon z wyœció³k¹ lub przeszywanicê. Spory ciê¿ar takiej zbroi dobrze rozk³ada siê na ciele nosz¹cego, dziêki czemu wyszkolony rycerz nie powinien mieæ problemu, ¿eby siê po³o¿yæ, wstaæ lub wskoczyæ na siod³o podczas noszenia tej zbroi.
+
+PARAMETRY:
+
+Klasa Pancerza: 2 (-1 przeciw broniom siecznym, 1 przeciw broniom k³utym i pociskom)
+
+Wymagania:
+– Si³a: 14
+
+Waga: 60~
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
+@1245 = ~Woda w tej fiolce zosta³a poœwiêcona i jeœli zostanie rzucona w jakiekolwiek nieumar³e stworzenie to zada odpowiednik 2k8 obra¿eñ od kwasu.
 
-@1454 = ~Elfi ³uk: 'Zguba goblinów'
+PARAMETRY:
+
+Obra¿enia: 2k8 od kwasu przeciw nieumar³ym
+
+Waga: 1~
+
+@1454 = ~Elfi ³uk: „Zguba goblinów”
 
 Elfy stworzy³y ten ³uk z myœl¹ o walce z nêkaj¹cymi je hordami goblinoidów, ale wkrótce okaza³ siê równie skuteczny przeciw innym wrogom.
 
@@ -779,10 +1040,12 @@ PARAMETRY:
 
 Obra¿enia: +2
 Trak0: +2
-Waga: 2
+Typ obra¿eñ: pocisk
 OpóŸnienie: 3
-Rodzaj bieg³oœci: krótki £uk
+Rodzaj bieg³oœci: krótki ³uk
 Typ broni: 2-rêczna
-Wymagana si³a: 6~
 
+Wymagania:
+– Si³a: 6
 
+Waga: 2~

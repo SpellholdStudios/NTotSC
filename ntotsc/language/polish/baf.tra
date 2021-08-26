@@ -1,8 +1,8 @@
 //AR9PBA.baf
-@0    = ~W drodze powrotnej odkry³eœ ma³¹ wyspê i mimo wielu trudnoœci uda³o ci siê przybiæ do brzegu, by uzupe³niæ zapasy na dalsz¹ podró¿. Wyspa wydaje siê byæ zamieszkana.~
+@0    = ~W drodze powrotnej odkryliœcie ma³¹ wyspê i mimo wielu trudnoœci uda³o siê wam przybiæ do brzegu, by uzupe³niæ zapasy na dalsz¹ podró¿. Wyspa wydaje siê byæ zamieszkana.~
 
 //ntcutres.baf
-@10    = ~Wreszcie zazna³eœ niezbêdnego ci wypoczynku.~
+@10    = ~Wreszcie zazna³eœ niezbêdnego ci wypoczynku.~ ~Wreszcie zazna³aœ niezbêdnego ci wypoczynku.~
 
 //SHIP.baf; SHIP1.baf
 @30   = ~Musisz zdobyæ mapy morskie, jeœli chcesz wróciæ na l¹d.~
@@ -14,16 +14,16 @@
 @40   = ~Chroñ cytadelê!~
 
 //nttr51pb.baf (trigger before dungeon in Firewine Bridge is opened by Charleston Nib's Scroll)
-@50  = ~Zwój ochroni ciê przed magi¹ zabezpieczaj¹c¹ wejœcie. Bêdziesz móg³ teraz wejœæ.~
-@51  = ~Zerkasz do œrodka przez wejœcie. W s³abym œwietle jesteœ w stanie dostrzec wystarczaj¹co du¿o ruchu, aby wiedzieæ, ¿e nie powinieneœ wchodziæ do œrodka nieprzygotowany.~
-@52  = ~To przejœcie jest zablokowane przez potê¿n¹ i dziwaczn¹ ochronê. Musisz znaleŸæ jakiœ sposób, aby j¹ dezaktywowaæ, jeœli chcesz przejœæ.~
+@50  = ~Zwój ochroni ciê przed magi¹ zabezpieczaj¹c¹ wejœcie. Od teraz, bêdzie mo¿na wejœæ.~
+@51  = ~Zerkasz do œrodka przez wejœcie. W s³abym œwietle jesteœ w stanie dostrzec wystarczaj¹co du¿o ruchu, aby wiedzieæ, ¿e nie powinieneœ wchodziæ do œrodka nieprzygotowany.~ ~Zerkasz do œrodka przez wejœcie. W s³abym œwietle jesteœ w stanie dostrzec wystarczaj¹co du¿o ruchu, aby wiedzieæ, ¿e nie powinnaœ wchodziæ do œrodka nieprzygotowana.~
+@52  = ~To przejœcie jest zablokowane przez potê¿n¹ i dziwaczn¹ ochronê. Musisz znaleŸæ jakiœ sposób, aby j¹ dezaktywowaæ, jeœli chcesz przejœæ dalej.~
 @53  = ~PodejdŸ bli¿ej, aby zbadaæ to wejœcie.~
 
 /* ar4500.baf */
 @54  = ~Wejœcie do Podziemi~
 
 //indo52pb.baf (triggers entrance to ar53pb.are)
-@60  = ~Ogieñ z oliwy daje migocz¹cê ale jasne œwiat³o. Mo¿esz teraz zejœæ w dó³ schodów.~
+@60  = ~Ogieñ z oliwy daje migocz¹ce, ale jasne œwiat³o. Mo¿esz teraz zejœæ w dó³ schodów.~
 @61  = ~Schody prowadz¹ do kompletnej ciemnoœci. Musisz znaleŸæ jakieœ Ÿród³o œwiat³a, jeœli chcesz przejœæ.~
 @62  = ~Œwiat³o kryszta³u jest jasne i stabilne. Mo¿esz teraz zejœæ w dó³ schodów.~
 @63  = ~Œwiat³o œwiecy jest s³abe i migocz¹ce, jednak¿e mo¿esz teraz zejœæ w dó³ schodów.~
