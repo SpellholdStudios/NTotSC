@@ -1,8 +1,8 @@
 WITH_TRA ~ntotsc/language/english/tactical.tra~ ~ntotsc/language/%s/tactical.tra~
 BEGIN
   COPY ~%MOD_FOLDER%/tactical/actors/nthaebal.cre~ ~override~
-    SAY NAME1 ~Haeball~	// Given name, no need to translate.
-    SAY NAME2 ~Haeball~	// Given name, no need to translate.
+    SAY NAME1 @217 // Haeball from setup.tra
+    SAY NAME2 @217 // Haeball from setup.tra
 
   COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/tactical/scripts/nthaebal.baf~
     USING ~ntotsc/language/%LANGUAGE%/journal.tra~
