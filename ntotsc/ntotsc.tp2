@@ -594,6 +594,7 @@ COPY ~ntotsc/base/itm/ntpblet1.itm~ ~override/ntpblet7.itm~
 	SAY DESC @517
 
 COPY ~ntotsc/base/itm/ntplat01.itm~ ~override~
+	SAY NAME2 @55134
 	SAY DESC @141
 
 COPY ~ntotsc/base/itm/ntplat02.itm~ ~override~
