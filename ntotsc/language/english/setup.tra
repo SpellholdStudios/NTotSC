@@ -1351,3 +1351,8 @@ Not Usable By:
 /* new in v5.0.0 */
 // #40189 (IWD) [enhancement +1 instead of +3]
 @55134 = ~Shadowed Plate +1~
+@55135 = ~A candle is an ignitable wick embedded in wax, or another flammable solid substance such as tallow. Candles are common source of light.
+
+STATISTICS:
+
+Weight: 1~
