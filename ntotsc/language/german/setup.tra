@@ -608,8 +608,7 @@ Feuerresistenz: +50%
 Kälteresistenz: +25%
 Säureresistenz: +25%
 Elektrizitätsresistenz: +25%
-Dauer: 60 Sekunden
-Gewicht: 1~
+Dauer: 60 Sekunden~
 @147 = ~Das Etikett auf dieser Weinflasche lautet "Marsember Erröten - Feine Weinlese" und beansprucht für sich, eine fruchtige Mischung aus Gewürzen und Düften der Tau-Blume zu sein. Die Weinberge von Marsember sind für ihre festen Trauben weithin bekannt, die ihr Aroma aus der wohlriechenden Salzluft des Meeres der Gefallenen Sterne erhalten.~ 
 @148 = ~Flasche Elfenwein~
 @149 = ~Die Wirkung von Elfenwein ist ebenso heilsam wie berauschend. Während eines Fests der Elfen trank einer der Kleriker von der "Hand Seldarines" zu viel und fügte versehentlich ein Fass Elfenwein zu einer Mixtur hinzu, die für Heiltränke bestimmt war.
@@ -617,15 +616,13 @@ Gewicht: 1~
 EIGENSCHAFTEN:
 
 80% Chance, dass der Nutzer berauscht wird (Dauer:30 Minuten)
-Heilt 35 Trefferpunkte
-Gewicht: 1~
+Heilt 35 Trefferpunkte~
 @151 = ~Wills Magischer Ring~
 @153 = ~Will möchte nichts über den Ursprung des Rings erzählen, aber er verfügt über ungewöhnliche Fähigkeiten und wurde wahrscheinlich von einem Freund von Will für ihn verzaubert.
 
 EIGENSCHAFTEN:
 
 Magieresistenz: +20%
-Gewicht: 0
 
 Kann nur verwendet werden von:
  Will~
@@ -636,9 +633,7 @@ EIGENSCHAFTEN:
 
 Resistenz gg. Wuchtwaffen: +25%
 RK-Bonus: -1
-RW-Bonus gg. Zauber: -1
-
-Gewicht: 0~
+RW-Bonus gg. Zauber: -1~
 @156 = ~Rubys Ring~
 /* @157 = ~Robe der bösen Erzmagier~ */
 /* @158 = ~"Saurons Schwarzer Schleier"

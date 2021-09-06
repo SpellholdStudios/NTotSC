@@ -566,7 +566,6 @@ Acid Resistance:  +25% bonus
 Electrical Resistance:  +25% bonus
 Immunity to non-magical weapons
 Duration: 60 seconds
-Weight: 1
 Not Usable By: 
   Wizardslayer~
 @147  = ~The label on this wine bottle reads 'Marsember Blush - Fine Vintage' and claims to be a fruity blend of spices and dew-flower fragrances. The vineyards of Marsember are well known for their crispy grapes which draw their flavor from the fragrant salt air of the Sea of Fallen Stars.~
@@ -576,15 +575,13 @@ Not Usable By:
 STATISTICS:
 
 Heals 35 hit points
-80% chance to get drunk for 30 minutes
-Weight: 1~
+80% chance to get drunk for 30 minutes~
 @151  = ~Will's Magical Ring~
 @153  = ~Will does not want to tell where the ring comes from, but its advantages are rare and it probably was done by a friend of Will with magical powers.
 
 STATISTICS:
 
 Reduction of damage from magic: 20%
-Weight: 0
 Usable Only By:
   Will~
 @154  = ~Ring of Resistance~
@@ -597,7 +594,6 @@ Armor Class Bonus: 1
 Resistance Bonuses: 
  +25% Crushing Resistance
  +1 on Saves vs Spells
-Weight: 0
 Not Usable By: 
   Wizardslayer~
 @157  = ~Robe of the Evil Archmagi~

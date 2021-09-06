@@ -591,7 +591,6 @@ Resistenza all’Acido: +25% bonus
 Resistenza all’Elettricità: +25% bonus
 Immunità alle armi non magiche
 Durata: 60 secondi
-Peso:  1
 Non utilizzabile da: 
   Ammazzastregoni~
 
@@ -602,8 +601,7 @@ Non utilizzabile da:
 STATISTICHE:
 
 Guarisce 35 punti ferita
-80% di possibilità di ubriacarsi per 30 minuti
-Peso:  1~
+80% di possibilità di ubriacarsi per 30 minuti~
 
 @151  = ~Anello Magico di Will~
 @153  = ~Will non vuole dire da dove viene questo anello, ma i suoi vantaggi sono eccezionali. Probabilmente è stato creato con dei poteri magici da un amico mago di Will.
@@ -611,7 +609,6 @@ Peso:  1~
 STATISTICHE:
 
 Riduzione del danno dalla magia: 20%
-Peso:  0
 
 Utilizzabile solo da:
   Will~
@@ -625,7 +622,6 @@ Classe Armatura Bonus: 1
 Resistenze Bonus: 
  +25% Resistenza allo Schiacciamento
  +1 sul Tiro Salvezza contro Incantesimi
-Peso:  0
 Non utilizzabile da: 
   Ammazzastregoni~
 
