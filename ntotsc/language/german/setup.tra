@@ -616,7 +616,7 @@ Dauer: 60 Sekunden~
 EIGENSCHAFTEN:
 
 80% Chance, dass der Nutzer berauscht wird (Dauer:30 Minuten)
-Heilt 35 Trefferpunkte~ 
+Heilt 35 Trefferpunkte~
 @151 = ~Wills Magischer Ring~
 @153 = ~Will möchte nichts über den Ursprung des Rings erzählen, aber er verfügt über ungewöhnliche Fähigkeiten und wurde wahrscheinlich von einem Freund von Will für ihn verzaubert.
 
@@ -1210,6 +1210,7 @@ D.~
 EIGENSCHAFTEN:
 
 Erhöht die Stärke des Trägers auf 19
+Gewicht: 2
 Nur verwendbar von:
   Kämpfer 
   Waldläufer 
