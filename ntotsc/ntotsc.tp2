@@ -527,8 +527,8 @@ COPY ~ntotsc/base/itm/ntmisc06.itm~ ~override~
 COPY ~ntotsc/base/itm/ntmisc07.itm~ ~override~
 	SAY NAME1 @125
 	SAY NAME2 @125
-	SAY UNIDENTIFIED_DESC @125
-	SAY DESC @125
+	SAY UNIDENTIFIED_DESC @55136
+	SAY DESC @55136
 
 COPY ~ntotsc/base/itm/ntmisc08.itm~ ~override~
 	SAY NAME1 @519
@@ -545,8 +545,8 @@ COPY ~ntotsc/base/itm/ntmisc10.itm~ ~override~
 COPY ~ntotsc/base/itm/ntmisc11.itm~ ~override~
 	SAY NAME1 @130
 	SAY NAME2 @130
-	SAY UNIDENTIFIED_DESC @130
-	SAY DESC @130
+	SAY UNIDENTIFIED_DESC @55137
+	SAY DESC @55137
 /*
 COPY ~ntotsc/base/itm/ntmisc13.itm~ ~override~
 	SAY NAME1 @55130
