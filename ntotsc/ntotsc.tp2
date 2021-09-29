@@ -300,6 +300,9 @@ ADD_JOURNAL TITLE (@10078) @10053 @10076 @10077 @10108 USING ~ntotsc/language/%L
 ///// update 2DA / IDS                                 \\\\\
 /////                                                  \\\\\
 
+APPEND ~STATE.IDS~ ~0x8010202D STATE_DISABLED~
+              UNLESS ~0x8010202D STATE_DISABLED~
+
 APPEND ~TRIGGER.IDS~ ~0x00A1 SpellCastOnMeRES(S:Spell*,O:Caster*)~
               UNLESS ~0x00A1 SpellCastOnMeRES(S:Spell\*,O:Caster\*)~
 APPEND ~TRIGGER.IDS~ ~0x0091 SpellCastRES(S:Spell*,O:Object*)~
@@ -349,7 +352,7 @@ AR9305  value~
 
 /*ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
 	APPEND ~item_use.2da~ ~~
-	COPY_EXISTING ~interdia.2da~ ~override~
+	COPY_EXISTING ~item_use.2da~ ~override~
 		PRETTY_PRINT_2DA
 	BUT_ONLY
 END*/
