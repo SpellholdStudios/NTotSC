@@ -5,7 +5,6 @@ Could probably be fixed by someone else:
 -- EET: some of the symbols are very near to SoD symbols on the worldmap
 --wenn man von der Karte mit dem Tempel der Schwarzen Hand direkt nach Larswood (Turm) geht, dann landet auﬂerhalb der Karte und steckt somit fest (ohne Teleportieren).
 --Some scripts seem off. some orc priests and mages only attacked me with melee weapons, they didn't cast spells. 
--     Setup.tra errors: Will ring, ring of resistance, girdle of stromos, potions - weight not mentioned
     Will armor and evalt blade dont have Str requirements
 -Will's voiceset: some lines seem in wrong order 
 
@@ -301,6 +300,9 @@ ADD_JOURNAL TITLE (@10078) @10053 @10076 @10077 @10108 USING ~ntotsc/language/%L
 ///// update 2DA / IDS                                 \\\\\
 /////                                                  \\\\\
 
+APPEND ~STATE.IDS~ ~0x8010202D STATE_DISABLED~
+              UNLESS ~0x8010202D STATE_DISABLED~
+
 APPEND ~TRIGGER.IDS~ ~0x00A1 SpellCastOnMeRES(S:Spell*,O:Caster*)~
               UNLESS ~0x00A1 SpellCastOnMeRES(S:Spell\*,O:Caster\*)~
 APPEND ~TRIGGER.IDS~ ~0x0091 SpellCastRES(S:Spell*,O:Object*)~
@@ -350,7 +352,7 @@ AR9305  value~
 
 /*ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
 	APPEND ~item_use.2da~ ~~
-	COPY_EXISTING ~interdia.2da~ ~override~
+	COPY_EXISTING ~item_use.2da~ ~override~
 		PRETTY_PRINT_2DA
 	BUT_ONLY
 END*/
@@ -406,8 +408,6 @@ COPY ~ntotsc/base/eff~ ~override~
 /////                                                  \\\\\
 ///// install items                                    \\\\\
 /////                                                  \\\\\
-
-COPY ~ntotsc/base/itm/nostring~ ~override~
 
 COPY ~ntotsc/base/itm/ntarrow1.itm~ ~override~
 	SAY NAME2 @1
@@ -530,8 +530,8 @@ COPY ~ntotsc/base/itm/ntmisc06.itm~ ~override~
 COPY ~ntotsc/base/itm/ntmisc07.itm~ ~override~
 	SAY NAME1 @125
 	SAY NAME2 @125
-	SAY UNIDENTIFIED_DESC @125
-	SAY DESC @125
+	SAY UNIDENTIFIED_DESC @55136
+	SAY DESC @55136
 
 COPY ~ntotsc/base/itm/ntmisc08.itm~ ~override~
 	SAY NAME1 @519
@@ -548,8 +548,8 @@ COPY ~ntotsc/base/itm/ntmisc10.itm~ ~override~
 COPY ~ntotsc/base/itm/ntmisc11.itm~ ~override~
 	SAY NAME1 @130
 	SAY NAME2 @130
-	SAY UNIDENTIFIED_DESC @130
-	SAY DESC @130
+	SAY UNIDENTIFIED_DESC @55137
+	SAY DESC @55137
 /*
 COPY ~ntotsc/base/itm/ntmisc13.itm~ ~override~
 	SAY NAME1 @55130
@@ -596,6 +596,7 @@ COPY ~ntotsc/base/itm/ntpblet1.itm~ ~override/ntpblet7.itm~
 	SAY DESC @517
 
 COPY ~ntotsc/base/itm/ntplat01.itm~ ~override~
+	SAY NAME2 @55134
 	SAY DESC @141
 
 COPY ~ntotsc/base/itm/ntplat02.itm~ ~override~
@@ -702,6 +703,12 @@ COPY ~ntotsc/base/itm/nthellsw.itm~ ~override~ //fire salamander weapon
 
 COPY ~ntotsc/base/itm/nostring~ ~override~
 
+/* Edited items from base game */
+
+// Missing description of Ordolath's candle
+COPY_EXISTING ~misc74.itm~ ~override~
+	SAY UNIDENTIFIED_DESC @55135
+	SAY DESC @55135
 
 /* Items from DsotSC */
 

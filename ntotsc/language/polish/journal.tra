@@ -1,376 +1,380 @@
 // @7 from bart5.tra
-@10000    = ~Will O'Hara.
+@10000    = ~Will O'Hara
 
 Ulubiona broñ Willa jest znów w jego rêkach. Mam nadziejê, ¿e potrafi siê ni¹ w³aœciwie pos³ugiwaæ.~
 // @5 from Charle.tra
-@10001 = ~Lochy pod mostem Firewine.
+@10001 = ~Lochy pod mostem Firewine
 
 Charleston Nib, którego uchroniliœmy przed atakiem jego s³ug, po wejœciu do grobowca Kozaha, zleci³ nam dodatkowe zadanie. W ruinach Firewine jest zabezpieczone przejœcie do czêœci podziemi miasta, w których zagnieŸdzi³y siê podobno nieczyste si³y, uniemo¿liwiaj¹ce zbadanie pomieszczeñ. Mamy oczyœciæ to miejsce.~
 // @8 from lobar.tra
-@10002  = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10002  = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
-Lobar skierowa³ nas do Sp³onionej Syreny w poszukiwaniu magicznej ksiêgi niewiedzy. Mamy tam odszukaæ Oupaste’a, poœrednika Lobara, który zna nabywcê ksiêgi.~
+Lobar skierowa³ nas do „Sp³onionej Syreny” w poszukiwaniu magicznej Ksiêgi Niewiedzy. Mamy tam odszukaæ Oupaste’a, poœrednika Lobara, który zna nabywcê ksiêgi.~
 // @1 from NT#DELTA.tra
-@10003  = ~Tajemnica Pó³nocnej Cytadeli.
+@10003  = ~Tajemnica Pó³nocnej Cytadeli
 
-Ksi¹¿ê Eltan spyta³ mnie, czy uda³bym siê do cytadeli po³o¿onej na pó³noc od Wrót Baldura. Zdaje siê, ¿e gin¹ tam ludzie. Chce ¿ebym siê dowiedzia³ co tam naprawdê siê dzieje...~
+Ksi¹¿ê Eltan spyta³ mnie, czy uda³<PRO_HESHE>bym siê do cytadeli po³o¿onej na pó³noc od Wrót Baldura. Zdaje siê, ¿e gin¹ tam ludzie. Chce ¿ebym siê dowiedzia³<PRO_HESHE>, co tam naprawdê siê dzieje...~
 // @15 from NTARCHAN.tra
-@10004  = ~Wyspa Syren.
+@10004  = ~Wyspa sirin
 
-Cholera. Archandra jest gotowa umówiæ siê ze mn¹, ale pod warunkiem, ¿e zdobêdê tu butelkê wina... Sk¹d j¹ wzi¹æ?~
+Cholera, Archandra jest gotowa umówiæ siê ze mn¹, ale pod warunkiem, ¿e zdobêdê tu butelkê wina... Sk¹d j¹ wzi¹æ?~
 // @24 from NTAVERY.tra 
-@10005  = ~Symbol Helma.
+@10005  = ~Symbol Helma
 
-Avery zdradzi³ nam historiê Monoacha, za³o¿yciela cytadeli. W o³tarzu przechowywany jest symbol Helma. Ale nie wiadomo do czego s³u¿y... Plotki g³osz¹, ¿e klucz zosta³ podarowany w celach bezpieczeñstwa jakiejœ zaufanej osobie mieszkaj¹cej na wyspie daleko na pó³nocny-zachód.~
+Avery zdradzi³ nam historiê Monoacha, za³o¿yciela cytadeli. W o³tarzu przechowywany jest symbol Helma, ale nie wiadomo do czego s³u¿y... Plotki g³osz¹, ¿e klucz zosta³ podarowany w celach bezpieczeñstwa jakiejœ zaufanej osobie mieszkaj¹cej na wyspie daleko na pó³nocny-zachód.~
 // @1 of NTPBWATC.tra 
-@10006 = ~Pola Umar³ych.
+@10006 = ~Pola Umar³ych
 
-Natychmiast po wejœciu do tajemniczego grobowca, zatrzyma³ nas rycerz - duch, ale niczego nie chcia³ wyjaœniaæ, tylko rzuci³ siê na nas...~
+Natychmiast po wejœciu do tajemniczego grobowca, zatrzyma³ nas rycerz-duch, ale niczego nie chcia³ wyjaœniaæ, tylko rzuci³ siê na nas...~
 // @6 from NTELDOD.tra
-@10007    = ~Tajemnica Pó³nocnej Cytadeli.
+@10007    = ~Tajemnica Pó³nocnej Cytadeli
 
 W koñcu uda³o siê porozmawiaæ z Eldodem, kapitanem stra¿y w Pó³nocnej Cytadeli. Zachowywa³ siê doœæ obskurnie... Podejrzane...~
 // @10 from NTELDOD.tra
-@10008    = ~Tajemnica Pó³nocnej Cytadeli.
+@10008    = ~Tajemnica Pó³nocnej Cytadeli
 
-Kapitan stra¿y w pó³nocnej cytadeli by³ wyj¹tkowo wœciek³y po naszej kolejnej wizycie... i szybko wyszed³...~
+Kapitan stra¿y w Pó³nocnej Cytadeli by³ wyj¹tkowo wœciek³y po naszej kolejnej wizycie... i szybko wyszed³...~
 // @18 from NTELDOD.tra
-@10009    = ~Tajemnica Pó³nocnej Cytadeli.
+@10009    = ~Tajemnica Pó³nocnej Cytadeli
 
 Zauroczony kapitan stra¿y w Pó³nocnej Cytadeli, ostatecznie uwolniony spod wp³ywu czaru, wyzna³, ¿e by³ kierowany przez ogra Krotana, ukrywaj¹cego siê za cytadel¹ w mauzoleum. Teraz nale¿y znaleŸæ to mauzoleum.~
-@10010    = ~Tajemnica Pó³nocnej Cytadeli.~
+@10010    = ~Tajemnica Pó³nocnej Cytadeli~
 // @7 from NTESSILA.tra
-@10011    = ~Wyspa Syren.
+@10011    = ~Wyspa sirin
 
-Syrena o imieniu Essila potrzebuje lekarstwa, poniewa¿ czuje siê chora... Chodzi o g³owê czy palec? A mo¿e nie k³amie?~
+Sirina o imieniu Essila potrzebuje lekarstwa, poniewa¿ czuje siê chora... Ciekawe, czy to paluszek, czy g³ówka? A mo¿e nie k³amie?~
 //@1 from NTGGOTHA.tra
-@10012    = ~Pola Umar³ych.
+@10012    = ~Pola Umar³ych
 
 Niczego nieœwiadomi, wkroczyliœmy do otaczanego przez orków grobowca ich genera³a... Odebra³ nam swój miecz i rzuci³ siê wraz ze œwit¹ na nas... Dramatyczne prze¿ycie.~
 //@3 from NTGGOTHA.tra
-@10013    = ~Pola Umar³ych.
+@10013    = ~Pola Umar³ych
 
 Kiedy wreszcie zdo³aliœmy wejœæ do grobowca, który takim kultem otaczaj¹ orki, drogê zast¹pi³ nam sam Ghotal, wraz ze swoj¹ œwit¹... Dramatyczne prze¿ycie.~
 //@2 from NTGHELDE.tra 
 //#15797
-@10014    = ~Pilar i Gheldehar.
+@10014    = ~Pilar i Gheldehar
 
-W jednej z uliczek wpadliœmy na nieciekawie wygl¹daj¹cego gnoma, Gheldehara. Twierdzi on, ¿e jego stara "przyjació³ka" Pilar, która przebywa obecnie w gospodzie "Pod Pomocn¹ D³oni¹", ukrad³a jego stare buty. Gnom chcia³by je odzyskaæ, a poniewa¿ nie zdawa³ siê dbaæ o to, w jaki sposób odzyskamy te buty, okreœlenie "przyjació³ka" by³o chyba tylko mydleniem oczu.~
+W jednej z uliczek wpadliœmy na nieciekawie wygl¹daj¹cego gnoma, Gheldehara. Twierdzi on, ¿e jego stara „przyjació³ka” Pilar, która przebywa obecnie w gospodzie „Pod Pomocn¹ D³oni¹”, ukrad³a jego stare buty. Gnom chcia³by je odzyskaæ, a poniewa¿ nie zdawa³ siê dbaæ o to, w jaki sposób odzyskamy te buty, okreœlenie „przyjació³ka” by³o chyba tylko mydleniem oczu.~
 //@1 from NTGUARNC.tra
-@10015    = ~Tajemnica Pó³nocnej Cytadeli.
+@10015    = ~Tajemnica Pó³nocnej Cytadeli
 
 Po przybyciu do Pó³nocnej Cytadeli, nie zostaliœmy ciep³o przyjêci.~
 //@2 from NTHAEBAL.tra 
-@10016    = ~Haeball, mag ¿yj¹cy w Kniei Larsa, ma parê przedmiotów na sprzeda¿.~
+@10016    = ~Haeball z Kniei Larsa
+
+Haeball, mag ¿yj¹cy w wie¿y w Kniei Larsa, ma parê przedmiotów na sprzeda¿.~
 //@7 from NTHAEBAL.tra 
-@10017    = ~Zniszcz kult Czarnej D³oni.
+@10017    = ~Zniszcz kult Czarnej D³oni
 
 No proszê! Przychodzimy z przyjacielsk¹ wizyt¹, a czekaj¹ nas miecze i czarna magia... Co ten Haeball ukrywa? Warto by³oby dok³adniej przyjrzeæ siê jego wie¿y.~
 //@19 from NTHAEBAL.tra 
-@10018    = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10018    = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
-Mag Haeball zamieszkuj¹cy wie¿ê w Kniei Larsa na wschód od "Pomocnej D³oni" zleci³ nam zadanie zdobycia Ksiêgi Niewiedzy oraz ³uku, bêd¹cego podobno w posiadaniu elfa gdzieœ na pó³nocy. Przy odrobinie szczêœcia zdobêdziemy obydwa i nieŸle zarobimy...~
+Mag Haeball, zamieszkuj¹cy wie¿ê w Kniei Larsa na wschód od gospody „Pod Pomocn¹ D³oni¹”, zleci³ nam zadanie zdobycia Ksiêgi Niewiedzy oraz ³uku, bêd¹cego podobno w posiadaniu elfa gdzieœ na pó³nocy. Przy odrobinie szczêœcia zdobêdziemy obydwa i nieŸle zarobimy...~
 //@41 from NTHAEBAL.tra 
-@10019    = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10019    = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
-Mag Haeball zamieszkuj¹cy wie¿ê w Kniei Larsa na wschód od "Pomocnej D³oni" zleci³ nam zadanie zdobycia ³uku, bêd¹cego podobno w posiadaniu elfa, gdzieœ na pó³nocy. Przy odrobinie szczêœcia zdobêdziemy go i nieŸle zarobimy...~
+Mag Haeball, zamieszkuj¹cy wie¿ê w Kniei Larsa na wschód od gospody „Pod Pomocn¹ D³oni¹”, zleci³ nam zadanie zdobycia ³uku, bêd¹cego podobno w posiadaniu elfa, gdzieœ na pó³nocy. Przy odrobinie szczêœcia zdobêdziemy go i nieŸle zarobimy...~
 //@27 from NTHAEBAL.tra 
-@10020    = ~Zniszcz kult Czarnej D³oni.
+@10020    = ~Zniszcz kult Czarnej D³oni
 
 Oto wdziêcznoœæ! To my zdzieramy obuwie dla zadowolenia magików, a oni w nagrodê próbuj¹ nas zabiæ. Nie wiem dlaczego, ale odnoszê wra¿enie, ¿e to nie koniec tego sznurka o imieniu Haeball...~
 //@16 from NTHASDAR.tra  
-@10021    = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10021    = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
-Mê¿czyzna imieniem Hasdar twierdzi, ¿e ksiêga istnieje i aktualnie posiada j¹ Lobar. Hasdar obieca³ daæ mi za ni¹ 10000 sztuk z³ota!~
+Mê¿czyzna imieniem Hasdar twierdzi, ¿e ksiêga istnieje i aktualnie posiada j¹ w³aœciciel Pochy³ej Latarni, Lobar. Hasdar obieca³ daæ mi za ni¹ dziesiêæ tysiêcy sztuk z³ota!~
 //@34 from NTHASDAR.tra  
-@10022    = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10022    = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
 Zwróci³em Hasdarowi magiczn¹ ksiêgê, by odkryæ, ¿e planowa³ mnie zabiæ. Mogliœmy siê tego spodziewaæ. Niestety, nie dostaliœmy pieniêdzy. Jeœli jeszcze raz go spotkam, to pogadamy inaczej.~
-@10023    = ~Wyspa Syren.
+@10023    = ~Wyspa sirin
 
-Opuœciliœmy wyspê przyjaznych syren. Prawdopodobnie nigdy tu nie wrócimy.~
+Opuœciliœmy wyspê przyjaznych sirin. Prawdopodobnie nigdy tu nie wrócimy.~
 //@3 from NTHUMBAB.tra 
-@10024    = ~Problem na Pó³nocnym Wybrze¿u.
+@10024    = ~Problem na pó³nocnym wybrze¿u
 
-Na proœbê rybaków z wioski na pó³nocnym Wybrze¿u Mieczy "odwiedziliœmy" grotê zamieszkiwan¹ przez Ogniste Salamandry! Ju¿ przy wejœciu zatrzyma³ nas Humbaba i trzeba by³o go wypatroszyæ.~
+Na proœbê rybaków z wioski na pó³nocnym Wybrze¿u Mieczy „odwiedziliœmy” grotê zamieszkiwan¹ przez ogniste salamandry! Ju¿ przy wejœciu zatrzyma³ nas Humbaba i trzeba by³o go wypatroszyæ.~
 //@5 from NTHUMBAB.tra 
-@10025    = ~Problem na Pó³nocnym Wybrze¿u.
+@10025    = ~Problem na pó³nocnym wybrze¿u
 
-Na dalekiej pó³nocy Wybrze¿a Mieczy spotkaliœmy grupê Ognistych Salamandr, mieszkaj¹cych w wulkanicznej jaskini i terroryzuj¹cych okolicznych mieszkañców.~
+Na dalekiej pó³nocy Wybrze¿a Mieczy spotkaliœmy grupê ognistych salamandr, mieszkaj¹cych w wulkanicznej jaskini i terroryzuj¹cych okolicznych mieszkañców.~
 //@11 from NTHUMBAB.tra 
-@10026    = ~Problem na Pó³nocnym Wybrze¿u.
+@10026    = ~Problem na pó³nocnym wybrze¿u
 
-Spotkanie z Ognistymi Salamandrami na razie okaza³o siê zbyt niebezpieczne i nale¿a³o zastosowaæ taktykê odwrotu...~
+Spotkanie z ognistymi salamandrami na razie okaza³o siê zbyt niebezpieczne i nale¿a³o zastosowaæ taktykê odwrotu...~
 //@1 from NTKEELOR.tra #15737
-@10027    = ~Keelor Krasnolud.
+@10027    = ~Keelor Krasnolud
 
-Po odzyskaniu przytomnoœci, krasnolud Keelor poinformowa³ mnie o gnollach grasuj¹cych na tym obszarze. Widz¹c, jak bardzo go poturbowa³y, nie mam w¹tpliwoœci, ¿e stanowi¹ olbrzymie zagro¿enie.~
+Po odzyskaniu przytomnoœci, krasnolud Keelor poinformowa³ nas o gnollach grasuj¹cych na tym obszarze. Widz¹c, jak bardzo go poturbowa³y, nie mamy w¹tpliwoœci, ¿e stanowi¹ olbrzymie zagro¿enie.~
 //@3 from NTKEELOR.tra #15738
-@10028    = ~Keelor Krasnolud.
+@10028    = ~Keelor Krasnolud
 
-Po odzyskaniu przytomnoœci, krasnolud Keelor poinformowa³ mnie o gnollach grasuj¹cych na tym obszarze. Widz¹c, jak bardzo go poturbowa³y, nie mam w¹tpliwoœci, ¿e stanowi¹ olbrzymie zagro¿enie. Myœlê ¿e powinniœmy go odwiedziæ nastêpnym razem, gdy odwiedzimy Beregost, gdy¿ wygl¹da na powa¿niej rannego ni¿ chce siê do tego przyznaæ.~
+Po odzyskaniu przytomnoœci, krasnolud Keelor poinformowa³ nas o gnollach grasuj¹cych na tym obszarze. Widz¹c, jak bardzo go poturbowa³y, nie mamy w¹tpliwoœci, ¿e stanowi¹ olbrzymie zagro¿enie. Myœlê, ¿e powinniœmy go odwiedziæ nastêpnym razem, gdy odwiedzimy Beregost, gdy¿ wygl¹da na powa¿niej rannego, ni¿ chce siê do tego przyznaæ.~
 //@5 from NTKEELOR.tra #15739
-@10029    = ~Keelor Krasnolud.
+@10029    = ~Keelor Krasnolud
 
-Po odzyskaniu przytomnoœci, krasnolud Keelor powiedzia³ mi, ¿e gnolle pojawiaj¹ siê w coraz wiêkszej liczbie na tym obszarze. Widz¹c, jak bardzo go poturbowa³y, nie mam w¹tpliwoœci, ¿e stanowi¹ olbrzymie zagro¿enie. W podziêce za pomoc, zaproponowa³ nam uzdrowicielskie us³ugi swojej siostry o imieniu Nasha, kap³anki mieszkaj¹cej w po³udniowej czêœci Wrót Baldura, gdybyœmy potrzebowali jej pomocy.~
+Po odzyskaniu przytomnoœci, krasnolud Keelor powiedzia³ nam, ¿e gnolle pojawiaj¹ siê w coraz wiêkszej liczbie na tym obszarze. Widz¹c, jak bardzo go poturbowa³y, nie mamy w¹tpliwoœci, ¿e stanowi¹ olbrzymie zagro¿enie. W podziêce za pomoc, zaproponowa³ nam uzdrowicielskie us³ugi swojej siostry o imieniu Nasha, kap³anki mieszkaj¹cej w po³udniowej czêœci Wrót Baldura, gdybyœmy potrzebowali jej pomocy.~
 //@6 from NTKOLDAR.tra 
-@10030    = ~Pola Umar³ych.
+@10030    = ~Pola Umar³ych
 
 Na pó³noc od Wrót Baldura spotkaliœmy samotnego ³owcê, Koldara, który ostrzeg³ nas przed orkami, które podobno ostatnio pojawi³y siê w tych stronach w wiêkszej liczbie. Podobno próbuj¹ odkryæ jak¹œ tajemnicê sanktuarium znajduj¹cego siê w tej okolicy.~
 // @10 from NTKRESTI.tra
-@10031    = ~Wyspa Syren.
+@10031    = ~Wyspa sirin
 
-Na "Rajskiej Wyspie" przebywa jeszcze jeden elf z za³ogi Baldurana. Ale najwyraŸniej tutejszy klimat i jego "przyjació³ki" s¹ teraz dla niego najwa¿niejsze...~
+Na „rajskiej wyspie” przebywa jeszcze jeden elf z za³ogi Baldurana, ale najwyraŸniej tutejszy klimat i jego „przyjació³ki” s¹ teraz dla niego najwa¿niejsze...~
 //@6 from NTKROTAN.tra 
-@10032    = ~Tajemnica Pó³nocnej Cytadeli.
+@10032    = ~Tajemnica Pó³nocnej Cytadeli
 
-W mauzoleum spotkaliœmy Krotana. Przygotowywa³ siê do przejêcia w³adzy nad cytadel¹. Stra¿ stanê³a po naszej stronie i rozpocz¹³ siê bój... Ostatecznie Krotan i jego "stronnicy" zginêli.~
+W mauzoleum spotkaliœmy Krotana. Przygotowywa³ siê do przejêcia w³adzy nad cytadel¹. Stra¿ stanê³a po naszej stronie i rozpocz¹³ siê bój... Ostatecznie Krotan i jego „stronnicy” zginêli.~
 //@2 from NTLENORE.tra 
-@10033    = ~Lenore i Montgomery.
+@10033    = ~Lenore i Montgomery
 
 W cytadeli spotkaliœmy Lenore, która jak siê wydaje z trudem znosi zaginiêcia. Szczególnie zale¿y jej na Montgomerym, który jest wœród zaginionych. Powinniœmy rozejrzeæ siê za nim i byæ mo¿e ukoiæ ¿al Lenore.~
 //@2 from NTLLINDE.tra #15731
-@10034    = ~Szczêœliwa strza³a Llindellyna.
+@10034    = ~Szczêœliwa strza³a Llindellyna
 
-Oto ja... Kolejny niedoœwiadczony poszukiwacz przygód, który t³ucze siê po krzaczorach w poszukiwaniu szczêœliwej strza³y dla nieznajomego. Nie znaczy to, ¿e nie uwa¿am Lindellyna za bardzo mi³ego... ale czy nie nasta³ czas na zabijanie Tarrasków albo im podobnych?~
+Oto my... kolejni niedoœwiadczeni poszukiwacze przygód, którzy t³ucz¹ siê po krzaczorach w poszukiwaniu szczêœliwej strza³y dla nieznajomego. Nie znaczy to, ¿e nie uwa¿amy Llindellyna za bardzo mi³ego... ale czy nie nasta³ czas na zabijanie Tarrasków albo im podobnych?~
 //@11 from NTLUCRET.tra 
-@10035    = ~Wyspa Syren.
+@10035    = ~Wyspa sirin
 
-Lucretia jest gotowa spêdziæ ze mn¹ kilka mi³ych chwil... Ale chce w zamian klejnotów... Czy kobiety kiedyœ zmieni¹ siê...?~
+Lucretia jest gotowa spêdziæ ze mn¹ kilka mi³ych chwil... ale chce w zamian klejnotów... Czy kobiety siê kiedyœ zmieni¹...?~
 //@3 of NTMAGDAD.tra (splitted in two: @10036 and @10106)
-@10036    = ~Uratuj dzieci Magnada i Winormy.
+@10036    = ~Uratuj dzieci Magnada i Winormy
 
 We Wrotach Baldura spotkaliœmy Magnada i Winormê, którzy zgubili dzieci, podczas podró¿y do Elthurel, po tym, jak karawanê napad³y orki. Magnad podejrzewa, ¿e orki uprowadzi³y dzieci na Pola Umar³ych, na pó³noc od Wrót Baldura, ale nie wie dok³adnie gdzie to jest.~
 //@18 of NTMEANDA.tra (split in two with @10087)
-@10037    = ~Zniszcz kult Czarnej D³oni.
+@10037    = ~Zniszcz kult Czarnej D³oni
 
-Meander, przywódca Lodowych Salamander nie piœnie nawet s³ówkiem o kluczu do zamkniêtego O³tarza znajduj¹cego siê w Pó³nocnej Cytadeli, dopóki nie zniszczymy kultu Czarnej D³oni. Gdybyœmy tylko wiedzieli gdzie szukaæ. Meander zasugerowa³ abyœmy odwiedzili Brodê Ulgotha i Pola Umar³ych. Mo¿liwe ¿e w³aœnie tam zdobêdziemy wiêcej informacji.~
+Meander, przywódca lodowych salamander, nie piœnie nawet s³ówkiem o kluczu do zamkniêtego o³tarza znajduj¹cego siê w Pó³nocnej Cytadeli, dopóki nie zniszczymy kultu Czarnej D³oni. Gdybyœmy tylko wiedzieli gdzie szukaæ. Meander zasugerowa³, abyœmy odwiedzili Brodê Ulgotha i Pola Umar³ych. Mo¿liwe, ¿e w³aœnie tam zdobêdziemy wiêcej informacji.~
 //@10 in NTMILEA.tra 
-@10038    = ~Wyspa Syren.
+@10038    = ~Wyspa sirin
 
-Mieszkaj¹ca na czarodziejskiej wyspie syrena Milea jest naprawdê mi³a, choæ wbrew temu co mówi, lubi mieæ wymagania... A to ma byæ wyspa mi³oœci!?~
+Mieszkaj¹ca na czarodziejskiej wyspie, sirina Milea jest naprawdê mi³a, choæ wbrew temu co mówi, lubi mieæ wymagania... To ma byæ wyspa mi³oœci!?~
 //@2 of NTNADALI.tra 
-@10039    = ~Pozbyæ siê ognistych salamander.
+@10039    = ~Pozbyæ siê ognistych salamander
 
-Spotkaliœmy we Wrotach Baldura przyjaznego rybaka o imieniu Nadalin. Wygl¹da na to, ¿e tam, gdzie mieszka, na pó³nocy dziej¹ siê dziwne rzeczy. Trzeba siê temu przyjrzeæ, gdy bêdê w okolicy...~
+Spotkaliœmy we Wrotach Baldura przyjaznego rybaka o imieniu Nadalin. Wygl¹da na to, ¿e tam, gdzie mieszka, na pó³nocy dziej¹ siê dziwne rzeczy zwi¹zane z „ognistymi bestiami” i sirinami. Trzeba siê temu przyjrzeæ, gdy bêdê w okolicy...~
 //@5 of NTNADALI.tra (added content)
-@10040   = ~Pozbyæ siê ognistych salamander.  
+@10040   = ~Pozbyæ siê ognistych salamander
 
-OdnaleŸliœmy rybaka i ¿eglarza - Nadalina. Teraz mo¿e wróciæ w swoje rodzinne strony. Nadalin powiedzia³, ¿e mo¿e nas zabraæ swoj¹ ³odzi¹ jeœli tego potrzebujemy.~
-@10041   = ~Problem na Pó³nocnym Wybrze¿u.~
+OdnaleŸliœmy rybaka i ¿eglarza – Nadalina. Teraz mo¿e wróciæ w swoje rodzinne strony. Nadalin powiedzia³, ¿e mo¿e nas zabraæ swoj¹ ³odzi¹, jeœli tego potrzebujemy.~
+@10041   = ~Problem na pó³nocnym wybrze¿u~
 //@1 of NTNIMFUR.tra #15715
-@10042    = ~Ogary myœliwskie Nima Furlwinga.
+@10042    = ~Ogary myœliwskie Nima Furlwinga
 
 Wyszliœmy dzisiaj na g³upców, a nie doœwiadczonych poszukiwaczy przygód. Wygl¹da na to, ¿e przybyliœmy zbyt póŸno i zrobiliœmy za ma³o, by uratowaæ wspania³e psy myœliwskie Nima Furlwinga w Lesie Ostrych K³ów.~
 //@4 of NTNIMFUR.tra
-@10043   = ~Ogary myœliwskie Nima Furlwinga.
+@10043   = ~Ogary myœliwskie Nima Furlwinga
 
 Las Ostrych K³ów! W dniu dzisiejszym uratowaliœmy psy czystej krwi Nima Furlwinga przed wilkami i muszê przyznaæ, ¿e trochê nam siê od nich dosta³o.~
 // @2 of NTOLIVIA.tra #15792
-@10044   = ~Olivia i Mewy.
+@10044   = ~Olivia i mewy
 
 Druidka Olivia, w swej nadmorskiej siedzibie, wypowiada s³owa tak, jak inni wypowiadaj¹ zaklêcia. Chce ona pewnego dnia staæ siê mew¹ i lataæ poœród innych mew. Jest to piêkne marzenie, i jeœli bêdziemy mogli je spe³niæ, na pewno to uczynimy, choæby po to, by byæ œwiadkami jej lotu...~
 // @4 of NTOLIVIA.tra #15792
-@10045   = ~Olivia i Mewy.
+@10045   = ~Olivia i mewy
 
 ZnaleŸliœmy sposób, by marzenia druidki Olivii siê spe³ni³y i jakie by³o nasze zdziwienie, gdy poznaliœmy prawdziw¹ naturê tej kobiety...~
-@10046   = ~Olivia i Mewy.~
-@10047    = ~Ogary myœliwskie Nima Furlwinga.~
+@10046   = ~Olivia i mewy~
+@10047   = ~Ogary myœliwskie Nima Furlwinga~
 //@10 of NTORDOL.tra
-@10048   = ~Œwieca Ordolatha.
+@10048   = ~Œwieca Ordolatha
 
-Dziwny jegomoœæ imieniem Ordolath, którego spotkaliœmy w dziczy, na zachód od Naskhel zaproponowa³ 2000 sztuk z³ota oraz jak¹œ b³yskotkê za przyniesienie mu œwiecy z Wrót Baldura. Jego bia³y dom znajduje siê za niebiesk¹ wie¿¹ w pó³nocnej czêœci miasta.~
+Dziwny jegomoœæ imieniem Ordolath, którego spotkaliœmy w dziczy na po³udnie od Naskhel, zaproponowa³ dwa tysi¹ce sztuk z³ota oraz jak¹œ b³yskotkê za przyniesienie mu œwiecy z Wrót Baldura. Jego bia³y dom znajduje siê za niebiesk¹ wie¿¹ w pó³nocnej czêœci miasta.~
 //@20 of NTORDOL.tra
-@10049   = ~Œwieca Ordolatha.
+@10049   = ~Œwieca Ordolatha
 
-Dostarczyliœmy Ordolathowi œwiece, o któr¹ nas prosi³. W zamian ofiarowa³ nam ró¿d¿kê ze swojej osobistej kolekcji. Wygl¹da na to, ¿e zapomnia³ jednak o 2000 sztuk z³ota, które nam obieca³. Trzeba bêdzie mu to uœwiadomiæ, jeœli nasze drogi skrzy¿uj¹ siê ponownie.~
+Dostarczyliœmy Ordolathowi œwiece, o któr¹ nas prosi³. W zamian ofiarowa³ nam ró¿d¿kê ze swojej osobistej kolekcji. Wygl¹da na to, ¿e zapomnia³ jednak o dwóch tysi¹cach sztuk z³ota, które nam obieca³. Trzeba bêdzie mu to uœwiadomiæ, jeœli nasze drogi skrzy¿uj¹ siê ponownie.~
 //@22 of NTORDOL.tra
-@10050   = ~Œwieca Ordolatha.
+@10050   = ~Œwieca Ordolatha
 
 Œwieca przyniesiona, nagroda otrzymana, tylko ch³opina coœ siê szybko uwin¹³. Œpieszmy siê poznawaæ ludzi, tak szybko odchodz¹...~
-@10051   = ~Œwieca Ordolatha.~
+@10051   = ~Œwieca Ordolatha~
 //@13 from NTOUPAST.tra (content added) 
-@10052   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10052   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
-Oupaste nie by³ zbyt pomocny ale powiedzia³, ¿e czarodziej, któremu sprzeda³ ksiêgê, mieszka w okolicy Chmurnych Szczytów. By³em tam wczeœniej ale zdaje siê, ¿e bêdê musia³ wróciæ tam ponownie.~
+Oupaste nie by³ zbyt pomocny, ale powiedzia³, ¿e czarodziej, któremu sprzeda³ ksiêgê, mieszka w okolicy Chmurnych Szczytów. By³em tam wczeœniej ale zdaje siê, ¿e bêdê musia³ wróciæ tam ponownie.~
 //@6 from NTPANDRI.tra (splitted into several: @10053, @10097, @10098)
-@10053  = ~Uratuj Pandrisa przed orkami.
+@10053  = ~Uratuj Pandrisa przed orkami
 
-Uratowaliœmy Pandrisa, mê¿a Yness, przed orkami na Polach Umar³ych. Wrêczy³ nam list dla swojej ¿ony. Teraz ju¿ nie jestem tylko obroñc¹ ¿ycia, ale równie¿ pos³añcem nios¹cym dobr¹ nowinê.~
+Uratowaliœmy Pandrisa, mê¿a Yness, przed orkami na Polach Umar³ych. Wrêczy³ nam list dla swojej ¿ony. Teraz ju¿ nie jesteœmy tylko obroñcami ¿ycia, ale równie¿ pos³añcami nios¹cymi dobr¹ nowinê.~
 //@7 from NTPAULIA.tra 
-@10054  = ~Wyspa Syren.
+@10054  = ~Wyspa sirin
 
-Syrena o imieniu Paulia lubi winogrona... Kto ich nie lubi, o ile s¹ œwie¿e i s³odkie?~
+Sirina o imieniu Paulia lubi winogrona... Kto ich nie lubi, o ile s¹ œwie¿e i s³odkie?~
 //@2 from NTPILAR.tra 
-@10055   = ~Pilar i Gheldehar.
+@10055   = ~Pilar i Gheldehar
 
-Gdy siedzieliœmy przy piwie w gospodzie "Pod Pomocn¹ D³oni¹", pó³-elfka Pilar ostrzeg³a nas przed Gheldeharem, starym gnomim kap³anie z Wrót Baldura. Powiedzia³a nam, ¿e ma on jej stary pierœcieñ i gdyby uda³o nam siê go odzyskaæ, na pewno tego nie po¿a³ujemy.~
-@10056  = ~Pilar i Gheldehar.~
+Gdy siedzieliœmy przy piwie w gospodzie „Pod Pomocn¹ D³oni¹”, pó³elfka Pilar ostrzeg³a nas przed Gheldeharem, starym gnomim kap³anie z Wrót Baldura. Powiedzia³a nam, ¿e ma on jej stary pierœcieñ i gdyby uda³o nam siê go odzyskaæ, na pewno tego nie po¿a³ujemy.~
+@10056  = ~Pilar i Gheldehar~
 //@5 from NTPRIHEL.tra 
-@10057  = ~Zamkniêty o³tarz Helma.
+@10057  = ~Zamkniêty o³tarz Helma
 
 W cytadeli jest zamkniêty o³tarz. To interesuj¹ce... Podobno Avery wie coœ na ten temat. Trzeba przy okazji spytaæ go o to...~
 //@7 from NTREDEDG.dlg #7120
-@10058 = ~Od czasu, jak Angelo zosta³ dowódc¹ P³omiennej Piêœci gildia z³odziei prze¿ywa ciê¿kie chwile.~
-//@1 from NTREEDRI.dlg 
-@10059    = ~Zniszcz kult Czarnej D³oni.
+@10058 = ~Gildia Z³odziei
 
-W pobli¿u obozu orków na pó³nocy, w jednej z jaskiñ, natknêliœmy siê na mnicha, którego najwyraŸniej orki zamierza³y zamêczyæ. By³ tak wdziêczny, ¿e obieca³ nam zap³aciæ i ulotni³ siê szybko, bo jak twierdzi³, pod¹¿a³ z misj¹ do Brody Ulgotha. Ciekawe dlaczego orkom tak na nim zale¿a³o, bedziemy musieli zbadaæ t¹ sprawê dok³adniej jak wrócimy do Brody Ulgotha.~
+Od momentu gdy Angelo zosta³ dowódc¹ P³omiennej Piêœci, Gildia Z³odziei prze¿ywa ciê¿kie chwile.~
+//@1 from NTREEDRI.dlg 
+@10059    = ~Zniszcz kult Czarnej D³oni
+
+W pobli¿u obozu orków na pó³nocy, w jednej z jaskiñ, natknêliœmy siê na mnicha, którego najwyraŸniej orki zamierza³y zamêczyæ. By³ tak wdziêczny, ¿e obieca³ nam zap³aciæ i ulotni³ siê szybko, bo jak twierdzi³, pod¹¿a³ z misj¹ do Brody Ulgotha. Ciekawe dlaczego orkom tak na nim zale¿a³o, bedziemy musieli zbadaæ tê sprawê dok³adniej, jak wrócimy do Brody Ulgotha.~
 //@11 from NTSATOS.dlg 
-@10060   = ~Tajemnica Pó³nocnej Cytadeli.
+@10060   = ~Tajemnica Pó³nocnej Cytadeli
 
 W Pó³nocnej Cytadeli powo³ano nowego opata, po tym jak znikn¹³ jego poprzednik wraz z siedmioma innymi ludŸmi. Jak siê okaza³o, przyby³a tu tak¿e trzyosobowa grupa z Wrót Baldura, która ma nam pomóc w dochodzeniu, ale wygl¹da na to, ¿e maj¹ w³asne plany...~
 //@14 from NTSATOS.dlg 
-@10061   = ~Tajemnica Pó³nocnej Cytadeli.
+@10061   = ~Tajemnica Pó³nocnej Cytadeli
 
-A wiêc tak¿e opat Satos zosta³ zabity, zanim zdo³aliœmy przeszkodziæ temu Krotanowi. Satos da³ nam klucz do mauzoleum. Czas na ostateczn¹ próbê si³.~
+A wiêc tak¿e opat Satos zosta³ zabity, zanim zdo³aliœmy przeszkodziæ temu kto to zrobi³. Satos da³ nam klucz do mauzoleum. Czas na ostateczn¹ próbê si³.~
 //@33 from NTSHAELL.dlg 
-@10062   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10062   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
 Shaella, wyj¹tkowo interesuj¹ca kap³anka Leiry, wys³a³a mnie na pielgrzymkê do Candlekeep, gdzie znajduje siê Wielka Ksiêga Niewiedzy. Przeczytanie tej ksiêgi, ba, nawet samo dotkniêcie, obdarza nieporównywaln¹ niewiedz¹. Gdy j¹ odnajdê, jeszcze raz porozmawiam z kap³ank¹.~
 //@45 from NTSHAELL.dlg 
-@10063   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10063   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
-Shaella, albo raczej teraz Elnaedra, mówi, ¿e znalaz³em ksiêgê nawet jeœli jej nie znalaz³em. Co to znaczy?~
+Shaella, albo raczej teraz Elnaedra, mówi, ¿e znaleŸliœmy ksiêgê nawet jeœli jej nie znaleŸliœmy. Co to znaczy?~
 //@3 from NTSVLAST.dlg // #15713 
-@10064   = ~Duch drêcz¹cy Svlasta.
+@10064   = ~Duch drêcz¹cy Svlasta
 
-Byliœmy œwiadkami smutnych wydarzeñ w ruinach Firewine. By³y paladyn o imieniu Svlast jest przeœladowany przez ducha, jego brata w wierze, którego niesprawiedliwie zabi³. Nigdy przedtem nie dane mi by³o widzieæ kogoœ bardziej przygnêbionego i skruszonego, ni¿ biedny Svlast. B³aga³ nas, abyœmy siê nie wtr¹cali, ale trudno by³o mi siê z tym pogodziæ...~
+Byliœmy œwiadkami smutnych wydarzeñ w ruinach Firewine. By³y paladyn o imieniu Svlast jest przeœladowany przez ducha, jego brata w wierze, którego niesprawiedliwie zabi³. Nigdy przedtem nie dane nam by³o widzieæ kogoœ bardziej przygnêbionego i skruszonego, ni¿ biedny Svlast. B³aga³ nas, abyœmy siê nie wtr¹cali, ale trudno by³o mi siê z tym pogodziæ...~
 //@5 from NTSVLAST.dlg // #15703
-@10065   = ~Duch drêcz¹cy Svlasta.
+@10065   = ~Duch drêcz¹cy Svlasta
 
 Prze¿ywszy dziêki naszej pomocy atak upiora, nieszczêœliwy Svlast b³aga³, abyœmy dokoñczyli jego zadanie... Dzieñ wydaje siê byæ posêpny wewn¹trz tych ruin i bojê siê, ¿e bêdzie jeszcze posêpniejszy.~
-@10066   = ~Duch drêcz¹cy Svlasta.~
+@10066   = ~Duch drêcz¹cy Svlasta~
 //@1 from NTSZYPER.dlg (changed content)
-@10067   = ~Problem na Pó³nocnym Wybrze¿u.
+@10067   = ~Problem na pó³nocnym wybrze¿u
 
 Wzd³u¿ pó³nocnego wybrze¿a ¿yje ma³a spo³ecznoœæ rybacka. Wygl¹da na to, ¿e obawiaj¹ siê czegoœ, co zalêg³o siê na pó³noc od ich wioski.~
 //parts from @18 from NTSZYPER.dlg 
-@10068   = ~Problem na Pó³nocnym Wybrze¿u.
+@10068   = ~Problem na pó³nocnym wybrze¿u
 
-Rozwi¹zaliœmy problem z Sirinami i Ognistymi Salamandrami, które nêka³y rybaków z Pó³nocnego Wybrze¿a.~
+Rozwi¹zaliœmy problem z sirinami i ognistymi salamandrami, które nêka³y rybaków z pó³nocnego wybrze¿a.~
 //parts from @18 from NTSZYPER.dlg 
-@10069   = ~Symbol Helma.
+@10069   = ~Symbol Helma
 
-Starszy wioski powiedzia³ nam, ¿e wyspa, której szukamy, znajduje siê niedaleko. Wspomnia³ równie¿, ¿e jedyn¹ osob¹ znaj¹c¹ drogê jest rybak imieniem Nadalin. Problem w tym, ¿e gdy tylko rozpoczê³y siê k³opoty, uciek³ do Wrót Baldura. Zamierzamy go odnaleŸæ~
+Starszy wioski powiedzia³ nam, ¿e wyspa, której szukamy, znajduje siê niedaleko. Wspomnia³ równie¿, ¿e jedyn¹ osob¹ znaj¹c¹ drogê jest rybak imieniem Nadalin. Problem w tym, ¿e gdy tylko rozpoczê³y siê k³opoty, uciek³ do Wrót Baldura. Zamierzamy go odnaleŸæ.~
 // @1 from NTTAMASS.dlg 
-@10070   = ~Wyspa Syren.
+@10070   = ~Wyspa sirin
 
-Wracaj¹c z wyspy wilko³aków, zatrzymaliœmy siê na przyjaŸnie wygl¹daj¹cej wysepce, by uzupe³niæ zapasy, czego nie mo¿na by³o uczyniæ poprzednio, opuszczaj¹c j¹ w poœpiechu. Na brzegu przywita³y nas niezwykle uprzejme syreny, które zamieszkuj¹ tê wyspê. Pewnie pozostaniemy tu przez jakiœ czas...~
+Wracaj¹c z wyspy wilko³aków, zatrzymaliœmy siê na przyjaŸnie wygl¹daj¹cej wysepce, by uzupe³niæ zapasy, czego nie mo¿na by³o uczyniæ poprzednio, opuszczaj¹c j¹ w poœpiechu. Na brzegu przywita³y nas niezwykle uprzejme siriny, które zamieszkuj¹ tê wyspê. Pewnie pozostaniemy tu przez jakiœ czas...~
 // @18 from NTTORDIO.dlg 
-@10071   = ~Zjawa z jaskini Beregostu.
+@10071   = ~Zjawa z jaskini Beregostu
 
-W jaskini, na wschód od Œwi¹tyni Pieœni Poranka, "urzêduje" zjawa... albo zjawy... Coœ opowiada o zemœcie wampirów... Potrzebuje Wampirycznego Miecza i œwiêconej wody, albo prawdziwych twardzieli, którzy wyœl¹ j¹ w zaœwiaty... Zobaczymy, co da siê zrobiæ...~
+W jaskini, na wschód od Œwi¹tyni Pieœni Poranka, „urzêduje” zjawa... albo zjawy... Coœ opowiada o zemœcie wampirów... Potrzebuje Wampirycznego Miecza i œwiêconej wody, albo prawdziwych twardzieli, którzy wyœl¹ j¹ w zaœwiaty... Zobaczymy, co da siê zrobiæ...~
 // @24 from NTTORDIO.dlg
-@10072   = ~Zjawa z jaskini Beregostu.
+@10072   = ~Zjawa z jaskini Beregostu
 
-Zjawa z pod Beregostu dosta³a potrzebne jej przedmioty i nareszcie posz³a... posz³y sobie... Czas zajrzeæ do jej komnaty!~
-@10073   = ~Zjawa z jaskini Beregostu.~
+Zjawa spod Beregostu dosta³a potrzebne jej przedmioty i nareszcie posz³a... posz³y sobie... Czas zajrzeæ do jej komnaty!~
+@10073   = ~Zjawa z jaskini Beregostu~
 // @2 from NTWELT.dlg #15741
-@10074   = ~Szczury dla Poocha.
+@10074   = ~Szczury dla Poocha
 
 Welt, cz³owiek ze slumsów Wrót Baldura, który doprowadzi³ do perfekcji sztukê pos³ugiwania siê monosylabami i wygl¹da, a nawet œmierdzi, jak ogr, poprosi³, byœmy schwytali kilka szczurów dla jego psa Poocha. Bêdziemy musieli to zrobiæ, gdy¿ nie wygl¹da, jak ktoœ komu mo¿na by odmówiæ...~
 // @1 from WENRIC.tra 
-@10075   = ~Pola Umar³ych.
+@10075   = ~Pola Umar³ych
 
 Farmer z pó³nocy, opowiedzia³ nam o niezwyk³ej aktywnoœci orków w tej okolicy. Porywaj¹ nawet tutejszych ludzi, co potwierdza wiadomoœci, które uzyskaliœmy we Wrotach Baldura. Trzeba to zbadaæ przy najbli¿szej okazji.~
 // @10 from NTYNESS.tra
-@10076   = ~Uratuj Pandrisa przed orkami.
+@10076   = ~Uratuj Pandrisa przed orkami
 
-Ruszamy na ratunek Pandrisowi - farmerowi z okolic Wrót Baldura, który wpad³ w rêce orków z Pól Umar³ych. Ostatnio g³oœno o nich. Ciekawe, co knuj¹.~
+Ruszamy na ratunek Pandrisowi, farmerowi z okolic Wrót Baldura, który wpad³ w rêce orków z Pól Umar³ych. Ostatnio g³oœno o nich. Ciekawe, co knuj¹.~
 // @16 from NTYNESS.tra
-@10077   = ~Uratuj Pandrisa przed orkami.
+@10077   = ~Uratuj Pandrisa przed orkami
 
-Przynieœliœmy Yness list od jej mê¿a, którego uratowaliœmy przed orkami. By³a bardzo szczêœliwa, lecz nie mia³a pieniêdzy by nam zap³aciæ.~
-@10078   = ~Uratuj Pandrisa przed orkami.~
+Przynieœliœmy Yness list od jej mê¿a, którego uratowaliœmy przed orkami. By³a bardzo szczêœliwa, lecz nie mia³a pieniêdzy, by nam zap³aciæ.~
+@10078   = ~Uratuj Pandrisa przed orkami~
 // @26 from WILL.tra 
-@10079   = ~Will O'Hara.
+@10079   = ~Will O'Hara
 
-W Beregost spotka³em niezwyk³ego m³odzieñca, Willa Szkar³atnego. Postanowi³em zabraæ go ze sob¹, przyda siê ktoœ pe³en werwy i z rzadkimi umiejêtnoœciami.~
+W Beregost spotkaliœmy niezwyk³ego m³odzieñca, Willa Szkar³atnego. Postanowiliœmy zabraæ go ze sob¹, przyda siê ktoœ pe³en werwy i z rzadkimi umiejêtnoœciami.~
 // @37 from WILL.tra
-@10080   = ~Will O'Hara.
+@10080   = ~Will O'Hara
 
-Will zastawi³ cep u Feldeposta za 1000 sztuk z³ota. Przy okazji trzeba go odzyskaæ. Zamówi³ te¿ nowy pancerz u Taeroma "Grzmi¹cego M³ota. Jeœli starczy gotówki, mo¿na go bêdzie odebraæ za... 5000 sztuk z³ota! Nasz "drogi" przyjaciel ma zachcianki...~
-@10081   = ~Will O'Hara.~
-@10082   = ~Pola Umar³ych.~
-@10083   = ~Wyspa Syren.~
-@10084   = ~Zniszcz kult Czarnej D³oni.~
-@10085   = ~Zniszcz kult Czarnej D³oni.
+Will zastawi³ swój cep u Feldeposta za tysi¹c sztuk z³ota. Przy okazji trzeba go odzyskaæ. Zamówi³ te¿ nowy pancerz u Taeroma „Grzmi¹cego M³ota”. Jeœli starczy gotówki, mo¿na go bêdzie odebraæ za... piêæ tysiêcy sztuk z³ota! Nasz „drogi” przyjaciel ma zachcianki...~
+@10081   = ~Will O'Hara~
+@10082   = ~Pola Umar³ych~
+@10083   = ~Wyspa sirin~
+@10084   = ~Zniszcz kult Czarnej D³oni~
+@10085   = ~Zniszcz kult Czarnej D³oni
 
 Reedrig powiedzia³, ¿e kult Czarnej D³oni mo¿e byæ znaleziony na pó³nocnym-wschodzie Lasu Ostrych K³ów.~
-@10086   = ~Symbol Helma.~
+@10086   = ~Symbol Helma~
 //@18 of NTMEANDA.tra (split in two with @10037)
-@10087    = ~Symbol Helma.
+@10087    = ~Symbol Helma
 
-Meander, przywódca Lodowych Salamander nie piœnie nawet s³ówkiem o kluczu do zamkniêtego O³tarza znajduj¹cego siê w Pó³nocnej Cytadeli, dopóki nie zniszczymy kultu Czarnej D³oni i nie zabiejmy przywódcy kultu.~
-@10088    = ~Symbol Helma.
+Meander, przywódca lodowych salamander nie piœnie nawet s³ówkiem o kluczu do zamkniêtego o³tarza znajduj¹cego siê w Pó³nocnej Cytadeli, dopóki nie zniszczymy kultu Czarnej D³oni i nie zabijemy przywódcy kultu.~
+@10088    = ~Symbol Helma
 
 Otrzymaliœmy od Meandera, przywódcy lodowych salamander, klucz do zamkniêtego o³tarza w Pó³nocnej Cytadeli.~
-@10089    = ~Symbol Helma.
+@10089    = ~Symbol Helma
 
 Zabraliœmy Symbol Helma prosto z o³tarza w Pó³nocnej Cytadeli.~
 // similar to @10069 (if Nadalin already returned home)
-@10090   = ~Symbol Helma.
+@10090   = ~Symbol Helma
 
-Starszy wioski z Pó³nocnego Wybrze¿a powiedzia³ nam, ¿e wyspa, której szukamy, znajduje siê niedaleko. Wspomnia³ równie¿, ¿e jedyn¹ osob¹ znaj¹c¹ drogê jest rybak imieniem Nadalin.~
-@10091   = ~Symbol Helma.
+Starszy wioski, znajduj¹cej siê na pó³nocy Wybrze¿a Mieczy, powiedzia³ nam, ¿e wyspa, której szukamy, znajduje siê niedaleko. Wspomnia³ równie¿, ¿e jedyn¹ osob¹ znaj¹c¹ drogê jest rybak imieniem Nadalin.~
+@10091   = ~Symbol Helma
 
-Nadalin, rybak z Pó³nocnego Wybrze¿a, wróci³ na swoj¹ ³ódŸ i jest gotowy, ¿eby zabraæ nas do innych miejsc jeœli tego chcemy.~
-@10092   = ~Demony Tanar'ri w okolicy Chmurnych Szczytów.~
-@10093   = ~Demony Tanar'ri w okolicy Chmurnych Szczytów.
+Nadalin, rybak z wioski le¿¹cej na pó³nocnym wybrze¿u, wróci³ na swoj¹ ³ódŸ i jest gotowy, ¿eby zabraæ nas do innych miejsc, jeœli tego chcemy.~
+@10092   = ~Demony tanar'ri w okolicy Chmurnych Szczytów~
+@10093   = ~Demony tanar'ri w okolicy Chmurnych Szczytów
 
-Spotka³em kilka Tanar'ri w podziemiach Chmurnych Szczytów, które zaoferowa³y pokojowy powrót do swoich sfer domowych jeœli przyniosê im cia³o maga, który ich przywo³a³. Wspomnia³y kogoœ o imieniu Haeball, z którym mo¿e powinienem porozmawiaæ.~
-@10094   = ~Demony Tanar'ri w okolicy Chmurnych Szczytów.
+Spotkaliœmy kilka tanar'ri w podziemiach Chmurnych Szczytów, które zaoferowa³y pokojowy powrót do swoich sfer domowych, jeœli przyniesiemy im cia³o maga, który ich przywo³a³. Wspomnia³y kogoœ o imieniu Haeball, z którym mo¿e powinniœmy porozmawiaæ.~
+@10094   = ~Demony tanar'ri w okolicy Chmurnych Szczytów
 
-Mo¿e nie powinienem by³ pytaæ - teraz Tanar'ri domagaj¹ siê ³uku kapitana Fey'docha...~
-@10095   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+Mo¿e nie nie trzeba by³o pytaæ... Teraz tanar'ri domagaj¹ siê ³uku kapitana Fey'docha...~
+@10095   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
-Znalaz³em Wielk¹ Ksiêgê Niewiedzy! Tak myœlê...~
-@10096   = ~Pozbyæ siê ognistych salamander.~
+ZnaleŸliœmy Wielk¹ Ksiêgê Niewiedzy! Tak myœlê...~
+@10096   = ~Pozbyæ siê ognistych salamander~
 //@6 from NTPANDRI.tra (splitted into several: @10053, @10097, @10098)
-@10097   = ~Uratuj dzieci Magnada i Winormy.
+@10097   = ~Uratuj dzieci Magnada i Winormy
 
 Uratowaliœmy dzieci Magnada i Winormy przed orkami. Mog¹ one teraz wróciæ do swoich rodziców.~
 @10098   = ~Pola Umar³ych.
 
-Pandris opowiedzia³ nam o konflikcie orków z jakimiœ okultystami w tym rejonie. Równie¿ wspomnia³ o tym, ¿e orkowie próbuj¹ za wszelka cenê dostaæ siê do pewnej kaplicy, albo grobowca, znajduj¹cego siê w Lesie Umar³ych. Powinniœmy to sprawdziæ.~
-@10099   = ~Uratuj dzieci Magnada i Winormy.~
-@10100   = ~Duch drêcz¹cy Svlasta.
+Pandris opowiedzia³ nam o konflikcie orków z jakimiœ okultystami w tym rejonie. Równie¿ wspomnia³ o tym, ¿e orkowie próbuj¹ za wszelka cenê dostaæ siê do pewnej kaplicy albo grobowca znajduj¹cego siê w Lesie Umar³ych. Powinniœmy to sprawdziæ.~
+@10099   = ~Uratuj dzieci Magnada i Winormy~
+@10100   = ~Duch drêcz¹cy Svlasta
 
-Zdecydowa³em zakoñczyæ udrêkê Svalsta, tak jak chcia³.~
-@10101   = ~Duch drêcz¹cy Svlasta.
+Zdecydowaliœmy zakoñczyæ udrêkê Svalsta, tak jak chcia³.~ 
+@10101   = ~Duch drêcz¹cy Svlasta
 
-Nie mog³em po prostu zabiæ tego udrêczonego mê¿czyzny. Odszed³, prawdopodobnie, aby zadoœæuczyniæ za swoje grzechy.~
-@10102   = ~Zniszcz kult Czarnej D³oni.
+Nie mogliœmy po prostu zabiæ tego udrêczonego mê¿czyzny. Odszed³, prawdopodobnie, aby zadoœæuczyniæ za swoje grzechy.~
+@10102   = ~Zniszcz kult Czarnej D³oni
 
 Zniszczyliœmy kult Czarnej D³oni!~
 //@13 from NTOUPAST.tra (content added) (similar to @10052 if PC already visited the Cloud Peak)
-@10103   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10103   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
-Oupaste nie by³ zbyt pomocny ale powiedzia³, ¿e czarodziej, któremu sprzeda³ ksiêgê, mieszka w okolicy Chmurnych Szczytów. Zdaje mi siê, ¿e znalaz³em ju¿ to przejœcie, o którym mówi³ i jest ono osi¹galne z po³udniowego skrawka ziemi pomiêdzy dwoma ma³ymi strumieniami.~
-@10104   = ~Zniszcz kult Czarnej D³oni.
+Oupaste nie by³ zbyt pomocny, ale powiedzia³, ¿e czarodziej, któremu sprzeda³ ksiêgê, mieszka w okolicy Chmurnych Szczytów. Zdaje nam siê, ¿e znalaŸliœmy ju¿ to przejœcie, o którym mówi³ i jest ono osi¹galne z po³udniowego skrawka ziemi pomiêdzy dwoma ma³ymi strumieniami.~
+@10104   = ~Zniszcz kult Czarnej D³oni
 
 Wygl¹da na to, ¿e kult Czarnej D³oni mo¿na znaleŸæ na pó³nocnym-wschodzie Lasu Ostrych K³ów.~
 // similar to @10032 with content added
-@10105    = ~Tajemnica Pó³nocnej Cytadeli.
+@10105    = ~Tajemnica Pó³nocnej Cytadeli
 
-W mauzoleum spotkaliœmy Krotana. Przygotowywa³ siê do przejêcia w³adzy nad cytadel¹. Stra¿ stanê³a po naszej stronie i rozpocz¹³ siê bój... Ostatecznie Krotan i jego "stronnicy" zginêli, jak równie¿ wszyscy mnisi... ups... Myœlê, ¿e ksi¹¿e Eltan nie bêdzie zadowolony. Ale hej! Nie ma nikogo kto by zosta³ i powiedzia³ jemu co tak naprawdê zasz³o, prawda?~
-@10106    = ~Uratuj dzieci Magnada i Winormy.
+W mauzoleum spotkaliœmy Krotana. Przygotowywa³ siê do przejêcia w³adzy nad cytadel¹. Stra¿ stanê³a po naszej stronie i rozpocz¹³ siê bój... Ostatecznie Krotan i jego „stronnicy” zginêli, jak równie¿ wszyscy mnisi... ups... Myœlê, ¿e ksi¹¿ê Eltan nie bêdzie zadowolony. Ale hej! Nie ma nikogo kto by zosta³ i powiedzia³ jemu co tak naprawdê zasz³o, prawda?~
+@10106    = ~Uratuj dzieci Magnada i Winormy
 
 Magnad nie zna dok³adnej lokalizacji Pól Umar³ych. Zasugerowa³, abyœmy wybrali siê do Brody Ulgotha i poszukali kogoœ, kto móg³by wiedzieæ jak tam sie dostaæ.~
-@10107    = ~Uratuj dzieci Magnada i Winormy.
+@10107    = ~Uratuj dzieci Magnada i Winormy
 
-My... "uratowaliœmy" rodzinê Magnada przed orkami. Dlaczego ludzie s¹ tacy wybredni!~
-@10108   = ~Uratuj Pandrisa przed orkami.
+My... „uratowaliœmy” rodzinê Magnada przed orkami. Dlaczego ludzie s¹ tacy wybredni!~
+@10108   = ~Uratuj Pandrisa przed orkami
 
-Przynieœliœmy Yness wiadomoœæ od jej mê¿a, którego my... emm, "uratowaliœmy" przed orkami. Ah, podnios³o to nas na duchu, ¿e mo¿emy pomóc.~
+Przynieœliœmy Yness wiadomoœæ od jej mê¿a, którego my... emm, „uratowaliœmy” przed orkami. Ach, podnios³o to nas na duchu, ¿e mo¿emy pomóc.~
 // same as @10063
-@10109   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy.
+@10109   = ~ZnajdŸ Wielk¹ Ksiêgê Niewiedzy
 
-Shaella, albo raczej teraz Elnaedra, mówi, ¿e znalaz³em ksiêgê nawet jeœli jej nie znalaz³em. Co to znaczy?~
+Shaella, albo raczej teraz Elnaedra, mówi, ¿e znaleŸliœmy ksiêgê nawet jeœli jej nie znaleŸliœmy. Co to znaczy?~
 
 /* new for version 3.0.0 */
-@10110 = ~Lochy pod mostem Firewine.
+@10110 = ~Lochy pod mostem Firewine
 
 Podziemia pod mostem Firewine zosta³y oczyszczone.~
-@10111 = ~Lochy pod mostem Firewine.~
+@10111 = ~Lochy pod mostem Firewine~

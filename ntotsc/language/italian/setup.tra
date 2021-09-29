@@ -1346,3 +1346,21 @@ Non utilizzabile da:
 
 /* new in v4.0.0 */
 @55133 = ~Meno mostri a seconda della difficoltà del gioco~
+
+/* new in v5.0.0 */
+@55134 = ~Piastre d'Ombra +1~
+@55135 = ~A candle is an ignitable wick embedded in wax, or another flammable solid substance such as tallow. Candles are common source of light.
+
+STATISTICS:
+
+Weight: 1~
+@55136 = ~This is a dead rat's body. It looks like this rat had often been visiting sewers, because it stinks.
+
+STATISTICS:
+
+Weight: 3~
+@55137 = ~Good quality iron from the mine.
+
+STATISTICS:
+
+Weight: 1~

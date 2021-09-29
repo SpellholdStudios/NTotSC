@@ -616,7 +616,7 @@ Dauer: 60 Sekunden~
 EIGENSCHAFTEN:
 
 80% Chance, dass der Nutzer berauscht wird (Dauer:30 Minuten)
-Heilt 35 Trefferpunkte~ 
+Heilt 35 Trefferpunkte~
 @151 = ~Wills Magischer Ring~
 @153 = ~Will möchte nichts über den Ursprung des Rings erzählen, aber er verfügt über ungewöhnliche Fähigkeiten und wurde wahrscheinlich von einem Freund von Will für ihn verzaubert.
 
@@ -1210,6 +1210,7 @@ D.~
 EIGENSCHAFTEN:
 
 Erhöht die Stärke des Trägers auf 19
+Gewicht: 2
 Nur verwendbar von:
   Kämpfer 
   Waldläufer 
@@ -1330,3 +1331,21 @@ Kann nur verwendet werden von:
 
 /* new in v4.0.0 */
 @55133 = ~Weniger Monster in Abhaengigkeit vom Schweregrad des Spiels~
+
+/* new in v5.0.0 */
+@55134 = ~Schattierte Plattenrüstung +1~
+@55135 = ~A candle is an ignitable wick embedded in wax, or another flammable solid substance such as tallow. Candles are common source of light.
+
+STATISTICS:
+
+Weight: 1~
+@55136 = ~This is a dead rat's body. It looks like this rat had often been visiting sewers, because it stinks.
+
+STATISTICS:
+
+Weight: 3~
+@55137 = ~Good quality iron from the mine.
+
+STATISTICS:
+
+Weight: 1~

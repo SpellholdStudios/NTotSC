@@ -503,6 +503,8 @@ Weight: 1
 STATISTICS:
 
 Special: Heals 35 hit points (80% chance to get drunk for 30 minutes)
+
+Weight: 1
 ~
 @153  = ~Will does not want to tell where the ring comes from, but its advantages are rare and it probably was done by a friend of Will with magical powers.
 
@@ -901,19 +903,20 @@ Equipped abilities:
 
 Weight: 5
 ~
-@550 = ~This heavy golden plate mail was crafted for general Ghotal by captured dwarven smithes and enchanted by the tribe shamans in foul rites best not spoken of.  Although it offers excellent protection, this armor is heavy and unwieldy, requiring great physical strength to wear. It certainly looks very impressive though.
+@550 = ~This heavy golden field plate was crafted for general Ghotal by captured dwarven smithes and enchanted by the tribe shamans in foul rites best not spoken of.  Although it offers excellent protection, this armor is heavy and unwieldy, requiring great physical strength to wear. It certainly looks very impressive though.
 
 STATISTICS:
 
 Equipped abilities:
 - Charisma: +2
-- Dexterity: -2
+- Dexterity: -4
 
-Armor Class: -1 (-5 vs. slashing, -4 vs. piercing and missile)
+Armor Class: 0 (-3 vs. slashing, -1 vs. piercing and missile)
 Requires:
  17 Strength
 
-Weight: 60~
+Weight: 75~
+
 /* Angel's new items (2021 revision) */
 @557 = ~This enchanted mage robe has powers over earth and stone.
 

@@ -1183,6 +1183,7 @@ D.~
 STATISTICS:
 
 Raises the user's Strength to 19
+Weight: 2
 Only Usable By:
   Fighters (Single, Dual-, and Multi-Class)
   Rangers (Singe, Dual-, and Multi-Class)
@@ -1347,3 +1348,22 @@ Not Usable By:
 
 /* new in v4.0.0 */
 @55133 = ~Spawn less Monsters depending on Game Difficulty~
+
+/* new in v5.0.0 */
+// #40189 (IWD) [enhancement +1 instead of +3]
+@55134 = ~Shadowed Plate +1~
+@55135 = ~A candle is an ignitable wick embedded in wax, or another flammable solid substance such as tallow. Candles are common source of light.
+
+STATISTICS:
+
+Weight: 1~
+@55136 = ~This is a dead rat's body. It looks like this rat had often been visiting sewers, because it stinks.
+
+STATISTICS:
+
+Weight: 3~
+@55137 = ~Good quality iron from the mine.
+
+STATISTICS:
+
+Weight: 1~

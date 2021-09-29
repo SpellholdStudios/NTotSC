@@ -1,25 +1,25 @@
 @0    = ~Stójcie wêdrowcy! Przypadkiem, lub nie, s³ysza³em wasz¹ rozmowê z Shaell¹ albo jak wolicie Elnaedr¹... Naprawdê jesteœcie zainteresowani odnalezieniem tej dziwnej ksiêgi?~
-@1    = ~Nie. I mamy ju¿ po uszy takich dziwnych napotykanych osób, które chyba nie wiedz¹ co mówi¹...~
+@1    = ~Nie i mamy ju¿ po uszy takich dziwnych napotykanych osób, które chyba nie wiedz¹, co mówi¹...~
 @2    = ~A dlaczego mia³oby to nas interesowaæ?~
-@3    = ~Otó¿ Shaella wie co mówi... lub raczej mówi to co jeszcze wie... Ona kiedyœ widzia³a tê ksiêgê i sami mogliœcie dojrzeæ jej skutki... Moim zadaniem jest odnaleŸæ tê ksiêgê i uczyniæ j¹ niedostêpn¹ dla niepowo³anych istot, by nikt nie móg³ doœwiadczyæ losu Shaelli.~
-@4    = ~Czy teraz us³yszymy "propozycjê nie do odrzucenia"?~
-@5    = ~Wiem, co chcesz powiedzieæ i chêtnie pos³ucham, bo lubimy brzêk z³otych monet, czy siê mylê przyjacielu?~
-@6    = ~Je¿eli tak to chcesz nazywaæ... ca³e ¿ycie zbieram pieni¹dze na zdobycie tej ksiêgi. Mogê zaoferowaæ to wam, je¿eli przyjmiecie moj¹ ofertê.~
+@3    = ~Otó¿ Shaella wie, co mówi... lub raczej mówi to, co jeszcze wie... Ona kiedyœ widzia³a tê ksiêgê i sami mogliœcie dojrzeæ jej skutki... Moim zadaniem jest odnaleŸæ tê ksiêgê i uczyniæ j¹ niedostêpn¹ dla niepowo³anych osób, by nikt nie móg³ doœwiadczyæ losu Shaelli.~
+@4    = ~Czy teraz us³yszymy propozycjê „nie do odrzucenia”?~
+@5    = ~Wiemy, co chcesz powiedzieæ i chêtnie pos³uchamy, bo lubimy brzêk z³otych monet, czy siê mylê przyjacielu?~
+@6    = ~Je¿eli tak to chcecie nazywaæ... ca³e ¿ycie zbieram pieni¹dze na zdobycie tej ksiêgi. Mogê zaoferowaæ to wam, je¿eli przyjmiecie moj¹ ofertê.~
 @7    = ~Dlaczego sam nie mo¿esz zaj¹æ siê t¹ spraw¹, skoro tak ci na niej zale¿y?~
 @8    = ~Nie. Ju¿ dosyæ us³yszeliœmy. Na nas czas.~
-@9    = ~Gdyby wszystko by³o takie proste... Nie mogê spotkaæ siê z tym, kto posiada pewn¹ wiedzê na temat tej ksiêgi... Kiedyœ byliœmy przyjació³mi... ale pewna kobieta sta³a siê powodem naszego konfliktu. Nie s¹dzê, ¿e chcia³bym siê z nim spotykaæ. On napewno równie¿ nie.~
+@9    = ~Gdyby wszystko by³o takie proste... Nie mogê spotkaæ siê z tym, kto ma pewn¹ wiedzê na temat tej ksiêgi... Kiedyœ byliœmy przyjació³mi... ale pewna kobieta sta³a siê powodem naszego konfliktu. Nie s¹dzê, ¿e chcia³bym siê z nim spotykaæ. On na pewno równie¿ nie.~
 @10   = ~Kto to jest ON?~
-@11   = ~Lobar. W³aœciciel "Pochy³ej Latarni". On równie¿ kiedyœ widzia³ tê ksiêgê, a przynajmniej jej moc...~
-@12   = ~Chyba doœæ ju¿ us³yszeliœmy, a skoro ta ksiêga jest taka niebezpieczna, to nie chcemy tego dotykaæ.~
-@13   = ~Mów dalej, s³ucham uwa¿nie...~
-@14   = ~Oferujê wam ca³y swój maj¹tek za zdobycie tej ksiêgi... Czyli 10000 sztuk z³ota... Oczywiœcie nie musicie jej ani czytaæ, ani u¿ywaæ. Po prostu dostarczcie j¹ mi.~
-@15   = ~To sporo pieniêdzy... Pójdê do Lobara i zobaczymy czy rzeczywiœcie jest tak, jak mówisz.~
+@11   = ~Lobar. W³aœciciel „Pochy³ej Latarni”. On równie¿ kiedyœ widzia³ tê ksiêgê, a przynajmniej jej moc...~
+@12   = ~Chyba doœæ ju¿ us³yszeliœmy, a skoro ta ksiêga jest taka niebezpieczna, to nie chcemy jej dotykaæ.~
+@13   = ~Mów dalej, s³uchamy uwa¿nie...~
+@14   = ~Oferujê wam ca³y swój maj¹tek za zdobycie tej ksiêgi... czyli dziesiêæ tysiêcy sztuk z³ota... Oczywiœcie, nie musicie jej ani czytaæ, ani u¿ywaæ. Po prostu dostarczcie j¹ mi.~
+@15   = ~To sporo pieniêdzy... Pójdziemy do Lobara i zobaczymy, czy rzeczywiœcie jest tak, jak mówisz.~
 /* @16 -> @10021 */ 
 @17   = ~Dlaczego nie powinniœmy po prostu zabraæ ci twoich oszczêdnoœci i nie zrobiæ tego po swojemu?~
 @18   = ~Nadal nie interesuje nas twoja propozycja. Poszukaj innych chêtnych.~
-@19   = ~Oczywiœcie mo¿esz to zrobiæ, ale nie jestem pewien, czy bêdzie to takie ³atwe.~
-@20   = ~No có¿, spróbujê mnichu...~
-@21   = ~Dobrze, ju¿ dobrze. Nie przepadam za przemoc¹, zw³aszcza bezsensown¹. Udam siê do Lobara i spojrzê co da siê zrobiæ.~
+@19   = ~Oczywiœcie mo¿ecie to zrobiæ, ale nie jestem pewien, czy bêdzie to takie ³atwe.~
+@20   = ~No có¿, spróbujemy mnichu...~
+@21   = ~Dobrze, ju¿ dobrze. Nie przepadamy za przemoc¹, zw³aszcza bezsensown¹. Udamy siê do Lobara i zobaczymy, co da siê zrobiæ.~
 @22   = ~Witajcie... Rozumiem, ¿e zmieniliœcie zdanie?~
 @23   = ~Nie, ale chêtnie weŸmiemy twoje oszczêdnoœci.~
 @24   = ~Nie, jesteœmy tu w drodze z innymi obowi¹zkami...~
@@ -30,19 +30,19 @@
 @29   = ~W³aœciwie, to nie mamy ochoty uganiaæ siê za jak¹œ g³upaw¹ ksiêg¹. O wiele szybciej i zabawniej bêdzie uganiaæ siê za tob¹...~
 @30   = ~A wiêc zdobyliœcie na... mój cel wieloletnich poszukiwañ... Czas was wynagrodziæ.~
 @31   = ~Kosztowa³o nas to mnóstwo wysi³ku, wiêc chêtnie weŸmiemy obiecane znaleŸne.~
-@32   = ~Wiele zachodu kosztowa³a nas twoja ksiêga. A poniewa¿ pewnie jest bardzo cenna, postanowione zosta³o, ¿e weŸmiemy i nagrodê i ksiêgê.~
+@32   = ~Wiele zachodu kosztowa³a nas twoja ksiêga. A poniewa¿ pewnie jest bardzo cenna, postanowione zosta³o, ¿e weŸmiemy i nagrodê, i ksiêgê.~
 @33   = ~Wyobra¿am to sobie. Czas na nagrodê... Przyjaciele przybywajcie!~
 /* @34 -> @10022 */
 @35   = ~Oszaleliœcie, ale niech tak bêdzie.~
 
 /* new for v2.0 */
-@36  = ~Witaj, aczkolwiek nie mam ochoty z tob¹ rozmawiaæ.~
-@37  = ~Znalaz³em interesuj¹c¹ notatkê z twoim imieniem na niej oraz wmiankê o jakimœ kulcie.~
-@38  = ~Bywajcie.~
-@39  = ~Haeball zatrudni³ mnie do odzyskania pewnego przedmiotu dla niego. To tyle co powinieneœ wiedzieæ.~
-@40  = ~Nie powinieneœ by³ wsadzaæ nosa w rzeczy, których nie rozumiesz!~
-@41  = ~Zatrzymajcie siê, podró¿nicy! Przez przypadek, lub nie, pods³ucha³em, ¿e rozmawiasz z Shaell¹. Musicie wiedzieæ, ¿e ona poszukuje ksiêgê o niema³ej wartoœci: Wielk¹ Ksiêgê Niewiedzy. Bylibyœcie zainteresowani znalezieniem takiej ksiêgi?~
+@36  = ~Witajcie, aczkolwiek nie mam ochoty z wami rozmawiaæ.~
+@37  = ~ZnaleŸliœmy interesuj¹c¹ notatkê z twoim imieniem na niej oraz wzmiankê o jakimœ kulcie.~
+@38  = ~Bywaj.~
+@39  = ~Haeball zatrudni³ mnie do odzyskania pewnego przedmiotu dla niego. To tyle, co powinniœcie wiedzieæ.~
+@40  = ~Nie powinniœcie byli wsadzaæ nosa w sprawy, których nie rozumiecie!~
+@41  = ~Zatrzymajcie siê, podró¿nicy! Przez przypadek, lub nie, pods³ucha³em, wasz¹ rozmowê z Shaell¹. Musicie wiedzieæ, ¿e ona poszukuje ksiêgê o niema³ej wartoœci, mianowicie Wielk¹ Ksiêgê Niewiedzy. Bylibyœcie zainteresowani znalezieniem tej ksiêgi?~
 @42  = ~Masz na myœli tê ksiêgê?~
 @43  = ~Jak id¹ twoje poszukiwania?~
 @44  = ~Czego oczekujesz?~
-@45  = ~Jesteœ g³upcem.~
+@45  = ~Jesteœcie g³upcami.~

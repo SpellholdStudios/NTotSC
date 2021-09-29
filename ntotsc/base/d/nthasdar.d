@@ -75,7 +75,7 @@ IF ~~ THEN BEGIN 8
   IF ~~ THEN DO ~SetGlobal("NTTalkedToHasdar","GLOBAL",3)~ UNSOLVED_JOURNAL @10021 EXIT
 END
 
-/* this stae is also a transition state from state 5 & 7 */
+/* this state is also a transition state from state 5 & 7 */
 IF ~Global("NTTalkedToHasdar","GLOBAL",3)
 !PartyHasItem("NTMISC10")~ THEN BEGIN 9
   SAY @27
