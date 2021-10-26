@@ -1,4 +1,4 @@
-@0    = ~NTotSC dla BGT-Weidu, BG:EE i EET przetlumaczyl Kelthar (na podstawie tlumaczenia Evendura) (v.1.0) i Roberciiik (korekta do v4.0.0)~
+@0    = ~NTotSC dla BGT-Weidu, BG:EE i EET przetlumaczyl Kelthar (na podstawie tlumaczenia Evendura) (v.1.0) i Roberciiik (korekta do v4.2.0)~
 
 @1    = ~Zatruta strza³a~
 @2    = ~Te strza³y zosta³y pokryte szybko dzia³aj¹c¹ trucizn¹ roœlinnego pochodzenia.
@@ -1243,26 +1243,26 @@ Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie 
 @394  = ~~ [ZOMBI02]
 
 @395  = ~Will Szkar³atny O'Hara~
-@396  = ~Will Szkar³atny, do us³ug!~ [WILL01]
-@397  = ~Ktoœ potrzebuje dokonaæ zamachu?~ [WILL02]
-@398  = ~Pasuje mi takie ¿ycie!~ [WILL04]
+@396  = ~Szkar³atny Will, do us³ug!~ [WILL01]
+@397  = ~Trzeba kogoœ zabiæ?~ [WILL02]
+@398  = ~Takie ¿ycie to jest coœ!~ [WILL04]
 @399  = ~Co teraz?~ [WILL05]
 @400  = ~Nie mam tego w umowie.~ [WILL06]
 @401  = ~Och, nie mogê.~ [WILL07]
 @402  = ~Dobrze, bardzo dobrze!~ [WILL08]
-@403  = ~Tak wiele rzeczy jest jeszcze do zrobienia!~ [WILL10]
+@403  = ~Jeszcze tyle do zrobienia!~ [WILL10]
 @404  = ~ChodŸ, pomacam ciê moim cepikiem!~ [WILL03]
-@408  = ~Jeszcze ¿yje!~ [WILL11]
-@409  = ~Ku przygodzie!~ [WILL13]
-@410  = ~Zgadnij, kto teraz umrze?~ [WILL12]
-@411  = ~Zrób jak ja – kup sobie cep!~ [WILL17]
+@408  = ~Jeszcze ¿yjê!~ [WILL11]
+@409  = ~Przygodo przybywaj!~ [WILL13]
+@410  = ~I kto teraz zginie?~ [WILL12]
+@411  = ~Zrób jak ja – kup se cep!~ [WILL17]
 @412  = ~I znowu w drogê!~ [WILL18]
 @413  = ~Byle dobrze wysz³o.~ [WILL19]
-@414  = ~Ja i mój cep stoimy w gotowoœci na twe rozkazy.~ [WILL20]
-@415  = ~W koñcu, choæ nie za wczeœnie!~ [WILL21]
+@414  = ~Ja i mój cep stoimy w gotowoœci.~ [WILL20]
+@415  = ~W koñcu, ale nie za wczeœnie!~ [WILL21]
 @416  = ~Krew, flaki i pogruchotane koœci!~ [WILL22]
-@417  = ~Ktoœ mnie potrzebuje?~ [WILL23]
-@418  = ~Nie mam nic przeciwko temu, ale niestety to niemo¿liwe.~ [WILL24]
+@417  = ~Czy ktoœ mnie potrzebuje?~ [WILL23]
+@418  = ~Nie mam nic przeciwko temu, ale to niemo¿liwe.~ [WILL24]
 @419  = ~Co za intelektualne wyzwanie!~ [WILL26]
 @420  = ~Opanujê siê... Zadowolony?~ [WILL32]
 @421  = ~Ha! Ale ze mnie mocarz!~ [WILL34]
@@ -1466,8 +1466,8 @@ Nie mo¿e u¿ywaæ:
 /* Will O'Hara soundset subcomponent */
 @551 = ~Udzwiekowienie Willa O'Hara~
 @552 = ~Wymaga komponentu [Will O'Hara NPC]~
-@553 = ~Will O'Hara: instaluj odglosy postaci (dzwieki angielskie jesli polskie nie sa dostepne)~
-@554 = ~Nie instaluj oglosow postaci~
+@553 = ~Will O'Hara: instaluj odglosy postaci (polskie udzwiekowienie dzieki uprzejmosci Anoim2666)~
+@554 = ~Nie instaluj odglosow postaci~
 @555 = ~Brakujace dzwieki zostana wyswietlone w konsoli gry~
 /* ------ */
 
@@ -1593,3 +1593,8 @@ Waga: 3~
 PARAMETRY:
 
 Waga: 1~
+
+// Will O'Hara sounds from .tp2
+@55138 = ~Do boju!~ [WILL03A]
+@55139 = ~~ [WILL35]
+@55140 = ~~ [WILL39]
