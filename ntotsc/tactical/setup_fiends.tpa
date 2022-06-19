@@ -9,9 +9,9 @@ BEGIN
     SAY NAME1 @1
     SAY NAME2 @1
 
-  ACTION_FOR_EACH script in "ntfiends" "ntmaurez" "ntsuccub"
+  ACTION_FOR_EACH script IN "ntfiends" "ntmaurez" "ntsuccub"
   BEGIN
-    COMPILE EVALUATE_BUFFER "%script%.baf"
+    COMPILE EVALUATE_BUFFER "%MOD_FOLDER%/tactical/scripts/%script%.baf"
   END
 END
 

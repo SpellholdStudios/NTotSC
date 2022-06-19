@@ -182,6 +182,25 @@ Component Fighting Encounters
 --Black Talon Elite Fighters in Cloackwood and Cloakwood Mines.
 
 
+Component Improved Lesser Fiends
+++++
+--Turns the "lesser fiends" in the Fireleaf Forest dungeon into actual lesser
+fiends; a succubus and two maurezi.
+--Brings back some of the invisible stalkers at higher difficulty levels.
+
+
+Component Improved Haeball
+--Turns Haeball into a vampire mage; his vampiric nature will be revealed
+halfway during the fight and he will summon wolves and use other vampiric
+powers, he also gets a better spell selection.
+
+
+Component Improved Ghotal
+--Turns General Ghotal into a ghost with unusual powers and ghostly minions.
+--Replaces the two death knights at the entrance of the tomb with stone
+golems.
+--Some of the weakest undead in the crypt are replaced with tougher ones.
+
 
 SPOILERS
 ++++++++
