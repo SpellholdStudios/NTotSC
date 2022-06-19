@@ -2649,9 +2649,9 @@ COPY ~ntotsc/will/ntwill2.cre~ ~override~
 	SAY 0xc0 @401 /* ~Oh, I can't.~ [WILL07]  */
 	SAY 0xc4 @403 /* ~So many things left to do!~ [WILL10]  */
 	SAY 0xc8 @404 /*  ~Come on, try my flail!~ [WILL03] */
-	SAY 0xcc ~~ [will03a]
-	SAY 0xec ~~ [will35]
-	SAY 0xf0 ~~ [will39]
+	SAY 0xcc @55138 /* [WILL03A] */
+	SAY 0xec @55139 /* [WILL35] */
+	SAY 0xf0 @55140 /* [WILL39] */
 	SAY 0xf4 @408 /* ~Still alive!~ [WILL11]  */
 	SAY 0xf8 @409 /* ~To adventure!~ [WILL13]  */
 	SAY 0xfc @410 /*  ~Guess, who's going to die?~ [WILL12] */

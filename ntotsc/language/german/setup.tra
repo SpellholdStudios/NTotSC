@@ -1349,3 +1349,8 @@ Weight: 3~
 STATISTICS:
 
 Weight: 1~
+
+// Will O'Hara sounds from .tp2
+@55138 = ~~ [will03a]
+@55139 = ~~ [will35]
+@55140 = ~~ [will39]
