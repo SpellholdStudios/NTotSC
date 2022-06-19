@@ -168,24 +168,32 @@ LANGUAGE
 LANGUAGE
 	~German (translation by Leonardo Watson)~
 	~german~
+	~ntotsc/language/english/setup.tra~
+	~ntotsc/language/english/journal.tra~
 	~ntotsc/language/german/setup.tra~
 	~ntotsc/language/german/journal.tra~
 
 LANGUAGE
 	~Italian (translation by ilot)~
 	~italian~
+	~ntotsc/language/english/setup.tra~
+	~ntotsc/language/english/journal.tra~
 	~ntotsc/language/italian/setup.tra~
 	~ntotsc/language/italian/journal.tra~
 
 LANGUAGE
 	~Polish~
 	~polish~
+	~ntotsc/language/english/setup.tra~
+	~ntotsc/language/english/journal.tra~
 	~ntotsc/language/polish/setup.tra~
 	~ntotsc/language/polish/journal.tra~
 
 LANGUAGE
 	~Russian~
 	~russian~
+	~ntotsc/language/english/setup.tra~
+	~ntotsc/language/english/journal.tra~
 	~ntotsc/language/russian/setup.tra~
 	~ntotsc/language/russian/journal.tra~
 
