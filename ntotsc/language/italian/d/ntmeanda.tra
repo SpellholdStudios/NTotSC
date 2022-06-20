@@ -1,26 +1,26 @@
-@0 = ~Chi viene da Meandar? Non ti manda Monoach, ma sai cosa stai cercando?... Come?~
-@1 = ~Non ci aspettavamo certo un caldo benvenuto ma, nonostante ciò, vorremmo parlarti.~
-@2 = ~Meandar sa che qualcuno é venuto a cercare una risposta... Meandar sbaglia?~
-@3 = ~Non abbiamo tempo per giocare "agli indovinelli...". Pensiamo che tu abbia una chiave. Ed è molto probabile visto che hai anche conosciuto Monoach. Ne abbiamo bisogno.~
-@4    = ~Meandar ha ragione. Puoi darci la chiave, che possiedi - come presumo?~
-@5    = ~Meandar ti darà la chiave, ma dovrai fare un lavoro per lui. Niente è gratis. Meandar ha un nemico. Le Salamandre di Ghiaccio di solito sono famiglie unite, ma ora non lo sono più. Kolchear non è una vera Salamandra ed ha lasciato la sua casa ed i suoi compagni.~
-@6 = ~Si - sembra qualcosa che posso fare... Dove posso trovare questo Kolchear?~
-@7 = ~Cosa? Non ancora. Non c'è una soluzione per evitare questi conflitti?~
-@8 = ~Kolchear già sa che sei qui, poiché gli esseri come voi lo irritano e perciò... dovresti aspettarti di incontrarlo appena esci da qui. Kolchear è pericoloso, quindi buona fortuna, e fai attenzione. Dopo torna qui e riceverai la chiave, se sarai ancora vivo...~
-@9 = ~Perché non ci pensa direttamente Meandar a sconfiggere i suoi nemici invece di farsi aiutare da degli avventurieri?~
-@10 = ~Le Salamandre di Ghiaccio possono anche non piacersi l'un l'altra, ma loro non combattono... Non posseggono armi che possono sconfiggere altre Salamandre...~
-@11 = ~Meandar è addolorato quando i suoi fratelli vengono uccisi, ma rispetta il valore ed il coraggio dei nuovi arrivati. Ecco la chiave che cercavi. Fai attenzione, perché una grande malvagità vi è nascosta... antica e crudele...~
-@12   = ~Quale malvagità? Cosa ne sai?~
+@0 = ~Chi viene da Meandar? Non ti manda Monoach, ma sai che sono io da cercare?... Come?~
+@1 = ~Non mi aspettavo certo un caldo benvenuto ma, nonostante ciò, vorrei parlarti.~
+@2 = ~Meandar sa che qualcuno è venuto a cercare una risposta... Meandar sbaglia?~
+@3 = ~Non abbiamo tempo per giocare con gli indovinelli... Penso che tu abbia una chiave. Ed è molto probabile visto che hai anche conosciuto Monoach. Ne ho bisogno.~
+@4 = ~Meandar ha ragione. Puoi darci la chiave, che possiedi... come presumo?~
+@5 = ~Meandar ti darà la chiave, ma dovrai fare un lavoro per lui. Niente è gratis. Meandar ha un nemico. Le salamandre del ghiaccio di solito sono famiglie unite, ma ora non lo sono più. Kolchear non è una vera salamandra ed ha lasciato la sua casa ed i suoi compagni.~
+@6 = ~Sì... è qualcosa che è capitata anche a me... Dove posso trovare questo Kolchear?~
+@7 = ~Cosa? Non di nuovo. Non c'è un modo per evitare questi conflitti senza fine?~
+@8 = ~Kolchear sa che sei qui, poiché voi esseri del Primo Piano lo irritate e perciò... dovresti incontrarlo appena esci da qui. Kolchear è pericoloso, quindi buona fortuna e fa' attenzione. Torna da me dopo la battaglia e riceverai la chiave, se sarai ancora vivo...~
+@9 = ~Perché non ci pensa direttamente Meandar a sconfiggere i suoi nemici invece di farsi aiutare dagli avventurieri?~
+@10 = ~Le Salamandre del Ghiaccio possono anche non piacersi tra di loro, ma non combattono... Non possiedono armi che possono sconfiggere altre salamandre...~
+@11 = ~Meandar è addolorato quando i suoi fratelli vengono uccisi, ma rispetta il valore ed il coraggio dei nuovi arrivati. Ecco la chiave che cercavi. Fa' attenzione a come viene usata, perché custodisce una grande malvagità... antica e crudele...~
+@12 = ~Quale malvagità? Cosa ne sai?~
 @13 = ~Meandar e Monoach sono stati amici... molto tempo fa. Ma Monoach non ci ha mai rivelato come usare questa chiave né i veri motivi dei suoi scopi... Ma Monoach non ci avrebbe dato la chiave se non si fosse spaventato del suo destino. Meandar non sa altro.~
-@14   = ~Meandar non sa altro.~
-@15   = ~Benvenuto. Chi sei tu che cerchi la nostra Casa?~
-@16   = ~Vengo da lontano ed ho bisogno di aiuto... o piuttosto di una chiave...~
-@17 = ~Conoscete la storia di Monoach?... Questo è bene. Quello che non sai è che Monoach era in guerra con un certo culto. Lui detestava il culto della Mano Nera e il loro desiderio di riportare in vita Bhaal e finché il loro nuovo tempio esiste non posso aiutarti. Ritorna quando il loro capo sarà morto. Lo verrò a sapere se succederà. Non so dove si trovi il Tempio della Mano Nera, ma i suoi adepti stanno aumentando di numero. Penso che ce ne potrebbe essere un piccolo gruppo ad Ulgoth's Beard, ed inoltre ci sono stati strani movimenti ai Campi dei Morti. Forse se cerchi là, sarai in grado di localizzare poi il tempio.~
+@14 = ~Meandar non sa altro.~
+@15 = ~Benvenuto. Chi sei tu che cerchi la nostra Casa?~
+@16 = ~Vengo da lontano ed ho bisogno di aiuto... o piuttosto di una chiave...~
+@17 = ~Conosci la storia di Monoach?... Questo è bene. Quello che non sai è che Monoach era in guerra con un certo culto. Lui detestava il culto della Mano Nera e il loro desiderio di riportare in vita Bhaal e finché il loro nuovo tempio esiste non posso aiutarti. Ritorna quando il loro capo sarà morto. Lo verrò a sapere se succederà. Non so dove si trovi il Tempio della Mano Nera, ma i suoi adepti stanno aumentando di numero. Penso un piccolo gruppo potrebbe essere a Ulgoth's Beard e, inoltre, ci sono stati strani movimenti ai Campi dei Morti. Forse se indaghi in quei luoghi, riuscirai a localizzare il tempio.~
 /* @18 -> @10037 */
-@19 = ~E’ fatta, allora. Bene.~
+@19 = ~È fatta, allora. Bene.~
 
 /* new for v2.0 */
-@20 = ~Fai quello che ha chiesto Meandar ed otterrai la chiave.~
-@21 = ~Non sono qui per risolvere una delle tue controversie familiari!~
-@22 = ~Allora non avrai la chiave. Kolchear odia gli abitanti dei primi piani e non fa domande. Se ti nota allora lo combatterai, se non vuoi farlo per Meandar, allora fallo per proteggere te stesso.~
+@20 = ~Fa' quello che ha chiesto Meandar ed otterrai la chiave.~
+@21 = ~Non sono qui per risolvere una delle tue dispute familiari!~
+@22 = ~Allora non avrai la chiave. Kolchear odia gli abitanti del Primo Piano e non fa domande. Se ti nota dovrai combatterlo, se non vuoi farlo per Meandar, allora fallo per proteggere te stesso.~
 

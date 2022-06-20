@@ -1,29 +1,29 @@
 //@7 from bart5.tra
 @10000    = ~Will O'Hara
 
-L'arma favorita di Will è tornata nelle sue mani. Spero sia in grado di maneggiarla bene.~
+L'arma favorita di Will è tornata in suo possesso. Spero sia in grado di maneggiarla bene.~
 // @5 from Charle.tra
-@10001 = ~Sotterraneo sigillato sotto il Ponte di Firewine
+@10001 = ~Sotterraneo bloccato sotto il Ponte di Firewine
 
-Charleston Nib, che noi abbiamo salvato dopo che i suoi aiutanti erano diventati pazzi all’interno della cripta di Kozah, ci ha offerto una nuova missione. C'è un'entrata chiusa all'interno del Ponte di Firewine che conduce in nuovi sotterranei. Tuttavia, "malvagi spiriti" ci abitano dentro e lui non può esplorare il suo interno.~
+Charleston Nib, che abbiamo salvato dai suoi aiutanti impazziti all’interno della cripta di Kozah, ci ha offerto una nuova missione. C'è un'entrata bloccata nel Ponte di Firewine che conduce in un nuovo sotterraneo. Tuttavia, delle "entità malvagie" vi dimorano e lui non è in grado di esplorarlo. Ci ha chiesto di renderlo sicuro.~
 // @8 from lobar.tra
-@10002  = ~Il Grande Libro della Non Conoscenza
+@10002  = ~Il Grande Libro dell'Inconoscibile
 
-Per trovare il magico Libro della Non Conoscenza Lobar ci ha indirizzato alla Sirenetta Timida. Dobbiamo cercare Oupaste, il mediatore di Lobar, che sicuramente saprà a chi ha venduto il libro.~
+Per trovare il Grande Libro dell'Inconoscibile Lobar ci ha indirizzato alla Sirenetta Timida. Dobbiamo cercare Oupaste, il mediatore di Lobar, che sicuramente conoscerà l'attuale proprietario.~
 // @1 from NT#DELTA.tra
 @10003  = ~Mistero alla Cittadella del Nord
 
-Il Duca Eltan mi ha chiesto di andare alla Cittadella a nord di Baldur's Gate. Sembra che lì siano scomparse delle persone. Vuole che scopra cosa succede realmente in quel luogo...~
+Il Duca Eltan mi ha chiesto di andare alla Cittadella del Nord che si trova a nord est rispetto a Baldur's Gate. Sembra che siano scomparse delle persone. Vuole che scopra cosa sta realmente succedendo...~
 // @15 from NTARCHAN.tra
-@10004  = ~Isola delle Sirene
+@10004  = ~Isola delle sirene
 
 Dannazione. Avrò un appuntamento con Archandra solo se riuscirò a trovare una bottiglia di vino... Dove posso procurarmela?~
 // @24 from NTAVERY.tra 
-@10005  = ~Il Simbolo di Helm 
+@10005  = ~Il simbolo di Helm 
 
-Avery ci ha rivelato la storia di Monoach, il fondatore di questa Cittadella. Nell'altare di Helm c'è depositato il simbolo di Helm. Ma nessuno sa a cosa possa servire. Si dice che la chiave fu data a dei suoi amici fidati che risiedono su un'isola lontano a nord ovest per tenerla al sicuro.~
+Avery ci ha rivelato la storia di Monoach, il fondatore di questa Cittadella. Nell'altare di Helm c'è custodito Il simbolo di Helm. Ma nessuno sa a cosa possa servire. Si dice che la chiave fu affidata ad alcuni amici fidati, che risiedono su un'isola nel lontano nord ovest, con lo scopo di tenerla al sicuro.~
 //and @1 of NTPBWAT1.tra and @1 of NTPBWATC.tra 
-@10006    = ~Immediatamente dopo essere entrati nella catacomba siamo stati bloccati da un cavaliere-fantasma. Non ha sentito ragioni ed ha attaccato furiosamente...~
+@10006    = ~Immediatamente dopo essere entrati nella catacomba siamo stati bloccati da un cavaliere-fantasma. Non ha sentito ragioni e ha attaccato furiosamente...~
 // @6 from NTELDOD.tra
 @10007    = ~Mistero alla Cittadella del Nord 
 
@@ -31,254 +31,254 @@ Finalmente, siamo riusciti a parlare con Eldod, il Capitano della Guardia della 
 // @10 from NTELDOD.tra
 @10008    = ~Mistero alla Cittadella del Nord 
 
-Il Capitano della Guardia della Cittadella del Nord era molto arrabbiato per le nostre frequenti visite... e poi si è rapidamente allontanato...~
+Il capitano della Guardia della Cittadella del Nord era molto arrabbiato per le nostre frequenti visite... e poi si è rapidamente allontanato...~
 @10009    = ~Mistero alla Cittadella del Nord
 
-Il Capitano della Guardia della Cittadella del Nord, finalmente liberato dall'influenza dell'incantesimo, è riuscito a dirci cosa c'è dietro a tutte queste sparizioni. E' Krotan - l'orco, che si sta preparando a conquistare la Cittadella e che ora si trova sotto al Mausoleo dietro la Cittadella stessa.~
+Il capitano della Guardia della Cittadella del Nord, finalmente liberato dall'influenza dell'incantesimo, è riuscito a dirci quale potere si cela dietro a tutte queste sparizioni. Si tratta di Krotan, l'ogre, che si sta preparando a conquistare la Cittadella nella sua base, sotto il Mausoleo che si erge nei pressi della Cittadella.~
 @10010    = ~Mistero alla Cittadella del Nord~
-@10011    = ~Isola delle Sirene
+@10011    = ~Isola delle sirene
 
-La Sirena chiamata Essila, ha bisogno di una cura a causa di una sensazione di debolezza... Starà dicendo la verità?~
+La Sirena chiamata Essila, ha bisogno di una cura che le allievi una strana sensazione di debolezza che l'avvilisce... Starà dicendo la verità?~
 //@1 from NTGGOTHA.tra
 @10012    = ~I Campi dei Morti
 
-Veramente spiacevole, finalmente siamo entrati nella cripta del rispettato capo degli orchi... quando, una volta che ha preso la sua spada, ci ha attaccato insieme ai suoi compagni... Drammatica esperienza...~
+Una situazione spiacevole: finalmente siamo entrati nella cripta del rispettato capo degli orchi... all'istante ha brandito la sua spada e ci ha attaccato assieme ai suoi compagni... Che esperienza drammatica...~
 //@3 from NTGGOTHA.tra
 @10013    = ~I Campi dei Morti
 
-Finalmente siamo entrati nella cripta così rispettata dagli orchi, siamo però stati fermati dallo stesso Ghotal e dai suoi compagni... Drammatica esperienza...~
+Finalmente siamo entrati nella cripta così rispettata dagli orchi, siamo però stati fermati dallo stesso Ghotal e dai suoi compagni... Che esperienza drammatica...~
 //@2 from NTGHELDE.tra 
 //#15797
 @10014    = ~Pilar e Gheldehar
 
-Oggi mi sono scontrato con un piccolo gnomo di nome Gheldehar in un vicolo. Questi sostiene che Pilar, una sua vecchia "amica" attualmente alloggiata alla Locanda del Braccio Amico, gli ha rubato gli stivali e lui li rivorrebbe indietro. Poiché non sembra che a Gheldehar interessi molto il modo in cui io mi dovrei procurare gli stivali, sospetto che il termine "amica" fosse qualcosa di più di un semplice eufemismo.~
+Oggi mi sono imbattuto in un piccolo gnomo di nome Gheldehar in un vicolo. Sostiene che Pilar, una sua vecchia "amica" attualmente alloggiata alla Locanda del Braccio Amico, gli ha rubato gli stivali. Lui vuole riaverli. Poiché non sembra che a Gheldehar interessi molto come mi riprenderò gli stivali, sospetto che il termine "amica" fosse qualcosa di più di un semplice eufemismo.~
 //@1 from NTGUARNC.tra
 @10015    = ~Mistero alla Cittadella del Nord
 
-Non abbiamo avuto un cordiale benvenuto camminando all'interno della Cittadella del Nord.~
+Non abbiamo avuto un cordiale benvenuto al nostro arrivo alla Cittadella del Nord.~
 //@2 from NTHAEBAL.tra 
 @10016    = ~Haeball, un mago che vive a Larswood ha qualche oggetto da vendere.~
 //@7 from NTHAEBAL.tra 
 @10017    = ~Il Culto della Mano Nera
 
-Bene, bene...! Paghiamo per una visita amichevole con Haebal e quello che ci aspetta sono armi e magia nera... Cosa potrebbe nascondere questo Haeball? Dobbiamo esaminare a fondo la sua torre.~
+Bene, bene...! Facciamo una visita amichevole a Haebal e quello che ci aspetta sono armi e magia nera... Cosa potrebbe nascondere questo Haeball? Dobbiamo esaminare a fondo la sua torre.~
 //@19 from NTHAEBAL.tra 
-@10018    = ~Il Grande Libro della Non Conoscenza
+@10018    = ~Il Grande Libro dell'Inconoscibile
 
-Il mago Haeball, che vive nella torre di Larswood, a sud est della Locanda del Braccio Amico, ci ha incaricato di prendere il Grande Libro della Non Conoscenza ed un arco magico in possesso di un elfo che vive da qualche parte nel nord. Se saremo abbastanza fortunati, troveremo tutti e due gli oggetti e guadagneremo dei soldi...~
+Il mago Haeball, che vive nella torre di Larswood, a sud est della Locanda del Braccio Amico, ci ha incaricato di portargli il Grande Libro dell'Inconoscibile e anche un arco magico in possesso di un elfo che vive da qualche parte nel nord. Se saremo abbastanza fortunati, troveremo tutti e due gli oggetti e guadagneremo dei soldi...~
 //@41 from NTHAEBAL.tra 
-@10019    = ~Il Grande Libro della Non Conoscenza
+@10019    = ~Il Grande Libro dell'Inconoscibile
 
-Il mago Haeball, che vive nella torre di Larswood, a sud est della Locanda del Braccio Amico, ci ha incaricato di prendere un arco magico in possesso di un elfo che vive da qualche parte nel nord. Se saremo abbastanza fortunati, lo troveremo e guadagneremo dei soldi...~
+Il mago Haeball, che vive nella torre di Larswood, a sud est della Locanda del Braccio Amico, ci ha incaricato di portargli un arco magico in possesso di un elfo che vive da qualche parte nel nord. Se saremo abbastanza fortunati, lo troveremo e guadagneremo dei soldi...~
 //@27 from NTHAEBAL.tra 
 @10020    = ~Il Culto della Mano Nera
 
-In che modo il nostro lavoro é stato apprezzato! Abbiamo camminato tantissimo fino a consumarci le scarpe e invece della ricompensa che ci ha promesso, Haeball ha provato ad ucciderci! Non so perché, ma ho la sensazione che Haeball non sia l'ultimo o il solo anello della catena...~
+Tanto per apprezzare le nostre fatiche! Abbiamo camminato tantissimo fino a consumarci le scarpe e invece della ricompensa che ci ha promesso, Haeball ha provato ad ucciderci! Non so perché, ma ho la sensazione che Haeball non sia l'ultimo o il solo anello della catena...~
 //@16 from NTHASDAR.tra  
-@10021    = ~Il Grande Libro della Non Conoscenza 
+@10021    = ~Il Grande Libro dell'Inconoscibile
 
-Un uomo chiamato Hasdar rivendica che il libro esiste e che adesso è in possesso di Lobar. Sarebbe disposto a darmi 10,000 monete d'oro per riaverlo!~
+Un uomo chiamato Hasdar dice che il libro esiste e che adesso è in possesso di Lobar della Lanterna Fioca. Sarebbe disposto a pagarmi 10.000 monete d'oro per riaverlo!~
 //@34 from NTHASDAR.tra  
-@10022    = ~Il Grande Libro della Non Conoscenza
+@10022    = ~Il Grande Libro dell'Inconoscibile
 
-Ho restituito il libro magico ad Hasdar, giusto per scoprire che egli ha progettato di uccidermi. Me lo sarei dovuto aspettare. Sfortunatamente, non ho preso i miei soldi. Se mai lo incontrerò nuovamente, non sarà la stessa cosa.~
-@10023    = ~Isola delle Sirene
+Ho restituito il libro magico ad Hasdar, solo per scoprire che ha sempre avuto in mente di uccidermi. Me lo sarei dovuto aspettare. Sfortunatamente, non ho ottenuto il mo denaro. Se mai lo incontrassi nuovamente, le cose finiranno diversamente.~
+@10023    = ~Isola delle sirene
 
 Abbiamo lasciato l’isola delle amichevoli sirene, probabilmente non ci torneremo più.~
 //@3 from NTHUMBAB.tra 
-@10024    = ~Problema alla Costa a Nord
+@10024    = ~Problemi alla costa settentrionale
 
-I pescatori di un villaggio lungo la Costa a Nord ci hanno chiesto un favore e noi abbiamo trovato "per caso" una grotta vulcanica abitata da diverse Salamandre di Fuoco! Siamo stati sfidati, all’entrata, dalla loro sentinella Humbaba che abbiamo ucciso.~
+I pescatori di un villaggio lungo la costa settentrionale ci hanno chiesto un favore e siamo stati "inviati" a una grotta vulcanica abitata da diverse salamandre del fuoco! Siamo stati sfidati, all’entrata, dalla loro sentinella Humbaba che abbiamo ucciso.~
 //@5 from NTHUMBAB.tra 
-@10025    = ~Problema alla Costa a Nord
+@10025    = ~Problemi alla costa settentrionale
 
-Lungo la Costa a Nord ci siamo imbattuti in diverse Salamandre di Fuoco che abitavano una grotta vulcanica e che terrorizzavano i pescatori locali.~
+Lungo la costa settentrionale ci siamo imbattuti in diverse salamandre del fuoco che abitavano una grotta vulcanica e che terrorizzavano i pescatori locali.~
 //@11 from NTHUMBAB.tra 
-@10026    = ~Problema alla Costa a Nord
+@10026    = ~Problemi alla costa settentrionale
 
-L'incontro con le Salamandre di Fuoco è sembrato molto pericoloso ed abbiamo fatto una ritirata strategica per ora...~
+L'incontro con le salamandre del Fuoco è sembrato molto pericoloso e abbiamo optato per una ritirata strategica... per ora.~
 //@1 from NTKEELOR.tra #15737
-@10027    = ~Keelor il Nano 
+@10027    = ~Keelor il nano 
 
-Dopo aver fatto riprendere conoscenza a Keelor, il nano colpito mi ha informato che ci sono degli gnoll in questa zona. Dallo stato in cui hanno ridotto Keelor, è chiaro quanto questi siano una minaccia crescente.~
+Dopo aver fatto riprendere conoscenza a Keelor, il nano malconcio mi ha informato che ci sono degli gnoll in questa zona. Dallo stato in cui hanno ridotto Keelor, è chiaro quanto rappresentino una minaccia crescente.~
 //@3 from NTKEELOR.tra #15738
-@10028    = ~Keelor il Nano
+@10028    = ~Keelor il nano
 
-Dopo aver fatto riprendere conoscenza a Keelor, il nano colpito mi ha informato che ci sono gnoll in questa zona. Dallo stato in cui hanno ridotto Keelor, è chiaro quanto questi siano una minaccia crescente. Sarà meglio che dia un'occhiata da lui la prossima volta che passo da Beregost, perché ho l'impressione che fosse impaurito ben più di quanto abbia voluto ammettere.~
+Dopo aver fatto riprendere conoscenza a Keelor, il nano malconcio mi ha informato che ci sono degli gnoll in questa zona. Dallo stato in cui hanno ridotto Keelor, è chiaro quanto rappresentino una minaccia crescente. Sarà meglio che lo vada a trovare la prossima volta che passo da Beregost, perché ho l'impressione che fosse impaurito ben più di quanto abbia voluto ammettere.~
 //@5 from NTKEELOR.tra #15739
-@10029    = ~Keelor il Nano
+@10029    = ~Keelor il nano
 
-Dopo aver fatto riprendere conoscenza a Keelor, il nano colpito mi ha informato che ci sono gnoll in questa zona. Dallo stato in cui hanno ridotto Keelor, è chiaro quanto questi siano una minaccia crescente. Con un gesto di inaspettata gentilezza, esso mi ha offerto le cure di sua sorella, Nasha, una chierica del quartiere sud di Baldur's Gate, nel caso dovessi mai averne bisogno.~
+Dopo aver fatto riprendere conoscenza a Keelor, il nano malconcio mi ha informato che ci sono degli gnoll in questa zona. Dallo stato in cui hanno ridotto Keelor, è chiaro quanto rappresentino una minaccia crescente. Con un gesto di inaspettata gentilezza, mi ha offerto le cure di sua sorella, Nasha, una chierica del quartiere sud di Baldur's Gate, nel caso dovessi mai averne bisogno.~
 //@6 from NTKOLDAR.tra 
 @10030    = ~I Campi dei Morti
 
-A nord di Baldur's Gate nel Bosco dei Morti abbiamo incontrato un ranger solitario, Koldar che ci ha avvisato della frequente ed insolita presenza di molti Orchi in questa zona. Sembra come se stessero provando a risolvere il mistero di un antico santuario costruito nel bosco.~
+A nord di Baldur's Gate nei Campi dei Morti abbiamo incontrato un ranger solitario, Koldar che ci ha avvisato della frequente e insolita presenza di molti orchi in questa zona. Sembra che stiano provando a risolvere il mistero di un antico santuario costruito nel bosco.~
 // @10 from NTKRESTI.tra
-@10031    = ~Isola delle Sirene
+@10031    = ~Isola delle sirene
 
-C'è anche un elfo che faceva parte dell'equipaggio di Balduran sull'"Isola del Paradiso". Ma sembra che a lui piaccia il clima locale e, per il momento, dice che le sue "ragazze" sono più importanti...~
+C'è anche un elfo che faceva parte dell'equipaggio di Balduran sull'"Isola Paradisiaca". Ma sembra che a lui piaccia il clima locale e, per il momento, dice che le sue "ragazze" sono più importanti...~
 //@6 from NTKROTAN.tra 
 @10032    = ~Mistero alla Cittadella del Nord
 
-Abbiamo incontrato Krotan all'interno del mausoleo. Si stava preparando ad impossessarsi della Cittadella. Le guardie ed i nostri "sostenitori" stavano dalla parte del nemico e la battaglia è iniziata... Alla fine Krotan ed i suoi "sostenitori" sono stati uccisi.~
+Abbiamo incontrato Krotan all'interno del mausoleo. Si stava preparando ad attaccare la Cittadella. Le guardie ed i nostri "sostenitori" stavano dalla parte del nemico e la battaglia è iniziata... Alla fine Krotan ed i suoi "sostenitori" sono stati uccisi.~
 //@2 from NTLENORE.tra 
 @10033    = ~Lenore e Montgomery
 
-Nella Cittadella abbiamo incontrato Lenore che con suo grande sforzo ci ha parlato di queste sparizioni. Lei si preoccupa soprattutto per Montgomery che è tra le persone scomparse. Se lo troveremo probabilmente scopriremo la verità su ciò che affligge Lenore.~
+Nella Cittadella abbiamo incontrato Lenore che con grande sofferenza ci ha parlato di queste sparizioni. Lei si preoccupa soprattutto per Montgomery, che è tra le persone scomparse. Dovremmo cercarlo e forse riusciremo a lenire il dolore di  Lenore.~
 //@2 from NTLLINDE.tra #15731
 @10034    = ~La Freccia Fortunata di Llindellyn
 
-Eccomi, un altro semplice avventuriero che mena il can per l'aia, cercando la freccia fortunata di qualche straniero. Insomma, Llindellyn è un bravo ragazzo, però... io non dovrei essere in giro a massacrare tarrasque o roba del genere?~
+Eccomi qui, un altro umile avventuriero che gira per i cespugli, cercando la freccia fortunata di uno straniero qualsiasi. Insomma, Llindellyn è un bravo ragazzo, però... io non dovrei essere in giro a massacrare tarrasque o roba del genere?~
 //@11 from NTLUCRET.tra 
-@10035    = ~Isola delle Sirene
+@10035    = ~Isola delle sirene
 
 Lucretia è pronta a passare qualche piacevole momento con me... Ma vuole qualche gioiello in cambio... Le donne non cambieranno mai...~
 //@3 of NTMAGDAD.tra (splitted in two: @10036 and @10106)
 @10036    = ~Salvare i figli di Magnad e Winorma 
 
-A Baldur's Gate abbiamo incontrato Magnad e Winorma che hanno perduto i loro figli durante il loro viaggio verso Elthurel dopo che la loro carovana é stata attaccata da un gruppo di orchi. Magnad pensa che gli orchi abbiano portato i loro figli ai Campi dei Morti, che si trova da qualche parte a nord di Baldur's Gate.~
+A Baldur's Gate abbiamo incontrato Magnad e Winorma che hanno perduto i loro figli durante il viaggio verso Elthurel quando la loro carovana è stata attaccata da un gruppo di orchi. Magnad pensa che gli orchi abbiano portato i loro figli ai Campi dei Morti, un luogo da qualche parte a nord di Baldur's Gate.~
 //@18 of NTMEANDA.tra (split in two with @10087)
 @10037    = ~Il Culto della Mano Nera
 
-Meandar, il capo delle Salamandre di Ghiaccio si é rifiutato anche di parlare della chiave che serve per sbloccare l’altare all’interno della Cittadella del Nord, finché non distruggiamo il Culto della Mano Nera ed uccidiamo il suo capo. Ora, se riusciamo a scoprire dove si trova il culto, probabilmente potremmo continuare la nostre ricerca del culto. Meandar ci ha suggerito di andare ad Ulgoth's Beard e ai Campi dei Morti per cercare delle risposte.~
+Meander, il capo delle salamandre del ghiaccio chiede la distruzione del Culto della Mano Nera e la morte del suo capo. Ora, se solo sapessimo come trovare il culto, forse potremmo fare qualche progresso. Meander ha suggerito di cercare le risposte a Ulgoth's Beard e nei Campi dei Morti.~
 //@10 in NTMILEA.tra 
-@10038    = ~Isola delle Sirene
+@10038    = ~Isola delle sirene
 
-E' veramente gentile la sirena Milea, che vive sull'isola magica, a lei piace rispondere alle domande nonostante quello che dice... e questa è un'isola di paradiso!?~
+È veramente gentile la sirena Milea, che vive sull'isola paradisiaca, a lei piace rispondere alle domande nonostante quello che dice... e questa è veramente un'isola paradisiaca!?~
 //@2 of NTNADALI.tra 
 @10039    = ~Nadalin il pescatore
 
-A Baldur's Gate abbiamo incontrato un amichevole pescatore, Nadalin. Sembra che alcune cose strane succedano nel villaggio a nord dove vive. Dice che delle Salamandre di Fuoco hanno attaccato il suo villaggio ed ora nessuno può pescare in quella zona. Dovrò prendere in considerazione di esaminare il problema quando capiterò là.~
+A Baldur's Gate abbiamo incontrato un amichevole pescatore, Nadalin. Sembra che alcuni strani fatti stiano accadendo a nord nel villaggio dove vive. Dice che delle salamandre del fuoco hanno attaccato il suo villaggio e ora nessuno può pescare in quella zona. Dovrò prendere in considerazione di occuparmi del problema quando capiterò da quelle parti.~
 //@5 of NTNADALI.tra (added content)
 @10040   = ~Nadalin il pescatore  
 
-Abbiamo raccontato a Nadalin, che é un pescatore ed un marinaio, che abbiamo distrutto le Salamandre di Fuoco e le Sirene che perseguitavano il suo villaggio. Ora può ritornare alla sua terra natia. Potrebbe essere disposto a trasportarci con la sua barca, se ne avremo bisogno.~
-@10041   = ~Problema alla Costa a Nord~
+Abbiamo raccontato a Nadalin, un pescatore e marinaio, che abbiamo distrutto le salamandre del fuoco e le sirene che perseguitavano il suo villaggio. Ora può ritornare alla sua terra natia. Ha detto di essere disposto a prenderci a bordo della sua barca, se ne avessimo bisogno.~
+@10041   = ~Problemi alla costa settentrionale~
 //@1 of NTNIMFUR.tra #15715
 @10042    = ~Cani da caccia di Nim Furlwing
 
-Mi sento più un folle che un vero avventuriero, oggi. Sembra che io sia arrivato troppo tardi ed ho fatto molto poco per salvare dei bei cani da caccia di un certo Nim Furlwing nel Bosco dei Denti Aguzzi.~
+Mi sento più un folle che un vero avventuriero, oggi. Sembra che io sia arrivato troppo tardi e ho fatto molto poco per salvare dei bei cani da caccia di un certo Nim Furlwing nel Bosco dei Denti Aguzzi.~
 //@4 of NTNIMFUR.tra
 @10043   = ~Cani da caccia di Nim Furlwing
 
-Bosco dei Denti Aguzzi! Oggi, ho salvato i cani da caccia di razza pura di Nim Furlwing da terribili lupi e sono, lo ammetto, ancora un po' dolorante dall'impresa.~
+Bosco dei Denti Aguzzi! Oggi, ho salvato i cani da caccia di razza pura di Nim Furlwing da alcuni lupi terribili e sono, lo ammetto, ancora un po' dolorante per lo sforzo.~
 // @2 of NTOLIVIA.tra #15792
-@10044   = ~Olivia e i Gabbiani
+@10044   = ~Olivia e i gabbiani
 
-La druida Olivia, nella sua sede presso il mare, intreccia le parole come si intreccerebbe un incantesimo. Desidera ardentemente diventare un gabbiano, prima o poi, per volare qua e là. E' un sogno nobile se riuscirò a farglielo realizzare, anzi, garantisco che ce la farò, se non altro per vedere la sua bellezza librarsi nell'aria...~
-// @4 of NTOLIVIA.tra #15792
-@10045   = ~Olivia e i Gabbiani
+La druida Olivia, nel suo rifugio vicino al mare, intesse le parole come farebbe con un incantesimo. Desidera ardentemente diventare un gabbiano, prima o poi, per volare liberamente. È un nobile sogno e, se potrò farglielo realizzare, lo farò sicuramente, se non altro per guardare la bellezza del suo volo...~
 
-Abbiamo trovato il modo di avverare il sogno di Olivia di diventare una Druida. Siamo rimasti sorpresi quando abbiamo conosciuto la sua vera natura...~
-@10046   = ~Olivia e i Gabbiani~
+@10045   = ~Olivia e i gabbiani
+
+Ho trovato il modo di rendere vero il sogno di Olivia la druida. Potete immaginare quanto sono rimasto sorpreso quando ho realizzato la sua vera natura...~
+@10046   = ~Olivia e i gabbiani~
 @10047    = ~Cani da caccia di Nim Furlwing~
 //@10 of NTORDOL.tra
-@10048   = ~La Candela di Ordolath
+@10048   = ~La candela di Ordolath
 
-Nella regione ad ovest di Nashkel, abbiamo incontrato uno strano uomo, Ordolath che ci ha offerto 2000 monete d'oro ed un oggetto prezioso per portargli una candela da Baldur's Gate. L'ha dimenticata nella sua casa, nella parte Nord, una casa bianca dietro una torre blu.~
+Nella regione ad ovest di Nashkel, ho incontrato uno strano uomo, Ordolath che mi ha offerto 2.000 monete d'oro e un oggetto prezioso in cambio di una candela da prendere a Baldur's Gate. L'ha dimenticata nella sua casa, nella parte settentrionale, una casa bianca alle spalle di una torre blu.~
 //@20 of NTORDOL.tra
-@10049   = ~La Candela di Ordolath
+@10049   = ~La candela di Ordolath
 
-Abbiamo portato ad Ordolath la candela che si trovava nella sua casa a Baldur's Gate, e fedele alla sua parola, prima di ripartire ci ha dato un’eccellente bacchetta della sua collezione. Purtroppo, sembra essersi dimenticato che ci aveva promesso di darci anche 2000 monete d’oro per il nostro disturbo. In futuro sarà meglio tenerlo d’occhio e ricordargli che ci deve dei soldi, semmai lo dovessimo incontrare nuovamente...~
+Ho portato ad Ordolath la candela dimenticata nella sua casa a Baldur's Gate e, fedele alla sua parola, prima di ripartire mi ha dato un’eccellente bacchetta della sua collezione. Purtroppo, sembra essersi dimenticato che mi aveva promesso anche 2.000 monete d’oro per il disturbo. In futuro sarà meglio tenerlo d’occhio e ricordargli che mi deve del denaro, semmai lo dovessi incontrare nuovamente...~
 //@22 of NTORDOL.tra
-@10050   = ~La Candela di Ordolath
+@10050   = ~La candela di Ordolath
 
-Abbiamo portato la candela ad Ordolath, ci ha dato la nostra ricompensa, ed è scomparso tra la foschia. A volta sembra quasi che appena si fa in tempo a conoscere qualcuno questo poi sparisca per sempre. Una cosa triste!...~
-@10051   = ~La Candela di Ordolath~
+Ho portato la candela ad Ordolath, mi ha dato la ricompensa, poi è scomparso nella nebbia. A volta sembra quasi che, appena si conosce qualcuno, questo poi sparisce per sempre. Una cosa molto triste!...~
+@10051   = ~La candela di Ordolath~
 //@13 from NTOUPAST.tra (content added) 
-@10052   = ~Il Grande Libro della Non Conoscenza
+@10052   = ~Il Grande Libro dell'Inconoscibile
 
-Oupaste non ci è stato molto utile ma dice che il mago a cui ha venduto il libro vive verso i Picchi delle Nuvole. Ci sono già stato ai Picchi delle Nuvole ma suppongo che dovrò tornarci per cercare il passaggio.~
+Oupaste non ci è stato molto utile, ma dice che il mago a cui ha venduto il libro vive nei Picchi delle Nuvole a sud-ovest di Nashkel. Ci sono già stato prima, ma suppongo che dovrò tornarci per cercare il passaggio.~
 //@6 from NTPANDRI.tra (splitted into several: @10053, @10097, @10098)
-@10053  = ~Salvare Pandris dagli Orchi
+@10053  = ~Salvare Pandris dagli orchi
 
 Abbiamo salvato Pandris, il marito di Yness dagli orchi ai Campi dei Morti. Ci ha dato una lettera per sua moglie. Non sono solo un Salvatore di vite, ora sono anche un messaggero di buone notizie!~
 //@7 from NTPAULIA.tra 
-@10054  = ~Isola delle Sirene
+@10054  = ~Isola delle sirene
 
-Ad una sirena, chiamata Paulia, piace l'uva... ma a chi non piace, così fresca e dolce?~
+Ad una sirena di nome Paulia piace l'uva... ma a chi non piace, così fresca e dolce?~
 //@2 from NTPILAR.tra 
 @10055   = ~Pilar e Gheldehar
 
-Davanti a una birra schiumosa alla Locanda di Braccio Amico, Pilar, una mezzelfa, mi ha messo in guardia su Gheldehar, un anziano chierico gnomesco di Baldur's Gate. Questi ha ancora un suo vecchio anello e se dovessi mai riportarglielo, mi ha promesso che il viaggio ne varrebbe la pena.~
+Davanti a una birra schiumosa alla Locanda del Braccio Amico, Pilar, una mezzelfa, mi ha messo in guardia su Gheldehar, un anziano gnomo chierico di Baldur's Gate. Possiede un suo vecchio anello e se dovessi mai riportarglielo, mi ha promesso che il viaggio ne varrebbe la pena.~
 @10056  = ~Pilar e Gheldehar~
 //@5 from NTPRIHEL.tra 
-@10057  = ~L’Altare Chiuso di Helm
+@10057  = ~L’altare sigillato di Helm
 
-C'è un altare chiuso nella Cittadella. Questo è molto strano... Mi è stato detto che Avery sa qualcosa in merito. Dobbiamo parlarci se vogliamo avere una possibilità...~
+C'è un altare sigillato nella Cittadella. Questo è interessante... mi è stato detto che Avery ha qualche informazione sulla faccenda. Devo parlarci per avere una possibilità...~
 //@7 from NTREDEDG.dlg #7120
-@10058    = ~La Corporazione dei ladri ha avuto molti problemi da quando Angelo è diventato il comandante del Pugno Fiammante.~
+@10058    = ~La Gilda dei Ladri ha avuto molti problemi da quando Angelo è diventato il comandante del Pugno Fiammante.~
 //@1 from NTREEDRI.dlg 
 @10059    = ~Il Culto della Mano Nera
 
-Vicino all’accampamento degli orchi nel Campo dei Morti in una delle grotte abbiamo incontrato un monaco. Sembrerebbe che gli orchi volessero condannarlo al martirio. Ci é stato talmente grato che ha trascurato di ricompensarci ed è andato via rapidamente a causa di un'importante compito da svolgere ad Ulgoth's Beard. E’ alquanto strano ed interessante che degli orchi abbiano potuto infastidire un semplice monaco. Bisognerà investigare in maniera più approfondita quando torneremo ad Ulgoth's Beard.~
+Vicino all’accampamento degli orchi, nel Campo dei Morti, in una delle grotte abbiamo incontrato un monaco. A quanto pare gli orchi volevano martirizzarlo. Era così grato che ha trascurato di ricompensarci ed è scappato velocemente per una sua importante missione a Ulgoth's Beard. Interessante che gli orchi perdano tempo a infastidire un semplice monaco. La faccenda merita ulteriori indagini quando arriveremo di nuovo a Ulgoth's Beard.~
 //@11 from NTSATOS.dlg 
 @10060   = ~Mistero alla Cittadella del Nord
 
-C'è un nuovo abate nella Cittadella del Nord dopo che il suo predecessore è scomparso assieme ad altre sette persone. Da quello che ci risulta è venuto qui da Baldur's Gate anche un gruppo di tre persone che si credeva fossero giunte per aiutarci con le indagini, ma si è visto come invece abbiano altri scopi...~
+C'è un nuovo abate nella Cittadella del Nord dopo che il suo predecessore è scomparso assieme ad altre sette persone. Da quello che ci risulta è arrivato da Baldur's Gate anche un gruppo di tre persone che avrebbero dovuto aiutarci con le indagini, ma è chiaro che invece hanno altri scopi...~
 //@14 from NTSATOS.dlg 
 @10061   = ~Mistero alla Cittadella del Nord
 
-E così l'abate Satos è stato assassinato anche prima che noi avessimo regolato Krotan. Satos ci ha dato la chiave del Mausoleo. E' ora che lo spettacolo finisca.~
+Così anche l'abate Satos è stato ucciso prima che riuscissimo a fermare Krotan. Satos ci ha dato la chiave del Mausoleo. È ora che la commedia abbia termine.~
 //@33 from NTSHAELL.dlg 
-@10062   = ~Il Grande Libro della Non Conoscenza
+@10062   = ~Il Grande Libro dell'Inconoscibile
 
-Shaella, un'interessante sacerdotessa di Leira, mi ha mandato in pellegrinaggio a casa a Candlekeep, dove giace il Grande Libro della Non Conoscenza. Leggendo dalle sue pagine, anzi persino toccando questo Grande Libro, esso benedice con l'ignoranza che solo questo libro può concedere. Parlerò di nuovo con lei non appena lo avrò trovato.~
+Shaella, un'interessante sacerdotessa di Leira, mi ha inviato in pellegrinaggio nella mia casa a Candlekeep, dove è custodito il Grande Libro dell'Inconoscibile. Leggere le sue pagine, anzi, soltanto il fatto di toccarlo, conferisce a una persona l'ignoranza che solo esso può concedere. Parlerò di nuovo con lei non appena lo avrò trovato.~
 //@45 from NTSHAELL.dlg 
-@10063   = ~Il Grande Libro della Non Conoscenza
+@10063   = ~Il Grande Libro dell'Inconoscibile
 
 Shaella, o piuttosto Elnaedra adesso, dice che ho trovato il libro anche se non l'ho trovato. Cosa significa questo?~
 //@3 from NTSVLAST.dlg // #15713 
-@10064   = ~Il Tormento di Svlast
+@10064   = ~Il tormento di Svlast
 
-Sono stato testimone di tristi eventi alle rovine di Firewine. Un ex paladino di nome Svlast viene perseguitato dallo spirito del suo fratello di fede, che uccise per sbaglio. Non ho mai visto un'anima più avvilita e pentita del povero Svlast. Ci ha pregato di non interferire, ma il mio cuore è inquieto di fronte ad una tale scelta...~
+Sono stato testimone di tristi eventi alle rovine di Firewine. Un ex paladino di nome Svlast viene perseguitato dallo spirito del suo fratello di fede, che ha ucciso per sbaglio. Non ho mai visto un'anima più avvilita e pentita del povero Svlast. Ci ha pregato di non interferire, ma il mio cuore è inquieto di fronte ad una tale scelta...~
 //@5 from NTSVLAST.dlg // #15703
-@10065   = ~Il Tormento di Svlast
+@10065   = ~Il tormento di Svlast
 
 Dopo essere sopravvissuto all'assalto del fantasma grazie al nostro aiuto, il povero e sfortunato Svlast ci ha pregato di completare il suo compito... Il giorno è scuro tra queste rovine e temo che diventerà ancora più scuro.~
-@10066   = ~Il Tormento di Svlast~
+@10066   = ~Il tormento di Svlast~
 //@1 from NTSZYPER.dlg (changed content)
-@10067   = ~Problema alla Costa a Nord
+@10067   = ~Problemi alla costa settentrionale
 
-Lungo la Costa a Nord vive una piccola comunità di pescatori. Sembra che dei mostri si siano introdotti nella zona a nord del loro villaggio che li ha terrorizzati: salamandre di fuoco e sirene!~
+Lungo la costa settentrionale vive una piccola comunità di pescatori. Sembra che dei mostri si siano introdotti nella zona a nord del loro villaggio che li ha terrorizzati: salamandre del Fuoco e sirene!~
 //parts from @18 from NTSZYPER.dlg 
-@10068   = ~Problema alla Costa a Nord
+@10068   = ~Problemi alla costa settentrionale
 
-Abbiamo eliminato il problema che avevano i pescatori lungo la Costa a Nord con le Sirene e le Salamandre di fuoco.~
+Abbiamo risolto il problema che avevano i pescatori lungo la costa settentrionale con le Sirene e le salamandre del fuoco.~
 //parts from @18 from NTSZYPER.dlg 
-@10069   = ~Il Simbolo di Helm
+@10069   = ~Il simbolo di Helm
 
-Il Comandante, capo del villaggio, ci ha detto che c'è un'isola, come quella che stiamo cercando, nelle vicinanze. Ci ha detto anche che la strada per arrivare a quest'isola è conosciuta solamente da un pescatore, di nome Nadalin, che è andato via dal villaggio un po' di tempo fa quando le Sirene e le Salamandre di Fuoco sono iniziate a comparire.~
+Il capo del villaggio che si trova sulla costa settentrionale, ci ha detto che c'è un'isola, come quella che stiamo cercando, nelle vicinanze. Ci ha detto anche che la rotta per arrivare a quest'isola è nota solamente a un pescatore, di nome Nadalin, che se n'è andato dal villaggio da quando le sirene e le salamandre del fuoco sono comparse.~
 // @1 from NTTAMASS.dlg 
-@10070   = ~Isola delle Sirene
+@10070   = ~Isola delle sirene
 
-Tornando indietro dall'isola dei lupi mannari, ci siamo fermati su un'amichevole isola per rifornirci di provviste, che per la fretta non abbiamo potuto fare prima. Sulla spiaggia siamo stati accolti da alcune gentili sirene, che vivono sull'isola. Non dovremmo rimanere qui per parecchio tempo...?~
+Tornando indietro dall'isola dei lupi mannari, ci siamo fermati su un'amichevole isola per rifornirci di provviste, che per la fretta non abbiamo potuto stivare prima. Sulla spiaggia siamo stati accolti da alcune gentili sirene, che vivono sull'isola. Forse potremmo rimanere qui per un po' di tempo...?~
 // @18 from NTTORDIO.dlg 
-@10071   = ~Fantasma ad Est di Beregost
+@10071   = ~Fantasma ad est di Beregost
 
-Un fantasma, o dei fantasmi, risiedono nella caverna ad est del Tempio del Canto del Mattino... Questi "fantasmi" raccontano storie sull'esistenza di una spada dal nome Spada della Vendetta del Vampiro... Hanno bisogno di questa spada e dell'Acqua Benedetta oppure, in alternativa, di qualcuno veramente ostinato nel "mandarli" nell'oltretomba... Vedremo cosa si potrà fare...~
+Un fantasma, o alcuni fantasmi, infestano la caverna ad est del Tempio del Canto del Mattino... Questi "fantasmi" raccontano storie sull'esistenza di una spada dal nome Spada della Vendetta del Vampiro... Hanno bisogno di questa spada e di un po' di acqua benedetta oppure, in alternativa, di qualcuno veramente determinato nel "mandarli" nell'oltretomba... Vedremo cosa potrò fare...~
 // @24 from NTTORDIO.dlg
-@10072   = ~Fantasma ad Est di Beregost
+@10072   = ~Fantasma ad est di Beregost
 
-Il fantasma della grotta di Beregost ha ricevuto tutti gli oggetti necessari e finalmente è andato via... loro sono andati via... è ora di dare uno sguardo nella sua camera!~
-@10073   = ~Fantasma ad Est di Beregost~
+Il fantasma della grotta di Beregost ha ricevuto tutti gli oggetti necessari e finalmente se n'è andato... loro se ne sono andati... è ora di dare uno sguardo nella sua camera mortuaria!~
+@10073   = ~Fantasma ad est di Beregost~
 // @2 from NTWELT.dlg #15741
 @10074   = ~Topi per Pooch
 
-Welt, un uomo dei bassifondi di Baldur's Gate che ha imparato l'arte del monosillabo e che sembra, anzi, puzza perfino come un orco, mi ha chiesto di raccogliere topi per il suo cane Pooch. Ha l'aspetto di un tipo a cui è meglio non dire di no...~
+Welt, un uomo dei bassifondi di Baldur's Gate, maestro nell'arte del monosillabo e che sembra, anzi, puzza perfino come un orco, mi ha chiesto di raccogliere topi per il suo cane Pooch. Ha l'aspetto di un tipo a cui è meglio non dire di no...~
 // @1 from WENRIC.tra 
 @10075   = ~I Campi dei Morti
 
-Un contadino a nord di Baldur’s Gate ci ha parlato delle anomale attività degli orchi nella zona. Gli orchi stanno rapendo gli abitanti del villaggio, come abbiamo già sentito a Baldur's Gate, e sembrano essere molto pericolosi. Lo verificheremo presto..~
+Un contadino a nord di Baldur’s Gate ci ha parlato delle inusuali attività degli orchi nella zona. Gli orchi stanno rapendo gli abitanti del villaggio, come abbiamo già sentito dire a Baldur's Gate, e sembrano essere molto pericolosi. Dovrei indagare su questo nel prossimo futuro.~
 // @10 from NTYNESS.tra
-@10076   = ~Salvare Pandris dagli Orchi
+@10076   = ~Salvare Pandris dagli orchi
 
-Dobbiamo aiutare Pandris, un contadino che vive vicino a Baldur's Gate. E' stato rapito dagli orchi nei Campi dei Morti. Gli orchi sono diventati più attivi recentemente. Mi domando perché...~
+Dobbiamo aiutare Pandris, un contadino che vive vicino a Baldur's Gate. È stato rapito dagli orchi dei Campi dei Morti. Gli orchi sono diventati più attivi recentemente. Mi domando perché...~
 // @16 from NTYNESS.tra
-@10077   = ~Salvare Pandris dagli Orchi
+@10077   = ~Salvare Pandris dagli orchi
 
-Abbiamo portato ad Yness il messaggio da suo marito, che noi avevamo salvato dalle mani degli Orchi. E' stata molto contenta, ma non aveva i soldi per pagarci.~
-@10078   = ~Salvare Pandris dagli Orchi~
+Abbiamo portato ad Yness il messaggio da suo marito, salvato dalle grinfie degli orchi. È stata molto contenta, ma non aveva denaro per ricompensarci.~
+@10078   = ~Salvare Pandris dagli orchi~
 // @26 from WILL.tra 
 @10079   = ~Will O'Hara
 
@@ -286,42 +286,42 @@ C'è un insolito ragazzo che vive a Beregost - Will Scarlet, sebbene qualcuno lo 
 // @37 from WILL.tra
 @10080   = ~Will O'Hara
 
-Will ha impegnato il suo mazzafrusto originale presso Feldepost per un migliaio di monete d'oro. Dovrei considerare di riscattarlo. Ha anche ordinato una nuova armatura presso la fucina di Taerom Thunderhammer a Beregost. Se avremo il denaro sarà nostra per... 5000 monete d'oro...! Il mio nuovo amico è veramente "prezioso"!~
+Will ha impegnato il suo mazzafrusto originale alla Locanda di Feldepost per un migliaio di monete d'oro. Dovrei considerare di riscattarlo. Ha anche ordinato una nuova armatura presso la fucina di Taerom Thunderhammer a Beregost. Potrebbe essere nostra per sole... 5.000 monete d'oro...! Il mio nuovo amico è veramente "prezioso"!~
 @10081   = ~Will O'Hara~
 @10082   = ~I Campi dei Morti~
-@10083   = ~Isola delle Sirene~
+@10083   = ~Isola delle sirene~
 @10084   = ~Il Culto della Mano Nera~
 @10085   = ~Il Culto della Mano Nera
 
-Reedrig ha detto che Il Culto della Mano Nera può essere trovato a nord est del Bosco dei Denti Aguzzi.~
-@10086   = ~Il Simbolo di Helm~
+Reedrig ha detto che il Culto della Mano Nera può essere trovato a nord est del Bosco dei Denti Aguzzi.~
+@10086   = ~Il simbolo di Helm~
 //@18 of NTMEANDA.tra (split in two with @10037)
-@10087    = ~Il Simbolo di Helm
+@10087    = ~Il simbolo di Helm
 
-Meandar, il capo delle Salamandre di Ghiaccio si é rifiutato anche di parlare della chiave che serve per sbloccare l’altare all’interno della Cittadella del Nord, finché non distruggiamo il Culto della Mano Nera ed uccidiamo il suo capo.~
-@10088    = ~Il Simbolo di Helm
+Meandar, il leader delle Salamandre del Ghiaccio ha rifiutato di prendere in considerazione la possibilità di parlare della chiave dell'altare sigillato nella Cittadella del Nord, fino a dopo la distruzione del Culto della Mano Nera e la morte del suo leader.~
+@10088    = ~Il simbolo di Helm
 
-Abbiamo ricevuto la chiave dell’altare chiuso nella Cittadella del Nord da Meandar, dal capo delle Salamandre di Ghiaccio.~
-@10089    = ~Il Simbolo di Helm
+Abbiamo ricevuto la chiave dell’altare sigillato nella Cittadella del Nord da Meandar, il capo delle Salamandre di Ghiaccio.~
+@10089    = ~Il simbolo di Helm
 
-Abbiamo ricevuto il Simbolo di Helm dall’altare nella Cittadella del Nord.~
+Abbiamo raccolto il simbolo di Helm dall’altare nella Cittadella del Nord.~
 // similar to @10069 (if Nadalin already returned home)
-@10090   = ~Il Simbolo di Helm
+@10090   = ~Il simbolo di Helm
 
-Il Comandante, capo del villaggio, ci ha detto che c'è un'isola, come quella che stiamo cercando, nelle vicinanze. Ci ha detto anche che la strada per arrivare a quest'isola è conosciuta solamente da un pescatore, di nome Nadalin.~
-@10091   = ~Il Simbolo di Helm
+Il capo del villaggio sulla costa settentrionale, ci ha detto che c'è un'isola, come quella che stiamo cercando, nelle vicinanze. Ci ha detto anche che la rotta per arrivare a quest'isola è nota solamente a un pescatore, di nome Nadalin.~
+@10091   = ~Il simbolo di Helm
 
-Nadalin, il pescatore della Costa a Nord, è tornato alla sua barca ed è pronto a portarci in altri luoghi se lo desideriamo.~
-@10092   = ~Il Tanar’ri ai Picchi delle Nuvole~
-@10093   = ~Il Tanar’ri ai Picchi delle Nuvole
+Nadalin, il pescatore della costa settentrionale, è tornato alla sua barca ed è pronto a condurci in altri luoghi se lo desideriamo.~
+@10092   = ~I tanar’ri ai Picchi delle Nuvole~
+@10093   = ~I tanar’ri ai Picchi delle Nuvole
 
-Ho incontrato diversi Tanar'ri in un sotterraneo dei Picchi delle Nuvole, i quali si sono offerti di ritornare pacificamente al loro piano natio se gli porto il corpo del mago che li ha evocati. Hanno menzionato il nome di Haeball con cui dovrei parlare.~
-@10094   = ~Il Tanar’ri ai Picchi delle Nuvole
+Ho incontrato diversi tanar'ri in un sotterraneo dei Picchi delle Nuvole. Si sono offerti di ritornare pacificamente al loro piano natio in cambio del corpo del mago che li ha evocati. Hanno menzionato il nome di Haeball e penso proprio che dovrei parlare con lui.~
+@10094   = ~I tanar’ri ai Picchi delle Nuvole
 
-Forse non avrei dovuto parlare troppo – ora il Tanar'ri insiste nel ricevere l’arco del capitano Fey'doch...~
-@10095   = ~Il Grande Libro della Non Conoscenza
+Forse non avrei dovuto parlare troppo... ora i tanar'ri insistono nel ottenere anche l’arco del capitano Fey'doch...~
+@10095   = ~Il Grande Libro dell'Inconoscibile
 
-Ho trovato Il Grande Libro della Non Conoscenza! Almeno credo.~   
+Ho trovato Il Grande Libro dell'Inconoscibile! Almeno credo.~   
 @10096   = ~Nadalin il pescatore~
 //@6 from NTPANDRI.tra (splitted into several: @10053, @10097, @10098)
 @10097   = ~Salvare i figli di Magnad e Winorma
@@ -329,44 +329,44 @@ Ho trovato Il Grande Libro della Non Conoscenza! Almeno credo.~
 Abbiamo salvato dagli orchi i figli di Magnad ed Winorma. Ora possono tornare dai loro genitori.~
 @10098   = ~I Campi dei Morti
 
-Pandris, che abbiamo salvato dagli orchi, ci ha detto che gli orchi hanno qualche disputa con un certo culto qui nella zona. Ha anche sentito che gli orchi hanno provato ad entrare in un tempio abbandonato nel Bosco dei Morti che si trova a sud est. Dovremmo indagare.~
+Pandris, che abbiamo salvato dagli orchi, ci ha detto che gli orchi erano in conflitto con una setta della zona. Ha anche detto che stavano cercando di entrare in una cripta abbandonata nel Bosco dei Morti a sud-est. Dovremmo indagare sula faccenda.~
 @10099   = ~Salvare i figli di Magnad e Winorma~
-@10100   = ~Il Tormento di Svlast
+@10100   = ~Il tormento di Svlast
 
 Ho deciso di porre fine al tormento di Svalst, proprio come desiderava.~
-@10101   = ~Il Tormento di Svlast
+@10101   = ~Il tormento di Svlast
 
 Non potevo uccidere questo uomo tormentato. Se ne è andato, probabilmente ad espiare i suoi peccati.~
 @10102   = ~Il Culto della Mano Nera
 
-Abbiamo distrutto Il Culto della Mano Nera!~
+Abbiamo distrutto il Culto della Mano Nera!~
 //@13 from NTOUPAST.tra (content added) (similar to @10052 if PC already visited the Cloud Peak)
-@10103   = ~Il Grande Libro della Non Conoscenza
+@10103   = ~Il Grande Libro dell'Inconoscibile
 
-Oupaste non ci è stato molto utile ma dice che il mago a cui ha venduto il libro vive verso i Picchi delle Nuvole. Credo di sapere quale sia la via verso il passaggio di cui sta parlando; dovrebbe essere quel lembo di terra tra due piccoli corsi d’acqua.~
+Oupaste non è stato molto d'aiuto, ma dice che il mago a cui ha venduto il libro vive in una stretta valle dei Picchi delle Nuvole a sud-ovest di Nashkel. Credo di aver già trovato il passo di cui parla, quello accessibile dal lembo di terra tra i due piccoli ruscelli..~
 @10104   = ~Il Culto della Mano Nera
 
-Sembra che Il Culto della Mano Nera si trovi a nord est del Bosco dei Denti Aguzzi.~
+Sembra che Il Culto della Mano Nera si trovi a nord-est del Bosco dei Denti Aguzzi.~
 // similar to @10032 with content added
 @10105    = ~Mistero alla Cittadella del Nord
 
-Abbiamo incontrato Krotan all'interno del mausoleo. Si stava preparando ad impossessarsi della Cittadella. Le guardie ed i nostri "sostenitori" stavano dalla parte del nemico e la battaglia è iniziata... Alla fine Krotan ed i suoi "sostenitori" sono stati uccisi. Come lo sono stati tutti i monaci ... ops... Non credo che il Duca Eltan ne sarà contento. Anche se – non è rimasto nessuno per raccontargli cosa sia veramente successo, giusto?...~
+Abbiamo incontrato Krotan all'interno del mausoleo. Si stava preparando ad attaccare la Cittadella. Le guardie ed i nostri cosiddetti alleati stavano dalla parte del nemico e la battaglia è iniziata... Alla fine Krotan ed i suoi seguaci sono stati uccisi. Come lo sono stati tutti i monaci ... ops... Non credo che il Duca Eltan ne sarà contento. Anche se... non è rimasto nessuno per raccontargli cosa sia veramente accaduto, giusto?...~
 @10106    = ~Salvare i figli di Magnad e Winorma 
 
-Magnad non sapeva l’esatta collocazione dell’area, ma ci ha suggerito di viaggiare verso Ulgoth's Beard per vedere se possiamo trovare qualcuno che conosca la strada per arrivarci.~
+Magnad non conosceva l’esatta collocazione dell’area, ma ci ha suggerito di viaggiare verso Ulgoth's Beard per vedere se riusciamo a trovare qualcuno che conosce la strada.~
 @10107    = ~Salvare i figli di Magnad e Winorma 
 
-Abbiamo... 'salvato' la famiglia di Magnad dagli orchi. Perché le persone devono essere sempre così schizzinose!~
-@10108   = ~Salvare Pandris dagli Orchi
+Abbiamo... 'salvato' la famiglia di Magnad dagli orchi. Perché la gente è così esigente!~
+@10108   = ~Salvare Pandris dagli orchi
 
-Abbiamo consegnato ad Yness un messaggio da suo marito, che abbiamo..., er, 'salvato' dagli Orchi. Ah, é così emozionante poter aiutare.~
-@10109   = ~Il Grande Libro della Non Conoscenza
+Abbiamo consegnato ad Yness un messaggio da suo marito, che abbiamo..., ehm, 'salvato' dagli Orchi. Ah, è così emozionante poter aiutare.~
+@10109   = ~Il Grande Libro dell'Inconoscibile
 
 Shaella, o piuttosto Elnaedra adesso, dice che ho trovato il libro anche se non l'ho trovato. Cosa vuole dire?~
 
 /* new for version 3.0.0 */
-@10110 = ~Sotterraneo sigillato sotto il Ponte di Firewine
+@10110 = ~Sotterraneo bloccato sotto il Ponte di Firewine
 
-Il sotterraneo sotto il Ponte di Firewine Bridge ora è sgombero.~
+Il sotterraneo sotto il Ponte di Firewine ora è libero e sicuro.~
 
-@10111 = ~Sotterraneo sigillato sotto il Ponte di Firewine~
+@10111 = ~Sotterraneo bloccato sotto il Ponte di Firewine~

@@ -1,15 +1,15 @@
-@0 = ~Come osate, voi avvicinarvi ad Humbaba...? Siete impazziti, per caso?~
-@1    = ~Impazziti noi? Voi, invece, cosa STATE facendo qui? Perché non smettete di dare fastidio a questi poveri pescatori?~
-@2    = ~Muori... orribile mostro!~
+@0 = ~Come osate voi sciocchi abitanti del Primo Piano a venire da Humbaba...? Siete pazzi, per caso?~
+@1 = ~Pazzi noi? Tu, invece, cosa STAI facendo qui? Perché non la smetti di molestare i poveri pescatori?~
+@2 = ~Muori... orribile mostro!~
 /* @3 -> @10024 */
 @4 = ~Naturalmente non sarò da solo ad uccidervi. Humbaba è con i suoi amici, eccoli qui... Humbaba è pronto a combattere!~
 /* @5 -> @10025 */
-@6 = ~Mi fate andare in collera! Humbaba è pronto a combattere - voi siete stupidi - siete pronti per morire...!~
-@7    = ~Allora preparati, canaglia!~
-@8    = ~Calmati! Non possiamo neanche parlarne?~
-@9 = ~Humbaba dice che dovreste andarvene - o Humbaba sarà costretto ad uccidere!~
-@10   = ~Va bene ok, ok. Sembri abbastanza pericoloso. Non vogliamo combattere contro di te. Arrivederci!~
+@6 = ~Che rabbia portate! Humbaba è pronto a combattere... voi abitanti del Primo Piano siete stupidi... voi sciocchi abitanti del Primo Piano siete pronti per morire...!~
+@7 = ~Allora preparati, canaglia!~
+@8 = ~Calmati! Non possiamo neanche parlarne?~
+@9 = ~Humbaba dice che dovreste andarvene... o Humbaba sarà costretto ad uccidere!~
+@10 = ~Va bene, d'accordo. Sembri abbastanza pericoloso. Non vogliamo combattere contro di te. Arrivederci!~
 /* @11 -> @10026 */
-@12 = ~Ascolta bene Humbaba – non andremo da nessuna parte – siamo pronti a combattere.~
-@13 = ~Sei stato più furbo di Humbaba...! Humbaba é furioso...! Ora Humbaba vi ucciderà...!~
+@12 = ~Ascolta bene Humbaba... non andremo da nessuna parte... siamo pronti a combattere.~
+@13 = ~Avete superato in astuzia Humbaba...! Humbaba è furioso...! Ora Humbaba ucciderà tutti gli abitanti del Primo Piano...!~
 /* @14 = @3 */

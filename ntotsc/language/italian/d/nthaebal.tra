@@ -1,59 +1,59 @@
-@0 = ~Avere dei viaggiatori qui è veramente raro, visto che recentemente strane e violente creature di ogni specie sono apparse molto spesso tenendo alla larga molta gente da questa zona. Cosa posso fare per voi?~
-@1 = ~Hai qualcosa da vendere? Lasciaci dare uno sguardo più da vicino.~
+@0 = ~I viaggiatori qui sono veramente rari, visto che recentemente strane e violente creature di ogni specie sono apparse molto spesso. Cosa posso fare per te?~
+@1 = ~Hai qualcosa da vendere? Lasciami dare uno sguardo più da vicino.~
 /* @2 -> @10016 */
-@3    = ~Sono solo di passaggio... e sto partendo subito.~
-@4 = ~Avere dei viaggiatori qui è veramente raro. Circolano molte voci sui problemi nel sud. Cosa posso fare per voi?~
-@5    = ~Grazie. Sono solo di passaggio e non mi fermerò qui a lungo.~
-@6 = ~Mi dispiace. Non sei il benvenuto qui; semplicemente per il fatto che non sei necessario. E' tempo di morire, piccolo cucciolo piagnucoloso!!!~
+@3 = ~Sono solo di passaggio... e me ne vado immediatamente.~
+@4 = ~I viaggiatori qui sono veramente rari. Circolano molte voci sui problemi nel sud. Cosa posso fare per te?~
+@5 = ~Grazie. Sono solo di passaggio e non mi fermerò a lungo.~
+@6 = ~Mi dispiace. Non sei il benvenuto qui, semplicemente per il fatto che non sei necessario. È tempo di morire, cucciolo piagnucoloso!!!~
 /* @7 -> @10017 */
-@8 = ~Mi dispiace per il mio comportamento, ma ora le cose si sono messe veramente male. Recentemente un mio caro amico é morto a Baldur's Gate. Si chiamava Hasdar. Lo avevo assunto per ottenere qualche informazione ed ora la faccenda si é complicata.~
-@9    = ~Veramente è morto per mano nostra. In realtà possiamo dire che non era una persona così amichevole come hai detto. Di questi tempi non si può essere sicuri di nulla e non c'è modo di sapere di chi fidarsi!~
-@10   = ~Mi dispiace per l'accaduto. Possiamo comunque aiutarti?~
-@11 = ~Dovresti vergognarti di uccidere persone innocenti. Ma d'altra parte non era proprio un mio amico, ma solo qualcuno che avevo assunto per recuperare degli artefatti per me. L'ho pagato tre volte in più di quanto valesse. Ma questo é il mio triste destino. Se solo tu fossi in grado di sostituirlo nella sua missione te ne sarei riconoscente. Posso pagarti lo stesso prezzo che avevo concordato con lui.~
-@12   = ~Abbiamo come la sensazione di stare facendo incidentalmente qualcosa di utile e remunerativo... Rimaniamo con le orecchie ben aperte.~
-@13   = ~Mi dispiace, abbiamo molto da fare ora. Forse un'altra volta.~
-@14 = ~Ora, fai attenzione. Sono alla ricerca di due oggetti, ma anche uno andrà bene. Ho bisogno di qualcuno che li prenda per me. Posso pagarti in modo adeguato.~
-@15 = ~Il primo artefatto é un arco magico, una volta vanto dei soldati elfici, molto tempo fa. Comunque sono stato informato, che Fey'doch, un elfo che abita a nord di qui, nella Foresta degli Elfi, é entrato in possesso di questo prezioso oggetto. Forse potrai ricompralo da lui. Ti rimborserò tutte le spese che sosterrai e ci aggiungerò 2500 monete d'oro.~
+@8 = ~Mi dispiace per il mio comportamento, ma ora le cose si sono messe veramente male. Recentemente un mio caro amico è morto a Baldur's Gate. Si chiamava Hasdar. Lo avevo assunto per raccogliere qualche informazione e ora la faccenda si è complicata.~
+@9 = ~Veramente è morto per mano mia. In realtà posso dire che non era una persona così amichevole come hai detto. Ma i tempi non sono sicuri. Come avrei potuto realizzare che vi conoscevate?~
+@10 = ~Mi dispiace per l'accaduto. Posso comunque aiutarti?~
+@11 = ~Dovresti vergognarti per aver ucciso persone innocenti. Ma d'altra parte non era proprio un mio amico, solo qualcuno che avevo assunto per recuperare degli artefatti per me. L'ho pagato tre volte in più di quanto valesse. Ma questo è il mio triste destino. Se solo tu potessi sostituirlo nella sua missione te ne sarei riconoscente. Posso pagarti lo stesso prezzo che avevo concordato con lui.~
+@12 = ~Ho come la sensazione che qualcosa di utile e remunerativo sia in vista... le miei orecchie sono ben aperte.~
+@13 = ~Mi dispiace, ho molto da fare ora. Forse un'altra volta.~
+@14 = ~Ora, fa' attenzione. Sono alla ricerca di due oggetti, ma anche uno solo andrà bene. Ho bisogno di qualcuno che li prenda per me. Posso pagarti in modo adeguato.~
+@15 = ~Il primo artefatto è un arco magico, un tempo vanto dei soldati elfici, molto tempo fa. Comunque sono stato informato, che Fey'doch, un elfo che abita a nord di qui, nella Foresta degli Elfi, è in possesso di questo prezioso oggetto. Forse potrai comprarlo da lui. Ti rimborserò tutte le spese che sosterrai e aggiungerò 2.500 monete d'oro.~
 @16 = ~E il secondo oggetto...?~
-@17 = ~Il secondo artefatto - un oggetto molto prezioso e, per i maghi della mia specie, pressoché inestimabile, é il Grande Libro della Non Conoscenza. Si dice che sia all'interno della collezione della biblioteca di Candlekeep, ma probabilmente la sola persona che sa qualcosa di sicuro é Lobar, il proprietario della Lanterna Fioca ai moli di Baldur's Gate. Se gli offrirai una considerevole somma di denaro "gli rinfrescherai" sicuramente la memoria. Naturalmente non bado a spese, e ti darò un extra di 5000 monete d'oro.~
-@18 = ~Prenderemo il lavoro, ma non ti prometto niente.~
+@17 = ~Il secondo artefatto... un oggetto molto prezioso e, per i maghi del mio rango, pressoché inestimabile, è il Grande Libro dell'Inconoscibile. Si dice che sia custodito nella collezione della biblioteca di Candlekeep, ma probabilmente la sola persona che ne sa qualcosa è Lobar, il proprietario della Lanterna Fioca ai moli di Baldur's Gate. Se gli offrirai una considerevole somma di denaro, potresti... rinfrescargli... la memoria. Naturalmente non bado a spese e ti darò un extra di 5.000 monete d'oro.~
+@18 = ~Accetterò lavoro, ma non ti prometto niente.~
 /* @19 -> @10018 */
-@20 = ~Noi abbiamo già l'arco magico. Quanto me lo valuti?~
-@21 = ~Noi abbiamo già il Grande Libro della Non Conoscenza. Quanto me lo valuti?~
-@22 = ~Noi abbiamo già tutti e due gli oggetti.~
-@23   = ~In ogni caso, prima di andare, vuoi dare un'occhiata alla mia merce?~
-@24   = ~Si vorrei, facci vedere cosa hai.~
-@25   = ~Non c'è fretta, forse un'altra volta...~
-@26 = ~E avrai la tua ricompensa! Sembra che questa sia la fine della nostra conoscenza, il libro sarà mio e basta - nulla di personale ovviamente, ma solo affari... MUORI piccolo cucciolo!~
+@20 = ~Ho già con me l'arco magico. Quanto me lo valuti?~
+@21 = ~Ho già con me il Grande Libro dell'Inconoscibile. Quanto me lo valuti?~
+@22 = ~Ho già con me tutti e due gli oggetti.~
+@23 = ~In ogni caso, prima di andare, vuoi dare un'occhiata alla mia merce?~
+@24 = ~Si mi farebbe piacere, fammi vedere cosa proponi.~
+@25 = ~Non c'è fretta, forse un'altra volta...~
+@26 = ~E avrai la tua ricompensa! Sembra che questa sia la fine dei nostri rapporti, tutto quanto sarà mio e basta... nulla di personale ovviamente, ma solo affari... MUORI cucciolo piagnucoloso!~
 /* @27 -> @10020 */
-@28 = ~Hai capito la mia offerta? Ne sei interessato?~
-@29 = ~Potresti ripeterci che incarichi volevi assegnarci? Noi, ora, potremmo esserne interessati.~
-@30 = ~No, abbiamo bisogno di più tempo per pensarci.~
-@31 = ~Sembra che dentro di te la malvagità stia aumentando, heh,heh,heh... Ma questo é anche meglio, mmmm?...~
-@32 = ~Potrebbe anche essere così, ma noi abbiamo uno degli artefatti che volevi e ci spetta la ricompensa.~
-@33 = ~E così tutto é finito, Il Grande Libro della Non Conoscenza é ritornato al suo legittimo proprietario. Ed il proprietario é molto soddisfatto.~
-@34 = ~Sembri abbastanza soddisfatto, ma i "costi" per riprendere il libro sono stati molto elevati e a noi ci spetta la ricompensa.~
-@35   = ~Hai preso i miei oggetti? Splendido!~
-@36 = ~Si li abbiamo, ed ora é tempo, per noi, di avere l’adeguata ricompensa.~
-@37 = ~Stai cercando gli oggetti? Penso che richiederà molto tempo se posso azzardare un'ipotesi...~
-@38 = ~Certamente, ma abbiamo bisogno di qualcosa dalla vostra merce.~
-@39 = ~Come puoi vedere, siamo alla costante ricerca...~
+@28 = ~Hai capito quello che ti offro? Ne sei interessato?~
+@29 = ~Potresti ripetermi che incarichi volevi assegnarmi? Ora, potrei essere interessato.~
+@30 = ~No, ho bisogno di più tempo per pensarci.~
+@31 = ~Sembra che il male cresca dentro di te, heh, heh, heh... Ma questo è anche meglio, uhm?...~
+@32 = ~Potrebbe anche essere così, ma ho con me uno degli artefatti che volevi e mi spetta la ricompensa.~
+@33 = ~E così tutto è compiuto, Il Grande Libro dell'Inconoscibile è ritornato al suo legittimo proprietario. Ed il proprietario è molto soddisfatto.~
+@34 = ~Sembri abbastanza soddisfatto, ma il costo per recuperare il libro è stato molto elevato e mi spetta la ricompensa.~
+@35 = ~Hai recuperato i miei oggetti? Splendido!~
+@36 = ~Sì, li ho con me e ora è tempo di ricevere l’adeguata ricompensa.~
+@37 = ~Stai cercando i miei oggetti? Penso che richiederà molto tempo se posso azzardare un'ipotesi...~
+@38 = ~Certamente, ma mi servono alcuni degli oggetti che vendi.~
+@39 = ~Come puoi vedere, sono costantemente alla loro ricerca...~
 @40 = ~Il tuo nome è Haeball, per caso?~
 /* @41 -> @10019 */
 @42 = ~Haeball, posso farti una domanda?~
-@43 = ~Ahhhh,,, ciò é molto piacevole. E' bello vedere che la malvagità sta aumentendo dentro di te... heh,heh... Prenderemo più tardi la tua ricompensa.~
+@43 = ~Ahhhh,,, è molto piacevole. È bello vedere che l'oscurità cresce dentro di te... heh, heh... Ci occuperemo più tardi della tua ricompensa.~
 @44 = ~Qualsiasi cosa...~
-@45 = ~Eccellente! Ora vai a recuperare l'arco magico, e quando tornerai, parleremo della ricompensa... heh,heh...~
-@46 = ~Bene, torneremo dopo aver recuperato l'arco.~
-@47 = ~E' uno dei miei tanti nomi, sì. Come posso aiutarvi?~
+@45 = ~Eccellente! Ora va' a recuperare l'arco magico e quando tornerai, parleremo della ricompensa... heh, heh...~
+@46 = ~Bene, tornerò dopo aver recuperato l'arco.~
+@47 = ~È uno dei miei tanti nomi, sì. Come posso aiutarti?~
 @48 = ~Ci siamo imbattuti in alcune creature, a sud di qui, che sostengono tu possa sapere qualcosa sul mago che le ha evocate su questo piano. Si rifiutano di andarsene finché non avrò consegnato loro questo mago.~
 @49 = ~Ahhhh, hah hah hah, sì... il maghetto... che ha evocato quelle creature, dici? Beh, tutti abbiamo un prezzo, incluso il sottoscritto. Ho un affare da proporti in merito a questo mago, se vorrai ascoltarmi..~
 @50 = ~Be', se voglio fare qualche progresso in questa ricerca, non vedo molte alternative.~
 
 /* new for v2.0 */
 // in parts similar to @15
-@51 = ~Vorrei che tu recuperassi un manufatto, un arco magico, un tempo l’orgoglio dei soldati elfi, andato perduto anni fa. Tuttavia sono stato informato che Fey'doch, un elfo che abita a nord di qui, nella Foresta degli Elfi, é entrato in possesso di questo prezioso oggetto. Forse potresti riacquistarlo da lui. Ti rimborserò tutte le spese che sosterrai e ci aggiungerò 2500 monete d’oro.~
+@51 = ~Vorrei che tu recuperassi un manufatto, un arco magico, un tempo vanto dei soldati elfici, molto tempo fa. Comunque sono stato informato, che Fey'doch, un elfo che abita a nord di qui, nella Foresta degli Elfi, è in possesso di questo prezioso oggetto. Forse potrai comprarlo da lui. Ti rimborserò tutte le spese che sosterrai e aggiungerò 2.500 monete d'oro.~
 @52 = ~Ancora tu! Stai cercando l’arco?~
 //in parts similar to @49
-@53 = ~ Ahhhh, hah hah hah, sì... il maghetto... che ha evocato quelle creature, dici? Beh, tutti abbiamo un prezzo, incluso il sottoscritto. Attieniti all’accordo che ti ho offerto ed io ti aiuterò con il mago che cerchi.~
+@53 = ~ Ahhhh, hah hah hah, sì... il maghetto... che ha evocato quelle creature, dici? Beh, tutti abbiamo un prezzo, incluso il sottoscritto. Attieniti all’accordo che ti ho offerto e ti aiuterò con il mago che cerchi.~
 @54   = ~Hai quello che cercavo? Splendido!~

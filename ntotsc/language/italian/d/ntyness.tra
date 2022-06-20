@@ -1,24 +1,24 @@
-@0 = ~Salve avventurieri...! Potrei parlarvi un momento, per favore?~
+@0 = ~Salve buon avventuriero...! Potrei parlarti un momento, per favore?~
 @1    = ~Dimmi di cosa hai bisogno, ma fallo in fretta!~
 @2    = ~Lasciami stare.~
-@3    = ~Certamente, mia signora. Parlate liberamente.~
-@4 = ~Vi chiedo scusa per aver interrotto il vostro viaggio, ma sono disperata. Mio marito é stato rapito dagli orchi su a nord ma nessuno ha ascoltato le mie suppliche... Sono venuti nella nostra fattoria, appena a nord dell'Incrocio del Dragone, e lo hanno rapito! Non so perché lo abbiano preso e portato nella loro colonia, che si trova a I Campi dei Morti... Chiedo il vostro aiuto, vi prego! Sono venuta qui una settimana fa cercando aiuto ma nessuno vuole prestare ascolto alla mia sofferenza...~
+@3    = ~Certamente, mia signora. Parla liberamente.~
+@4    = ~Ti chiedo scusa per aver interrotto il tuo cammino, ma sono disperata. Mio marito è stato rapito dagli orchi su nel nord, ma le mie suppliche sono state inutili... Sono venuti nella nostra fattoria, appena a nord del Passaggio del Dragone e lo hanno portato via! Non so perché lo abbiano preso e condotto nel loro insediamento nei Campi dei Morti... Ti supplico, ho bisogno di aiuto, ti prego! Sono arrivata qui una settimana fa, ma nessuno vuole prestarmi ascolto...~
 @5    = ~Non ho molto tempo.~
 @6    = ~Farò come dici.~
 @7    = ~Cosa c'è per me?~
-@8 = ~Oh, no... eravate la mia ultima speranza, ed ora non ho nessuno... Andate e lasciatemi con il mio dolore...~
-@9 = ~Gli dei ti benedicano! Ti ringrazio! Il viaggio attraverso i territori selvaggi dei Campi dei Morti é stato molto difficile, ma con Pandris - mio marito, siamo venuti qua dal nord attraversando quei territori selvaggi, e ci siamo sistemati a nord di Baldur's Gate. Ho visto che il posto dove potrebbero averlo portato dista un giorno da qui o forse meno se parti dalle fattorie a sud est. Io aspetterò notizie qui. Ti prego, salvalo...~
+@8    = ~Oh, no... eri la mia ultima speranza e ora non ho più nessuno... Va' e lasciami sola con il mio dolore...~
+@9    = ~Gli dèi ti benedicano! Ti ringrazio! Il viaggio attraverso i territori selvaggi dei Campi dei Morti è molto difficile, ma con Pandris... mio marito, siamo venuti da nord proprio attraverso quella desolazione e ci siamo stabiliti appena a nord di Baldur's Gate. Ho visto che il posto dove potrebbero averlo portato, dista un giorno da qui o forse meno se parti dalle fattorie a sud est. Io aspetterò notizie qui. Ti prego, salvalo...~
 /* @10 -> @10076 */
-@11   = ~Vorrei avere ancora qualche soldo. Ma le ultime monete le ho spese pagando dei mercenari per sterminare degli zombi che minacciavano la nostra fattoria... Ti scongiuro - aiutalo...!~
-@12   = ~Lo farò per voi.~
+@11   = ~Vorrei avere ancora un po' di denaro. Ma le ultime monete le ho spese pagando dei mercenari per sterminare degli zombi che minacciavano la nostra fattoria... Ti scongiuro... aiutalo...!~
+@12   = ~Lo farò per te.~
 @13   = ~Non lo faccio gratis.~
-@14   = ~Ancora non hai notizie di mio marito, vero? Ti prego fai in fretta! La sua vita è nelle tua mani...~
-@15   = ~Oh! Questo è un messaggio da mio marito...? E' vivo? Dovete essere veramente uomini valorosi! Oh! Vi ringrazio, vado di corsa a casa! Buona fortuna, amici!~
+@14   = ~Ancora non hai notizie di mio marito, vero? Ti prego fa' in fretta! La sua vita è nelle tua mani...~
+@15   = ~Oh! Questo è un messaggio da mio marito...? È vivo? Tu devi essere veramente un uomo valoroso! Oh! Ti ringrazio, devo andare di corsa a casa! Buona fortuna, amico mio!~
 /* @16 -> @10077 */
-@17   = ~Ritornate ancora? Ti prego lasciatemi sola.~
-@18   = ~Forse. Ti prego, puoi dirci di più riguardo i tuoi problemi?~
-@19   = ~Niente di speciale. Stavo solo controllando se eri ancora qui...~
+@17   = ~Nuovamente di ritorno? Ti prego lasciatemi sola.~
+@18   = ~Forse. Ti prego, puoi dirci di più sui tuoi problemi?~
+@19   = ~Non ti agitare. Stavo solo controllando se eri ancora qui...~
 
 /* new for v2.0 */
-@20   = ~Lui... lui é morto, non é vero? (singhiozza). Quei maledetti orchi! (singhiozza)~
+@20   = ~Lui... lui è morto, non è vero? (singhiozza). Quei maledetti orchi! (singhiozza)~
 

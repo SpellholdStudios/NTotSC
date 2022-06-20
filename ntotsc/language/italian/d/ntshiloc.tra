@@ -1,14 +1,14 @@
 /* this tra is not used */
 
 // #15182
-@0    = ~Sento su di voi l'odore della città.~
+@0    = ~Riesco a sentire l'odore della città su di voi.~
 // #15183
-@1    = ~Alcuni orchi magi stanno provocando problemi a Peldvale. Se riuscirete a sistemarli prima che facciano troppo danno, ve ne sarei riconoscente. Intanto cercherò di contattare altri avventurieri per aiutarvi se per caso le cose si mettessero per il verso sbagliato...~
+@1    = ~Ci sono alcuni ogre magi che stanno causando problemi nella parte sud-ovest del Bosco dei Denti Aguzzi. Se potessi sbarazzartene prima che facciano troppi danni, ti sarei davvero grato. Nel frattempo, proverò a trovare altri avventurieri disposti a dare una mano qualora le cose cominciassero a farsi troppo difficili...~
 // #15772
-@2    = ~Shilo Chen, un ranger che viene da Peldvale, è in cerca di aiuto a Baldur's Gate. Un gruppo di orchi magi sta distruggendo la flora e la fauna selvaggia del bosco. Mi ha chiesto di andare con lui a vedere. Se troverà altri avventurieri disposti ad aiutarlo, li manderà come rinforzi.~
+@2    = ~Shilo Chen, un ranger del Bosco dei Denti Aguzzi, è in cerca di aiuto a Baldur's Gate. Un gruppo di ogre magi sta distruggendo la flora e la fauna della parte sud-occidentale del bosco. Mi ha chiesto di andare laggiù e di vedere cosa posso fare. Se riuscirà a trovare altri avventurieri disposti ad aiutarlo, li manderà come rinforzi.~
 // #15184
-@3    = ~Come potete rimanere in questa ripugnante città quando il bosco è in pericolo?~
+@3    = ~Come puoi stare in questa ripugnante città mentre il bosco è in pericolo?~
 // #15185
-@4    = ~I falchi mi hanno detto che hai sconfitto gli orchi magi da solo. Sono impressionato dal tuo valore. Ecco, lascia che ti dia questi eleganti guanti come simbolo della mia stima. Se indossati sono talmente sensibili che potrai sentire persino la piuma più soffice sfiorarti il palmo della mano.~
+@4    = ~I falchi mi dicono che hai spazzato via gli ogre magi con le tue sole forze. Sono colpito dal tuo valore. Ecco, lascia che ti dia questi bei guanti come segno della mia gratitudine. Sono così elastici che puoi sentire anche la più leggera tra le piume mentre scorre sul tuo palmo.~
 // #15186
-@5    = ~Gli abitanti della tua città sono tutti uguali!~
+@5    = ~Voi abitanti delle città siete tutti uguali!~

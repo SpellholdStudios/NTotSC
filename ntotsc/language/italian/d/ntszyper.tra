@@ -1,28 +1,27 @@
 @0    = ~Spero che alla fine qualcuno riuscirà ad uccidere questi diavoli...~
 /* @1 -> @10067 */
 @2 = ~Lasciaci ai nostri problemi... Abbiamo già abbastanza intrusi!...~
-@3 = ~Problemi? Ultimamente aiutare chi ha problemi è diventata la nostra specialità... Possiamo forse aiutare?~
+@3 = ~Problemi? Ultimamente aiutare chi ha problemi è diventata la mia specialità... Posso forse aiutare?~
 /*
-@4    = ~Un'infestazione di zombie sta terrorizzando i pochi abitanti abbastanza sfortunati da possedere della terra qui, presso il fiume. Un vecchio fattore di nome Wenric ne ha contati venti e mi pagherà la considerevole cifra di 150 monete d'oro se riuscirò a toglierli tutti di mezzo.~
+@4    = ~Un'infestazione di zombie sta terrorizzando i pochi abitanti abbastanza sfortunati da possedere della terra qui, presso il fiume. Un vecchio fattore di nome Wenric ne ha contati venti e mi pagherà la considerevole cifra di 150 mo se riuscirò a toglierli tutti di mezzo.~
 */
-@5 = ~Grazie, è stato veramente generoso da parte vostra scacciare quelle bestie per noi. Forse ora saremo finalmente in grado di ritornare a pescare.~
-@6 = ~Sei ritornato... ma posso dirti che non hai avuto ancora successo... anche altri hanno provato prima ma hanno fallito...~
+@5 = ~Grazie, è stato veramente generoso da parte tua scacciare quelle bestie per noi. Forse ora saremo finalmente in grado di ritornare a pescare.~
+@6 = ~Sei tornato... ma credo di poter dire che non hai avuto ancora successo... anche altri hanno provato prima ma hanno fallito...~
 @7 = ~Quei mostri sono piuttosto spaventosi, non è vero?~
-@8 = ~Siamo salvi! Sorprendente! Pensavo che questi mostri di fuoco ci avrebbero costretti a morire di fame... Apprezziamo veramente quello che avete fatto...~
-@9 = ~Il piacere é stato nostro.~
-@10 = ~Se puoi... Noi peschiamo qui da anni, ma nelle ultime settimane non possiamo più prendere le nostre barche. Nella parte nord della nostra baia ci sono alcuni mostri... Il loro respiro è di fuoco ed uccidono tutti quelli che si avvicinano alla baia. Ed ora, più recentemente, anche un gruppo di Sirene si è introdotta sulla spiaggia vicino a dove noi sbarchiamo con le nostre barche da pesca. Te ne puoi occupare?~
-@11   = ~Possiamo provare, ma non posso promettere...~
-@12   = ~Puah... cos'è questa storia? Dovremmo rischiare le nostre teste per dei comuni cittadini? Sì, può darsi... vedremo...~
-@13 = ~Come possiamo mai ripagarvi?~
-@14 = ~Forse c’é un modo. Vorremmo sapere se hai mai sentito parlare di un’isola qui vicino nel mare delle Spade... Non so di preciso cosa stiamo cercando, ma dovrebbe esserci una specie di fortezza su questa isola...?~
-@15 = ~Non é necessario.~
-@16 = ~Noi non ci avventuriamo così lontano nel mare... Ma Nadalin ci è stato un pò di tempo fa. Lui ha navigato a largo e ci ha raccontato una volta di un'isola di Lucertole - simili a quelle nella grotta..., ma quelle dell'isola non sono Lucertole che ardono di fuoco...
-Dovrai chiedere a Nadalin. Ora che i mostri sono andati dalla nostra zona di pesca, forse ritornerà qui da noi... sai, a lui piaceva molto fare il pescatore, ma è fuggito quando queste... queste Salamandre sono comparse.~
-@17 = ~Grazie, vedremo se possiamo rintracciare Nadalin.~
+@8 = ~Siamo salvi! Magnifico! Pensavo che questi mostri del fuoco ci avrebbero costretti a morire di fame... Apprezziamo veramente quello che hai fatto...~
+@9 = ~Il piacere è tutto mio.~
+@10 = ~Forse potresti... Noi peschiamo qui da anni, ma nelle ultime settimane non possiamo più salire sulle nostre barche. Nella parte più a nord della nostra baia sono comparsi alcuni mostri... Il loro respiro è di fuoco e uccidono tutti quelli che si avvicinano alla baia. Ed ora, più recentemente, anche un gruppo di sirene è arrivato sulla spiaggia vicino a dove noi sbarchiamo. Te ne protesti occupare?~
+@11   = ~Posso provare, ma non posso promettere...~
+@12   = ~Puah... cos'è questa storia? Dovrei rischiare la testa per dei comuni pescatori? Sì, può darsi... vedremo...~
+@13 = ~Come potremo mai ripagarti?~
+@14 = ~Forse c’è un modo. Vorrei sapere se hai mai sentito parlare di un’isola non molto remota, nel mare delle Spade... Non so di preciso cosa cercare, ma dovrebbe esserci una specie di fortezza su quest'isola...?~
+@15 = ~Non è necessario.~
+@16 = ~Noi non ci avventuriamo mai così lontano... Ma Nadalin qualche tempo fa ci è approdato. Lui ha navigato in mare aperto e ci ha raccontato una volta di un'isola di lucertole... simili a quelle nella grotta..., ma non ardono di fuoco... Dovrai chiedere a Nadalin. Ora che i mostri sono stati scacciati, forse ritornerà qui da noi... sai, a lui piaceva molto fare il pescatore, ma è fuggito quando queste... queste salamandre sono comparse.~
+@17 = ~Grazie, vedrò di rintracciare Nadalin.~
 /* @18 -> @10068 */
-@19   = ~Possiamo fare altro per voi, amici miei?~
-@20   = ~Sì, stiamo cercando qualcuno che conosca le isole circostanti e le isole più lontane del Mare delle Spade.~
+@19   = ~Posso fare altro per te, amico mio?~
+@20   = ~Sì, sto cercando qualcuno che conosca le isole vicine e quelle remote del Mare delle Spade.~
 @21   = ~No, non ora.~
-@22 = ~Abbiamo già incontrato Nadalin a Baldur's Gate! Sono sicuro che sarà felice di sentire che i mostri sono stati sconfitti e scacciati, così potrà ritornate a fare il suo mestiere di pescatore.~
-@23 = ~Abbiamo già incontrato Nadalin a Baldur's Gate! Grazie, vedremo se possiamo rintracciare Nadalin.~
+@22 = ~Ho già incontrato Nadalin a Baldur's Gate! Sono sicuro che sarà felice di sentire che i mostri sono stati sconfitti, così potrà tornate a fare il pescatore.~
+@23 = ~Ho già incontrato Nadalin a Baldur's Gate! Grazie, vedrò di rintracciarlo.~
 

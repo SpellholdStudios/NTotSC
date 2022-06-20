@@ -1,33 +1,35 @@
-@2    = ~Sono normali frecce che sono state avvelenate con un veleno di origine vegetale di rapido effetto.
+@2    = ~Sono normali frecce, avvelenate con un veleno di origine vegetale di rapido effetto.
 
 STATISTICHE:
 
 Danno:  1D6
 Tipo di danno: proiettile (perforante)
 Speciale: Veleno
-Peso:  0
-Tipo di competenza: Arco~
+Dispositivo: Arco
 
+Peso: 0~
 
-
-@6    = ~Oltre alla sua eccellente mano d'opera, piccole rune di potere possono essere viste impresse su tutta la superficie di queste frecce. E' evidente che per costruire queste frecce ci vogliono molto tempo e molti sforzi e, sebbene non molto visibile a prima vista, un leggero bagliore blu può essere visto emanarsi dalle rune.
-
+@6    = ~Oltre ad una superba maestria, si possono scorgere delle minuscole rune di potere incise lungo tutta la superficie. È ovvio che moltissimo tempo e importanti sforzi sono stati impegnati per la loro creazione e, anche se non è evidente in un primo momento, un leggero bagliore blu si intravede tra le rune.
 STATISTICHE:
 
 Danno: 1D8 + 2 (+1D10 da fuoco)
-THAC0:  +2
-Tipo di danno:  Proiettile (perforante)
-Peso:  0
-Tipo di competenza: Arco~
+THAC0: +2
+Tipo di danno: Proiettile (perforante)
+Dispositivo: Arco
 
-/*@10   = ~These are poisoned arrows which Will is able to prepare using the resin dribbling from his curious flail. He learned to use the poison at a very young age and can obtain enough for 5 arrows.
-STATISTICS:
-Damage (missile): 1D6 + 1
-Special: Poison
-Weight: 0
-Launcher:  Bow~*/
+Peso: 0~
 
-@12   = ~Queste pericolose frecce sono piuttosto rare e se ne può trovare solo pochi esemplari. Come armi non hanno molto valore, ma strategicamente possono essere molto utili. I guerrieri con abilità adeguate potranno seguire, con queste frecce, un combattimento meticoloso e preciso. Quando la freccia colpisce il bersaglio, questo è trasportato lontano dal campo di battaglia in modo tale da limitare il numero di nemici in uno stesso posto.
+/*@10   = ~Queste sono frecce avvelenate che Will è in grado di preparare usando gocce di resina prelevate dal suo mazzafrusto. Ha imparato ad usare il veleno quando era molto giovane e può confezionare fino a 5 frecce.
+
+STATISTICHE:
+
+Danno (proiettile): 1D6 + 1
+Speciale: Veleno
+Dispositivo: Arco
+
+Peso: 0~*/
+
+@12   = ~Queste pericolose frecce sono piuttosto rare e se ne possono trovare solo pochi esemplari. Come armi non hanno molto valore, ma strategicamente possono essere molto utili. I guerrieri con le giuste abilità potranno effettuare, con queste frecce, un combattimento meticoloso e preciso. Quando la freccia colpisce il bersaglio, viene trasportato lontano dal campo di battaglia in modo tale da limitare il numero di nemici in uno stesso luogo.
 
 STATISTICHE:
 
@@ -36,103 +38,116 @@ THAC0: -3 di penalità
 Tipo di danno: proiettile (perforante)
 Speciale:  
   Dopo un colpo andato a segno, il nemico sarà trasportato in un posto casuale
-Peso:  0
-Tipo di competenza: Arco~
+Dispositivo: Arco
 
+Peso: 0~
 
-
-@16   = ~Oltre alla sua eccellente mano d'opera, piccole rune di potere possono essere viste impresse su tutta la sua superficie. E' evidente che per costruire quest'ascia ci vogliono molto tempo e molti sforzi e, sebbene non molto visibile a prima vista, un leggero bagliore blu può essere visto emanarsi dalle rune.
+@16   = ~Oltre ad una superba maestria, si possono scorgere delle minuscole rune di potere incise lungo tutta la superficie. È ovvio che moltissimo tempo e importanti sforzi sono stati impegnati per la loro creazione e, anche se non è evidente in un primo momento, un leggero bagliore blu si intravede tra le rune.
 
 STATISTICHE:
 
 Danno: 1D8 + 2
-THAC0:  +2 Speciale:
+THAC0:  +2
+ Speciale:
   50% di possibilità di aggiungere 1D3 di Danno Elettrico
   15% di possibilità che il bersaglio rimanga stordito
 Tipo di danno:  Tagliente
-Peso: 7
-Velocità: 7
+Fattore-velocità: 7
 Tipo di Competenza: Ascia
-Tipo di arma: ad una mano
-Richiede: 10 alla Forza~
+Tipo: a una mano
+Richiede:
+Forza 10
 
+Peso: 7~
 
-
-@20   = ~Il mazzafrusto è composto da una solida impugnatura di legno attaccata a una verga di ferro o di legno, oppure a una palla, provvista di spine. Tra l'impugnatura e il resto si trova un perno o un anello. Originariamente quest'arma era usata come attrezzo per trebbiare il grano. Questo mazzafrusto è stato magicamente incantato. Si possono vedere delle rune che brillano su ogni parte della superficie dell'arma.
+@20   = ~Il mazzafrusto è composto da una solida impugnatura di legno collegata a una palla di ferro chiodata oppure a una verga di ferro o di legno. Tra l'impugnatura e il resto si trova un perno o un anello di maglia. L'arma era in origine utilizzata come strumento per trebbiare il grano. Questo mazzafrusto è stato magicamente incantato. Si possono vedere delle rune che brillano su tutta la superficie dell'arma.
 
 STATISTICHE:
 
 Danno: 1D6 + 3
 THAC0:  +2
 Speciale:
-  50% di possibilità +2D3 di Danno Elettrico
+  50% di possibilità +2D3 di danno elettrico
   10% di possibilità che il bersaglio rimanga stordito
-Tipo di danno:  schiacciamento
-Peso: 15
-Fattore Velocità: 7
+Tipo di danno: contundente
+Fattore-velocità: 7
 Tipo di Competenza: Mazzafrusto/Morningstar
-Tipo di arma: ad una mano
-Richiede: 11 alla Forza~
+Tipo: a una mano
+Richiede:
+Forza 11
 
-@24   = ~Arma personale di Nirel, un potente chierico, del quale si conosce poco. Tuttavia, la storia narra che fu un ignobile fanatico che odiava profondamente i seguaci delle altre fedi. Si dice che tratteneva le teste delle sue vittime come trofei. Fu personalmente responsabile della profanazione di oltre cento templi di altre fedi; per questo motivo sia lui che la sua mazza si presero il soprannome di 'Profanatore'.
+Peso: 15~
+
+@24   = ~Questa era l'arma personale di Nirel, un potente chierico di cui si sa poco.  Tuttavia, la storia narra che fosse un vile fanatico il cui odio per i seguaci di altre fedi non conosceva quasi limiti. Si dice che tenesse le teste delle sue vittime come trofei. Fu personalmente responsabile della profanazione di oltre cento templi di altre fedi, guadagnandosi così, con la sua mazza, il soprannome di "profanatore".
 
 STATISTICHE:
 
 Danno: 1D6 + 3
 THAC0: +2
-Tipo di danno: schiacciamento
-Peso: 7
-Fattore Velocità: 6 Tipo di Competenza: Mazza
-Tipo: ad una mano
-Richiede: 3 alla Forza~
-@26   = ~Il mazzafrusto è una impugnatura di legno robusto applicata a una mazza di ferro, a una mazza di legno con dei chiodi oppure una palla di ferro chiodata. Tra l'impugnatura e il suo strumento c'è una cerniera oppure un anello. Quest'arma è stata incantata magicamente creando un efficace legame tra l'arma ed il suo possessore.
+Tipo di danno: contundente
+Fattore-velocità: 6
+Tipo di Competenza: Mazza
+Tipo: a una mano
+Richiede:
+Forza 3
+
+Peso: 7~
+@26   = ~Il mazzafrusto è composto da una solida impugnatura di legno collegata a una palla di ferro chiodata oppure a una verga di ferro o di legno. Tra l'impugnatura e il resto si trova un perno o un anello di maglia. Quest'arma è stata incantata magicamente creando un efficace legame tra l'arma ed il suo possessore.
 
 STATISTICHE:
 
 Danno: 1D8 + 1
 THAC0:  +1
 Speciale:
-  Quando Will brandisce il suo mazzafrusto, é in grado di creare 5 frecce avvelenate
-Tipo di danno:  schiacciamento
-Peso: 10
-Fattore Velocità: 6
+  Quando Will brandisce il suo mazzafrusto, è in grado di creare 5 frecce avvelenate
+Tipo di danno: contundente
+Fattore-velocità: 6
 Tipo di Competenza: Mazzafrusto/Morningstar
-Tipo:  ad una mano
-Richiede: 13 alla Forza
-~
-@27   = ~Il mazzafrusto è una impugnatura di legno robusto applicata a una mazza di ferro, a una mazza di legno con dei chiodi oppure una palla di ferro chiodata. Tra l'impugnatura e il suo strumento c'è una cerniera oppure un anello. Quest'arma è stata incantata magicamente creando un efficace legame tra l'arma ed il suo possessore.
+Tipo: a una mano
+Richiede:
+Forza 13
+
+Peso: 10~
+
+@27   = ~Il mazzafrusto è composto da una solida impugnatura di legno collegata a una palla di ferro chiodata oppure a una verga di ferro o di legno. Tra l'impugnatura e il resto si trova un perno o un anello di maglia. Quest'arma è stata incantata magicamente creando un efficace legame tra l'arma ed il suo possessore.
 
 STATISTICHE:
 
 Danno:  1D8 + 3
 THAC0:  +3
 Speciale:
-  Quando Will brandisce il suo mazzafrusto, é in grado di creare 5 frecce avvelenate
+  Quando Will brandisce il suo mazzafrusto, è in grado di creare 5 frecce avvelenate
   50% di possibilità di rallentare il bersaglio subito dopo un attacco andato a buon fine
   Forza +2
   +10 al valore Massimo di Punti Ferita
-Tipo di danno:  schiacciamento
-Peso: 10
-Fattore Velocità: 6 Tipo di Competenza: Mazzafrusto/Morningstar
-Tipo:  ad una mano
-Richiede: 13 alla Forza~
-@29   = ~Sono normali quadrelli per balestra che sono stati avvelenati con un veleno di origine vegetale di rapido effetto.
+Tipo di danno: contundente
+Fattore-velocità: 6
+Tipo di Competenza: Mazzafrusto/Morningstar
+Tipo: a una mano
+Richiede:
+Forza 13
+
+Peso: 10~
+
+@29   = ~Sono normali quadrelli, avvelenati con un veleno di origine vegetale di rapido effetto.
 
 STATISTICHE:
 
 Danno: 1D8
 Tipo di danno:  proiettile (perforante)
 Speciale:  Veleno
-Peso:  0
-Tipo di competenza:  Balestra~
-@33   = ~Questi erano gli stivali di Nirel, un potente chierico, del quale si conosce poco. Tuttavia, la storia narra che fu un ignobile fanatico che odiava profondamente i seguaci delle altre fedi. Si dice che tratteneva le teste delle sue vittime come trofei. Fu personalmente responsabile della profanazione di oltre cento templi di altre fedi.
+Dispositivo: Balestra
+
+Peso: 0~
+@33   = ~Questi erano gli stivali di Nirel, un potente chierico di cui si sa poco.  Tuttavia, la storia narra che fosse un vile fanatico il cui odio per i seguaci di altre fedi non conosceva quasi limiti. Si dice che tenesse le teste delle sue vittime come trofei. Fu personalmente responsabile della profanazione di oltre cento templi di altre fedi.
 
 STATISTICHE:
 
-Tiri Salvezza:  +1 bonus
-Resistenza Magica:  5%
-Peso:  3~
-@37   = ~Questa arma é sacra ai guerrieri al servizio di Talos, il dio delle tempeste e della distruzione, é stata per decenni usata dalle loro esperte mani. Un arco corto composto da più strati di legno, l'Arco della Tempesta é stato usato contro miriadi di nemici della chiesa di Talos. Recentemente, l'arco é stato in possesso di un Cavaliere della Tempesta di nome Kalassan Brevered, che fu ucciso dopo aver abbattuto diversi ranger e druidi sulle Isole Moonshae.
+Tiri Salvezza: bonus +1
+Resistenza Magica: 5%
+
+Peso: 3~
+@37   = ~Questa arma, sacra ai guerrieri al servizio di Talos il dio delle tempeste e della distruzione, è stata per decenni brandita dalle loro esperte mani. Un arco corto composto da più strati di legno, l'Arco della Tempesta è stato usato contro miriadi di nemici della chiesa di Talos. Recentemente, l'arco è appartenuto a un Cavaliere della Tempesta di nome Kalassan Brevered, ucciso dopo aver abbattuto diversi ranger e druidi sulle Isole Moonshae.
 
 STATISTICHE:
 
@@ -140,14 +155,16 @@ Danno bonus: +1
 THAC0 bonus: +1
 Speciale:  
   +30% di Resistenza all'Elettricità 
-  Attacco bonus per round settato a 3
-Peso:  3
-Fattore Velocità:  3
+  Attacco bonus per round impostato a 3
+Fattore-velocità:  3
 Tipo di Competenza: Arco Corto
 Tipo:  a due mani
-Richiede: 5 alla Forza~
-@40   = ~Questo arco emana calore anche se, al tatto, sembra essere freddo - anche se l'arco possiede molte soddisfacenti abilità.
-Questi archi sono spesso presenti nelle fredde terre dell'area delle Dieci Cittadine, ma sono eccezionalmente pericolosi.
+Richiede:
+Forza 5
+
+Peso: 3~
+@40   = ~Questo arco emana calore nonostante sembri freddo nelle tue mani, come se l'arco fosse soddisfatto delle sue capacità.
+Archi del genere si incontrano spesso nelle fredde terre della zona delle Dieci Città, ma questo è eccezionalmente pericoloso.
 
 STATISTICHE:
 
@@ -155,53 +172,61 @@ Danno bonus: +1
 THAC0 bonus: +1
 Speciale:
   50% di possibilità di infliggere un'aggiunta di 2D3 di danno da fuoco
-  Attacco bonus per round settato a 2
+  Attacco bonus per round impostato a 2
   Fuoco/Freddo Resistenza bonus: 20%
-Peso: 3
 Velocità: 2
 Tipo di Competenza: Arco Corto
 Tipo:  a due mani
-Richiede: 6 alla Forza~
-@44   = ~Fabbricato durante l'età d'oro degli elfi di Firewine. Pesato e bilanciato perfettamente, in grado di forare armature con le sue frecce, può diventare un’arma letale nelle mani di un elfo.
+Richiede:
+Forza 6
+
+Peso: 3~
+@44   = ~Forgiato durante l'età d'oro degli elfi di Firewine. Pesato e bilanciato perfettamente, in grado di forare armature con le sue frecce, può diventare un’arma letale nelle mani di un elfo.
 
 STATISTICHE:
 
 Danno bonus: +1 (proiettile)
 THAC0 bonus: +2
-Speciale: Attacco per round settato a 5/2
-Peso: 3
-Fattore Velocità: 7
+Speciale: Attacco per round impostato a 5/2
+Fattore-velocità: 7
 Tipo di Competenza: Arco Lungo
-Tipo:  a due mani
-Richiede: 15 alla Forza~
-@48   = ~Guanti del Furto Magistrale: 'Le Dita Appiccicose'
-Questi guanti - ricercati da esperti ladri dediti al furto - furono una volta di proprietà del celebre borseggiatore All An Woo-Dy.
+Tipo: a due mani
+Richiede:
+Forza 15
+
+Peso: 3~
+@48   = ~Le Dita Appiccicose
+
+Questi guanti, ricercati da esperti ladri dediti al furto, appartennero un tempo al celebre borseggiatore All An Woo-Dy.
 
 STATISTICHE:
-
 Borseggiare: +15%
 Scassinare: +15%
+
 Peso: 1~
-@52   = ~Questi sono proiettili avvelenati che Will è capace di preparare usando gocce di resina prelevate dal suo mazzafrusto. Ha imparato ad usare il veleno quando era molto giovane e può preparare fino a 5 proiettili.
+@52   = ~Questi sono proiettili avvelenati che Will è in grado di preparare usando gocce di resina prelevate dal suo mazzafrusto. Ha imparato ad usare il veleno quando era molto giovane e può preparare fino a 5 proiettili.
 
 STATISTICHE:
 
 Danno (proiettile): 1D5 + 2
 THAC0: +1 bonus
 Speciale: Veleno
-Peso: 0
-Tipo di competenza: fionda~
-@56   = ~Costruita da Sage, uno degli Antichi, per aiutarlo nella sua ricerca contro il male. La tradizione antica afferma che Sage era un potente guerriero che raramente sentiva i colpi dei suoi avversari in battaglia, e quando li sentiva guariva rapidamente dalle ferite, terminando velocemente anche feroci attacchi o battaglie.
+Dispositivo: Fionda
+
+Peso: 0~
+@56   = ~Costruita da Sage, uno degli Antichi, per aiutarlo nella sua ricerca contro il male. La tradizione afferma che Sage era un potente guerriero che raramente accusava i colpi dei suoi avversari in battaglia e quando succedeva guariva rapidamente dalle ferite, terminando velocemente i più feroci attacchi o battaglie.
 
 STATISTICHE:
 
 Classe Armatura: 4
 Speciale:
   +5% di Resistenza alla Magia
-  Colui che la usa guadagna Rigenerazione
-Peso: 9
-Richiede: 6 alla Forza~
-@58   = ~La Corazza Elfica é apprezzata per le sue capacità di lanciare incantesimi quando indossata. Questa corazza in particolare è incantata dando al suo possessore più intelligenza. Può essere indossata solamente dagli elfi.
+  Colui che la indossa guadagna Rigenerazione
+Richiede:
+Forza 6
+
+Peso: 9~
+@58   = ~La corazza elfica è apprezzata per la possibilità di lanciare incantesimi mentre viene indossata. Questa corazza in particolare è incantata donando maggiore intelligenza al suo possessore. Può essere indossata solamente dagli elfi.
 
 STATISTICHE:
 
@@ -209,47 +234,55 @@ Classe Armatura: 2
 Speciale:
   INT +1 bonus
   COS -2
-  Incantesimi Bonus del Chierico o del Mago di 2° e 3° Livello 
-Peso: 8
-Richiede: 7 alla Forza~
-@60   = ~Donata ai migliori guerrieri ed ai più  forti chierici della Mano d'Ebano.
+  Incantesimi aggiuntivi del Chierico o del Mago di 2° e 3° Livello 
+Richiede:
+Forza 7
+
+Peso: 8~
+@60   = ~Donata ai migliori guerrieri ed ai più forti chierici della Mano d'Ebano.
 
 STATISTICHE:
 
 Classe Armatura: 2
 Speciale: 5% di Resistenza alla Magia
-Peso: 10
-Richiede: 6 alla Forza~
+Richiede:
+Forza 6
+
+Peso: 10~
 @62   = ~Durante i tempi di prosperità di Firewine, questi gloriosi elfi crearono versioni speciali delle corazze di maglia con aggiunte di protezioni verso i temporali che a volte si abbattevano nell'area.
 
 STATISTICHE:
 
 Classe Armatura: 4 (2 contro danno tagliente, 6 contro danno contundente)
 Resistenza all'Elettricità: +30%
-Peso: 15
-Richiede: 8 alla Forza~
-@67   = ~Le origini di questo mantello si sono perse nella notte dei tempi. Sebbene, per qualche tempo fu in possesso di Drosus, un mago non molto potente di Waterdeep. A seguito di una sua spedizione solitaria all'interno delle Montagne della Spina del Mondo, Drosus cadde e scivolò tra le montagne mentre affrontava un branco di lupi d'inverno, fu costretto così ad indossare un pesante mantello per ripararsi dal freddo.
-Ad una prima occhiata questo mantello sembra accecare per il suo colore bianco. Tuttavia, é formato da un insieme di migliaia di colori, che danzano e giocano causando diverse tonalità di luce. Questa barriera di colori scintillanti tendono a distrarre e ad accecare parzialmente chiunque fissi colui che indossa il mantello.
+Richiede:
+Forza 8
+
+Peso: 15~
+@67   = ~Le origini di questo mantello si sono perse nella notte dei tempi. Sebbene, per qualche tempo, fu in possesso di Drosus un mago non molto potente di Waterdeep. A seguito di una spedizione solitaria all'interno delle Montagne della Spina del Mondo, Drosus cadde e scivolò tra le montagne mentre affrontava un branco di lupi d'inverno, fu costretto così ad indossare un pesante mantello per ripararsi dal freddo.
+Ad una prima occhiata questo mantello sembra accecare per il suo colore bianco. Tuttavia è formato da un insieme di migliaia di colori, che danzano e giocano creando diverse tonalità di luce. Questa barriera di colori scintillanti tende a distrarre e ad accecare parzialmente chiunque fissi chi indossa il mantello.
 
 STATISTICHE:
 
-Il mantello concede un bonus di +2 alla Classe Armatura e può essere indossato in combinazione con ogni altra forma di incantamenti protettivi - di conseguenza può essere indossato su ogni armatura magica diversamente da un semplice mantello di protezione.
-Classe Armatura:  +2 bonus
-Peso:  3~
-@79   = ~Il nome originale di questa insolita lama é perso nelle buie profondità del Mare delle Spade. Costruita con una spina di Sahuagin magicamente-potenziata, l'arma si crede essere stata usata in bizzarri rituali dagli Kuo-toa. L'impugnatura è fatta di corallo avvolto in pelle di Sahuagin. Una volta, era posseduto da Lockhart, un ladro contrabbandiere e avventuriero di spicco della Costa della Spada. Lockhart é stato anche colui che ha dato il nome corrente alla lama.
+Il mantello concede un bonus di +2 alla Classe Armatura e può essere indossato in combinazione con ogni altra forma di incantamenti protettivi. Di conseguenza può essere indossato su ogni armatura magica diversamente da un semplice mantello di protezione.
+Classe Armatura: +2
+
+Peso: 3~
+@79   = ~Il nome originale di questa insolita lama è perso nelle buie profondità del Mare delle Spade. Costruita con una spina di sahuagin magicamente-potenziata, l'arma si crede essere stata usata in bizzarri rituali dagli Kuo-toa. L'impugnatura è di corallo avvolto in pelle di sahuagin. Un tempo era proprietà di Lockhart, un ladro contrabbandiere e avventuriero di spicco della Costa della Spada. Lockhart è stato anche colui che ha dato il nome alla lama.
 
 STATISTICHE:
 
 Danno: 1D4 + 2
-THAC0:  +2
+THAC0: +2
 Speciale:
   2% di possibilità di lanciare Dito della Morte sul bersaglio
-Tipo di danno:  perforante
-Peso:  1
-Fattore Velocità:  1
+Tipo di danno: perforante
+Fattore-velocità:  1
 Tipo di Competenza: Pugnale
-Tipo: ad una mano~
-@83   = ~Questo dardo é simile ad ogni altro dardo sebbene sia stato imbevuto con un potente veleno.
+Tipo: a una mano
+
+Peso: 1~
+@83   = ~Questo dardo è simile ad ogni altro dardo sebbene sia stato imbevuto con un potente veleno.
 
 STATISTICHE:
 
@@ -258,10 +291,10 @@ Speciale:
   Alta possibilità di Avvelenare il bersaglio per 10 rounds
   Attacco Extra per round settato a 4
 Tipo di danno:  proiettile (perforante)
-Fattore Velocità: 2
+Fattore-velocità: 2
 Tipo di Competenza: Armi da Lancio
-Tipo:  ad una mano~
-@99   = ~La corazza dell'ombra è una corazza di cuoio borchiata creata per essere usata dai Maestri dell'Ombra di Amn. I Maestri dell'Ombra rappresentano l'ordine più elevato nella gerarchia dei Ladri dell'Ombra. E' una corazza di cuoio borchiata da +3 che si confonde nell'ombra. Questa armatura in particolare è stata migliorata da un grande ladro dei Reami. Non si fa cenno del suo nome, cio é dovuto al fatto che era dannatamente buono, nessuno mai lo vide eccetto quelli che erano sul punto di andare nell'aldilà!
+Tipo: a una mano~
+@99   = ~La corazza dell'ombra è una corazza di cuoio borchiata creata per essere indossata dai Maestri dell'Ombra di Amn. I Maestri dell'Ombra rappresentano l'ordine più elevato nella gerarchia dei Ladri dell'Ombra. Questa in particolare è una corazza di cuoio borchiata da +3 che si confonde con le ombre. Questa, in particolare, è stata migliorata da un grande ladro dei Reami. Non viene fornita alcuna menzione del suo nome, dato che essendo così dannatamente efficace, nessuno lo ha mai visto a meno che non stesse per lasciare questo mondo per l'aldilà!
 
 STATISTICHE:
 
@@ -270,86 +303,97 @@ Classe Armatura: 3
 - +15% Muoversi Silenziosamente
 - +15% Aprire Serrature
 - +15% Svuotare Tasche
-Peso: 1
-Richiede: 6 alla Forza~
-@101  = ~Taerom ha creato una bella corazza di cuoio per Will. Dovremmo andare a trovarlo più spesso - non si sa mai, il vecchio fabbro potrebbe anche saper migliorare questa bell'armatura.
+Richiede:
+Forza 6
 
+Peso: 1~
+@101  = ~Taerom ha realizzato una buona armatura di cuoio per Will. Dovresti fargli visita di nuovo, ad un certo punto, è possibile che il vecchio fabbro possa migliorare ulteriormente quella gemma. 
 STATISTICHE:
 
-Classe Armatura: 4 (2 contro danno tagliente, 6 contro danno contundente)
+Classe Armatura: 4
 Speciale:
-  Salva contro Pietrificazione/Metamorfosi: +2
+  Tiri-salvezza contro Pietrificazione/Metamorfosi: +2
   +1 Bonus di incantesimi da Mago per i livelli 1-4
+
 Peso: 15~
-@102  = ~Taerom ha fatto uno dei suoi lavori migliori con questa corazza di cuoio. Ora l'armatura di Will é diventata veramente solida e protettiva.
+@102  = ~Taerom ha realizzato uno dei suoi lavori migliori con questa corazza di cuoio. Ora l'armatura di Will è diventata veramente solida e protettiva.
 
 STATISTICHE:
 
 Classe Armatura: 0
 Speciale:
-  Tiri salvezza contro Pietrificazione/Metamorfosi: +3
+  Tiri-salvezza contro Pietrificazione/Metamorfosi: +3
   Fortuna: +1
   Resistenza all'Elettricità: +15%
   Resistenza all'Acido: +30%
   +1 Bonus di incantesimo da Mago per i livelli 1-8 
+
 Peso: 15~
-@104  = ~Questa corazza é stata di proprietà del famoso Principe Barbaro della Neve, Corbus Denox di Greyhawk. Come o il motivo per cui lasciò questa corazza ci é sconosciuto.
+@104  = ~Questa corazza è stata proprietà del famoso Principe Barbaro della Neve, Corbus Denox di Greyhawk. Il modo o il motivo per cui abbandonò questa corazza ci sono sconosciuti.
 
 STATISTICHE:
 
 Classe Armatura: 5
-Peso: 8
-Richiede: 6 alla Forza~
-@106  = ~La corazza di cuoio borchiata ha poco in comune con una semplice corazza di cuoio. Mentre la corazza di cuoio è un guscio indurito, la corazza di cuoio borchiato è morbida e flessibile con attaccati centinaia di ribattini di metallo. I ribattini sono così stretti tra loro da formare uno strato flessibile di metallo duro e tagliente che è in grado di respingere attacchi taglienti e pungenti. Il rivestimento di cuoio morbido serve principalmente per tenere fermi i ribattini.
+Richiede:
+Forza 6
+
+Peso: 8~
+@106  = ~L'armatura di cuoio borchiato ha poco in comune con la normale armatura di cuoio. Mentre quest'ultima ha un rivestimento rigido, l'armatura di cuoio borchiato è morbida e flessibile grazie a centinaia di rivetti in metallo. I rivetti sono molto vicini l'uno all'altro, in modo da formare un rivestimento flessibile di duro metallo che devia gli attacchi taglienti. Il rivestimento in morbido cuoio è molto più di un semplice sostegno su cui attaccare i rivetti.
 
 STATISTICHE:
 
-Classe Armatura: 5 (4 contro danno tagliente, 3 contro danno contundente)
+Classe Armatura: 5
 Resistenze Bonus:
   +10% di Resistenza ai danni Perforanti
   +10% di Resistenza ai danni Taglienti
   +10% di Resistenza al Fuoco
   +10% di Resistenza all'Elettricità
   +2 ai Tiri-salvezza contro Soffio
-Peso: 15
-Richiede: 6 alla Forza~
+Richiede:
+Forza 6
 
+Peso: 15~
 
-@110  = ~Il Liuto di Hirsuhnite 'Il Silenzio del Pubblico'
-Questo raffinato Liuto é molto conosciuto dagli Hiphrodites dell'est. Si dice che prende le sue origini dal sonno. Hirsuhnite, un Bardo Hiphrodite, mise in giro la voce di aver trovato dentro il grande spazio del sonno notturno la canzone della completa arrendevolezza incidendola poi all'interno del Liuto.
+@110  = ~Il Pubblico Silente
+
+Questo raffinato Liuto è molto conosciuto tra gli afroditi dell'est. Si dice che sia l'origine del sonno. Per quanto riguarda le voci, un bardo afrodita di nome Hirsuhnite trovò il Canto della Resa Completa all'interno del Generoso Santuario della Notte, trascrivendolo nel liuto.
 
 STATISTICHE:
 
 Speciale: Il Bersaglio diventa inconsapevole
 Durata: 2 Turni
+
 Peso: 3~
-@114  = ~La Scopa é comunemente usata all'interno dei Reami, molto pratica, e nessuna casalinga rispettata può farne a meno. Questa non sembra essere differente dalle altre, ma é sporcata con una sostanza grassa, con un odore particolare, dotata di cintura di sicurezza ed un buco da dove è possibile riparare lo strano congegno sottostante. In caso di necessità, può essere usata anche come difesa.
+@114  = ~La Scopa è comunemente utilizzata all'interno dei Reami, molto pratica, nessuna casalinga rispettata può farne a meno. Questa non sembra diversa dalle altre, ma è sporca di una sostanza grassa, con un odore particolare, dotata di cintura di sicurezza ed un buco da dove è possibile riparare lo strano congegno sottostante. In caso di necessità, può essere usata anche come difesa.
 
 STATISTICHE:
 
-Danno:  1D1 + 1
-Speciale:  100% per colpo critico subito l'impatto
-Tipo di danno:  schiacciamento
-Peso: 3
-Fattore Velocità: 1
+Danno: 1D1 + 1
+Speciale: 100% per colpo critico all'impatto
+Tipo di danno:  contundente
+Fattore-velocità: 1
 Tipo di Competenza: Bastone
-Tipo:  a due mani
-Richiede: 5 alla Forza~
-@120  = ~A qualche Sacerdote piace portare un qualcosa del dio in cui credono ovunque vadano. Tale virtù è degna di essere ricompensata.
+Tipo: a due mani
+Richiede:
+Forza 5
+
+Peso: 3~
+@120  = ~Ad alcuni sacerdoti piace portare un qualcosa del dio in cui crede ovunque vada. Tale virtù è degna di essere ricompensata.
 
 STATISTICHE:
 Speciale: Permette di apprendere l'Incantesimo "Protezione Minore"~
 
-@141  = ~Dopo aver dato un'attenta occhiata a questa corazza di piastre, sembra che il suo stesso metallo, sia in uno stato incorporeo, dandogli un aspetto ombroso. Appena indossato, farà apparire il suo possessore offuscato come la sua armatura. Questa corazza, quando indossata, darà anche a chi la indossa una protezione extra contro le armi da lancio.
+@141  = ~Guardando più da vicino questa cotta di maglia, il suo metallo sembra essere in uno stato incorporeo, conferendo all'armatura un aspetto ombreggiato. Quando indossata, chi l'utilizza apparirà in ombra quanto l'armatura, garantendo una protezione extra contro le armi da lancio.
 
 STATISTICHE:
 
-Classe Armatura: 2 (-1 contro danno tagliente, -1 contro danno contundente)
+Classe Armatura: 2
 Speciale: +3 CA contro proiettili
-Peso: 20
-Richiede: 12 alla Forza~
-@145  = ~Questo potente elisir permette a colui che lo beve di essere protetto con uno scudo composto dal fuoco di una fenice mitologica. Gli effetti sono potenti ma di breve durata.
+Richiede:
+Forza 12
 
+Peso: 20~
+@145  = ~Questo potente elisir attiverà uno scudo formato dai fuochi di una fenice attorno a chi lo beve. Gli effetti sono potenti, ma di breve durata. 
 STATISTICHE:
 
 Classe Armatura: +4 bonus
@@ -359,19 +403,22 @@ Resistenza all’Acido: +25% bonus
 Resistenza all’Elettricità: +25% bonus
 Immunità alle armi non magiche
 Durata: 60 secondi
+
 Peso:  1~
-@149  = ~Questa bottiglia di vino elfico ha anche le stesse proprietà di una pozione di guarigione, ma potrebbe anche ubriacare. Durante una festa elfica, il Sacerdote della Mano di Seldarine alzò un pò troppo il gomito e aggiunse accidentalmente un barile di vino elfico ad una mistura destinata alle pozioni di guarigione. 
+@149  = ~Questa bottiglia di vino elfico ha anche le stesse proprietà di una pozione di guarigione, ma potrebbe anche ubriacare. Durante una festa elfica, un Sacerdote della Mano di Seldarine alzò un po' troppo il gomito e aggiunse accidentalmente un barile di vino elfico ad una mistura destinata alle pozioni di guarigione.
 
 STATISTICHE:
 
 Guarisce 35 punti ferita
 80% di possibilità di ubriacarsi per 30 minuti
+
 Peso:  1~
-@153  = ~Will non vuole dire da dove viene questo anello, ma i suoi vantaggi sono eccezionali. Probabilmente è stato creato con dei poteri magici da un amico mago di Will.
+@153  = ~Will non vuole dire da dove proviene questo anello, ma i benefici che apporta a chi lo indossa sono eccezionali. Probabilmente è stato creato con dei poteri magici da un mago amico di Will.
 
 STATISTICHE:
 
 Riduzione del danno dalla magia: 20%
+
 Peso:  0~
 @155  = ~Un anello è una piccola fascia di metallo prezioso utilizzata come gioiello. Alcuni anelli rari sono stati incantati e hanno acquisito poteri magici. Questi anelli sono molto ricercati, soprattutto dagli avventurieri. Senza motivo apparente, questo anello sembra caldo al tatto.
 
@@ -381,10 +428,11 @@ Classe Armatura Bonus: 1
 Resistenze Bonus: 
  +25% Resistenza allo Schiacciamento
  +1 sul Tiro Salvezza contro Incantesimi
-Peso:  0~
-@158  = ~'Il Velo Nero di Sauron'
-Questo particolare abito del mago é il risultato delle grandi abilità e dei grandi poteri, sia di stregoneria che sacerdotali, di Sauron. Questo abito offre oltre alle le solite protezioni da tutte le forme di attacco fisico anche un aumento della resistenza magica e dei Tiri Salvezza. Quando il mago indossa questo abito ha anche la capacità di creare porte dimensionali e di diventare "ombra" e sparire. Vista la natura dei suoi incantesimi, può essere indossato solo da maghi di allineamento malvagio.
+ 
+ Peso:  0~
+@158  = ~Il Velo Nero di Sauron
 
+Questa particolare tunica da mago è il risultato della grande abilità di Sauron con poteri sia arcani che sacerdotali. Offre la consueta protezione contro tutte le forme di attacchi fisici, aumentando allo stesso tempo la propria resistenza magica e i tiri salvezza. Garantisce inoltre a chi la indossa la capacità di creare porte dimensionali e diventare un'ombra del proprio essere normale. A causa della natura del suo incantesimo, può essere indossato solo da maghi di allineamento malvagio.
 STATISTICHE:
 
 Classe Armatura: 5
@@ -393,64 +441,66 @@ Tiri Salvezza: +1 bonus
 Abilità Speciali:
   Porta Dimensionale
   Porta d'Ombra
+
 Peso:  2~
-@160  = ~Spesso gli Orchi Sciamani creano i loro abiti con mediocri materiali  fissati con parti di cuoio. Non sono gradevoli a vedersi, sono pesanti e di solito non nutrono interesse da parte degli avventurieri, sebbene possiedono molti vantaggi. 
+@160  = ~Spesso gli orchi sciamani realizzavano le loro vesti con materiali poveri fissati con parti in pelle che, quindi, sono piacevoli come un pugno in un occhio, pesanti e non di particolare interesse per gli avventurieri, sebbene possiedano molti vantaggi.
 
 STATISTICHE:
 
 Classe Armatura: 2
 Resistenza all'Elettricità, al Fuoco e al Freddo: +40%
 Penalità al Carisma: -5
-Peso: 35~
-@164  = ~Il possessore é immune ad ogni cosa, magica e non, che ha effetti sulla mobilità, sebbene possa essere ancora affrettato. Bisogna tener conto, tuttavia, che chi indossa questo scudo sarà protetto dai benefici effetti che danno, ad esempio, gli Stivali della Velocità.
 
+Peso: 35~
+@164  = ~La persona che lo utilizza è immune a qualsiasi forza, magica e non, in grado di influire sulla sua mobilità e non potrà più essere velocizzata. Si tenga anche presente che questo scudo proteggerà anche chi lo indossa da effetti benefici come quelli apportati dagli stivali della velocità.
 STATISTICHE:
 
 Classe Armatura Bonus: 2
 Speciale: Nessuna protezione ai proiettili
-Peso: 3
-Richiede: 4 alla Forza~
-@168  = ~Inciso frontalmente con rune elfiche, questo scudo é stato creato con alcuni dei più robusti metalli di sempre creati da mani elfiche. Chiunque porti questo scudo é sicuro del fatto che ogni colpo portato sullo scudo verrà deviato.
+Richiede:
+Forza 4
 
+Peso: 3~
+@168  = ~Inciso con rune elfiche sulla sua superficie, questo scudo è stato realizzato con uno dei metalli più resistenti mai lavorati da mani elfiche. Chiunque lo utilizzi sarà certo che qualsiasi colpo inferto verrà deviato.
 STATISTICHE:
 
 Classe Armatura Bonus: 2
 Speciale: +1 contro Armi da Lancio
 Speciale: +1 a tutti i tiri Salvezza 
-Peso: 8
-Richiede: 15 alla Forza~
-@174  = ~Raasi'doch de Velle passò molti mesi a lavorare con gli artigiani del Villaggio Errante per creare questa lancia da caccia incantata. L'elfo ranger aveva bisogno di un'arma per eliminare i lupi mannari che terrorizzavano la foresta di Tethyr. Sebbene l'arma é priva di stravaganti ornamenti vola sempre dritta e precisa. Alla fine della crociata contro i lupi mannari de Velle probabilmente vendette questa lancia a qualche famoso esperto nell'arte della guerra.
+Richiede:
+Forza 15
 
+Peso: 8~
+@174  = ~Raasi'doch de Velle trascorse molte lune lavorando con gli artigiani del Villaggio Errante alla creazione di questa lancia incantata. Il ranger elfo aveva bisogno di un'arma per sterminare i lupi mannari che terrorizzavano i boschi del Tethyr. Come l'uomo stesso, l'arma è priva di ornamenti stravaganti, ma vola sempre dritta e fedele. Quando la crociata fu terminata, probabilmente de Velle vendette il suo equipaggiamento a qualche famoso militarista.
 STATISTICHE:
 
 Danno:  1D6 + 2, +1D6 di danno tagliente, +3 bonus contro i licantropi
 THAC0: +2, +3 bonus contro i licantropi Tipo di danno:  perforante e tagliente
-Peso: 5
-Fattore Velocità: 2
+Fattore-velocità: 2
 Tipo di Competenza: Lancia
 Tipo:  a due mani
-Richiede: 5 alla Forza~
-@176  = ~Eron the Dismayed was a pessimistic wizard with a propensity for magical dueling. He believed that the only way to become strong in the Art was to test his powers against other mages. He also believed that thieves and assassins were constantly plotting to steal his wealth. To make himself appear ordinary, he wore the clothes of a pilgrim and carried a simple elm walking staff. In reality, the staff was magically enchanted to be more potent in combat, but Eron did all he can to hide this fact.
+Richiede:
+Forza 5
 
-STATISTICS:
+Peso: 5~
+@176  = ~Eron lo Spaventato era un mago pessimista con una propensione per i duelli magici. Credeva che l'unico modo per diventare forte nell'Arte fosse mettere alla prova i suoi poteri contro altri maghi. Credeva anche che ladri e assassini tramassero costantemente per rubare la sua ricchezza. Per apparire ordinario, indossava gli abiti di un pellegrino e portava un semplice bastone da passeggio in olmo. In realtà, il bastone era magicamente incantato per essere molto potente in combattimento, ma Eron ha sempre fatto tutto il possibile per nascondere questo fatto.
 
-Combat abilities:
-– 80% chance each hit for additional 1d8+2 slashing damage
+STATISTICHE:
 
+Danno: 1D6 + 2
 THAC0: +2
-Damage: 1d6+2 
-Damage type: Crushing
-Speed Factor:  1
-Proficiency Type: Quarterstaff
-Type: Two-handed
-Requires: 
- 5 Strength
+Speciale: 80% di un ulteriore 1D8+2 di Danno Tagliente
+Tipo di danno:  contundente
+Fattore-velocità:  1
+Tipo di Competenza: Bastone
+Tipo:  a due mani
+Richiede:
+Forza 5
 
-Weight: 3
-~
+Peso: 3~
 //ntstaff2.itm
 
-@178  = ~I bastoni della Ricerca sono stati creati in qualche altro reame, sebbene si possano trovare anche a Faerun. Sono di solito incantati con incantesimi di protezione contro determinati elementi o elargiscono semplicemente della conoscenza. Questo bastone in particolare dà la possibilità di lanciare gli incantesimi di Scassinare, Individuazione del Male, Cura Ferite Critiche e Rianimare Morti, almeno una volta al giorno. Inoltre, provvede a proteggere dal fuoco in modo simile a come fa l'Anello di Protezione dal Fuoco e a proteggere contro la magia.
+@178  = ~I bastoni della ricerca vennero originariamente creati in qualche altro reame, ma trovarono in seguito la loro strada per Faerûn. Di solito sono infusi di incantesimi che forniscono una certa protezione come l'interdizione contro determinati elementi, o garantiscono l'ingresso o l'uscita, o conferiscono a chi li impugna una semplice conoscenza. Questo particolare bastone lancia Scassinare, Individuazione del Male, Cura Ferite Critiche e Rianimare Morti, ciascuno almeno una volta al giorno. Inoltre, fornisce protezione dal fuoco come l'anello con quel nome e aumenta la resistenza alla magia.
 
 STATISTICHE:
 
@@ -463,102 +513,110 @@ Scassinare tre volte al giorno
 Individuazione del Male due volte al giorno
 Cura Ferite Critiche una volta al giorno
 Rianimare Morti una volta al giorno
-Tipo di danno:  schiacciamento
-Peso: 4
-Fattore Velocità: 2
+Tipo di danno:  contundente
+Fattore-velocità: 2
 Tipo di Competenza: Bastone
 Tipo:  a due mani
-Richiede: 5 alla Forza~
+Richiede:
+Forza 5
+
+Peso: 4~
 //ntstaff3.itm
 
-@180  = ~Questo bastone finemente lavorato é stato donato da parte dei Negromanti di Perregal ai Druidi di Erreth-Akbe quando la loro guerra terminò dopo 200 anni. Gli stessi Druidi non avrebbero voluto accettarlo, ma rifiutare il regalo avrebbe voluto dire interrompere la fragile pace con i Negromanti.
-
+@180  = ~Questo bastone finemente lavorato era tra i doni presentati come offerta di pace dai Negromanti di Perregal ai Druidi di Erreth-Akbe quando la loro guerra di 200 anni finalmente ebbe fine. I Druidi comunque non l'avrebbero mai usato, ma rifiutare il dono sarebbe servito soltanto a rompere la fragile pace.
 STATISTICHE:
 
 Danno: 1D6 + 3
 THAC0: +1
 Speciale: Vampirico
-Tipo di danno:  schiacciamento
-Peso: 3
-Fattore Velocità: 1
+Tipo di danno: contundente
+Fattore-velocità: 1
 Tipo di Competenza: Bastone
-Tipo:  a due mani
-Richiede: 5 alla Forza~
+Tipo: a due mani
+Richiede:
+Forza 5
+
+Peso: 3~
 //ntswd01.itm
 
-@184  = ~Questa Spada é stata forgiata da Kid'Seroki per combattere i suoi nemici di sangue, i troll. Dopo avergli rubato l'Anello dei Maghi Troll gli dei troll spedirono molti troll da Kid'Seroki per recuperare l'anello. Per prevenire questo evento Kid'Seroki mise molta magia in questa spada e la chiamò l'Incubo del Troll.
-
+@184  = ~Questa spada venne forgiata da Kid'Seroki per combattere i suoi nemici di sangue, i troll. Dopo aver rubato loro l'Anello dei Troll Magi, gli dèi dei troll inviarono infinite spedizioni sulle tracce a Kid'Seroki per riprenderselo. Per evitarlo, Kid'Seroki infuse varie magie in questa spada e la chiamò L'Incubo del Troll.
 STATISTICHE:
 
-Abilità di combattimento: 3 punti extra di acido
+Abilità di combattimento: 3 punti extra di danni da acido
 Danno: 1D10 + 1
 THAC0: +1
 Tipo di danno: tagliente
-Peso: 5
-Fattore Velocità: 2
-Tipo di Competenza: Spada Grande
-Tipo: ad una mano
-Richiede: 4 alla Forza~
+Fattore-velocità: 2
+Tipo di Competenza: Spada lunga
+Tipo: a una mano
+Richiede
+Forza 4
+
+Peso: 5~
 //ntswd02.itm
 
-@186  = ~Questa lama é stata creata da un ammazza draghi che perse la sua vita a causa di... si beh... durante la sua professione.
+@186  = ~Questa lama venne creata da un ammazza draghi che perse la sua vita a causa di... si beh... durante la sua professione.
 
 STATISTICHE:
 
 Danno:  1D10 + 1
 THAC0:  +1
 Tipo di danno:  tagliente
-Peso: 9
-Fattore Velocità: 9
-Tipo di Competenza: Spada Grande
-Tipo:  ad una mano~
+Fattore-velocità: 9
+Tipo di Competenza: Spada lunga
+Tipo: a una mano
+
+Peso: 9~
 //ntswd03.itm
 
-@190  = ~Quest’arma fu creata dai fabbri dell'antica Myth Drannor. Questa spada, passata di generazione in generazione, é stata della famiglia di Evalt per secoli. Questa particolare lama dà resistenza al fuoco.
-
+@190  = ~Quest'arma venne forgiata dai fabbri dell'antico Myth Drannor. Questa spada, che è stata tramandata di generazione in generazione, appartiene alla famiglia di Evalt da secoli. Questa particolare lama conferisce resistenza al fuoco.
 STATISTICHE:
 
 Danno: 1D6 + 1
 THAC0: +1
 Speciale:
   +30% di Resistenza al Fuoco
-Tipo di danno:  tagliente
-Peso: 4
-Fattore Velocità: 5
-Tipo di Competenza:  Spada Corta
-Tipo:  ad una mano~
+Tipo di danno: tagliente
+Fattore-velocità: 5
+Tipo di Competenza: Spada Corta
+Tipo: a una mano
+
+Peso: 4~
 //ntswd04.itm
 
-@194  = ~La Spada di Morridin fu l'oggetto di molti scherzi. Molti si burlavano di lui poiché un piccolo uomo non avrebbe potuto maneggiare una Spada Grande. Tuttavia coloro che ridevano non risero a lungo o per molto a causa della precisione mortale ed alla destrezza con la quale Morridin maneggiò la sua spada.
+@194  = ~Morridin fu oggetto di molte battute sulla sua spada. Molti scherzavano sul fatto che un uomo così piccolo non potesse impugnare una spada così grande. Tuttavia coloro che ridevano non lo facevano a lungo o non lo avrebbero più fatto a causa della micidiale precisione e destrezza con cui Morridin maneggiava la sua lama.
 
 STATISTICHE:
 
 Danno: 1D10 + 1
-THAC0:  +1
+THAC0: +1
 Speciale: +2 alla destrezza
 Tipo di danno: tagliente
-Peso:  5
-Fattore Velocità: 7
+Fattore-velocità: 7
 Tipo di Competenza: Spada a due Mani
 Tipo: a due mani
-Richiede: 10 alla Forza~
+Richiede:
+Forza 10
+
+Peso: 5~
 //ntswd05.itm
 
-@197 = ~Una volta questa grande spada apparteneva a Ghotal, celebre capo delle orde di Orchi del Nord, che stava quasi per sottomettere Luskan, Targos ed altre cittadine inclusa anche Neverwinter. La fama della spada fu tale che rese la maggior parte dei difensori riluttanti a resistere a qualsiasi tipo di resistenza organizzata. Ma Gothal raggiunse l’apice quando Targos, alla fine, fu conquistata e distrutta. La situazione si fece seria e le Forze alleate degli elfi di Everaska insieme alle altre genti delle cittadine del Nord tesero un'imboscata al generale annientando la maggior parte delle sue legioni. Lo stesso Ghotal riuscì a fuggire dal campo di battaglia ma, probabilmente, fu ferito mortalmente non riuscendo a trovare aiuto e da allora nessuno sentì più parlare di lui, anche se le leggende orchesche dicono che arriverà un giorno in cui riprenderà la campagna di invasione.
-
+@197 = ~Questa grande spada un tempo veniva brandita dalle mani di Ghotal, famigerato capo delle orde degli orchi del nord. Con essa fu in grado di attaccare in rapida successione Luskan, Targos e altre città, inclusa Neverwinter. La fama della spada era tale da rendere la maggior parte dei difensori poco disposta a opporre un qualsiasi tipo di resistenza organizzata. Ma Ghotal osò troppo quando Targos venne infine conquistata e distrutta. Le forze alleate degli elfi di Everaska e della gente di altre città del nord tesero un'imboscata al generale e annientarono la maggior parte delle sue legioni. Ghotal tuttavia riuscì a fuggire dal campo di battaglia, ma venne ferito a morte. Da allora non fu mai più sentito né visto, anche se la leggenda degli orchi dice che ancora oggi riposa, in attesa dell'opportunità di devastare nuovamente la terre del Faerun.
 STATISTICHE:
 
 Danno: 1D12 + 3
-THAC0:  +3
+THAC0: +3
 Tipo di danno: Tagliente
-Peso: 12
 Velocità: 9
-Tipo di Competenza: Spada a Due Mani
-Tipo di arma: a due mani
-Richiede: 13 alla Forza~
+Tipo di Competenza: Spada a due Mani
+Tipo: a due mani
+Richiede:
+Forza 13
+
+Peso: 12~
 //ntswd06.itm
 
-@199  = ~Costruita dal Mago Re Varashar per il comandante dei suoi Cavalieri della Morte. La Spada è diventata velocemente leggendaria per la sua capacità di tagliare praticamente ogni cosa. Si hanno notizie di intere legioni che sono fuggite dal campo di battaglia dandosi alla fuga alla vista di questa lama leggendaria.
+@199  = ~Forgiata dal Re Mago Varashar per il comandante dei suoi Cavalieri della Morte. La spada divenne rapidamente leggendaria per la sua capacità di tagliare quasi tutto. Corre voce che intere legioni fuggissero dal campo di battaglia alla vista della leggendaria lama.
 
 STATISTICHE: 
 
@@ -566,41 +624,47 @@ Danno: 1D8 +1
 THAC0: +1
 Speciale: infligge Orrore dopo un colpo andato a buon fine con possibilità del 20 per cento
 Tipo di danno: tagliente
-Peso: 3
 Velocità: 3
 Tipo di Competenza: Spada Lunga
-Tipo di Arma: ad una mano
-Richiede: 10 alla Forza~
+Tipo: a una mano
+Richiede:
+Forza 10
+
+Peso: 3~
 //ntswd07.itm
 
-@201  = ~Spada a Due Mani +1: 'L'Orgoglio di Durlag'
+@201  = ~L'Orgoglio di Durlag
 
 STATISTICHE:
 
 Danno: 1D10 + 1
 THAC0:  +1 bonus
 Tipo di danno:  tagliente
-Peso:  11
-Fattore Velocità:  9
-Tipo di Competenza:  Spada Grande
+Fattore-velocità:  9
+Tipo di Competenza: Spada a due mani
 Tipo:  a due mani
-Richiede: 13 alla Forza~
+Richiede:
+Forza 13
+
+Peso: 11~
 //ntswd08.itm
 
-@203  = ~Questa é un'antica spada dalle origini sconosciute. Si dice che un tempo era nella Torre di Durlag. Qualcuno sostiene che la spada fu costruita a Myth Drannor; tuttavia più dettagliate notizie collocano la spada nelle mani del Saggio degli Antichi.
+@203  = ~Questa è un'antica spada di origine sconosciuta, che si dice si trovi nella Torre di Durlag. Alcuni dicono che la spada sia stata forgiata a Myth Drannor, tuttavia il resoconto più accurato pone la spada nelle mani dell'Antico Saggio.
 
 STATISTICHE:
 
 Danno: 2D0
-THAC0:  +2
+THAC0: +2
 Speciale: 2D4+2 di danno da Acido
 Tipo di danno: Tagliente
-Peso:  0
-Fattore Velocità: 2
-Tipo: ad una mano~
+Fattore-velocità: 2
+Tipo: a una mano
+
+Peso: 0~
 //ntswd09.itm
 
-@205  = ~Le spade lunghe come questa sono di solito considerate come spade a doppio filo, spade da guerra, o spade militari. In molti casi, la spada lunga ha solo una lama affilata. Non esiste un'unica versione della spada lunga: la linea, la forma e la lunghezza variano da cultura a cultura e a seconda del periodo. Tra le caratteristiche più diffuse delle spade lunghe va menzionata la lunghezza dell'arma, che può variare dai 90 ai 120 cm. In questo caso la lama da sola arriva fino a 100 cm. della lunghezza totale. Alcune spade lunghe hanno una lama a doppio filo e una cima appuntita. Nonostante la punta, tuttavia, la spada lunga è progettata per tagliare, non per perforare. La lama di questa spada è coperta con ogni sorta di simboli arcani.
+@205  = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare.
+La lama di questa spada è coperta con ogni sorta di simboli arcani.
 
 STATISTICHE:
 
@@ -608,22 +672,24 @@ Danni:  1D8 + 2, +1D4 da fuoco
 THAC0 :  +2 bonus
 Speciale: 10% di possibilità che il bersaglio rimanga stordito
 Tipo di danno:  Tagliente
-Peso: 4
 Velocità: 4
 Tipo di Competenza: Spada Lunga
-Tipo di Arma: ad una mano
-Richiede: 6 alla Forza~
+Tipo: a una mano
+Richiede:
+Forza 6
+
+Peso: 4~
 //scrlnt71.itm
 
 @211  = ~Guardia Scheletrica (Evocazione/Attrazione)
 
 Livello:  7
 Raggio d'Azione:  6 metri
-Durata:  4 ore
+Durata: 4 ore
 Tempo di Lancio:  5
 Area d'Effetto:  Speciale
 Tiro Salvezza:  Nessuno
-Il lanciatore evoca 2 Guerrieri Scheletrici per combattere con lui in battaglia.~
+Il lanciatore evoca 2 Guerrieri Scheletrici che combattono accanto a lui in battaglia.~
 
 @214  = ~Nuvola Ardente (Invocazione)
 Livello: 8
@@ -631,122 +697,119 @@ Raggio d'Azione: Campo visivo del Lanciatore
 Durata: 4 round +1d6 round
 Tempo di Lancio: 2
 Area d'Effetto: 3 metri di Raggio
-Tiro Salvezza: ½
+Tiro-salvezza: 1/2
 
-Questo incantesimo produce una sottile nuvola di fumo, che inizialmente sembra inoffensiva, occupando l'intera area di effetto. Tuttavia, dopo un round, inizia a scintillare e ad ardere, facendo 1 - 2 punti di danno da fuoco per livello al primo round. Al quarto round fa 1 - 4 punti per livello, così al quinto round 1 -2 punti ancora. Un tiro salvezza può ridurre i danni di metà per la durata di ogni round. La nuvola continuerà a scintillare ad intervalli regolari di un round per tutta la durata dell'incantesimo.~ 
+Questo incantesimo produce una sottile nuvola di fumo, che inizialmente sembra inoffensiva e occupa l'intera area di effetto. Tuttavia, dopo un round, inizia a scintillare e ad ardere, infliggendo 1-2 punti di danno da fuoco per livello al primo round. Al quarto round infligge 1-4 punti di danno per livello e al quinto round 1 -2 punti. Un tiro salvezza può ridurre i danni della metà per la durata di ogni round. La nuvola continuerà a scintillare ad intervalli regolari di un round per tutta la durata dell'incantesimo.~
 
-@501  = ~Dentro questo vaso di vetro c'é una costosa mistura di olio ed altri prodotti chimici. Quando questa mistura prende fuoco, brucia per diversi secondi a temperature molto alte. L'Olio infiammabile a volte è difficoltoso da usare perché prende molto tempo a colui che lo usa per lanciarlo. Gli avventurieri portano spesso con loro questo olio per affrontare i troll nella sfortunata eventualità di un loro incontro.
+@501  = ~Dentro questo vaso di vetro c'è una costosa mistura di olio ed altri prodotti chimici. Quando prende fuoco, brucia per diversi secondi a temperatura molto elevata. L'olio infiammabile a volte è difficoltoso da usare perché serve molto tempo per lanciarlo. Gli avventurieri lo portano spesso con loro per affrontare i troll nella sfortunata eventualità di un loro incontro.
 STATISTICHE:
-Quando lanciato sul bersaglio, il vaso di vetro si rompe, diffondendo l'olio infiammabile su ogni cosa entro un raggio di 1.5 metri, dando 2-16 punti di danno da fuoco.~
+Quando lanciato sul bersaglio, il vaso di vetro si rompe, diffondendo l'olio infiammabile su ogni cosa entro un raggio di 1,5 metri ed infliggendo 2-16 punti di danno da fuoco.~
 
 /* Added by Angel */
 
-@542 = ~L'incantatore Presdon della Distesa creò questa cintura diverse centinaia di anni fa per la sua guardia del corpo, Dendes il Beffardo.  Presdon chiamò la larga cintura col nome di un gigante delle colline che quasi lo uccise mentre stava cercando i componenti magici per l'oggetto.  Dendes morì difendendo Presdon da stregoni rivali nei pressi di Ordulin.
+@542 = ~L'incantatore Presdon del Vast creò questa cintura diverse centinaia di anni or sono per la sua guardia del corpo, Dendes il Wry. Chiamò l'ampia cintura come un gigante delle colline che lo aveva quasi ucciso mentre cercava i componenti dell'incantesimo. Dendes morì difendendo Presdon dai maghi rivali vicino a Ordulin.
 
 STATISTICHE:
 
-Aumenta la Forza di chi la indossa a 19
-Peso: 2~
-@544 = ~Le dure piastre che proteggono gli umber hulk sono ragionevolmente semplici da utilizzare per creare armature adatte a creature umanoidi.  Questa scura armatura è stata modellata come una corazza di piastre dai fabbri duergar;  gli elfi scuri, esperti nel lavorare gli esoscheletri degli umber hulk, l'hanno poi curata e rinforzata.
+Imposta la Forza di chi la indossa a 19
 
+Peso: 2~
+@544 = ~Le dure piastre che proteggono gli umber hulk sono ragionevolmente facili da modellare in armature per uomini. Questa armatura scura è stata modellata in cotta di maglia dai fabbri duergar. I nani oscuri, abili nel maneggiare esoscheletri di umber hulk, hanno curato e rinforzato l'armatura.
 STATISTICHE:
 
 Classe Armatura: 2
-Speciale:  -2 contro Armi da Taglio
-Peso: 40
-Richiede: 12 alla Forza~
-@546 = ~Questa armatura venne costruita dal fabbro nanico Karador e da un incantatore elfico conosciuto col nome di Elameth dei Cinque Alberi.  Durante il periodo di collaborazione tra la Mano dei Seldarine e gli Abissi di Dorn vennero costruiti numerosi oggetti di meravigliosa fattura e questa armatura ne è la degna rappresentante. Eccezionalmente bella e leggera, l'armatura era un tempo indossata da un'elfa della Mano Mozzata, ed è questo il motivo per cui non è caduta nelle mani degli orchetti quando saccheggiarono le torri. L'armatura venne successivamente rubata alla Mano dalla malvagia elfa Vergine Ilmadia. Maiden Ilmadia, che la indossò durante la sua ultima battaglia contro i Difensori di Easthaven nelle Sale inferiori di Dorn. Non è chiaro cosa sia successo all’armatura dopo la sua sconfitta e come abbia fatto a viaggiare dalla Spina del Mondo fino alla Costa della Spada.
+Speciale: -2 contro Armi da Taglio
+
+Richiede:
+Forza 12
+
+Peso: 40~
+@546 = ~Questa armatura è stata realizzata dal fabbro nano Karador e da un incantatore elfo noto come Elameth dei Cinque Alberi. Durante il periodo di cooperazione tra la Mano dei Seldarine e il Fosso di Dorn, furono prodotti molti oggetti meravigliosi come questa armatura. Eccezionalmente leggera e bella, era originariamente indossata da un maresciallo elfo donna nella Mano Mozzata, motivo per cui gli orchi non la presero quando saccheggiarono le torri. L'armatura fu poi rubata per mano dall'elfa malvagia Maiden Ilmadia, che la indossò nella sua battaglia finale contro i Difensori di Easthaven alle Profondità di Dorn Inferiore. Non è chiaro cosa sia successo all'armatura dopo la sua sconfitta e come abbia viaggiato dalla Spina dorsale del mondo alla Costa della Spada.
 
 STATISTICHE:
 
 Classe Armatura:  1
-Peso: 20
 Carisma +1
  Resistenza al Fuoco: +10%
  Resistenza al Freddo: +10%
  Resistenza all'Elettricità: +10%
  Resistenza all'Acido: +10%
-Richiede: 12 alla Forza~
-@548  = ~This robe was fashioned from strong fabric and dyed dark blue, the favorite color of its proud owner, the archmage Ogi-Luc. A Sembian by birth, Ogi-Luc was a powerful man, as strong in body as he was in mind. However, Ogi-Luc wasn't content to merely be strong. He wanted to be exceptionally strong. When he put on these robes, proud men stood aside and braggarts stilled their tongues. For all of Ogi-Luc's pride and prowess, he was unable to defeat the Red Wizard abjurer Nesk Vhaltim. Nesk took the robes as a prize. They were later stolen and sold by a daring rogue.
+Richiede:
+Forza 12
 
-STATISTICS:
-
-Equipped abilities:
-- Armor Class: 4
-- Strength: 18/99
-- Constitution: +2
-
-Weight: 5
-~
-@550 = ~Questa pesante corazza d’oro fu creata per il Generale Ghotal da dei fabbri nani catturati ed incantata da sciamani di tribù durante i loro folli riti di cui è meglio non parlare. Sebbene offra un’eccellente protezione, questa armature è pesante ed ingombrante, e richiede una grande forza fisica per poter essere indossata. Comunque sembra molto impressionante.
+Peso: 20~
+@548 = ~Questa tunica è stata confezionata con un tessuto resistente e poi tinta di blu scuro, il colore preferito del suo orgoglioso proprietario, l'arcimago Ogi-Luc. Sembiano di nascita, Ogi-Luc era un uomo potente, forte nel corpo quanto nella mente. Tuttavia, Ogi-Luc non si accontentava di essere semplicemente forte. Voleva essere eccezionalmente forte. Quando indossava la tunica, gli uomini orgogliosi si facevano da parte e gli spacconi tacevano. Nonostante tutto l'orgoglio e l'abilità di Ogi-Luc, non fu in grado di sconfiggere il Mago Rosso Nesk Vhaltim. Nesk prese la tunica come premio. Successivamente venne rubata e venduta da un audace ladro.
 
 STATISTICHE:
 
-Classe Armatura: -1
-Peso: 60
+Bonus di Armatura: +6
+Speciale: Conferisce Forza 18/99, +2 a Costituzione 
+Peso: 5~
+@550 = ~Questa pesante cotta di maglia d'oro è stata realizzata per il generale Ghotal da fabbri nani catturati e incantata dagli sciamani della tribù in riti ripugnanti di cui è meglio non parlare. Sebbene offra un'eccellente protezione, questa armatura è pesante e ingombrante e richiede una grande forza fisica per essere indossata. Sembra certamente molto impressionante però.
+
+STATISTICHE:
+
+Classe Armatura: 0
 Carisma: +2 bonus
-Destrezza: -2 di penalità
-Richiede: 17 alla Forza~
+Destrezza: -4 di penalità
+Richiede:
+Forza 17
 
-/* new in v5.0.0 */
-/* Angel's new items (2021 revision) */
-@557 = ~This enchanted mage robe has powers over earth and stone.
+Peso: 75~
+@557 = ~Questa tunica da mago incantata ha poteri su terra e pietra.
 
-STATISTICS:
+STATISTICHE:
 
-Equipped abilities:
-- Immunity to Petrification
+Abilità durante l'uso:
+- Immunità alla pietrificazione
 
-Charge abilities:
-- Stone Skin (1/day)
-- Stone to Flesh (1/day)
+Abilità attivabili:
+- Pelle di pietra (una volta al giorno)
+- Pietra in Carne (una volta al giorno)
 
-Weight: 4~
-@559 = ~This mage robe has many hidden eyes all over it, giving the wearer all-round vision.  As a result they can never be surprised.  The robe's eyes also have infravision and can detect invisible creatures.  However, one drawback is that the wearer is more suspectable to being turned to stone.
+Peso: 4~
+@559 = ~Questa tunica da mago è dotata di molti occhi nascosti, che permettono a chi la indossa di vedere a tutto tondo. Di conseguenza, non sarà mai colto di sorpresa. Gli occhi della tunica possiedono anche l'infravisione e possono individuare creature invisibili. Tuttavia, chi la indossa ha una probabilità maggiore di essere trasformato in pietra.
 
-STATISTICS:
+STATISTICHE:
 
-Equipped abilities:
-- Saving Throws: -4 vs. Petrification
-- Infravision
-- Immunity to Backstab
+Abilità durante l'uso:
+- Tiri salvezza: -4 contro la pietrificazione.
+- Infravisione
+- Immunità alla pugnalata alle spalle
 
-Charge abilities:
-- True Seeing (1/day)
+Abilità attivabili:
+- Visione del Vero (una volta al giorno)
 
-Weight: 4~
-@561 = ~Ring of Protection +1, +3 vs. Humanoids: 'Defender Ring'
-This magical ring was once the property of a noble from Baldur's Gate.  Fearing assassination by a rival, he paid a local wizard to create this ring to protect him from humanoid attackers.  Unfortunately for him, his rival decided to use a poisonous snake for the assassination attempt instead.
+Peso: 4~
+@561 = ~Anello di protezione +1, +3 contro gli umanoidi: Anello del Difensore
+Questo anello magico apparteneva a un nobile di Baldur's Gate. Temendo un assassinio da parte di un rivale, pagò un mago locale per crearlo in modo da proteggerlo dagli aggressori umanoidi. Sfortunatamente per lui, il suo rivale decise di usare un serpente velenoso.
 
-STATISTICS:
+STATISTICHE:
 
-Equipped abilities:
-- Armor Class: +1 (+3 vs. Humanoids)
-- Saving Throws: +1 (+3 vs. Humanoids)
+Classe Armatura: bonus di +1 (+3 contro gli umanoidi)
+Tiri salvezza: bonus di +1 (+3 contro gli umanoidi).~
+@563 = ~La Cotta Campale fa a meno del supporto di catene e placche metalliche per risparmiare peso. Al loro posto utilizza un'armatura leggera, o aketon, indossata sotto la cotta. Il peso considerevole di questa armatura viene distribuito sul corpo di chi la indossa e un cavaliere addestrato può sdraiarsi, alzarsi o salire in sella indossando questa armatura.
 
-Weight: 0~
-@563   = ~Field plate dispenses with the chain backing of plate mail and full plate to save weight.  Instead a light suit of padding, or aketon, is worn beneath field plate.  The considerable weight of this armor is distributed over the wearer's body, and a trained knight can lie down, stand up, or vault into the saddle while wearing this armor.
+STATISTICHE:
 
-STATISTICS:
+Classe Armatura: 2
+Richiede: Forza 14
 
-Armor Class: 2 (-1 vs. slashing, 1 vs. piercing and missile)
-Requires:
- 14 Strength
-
-Weight: 60~
-/* ------ */
+Peso: 60~
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
 
-@1454 = ~Questo arco è stato creato dagli elfi per difendere le loro foreste dai goblin e dagli hobgoblin, tuttavia non è fornito di abilità speciali contro i goblin o gli hobgoblin.
+@1454 = ~Questo arco venne creato per essere usato dagli elfi in difesa delle loro foreste da goblin e hobgoblin, sebbene non abbia abilità speciali contro goblin o hobgoblin.
 
 STATISTICHE:
 
 Danno: +2
 THAC0: +2
-Peso: 2
-Fattore Velocità: 3
+Fattore-velocità: 3
 Tipo di Competenza: Arco Corto
-Tipo:  a due mani
-Richiede: 6 alla Forza~
+Tipo: a due mani
+Richiede:
+Forza 6
+
+Peso: 2~

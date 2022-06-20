@@ -2,7 +2,7 @@
 @0    = ~Sulla via del ritorno hai notato una piccola isola e, malgrado molte difficoltà, sei riuscito ad attraccare per rifornirti rapidamente e poter affrontare subito un altro viaggio. L'isola sembra essere abitata.~
 
 //ntcutres.baf
-@10    = ~Hai ottenuto un pò del necessario riposo.~
+@10    = ~Hai ottenuto un po' del necessario riposo.~
 
 //NTTOMBDO.baf
 @20   = ~Trappola Attivata!~
@@ -17,16 +17,16 @@
 @40   = ~Difendere la Cittadella!~
 
 //nttr51pb.baf (trigger before dungeon in Firewine Bridge is opened by Charleston Nib's Scroll
-@50  = ~La pergamena ti protegge dalla magia che sigillava l’entrata. Ora puoi entrare.~
-@51  = ~Dai una rapida occhiata all’ingresso. Nella penombra noti un movimento tale da dedurre che si tratta di un sotterraneo in cui dovresti entrare abbastanza preparato – e preferibilmente con un chierico capace.~
-@52  = ~La via è bloccata da potenti e bizzarri sigilli. Dovrai trovare un modo per disattivarli se vorrai entrare.~
+@50  = ~La pergamena ti protegge dalla magia che blocca l’entrata. Ora puoi entrare.~
+@51  = ~Dai una rapida occhiata all’ingresso. Nella penombra noti un movimento che ti induce a dedurre che si tratta di un sotterraneo in cui faresti meglio ad entrare solo se adeguatamente preparato e, preferibilmente, assieme ad un abile chierico.~
+@52  = ~La via è bloccata da potenti e bizzarri sigilli. Dovrai trovare un modo per disattivarli se intendi entrare.~
 @53  = ~Per esaminare questa entrata devi avvicinarti.~
 
 /* ar4500.baf */
 @54  = ~L’entrata del Sotterraneo~
 
 //indo52pb.baf (triggers entrance to ar53pb.are)
-@60  = ~Il fuoco dell’olio fornisce una luce tremolante ma discreta. Ora puoi vedere e scendere le scale.~
-@61  = ~Le scale conducono in una complete oscurità. Dovresti procurarti una fonte di luce se desideri entrare.~
-@62  = ~La luce della gemma è luminosa e costante. Adesso puoi vedere e scendere le scale.~
+@60  = ~Il fuoco dell’olio fornisce una luce tremolante, ma adeguata. Ora riesci a vedere e puoi scendere le scale.~
+@61  = ~Le scale conducono in una completa oscurità. Dovresti procurarti una fonte di luce se desideri entrare.~
+@62  = ~La luce della gemma è luminosa e costante. Adesso riesci a vedere e puoi scendere le scale.~
 @63  = ~La luce della candela è fioca e tremolante, ma ti consente di vedere e scendere le scale.~

@@ -1,6 +1,5 @@
 @0    = ~Vieni da Gate? Dovresti parlare a Satos. Non abbiamo nient'altro da dirci...~
 /* @1 -> @10015 */
-@2    = ~Sono solo una guardia... cosa posso capire? Gente scomparsa e... questo è tutto....~
-@3    = ~Non sei il benvenuto qui! ~
-@4    = ~Assolvete al meglio i vostri doveri - è solo un consiglio, noi siamo qui a vigilare...~
-
+@2    = ~Sono solo una guardia... cosa posso capire? La gente scompare e... questo è tutto....~
+@3    = ~Non sei il benvenuto qui!~
+@4    = ~Meglio attenersi ai propri doveri ... è solo un consiglio, noi siamo qui a vigilare...~
