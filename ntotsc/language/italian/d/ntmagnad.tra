@@ -1,21 +1,21 @@
-@0 = ~Per favore viaggiatori, perdonatemi se mi permetto di disturbarvi ma non é un argomento scherzoso.~
+@0 = ~Per favore viaggiatori, perdonatemi se mi permetto di disturbarvi, ma questo non è uno scherzo. .~
 @1 = ~D’accordo. Dicci cosa ti turba così tanto.~
-@2    = ~Ecco. Siamo appena arrivati in città ed una folla di persone è a caccia di un nostro autografo...~
-@3 = ~Lo so che probabilmente non ne sei interessato, ma mia moglie ed io dove altro potremmo cercare aiuto?~
-@4 = ~Stavo viaggiando con mia moglie verso Elthurel, quando la nostra carovana é stata attaccata da un'orda di orchi. Presi dal panico siamo fuggiti con tutti gli altri. Ma, sfortunatamente, i nostri figli - Falton e Vanessa, stavano viaggiando con noi. E' una vergogna per noi dirlo, ma nella confusione dell'attacco abbiamo perso le tracce dei nostri figli... Siamo ritornati indietro appena possibile, ma non abbiamo trovato traccia né della carovana e né dei nostri figli... una delle guardie ferite che abbiamo trovato lì vicino ci ha detto che quando gli orchi stavano portando via i prigionieri parlavano di qualcosa inerente a Fealn Datoon... che é il vecchio nome di una terra a nord di qui... che ora si chiama I Campi dei Morti. Noi non sappiamo come arrivarci, né tanto meno come sconfiggere gli orchi e riportare in salvo i nostri bambini.~
-@5    = ~Bene. Questa è una storia molto triste, ma non abbiamo tempo per occuparcene ora. Abbiamo un altro incarico. Arrivederci.~
-@6 = ~Non siamo mai stati a nord di Baldur's Gate ma la vostra storia ha attirato la nostra attenzione. Ce ne prenderemo cura il più presto possibile.~
-@7    = ~Non puoi farmi questo. Pensaci ancora un attimo. Aspetterò qui.~
-@8    = ~Grazie... Penso che tu debba andare a Ulgoth's Beard. Probabilmente lì troverai qualcuno che sa come arrivare ai Campi dei Morti... Ci sono molti pericoli e raramente la zona è visitata. Buona fortuna. Ti aspetterò qui.~
+@2 = ~Ecco qui. Siamo appena arrivati in città ed una folla di persone è a caccia di un nostro autografo...~
+@3 = ~Lo so che probabilmente non ne siete interessati, ma mia moglie e io dove altro potremmo cercare aiuto?~
+@4 = ~Stavo viaggiando con mia moglie verso Elthurel, quando la nostra carovana è stata attaccata da una banda di orchi. Presi dal panico siamo fuggiti con tutti gli altri. Ma, sfortunatamente, i nostri figli... Falton e Vanessa, stavano viaggiando con noi. È una vergogna per noi dirlo, ma nella confusione dell'attacco abbiamo perso le tracce dei nostri figli... Siamo tornati indietro appena possibile, ma non c'erano tracce né della carovana né dei nostri figli... una delle guardie ferite che abbiamo trovato lì vicino ci ha detto che mentre gli orchi portavano via i prigionieri dicevano qualcosa a proposito di Fealn Datoon... l'antico nome di una terra a nord... ora si chiama i Campi dei Morti. Noi non sappiamo come arrivarci, né tanto meno come sconfiggere gli orchi e salvare i nostri bambini.~
+@5 = ~Bene. Questa è una storia molto triste, ma non abbiamo tempo per occuparcene ora. Abbiamo un altro incarico. Arrivederci.~
+@6 = ~Non siamo mai stati a nord di Baldur's Gate, ma la vostra storia ha attirato la nostra attenzione. Ce ne occuperemo il più presto possibile.~
+@7 = ~Non potete farmi questo. Pensateci ancora un po'. Aspetterò qui.~
+@8 = ~Grazie... Penso che bisognerà andare a Ulgoth's Beard. Probabilmente lì troverete qualcuno che sa come arrivare ai Campi dei Morti... Ci sono molti pericoli e raramente la zona è meta di visitatori. Buona fortuna. Ti aspetterò qui.~
 /* @9 -> @10036 */
-@10   = ~Ti prego, non arrenderti nella ricerca. Siamo in angoscia per i nostri bambini...~
+@10   = ~Ti prego, non rinunciare alla ricerca. Siamo in angoscia per i nostri bambini...~
 @11   = ~Hai cambiato idea?... Noi ancora non abbiamo trovato nessuno disposto ad aiutarci...~
 @12   = ~Va bene, ci pensiamo noi.~
 @13   = ~No, non ora.~
-@14 = ~Grazie. Abbiano veramente apprezzato il vostro aiuto, ma in cambio possiamo offrirvi solo questo regalo... Ora dobbiamo tornare dai nostri bambini...~
+@14   = ~Grazie. Abbiano veramente apprezzato il vostro aiuto, ma questo regalo è tutto ciò che possiamo offrirvi come ricompensa ... Ora dobbiamo tornare dai nostri bambini...~
 
 /* new for v2.0 */
-@15 = ~Sappiamo dove si trova. Cercheremo i vostri figli quando andremo là.~
-@16 = ~Hai salvato i nostri figli!~
-@17 = ~Oh no!... La mia famiglia! Perché l’hai fatti?!~
+@15 = ~Conosciamo il posto. Cercheremo i vostri figli quando andremo là.~
+@16 = ~Avete salvato i nostri figli!~
+@17 = ~Oh no!... La mia famiglia! Perché l’hai fatto?!~
 @18 = ~Grazie! Te ne saremo grati per sempre.~

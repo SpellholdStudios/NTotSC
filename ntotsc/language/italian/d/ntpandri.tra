@@ -1,11 +1,11 @@
-@0 = ~Chiunque tu sia, ti ringrazio - sei arrivato appena in tempo... sicuramente saremmo finiti trafitti... da queste... queste bestie... suppongo che mia moglie - Yness - deve averti inviato lei...?~
-@1 = ~No, uomo, di te e di tua moglie non ci importa nulla. Non devi preoccuparti degli orchi, ti trafiggeremo noi stessi e daremo fine alla tua inutile vita, poi rintracceremo tua moglie e la picchieremo solo per divertimento... Lo spettacolo deve andare avanti, sai...~
-@2 = ~Si, lo ha fatto lei, tua moglie è ad Ulgoth's Beard e ci ha indicato dove avremo potuto trovarti. Sei libero di tornare a casa ora.~
+@0 = ~Chiunque tu sia, ti ringrazio... sei arrivato appena in tempo... sicuramente saremmo finiti impalati... da queste... queste bestie... suppongo che mia moglie Yness... deve averti inviato lei...?~
+@1 = ~Assolutamente no, amico, e la tua vita non significa assolutamente nulla per noi. Non devi preoccuparti degli orchi, ti impaleremo noi stessi e porremo fine alla tua inutile vita, poi rintracceremo tua moglie e ne faremo una schiava per il nostro divertimento... Lo spettacolo deve andare avanti, sai...~
+@2 = ~Si, lo ha fatto lei, tua moglie si trova a Ulgoth's Beard e ci ha detto dove avremo potuto trovarti. Sei libero di tornare a casa ora.~
 @3 = ~Sicuramente stai scherzando e quello che dici sembra follia, ma forse hai ragione e il mondo sta impazzendo...~
-@4 = ~Oh! Grazie per avermi salvato! Non ho nulla da offrirti ma probabilmente ti interessa quello che so. Mentre mi tenevano prigioniero ho sentito gli orchi parlare. Penso che siano venuti qui perché un grande capo orco è seppellito da qualche parte qui vicino. Stanno cercando qualche manufatto perso nella notte dei tempi per sbloccare la tomba, ma senza successo, almeno finora. Gli sciamani hanno fatto fare sacrifici in favore di Gruumsh per avere da lui indizi. Hanno anche provato ad entrare nel vecchio tempio nel Bosco dei Morti, a sud di qui, ma senza successo...~
-@5 = ~Stanno cercando anche qualche cultista con i quali sono in conflitto. Ho sentito un nome, un qualcosa simile a Haanibal... ma potrei sbagliare... Ti scriverò una lettera. Per favore portala a mia moglie. Ora, dovrei andare a casa... ma finché qualcuno non risolve il mistero degli orchi le fattorie non saranno in salvo. Non sono al sicuro neanche senza gli orchi, in verità. Grazie ancora! Buona fortuna!~
+@4 = ~Oh! Grazie per avermi salvato! Non ho nulla da offrirti, ma probabilmente ti interessa quello che so. Mentre mi tenevano prigioniero ho sentito gli orchi parlare. Penso che siano venuti qui perché un grande capo orco è seppellito da qualche parte in questa zona. Stanno cercando qualche manufatto perso nella notte dei tempi per sbloccare la tomba, ma senza successo, almeno finora. Gli sciamani hanno fatto sacrifici in favore di Gruumsh per avere da lui indizi. Hanno anche provato ad entrare in una vecchia cappella nel Bosco dei Morti, a sud di qui, ma anche lì senza successo...~
+@5 = ~Stanno cercando anche qualche cultista con i quali sono in conflitto. Ho sentito un nome, un qualcosa simile a Haanibal... ma potrei sbagliare... Ti scriverò una lettera. Per favore portala a mia moglie. Ora, dovrei andare a casa... ma finché qualcuno non risolve il mistero degli orchi le fattorie non saranno al sicuro. Non sono al sicuro neanche senza gli orchi, in verità. Grazie ancora! Buona fortuna!~
 /* @6 -> @10053 */ 
 
 /* new for v2.0 */
-@7  = ~Non lo ero, ma sei libero di andare comunque.~
+@7  = ~Non è così, ma sei libero di andare comunque.~
 

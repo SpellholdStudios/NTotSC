@@ -1,24 +1,24 @@
-@0    = ~E' un piacere incontrarti. Io sono Nadalin.~
-@1    = ~Salve. Sono Nadalin. Vengo dal nord, dal posto dove la Costa della Spada si trasforma in un golfo. Purtroppo, il mio villaggio e stato attaccato da alcuni mostri di fuoco e la mia imbarcazione è ora la casa di qualche sirena. Sono fuggito dal villaggio ed ora vivo qui. Ma mi piacerebbe tornare a fare il pescatore.~
+@0    = ~È un piacere incontrarti. Io sono Nadalin.~
+@1    = ~Salve. Sono Nadalin. Vengo dal nord, dal posto dove la Costa della Spada si trasforma in un golfo. Purtroppo, il mio villaggio e stato attaccato da alcuni mostri del fuoco e la mia imbarcazione è ora la casa di qualche sirena. Sono fuggito dal villaggio ed ora vivo qui. Ma mi piacerebbe tornare a fare il pescatore.~
 /* @2 = @10039 */
-@3    = ~Non hai il coraggio, vero? Va bene, so da dove venite. Io stesso, non potrei farlo.~
-@4    = ~L'hai fatto, vero? Suppongo, che i vostri cuori siano persino più duri di quello che pensavo. Non lo dico con piacere, ma se tu dovessi aver bisogno di aiuto, probabilmente mi troverai nel mio villaggio vicino alla mia barca.~
+@3    = ~Non ne hai il coraggio, vero? Va bene, so da dove vieni. Io stesso, non potrei farlo.~
+@4    = ~L'hai fatto, vero? Suppongo, che il tuo cuore sia persino più audaci di quello che pensavo. Non lo dico con piacere, ma se avessi bisogno di aiuto, probabilmente mi troverai vicino alla mia barca al mio villaggio.~
 /* @5 -> @10040 */ 
-@6    = ~Grazie per il vostro aiuto. Ora posso tornare al mio villaggio. Se in futuro avrai bisogno di me potrai trovarmi vicino alla mia barca. Amo la mia vecchia barca.~
+@6    = ~Grazie per il tuo aiuto. Ora posso tornare al mio villaggio. Se in futuro avrai bisogno di me potrai trovarmi vicino alla mia barca. Amo la mia vecchia barca.~
 @7    = ~Non sono un combattente, amico.~
-@8    = ~Benvenuti amici miei. In che modo posso aiutarvi?~
-@9    = ~Voglio che ci porti in un'isola abitata da alcune Salamandre di ghiaccio. Hai sentito qualcosa a riguardo?~
-@10   = ~Siamo passati solo per vedere come te la stavi cavando.~
-@11   = ~Sono sbarcato su quell'isola una volta durante una tempesta. Ed è stata dura riuscire a fuggire. Penso che sia un luogo pericoloso. Le lucertole attaccano senza avvertire. Se vuoi ti ci posso portare, desideri partire adesso?~
-@12   = ~Sì, penso che possiamo partire.~
-@13   = ~No, non ora. Ma è bello sapere che vuoi aiutarci.~
+@8    = ~Benvenuto amico mio. In che modo posso aiutarti?~
+@9    = ~Vorrei che mi portassi un'isola abitata da alcune salamandre del ghiaccio. Hai sentito qualcosa a riguardo?~
+@10   = ~Sono passato solo per vedere come te la stavi cavando.~
+@11   = ~Penso di sì, ma è un posto pericoloso. Le salamandre attaccano senza preavviso. Sono sbarcato su quell'isola una volta durante una tempesta. Sono riuscito a stento a fuggire. Se vuoi ti ci posso portare, desideri partire adesso?~
+@12   = ~Sì, penso di poter partire.~
+@13   = ~No, non ora. Ma è bello sapere che vuoi aiutarmi.~
 @14   = ~Sei già stufo di quest'isola?~
 @15   = ~Sì, andiamo via da qui.~
-@16   = ~No, aspetta ancora un pò.~
+@16   = ~No, aspetta ancora un po'.~
 @17 = ~Bentornato, amico. Come posso aiutarti?~
 @18 = ~Potresti riportarci all’Isola delle Salamandre?~
 @19 = ~Certamente. Andiamo.~
-@20 = ~Il capo di un villaggio di pescatori della Costa a Nord ci ha parlato di te e della tua situazione. Abbiamo risolto il problema.~
+@20 = ~Il capo di un villaggio di pescatori della Costa Settentrionale ci ha parlato di te. Ho risolto il problema.~
 
 /* new for v2.0 */
 @21 = ~Bentornato, amico.~

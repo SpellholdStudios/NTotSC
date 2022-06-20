@@ -1,25 +1,25 @@
 // #3131 (change "Ajantis" to "<CHARNAME>")
-@0    = ~Ah, tu sei <CHARNAME>, presumo. Mi auguro che il tuo viaggio non sia stato tumultuoso? Io e i miei discepoli ti ringraziamo per essere venuto, sebbene io sia dispiaciuto di averti dovuto chiedere aiuto. La Cittadella è normalmente chiusa ai forestieri, ma le circostanze richiedono misure straordinarie in questi casi. Senza dubbio il Duca Eltan ti ha parlato del problema, vero? Otto persone sono scomparse dalla base, tre di queste negli ultimi due giorni. Isolati come siamo, non abbiamo la possibilità di occuparcene. Per favore, fa' quel che puoi.~
+@0    = ~Ah, tu dovresti essere <CHARNAME>, presumo. Confido che il tuo viaggio sia stato tranquillo? Io e i miei confratelli ti ringraziamo per essere venuto, sebbene sia un peccato che la tua presenza sia necessaria. La Cittadella è normalmente chiusa ai forestieri, ma le circostanze richiedono misure straordinarie. Senza dubbio il Duca Eltan ti ha parlato del problema, vero? Otto persone sono scomparse, tre di queste soltanto negli ultimi due giorni. Isolati come siamo, non abbiamo la possibilità di occuparcene. Per favore, fa' quel che puoi.~
 // #3132
-@1    = ~Non siete al sicuro qui? La Fortezza non può rimanere indifesa contro CERTI tipi. Devo parlarne col Capitano della Guardia.~
+@1    = ~Non avete una sicurezza qui? La Cittadella non può essere priva di difese di ALCUN tipo. Devo parlarne col capitano della guardia.~
 // #3133
 @2    = ~Qual'è la tua carica qui? Non ho mai sentito il tuo nome.~
 // #3137
 @3    = ~Dove è il resto dei tuoi compagni? Avrò bisogno di parlare con tutti loro.~
 // #3134 (insert "Eldod")
-@4 = ~Ahimè, di solito DOVREMMO avere un sostanziale numero di guardie. Ma la maggioranza sono state mandate a sud, ad aiutare a combattere l'esplosione di rapine lungo la via della Costa. E' stato dopo che i nostri problemi sono iniziati.  Due dei nostri rimasti di guardia figurano tra i dispersi, e il Capitano stesso non è stato più visto da ieri. Abbiamo nominato un sostituto, Eldod, al suo posto, dovresti trovarlo fuori, di fronte alla Fortezza.~
+@4 = ~Ahimè, di solito DOVREMMO avere un sostanziale numero di guardie. Ma la maggior parte sono state mandate a sud, ad aiutare a combattere l'esplosione di rapine lungo la Strada della Costa. È accaduto dopo che i nostri problemi sono iniziati. Due delle guardie rimaste figurano tra i dispersi e il Capitano stesso non è più stato visto da ieri. Abbiamo nominato un sostituto, Eldod, dovresti trovarlo nei dintorni.~
 // #3144
-@5    = ~Questa informazione è apprezzata, farò ciò che posso. E' proprio un compito che mi si addice, comunque.~
+@5    = ~Questa è un'ottima informazione, farò ciò che posso. È proprio un compito adatto a me, comunque.~
 // #3135
-@6    = ~Perdona le mie maniere, non mi sono presentato!  Sono Satos, e sfortunatamente non sono l'abate, ma il suo sostituto.  Non che io possa essere onorato di questa posizione, piuttosto il contrario. E' proprio a seguito di eventi sfavorevoli che mi trovo in questa posizione. Il nostro vero abate Elder è stato tra i primi a scomparire.~
+@6    = ~Perdona le mie maniere, non mi sono presentato! Sono Satos e sfortunatamente non sono l'abate, ma il suo sostituto. Non che non sia onorato di questa posizione, tutt'altro. È solo per le circostanze sfavorevoli per cui mi trovo in questa posizione. Il nostro vero abate anziano è stato tra i primi a scomparire.~
 // #3146
-@7    = ~Troverai un certo numero dei nostri qui intorno, tuttavia temo che alcuni siano troppo agitati per lasciare la protezione perfetta della Fortezza.  Ho istruito ciascuno per esserti di aiuto nei limiti del possibile.~
+@7    = ~Troverai un certo numero dei nostri qui intorno, tuttavia temo che alcuni siano troppo agitati per lasciare la protezione della Cittadella. Ho dato istruzioni di aiutarti nei limiti del possibile.~
 // #3148
-@8    = ~Oh! Avevo intenzione di parlartene ma mi è sfuggito di mente. Temo di essere stato alquanto sventato sin da quando questo ha avuto inizio. Il Duca Eltan ha anticipato le tue necessità con un piccolo aiuto, così ha messo su una società di mercenari da inviare insieme a qualche bracciante. Una strana miscela, di sicuro, ma sono certo che serviranno per il tuo bene.  Tutti sembrano piuttosto esperti nei loro... uh... compiti. Le presentazioni sono a posto, credo.~
+@8    = ~Oh! Avevo intenzione di parlartene, ma mi è sfuggito di mente. Temo di essere stato alquanto sventato sin da quando le cose hanno avuto inizio. Il Duca Eltan ha anticipato le tue necessità con un piccolo aiuto, così ha fatto in modo che una gilda di mercenari inviasse alcuni aiutanti. Un gruppo eterogeneo, di sicuro, ma sono certo che saranno utili. Tutti sembrano piuttosto esperti nelle loro... uh... abilità. Le presentazioni sono a posto, credo.~
 // #3149
 @9    = ~Umm... sì, bene... e poi?~
 // #3150
-@10   = ~Sì... bene, adesso che sono state fatte le presentazioni lascerò il compito nelle tue mani. Sei libero di vagare dove desideri, dappertutto tranne che nella Cella principale. Quello è un edificio che deve rimanere sigillato a prescindere, a causa dei molti tomi preziosi conservati all'interno. Non è che non ci fidiamo di TE, piuttosto è meglio avere poco via-vai. Spero che tu capisca. Perdonami, ma le meditazioni non possono attendere oltre.~
+@10   = ~Sì... bene, adesso che sono state fatte le presentazioni ti lascerò al tuo compito. Sei libero di andare dove desideri e tutto tranne il mastio principale è aperti per te. Quello è un edificio che deve rimanere sigillato a prescindere, a causa dei molti tomi preziosi conservati all'interno. Non è che non ci fidiamo di TE, piuttosto è meglio avere poca gente in giro. Spero che tu capisca. Perdonami, ma le meditazioni non possono attendere oltre.~
 /* @11 -> @10060 */ 
 // #3151
 @12   = ~Prima di tutto... molti di loro... devono essere fermati... ~
@@ -27,8 +27,8 @@
 @13   = ~Prendi questa... finisci...~
 /* @14 -> @10061 */  
 // #8972
-@15   = ~Non c'è altro che ti potrei dire se non quello che ho già detto. Per favore amico, aiuta i miei discepoli.~
-@16   = ~Ti sei dimostrato affidabile. La Cittadella per te è sempre aperta.~
+@15   = ~Non c'è altro che ti potrei dire se non quello che ho già detto. Per favore amico, aiuta i miei confratelli.~
+@16   = ~Ti sei dimostrato affidabile. La Cittadella per te sarà sempre aperta.~
 @17   = ~Perché hai così tanta premura, amico mio?~
-@18   = ~Abbiamo scoperto la causa della confusione nella tua Cittadella! Un orco chiamato Krotan, che si nasconde dentro al Mausoleo è quello che ha charmato Eldod! Eldod ha eseguito i suoi ordini per uccidere tutte le persone! Adesso, stiamo andando a prenderci cura di questa canaglia.~
-@19   = ~Eccellente! Grazie a Dio! Invierò immediatamente tutta le persone che potrebbero aiutarti.~
+@18   = ~Abbiamo scoperto la causa dei problemi nella tua Cittadella! Un ogre di nome Krotan, che si nasconde dentro al Mausoleo Ha charmato Eldod! Eldod ha eseguito i suoi ordini e ucciso tutte le persone! Adesso, stiamo andando a occuparci di questa canaglia.~
+@19   = ~Eccellente! Grazie agli Dèi! Invierò immediatamente tutte le persone che possano aiutarti.~

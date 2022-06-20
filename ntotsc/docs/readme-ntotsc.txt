@@ -275,6 +275,7 @@ CHANGES - VERSION HISTORY
 	-new components, by Angel: Improved Lesser Fiends; Improved Haeball; Improved General Ghotal.
 	-new component, by jastey: Reduce Number of Shaman Cloaks (two options). 
 	-Polish version revised and updated to v5, by Roberciiik.
+	-Italian version revised, by improb@bile.
 	-Will O'Hara: Polish dubbing thanks to Anoim2666.
 	-Install of optional components was splitted into 4 categories: Tactical Challenges, Quests and Encounters, Nerfs, NPC.
 	-Removed Ogre Magi from AR12PB as it is copy of bounty hunter.
@@ -282,10 +283,8 @@ CHANGES - VERSION HISTORY
 	-fixed cre item references.
 	-Added missing weights to items for EE.
 	-Reduced XP and loot for resting in AR52PB.are by reducing spawn probability and number of monsters.
-	-Changed Orc Shamans to 2 different custom cres.
+	-Changed Orc Priests to 2 different custom cres.
 	-Cultists should drop a bow (added short bows to ntblhcul.cre and ntblhcu1.cre).
-	-Added minhp20.itm if it's not present (e.g. BG:EE).
-	-ntcutres.baf should play the correct rest movie (different names in BGT / EE).
 	-Added a known_issues.txt to ntotsc/docs/. Contributions and fixes welcome.
 	-ntotsc.ini updated with more support for Project Infinity.
 

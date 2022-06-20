@@ -1,20 +1,20 @@
 // #15043
-@0    = ~Sono stato attaccato dagli gnoll, mi sento ancora un po' stordito ma dovrei farcela a tornare a Beregost con le mie forze. Ecco, prendete la mia ascia. Per me è troppo pesante da trasportare.~
+@0    = ~Mi sento ancora un po' stordito, ma dovrei farcela a tornare a Beregost con le mie forze. Ecco, prendi la mia ascia. Per me è troppo pesante da trasportare.~
 // #15737
 /* @1 -> @10027 */   
 // #15064
-@2    = ~Avete profuso cure amorevoli... Ecco, tenete, gli gnoll che mi hanno attaccato non hanno trovato questo vecchio amuleto che tenevo nascosto in uno stivale. Spero sia una ricompensa adeguata alla vostra gentilezza. Se mai voleste venirmi a trovare, mi troverete a Beregost.~
+@2    = ~Sei stato generoso con le cure... Ecco, tieni, gli gnoll che mi hanno attaccato non hanno trovato questo vecchio amuleto che tenevo nascosto in uno stivale. Spero sia una ricompensa adeguata alla vostra gentilezza. Se mai volessi venire a trovarmi, mi troverai a Beregost.~
 // #15738
 /* @3 -> @10028 */   
 // #15082
-@4    = ~Avete profuso cure amorevoli ad un nano rozzo ed abbattuto che è stato attaccato da degli gnoll. Mia sorella, Nasha, è una chierica della zona a sud di Baldur's Gate. Se mai vi servisse un favore, cercatela e lei vi curerà.~
+@4    = ~Sei stato generoso con le cure per un nano rozzo e malconcio. Mia sorella, Nasha, è una chierica della zona a sud di Baldur's Gate. Se mai ti servisse un favore, cercala e lei ti curerà.~
 // #15739
 /* @5 -> @10029 */   
 // #15083
-@6    = ~La gamba... (lamenti)... maledetti gnoll! Vi prego... aiutatemi... (lamenti)... anche solo un po'. Mi fa male... molto male... (lamenti)~
+@6    = ~La gamba... (lamenti)... maledetti gnoll! Ti prego... aiutami... (lamenti)... anche solo un po'. Mi fa male... molto male... (lamenti)~
 // #15084
-@7    = ~Le ossa stanno rimettendosi a posto. La prossima volta che andrò a caccia di gnoll, dovrò portare qualche amico con me.~
+@7    = ~Le ossa si stanno sistemando bene. La prossima volta che andrò a caccia di gnoll, dovrò portare qualche amico con me.~
+// #15085
 @8    = ~(lamenti)...~
 // #15086
-@9    = ~Prima mi avete curato, dopo che sono stato attaccato da degli gnoll, e ora volete uccidermi. Non capisco come vi funziona il cervello, ma che io possa essere maledetto se vi lascerò scappare.~
-
+@9    = ~Prima mi hai curato e ora vuoi uccidermi. Non capisco come funziona il tuo cervello, ma che io possa essere maledetto se ti lascio farla franca.~

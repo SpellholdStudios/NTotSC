@@ -1,5 +1,5 @@
 // #11344
-@0    = ~Avete bisogno di indicazioni? Avete un'aria amichevole e perciò mi offrirò di farvi da guida. Che cosa cercate nella città di Beregost?~
+@0    = ~Servono indicazioni? Hai un'aria amichevole e perciò mi offrirò di farti da guida. Che cosa cerchi nella città di Beregost?~
 // #11386
 @1    = ~Certamente. Ti sarei molto grato se potessi indicarmi una locanda economica.~
 // #11367
@@ -9,43 +9,42 @@
 // #11376
 @4    = ~Solo un posto dove sedermi per un po' e annegare i miei dispiaceri. Dov'è una buona taverna?~
 // #11354
-@5    = ~Abbiamo molte locande adatte ad un avventuriero senza troppe pretese. Alle Frecce Rosse troverete stanze semplici, ma una clientela un po' turbolenta. Poi abbiamo il Mago Rovente e il Giocoliere Giocoso, che offrono stanze un po' più lussuose. Troverete le Frecce Rosse e il Mago Rovente nei pressi del centro, mentre il Giocoliere Giocoso si trova un po' fuori, ai confini meridionali della città.~
+@5    = ~Abbiamo molte locande adatte ad un avventuriero senza troppe pretese. Al Covone Rosso troverete stanze semplici, ma una clientela un po' turbolenta. Poi abbiamo il Mago Bruciato e il Giocoliere Gioviale, che offrono stanze un po' più lussuose. Troverai il Covone Rosso e il Mago Bruciato nei pressi del centro, mentre il Giocoliere Gioviale si trova un po' fuori, al margine meridionale della città.~
 // #11380
-@6    = ~Grazie per il vostro aiuto.~
+@6    = ~Grazie per il tuo aiuto.~
 // #11357
 @7    = ~La locanda più lussuosa dovrebbe essere quella di Feldepost, che è anche la più accogliente. Molto colore locale. Si trova nella zona giù a ovest della città.~
 // #11386
-@8    = ~Certamente. Vi sarei molto grato se poteste indicarmi una locanda economica.~
+@8    = ~Certamente. Ti sarei molto grato se potessi indicarmi una locanda economica.~
 // #11358
-@9    = ~Abbiamo i migliori fabbri dei Reami! Taerom "Thunderhammer" Fuiruim dirige la fucina che si chiama Fucina Martello di Tuono, nella zona ad est della città. Vende anche alcuni oggetti eccezionali, che però potreste trovare anche alla Locanda di Feldepost, dove vendono trofei a prezzi che possono permettersi solo i re. La Locanda di Feldepost si trova ad ovest o meglio a sud-ovest della città.~
+@9    = ~Abbiamo il migliore fabbro dei Reami! Taerom "Thunderhammer" Fuiruim dirige la Fucina Thunderhammer, nella zona ad est della città. Vende anche alcuni oggetti eccezionali, che però potresti trovare anche alla Locanda di Feldepost, dove offrono trofei a prezzi che possono permettersi solo i re. La Locanda di Feldepost si trova ad ovest o meglio nella zona sud-ovest della città.~
 // #11366
-@10   = ~Un goccetto per tirarvi su? Il Mago Rovente e le Frecce Rosse si trovano al centro della città. La Locanda di Feldepost si trova invece nella zona ad ovest e il Giocoliere Giocoso sta a sud. Vi serviranno bene in ognuno di questi locali.~
+@10   = ~Un goccetto per tirarvi su? Il Mago Bruciato e il Covone Rosso si trovano al centro della città. La Locanda di Feldepost si trova invece nella zona ad ovest e il Giocoliere Gioviale è a sud. Ti serviranno bene in ognuno di questi locali.~
 // #11379
-@11   = ~Non c'è problema. Vi auguro un felice soggiorno.~
-@12   = ~Aspettate... no, aspettate... posso chiedervi una cosa?~
-@13   = ~No, non abbiamo tempo, addio...~
-@14   = ~Certamente, cosa ci vuoi dire?~
+@11   = ~Non c'è problema, amico. Ti auguro un felice soggiorno.~
+@12   = ~Aspetta... no, aspetta... posso chiederti una cosa?~
+@13   = ~No, non penso, addio...~
+@14   = ~Certamente, cosa ti dà preme?~
 @15   = ~Addio...~
-@16   = ~Ti guardi intorno come se mancassi da Beregost da molto tempo... Probabilmente hai bisogno di una guida esperta... Inoltre posso anche maneggiare quest'arma che ho con me molto bene...~
+@16   = ~Ti guardi intorno come se mancassi da Beregost da molto tempo... Probabilmente hai bisogno di una guida esperta... Posso maneggiare bene questa meraviglia...~
 @17   = ~Stai parlando di quel mazzafrusto?~
-@18   = ~Certamente, di lui e anche di me...~
-@19   = ~Ma non sono i contadini che usano il mazzafrusto nei terreni? Non è stato creato per lavorare i campi?~
-@20   = ~Perdonami, ma purtroppo non seguiamo la stessa direzione, forse ci incontreremo ancora...~
-@21   = ~Spero che tu lo sappia veramente usare.~
-@22   = ~Stai ridendo? Forse non avrei dovuto iniziare così...~
+@18   = ~Certamente, di quello e anche di me...~
+@19   = ~Ma non sono i contadini che usano il mazzafrusto sui terreni? Non è stato creato per lavorare i campi?~
+@20   = ~Perdonami, ma la tua strada non è ancora la mia, forse ci rincontreremo...~
+@21   = ~Spero che tu lo sappia veramente maneggiare, ma andiamo...~
+@22   = ~Ci stai ridendo sopra? Forse non avrei dovuto dire niente...~
 @23   = ~Peccato, addio allora.~
-@24   = ~Sono molto felice di seguirti, Beregost è una città piacevole, ma mi attraggono di più le avventure...~
-@25   = ~C'è qualcos'altro che ci vuoi dire?~
+@24   = ~Sono molto felice di unirmi a te, Beregost è una città piacevole, ma mi attraggono di più le avventure...~
+@25   = ~C'è qualcos'altro?~
 /* @26 -> @10079 */
-@27   = ~Salve, hai ancora voglia di scherzare? Se è così cercati qualcun altro allora...~
-@28   = ~E' quello che intendo fare! Ci vediamo!~
-@29   = ~Calma, non voglio offendere. Se vuoi, puoi seguirmi.~
+@27   = ~Benvenuto, non ne hai ancora abbastanza di scherzare? Cerca qualcun altro allora...~
+@28   = ~È quello che intendo fare! Ci vediamo!~
+@29   = ~Calma, non intendevo offendere. Se vuoi, puoi seguirmi.~
 @30   = ~Benvenuto ancora, come posso aiutarti?~
 @31   = ~Non vogliamo nulla in realtà, addio!~
-@32   = ~E' ancora valida la tua offerta? Sarei felice di vederti in azione...~
-@33   = ~Uhm... come posso dirtelo... Ho dato in pegno a Feldepost il mio mazzafrusto favorito, sai, avevo bisogno di soldi per vivere... Se ci procuriamo un po' di soldi, potremmo riaverlo indietro...~
+@32   = ~È ancora valida la tua offerta? Mi farebbe piacere vederti in azione...~
+@33   = ~Uhm... come posso dirtelo... Ho dato in pegno a Feldepost il mio mazzafrusto favorito, sai, avevo bisogno di qualche moneta d'oro per vivere... Se ci procuriamo un po' di denaro, potremmo riaverlo indietro...~
 @34   = ~Quanto esattamente?~
-@35   = ~Almeno 1000 monete d'oro... Ehm... Ho anche ordinato un'armatura dal fabbro Taerom... Per 5000 monete d'oro... Non so in che modo sarò capace di pagare... Tuttavia mi ha detto che il lavoro dovrebbe richiedere molto tempo per essere terminato...~
+@35   = ~Almeno 1.000 monete d'oro... Ehm... Ho anche ordinato un'armatura dal fabbro Taerom... Per 5.000 monete d'oro... Non so come potrò pagare... Tuttavia mi ha detto che il lavoro dovrebbe richiedere molto tempo...~
 @36   = ~Avremo molto tempo per pensarci. Andiamo.~
 /* @37 -> @10080 */
-

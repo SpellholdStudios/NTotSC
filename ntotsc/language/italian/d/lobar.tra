@@ -1,21 +1,21 @@
 @0    = ~Siamo qui per affari. Siamo interessati ad un certo libro.~
-@1    = ~Ovviamente questo caso ha attirato l'attenzione di persone sospettose. Non molto tempo fa un mago di Haalrua ne ha chiesto notizie, come hai fatto tu oggi. La mia risposta è semplice. Il mio caro amico ha perso la testa. Il possedere questo libro mi ha maledetto. Ma un pò di tempo fa, un folle proprio come te ha rimosso la maledizione da me e probabilmente ora è stato maledetto lui.~
+@1    = ~Ovviamente questo caso non poteva sfuggire all'attenzione di persone sospette. Non molto tempo fa un mago Haalruan ha chiesto di lei, proprio come te oggi. E la mia risposta è semplice. La mia amata amica ha perso la testa. Il possesso di questo libro è stata la mia maledizione. Ma qualche tempo fa, un pazzo proprio come te ha rimosso la maledizione da me e probabilmente ora è lui ad essere maledetto.~ 
 @2    = ~Quanto costerà l'informazione?~
 @3    = ~Vuoi dilungarti per sempre? Dicci quanto vuoi.~
-@4    = ~3000 monete d'oro. Se ti dico chi ce l'ha, per qualche tempo avrò bisogno di stare al sicuro.~
-@5    = ~Ok, qui ci sono i tuoi soldi.~
+@4    = ~3.000 monete d'oro. Se ti dico chi ce l'ha, avrò bisogno di una protezione adeguata per un po' di tempo.~
+@5    = ~D'accordo, qui c'è il tuo denaro.~
 @6    = ~Sfortunatamente non abbiamo abbastanza soldi adesso... torneremo più tardi.~
-@7    = ~Okay, vai alla Sirenetta Timida. Là troverai Oupaste. Lui è stato il mediatore di questa operazione e sicuramente saprà a chi ha venduto il libro. Non so altro.~
+@7    = ~D'accordo, va' alla Sirenetta Timida. Troverai Oupaste. È stato il mediatore in questa transazione, quindi sicuramente sa a chi ha venduto il libro. Non ho nient'altro da dire. ~
 /* @8 -> @10002  */
 @9  = ~Come desideri.~
 @11 = ~Siamo qui per affari. Siamo interessati ad un certo libro.~
 
 /* new for v2.0 */
 @12 = ~Spero ti godrai il tuo soggiorno.~
-@13 = ~Ora ho i soldi.~
+@13 = ~Ora ho il denaro.~
 @14 = ~Ci vediamo.~
 @15 = ~Buona giornata.~
 
 
 /* new for v3.1.0 */
-@16 = ~Non ho intenzione di spendere tutti quei soldi per una semplice informazione.~
+@16 = ~Non ho intenzione di spendere tutto quel denaro per una semplice informazione.~

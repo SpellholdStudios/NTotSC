@@ -1,11 +1,11 @@
-@0    = ~Salve! Cosa posso fare per voi, onorevoli ospiti non benvenuti, poiché è UNA NON BENVENUTA VISITA, vero?!?~
+@0    = ~Salve! Cosa posso fare per voi, onorevoli ospiti non benvenuti, poiché è UNA VISITA NON GRADITA, non vi pare?!?~
 @1    = ~Oops, errore mio, ho sbagliato camera...~
 @2    = ~Siete... di queste parti? Non vi ho mai visto di giorno qui...~
-@3    = ~Questi sono affari nostri, ma ad ogni modo dovrebbe rimanere un nostro segreto...~
-@4    = ~Di nuovo? No... non possiamo tollerare oltre...~
+@3    = ~Questi sono affari nostri e rimarrà un nostro segreto...~
+@4    = ~Di nuovo? No... non è possibile tollerare ancora...~
 @5    = ~Cosa... chi...? Penso, che andrò via ora...~
-@6    = ~Eeeeh, ragazze, non è ora di cambiare professione? Forse dovremmo diventare portatrici esclusive di sensazioni intense per esempio...~
+@6    = ~Eeeeh, ragazze, non è giunto il momento di cambiare competenza? Non dovremmo diventare, ad esempio, portatrici esclusive di sentimenti intensi...~
 
 /* new for v2.0 */
 
-@7   = ~Er, ho già sentito quelle parole.~
+@7   = ~Ehm, ho già sentito quelle parole.~

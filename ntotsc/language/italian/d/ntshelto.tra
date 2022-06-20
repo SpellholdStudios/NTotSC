@@ -1,21 +1,21 @@
 // #3209 (change "Eldoth" to "Eldod")
-@0    = ~Eccovi qua. Non a tutte le guardie il vostro arrivo dispiace quanto ad Eldod.~
+@0    = ~Eccoti qua. Non a tutte le guardie il tuo arrivo dispiace quanto ad Eldod.~
 // #3210
-@1    = ~E' pericoloso ribellarsi così al Capitano.~
+@1    = ~È pericoloso ribellarsi così al tuo Capitano.~
 // #3211
 @2    = ~Buono a sapersi, anche se dubito che riuscirò a concludere qualcosa con lui tra i piedi.~
 // #3212
-@3    = ~Non mi fido di nessuna delle guardie finché le comanda lui. Lasciatemi in pace.~
+@3    = ~Non mi fido di nessuna delle guardie finché le comanda lui. Lasciami in pace.~
 // #3213 (change "Eldoth" to "Eldod")
-@4    = ~Eldod NON è il mio Capitano. IL MIO Capitano è un nobile che non avrebbe mai lasciato andare le cose in questo modo così a lungo senza chiedere aiuto. Eldod ha solo peggiorato il problema. Negherò di averlo detto se lo dite ad anima viva. Devo andare.~
+@4    = ~Eldod NON è il mio Capitano. IL MIO Capitano è un nobile che non avrebbe mai lasciato che le cose andassero in questo modo, così a lungo e senza chiedere aiuto. Eldod ha solo peggiorato il problema. Negherò di averlo detto se lo dirai ad anima viva. Ora devo andare.~
 // #3214
-@5    = ~Non vi biasimo affatto. Ma è come se TENTASSE di isolarci. Mi chiedo se è possibile che le sparizioni abbiano indebolito la sua salute. Ahimè! Non sta a me dirlo. Ho già detto troppo. Devo andare.~
+@5    = ~Non ti biasimo affatto. Ma è come se TENTASSE di isolarci. Mi chiedo se sia possibile che le sparizioni abbiano indebolito la sua salute mentale. Ahimè! Non sta a me dirlo. Ho già detto troppo. Ora devo andare.~
 // #3215
 @6    = ~Dubito che QUALCUNO di noi sarà di aiuto finché lui è al comando. Non posso parlare più a lungo, altrimenti ci vedrà insieme. Addio.~
 // #8742
-@7    = ~Non posso farmi vedere a parlare con persone come voi. Andatevene!~
+@7    = ~Non posso farmi vedere a parlare con qualcuno come te. Vattene!~
 // #8743 (change "Eldoth" to "Eldod")
-@8    = ~Se fossi in voi starei attento ad Eldod. Non c'è da fidarsi di lui; seguite il mio esempio.~
+@8    = ~Se fossi in te starei attento ad Eldod. Non è un uomo di cui fidarsi, te lo dico io, amico.~
 // #8967
-@9    = ~Non dirò più una sola parola dopo ciò che avete fatto!~
+@9    = ~Non dirò più una sola parola dopo quello che hai fatto!~
 

@@ -1,5 +1,5 @@
 // #3159
-@0    = ~Estranei infedeli.~
+@0    = ~Estranei pagani.~
 // #3160
 @1    = ~Tieni a freno la lingua se non vuoi che te la tagli!~
 // #3161
@@ -7,39 +7,39 @@
 // #3162
 @3    = ~Voi non vi fidate di me, ma io non voglio farvi alcun male. Sono qui per aiutarvi.~
 // #3163
-@4    = ~Uff. Devo aspettarmi solo minacce da gente come voi. Fate quello che dovete e andatevene da casa mia.~
+@4    = ~Umph. Devo aspettarmi solo minacce da gente come voi. Fate quello che dovete e andatevene da casa mia.~
 // #3164
-@5    = ~Ringraziare? Ringraziare che degli estranei invadano la mia casa perché i miei compagni che mancano forse sono morti? No, vi ringrazierò solo quando sarete fuori. Andatevene e fate quello che dovete.~
+@5    = ~Ringraziare? Ringraziare che degli estranei invadano la mia casa perché i miei compagni scomparsi forse sono morti? No, vi ringrazierò solo quando sarete fuori. Andatevene e fate quello che dovete.~
 // #3165
 @6    = ~Hmm... Credo di aver interpretato male i vostri modi e me ne scuso, anche se non mi piace che degli estranei gironzolino in casa mia. I vostri sforzi sono apprezzati, ma sarò ancora più felice quando avrete finito.~
 // #3166
-@7    = ~Ahh, Satos ci ha avvisato che oggi qui ci sarebbero stati degli estranei. State prestando un grande servizio, certamente con non pochi rischi per voi.~
+@7    = ~Ahh, Satos ci ha avvisato che oggi ci sarebbero stati degli estranei. State prestando un grande servizio, certamente correndo non pochi rischi.~
 // #3167
-@8    = ~Che volete da me?~
+@8    = ~Cosa volete da me?~
 // #3168
 @9    = ~Cosa sapete delle persone scomparse?~
 // #3169
 @10   = ~Avete udito niente di inquietante ieri sera?~
 // #3170
-@11   = ~Non ho bisogno di voi. Sarò solo nella mia ricerca e ucciderò chiunque trovi!~
+@11   = ~Non ho bisogno di voi. Cercherò da solo e ucciderò quello che troverò!~
 // #3171
 @12   = ~So che erano amici cari e fidati. Questo è abbastanza.~
 // #3175
 @13   = ~Grazie. Non vi infastidirò più.~
 // #3172
-@14   = ~Solo i sogni nella mia testa. Temo che nessuno di noi superstiti abbia dormito bene negli ultimi dieci giorni.~
+@14   = ~Sono solo i cattivi pensieri che mi frullano in testa. Temo che nessuno di noi superstiti abbia dormito bene negli ultimi dieci giorni.~
 // #3173
-@15   = ~Capisco... non riesco a vedere in che modo questo tipo di "aiuto" possa essere utile. Qual è il vostro obiettivo, visto che potremmo ottenere lo stesso effetto lasciando libero un orso furioso? Stanotte non dormirò meglio.~
+@15   = ~Capisco... non riesco a vedere in che modo questo tipo di... aiuto possa essere utile. Qual è il vostro obiettivo, visto che potremmo ottenere lo stesso effetto lasciando libero un orso furioso? Stanotte non dormirò meglio.~
 // # 3174
 @16   = ~Buona fortuna per la vostra ricerca. Spero che tutto finisca presto.~
 // #8745
 @17 = ~Non penso di sapere nulla che vi potrebbe interessare.~
 @18 = ~La Cittadella è tornata sicura ed è salva. Questa è un'ottima notizia. Posso fare qualcosa per te?~
-@19  = ~Niente grazie, buona giornata!~
-@20  = ~Sì, ci stavamo chiedendo cosa tenevi dentro l'altare nel tempio di Helm. E' chiuso e noi siamo talmente curiosi da non poter dormire.~
-@21 = ~Secondo il fondatore della Cittadella, Monoach, stiamo salvaguardando una delle nostre reliquie - un simbolo sacro di Helm. Ma non sappiamo dove sia la chiave. Si dice che Monoach la affidò ai suoi amici fidati, per custodirla da qualche parte lontano... Loro risiedevano su un'isola lontano a nord ovest... ma è difficile dirlo. Probabilmente se viaggi a nord lungo la costa oltre Ulgoth's Beard potresti trovare qualcuno che conosca quest'isola e potrebbe darti un passaggio fino a lì?~
-@22   = ~Non avete provato a forzare la serratura? Forse questo simbolo sarebbe più utile al servizio di tutti gli altri?~
-@23   = ~Non ci abbiamo pensato. E probabilmente nessuno si permetterebbe di rimuovere il lucchetto non essendo autorizzato. Secondo le parole di Monoach solo il proprietario della chiave può prendere il Simbolo. Solo quello che ha in mano la chiave.~
+@19 = ~Niente grazie, buona giornata!~
+@20 = ~Sì, ci stavamo chiedendo cosa tenevi dentro l'altare nel tempio di Helm. È sigillato e noi siamo talmente curiosi da non poter dormire.~
+@21 = ~Secondo il fondatore della Cittadella, Monoach, stiamo custodendo una delle nostre reliquie... un simbolo sacro di Helm. Ma non sappiamo dove sia la chiave. Si dice che Monoach l'abbia affidata ai suoi amici più fedeli per custodirla in qualche luogo sperduto... Si dice risiedessero su un'isola nel remoto nord-ovest... ma è difficile esserne certi. Probabilmente se viaggiassi verso nord lungo la costa oltre Ulgoth's Beard, potresti trovare qualcuno che conosce quest'isola e forse potrebbe darti un passaggio.~
+@22 = ~Non avete provato a forzare la serratura? Forse questo simbolo sarebbe più utile al servizio di tutti gli altri?~
+@23 = ~Non ci abbiamo nemmeno pensato. E probabilmente nessuno si permetterebbe di forzare la serratura senza averne l'autorizzazione. Secondo le parole di Monoach solo il proprietario della chiave può prendere il Simbolo. Soltanto colui che effettivamente la possiede.~
 /* @24 -> @10005 */  
-@25 = ~Il Sacerdote di Helm nel tempio ci ha detto che tu sapevi come rimuovere il lucchetto. Potresti chiarirci la cosa?~
-@26 = ~Non voglio parlare della sua rimozione con te proprio ora, considerando tutto quello che sta succedendo. Ritorna e parlamene di nuovo una volta che hai capito cosa sta succedendo qui alla Cittadella, ed hai portato tutti al sicuro.~
+@25 = ~Il Sacerdote di Helm nel tempio ci ha detto che sei a conoscenza dell'altare sigillato. Potresti chiarirci la cosa?~
+@26 = ~Non voglio parlare dell'altare con te proprio ora, considerando tutto quello che sta succedendo. Ritorna a parlarmene non appena avrai capito cosa sta succedendo qui alla Cittadella ed avrai salvato tutti quanti.~

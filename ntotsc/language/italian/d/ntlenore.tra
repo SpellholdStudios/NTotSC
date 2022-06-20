@@ -1,23 +1,22 @@
 // #3182
-@0    = ~Per Ilmater, ti prego, mandalo a casa.
-OH! Tu... mi hai spaventato. Tu sei quello mandato da Baldur's Gate, vero? Benvenuto, sebbene non abbia speranze che quando ci rivedremo saremo... ancora amici.~
+@0    = ~Per Ilmater, ti prego, mandalo a casa. OH! Tu... mi hai spaventata. Tu sei quello mandato da Baldur's Gate, vero? Benvenuto, sebbene io nutra ben poche speranze di rivedere... i nostri amici.~
 // #3189
 @1    = ~Dimmi, cosa sai delle persone scomparse?~
 /* @2 -> @10033 */    
 // #3190
 @3    = ~Cosa pensi che sia successo ai tuoi amici dispersi?~
 // #3191
-@4    = ~Dov'eri tu quando l'ultima persona è scomparsa? PARLA!~
+@4    = ~Dov'eri quando l'ultima persona è scomparsa? PARLA!~
 // #3183 (shortened to avoid repetition)
 @5 = ~Io so... sapevo tutto di loro, sapevo abbastanza... soprattutto su uno di loro. Siamo stati... noi... Montgomery ed io siamo stati... io non posso parlartene! Pensare di perderlo... non è giusto che tu sappia... abbiamo litigato l'altra notte e se ne è andato arrabbiato. Simili unioni sono... disapprovate dal nostro ordine, ma adesso lui è scomparso ed io... ti prego... trovalo. Trovali tutti e riportali sani e salvi a casa.~
 // #3192
 @6    = ~Farò del mio meglio per tutti quanti. Grazie per il tuo tempo.~
 // #3184
-@7    = ~... Non so... so solo che ci sono molti scomparsi... la maggior parte anche se non tutti.~
+@7    = ~... Non so... so solo che ci mancano molto... alla maggior parte di noi se non a tutti.~
 // #3195
-@8    = ~Cosa vuoi dire con questo?  Chi di loro non è scomparso?~
+@8    = ~Cosa vuoi dire con questo? A chi non mancano?~
 // #3185
-@9    = ~Io... Non avrei dovuto dire questo. Non è giusto pensare male di un altro senza avere le prove. E' solo che... allora... qualcuno sembra aver avuto molto da guadagnarci da queste sparizioni.~
+@9    = ~Io... Non avrei dovuto dire questo. Non è giusto pensare male di un altro senza avere le prove. È solo che... beh... qualcuno sembra aver avuto molto da guadagnarci da queste sparizioni.~
 // #3199
 @10   = ~Un motivo interessante, devo ammetterlo. Ci penserò su.~
 // #3186
@@ -27,37 +26,37 @@ OH! Tu... mi hai spaventato. Tu sei quello mandato da Baldur's Gate, vero? Benve
 // #3203
 @13   = ~Perdona le mie maniere, ma questa è una faccenda sgradevole. Ti prego, possiamo ricominciare da capo?~
 // #3187
-@14   = ~E' tutto così doloroso. Devo fare qualcosa oltre a stare oziosamente seduta qui. Ti prego, posso unirmi a te? Devo sapere cosa è successo al mio... a tutti i miei amici.~
+@14   = ~È tutto così doloroso. Devo fare qualcosa oltre a starmene oziosamente seduta qui. Ti prego, posso unirmi a te? Devo sapere cosa è successo al mio... a tutti i miei amici.~
 // #6091
-@15   = ~Ho un posto per te, e poco tempo per proteggerti. Questo lavoro è pericoloso e non posso nello stesso tempo essere responsabile per te. Che utilità avrei con te?~
+@15   = ~Ho poco tempo per te e meno ancora per proteggerti. Questo lavoro è pericoloso e non posso addossarmi la responsabilità per te. Di che utilità saresti per me?~
 // #6092
-@16   = ~Ho paura che la mia operazione sia già abbastanza scoraggiante senza la tua compagnia. Vorrei quindi continuare senza di te.~
+@16   = ~Temo che il mio compito sia già abbastanza deprimente senza la tua compagnia. Vorrei quindi continuare senza di te.~
 // #6093
-@17   = ~Non sembra saggio, per me, metterti in pericolo quando sono invece intenzionato a proteggerti. Capisco che desideri aiutarmi, ma penso sia meglio che tu rimanga qui.~
+@17   = ~Non sembra saggio metterti in pericolo quando sono invece intenzionato a proteggerti. Capisco che desideri aiutarmi, ma penso sia meglio che tu rimanga qui.~
 // #3188
-@18   = ~Oh ti prego lasciami stare! Ho sofferto abbastanza senza dover soffrire ancora la tua compagnia.~
+@18   = ~Oh ti prego lasciami stare! Ho sofferto abbastanza senza dover sopportare ancora la tua compagnia.~
 // #3204
-@19   = ~Io... immagino. E' tutto così difficile...~
+@19   = ~Io... immagino. È tutto così difficile...~
 // #3208
-@20   = ~Oh ti prego lasciami stare! Ho sofferto abbastanza senza dover soffrire ancora la tua compagnia.~
+@20   = ~Oh ti prego lasciami stare! Ho sofferto abbastanza senza dover sopportare ancora la tua compagnia.~
 // #6094
-@21   = ~Responsabile per me?! Non sarò un pericolo per nessuno ma solo per me stessa! Non perdi nulla con la mia presenza. Anzi, posso esserti di qualche aiuto. L'Abate non ha mai approvato ma... molti tomi nella prigione trattavano di conoscenze magiche. Io ho studiato molto in segreto, e sono certa di essere una buona maga come anche qualcuno di voi potrebbe esserlo. Non sarò NON responsabile.~
+@21   = ~Responsabilità per me?! Non sarò un pericolo per nessuno se non per me stessa! Non perdi nulla con la mia presenza. Anzi, posso esserti d'aiuto. L'abate non ha mai approvato ma... molti tomi nella cittadella parlano di conoscenze magiche. Io ho studiato molto in segreto e sono certa di essere una buona maga come chiunque di voi potrebbe esserlo. Non avrai nessuna RESPONSABILITÀ.~
 // #6096
-@22   = ~Studiato o no, non ho bisogno di te. Continuerò senza di te.~
+@22   = ~Studi magici o no, non ho bisogno di te. Continuerò senza di te.~
 // #6097
-@23   = ~No. Anche se sei impaziente, non posso mettere in pericolo un'altra persona in più di quelle che già lo sono. Mi dispiace.~
+@23   = ~No. Anche se sei impaziente, Non posso mettere in pericolo una sola persona più del dovuto. Mi dispiace.~
 // #6098
-@24   = ~Come puoi rifiutare il mio aiuto! Non capisco come puoi dire di stare facendo tutto il possibile, quando non ti servi neanche di tutti gli aiuti che ti si offrono. Che la fortuna sia con te allora, nell'interesse di tutti noi.~
+@24   = ~Come puoi rifiutare il mio aiuto! Non capisco come puoi dire che stai facendo tutto il possibile, quando non ti servi neanche di tutti gli aiuti che ti vengono offerti. Che la fortuna sia con te allora, nell'interesse di tutti noi.~
 // contains parts of #6099
-@25 = ~Io... capisco. Ti prego allora, almeno prendi questo. Non può agire da solo chi é dietro alle sparizioni e a questi furtivi attacchi alla Cittadella, perciò usala quando sentirai che sarà il momento giusto. Ti aiuterà durante le prove che ti attendono. Io sarò in un grande guaio quando non la troveranno più, ma il tuo successo è cruciale. Temo per la vita del valoroso Satos, che sta sostituendo il nostro Abate Superiore. Sarebbe meglio fare in modo che rimanga al sicuro. Non so cosa faremo se dovessimo perderlo ora!~
+@25 = ~Io... capisco. Ti prego allora, almeno prendi questo. Solo qualcuno che non è in sé potrebbe essere dietro le sparizioni e questo furtivo attacco alla Cittadella, quindi usalo quando senti che è il momento giusto. Ti aiuterà nelle tue prove future. Sarò in grossi guai quando si scoprirà che non è al suo posto, ma il tuo successo è cruciale. Temo per la vita del coraggioso Satos, che sostituisce il nostro capo abate. Sarebbe meglio essere certi che rimanga al sicuro. Non so cosa faremmo se lo perdessimo ora!~
 // #6101
 @26   = ~Questo corpo... sembra... no... NO!~
 // #6103
-@27   = ~C'è una lettera per me qui... lui dichiara il suo amore con parole di agonia... tutto quello che sarebbe potuto essere... Bene (sniff), c'è... poco che posso fare qui.  Avanti... dobbiamo mettere fine a... a tutto questo.~
+@27   = ~C'è una lettera per me qui... lui dichiara il suo amore con le sue ultime parole... tutto quello che sarebbe potuto essere... Bene (sniff), c'è... poco che possa fare qui.  Forza... dobbiamo mettere fine a... a tutto questo.~
 // #8748
-@28   = ~Io.... Io non posso parlare con te.  Io... voglio essere lasciata sola.~
+@28   = ~Io.... Io non posso parlare con te.  Io... voglio restare da sola.~
 // #8749
-@29   = ~Se sei mio amico, allora troverai il mio Montgomery. Ti prego... Io desidero rivederlo ancora.~
+@29   = ~Se sei mio amico, allora troverai il mio Montgomery. Ti prego... Vorrei tanto rivederlo.~
 // #8969
-@30   = ~Vattene! Non farò nulla per te!~
+@30   = ~Fuori dalla mia vista! Non farò nulla per te!~
 
