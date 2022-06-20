@@ -27,7 +27,7 @@ To reach the new areas via worldmap, you need to install BP-BGT-worldmap for BGT
 You need to start a new game, or the new areas will not show on your worldmap.
 
 NTotSC is compatible with BG:EE, BGT, and EET.
-Language versions: English, German, Italian, Polish
+Language versions: English, German, Italian, Polish, Russian
 
 HISTORY
 +++++++
@@ -42,15 +42,22 @@ INSTALLATION
 
 It is in Weidu format.  To install, unzip the zip file to your game folder and double-click on Setup-NTotSC.exe.  To uninstall, double-click on Setup-NTotSC.exe again and select the Uninstall option.
 
-The install has eight parts: the main component (obligatory for the mod) and five optional componantes of restored game content, Will O'Hara the NPC, and some fighting encounters:
+The mod has eight parts: the main component (obligatory for the mod) and 13 optional components which are splitted into 4 categories: Tactical Challenges, Quests and Encounters, Nerfs, and NPC:
 
---Keelor the Dwarf
---Pilar and Gheldehar
---Nim Furlwing
---Llindellyn's Lucky Arrow
---Svlast's Torment
---Will O'Hara NPC
---Fighting Encounters
+--Norther Tales of The Sword Coast Main Component
+--Spawn less Monsters depending on Game Difficulty (Nerfs)
+--Keelor the Dwarf (Quest and Encounters)
+--Pilar and Gheldehar (Quest and Encounters)
+--Nim Furlwing (Quest and Encounters)
+--Llindellyn's Lucky Arrow (Quest and Encounters)
+--Svlast's Torment (Quest and Encounters)
+--Will O'Hara NPC (NPC)
+--Will O'Hara NPC Soundset (NPC)
+--Fighting Encounters (Tactical Challenges)
+--Improved Lesser Fiends (Tactical Challenges)
+--Improved Haeball (Tactical Challenges)
+--Improved Ghotal (Tactical Challenges)
+--Reduce Number of Shaman Cloaks (Nerfs)
 
 DSotSC must also be installed before NTotSC.  This mod also works with BG1NPC.
 
@@ -130,49 +137,49 @@ Rededge in Chapter 7
   Restores original game encounter with a rogue from the thieves' guild after Angelo took over the Flaming Fist.
 
 
-Component Spawn less Monsters depending on Game Difficulty
+Component Spawn less Monsters depending on Game Difficulty (Nerfs)
 ++++
  This component makes changes in monster numbers depending on game difficulty which were introducd in v.3.2.0 an optional component.
 Depending on game difficulty, number and variety of monsters in the mod's dungeons are reduced.
 
 
-Component Keelor the Dwarf 
+Component Keelor the Dwarf (Quest and Encounters)
 ++++
   Adds Keelor the dwarf to the mod area "Wood of the Dead". Help him with his injuries from a Gnoll attack. If the healing is high enough, his sister Nasha in the temple of Umberlee in south Baldur's Gate will heal the party for free afterwards.
 
 
-Component Pilar and Gheldehar
+Component Pilar and Gheldehar (Quest and Encounters)
 ++++
   Adds Pilar and Geldehar to Baldur's Gate. They do not talk to each other but everyone has one item the other one would like to have back. 
 Note: This quest can only be solved with pickpocketing skills.
 
 
-Component Nim Furlwing
+Component Nim Furlwing (Quest and Encounters)
 ++++
   Adds Nim and her hounds to the mod area "Temple of the Black Hand". Help saving the hounds against a monster attack!
 
 
-Component Llindellyn's Lucky Arrow
+Component Llindellyn's Lucky Arrow (FQuest and Encounters)
 ++++
   Adds Llindellyn to teh mod area "Northern Wood". Help him find his lucky arrow!
 
 
-Component Svlast's Torment
+Component Svlast's Torment (Quest and Encounters)
 ++++
   Adds the fallen apaldin Svlast to the Firewine Bridge. Svlast did wrong to one of his brethren who is now coming for him! 
 
 
-Component Will O'Hara NPC
+Component Will O'Hara NPC (NPC)
 ++++
   Adds a joinable NPC who can be met in Beregost. Apart from some interjections in Beregost and some custom items, Will has no further content.
  
 
-Component Will O'Hara NPC Soundset
+Component Will O'Hara NPC Soundset (NPC)
 ++++
 This component will install the English audio files of Will O'Hara's soundset.
 
 
-Component Fighting Encounters
+Component Fighting Encounters (Tactical Challenges)
 ++++
   Some unrelated fighting encounters were moved into this separate component:
 --Two additional fighters for Lamalha in the Valley of the Tombs
@@ -182,24 +189,31 @@ Component Fighting Encounters
 --Black Talon Elite Fighters in Cloackwood and Cloakwood Mines.
 
 
-Component Improved Lesser Fiends
+Component Improved Lesser Fiends (Tactical Challenges)
 ++++
 --Turns the "lesser fiends" in the Fireleaf Forest dungeon into actual lesser
 fiends; a succubus and two maurezi.
 --Brings back some of the invisible stalkers at higher difficulty levels.
 
 
-Component Improved Haeball
+Component Improved Haeball (Tactical Challenges)
+++++
 --Turns Haeball into a vampire mage; his vampiric nature will be revealed
 halfway during the fight and he will summon wolves and use other vampiric
 powers, he also gets a better spell selection.
 
 
-Component Improved Ghotal
+Component Improved Ghotal (Tactical Challenges)
+++++
 --Turns General Ghotal into a ghost with unusual powers and ghostly minions.
 --Replaces the two death knights at the entrance of the tomb with stone
 golems.
 --Some of the weakest undead in the crypt are replaced with tougher ones.
+
+
+Component Reduce Number of Shaman Cloaks (Nerfs)
+++++
+This component reduces the loot from the Orc Priests. Instead of dropping a Shaman Cloak each, there will be only one to be found. There is two install choices: Option 1 removes the cloaks from the Orc Priests, which should make the fights easier. Option 2 makes the cloaks undroppable. For both options, the Orc Priests will drop studded leather armors instead.
 
 
 SPOILERS
@@ -256,6 +270,21 @@ F.A.Q.
 
 CHANGES - VERSION HISTORY
 +++++++
+
+5.0.0 - packed by jastey
+	-new components, by Angel: Improved Lesser Fiends; Improved Haeball; Improved General Ghotal.
+	-new component, by jastey: Reduce Number of Shaman Cloaks (two options). 
+	-Polish version revised and updated to v5, by Roberciiik.
+	-Will O'Hara: Polish dubbing thanks to Anoim2666.
+	-Install of optional components was splitted into 4 categories: Tactical Challenges, Quests and Encounters, Nerfs, NPC.
+	-Removed Ogre Magi from AR12PB as it is copy of bounty hunter.
+	-Removed doubled copy of items.
+	-fixed cre item references.
+	-Added missing weights to items for EE.
+	-Reduced XP and loot for resting in AR52PB.are by reducing spawn probability and number of monsters.
+	-Changed Orc Shamans to 2 different custom cres.
+	-Cultists should drop a bow (added short bows to ntblhcul.cre and ntblhcu1.cre).
+	-Added a known_issues.txt to ntotsc/docs/. Contributions and fixes welcome.
 
 4.2.0 - provided by Roberciiik
 -Proof reading of Polish version.

@@ -1,7 +1,12 @@
 IF
-  OR(3)
+    %OR_SpellCastOnMe_WIZARD_REMOVE_MAGIC% //    SpellCastOnMe([PC],WIZARD_REMOVE_MAGIC) EET only
     SpellCastOnMe([PC],CLERIC_LESSER_RESTORATION)
     SpellCastOnMe([PC],CLERIC_RESTORATION)
+    SpellCastOnMe([PC],CLERIC_DISPEL_MAGIC)//Dispel Magic
+    SpellCastOnMe([PC],CLERIC_REMOVE_CURSE)//Remove Curse
+    SpellCastOnMe([PC],WIZARD_DISPEL_MAGIC)//Dispel Magic
+    SpellCastOnMe([PC],WIZARD_TRUE_DISPEL_MAGIC)//Dispel Magic
+    SpellCastOnMe([PC],WIZARD_REMOVE_CURSE)//Remove Curse
     Dead("NTKROTAN")
   Global("NT_EldodRestored","GLOBAL",0)
 THEN

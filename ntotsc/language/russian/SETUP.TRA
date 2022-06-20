@@ -1494,6 +1494,18 @@ THAC0: +2 улучшение
  Друид
  Маг~
 
+/* Tactical challenges - Angel */
+@564   = ~Tactical Challenges~
+@565   = ~Improved Lesser Fiends~
+@566   = ~Quests and Encounters~
+@567   = ~Improved Haeball~
+@568   = ~Improved Ghotal~
+@569   = ~Nerfs~
+@570   = ~NPC~
+@571   = ~Reduce Number of Shaman Cloaks~
+@572   = ~Remove Cloaks from generic Orc Shamans~
+@573   = ~Make Cloaks Undroppable~
+
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
 @1244 = ~Святая вода~

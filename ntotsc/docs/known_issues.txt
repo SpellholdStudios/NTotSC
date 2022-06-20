@@ -1,0 +1,25 @@
+Known issues (v5.0.0):
+
+Could probably be fixed by someone else:
+
+-- water overlays seem to be missing in "Wood of the Dead" and "Northern Coast". Maybe they can be taken from the original areas which were edited into the mod areas (most probably "Cloakwood forest Druid Grove" for "Wood of the Dead").
+
+-- EET: some of the symbols are very near to SoD symbols on the worldmap
+
+-- if you go from the map with the Temple of the Black Hand directly to Larswood (Tower), you end up outside the map and thus stuck (without teleporting) -> reproducible??
+
+-- Some scripts seem off. some orc priests and mages only attacked me with melee weapons, they didn't cast spells. 
+
+-- Will armor and evalt blade dont have Str requirements
+
+-- Will's voiceset: some lines seem in wrong order 
+
+-- area tis extraction: it gives a warning for AR10PB that the Data is corrupted, but the area works ingame.
+
+
+
+Will probably stay:
+
+--You can tell the Phantasm inside “hey you are the hot topic in Beregost discussions”, without hearing about the cave in any conversation --> I have also no idea what this is referring to, but I'll leave it in.
+
+-- for one dialogue path, Pique tells the player to take something but he doesn't give anything. Since the texts are used from unfinished game contents, I have no idea what he was supposed to give the group, so this will probably stay as it is.
