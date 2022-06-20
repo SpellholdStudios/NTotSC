@@ -1334,7 +1334,7 @@ Waga: 25~
 
 @513 = ~DSotSC dla BGT/EET znalezione.~
 @514 = ~DSotSC Czary Maga znalezione. Dodawanie referencji...~
-@515 = ~DSotSC Glowny Komponent nie znaleziony. Instalowanie zasobow...~
+@515 = ~DSotSC Glowny komponent nie znaleziony. Instalowanie zasobow...~
 
 @516 = ~To wydaje siê byæ jakimœ rodzajem mapy. Jedyny znaleziony napis to "Las Ostrych K³ów". Dalej na wschód i nieco na pó³noc od niego zauwa¿asz znacznik, jakby to by³o wa¿nym miejscem.~
 
@@ -1361,12 +1361,12 @@ Waga: 25~
 // #26284 (BGII)
 @526 = ~Rybak~
 
-@527 = ~DSotSC dla BG:EE Glowny Komponent znaleziony.~
+@527 = ~DSotSC dla BG:EE Glowny komponent znaleziony.~
 @528 = ~DSotSC znalezione. Dodawanie referencji...~
 
 @529 = ~Ta modyfikacja nie jest kompatybilna z ta gra.~
 @530 = ~Ta modyfikacja powinna zostac zainstalowana PRZED BP-BGT Worldmap.~
-@531 = ~Glowny Komponent tej modyfikacji (NTotSC) jest wymagany.~
+@531 = ~Glowny komponent tej modyfikacji (NTotSC) jest wymagany.~
 @532 = ~Spotkanie jest juz przywrocone przez inna modyfikacje.~
 
 
@@ -1527,14 +1527,14 @@ Nie mo¿e u¿ywaæ:
 /* Tactical challenges - Angel */
 @564   = ~Wyzwania taktyczne~
 @565   = ~Ulepszone pomniejsze demony~
-@566   = ~Dodatkowe zadania~
+@566   = ~Dodatkowe zadania i spotkania~
 @567   = ~Ulepszony Haeball~
 @568   = ~Ulepszony Ghotal~
-@569   = ~Nerfs~
+@569   = ~Ulatwienia~
 @570   = ~NPC~
-@571   = ~Reduce Number of Shaman Cloaks~
-@572   = ~Remove Cloaks from generic Orc Priests~
-@573   = ~Make Cloaks Undroppable~
+@571   = ~Ogranicz liczbe szat szamana orkow~
+@572   = ~Usun szaty z ekwipunku orkow kaplanow~
+@573   = ~Ustaw szaty jako nieupuszczalne~
 /* ------ */
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
@@ -1547,7 +1547,7 @@ PARAMETRY:
 Waga: 1~
 
 @1452 = ~Zguba goblinów +2~
-@1454 = ~Elfi ³uk: 'Zguba goblinów'
+@1454 = ~Elfi ³uk +2: 'Zguba goblinów'
 
 Elfy stworzy³y ten ³uk z myœl¹ o walce z nêkaj¹cymi je hordami goblinoidów, ale wkrótce okaza³ siê równie skuteczny przeciw innym wrogom.
 

@@ -1032,14 +1032,14 @@ Obra¿enia: 2k8 od kwasu przeciw nieumar³ym
 
 Waga: 1~
 
-@1454 = ~Elfi ³uk: „Zguba goblinów”
+@1454 = ~Elfi ³uk +2: „Zguba goblinów”
 
 Elfy stworzy³y ten ³uk z myœl¹ o walce z nêkaj¹cymi je hordami goblinoidów, ale wkrótce okaza³ siê równie skuteczny przeciw innym wrogom.
 
 PARAMETRY:
 
 Obra¿enia: +2
-Trak0: +2
+TraK0: +2
 Typ obra¿eñ: pocisk
 OpóŸnienie: 3
 Rodzaj bieg³oœci: krótki ³uk
