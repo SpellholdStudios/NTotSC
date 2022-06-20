@@ -2864,7 +2864,7 @@ REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 INCLUDE ~%MOD_FOLDER%/tactical/setup_ghotal.tpa~
 
 
-BEGIN @572   /* ~Remove Cloaks from generic Orc Shamans~ */
+BEGIN @572   /* ~Remove Cloaks from generic Orc Priests~ */
 SUBCOMPONENT @571 /* ~Reduce Number of Shaman Cloaks~ */
 GROUP @569	/* ~Nerfs~ */
 DESIGNATED 13 LABEL ~NTotSC_RemoveShamanCloaks_Completely~
