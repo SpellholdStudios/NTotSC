@@ -1,5 +1,6 @@
 IF
-    %OR_SpellCastOnMe_WIZARD_REMOVE_MAGIC% //    SpellCastOnMe([PC],WIZARD_REMOVE_MAGIC) EET only
+  %OR_SpellCastOnMe%
+    %SpellCastOnMe_WIZARD_REMOVE_MAGIC% //    SpellCastOnMe([PC],WIZARD_REMOVE_MAGIC) EET only
     SpellCastOnMe([PC],CLERIC_LESSER_RESTORATION)
     SpellCastOnMe([PC],CLERIC_RESTORATION)
     SpellCastOnMe([PC],CLERIC_DISPEL_MAGIC)//Dispel Magic

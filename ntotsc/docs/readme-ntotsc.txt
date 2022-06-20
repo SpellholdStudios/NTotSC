@@ -284,7 +284,10 @@ CHANGES - VERSION HISTORY
 	-Reduced XP and loot for resting in AR52PB.are by reducing spawn probability and number of monsters.
 	-Changed Orc Shamans to 2 different custom cres.
 	-Cultists should drop a bow (added short bows to ntblhcul.cre and ntblhcu1.cre).
+	-Added minhp20.itm if it's not present (e.g. BG:EE).
+	-ntcutres.baf should play the correct rest movie (different names in BGT / EE).
 	-Added a known_issues.txt to ntotsc/docs/. Contributions and fixes welcome.
+	-ntotsc.ini updated with more support for Project Infinity.
 
 4.2.0 - provided by Roberciiik
 -Proof reading of Polish version.
