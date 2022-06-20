@@ -1,19 +1,3 @@
-/* 
-
--known issues
-Could probably be fixed by someone else:
--- EET: some of the symbols are very near to SoD symbols on the worldmap
---wenn man von der Karte mit dem Tempel der Schwarzen Hand direkt nach Larswood (Turm) geht, dann landet außerhalb der Karte und steckt somit fest (ohne Teleportieren).
---Some scripts seem off. some orc priests and mages only attacked me with melee weapons, they didn't cast spells. 
-    Will armor and evalt blade dont have Str requirements
--Will's voiceset: some lines seem in wrong order 
-
-Will probably stay:
---You can tell the Phantasm inside “hey you are the hot topic in Beregost discussions”, without hearing about the cave in any conversation --> I have also no idea what this is referring to, but I'll leave it in.
-
-*/
-
-
 
 // Northern Tales of the Sword Coast
 // Original creator of NTotSC: Aurelinus
@@ -25,7 +9,7 @@ Will probably stay:
 
 BACKUP ~ntotsc/backup~
 AUTHOR ~http://www.shsforums.net/forum/202-dsotsc-bgt/~
-VERSION ~4.2.0~ 
+VERSION ~5.0.0~ 
 README ~ntotsc/docs/[%LANGUAGE%]ReadMe-NTotSC.txt~ ~ntotsc/docs/ReadMe-NTotSC.txt~
 AUTO_TRA ~ntotsc/language/%s/D~
 ASK_EVERY_COMPONENT
@@ -66,6 +50,7 @@ ALWAYS
 		OUTER_SPRINT PLAT09 ~PLAT09~
 		OUTER_SPRINT POTN55 ~POTN55~
 		OUTER_SPRINT SPIN996 ~BGIN996~ //TANARI_DEATH_GAZE
+		OUTER_SPRINT OR_SpellCastOnMe_WIZARD_REMOVE_MAGIC ~OR(8)~
 	END 
 	ACTION_IF GAME_IS ~eet~ BEGIN
 		INCLUDE ~EET/other/cpmvars/eet_cpmvars.tpa~
@@ -79,6 +64,7 @@ ALWAYS
 		OUTER_SPRINT PLAT09 ~PLAT09~
 		OUTER_SPRINT POTN55 ~POTN55~
 		OUTER_SPRINT SPIN996 ~SPIN996~ //TANARI_DEATH_GAZE
+		OUTER_SPRINT SpellCastOnMe_WIZARD_REMOVE_MAGIC ~OR(9) SpellCastOnMe([PC],WIZARD_REMOVE_MAGIC)~ 
 	END
 	ACTION_IF GAME_IS ~bgee~ BEGIN
 		INCLUDE ~ntotsc/lib/liam_bgee_vars.tpa~
@@ -91,6 +77,7 @@ ALWAYS
 		OUTER_SPRINT PLAT09 ~PLAT04~
 		OUTER_SPRINT POTN55 ~POTN52~
 		OUTER_SPRINT SPIN996 ~SPIN996~ //TANARI_DEATH_GAZE
+		OUTER_SPRINT OR_SpellCastOnMe_WIZARD_REMOVE_MAGIC ~OR(8)~
 	END
 	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
 		COPY - ~weidu.conf~ ~.../weidu.conf~
@@ -915,6 +902,7 @@ COPY ~ntotsc/base/cre/ntblhcu1.cre~ ~override~
 	~ntotsc/base/cre/ntblhcul.cre~ ~override~
 	SAY NAME1 @231
 	SAY NAME2 @231
+	ADD_CRE_ITEM ~BOW05~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 
 COPY ~ntotsc/base/cre/ntbpwatc.cre~ ~override~
 	SAY NAME1 @232
@@ -1268,12 +1256,6 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~ORC02.cre~ THEN BEGIN
 	SAY NAME2 @522
 END
 
-//##ACTION_IF NOT FILE_EXISTS_IN_GAME ~ORC03.cre~ THEN BEGIN
-  COPY ~ntotsc/bgee/ORC03.cre~ ~override~
-	SAY NAME1 @523
-	SAY NAME2 @523
-//##END
-
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~ORC04.cre~ THEN BEGIN
   COPY ~ntotsc/bgee/ORC04.cre~ ~override~
 	SAY NAME1 @524
@@ -1323,10 +1305,25 @@ ACTION_IF NOT FILE_EXISTS_IN_GAME ~ZOMBJU01.cre~ THEN BEGIN
 END
 
 
+/* ~ORC03.cre~ */
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~ORC03.cre~ THEN BEGIN
+  COPY ~ntotsc/bgee/ORC03.cre~ ~override/ntorc03.cre~
+	SAY NAME1 @523
+	SAY NAME2 @523
+	WRITE_EVALUATED_ASCII 0x280 ~NTORC03~ #8   // Death variable
+	ADD_CRE_ITEM ~NTROBE02~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REMOVE_CRE_ITEM ~LEAT04~ 
+END ELSE BEGIN
+  COPY_EXISTING ~orc03.cre~ ~override/ntorc03.cre~
+	SAY NAME1 @523
+	SAY NAME2 @523
+	WRITE_EVALUATED_ASCII 0x280 ~NTORC03~ #8   // Death variable
+	ADD_CRE_ITEM ~NTROBE02~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+	REMOVE_CRE_ITEM ~LEAT04~ 
+END
 
-
-
-
+COPY_EXISTING ~ntorc03.cre~ ~override/ntorcs3.cre~
+  WRITE_EVALUATED_ASCII 0x280 ~NTORCS3~ #8   // Death variable
 
 
 
@@ -1351,9 +1348,6 @@ END
 
 COPY_EXISTING ~mtowbe_c.cre~ ~override~
 	WRITE_ASCII DEATHVAR ~MTOWBE_C~ #32
-
-COPY_EXISTING ~orc03.cre~ ~override~
-	ADD_CRE_ITEM ~NTROBE02~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
 
 COPY_EXISTING ~rat.cre~ ~override~
 	ADD_CRE_ITEM ~NTMISC07~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
@@ -1530,8 +1524,14 @@ COPY_EXISTING ~DSWELF2E.cre~ ~override~
 
 /* copy ambients to override to prevent crashing */
 
-ACTION_IF GAME_IS ~bgee~ BEGIN
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~AM0310.wav~ THEN BEGIN
   COPY ~ntotsc/bgee/AM0310.wav~ ~override~
+END ELSE BEGIN
+  COPY_EXISTING ~AM0310.wav~ ~override~
+END
+
+ACTION_IF GAME_IS ~bgee~ BEGIN
+//  COPY ~ntotsc/bgee/AM0310.wav~ ~override~
   COPY ~ntotsc/bgee/AM0310B.wav~ ~override~
 //  COPY_EXISTING ~AM_2101.wav~ ~override~
 //  COPY_EXISTING ~AM_2107.wav~ ~override~
@@ -1580,7 +1580,7 @@ END
 
 
 ACTION_IF GAME_IS ~bgt~ BEGIN
-  COPY_EXISTING ~AM0310.wav~ ~override~
+//  COPY_EXISTING ~AM0310.wav~ ~override~
   COPY_EXISTING ~AM0310B.wav~ ~override~
 //  COPY_EXISTING ~AM_2101.wav~ ~override~
 //  COPY_EXISTING ~AM_2107.wav~ ~override~
@@ -1638,7 +1638,7 @@ END
 
 
 ACTION_IF GAME_IS ~eet~ BEGIN
-  COPY_EXISTING ~AM0310.wav~ ~override~
+//  COPY_EXISTING ~AM0310.wav~ ~override~
   COPY_EXISTING ~AM0310B.wav~ ~override~
 //  COPY_EXISTING ~AM_2101.wav~ ~override~
 //  COPY_EXISTING ~AM_2107.wav~ ~override~
@@ -2386,7 +2386,7 @@ COPY	~ntotsc/base/mos/%engine%~ ~override~
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @55133 /* ~Spawn less Monsters depending on Game Difficulty~ */
-GROUP @564	/* ~Tactical Challenges~ */
+GROUP @569	/* ~Nerfs~ */
 DESIGNATED 1 LABEL ~NTotSC_LessMonsters~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 
@@ -2415,7 +2415,7 @@ COMPILE EVALUATE_BUFFER ~ntotsc/less_monsters/ntdest04.baf~
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @533 /* ~Keelor the Dwarf~ */
-GROUP @566 /* ~Fetch Quests~ */
+GROUP @566 /* ~Quests and Encounters~*/
 DESIGNATED 2 LABEL ~NTotSC_KeelortheDwarf~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#KEELO.CRE~ @532
@@ -2450,7 +2450,7 @@ EXTEND_BOTTOM ~%BaldursGateDocks_WaterQueensHouse%.bcs~ ~ntotsc/keelor/ar0609.ba
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @534 /* ~Llindellyn's Lucky Arrow~ */
-GROUP @566 /* ~Fetch Quests~ */
+GROUP @566 /* ~Quests and Encounters~ */
 DESIGNATED 3 LABEL ~NTotSC_LlindellynsLuckyArrow~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#LLIND.CRE~ @532
@@ -2482,7 +2482,7 @@ EXTEND_TOP ~AR40PB.bcs~ ~ntotsc/llindellyn/ar40pb_llindellyn.baf~ EVALUATE_BUFFE
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @535 /* ~Nim Furlwing's Hunting Hounds~ */
-GROUP @566 /* ~Fetch Quests~ */
+GROUP @566 /* ~Quests and Encounters~ */
 DESIGNATED 4 LABEL ~NTotSC_NimFurlwing~
 
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
@@ -2526,7 +2526,7 @@ EXTEND_TOP ~AR60PB.bcs~ ~ntotsc/nimfurlwing/ar60pb_nimfur.baf~ EVALUATE_BUFFER
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @536 /* ~Pilar and Gheldehar~ */
-GROUP @566 /* ~Fetch Quests~ */
+GROUP @566 /* ~Quests and Encounters~ */
 DESIGNATED 5 LABEL ~NTotSC_PilarandGeldehar~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/JA#GHELD.CRE~ @532
@@ -2559,7 +2559,7 @@ EXTEND_BOTTOM ~%NWBaldursGate_BCS%.bcs~ ~ntotsc/pilargheldehar/ar0100.baf~ EVALU
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @537 /* ~Svlast's Torment~ */
-GROUP @566 /* ~Fetch Quests~ */
+GROUP @566 /* ~Quests and Encounters~ */
 DESIGNATED 6 LABEL ~NTotSC_SvlastsTorment~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 FORBID_FILE ~override/UBSVLAST.CRE~ @532
@@ -2598,6 +2598,7 @@ EXTEND_BOTTOM ~%FirewineBridge_BCS%.bcs~ ~ntotsc/svlast/ar4500_svlast.baf~ EVALU
 //////////////////////////////////////////////////////////////////////////////
 
 BEGIN @538 /* ~Will O'Hara NPC~ */
+GROUP @570 /* ~NPC~ */
 DESIGNATED 7 LABEL ~NTotSC_WillNPC~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 
@@ -2707,6 +2708,7 @@ COPY	~ntotsc/base/portraits/l~ ~override~
 ////////////////////////////////////////////////////////////////////////////
 
 BEGIN @553 /* Install soundset */
+GROUP @570 /* ~NPC~ */
 DESIGNATED 8 LABEL ~NTotSC_WillSoundset~
 REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 7 @552 /* Requires 'Will O'Hara' component */
 
@@ -2852,3 +2854,22 @@ REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 INCLUDE ~%MOD_FOLDER%/tactical/setup_ghotal.tpa~
 
 
+BEGIN @572   /* ~Remove Cloaks from generic Orc Shamans~ */
+SUBCOMPONENT @571 /* ~Reduce Number of Shaman Cloaks~ */
+GROUP @569	/* ~Nerfs~ */
+DESIGNATED 13 LABEL ~NTotSC_RemoveShamanCloaks_Completely~
+REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
+
+COPY_EXISTING ~NTORC03.cre~ ~override~
+	REMOVE_CRE_ITEM ~NTROBE02~ 
+	ADD_CRE_ITEM ~LEAT04~ #0 #0 #0 ~UNSTEALABLE~ ~ARMOR~
+
+BEGIN @573 /* ~Make Cloaks Undroppable~	*/
+SUBCOMPONENT @571 /* ~Reduce Number of Shaman Cloaks~ */
+GROUP @569	/* ~Nerfs~ */
+DESIGNATED 14 LABEL ~NTotSC_RemoveShamanCloaks_Undroppable~
+REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
+
+COPY_EXISTING ~NTORC03.cre~ ~override~
+  LPF ADD_CRE_ITEM_FLAGS STR_VAR item_to_change=NTROBE02 flags=UNDROPPABLE END
+  ADD_CRE_ITEM ~LEAT04~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
