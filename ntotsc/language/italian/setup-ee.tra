@@ -687,6 +687,55 @@ Peso: 60
 Carisma: +2 bonus
 Destrezza: -2 di penalità
 Richiede: 17 alla Forza~
+
+/* new in v5.0.0 */
+/* Angel's new items (2021 revision) */
+@557 = ~This enchanted mage robe has powers over earth and stone.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to Petrification
+
+Charge abilities:
+- Stone Skin (1/day)
+- Stone to Flesh (1/day)
+
+Weight: 4~
+@559 = ~This mage robe has many hidden eyes all over it, giving the wearer all-round vision.  As a result they can never be surprised.  The robe's eyes also have infravision and can detect invisible creatures.  However, one drawback is that the wearer is more suspectable to being turned to stone.
+
+STATISTICS:
+
+Equipped abilities:
+- Saving Throws: -4 vs. Petrification
+- Infravision
+- Immunity to Backstab
+
+Charge abilities:
+- True Seeing (1/day)
+
+Weight: 4~
+@561 = ~Ring of Protection +1, +3 vs. Humanoids: 'Defender Ring'
+This magical ring was once the property of a noble from Baldur's Gate.  Fearing assassination by a rival, he paid a local wizard to create this ring to protect him from humanoid attackers.  Unfortunately for him, his rival decided to use a poisonous snake for the assassination attempt instead.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1 (+3 vs. Humanoids)
+- Saving Throws: +1 (+3 vs. Humanoids)
+
+Weight: 0~
+@563   = ~Field plate dispenses with the chain backing of plate mail and full plate to save weight.  Instead a light suit of padding, or aketon, is worn beneath field plate.  The considerable weight of this armor is distributed over the wearer's body, and a trained knight can lie down, stand up, or vault into the saddle while wearing this armor.
+
+STATISTICS:
+
+Armor Class: 2 (-1 vs. slashing, 1 vs. piercing and missile)
+Requires:
+ 14 Strength
+
+Weight: 60~
+/* ------ */
+
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
 
