@@ -1271,11 +1271,11 @@ EIGENSCHAFTEN:
 
 Besondere Fähigkeiten:
   Charisma: +2 Bonus
-  Geschicklichkeit: -2 Malus
+  Geschicklichkeit: -4 Malus
   Benötigt: 17 Stärke
 
-Rüstungsklasse: -1
-Gewicht: 60
+Rüstungsklasse: 0
+Gewicht: 75
 
 Kann nicht verwendet werden von:
  Barden 
@@ -1291,6 +1291,66 @@ Kann nicht verwendet werden von:
 @554 = ~Englisches Soundset nicht installieren (keine Sprachausgabe)~
 @555 = ~Sounds werden im Textfenster im Spiel angezeigt (ohne Sprachausgabe)~
 /* ------ */
+
+/* new in v5.0.0 */
+/* Angel's new items (2021 revision) */
+@556 = ~Robe of Rock~
+@557 = ~This enchanted mage robe has powers over earth and stone.
+
+STATISTICS:
+
+Immunity to Petrification
+Stone Skin once per day
+Stone to Flesh once per day
+Weight: 4
+Only usable by:
+Mage (single, dual & multi-class)~
+@558 = ~Robe of Eyes~
+@559 = ~This mage robe has many hidden eyes all over it, giving the wearer all-round vision.  As a result they can never be surprised.  The robe's eyes also have infravision and can detect invisible creatures.  However, one drawback is that the wearer is more suspectable to being turned to stone.
+
+STATISTICS:
+
+Saving Throws: -4 vs. Petrification
+Infravision
+Immunity to Backstab
+True Seeing once per day
+Weight: 4
+Only usable by:
+Mage (single, dual & multi-class)~
+@560 = ~Defender Ring~
+@561 = ~Ring of Protection +1, +3 vs. Humanoids: 'Defender Ring'
+This magical ring was once the property of a noble from Baldur's Gate.  Fearing assassination by a rival, he paid a local wizard to create this ring to protect him from humanoid attackers.  Unfortunately for him, his rival decided to use a poisonous snake for the assassination attempt instead.
+
+STATISTICS:
+
+Armor Class: +1 bonus (+3 vs. Humanoids)
+Saving Throws: +1 bonus (+3 vs. Humanoids)~
+@562   = ~Field Plate~
+@563   = ~Field plate dispenses with the chain backing of plate mail and full plate to save weight.  Instead a light suit of padding, or aketon, is worn beneath field plate.  The considerable weight of this armor is distributed over the wearer's body, and a trained knight can lie down, stand up, or vault into the saddle while wearing this armor.
+
+STATISTICS:
+
+Armor Class: 2
+Weight: 60
+Requires: 14 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
+
+/* Tactical challenges - Angel */
+@564   = ~Tactical Challenges~
+@565   = ~Improved Lesser Fiends~
+@566   = ~Quests and Encounters~
+@567   = ~Improved Haeball~
+@568   = ~Improved Ghotal~
+@569   = ~Nerfs~
+@570   = ~NPC~
+@571   = ~Reduce Number of Shaman Cloaks~
+@572   = ~Remove Cloaks from generic Orc Shamans~
+@573   = ~Make Cloaks Undroppable~
+
 
 /* Strings from DSotSC (k4thos' BGT/EET version) */
 
