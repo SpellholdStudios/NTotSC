@@ -19,7 +19,7 @@ THEN
         ActionOverride(Player4,Rest()) 
         ActionOverride(Player5,Rest()) 
         ActionOverride(Player6,Rest()) 
-    StartMovie("RESTCAMP")
+    StartMovie("%RESTCAMP%")
 //    SetGlobal("NTTimeToHaveRested","GLOBAL",1)
     DisplayString(Myself,@10)
 		MoveViewObject(Player1,INSTANT)
