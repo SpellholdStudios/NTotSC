@@ -1536,17 +1536,17 @@ THAC0: +2 улучшение
 
 /* new in v5.0.0 */
 @55134 = ~Теневые латы +1~
-@55135 = ~A candle is an ignitable wick embedded in wax, or another flammable solid substance such as tallow. Candles are common source of light.
+@55135 = ~Типичная свеча состоит из горящего фитиля, проходящего через центр цилиндра из воска или другого твердого горючего вещества вроде жира. Это распространенный источник света.
 
 ПАРАМЕТРЫ:
 
 Вес: 1~
-@55136 = ~This is a dead rat's body. It looks like this rat had often been visiting sewers, because it stinks.
+@55136 = ~Это мертвая крыса. По ужасной вони понятно, что она часто посещала канализацию.
 
 ПАРАМЕТРЫ:
 
 Вес: 3~
-@55137 = ~Good quality iron from the mine.
+@55137 = ~Железо хорошего качества из шахты.
 
 ПАРАМЕТРЫ:
 
