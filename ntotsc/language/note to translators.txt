@@ -1,3 +1,21 @@
+/* changes for v 5.0.0 */
+
+new tra file:
+-tactical.tra
+
+new lines:
+ in setup.tra: @556 - @573; @55134 - @55140
+ in setup-ee.tra: @557, @559, @561, @563
+
+changed lines:
+ in setup.tra: @550
+ in setup-ee.tra: @550.
+ in journal.tra: @10104
+
+
+
+
+
 /* last addition / changes for v 3.1.0 */
 
 Currently some language versions are not available. This is due to the balancing changes in items and spells, so strings had to be updated. 
