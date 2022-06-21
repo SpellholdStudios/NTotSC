@@ -2147,6 +2147,8 @@ EXTEND_BOTTOM ~%Gullykin_Winery_L1_BCS%.bcs~ ~ntotsc/modify/bcs/ar4003.baf~ EVAL
 EXTEND_BOTTOM ~%NBaldursGate_House6_L1_BCS%.bcs~ ~ntotsc/modify/bcs/ar0020.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%DurlagsTower_Cellar_BCS%.bcs~ ~ntotsc/modify/bcs/ar0501.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%UlgothsBeard_BCS%.bcs~ ~ntotsc/modify/bcs/ar1000.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~%UlgothsBeard_BCS%.bcs~ ~ntotsc/modify/bcs/ar1002.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~%UlgothsBeard_DemonsChamber_BCS%.bcs~ ~ntotsc/modify/bcs/ar1002.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~tracea.bcs~ ~ntotsc/modify/bcs/tracea.baf~ EVALUATE_BUFFER
 
 /* Differences in BGT / EE */
