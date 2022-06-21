@@ -6,6 +6,8 @@ Could probably be fixed by someone else:
 
 -- EET: some of the symbols are very near to SoD symbols on the worldmap
 
+-- EET: Wood of the Dead is to the north, not south of Field of teh Dead on the worldmap.
+
 -- if you go from the map with the Temple of the Black Hand directly to Larswood (Tower), you end up outside the map and thus stuck (without teleporting) -> reproducible??
 
 -- Some scripts seem off. some orc priests and mages only attacked me with melee weapons, they didn't cast spells. 
