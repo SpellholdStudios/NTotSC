@@ -278,6 +278,8 @@ CHANGES - VERSION HISTORY
 	-Italian version revised, by improb@bile.
 	-Will O'Hara: Polish dubbing thanks to Anoim2666.
 	-Install of optional components was splitted into 4 categories: Tactical Challenges, Quests and Encounters, Nerfs, NPC.
+	-Improved Reedrig in Ulgoths Beard: should spawn correctly; dialogue should not be dependent on whether the player has the map in inventory.
+	-Area Wood of the Dead will be revealed in dialogue with Pandris.
 	-Removed Ogre Magi from AR12PB as it is copy of bounty hunter.
 	-Removed doubled copy of items.
 	-fixed cre item references.

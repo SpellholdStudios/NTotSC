@@ -1,0 +1,27 @@
+IF
+	PartyHasItem("NTPBlet4")
+	!Dead("NTREEDRI")
+	!Dead("NTDRAAGI")
+	GlobalGT("NTTalkedToReedig","GLOBAL",0)
+	Global("NTFoundNTPBlet4","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NTFoundNTPBlet4","GLOBAL",1)
+		Continue()
+END
+
+IF 
+	!Dead("NTDRAAGI")
+	PartyHasItem("NTPBLET4")
+	OR(2)
+		Global("NTTalkedToReedig","GLOBAL",0)
+		Dead("NTREEDRI")
+	Global("NTNeverTalkedToReedig","MYAREA",0)
+THEN
+	RESPONSE #100
+		RevealAreaOnMap("AR60PB")
+		SetGlobal("NTTalkedToReedig","GLOBAL",3)
+		AddJournalEntry(@10104,QUEST)
+		SetGlobal("NTNeverTalkedToReedig","MYAREA",1)
+		Continue()
+END

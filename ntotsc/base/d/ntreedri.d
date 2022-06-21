@@ -14,14 +14,16 @@ AddexperienceParty(5000)
 EscapeArea()~ UNSOLVED_JOURNAL @10059 EXIT
 END
 
-IF ~Global("NTTalkedToReedig","GLOBAL",2)
-!PartyHasItem("NTPBlet4")~ THEN BEGIN 1
+IF ~AreaCheck("%UlgothsBeard%")
+GlobalGT("NTTalkedToReedig","GLOBAL",0)
+Global("NTFoundNTPBlet4","GLOBAL",0)~ THEN BEGIN 1
   SAY @2
   IF ~~ THEN REPLY @3 EXIT
 END
 
-IF ~Global("NTTalkedToReedig","GLOBAL",2)
-PartyHasItem("NTPBlet4")~ THEN BEGIN 2
+IF ~OR(2) !AreaCheck("%UlgothsBeard%")
+GlobalGT("NTTalkedToReedig","GLOBAL",0)
+Global("NTFoundNTPBlet4","GLOBAL",1)~ THEN BEGIN 2
   SAY @4
   IF ~~ THEN REPLY @5 GOTO 3
 END
