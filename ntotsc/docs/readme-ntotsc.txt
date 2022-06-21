@@ -275,7 +275,8 @@ CHANGES - VERSION HISTORY
 	-new components, by Angel: Improved Lesser Fiends; Improved Haeball; Improved General Ghotal.
 	-new component, by jastey: Reduce Number of Shaman Cloaks (two options). 
 	-Polish version revised and updated to v5, by Roberciiik.
-	-Italian version revised, by improb@bile.
+	-Italian version revised and updated to v5, by improb@bile.
+	-Russian version updated to v5, by RealApxu.
 	-Will O'Hara: Polish dubbing thanks to Anoim2666.
 	-Install of optional components was splitted into 4 categories: Tactical Challenges, Quests and Encounters, Nerfs, NPC.
 	-Improved Reedrig in Ulgoths Beard: should spawn correctly; dialogue should not be dependent on whether the player has the map in inventory.
@@ -285,7 +286,7 @@ CHANGES - VERSION HISTORY
 	-fixed cre item references.
 	-Added missing weights to items for EE.
 	-Reduced XP and loot for resting in AR52PB.are by reducing spawn probability and number of monsters.
-	-Changed Orc Priests to 2 different custom cres.
+	-Changed Orc Priests to 2 different custom cres and fixed scripts and items for BG:SoD.
 	-Cultists should drop a bow (added short bows to ntblhcul.cre and ntblhcu1.cre).
 	-Added a known_issues.txt to ntotsc/docs/. Contributions and fixes welcome.
 	-ntotsc.ini updated with more support for Project Infinity.

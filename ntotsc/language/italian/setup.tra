@@ -1395,9 +1395,14 @@ Non utilizzabile da:
 /* Sfide tattiche - Angelo */
 @564 = ~Sfide Tattiche~
 @565 = ~Demoni minori migliorati~
-@566 = ~Missioni di recupero~
+@566 = ~Missioni e Incontri~
 @567 = ~Migliorato Haeball~
 @568 = ~Migliorato Ghotal~
+@569 = ~Nerf~
+@570 = ~PNG~
+@571 = ~Ridurre il Numero di Mantelli degli Sciamani~
+@572 = ~Rimuovere i Mantelli dai Sacerdoti Orchi Generici~
+@573 = ~Rendere i Mantelli non Scartabili~ 
 
 /* ------ */
 

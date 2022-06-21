@@ -6,13 +6,13 @@ Could probably be fixed by someone else:
 
 -- EET: some of the symbols are very near to SoD symbols on the worldmap
 
--- EET: Wood of the Dead is to the north, not south of Field of teh Dead on the worldmap.
+-- EET: Wood of the Dead is to the north, not south of Field of the Dead on the worldmap.
 
 -- if you go from the map with the Temple of the Black Hand directly to Larswood (Tower), you end up outside the map and thus stuck (without teleporting) -> reproducible??
 
--- Some scripts seem off. some orc priests and mages only attacked me with melee weapons, they didn't cast spells. 
+-- Some scripts seem off. some orc priests and mages only attacked me with melee weapons, they didn't cast spells. (Might be fixed in v5.0.0?)
 
--- Will armor and evalt blade dont have Str requirements
+-- Will armor and evalt blade don't have Str requirements
 
 -- Will's voiceset: some lines seem in wrong order 
 
@@ -22,6 +22,6 @@ Could probably be fixed by someone else:
 
 Will probably stay:
 
---You can tell the Phantasm inside “hey you are the hot topic in Beregost discussions”, without hearing about the cave in any conversation --> I have also no idea what this is referring to, but I'll leave it in.
+--You can tell the Phantasm inside "hey you are the hot topic in Beregost discussionsQ", without hearing about the cave in any conversation --> I have also no idea what this is referring to, but I'll leave it in.
 
 -- for one dialogue path, Pique tells the player to take something but he doesn't give anything. Since the texts are used from unfinished game contents, I have no idea what he was supposed to give the group, so this will probably stay as it is.
