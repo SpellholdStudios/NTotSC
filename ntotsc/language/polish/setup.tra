@@ -8,7 +8,7 @@ PARAMETRY:
 Obra¿enia: 1K6
 Typ obra¿eñ: pocisk (k³ute)
 Specjalne:
- Trafiony cel zostaje zatruty
+ 1 pkt. obra¿eñ od trucizny co 2 sekundy przez 36 sekund (rzut obronny przeciw truciznom neguje)
 Waga: 0
 Wyrzutnia: ³uk
 Nie mo¿e u¿ywaæ:
@@ -185,7 +185,7 @@ PARAMETRY:
 Obra¿enia: 1K8
 Typ obra¿eñ: pocisk (k³ute)
 Specjalne:
- Trafiony cel zostaje zatruty
+ 1 pkt. obra¿eñ od trucizny co 2 sekundy przez 18 sekund (rzut obronny przeciw truciznom neguje)
 Waga: 0
 Wyrzutnia: kusza
 Nie mo¿e u¿ywaæ:
@@ -303,7 +303,7 @@ Obra¿enia: 1K5 +2
 TraK0: +1
 Typ obra¿eñ: pocisk (k³ute)
 Specjalne:
- Trafiony cel zostaje zatruty
+ 1 pkt. obra¿eñ od trucizny co 3 sekundy przez 18 sekund (rzut obronny przeciw truciznom neguje)
 Waga: 0
 Wyrzutnia: proca~
 
@@ -433,7 +433,7 @@ PARAMETRY:
 
 Obra¿enia: 1K3
 Specjalne:
- Wysoka szansa na zatrucie celu na 10 rund
+ 75% szansa przy ka¿dym trafieniu na zatrucie przeciwnika, zadaj¹c 1 pkt. obra¿eñ od trucizny co sekundê przez 6 sekund (bez rzutu obronnego)
  Liczba ataków ustalona na 4
 Typ obra¿eñ: pocisk (k³ute)
 Waga: 0
@@ -1506,8 +1506,9 @@ Ten magiczny pierœcieñ by³ kiedyœ w³asnoœci¹ pewnego szlachcica z Wrót Baldura. 
 
 PARAMETRY:
 
-Klasa Pancerza: +1, +3 przeciw humanoidom
-Rzuty obronne: +1, +3 przeciw humanoidom
+Specjalne:
+ +1 do Klasy Pancerza, +3 przeciw humanoidom
+ +1 do rzutów obronnych, +3 przeciw humanoidom
 Waga: 0~
 
 @562   = ~Zbroja polowa~
