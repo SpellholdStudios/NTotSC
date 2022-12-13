@@ -5,6 +5,7 @@
 @NT_783004  = "Wald###der###Toten"
 @NT_783005  = "Nördliche###Zitadelle"
 @NT_783006  = "Tempel###der###Schwarzen###Hand"
+@NT_783007  = "Sireneninsel"
 
 #BGEE: 22853
 @NT_783010  = "Ulgoths###Bart"
