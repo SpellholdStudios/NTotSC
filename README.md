@@ -12,7 +12,7 @@ To reach the new areas via worldmap, you need to install BP-BGT-worldmap for BGT
 
 Note: For downloading the current version from GitHub, make sure you go to the releases page and download the [latest release of this mod!](https://github.com/SpellholdStudios/NTotSC/releases)
 
-[Read the Readme](http://spellholdstudios.github.io/SpellholdStudios.github.io/readmes/readme-ntotsc.txt)
+[Read the Readme](https://spellholdstudios.github.io/readmes/readme-ntotsc.txt)
 
 [Visit the mod's forum at Spellhold Studios](http://www.shsforums.net/topic/59505-ntotsc-for-eet-and-bgt-and-bgee-bugthread/)
 
