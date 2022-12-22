@@ -2,10 +2,7 @@
 
 PARAMETRY:
 
-Specjalne:
-– Cel zostaje zatruty, po trafieniu
-
-Obra¿enia: 1k6
+Obra¿enia: 1k6, +1 obra¿enie od trucizny co dwie sekundy przez trzydzieœci szeœæ sekund (rzut obronny przeciw truciznom neguje)
 Typ obra¿eñ: pocisk
 Wyrzutnia: ³uk
 
@@ -154,10 +151,7 @@ Waga: 10~
 
 PARAMETRY:
 
-Specjalne:
-– Cel zostaje zatruty, po trafieniu
-
-Obra¿enia: 1k8
+Obra¿enia: 1k8, +1 obra¿enie od trucizny co dwie sekundy przez osiemnaœcie sekund (rzut obronny przeciw truciznom neguje)
 Typ obra¿eñ: pocisk
 Wyrzutnia: kusza
 
@@ -250,10 +244,7 @@ Waga: 1~
 
 PARAMETRY:
 
-Specjalne:
-– Cel zostaje zatruty, po trafieniu
-
-Obra¿enia: 1k5 +2
+Obra¿enia: 1k5 +2, +1 obra¿enie od trucizny co trzy sekundy przez osiemnaœcie sekund (rzut obronny przeciw truciznom neguje)
 TraK0: +1
 Typ obra¿eñ: pocisk
 Wyrzutnia: proca
@@ -356,7 +347,7 @@ Waga: 1~
 PARAMETRY:
 
 Specjalne:
-– Wysoka szansa na zatrucie celu na 10 rund, po trafieniu
+– 75% szans na zatrucie przeciwnika, zadaj¹c 1 obra¿enie od trucizny na sekundê przez szeœæ sekund, po trafieniu (bez rzutu obronnego)
 – Cztery ataki na rundê
 
 Obra¿enia: 1k3
