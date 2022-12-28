@@ -89,8 +89,8 @@ Rodzaj bieg³oœci: topór
 Typ broni: 1-rêczna
 Wymagana si³a: 10
 Nie mo¿e u¿ywaæ:
- Druid
  Kap³an
+ Druid
  Mag
  Z³odziej
  Mnich
@@ -113,8 +113,8 @@ Rodzaj bieg³oœci: cep bojowy/morgensztern
 Typ broni: 1-rêczna
 Wymagana si³a: 11
 Nie mo¿e u¿ywaæ:
- Druid
  Kap³an
+ Druid
  Mag
  Z³odziej
  Mnich
@@ -321,10 +321,10 @@ Specjalne:
 Waga: 9
 Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
- Z³odziej
- Mnich
  Druid
  Mag
+ Z³odziej
+ Mnich
  Kensai
  £ucznik
  W³adca zwierz¹t
@@ -344,13 +344,13 @@ Specjalne:
 Waga: 8
 Wymagana si³a: 7
 Nie mo¿e u¿ywaæ:
+ Druid
  Z³odziej
  Mnich
- Druid
  Kensai
  £ucznik
- W³adca zwierz¹t
  Tropiciel
+ W³adca zwierz¹t
  Zmiennokszta³tny
  Postaæ innej rasy ni¿ elf lub pó³elf~
 
@@ -367,14 +367,14 @@ Specjalne:
 Waga: 10
 Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
- Druid 
+ Druid
  Mag
  Z³odziej
  Mnich
  Kensai
- Zmiennokszta³tny
  £ucznik
- W³adca zwierz¹t~
+ W³adca zwierz¹t
+ Zmiennokszta³tny~
 
 @61   = ~Kolczuga Firewine +1~
 @62   = ~W czasach dobrobytu miasta Firewine skonstruowano specjalny rodzaj znakomitej elfiej kolczugi, który zapewnia³ ochronê przed przydarzaj¹cymi siê w tej okolicy burzami.
@@ -441,8 +441,8 @@ OpóŸnienie: 2
 Rodzaj bieg³oœci: strza³ka
 Typ broni: 1-rêczna
 Mo¿e u¿ywaæ:
- Z³odziej
- Druid~
+ Druid
+ Z³odziej~
 
 @85   = ~Klucz do skarbca~
 @86   = ~Ten klucz mia³ przy sobie Ksi¹¿ê Belt. Zapewne z wa¿nych powodów...
@@ -673,18 +673,18 @@ Specjalne:
 Waga: 20
 Wymagana si³a: 12
 Nie mo¿e u¿ywaæ:
- Bard
+ £owca
  Druid
  Mag
  Z³odziej
- £owca
+ Bard
  Mnich
+ Barbarzyñca
+ Kensai
  £ucznik
  Tropiciel
  W³adca zwierz¹t
- Zmiennokszta³tny
- Barbarzyñca
- Kensai~
+ Zmiennokszta³tny~
 
 @142  = ~Butelkowane piwo Bentleya~
 @143  = ~Gospoda "Pod Pomocn¹ D³oni¹" s³ynie z wywaru Bentleya, który z powodu ceny jest ulubionym trunkiem podró¿nych, zatrzymuj¹cych siê u Lustrzanych Cieni. Efekt spo¿ycia bywa jednak doœæ nieprzewidywalny...
@@ -776,8 +776,8 @@ Specjalne:
  -5 do Charyzmy
 Waga: 35
 Nie mo¿e u¿ywaæ:
- Postaæ o charakterze dobrym
- Zabójca magów~
+ Zabójca magów
+ Postaæ o charakterze dobrym~
 
 /*
 @162  = ~Tarcza swobody ruchów +2~
@@ -794,10 +794,10 @@ Specjalne:
 Waga: 3
 Wymagana si³a: 4
 Nie mo¿e u¿ywaæ:
- Bard
  Druid
  Mag 
  Z³odziej
+ Bard
  Mnich
  Kensai~
 */
@@ -809,15 +809,15 @@ PARAMETRY:
 
 Klasa Pancerza: +2
 Specjalne:
- +1 do Klasy Pancerza przeciwko pociskom
+ +1 do Klasy Pancerza przeciw pociskom
  +1 do rzutów obronnych
 Waga: 8
 Wymagana si³a: 15
 Nie mo¿e u¿ywaæ:
- Bard
  Druid
  Mag
  Z³odziej
+ Bard
  Mnich
  Kensai~
 
@@ -887,8 +887,8 @@ Typ broni: 2-rêczna
 Wymagana si³a: 5
 Nie mo¿e u¿ywaæ:
  Wojownik
- Paladyn
  £owca
+ Paladyn
  Z³odziej
  Bard
  Mnich~
@@ -931,8 +931,8 @@ Rodzaj bieg³oœci: d³ugi miecz
 Typ broni: 1-rêczna
 Wymagana si³a: 4
 Nie mo¿e u¿ywaæ:
- Druid
  Kap³an
+ Druid
  Mag
  W³adca zwierz¹t~
 
@@ -952,8 +952,8 @@ Rodzaj bieg³oœci: d³ugi miecz
 Typ broni: 1-rêczna
 Wymagana si³a: 11
 Nie mo¿e u¿ywaæ:
- Druid
  Kap³an
+ Druid
  Mag
  W³adca zwierz¹t~
 
@@ -1006,8 +1006,8 @@ Rodzaj bieg³oœci: miecz oburêczny
 Typ broni: 2-rêczna
 Wymagana si³a: 13
 Nie mo¿e u¿ywaæ:
- Druid
  Kap³an
+ Druid
  Mag
  Z³odziej
  Mnich
@@ -1032,8 +1032,8 @@ Typ broni: 1-rêczna
 Wymagana si³a: 10
 Nie mo¿e u¿ywaæ:
  Kap³an
- Mag
  Druid
+ Mag
  W³adca zwierz¹t~
 
 @200  = ~Duma Durlaga +1~
@@ -1052,8 +1052,8 @@ Rodzaj bieg³oœci: miecz oburêczny
 Typ broni: 2-rêczna
 Wymagana si³a: 13
 Nie mo¿e u¿ywaæ:
- Druid
  Kap³an
+ Druid
  Mag
  Z³odziej
  Mnich
@@ -1092,8 +1092,8 @@ Rodzaj bieg³oœci: d³ugi miecz
 Typ broni: 1-rêczna
 Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
- Druid
  Kap³an
+ Druid
  Mag
  Z³odziej
  W³adca zwierz¹t
@@ -1408,9 +1408,9 @@ Klasa Pancerza: 2
 Waga: 40
 Wymagana si³a: 12
 Nie mo¿e u¿ywaæ:
- Bard
  Mag
- Z³odziej~
+ Z³odziej
+ Bard~
 
 @545 = ~Zbroja czarnego ³abêdzia +2~
 @546 = ~Zbroja ta zosta³a wykonana przez krasnoludzkiego kowala o imieniu Karador. Potem elfi mistrz zauroczeñ o imieniu Elemeth z Piêciu Drzew obdarzy³ j¹ moc¹ magiczn¹. W czasie, kiedy D³oñ Seldarine i G³êbia Dorna ze sob¹ wspó³pracowa³y, powsta³o wiele wspania³ych przedmiotów, a ta zbroja jest w³aœnie jednym z nich. Niezwykle lekka i piêkna, zbroja ta by³a pocz¹tkowo noszona przez elfkê, która pe³ni³a funkcjê dowódcy w Odciêtej D³oni, dlatego osada nie pad³a, kiedy orki dokonywa³y grabie¿y wie¿. Potem zbroja ta zosta³a ukradziona przez Pannê Ilmadiê i by³a noszona a¿ do momentu bitwy z Obroñcami Easthaven w G³êbi Dorna. To co siê sta³o ze zbroj¹ po zakoñczeniu bitwy i to w jaki sposób trafi³a na Wybrze¿e Mieczy jest nieznane.
@@ -1427,10 +1427,10 @@ Specjalne:
 Waga: 20
 Wymagana si³a: 12
 Nie mo¿e u¿ywaæ:
- Bard 
- Druid 
- Mag 
- Z³odziej~
+ Druid
+ Mag
+ Z³odziej
+ Bard~
 
 @547 = ~Wspania³a szata Ogi-Luca~
 @548 = ~Ta szata wykonana jest z mocnego materia³u i zabarwiona w kolorze ciemnoniebieskim, ulubionym kolorze jej dumnego w³aœciciela, arcymaga Ogi-Luca. Arcymag urodzi³ siê w Sembii i by³ potê¿nym cz³owiekiem, zarówno fizycznie jak i umys³owo. Jednak zwyk³a si³a mu nie wystarcza³a. Chcia³ byæ wyj¹tkowo silny. Gdy zak³ada³ tê szatê, dumni odsuwali siê na bok a che³piarze milkli. Jednak mimo ca³ej swojej dumy i umiejêtnoœci nie by³ w stanie pokonaæ mistrza odrzucania, Czerwonego Maga, Neska Vhaltima. Nesk zabra³ szatê jako nagrodê. PóŸniej zosta³a ona skradziona i sprzedana przez pewnego œmia³ego ³otra.
@@ -1457,10 +1457,10 @@ Specjalne:
 Waga: 75
 Wymagana si³a: 17
 Nie mo¿e u¿ywaæ:
- Bard
  Druid
  Mag
- Z³odziej~
+ Z³odziej
+ Bard~
 
 /* new in v4.0.0 */
 /* Will O'Hara soundset subcomponent */
@@ -1520,10 +1520,10 @@ Klasa Pancerza: 2
 Waga: 60
 Wymagana si³a: 14
 Nie mo¿e u¿ywaæ:
- Bard
  Druid
  Mag
- Z³odziej~
+ Z³odziej
+ Bard~
 
 /* Tactical challenges - Angel */
 @564   = ~Wyzwania taktyczne~
@@ -1563,8 +1563,8 @@ Typ broni: 2-rêczna
 Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
  Postaæ innej rasy ni¿ elf
- Postaæ o charakterze z³ym
- Postaæ o charakterze neutralnym~
+ Postaæ o charakterze neutralnym
+ Postaæ o charakterze z³ym~
 
 @2134 = ~Fey'doch~
 
