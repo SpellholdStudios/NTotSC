@@ -1,4 +1,4 @@
-@0    = ~NTotSC dla BGT-Weidu, BG:EE i EET przetlumaczyl Kelthar (na podstawie tlumaczenia Evendura) (v.1.0) i Roberciiik (korekta do v4.2.0)~
+@0    = ~NTotSC dla BGT-Weidu, BG:EE i EET przetlumaczyl Kelthar (na podstawie tlumaczenia Evendura) (v.1.0) i Roberciiik (korekta od v3.2.0)~
 
 @1    = ~Zatruta strza³a~
 @2    = ~Te strza³y zosta³y pokryte szybko dzia³aj¹c¹ trucizn¹ roœlinnego pochodzenia.
@@ -81,8 +81,8 @@ Obra¿enia: 1K8 +2
 TraK0: +2
 Typ obra¿eñ: sieczne
 Specjalne:
- 50% szansa na zadanie dodatkowych 1K3 pkt. obra¿eñ od elektrycznoœci
- 15% szansa na og³uszenie celu
+ 50% szansa przy ka¿dym trafieniu na zadanie dodatkowych 1K3 pkt. obra¿eñ od elektrycznoœci
+ 15% szansa przy ka¿dym trafieniu na og³uszenie celu
 Waga: 7
 OpóŸnienie: 7
 Rodzaj bieg³oœci: topór
@@ -105,8 +105,8 @@ Obra¿enia: 1K6 +3
 TraK0: +2
 Typ obra¿eñ: obuchowe
 Specjalne:
- 50% szansa na zadanie dodatkowych 2K3 pkt. obra¿eñ od elektrycznoœci
- 10% szansa na og³uszenie celu
+ 50% szansa przy ka¿dym trafieniu na zadanie dodatkowych 2K3 pkt. obra¿eñ od elektrycznoœci
+ 10% szansa przy ka¿dym trafieniu na og³uszenie celu
 Waga: 15
 OpóŸnienie: 7
 Rodzaj bieg³oœci: cep bojowy/morgensztern
@@ -166,7 +166,7 @@ TraK0: +3
 Typ obra¿eñ: obuchowe
 Specjalne:
  Raz dziennie tworzy piêæ zatrutych pocisków
- 50% szansa na spowolnienie celu
+ 50% szansa przy ka¿dym trafieniu na spowolnienie celu
  +2 do Si³y
  +10 do maksymalnych punktów ¿ycia
 Waga: 10
@@ -214,7 +214,7 @@ PARAMETRY:
 Obra¿enia: +1
 TraK0: +1
 Specjalne:
- 3 strza³y na rundê
+ Trzy strza³y na rundê
  +30% do odpornoœci na elektrycznoœæ
 Waga: 3
 OpóŸnienie: 3
@@ -237,8 +237,8 @@ PARAMETRY:
 Obra¿enia: +1
 TraK0: +1
 Specjalne:
- 2 strza³y na rundê
- 50% szansa na zadanie dodatkowych 2K3 pkt. obra¿eñ od ognia
+ Dwa strza³y na rundê
+ 50% szansa przy ka¿dym trafieniu na zadanie dodatkowych 2K3 pkt. obra¿eñ od ognia
  +20% do odpornoœci na ogieñ/zimno
 Waga: 3
 OpóŸnienie: 2
@@ -261,7 +261,7 @@ PARAMETRY:
 Obra¿ania: +1
 TraK0: +2
 Specjalne:
- 5 strza³ów na 2 rundy
+ Piêæ strza³ów na dwie rundy
 Waga: 3
 OpóŸnienie: 7
 Rodzaj bieg³oœci: d³ugi ³uk
@@ -285,8 +285,8 @@ S¹ poszukiwane przez m³odych adeptów sztuki z³odziejskiej. Te konkretne by³y nie
 PARAMETRY:
 
 Specjalne:
- +15% do Otwierania zamków
  +15% do Kradzie¿y kieszonkowej
+ +15% do Otwierania zamków
 Waga: 1
 Mo¿e u¿ywaæ:
  Z³odziej
@@ -417,7 +417,7 @@ Obra¿enia: 1K4 +2
 TraK0: +2
 Typ obra¿eñ: k³ute
 Specjalne:
- 2% szansa na rzucenie zaklêcia Palec œmierci
+ 2% szansa przy ka¿dym trafieniu na rzucenie zaklêcia Palec œmierci
 Waga: 1
 OpóŸnienie: 1
 Rodzaj bieg³oœci: sztylet
@@ -493,10 +493,10 @@ PARAMETRY:
 
 Klasa Pancerza: 3
 Specjalne:
- +15% do Otwierania zamków
- +15% do Krycia siê
- +15% do Cichego chodzenia
  +15% do Kradzie¿y kieszonkowej
+ +15% do Otwierania zamków
+ +15% do Cichego chodzenia
+ +15% do Krycia siê
 Waga: 1
 Wymagana si³a: 6
 Mo¿e u¿ywaæ:
@@ -509,8 +509,8 @@ PARAMETRY:
 
 Klasa Pancerza: 4
 Specjalne:
- +2 do rzutów obronnych przeciwko polimorfii/petryfikacji
- Umo¿liwia zapamiêtanie 1 dodatkowego czaru z poziomów od 1 do 4
+ +2 do rzutów obronnych przeciw polimorfii/petryfikacji
+ Pozwala zapamiêtaæ 1 dodatkowe zaklêcie z poziomów od 1 do 4
 Waga: 15
 Mo¿e u¿ywaæ:
  Will~
@@ -520,11 +520,11 @@ PARAMETRY:
 
 Klasa Pancerza: 0
 Specjalne:
- +3 do rzutów obronnych przeciwko polimorfii/petryfikacji
+ +3 do rzutów obronnych przeciw polimorfii/petryfikacji
  +1 do Szczêœcia
  +15% do odpornoœci na elektrycznoœæ
  +30% do odpornoœci na kwas
- Umo¿liwia zapamiêtanie 1 dodatkowego czaru z poziomów od 1 do 8
+ Pozwala zapamiêtaæ 1 dodatkowe zaklêcie z poziomów od 1 do 8
 Waga: 15
 Mo¿e u¿ywaæ:
  Will~
@@ -669,7 +669,7 @@ PARAMETRY:
 
 Klasa Pancerza: 2
 Specjalne:
- +3 do Klasy Pancerza przeciw broniom strzeleckim
+ +3 do Klasy Pancerza przeciw broni strzeleckiej
 Waga: 20
 Wymagana si³a: 12
 Nie mo¿e u¿ywaæ:
@@ -730,7 +730,7 @@ Waga: 1~
 PARAMETRY:
 
 Specjalne:
- 20% redukcji obra¿eñ magicznych
+ +20% do odpornoœci na obra¿enia magiczne
 Waga: 0
 Mo¿e u¿ywaæ:
  Will~
@@ -759,7 +759,8 @@ Klasa Pancerza: 5
 Specjalne:
  +15% do odpornoœci na magiê
  +1 do rzutów obronnych
- Raz dziennie mo¿na rzuciæ czar Drzwi przez wymiary i Drzwi z cienia
+ Raz dziennie mo¿na rzuciæ Drzwi przez wymiary
+ Raz dziennie mo¿na rzuciæ Drzwi z cienia
 Waga: 2
 Mo¿e u¿ywaæ:
  Mag (jedno, dwu i wieloklasowiec)
@@ -856,7 +857,7 @@ Obra¿enia: 1K6 +2
 TraK0: +2
 Typ obra¿eñ: obuchowe
 Specjalne:
- 80% szansa na zadanie dodatkowych 1K8 +2 pkt. obra¿eñ siecznych
+ 80% szansa przy ka¿dym trafieniu na zadanie dodatkowych 1K8 +2 pkt. obra¿eñ siecznych
 Waga: 3
 OpóŸnienie: 1
 Rodzaj bieg³oœci: kij
@@ -1081,11 +1082,12 @@ Do kategorii mieczy d³ugich zaliczaj¹ siê miecze obusieczne, miecze bojowe i woj
 
 PARAMETRY:
 
-Obra¿enia: 1K8 +2, +1K4 pkt. obra¿eñ od ognia
+Obra¿enia: 1K8 +2
 TraK0: +2
 Typ obra¿eñ: sieczne
 Specjalne:
- 10% szansa na og³uszenie celu
+ +1K4 pkt. obra¿eñ od ognia
+ 10% szansa przy ka¿dym trafieniu na og³uszenie celu
 Waga: 4
 OpóŸnienie: 4
 Rodzaj bieg³oœci: d³ugi miecz

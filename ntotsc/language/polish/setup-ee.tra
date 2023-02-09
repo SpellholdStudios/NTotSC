@@ -52,7 +52,7 @@ PARAMETRY:
 
 Specjalne:
 – 50% szans na dodatkowe 1k3 obra¿eñ od elektrycznoœci, po trafieniu
-– 15% szans na og³uszenie celu, po trafieniu
+– 15% szans na og³uszenie, po trafieniu
 
 Obra¿enia: 1k8 +2
 TraK0: +2
@@ -72,7 +72,7 @@ PARAMETRY:
 
 Specjalne:
 – 50% szans na dodatkowe 2k3 obra¿eñ od elektrycznoœci, po trafieniu
-– 10% szans na og³uszenie celu, po trafieniu
+– 10% szans na og³uszenie, po trafieniu
 
 Obra¿enia: 1k6 +3
 TraK0: +2
@@ -128,7 +128,7 @@ Waga: 10~
 PARAMETRY:
 
 Specjalne:
-– 50% szans na spowolnienie celu, po trafieniu
+– 50% szans na spowolnienie przeciwnika, po trafieniu
 – Si³a: +2
 – Punkty ¿ycia: +10
 
@@ -331,7 +331,7 @@ Prawdziwa nazwa tego dziwnego sztyletu zaginê³a w mrocznych g³êbinach Morza Miec
 PARAMETRY:
 
 Specjalne:
-– 2% szans na rzucenie zaklêcia Palec Œmierci, po trafieniu
+– 2% szans na Palec œmierci, po trafieniu
 
 Obra¿enia: 1k4 +2
 TraK0: +2
@@ -347,7 +347,7 @@ Waga: 1~
 PARAMETRY:
 
 Specjalne:
-– 75% szans na zatrucie przeciwnika, zadaj¹c 1 obra¿enie od trucizny na sekundê przez szeœæ sekund, po trafieniu (bez rzutu obronnego)
+– 75% szans na zatrucie przeciwnika, po trafieniu. Trucizna dzia³a przez szeœæ sekund i zadaje 1 obra¿enie na sekundê (bez rzutu obronnego)
 – Cztery ataki na rundê
 
 Obra¿enia: 1k3
@@ -515,7 +515,7 @@ PARAMETRY:
 
 Specjalne:
 – Przywraca 35 punktów ¿ycia
-– 80% szans na upojenie winem przez 30 minut
+– 80% szans na Odurzenie, efekt trwa trzydzieœci minut
 
 Waga: 1~
 
@@ -524,7 +524,7 @@ Waga: 1~
 PARAMETRY:
 
 Specjalne:
-– Redukcja obra¿eñ magicznych: 20%
+– Odpornoœæ na magiczne obra¿enia: +20%
  
 Waga: 0~
 @155  = ~Pierœcieñ to ma³y pasek drogocennego metalu u¿ywany jako bi¿uteria. Niektóre, rzadsze okazy maj¹ w³asnoœci magiczne. S¹ one mocno poszukiwane, przede wszystkim przez ³owców przygód. Bez jakiejœ widocznej przyczyny, ten pierœcieñ jest ciep³y w dotyku.
@@ -785,7 +785,7 @@ Wykonany przez króla magów Varashara dla przywódcy swoich Rycerzy Œmierci. Miecz
 PARAMETRY:
 
 Specjalne:
-– 20% szans na rzucenie zaklêcia Groza, po trafieniu
+– 20% szans na Grozê, po trafieniu
 
 Obra¿enia: 1k8 +1
 TraK0: +1
