@@ -32,7 +32,7 @@ Language versions: English, German, Italian, Polish, Russian
 HISTORY
 +++++++
 
-One large quest is given to you by Duke Eltan (before you go to Candlekeep).  One of the longest quests also starts before Candlekeep: Talk to the lady outside the Sorceror's Sundries. One quest can be started by talking to Yness in Ulgoth's Beard. The rest can be done during the TotSC quests in Ulgoth's Beard.  
+One large quest is given to you by Duke Eltan (before you go to Candlekeep).  Another quest starts before Candlekeep: Talk to the lady inside the Blade&Stars. One quest can be started by talking to Yness in Ulgoth's Beard. The rest can be done during the TotSC quests in Ulgoth's Beard.  
 
 For v2.0 and higher, the quests are less restrictive in their order, especially in the order of when to talk to whom. The only restrictions remaining are: The Northern Citadel Quest will be handed out from Duke Eltan when he summons the PC in the original game. The Temple of the Black Hand will only be revealed after the demon in Ulgoth's Beard is defeated. 
 All other quests can either be "walked into", received from multiple persons (e.g. "The Field of the Dead"), or received by killing the quest giver instead of going on his fedex quest (e.g. the Ice Slamander or Eldod - they will have the appropriate keys on them.)
@@ -270,6 +270,9 @@ F.A.Q.
 
 CHANGES - VERSION HISTORY
 +++++++
+
+5.0.1 - packed by jastey
+	-Changed patching of Reedrig's spawn script in Ulgoth's Beard to EXTEND_TOP (+ Continue) to make it more stable.
 
 5.0.0 - packed by jastey
 	-new components, by Angel: Improved Lesser Fiends; Improved Haeball; Improved General Ghotal.
