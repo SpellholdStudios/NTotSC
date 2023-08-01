@@ -359,7 +359,14 @@ AR9305  value~
 END*/
 
 // general rule: cloaks/rings/amulets with AC bonus should not stack with magical armours
-APPEND ~itemexcl.2da~ ~ntring04 1~ UNLESS "ntring04"
+APPEND ~itemexcl.2da~ ~ntplat01 1~
+APPEND ~itemexcl.2da~ ~ntplat02 1~
+APPEND ~itemexcl.2da~ ~ntplat03 1~
+APPEND ~itemexcl.2da~ ~ntplat04 1~
+APPEND ~itemexcl.2da~ ~ntchan06 1~
+APPEND ~itemexcl.2da~ ~ntleat05 1~
+APPEND ~itemexcl.2da~ ~ntring02 1~
+APPEND ~itemexcl.2da~ ~ntring04 1~
 COPY_EXISTING ~itemexcl.2da~ ~override~
 	PRETTY_PRINT_2DA
 BUT_ONLY
