@@ -1,0 +1,99 @@
+WITH_TRA ~ntotsc/language/english/spells.tra~ ~ntotsc/language/%s/spells.tra~
+BEGIN
+  // Install BAM files
+
+  COPY_LARGE ~ntotsc/spells/bam~ ~override~
+
+
+  // Skeleton Guard
+
+  ADD_SPELL ~ntotsc/spells/spl/ntspwi71.spl~ 2 7 "WIZARD_SKELETON_GUARD"
+    SAY NAME1 @0
+    SAY UNIDENTIFIED_DESC @2
+
+
+  CLEAR_IDS_MAP
+
+  LAUNCH_ACTION_FUNCTION RES_NAME_OF_SPELL_NUM
+    INT_VAR
+    spell_num	= "%WIZARD_SKELETON_GUARD%"
+    RET
+    spell_res
+  END
+
+
+  COPY ~ntotsc/spells/itm/ntscrl71.itm~ ~override~
+    SAY NAME2 @0
+    SAY DESC @2
+
+    LAUNCH_PATCH_FUNCTION ALTER_ITEM_EFFECT
+      INT_VAR
+      check_headers	= 1
+      header_type		= 3
+      match_opcode	= "-1"
+      STR_VAR
+      resource	= EVAL "%spell_res%"
+    END
+
+
+  // Fiery Cloud
+
+  ADD_SPELL ~ntotsc/spells/spl/ntspwi81.spl~ 2 8 "WIZARD_FIERY_CLOUD"
+    SAY NAME1 @3
+    SAY UNIDENTIFIED_DESC @5
+
+    // Use new half damage mechanic if the engine supports it.
+    PATCH_IF ENGINE_IS ~bgee~
+    BEGIN
+      LAUNCH_PATCH_FUNCTION DELETE_EFFECT
+        INT_VAR
+	match_opcode		= 12
+	match_savingthrow	= 0
+      END
+
+      FOR (SET header = 0; header < 5; ++header)
+      BEGIN
+        LAUNCH_PATCH_FUNCTION ALTER_EFFECT
+          INT_VAR
+	  header
+	  match_opcode		= 12
+	  dicenumber		= 16 + header
+	  dicesize		= 4
+	  special		= 256
+        END
+      END
+    END
+
+
+  CLEAR_IDS_MAP
+
+  LAUNCH_ACTION_FUNCTION RES_NAME_OF_SPELL_NUM
+    INT_VAR
+    spell_num	= "%WIZARD_FIERY_CLOUD%"
+    RET
+    spell_res
+  END
+
+
+  COPY ~ntotsc/spells/itm/ntscrl81.itm~ ~override~
+    SAY NAME2 @3
+    SAY DESC @5
+
+    LAUNCH_PATCH_FUNCTION ALTER_ITEM_EFFECT
+      INT_VAR
+      check_headers	= 1
+      header_type		= 3
+      match_opcode	= "-1"
+      STR_VAR
+      resource	= EVAL "%spell_res%"
+    END
+
+
+  // Add scrolls to Sorcerous Sundries
+
+  COPY_EXISTING ~sto0703.sto~ ~override~
+  	ADD_STORE_ITEM ~ntscrl71~ #1 #1 #0 ~IDENTIFIED~ #3
+  	ADD_STORE_ITEM ~ntscrl81~ #1 #1 #0 ~IDENTIFIED~ #3
+END	// WITH_TRA
+
+

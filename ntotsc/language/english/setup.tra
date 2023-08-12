@@ -915,24 +915,6 @@ Not Usable By:
 @206  = ~Spirit Lash~
 @208  = ~Healer's Touch~
 @209  = ~Ward of Protection~
-@210  = ~Skeleton Guard~
-@211  = ~Skeleton Guard (Conjuration/Summoning)
-Level:  7
-Range:  20
-Duration:  4 hours
-Casting Time:  5
-Area of Effect:  Special
-Saving throw:  None
-The caster summons forth 2 Skeletal Warriors to fight for him in battle.~
-@213  = ~Fiery Cloud~
-@214  = ~Fiery Cloud (Evocation)
-Level: 8
-Range: Sight of Caster
-Duration: 4 rounds +1d6 rounds
-Casting Time: 2
-Area of Effect: 10-feet radius
-Saving Throw: 1/2
-This spell brings forth a thin, smoky cloud that fills the area of effect and initially appears harmless. However, one round later it sparks and flames, dealing 1 - 2 points of fire damage per level in first round. In fourth round it deals 1 - 4 points/level, so in fifth round 1 -2 points again. Saving throw can reduce the damages a half for every round of duration. The cloud will continue to flare at regular one round intervals for the duration of the spell.~
 @215  = ~Maid~
 @216  = ~Sellanio~
 @217  = ~Haeball~
