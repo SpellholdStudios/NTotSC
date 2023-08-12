@@ -1105,28 +1105,6 @@ Nie mo¿e u¿ywaæ:
 @208  = ~Dotyk znachora~
 @209  = ~Protekcja~
 
-@210  = ~Szkielet stra¿nik~
-@211  = ~Szkielet stra¿nik (Sprowadzanie/Przywo³ywanie)
-Poziom: 7
-Zasiêg: 20 metrów
-Czas dzia³ania: 4 godziny
-Czas rzucania: 5
-Obszar dzia³ania: specjalny
-Rzut obronny: brak
-
-Ten czar przyzywa 2 szkielety wojowników do walki na rozkaz rzucaj¹cego. Przyzwane szcz¹tki martwych ludzi, nieludzi i humanoidów mog¹ wykonywaæ proste s³owne polecenia czaruj¹cego, bez wzglêdu na to, jak porozumiewa³y siê za ¿ycia. Przyzwane szkielety mog¹ pod¹¿aæ za osob¹, która rzuci³a zaklêcie, pozostaæ na danym obszarze i atakowaæ ka¿dego (lub tylko okreœlony rodzaj istot), kto siê zbli¿y itp. Animacja szkieletów wojowników trwa przez 4 godziny lub do zniszczenia nieumar³ych w walce lub przez ich odpêdzenie. Rozproszenie magii nie niweluje dzia³ania tego zaklêcia.~
-
-@213  = ~Iskrz¹ca chmura~
-@214  = ~Iskrz¹ca chmura (Wywo³ywanie)
-Poziom: 8
-Zasiêg: pole widzenia
-Czas dzia³ania: 4 rundy +1K6 rund
-Czas rzucania: 2
-Obszar dzia³ania: w promieniu 3 metrów
-Rzut obronny: 1/2
-
-Czar ten przywo³uje gêst¹ chmurê dymu o promieniu 3 metrów. Przez pierwsze dwie rundy nie czyni ona ¿adnej krzywdy, ale w trzeciej rundzie zaczyna iskrzyæ i p³on¹æ, zadaj¹c 1-2 punkty obra¿eñ na poziom rzucaj¹cego czar. W czwartej rundzie zadaje 1-4 punkty obra¿eñ na poziom, po czym w pi¹tej ponownie 1-2 punkty. Jeœli istocie atakowanej uda siê wykonaæ rzut obronny przeciw czarom, to otrzymuje ona tylko po³owê obra¿eñ.~
-
 @215  = ~Pokojówka~
 @216  = ~Sellanio~
 @217  = ~Haeball~
@@ -1606,3 +1584,7 @@ Waga: 1~
 @55138 = ~Do boju!~ [WILL03A]
 @55139 = ~~ [WILL35]
 @55140 = ~~ [WILL39]
+
+@55141 = ~Nowe zwoje z zakleciami~
+@55142 = ~Poprawiona wersja zaklec (poziom 6.)~
+@55143 = ~Oryginalna wersja zaklec (poziom 7. i 8.)~

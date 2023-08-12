@@ -856,33 +856,6 @@ Wymagania:
 
 Waga: 4~
 
-
-//scrlnt71.itm
-
-@211  = ~Szkielet stra¿nik
-(Sprowadzanie/Przywo³ywanie)
-
-Poziom: 7
-Zasiêg: 20 metrów
-Czas dzia³ania: 4 godziny
-Czas rzucania: 5
-Obszar dzia³ania: specjalny
-Rzut obronny: brak
-
-Ten czar przyzywa dwa szkielety wojowników do walki na rozkaz rzucaj¹cego. Przyzwane szcz¹tki martwych ludzi, nieludzi i humanoidów mog¹ wykonywaæ proste s³owne polecenia czaruj¹cego, bez wzglêdu na to, jak porozumiewa³y siê za ¿ycia. Przyzwane szkielety mog¹ pod¹¿aæ za osob¹, która rzuci³a zaklêcie, pozostaæ na danym obszarze i atakowaæ ka¿dego (lub tylko okreœlony rodzaj istot), kto siê zbli¿y itp. Animacja szkieletów wojowników trwa przez cztery godziny lub do zniszczenia nieumar³ych w walce lub przez ich odpêdzenie. Rozproszenie magii nie niweluje dzia³ania tego zaklêcia.~
-
-@214  = ~Iskrz¹ca chmura
-(Wywo³ywanie)
-
-Poziom: 8
-Zasiêg: pole widzenia rzucaj¹cego czar
-Czas dzia³ania: 4 rundy +1k6 rund
-Czas rzucania: 2
-Obszar dzia³ania: w promieniu 3 metrów
-Rzut obronny: 1/2
-
-Czar ten przywo³uje gêst¹ chmurê dymu o promieniu trzech metrów. Przez pierwsze dwie rundy nie czyni ona ¿adnej krzywdy, ale w trzeciej rundzie zaczyna iskrzyæ i p³on¹æ, zadaj¹c 1-2 obra¿enia na poziom rzucaj¹cego czar. W czwartej rundzie zadaje 1-4 obra¿eñ na poziom, po czym w pi¹tej ponownie 1-2 obra¿eñ. Jeœli istocie atakowanej uda siê wykonaæ rzut obronny przeciw czarom, to otrzymuje ona tylko po³owê obra¿eñ.~
-
 @501  = ~W œrodku tego szklanego naczynia znajduje siê kosztowna mieszanka oliwy i innych chemikaliów. Po podpaleniu p³onie przez kilka sekund w wysokiej temperaturze. Czasami ciê¿ko pos³u¿yæ siê p³on¹c¹ oliw¹, poniewa¿ du¿o czasu zajmuje jej posiadaczowi opanowanie umiejêtnoœci wykonania poprawnego rzutu. Poszukiwacze przygód czêsto maj¹ oliwê przy sobie, aby mieæ obronê przed trollami, na wypadek gdyby siê na nie natknêli.
 
 PARAMETRY:
