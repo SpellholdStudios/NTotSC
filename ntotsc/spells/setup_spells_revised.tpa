@@ -1,0 +1,94 @@
+WITH_TRA ~ntotsc/language/english/spells.tra~ ~ntotsc/language/%s/spells.tra~
+BEGIN
+  // Install BAM files
+
+  COPY_LARGE ~ntotsc/spells/bam~ ~override~
+
+
+  // Skeleton Guard
+
+  CREATE EFF VERSION V2.0 "ntbonegd"
+    WRITE_LONG 0x0010 67	// Opcode	=> Summon: Creature Summoning
+    WRITE_LONG 0x0014 1	// Target	=> Self
+    WRITE_LONG 0x0018 6	// Power
+    WRITE_LONG 0x0020 2	// Parameter2	=> As file, at target
+    WRITE_SHORT 0x0024 1	// Timing	=> Permanent
+    WRITE_SHORT 0x002c 100
+    WRITE_ASCII 0x0030 "NTBONEGD" #8
+    WRITE_ASCII 0x0070 "SPRAISED" #8
+    WRITE_ASCII 0x0078 "SPFLESHS" #8
+
+
+  COPY ~ntotsc/spells/cre/ntbonegd.cre~ ~override~
+    SAY NAME1 @0
+    SAY NAME2 @0
+
+
+  ADD_SPELL ~ntotsc/spells/spl/ntspwi61.spl~ 2 6 "WIZARD_SKELETON_GUARD"
+    SAY NAME1 @0
+    SAY UNIDENTIFIED_DESC @1
+
+
+  CLEAR_IDS_MAP
+
+  LAUNCH_ACTION_FUNCTION RES_NAME_OF_SPELL_NUM
+    INT_VAR
+    spell_num	= "%WIZARD_SKELETON_GUARD%"
+    RET
+    spell_res
+  END
+
+
+  COPY ~ntotsc/spells/itm/ntscrl61.itm~ ~override~
+    SAY NAME2 @0
+    SAY DESC @1
+
+    LAUNCH_PATCH_FUNCTION ALTER_ITEM_EFFECT
+      INT_VAR
+      check_headers	= 1
+      header_type		= 3
+      match_opcode	= "-1"
+      STR_VAR
+      resource	= EVAL "%spell_res%"
+    END
+
+
+  // Fiery Cloud
+
+  ADD_SPELL ~ntotsc/spells/spl/ntspwi62.spl~ 2 6 "WIZARD_FIERY_CLOUD"
+  	SAY NAME1 @3
+  	SAY UNIDENTIFIED_DESC @4
+
+
+  CLEAR_IDS_MAP
+
+  LAUNCH_ACTION_FUNCTION RES_NAME_OF_SPELL_NUM
+    INT_VAR
+    spell_num	= "%WIZARD_FIERY_CLOUD%"
+    RET
+    spell_res
+  END
+
+
+  COPY ~ntotsc/spells/itm/ntscrl62.itm~ ~override~
+    SAY NAME2 @3
+    SAY DESC @4
+
+    LAUNCH_PATCH_FUNCTION ALTER_ITEM_EFFECT
+      INT_VAR
+      check_headers	= 1
+      header_type		= 3
+      match_opcode	= "-1"
+      STR_VAR
+      resource	= EVAL "%spell_res%"
+    END
+
+
+  // Add scrolls to Sorcerous Sundries
+
+  COPY_EXISTING ~sto0703.sto~ ~override~
+  	ADD_STORE_ITEM ~ntscrl61~ #1 #1 #0 ~IDENTIFIED~ #3
+  	ADD_STORE_ITEM ~ntscrl62~ #1 #1 #0 ~IDENTIFIED~ #3
+END	// WITH_TRA
+
+

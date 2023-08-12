@@ -389,14 +389,6 @@ BUT_ONLY
 ///// install spells                                   \\\\\
 /////                                                  \\\\\
 
-COPY ~ntotsc/base/spl/ntspwi71.spl~ ~override~
-	SAY NAME1 @210
-	SAY UNIDENTIFIED_DESC @211
-
-COPY ~ntotsc/base/spl/ntspwi81.spl~ ~override~
-	SAY NAME1 @213
-	SAY UNIDENTIFIED_DESC @214
-
 COPY ~ntotsc/base/spl/ntswd5xp.spl~ ~override~
    LPF ALTER_SPELL_EFFECT
    INT_VAR
@@ -697,14 +689,6 @@ COPY ~ntotsc/base/itm/ntswd09.itm~ ~override~
 	SAY NAME2 @204
 	SAY DESC @205
 
-COPY ~ntotsc/base/itm/scrlnt71.itm~ ~override~
-	SAY NAME2 @210
-	SAY DESC @211
-
-COPY ~ntotsc/base/itm/scrlnt81.itm~ ~override~
-	SAY NAME2 @213
-	SAY DESC @214
-
 COPY ~ntotsc/base/itm/nthellsw.itm~ ~override~ //fire salamander weapon
 
 //Items needed by creatures
@@ -871,10 +855,6 @@ END
 
 COPY_EXISTING ~friend.sto~ ~override~
 	ADD_STORE_ITEM ~NTPOTN01~ #0 #0 #0 ~IDENTIFIED~ #5
-
-COPY_EXISTING ~sto0703.sto~ ~override~
-	ADD_STORE_ITEM ~SCRLNT71~ #0 #0 #0 ~IDENTIFIED~ #3
-	ADD_STORE_ITEM ~SCRLNT81~ #0 #0 #0 ~IDENTIFIED~ #3
 
 /////                                                  \\\\\
 ///// install creatures                                \\\\\
@@ -2902,3 +2882,21 @@ REQUIRE_COMPONENT ~ntotsc/NTotSC.tp2~ 0 @531
 COPY_EXISTING ~NTORC03.cre~ ~override~
   LPF ADD_CRE_ITEM_FLAGS STR_VAR item_to_change=NTROBE02 flags=UNDROPPABLE END
   ADD_CRE_ITEM ~LEAT04~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
+
+
+BEGIN ~Revised Version (level 6 spells)~
+SUBCOMPONENT ~Spell Scrolls~
+GROUP @566 /* ~Quests and Encounters~ */
+DESIGNATED 15 LABEL ~NTotSC_SpellScrolls_Revised~
+
+INCLUDE ~ntotsc/spells/setup_spells_revised.tpa~
+
+
+BEGIN ~Original Version (level 7/8 spells)~
+SUBCOMPONENT ~Spell Scrolls~
+GROUP @566 /* ~Quests and Encounters~ */
+DESIGNATED 16 LABEL ~NTotSC_SpellScrolls_Original~
+
+INCLUDE ~ntotsc/spells/setup_spells_original.tpa~
+
+
