@@ -9,9 +9,9 @@ BEGIN
 
   CREATE EFF VERSION V2.0 "ntbonegd"
     WRITE_LONG 0x0010 67	// Opcode	=> Summon: Creature Summoning
-    WRITE_LONG 0x0014 1	// Target	=> Self
-    WRITE_LONG 0x0018 6	// Power
-    WRITE_LONG 0x0020 2	// Parameter2	=> As file, at target
+    WRITE_LONG 0x0014 1		// Target	=> Self
+    WRITE_LONG 0x0018 6		// Power
+    WRITE_LONG 0x001c 5		// Parameter1
     WRITE_SHORT 0x0024 1	// Timing	=> Permanent
     WRITE_SHORT 0x002c 100
     WRITE_ASCII 0x0030 "NTBONEGD" #8

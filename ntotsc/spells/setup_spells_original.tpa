@@ -7,6 +7,23 @@ BEGIN
 
   // Skeleton Guard
 
+  CREATE EFF VERSION V2.0 "ntskwasu"
+    WRITE_LONG 0x0010 67	// Opcode	=> Summon: Creature Summoning
+    WRITE_LONG 0x0014 1		// Target	=> Self
+    WRITE_LONG 0x0018 6		// Power
+    WRITE_LONG 0x001c 5		// Parameter1
+    WRITE_SHORT 0x0024 1	// Timing	=> Permanent
+    WRITE_SHORT 0x002c 100
+    WRITE_ASCII 0x0030 "NTSKWASU" #8
+    WRITE_ASCII 0x0070 "SPRAISED" #8
+    WRITE_ASCII 0x0078 "SPFLESHS" #8
+
+
+  COPY ~ntotsc/spells/cre/ntskwasu.cre~ ~override~
+    SAY NAME1 @0
+    SAY NAME2 @0
+
+
   ADD_SPELL ~ntotsc/spells/spl/ntspwi71.spl~ 2 7 "WIZARD_SKELETON_GUARD"
     SAY NAME1 @0
     SAY UNIDENTIFIED_DESC @2
