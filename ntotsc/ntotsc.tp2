@@ -2884,16 +2884,16 @@ COPY_EXISTING ~NTORC03.cre~ ~override~
   ADD_CRE_ITEM ~LEAT04~ #0 #0 #0 ~UNSTEALABLE~ ~INV1~
 
 
-BEGIN ~Revised Version (level 6 spells)~
-SUBCOMPONENT ~Spell Scrolls~
+BEGIN @55142
+SUBCOMPONENT @55141
 GROUP @566 /* ~Quests and Encounters~ */
 DESIGNATED 15 LABEL ~NTotSC_SpellScrolls_Revised~
 
 INCLUDE ~ntotsc/spells/setup_spells_revised.tpa~
 
 
-BEGIN ~Original Version (level 7/8 spells)~
-SUBCOMPONENT ~Spell Scrolls~
+BEGIN @55143
+SUBCOMPONENT @55141
 GROUP @566 /* ~Quests and Encounters~ */
 DESIGNATED 16 LABEL ~NTotSC_SpellScrolls_Original~
 

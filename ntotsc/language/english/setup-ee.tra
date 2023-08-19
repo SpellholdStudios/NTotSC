@@ -825,27 +825,6 @@ Weight: 4
 ~
 //scrlnt71.itm
 
-@211  = ~Skeleton Guard 
-(Conjuration/Summoning)
-Level: 7
-Range: 20 yards
-Duration: 4 hours
-Casting Time: 5 rounds
-Area of Effect: Special
-Saving throw: None
-
-The caster summons forth 2 Skeletal Warriors to fight for him in battle.~
-
-@214  = ~Fiery Cloud (Evocation)
-Level: 8
-Range: Sight of Caster
-Duration: 4 rounds +1d6 rounds
-Casting Time: 2
-Area of Effect: 10-feet radius
-Saving Throw: 1/2
-
-This spell brings forth a thin, smoky cloud that fills the area of effect and initially appears harmless. However, one round later it sparks and flames, dealing 1 - 2 points of fire damage per level in this round. In fourth round it deals 1 - 4 points per level, and in fifth round 1 - 2 points again. Saving throw can reduce the damage by half for every round of duration. The cloud will continue to flare at regular one round intervals for the duration of the spell.~
-
 @501  = ~Inside of this glass pot is an expensive mixture of oil and other chemicals. When this mixture is set ablaze, it burns for several seconds at a very hot temperature. Flaming oil is sometimes difficult to use because it takes a long time for the user to properly throw it. Adventurers often carry oil with them to deal with trolls in the unfortunate event that they are encountered.
 
 STATISTICS:
