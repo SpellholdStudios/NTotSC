@@ -871,50 +871,43 @@ Weight: 1~
 
 /* new in v5.0.0 */
 /* Angel's new items (2021 revision) */
-@557 = ~This enchanted mage robe has powers over earth and stone.
+@557 = ~这件附魔法师长袍拥有超越大地和石头的力量。
 
-STATISTICS:
+数据资料：
 
-Equipped abilities:
-- Immunity to Petrification
+免疫石化
+每天施放一次石肤术
+每天施放一次解除石化
 
-Charge abilities:
-- Stone Skin (1/day)
-- Stone to Flesh (1/day)
+重量：4~
+@559 = ~这件法师袍上有许多隐藏的眼睛，让穿着者拥有全方位的视觉。因此，他们永远不会感到惊讶。长袍的眼睛也有夜视能力，可以探测到隐形的生物。然而，有一个缺点是穿着者更容易被可以的变成石头。
 
-Weight: 4~
-@559 = ~This mage robe has many hidden eyes all over it, giving the wearer all-round vision.  As a result they can never be surprised.  The robe's eyes also have infravision and can detect invisible creatures.  However, one drawback is that the wearer is more suspectable to being turned to stone.
+数据资料：
 
-STATISTICS:
+豁免检定：对石化 -4
+夜视能力
+免疫被刺
+每天施放一次真实目光
 
-Equipped abilities:
-- Saving Throws: -4 vs. Petrification
-- Infravision
-- Immunity to Backstab
+重量：4~
+@561 = ~守护之戒 +1, 对类人族+3：“防御者之戒”
+这枚神奇的戒指曾经是博德之门一位贵族的财产。由于害怕被对手暗杀，他花钱请当地一位巫师制作了这个戒指，以保护自己免受类人族攻击者的攻击。不幸的是，他的对手决定用毒蛇暗杀他。
 
-Charge abilities:
-- True Seeing (1/day)
+数据资料：
 
-Weight: 4~
-@561 = ~Ring of Protection +1, +3 vs. Humanoids: 'Defender Ring'
-This magical ring was once the property of a noble from Baldur's Gate.  Fearing assassination by a rival, he paid a local wizard to create this ring to protect him from humanoid attackers.  Unfortunately for him, his rival decided to use a poisonous snake for the assassination attempt instead.
+防御等级：+1改善 （对类人族 +3）
+豁免检定：+1改善 （对类人族 +3）
 
-STATISTICS:
+重量：0~
+@563   = ~实战铠甲省去了板甲和全身铠甲的链式背衬，以减轻重量。取而代之的是，在实战铠甲下穿一套轻便的填充服，或称阿克顿（aketon）。这种盔甲的相当大的重量分布在穿着者的身体上，受过训练的骑士在穿着这种盔甲时可以躺下、站立或跳上马背。
 
-Equipped abilities:
-- Armor Class: +1 (+3 vs. Humanoids)
-- Saving Throws: +1 (+3 vs. Humanoids)
+数据资料：
 
-Weight: 0~
-@563   = ~Field plate dispenses with the chain backing of plate mail and full plate to save weight.  Instead a light suit of padding, or aketon, is worn beneath field plate.  The considerable weight of this armor is distributed over the wearer's body, and a trained knight can lie down, stand up, or vault into the saddle while wearing this armor.
+防御等级：2 （对挥砍攻击为 -1，对穿刺和远程攻击为 1）
+雪球：
+    力量：14
 
-STATISTICS:
-
-Armor Class: 2 (-1 vs. slashing, 1 vs. piercing and missile)
-Requires:
- 14 Strength
-
-Weight: 60~
+重量：60~
 /* ------ */
 
 
