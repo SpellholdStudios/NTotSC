@@ -1,0 +1,25 @@
+@0 = ~¿Quién viene a Meandar? ¿Monoach no os envía, pero sabéis que soy yo a quién buscáis? ...¿Cómo?~
+@1 = ~No esperábamos una calurosa bienvenida, pero aparte de eso, queréis hablar con nosotros.~
+@2 = ~Meandar sabe que alguien buscando una respuesta vendría... ¿Se equivoca Meandar?~
+@3 = ~No tenemos tiempo de jugar a "las adivinanzas...". Suponemos que tenéis la llave. Incluso es más probable desde que habéis conocido a Monoach. La necesitamos.~
+@4    = ~Ëstáis en lo cierto Meandar. ¿Supongo que nos podréis dar la llave que poseéis?~
+@5    = ~Meandar os dará la llave, pero tendréis que trabajar para conseguirla. No hay nada gratis. Meandar tiene un enemigo. Las Salamandras de Hielo solían ser familia, pero ahora ya no quedan más. Kolchear no es una verdadera Salamandra y dejó la casa con sus compañeros.~
+@6 = ~Entonces, es algo familiar... ¿Dónde encontrasteis a Kolchear?~
+@7 = ~¿Qué? Otra vez no. ¿No hay forma de evitar estos conflictos sin fin?~
+@8 = ~Kolchear ya sabe que estáis aquí, porque vosotros, seres del primer plano, le habéis irritado mucho... Podéis esperar encontraros con él tan pronto como dejéis nuestra casa. Kolchear es peligroso, así que buena suerte y vigilad vuestras espaldas. Volved aquí después y os daré la llave... si todavía estáis vivos...~
+@9 = ~¿Porqué Meandar no derrotó a sus enemigos él mismo en vez de usar la ayuda de unos aventureros?~
+@10 = ~Las Salamandras de Hielo no se gustan entre ellas, pero ellas no luchan... No tienen armas, con las que poder derrotar a otra Salamandra...~
+@11 = ~Meandar está triste porque sus hermanos se han ido, pero respeta el valor y el coraje de los recién llegados. Aquí está la llave que buscáis. Mirad de cerca la forma en que se forjó por que un gran mal se oculta tras ella... antiguo y cruel...~
+@12   = ~¿Qué mal? ¿Qué sabéis acerca de eso?~
+@13 = ~Meandar y Monoach fueron amigos... hace mucho tiempo. Pero Monoach nunca nos dijo para qué servía la llave ni a dónde lleva... Pero Monoach no nos hubiera dado la llave si no estuviera al tanto de su destino. Meandar sabe algo más.~
+@14   = ~Meandar no sabe nada más.~
+@15   = ~Bienvenidos. ¿Quiénes sois que habéis encontrado nuestra Casa?~
+@16   = ~Vengo de lejos y necesitamos vuestra ayuda... o más bien una llave...~
+@17 = ~¿Sabéis la historia de Monoach?... Eso está bien. Lo que no sabéis es que Monoach estaba luchando contra algún culto. Aborrecía a la Mano Negra y su deseo de hacer retornar a Bhaal y mientras exista su templo, no hay forma de que os pueda ayudar. Volved cuando su líder esté muerto. Sabré si se ha hecho. No sé dónde está el Templo de la Mano Negra, pero sus agentes crecen en número. Entiendo que podría haber una facción en la Barba de Ulgoth, y han sucedido cosas extrañas en el Campo de la Muerte. Quizás si buscáis allí, podréis localizarla.~
+/* @18 -> @10037 */
+@19 = ~Entonces está hecho. Bien.~
+
+/* new for v2.0 */
+@20 = ~Haz lo que Meander os pidió y obtendrás la llave.~
+@21 = ~¡No estoy aquí para resolver una de tus disputas familiares!~
+@22 = ~Entonces no conseguirás la llave. Kolchear odia a los que planean primero y no hacen preguntas. Si se fija en ti, tendrás que luchar contra él, si quieres hacerlo por Meandar, hazlo para protegerse.~

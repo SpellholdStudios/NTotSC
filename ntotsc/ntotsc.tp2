@@ -88,7 +88,6 @@ ALWAYS
 	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
 		COPY - ~weidu.conf~ ~.../weidu.conf~
 			READ_2DA_ENTRY 0 2 3 "lang_dir"
-//		ACTION_IF NOT ~%LANGUAGE%~ STR_EQ ~english~ BEGIN
 			ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
 				"german" => "CP1252"
 				"english" => "CP1252"
@@ -98,6 +97,7 @@ ALWAYS
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
 				"schinese" => "CP936"
+				"spanish" => "CP1252"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup journal END
 			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN install END
@@ -112,8 +112,6 @@ ALWAYS
 				noconvert_array = charsetsNoConvertArray
 			END
 			
-//		END
-
 		LOAD_TRA ~ntotsc/language/%LANGUAGE%/setup-ee.tra~
 	END
 	/* consider installed DSotSC - BGT/EET vs. BG:EE versions */
@@ -159,6 +157,7 @@ LANGUAGE
 	~english~
 	~ntotsc/language/english/setup.tra~
 	~ntotsc/language/english/journal.tra~
+
 LANGUAGE
 	~German (translation by Leonardo Watson)~
 	~german~
@@ -199,6 +198,14 @@ LANGUAGE
 	~ntotsc/language/french/setup.tra~
 	~ntotsc/language/french/journal.tra~
 
+LANGUAGE
+	~Spanish~
+	~spanish~
+	~ntotsc/language/english/setup.tra~
+	~ntotsc/language/english/journal.tra~
+	~ntotsc/language/spanish/setup.tra~
+	~ntotsc/language/spanish/journal.tra~
+
 /*
 LANGUAGE
 	~Castilian~
@@ -211,7 +218,7 @@ LANGUAGE
 	~Simplified Chinese(by Archenemy,Latest update by You Ye & Lewis Liu (V5.0.0))~
 	~schinese~
 	~ntotsc/language/schinese/setup.tra~
-        ~ntotsc/language/schinese/install.tra~
+    ~ntotsc/language/schinese/install.tra~
 	~ntotsc/language/schinese/journal.tra~
 
 
