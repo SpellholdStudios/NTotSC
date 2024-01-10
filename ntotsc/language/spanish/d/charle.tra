@@ -1,0 +1,6 @@
+@0 = ~Si no os importa, tengo otra gesta que ofreceros. Cerca del Puente de Vinoardiente descubrimos una entrada a la zona restante del calabozo de las ruinas de la ciudad. Desafortunadamente, hay espíritus malignos dentro, pero no deberían ser un problema para vos. Quiero que vayáis y lo limpiéis, eso me daría la oportunidad de empezar una nueva exploración.~
+@1    = ~Desgraciadamente, ahora tengo otras misiones que solucionar.  Necesitaréis encontrar a otro.~
+@2    = ~Por supuesto, podemos encargarnos de ello, no importa que tipo de 'espíritus' sean.~
+@3    = ~Como deseéis. No os puedo ordenar ir allí, sobre todo con un día como este.  ¡Adiós!~
+@4 = ~Gracias. Tengo el pergamino que contiene el sello que os permitirá entrar. La entrada está protegida por un habitáculo, hecho por mi amigo, un mago, para mantener alejados a los que pasan. Ahora ya sabéis que quiero decir. Así que coged este pergamino, y podréis pasar a través de la entrada sin impedimentos.~
+/* @5 -> @10001 */

@@ -1,0 +1,24 @@
+// #3353
+@0    = ~¡Quedaos quieto, ladrón!  ¡Cómo os atrevéis a robar a un monje honesto!  ~
+// #3354
+@1    = ~¡Entonces seréis forzado a portaros bien mientras estéis aquí!  Si no podéis sacar provecho de vuestros pensamientos malvados, quizás debáis aprender a pensar de otra forma.~
+// #3355
+@2    = ~¡Vuestras acciones vuelan por la cara de todo lo que Helmo sostiene como sagrado!  ¡Qué indiferencia por los derechos de los demás!~
+// #3356
+@3    = ~Vuestras habilidades de ladrón son sin duda importantes para vos, ¡pero dudo seriosamente que les déis un uso productivo!  No hay nada más que el bien y el mal.  ¡Sospecho que sois de estos últimos!~
+// #3357
+@4    = ~¡¿Qué es esta traición?!  Habéis derramado la sangre de un alma joven, ¿y todo por un montón de gemas?~
+// #3358
+@5    = ~¡Estos que necesitan ayuda deben ser queridos como los que más!  ¡Vuestras acciones son despreciables y sin remordimientos!  ¡No puedo aguantar más!  ¡Sacad vuestras armas y defendeos, que vais a morir con la dignidad que no habéis tenido en vida!~
+// #3359
+@6    = ~Es un infortunio que nuestro compañero muriera antes de retractarse de sus formas.  El mal debe purgarse en donde se encuentra, incluso si está entre colegas.  Helmo observa nuestra búsqueda, cuyo fin está cerca.~
+// #3313
+@7    = ~Lo haremos sin él, y procederemos con cuidado.  Nuestra virtud nos hará compañía.  ~
+// #3373 (change "Eldoth" with "Eldod")
+@8    = ~¡ELDOD!  ¡¡TRAIDOR!!~
+@9    = ~Helmo guía mi camino.~
+
+/* new for v2.0 */
+@10  = ~Hemos vencido!~
+@11  = ~La pérdida de nuestro capellán en funciones, es una triste pérdida para esta ciudadela.~
+@12  = ~Desafortunadamente, nuestro verdadero Capitán no estaba entre los vivos.~

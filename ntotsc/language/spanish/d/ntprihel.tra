@@ -1,0 +1,9 @@
+// #15397 (slightly changed)
+@0    = ~Bienvenidos a nuestra capilla. Nuestra dedicación al Por siempre Ojo Vigilante es irrompible. Por favor, dejad que el ojo de Helmo os proteja por siempre.~
+// #15400
+@1    = ~Lo siento, solo pensar ser observado incesantemente por un ojo me molesta inmensamente. Encontraré mi propio camino hasta la salida.~
+// #15399
+@2    = ~Me gustaría ver que tipo de servicios ofrecéis.~
+@3    = ~¿Porqué está vuestro altar bloqueado? Esto es muy interesante...~
+@4    = ~¡Ni lo toquéis! Si estáis tan interesados en esto, deberiais hablar con Avery. El se encarga de este altar. Pero dudo que quiera hablar de él considerando la situación actual...~
+/* @5 -> @10057 */

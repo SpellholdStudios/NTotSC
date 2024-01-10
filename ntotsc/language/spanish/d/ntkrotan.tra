@@ -1,0 +1,15 @@
+// #3303
+@0    = ~¡¿Qué?!  Bueno, creo que hay visitas.  Entrad.  ¿Son los que viste arriba?~
+// #3304 (change "Eldoth" to "Eldod")
+@1    = ~¡Entonces bien!  ¡No necesito encontrarme!  Ah, Eldod.  Debería esperar que el traidor me traicionara.  No importa.  Eres una herramienta útil.  ¡Tu cráneo será la siguiente herramienta útil!~
+// #3305
+@2    = ~¡No mataréis más!  ¡Ahora MATO!  ¡¡MATADLOS!!  ¡¡MATADLOS Y EL ALCAZAR SERA NUESTRO!!~
+// #3308
+@3    = ~¡Entonces bien!  ¡No necesito encontrarme!~
+// #3308
+@4    = ~No puede oirte.  Pero como herramienta, es una BUENA herramienta.  Voluntad débil.  ¡CRANEO más débil!~
+// #3309
+@5    = ~¡No necesito más herramientas!  ¡Ahora golpearemos!  ¡¡MATADLOS!!  ¡¡MATADLOS Y EL ALCAZAR SERA NUESTRO!!~
+/* @6 -> @10032 */   
+// #3311
+@7    = ~¡Entonces bien!  ¡No necesito encontrarme!  Eres listo para haber llegado tan lejos.  ¡Soy listo por haberte dejado!  Ahora muere bien y puro.  ¡Mañana el Alcázar es mío!  ¡¡MATADLOS!! ~

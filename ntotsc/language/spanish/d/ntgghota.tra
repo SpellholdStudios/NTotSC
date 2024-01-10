@@ -1,0 +1,9 @@
+@0    = ~¡Necios! Sin mi espada no puedo dejar la cripta... Atrapados y aquí abajo...
+Pero vosotros - ignorantes - me habéis liberado... ¡El tiempo de coger fuerzas y vengarme finalmente se acerca a todos los que pronuncien mi nombre! ¡ATACAD, MIS MONSTRUOS!~
+/* @1 -> @10012 */ 
+@2    = ~¡Bienvenidos los malditos! ¿Habéis venido a liberarme de esta cripta tan fea? La compañía de esqueletos y arañas puede hacer que uno se aburra bastante... durante muchos años... Pero... ¿Dónde está mi espada?... no la siento...
+De esta forma... ¡MORIREIS!~
+/* @3 -> @10013 */ 
+@4 = ~Acabáis de dar al General Ghotal la facultad de salir de su tumba, y causar estragos en los campos circundantes. ¡Con un poco de suerte tendréis la fuerza, el coraje y la habilidad en el combate para detenerlo!~
+/* new for v2.1.0 */
+@5 = ~¡Tontos! No me derrotaréis tan fácilmente. ¡Encontradme dentro, si os atrevéis!~
