@@ -1,0 +1,34 @@
+// #3131 (change "Ajantis" to "<CHARNAME>")
+@0    = ~Ah, así que vos sois <CHARNAME>, supongo.  Confío en que no hayáis tenido incidentes en vuestro viaje.  Mi hermanastro y yo nos alegramos de que hayáis venido, aunque estamos arrepentidos de que necesitéis ayuda.  El Alcázar normalmente está cerrado a los extranjeros, pero, en este caso, las circunstancias requieren medidas extraordinarias.  Supongo que el Duque Eltan os ha hablado de nuestro problema.  Han desaparecido 8 personas, 3 de ellas en los últimos dos días.  Aislados como estamos, no tenemos los medios para enfrentarnos a esto. Por favor, haced lo que podáis.~
+// #3132
+@1    = ~¿Aquí no tenéis seguridad? El Alcázar no puede quedarse sin defensas de NINGUN tipo.  Debo hablar con el Capitán de la guardia.~
+// #3133
+@2    = ~¿Cuál es vuestra posición aquí?  Ni siquiera sé vuestro nombre.~
+// #3137
+@3    = ~¿Dónde está el resto de vuestros compañeros?  Necesitaría hablar con todos ellos.~
+// #3134 (insert "Eldod")
+@4 = ~¡Ay de mí!, normalmente TENEMOS un considerable número de guardias. Sin embargo la mayoría han sido enviados al sur, para ayudar a combatir los brotes de robos por toda la carretera de la Costa. Fue después de esto que empezaron nuestros propios problemas. Dos de nuestros guardias restantes están junto los desaparecidos, y el mismo Capitán no ha sido visto desde ayer por la tarde. Hemos asignado un reemplazo en su lugar, Eldod, y lo encontraréis fuera, delante del Alcázar.~
+// #3144
+@5    = ~Os aprecio esta información, y haré lo que pueda.  De todas formas es una tarea para completarla por mi cuenta.~
+// #3135
+@6    = ~Perdonad mis modales, ¡no me he presentado!  Soy Satos, y desafortunadamente soy el abad en funciones.  No es que no encuentre honor en esta posición, más bien todo lo contrario.  Solo es desafortunada la manera de asignar el cargo.  Nuestro verdadero Abad Anciano fue de los primeros en desaparecer.~
+// #3146
+@7    = ~Encontraréis algunos de los nuestros por los alrededores, aunque me temo que están demasiado agitados para dejar el edificio del Alcázar.  He dado instrucciones a todo el mundo para que nos ayuden como puedan.~
+// #3148
+@8    = ~¡Oh!  Tenía pensado decíroslo, pero se me fue de la cabeza.  Me temo que me he estado despistando desde que todo esto empezó.  El Duque Eltan anticipó la necesidad de asistencia, así que ordenó a un gremio de mercenarios que nos ayudaran.  Una extraña mezcla, os lo aseguro, pero estoy seguro que nos servirán bien.  Todos parecen habilidosos en sus...emm...puestos.  Las introducciones están en orden, creo.~
+// #3149
+@9    = ~Emm...si, bien... ¿y ahora?~
+// #3150
+@10   = ~Si... bueno, ahora que ya nos hemos ocupado de esto lo dejaré en vuestras manos.  Podéis ir allí donde queráis, excepto al Alcázar principal, todo está abierto para vosotros.  Este edificio debe mantenerse cerrado, ya que hay muchos tomos apreciados. No es que no confiemos en VOS, sinó que es mejor mantener alejadas la visitas tanto como sea posible.  Espero que lo entendáis.  Perdonadme, tengo meditaciones a las que atender.~
+/* @11 -> @10060 */ 
+// #3151
+@12   = ~Delante... muchos de ellos... deben ser detenidos... ~
+// #3152
+@13   = ~Tomad esto...acabadlo...~
+/* @14 -> @10061 */  
+// #8972
+@15   = ~Hay poco que os pueda decir que no lo haya echo ya.  Por favor, amigos, ayudad a mis hermanos.~
+@16   = ~Habéis probado ser fidedigno.  La Ciudadela está abierta para vosotros por siempre.~
+@17   = ~¿Porqué tenéis tanta prisa, amigos?~
+@18   = ~¡Hemos encontrado la causa de la confusión en vuestra Ciudadela! Un ogro, llamado Krotan que se oculta dentro del Mausoleo, ¡es el que ha encantado a Eldod! ¡Eldod seguía sus órdenes para matar a toda vuestra gente! Ahora nos vamos a encargar de esta escoria.~
+@19   = ~¡Esto es fantástico! ¡Buena suerte! Enviaré allí inmediatamente a toda mi gente para que os ayuden.~
