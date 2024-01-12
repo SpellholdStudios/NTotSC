@@ -1,0 +1,62 @@
+// #3182
+@0    = ~Por Ilmater, os lo suplico, enviadlo a casa. ¡OH! Vos... Me habéis asustado. Os han enviado desde la puerta de Baldur, ¿no? Os doy la bienvenida, aunque dudo mucho que podamos volver a ver a... a nuestros amigos otra vez.~
+// #3189
+@1    = ~Decidme, ¿qué sabíais de la gente desaparecida?~
+/* @2 -> @10033 */    
+// #3190
+@2    = ~En la Ciudadela conocimos a Lenore a la que le cuesta llevar el asunto de las desapariciones. Está preocupada por Montgomery que también anda perdido. Deberíamos buscarlo y quizás pueda apaciguar la pena de Lenore.~
+@3    = ~¿Qué pensáis que les ha pasado a vuestros amigos desaparecidos?~
+// #3191
+@4    = ~¿Dónde estabais cuando desapareció la última persona? ¡HABLAD!~
+// #3183 (shortened to avoid repetition)
+@5 = ~Lo sé... los conocía a todos, aunque sabía... un gran acuerdo de uno de ellos. Estábamos... nosotros... Montgomery y yo éramos... ¡No puedo hablar de esto! Pensar en su pérdida... esto no es justo... Luchamos la otra noche y se quedó tan loco. Tales uniones son... mal vistas por nuestra orden, pero ahora se ha ido y yo... Por favor... encontradlo. Encontradlos a todos, y traedlos a casa a salvo.~
+// #3192
+@6    = ~Haré lo que pueda por todos los involucrados. Gracias por vuestro tiempo.~
+// #3184
+@7    = ~No sé... Sólo sé cómo se les echa de menos... por la mayoría, si no por todos.~
+// #3195
+@8    = ~¿Qué queréis decir con eso? ¿Quién no los echa de menos?~
+// #3185
+@9    = ~Yo... no debería haber dicho eso. No es justo pensar mal de otro sin tener pruebas. Es sólo que... Bueno, algunos parecen haber ganado con esta pérdida.  ~
+// #3199
+@10   = ~Un punto interesante, sin duda. Pensaré en ello.~
+// #3186
+@11   = ~¡Por favor! ¡Quería más a esta gente que a mi propia familia! ¿Cómo podéis acusarme así?  ~
+// #3202
+@12   = ~Dejad de quejaros, sólo intento acabar el trabajo.~
+// #3203
+@13   = ~Disculpad mis modales, pero éste es un asunto desagradable. Por favor, ¿podemos comenzar de nuevo?~
+// #3187
+@14   = ~Todo esto es muy doloroso. Tengo que hacer algo que no sea sentarme a ver qué pasa. Por favor, ¿podría unirme a vos? Necesito saber qué le ha ocurrido a mi... a todos mis amigos.  ~
+// #6091
+@15   = ~Apenas tengo sitio para vos y menos tiempo aún para protegeros. Esta misión es peligrosa y no puedo arrastrar una carga conmigo. ¿De qué me serviríais?~
+// #6092
+@16   = ~Me temo que mi tarea es lo bastante deprimente sin vuestra compañía. Preferiría seguir sin vos.~
+// #6093
+@17   = ~No me parece una idea acertada conduciros al peligro cuando estoy aquí para protegeros. Comprendo que queráis ayudar, pero pienso que sería mejor que os quedárais.~
+// #3188
+@18   = ~¡Oh, os suplico que me dejéis en paz! Bastante grande es mi dolor como para tener que soportar también vuestra compañía.~
+// #3204
+@19   = ~Yo... supongo. Todo esto es tan difícil...~
+// #3208
+@20   = ~¡Oh, os suplico que me dejéis en paz! Bastante grande es mi dolor como para tener que soportar también vuestra compañía.~
+// #6094
+@21   = ~¡¿Responsabilidad?! ¡No seré un peligro para nadie excepto para mí mismo! No perdéis nada con mi presencia. Verdaderamente, puedo seros de ayuda. El abad nunca lo aprobó pero... muchos tomos en el Alcázar contienen conocimientos mágicos para aquéllos que miran. He estudiado mucho en secreto y me considero una maga tan buena como podáis serlo cualquiera de vosotros. NO seré una responsabilidad. ~
+// #6096
+@22   = ~Premeditado o no, no os necesito. Continuaré sin vos.~
+// #6097
+@23   = ~No. Aunque lo estéis deseando, no puedo poner en peligro ni una sola vida más de las necesarias. Lo siento.~
+// #6098
+@24   = ~¡No entiendo cómo podéis rechazar ayuda! Es un misterio cómo decís estar haciendo todo lo que podéis cuando ni siquiera explotáis todos vuestros recursos. Que la suerte os acompañe por el bien de todos nosotros. ~
+// contains parts of #6099
+@25 = ~Lo...entiendo. Entonces, por favor, al menos coged esto. Solo alguien que no sea él, posiblemente pueda estar detrás de las desapariciones y este ataque subrepticio a la Ciudadela, así que usad esto cuando sepáis que es el momento adecuado. Esto os ayudará en vuestras pruebas venideras. Estaría en un gran problema si se encontrara perdido, pero vuestro éxito es crucial. Temo por la vida del valiente Satos, llenándose como si estuviera en lugar de nuestro Abad Jefe. Sería mejor asegurarse que está a salvo. ¡No sé que podemos hacer si ahora lo perdemos!~
+// #6101
+@26   = ~Ese cuerpo... parece... no... ¡NO!~
+// #6103
+@27   = ~Aquí hay una nota para mí... declarando su amor con sus palabras de moribundo... todo lo que pudo ser... Bueno (sollozo), no hay... mucho que pueda hacer aquí. En adelante... debemos poner fin a... a todo esto.~
+// #8748
+@28   = ~Yo.... yo no puedo hablar con vos. Sólo... sólo quiero que me dejen en paz.~
+// #8749
+@29   = ~Si sois mis amigos encontraréis a mi Montgomery. Por favor... ¡Deseo tanto volver a verlo!~
+// #8969
+@30   = ~¡Fuera de mi vista! ¡No haré nada por vos!~

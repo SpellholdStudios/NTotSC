@@ -1,0 +1,26 @@
+@0    = ~Espero que alguien pueda acabar por fin con esos demonios...~
+/* @1 -> @10067 */
+@2 = ~¡Dejadnos con nuestros problemas!...¡Ya tenemos bastantes intrusos!...~
+@3 = ~¿Problemas? Ayudar con los problemas se ha vuelto últimamente nuestra especialidad... ¿Quizás podamos ayudar?~
+/*
+@4    = ~Un infesto de zombis ha estado aterrorizando algunos asentamientos con la mala suerte de tener tierras por el río. Un viejo granjero con el nombre de Wenric ha contado un total de veinte y me pagará un impresionante total de 150 piezas de oro si puedo encargarme de todos ellos.~
+*/
+@5 = ~Gracias, encargaros de esas bestias fue muy generoso por vuestra parte. Quizás ahora por fin podamos regresar a nuestra pesca.~
+@6 = ~Habéis regresado... pero os puedo decir que todavía sin éxito... otros lo han intentado antes y también han fallado...~
+@7 = ~¿Esos monstruos son bastante espantosos, verdad?~
+@8 = ~¡Estamos salvados! ¡Increíble! Pensé que estos monstruos de fuego acabarían forzándonos hasta morir... Realmente apreciamos lo que hicisteis...~
+@9 = ~El placer ha sido nuestro.~
+@10 = ~Si podéis... Hemos estado pescando aquí durante años, pero durante las últimas semanas no nos podemos acercar a nuestras barcas. Por la cara norte de nuestra bahía han aparecido algunos monstruos... Escupen fuego y matan a todo el que se acerca a la bahía. Y ahora, incluso más recientemente, una tribu de Sirinas también se ha alojado en la orilla cerca de dónde pescamos con nuestras barcas. ¿Podéis tratar con ellas?~
+@11   = ~Lo intentaremos, pero no lo podemos prometer...~
+@12   = ~¿Fuá... eso es todo? ¿Deberíamos arriesgar nuestros cuello por unos plebeyos? Si, puede... ya veremos...~
+@13 = ~¿Cómo os lo podremos devolver?~
+@14 = ~Quizás haya una forma. Nos gustaría saber si habéis oído algo sobre una isla cerca de aquí en el Mar de las Espadas... No sé exactamente que estamos buscando, pero podría haber algún tipo de fortaleza en ella...~
+@15 = ~No es necesario.~
+@16 = ~No nos adentramos mucho en el mar... Pero Nadalin estuvo aquí hace tiempo. Solía navegar a mar abierto y nos contó una vez algo de una isla de Lagartos, parecidos a esos de la cueva..., pero esos no te quemaban con fuego...Tendréis que preguntarle a Nadalin. Ahora que los monstruos se han ido de nuestra zona de pesca, quizás vuelva con nosotros... Lo sé, le gustaban mucho sus tareas, pero huyó cuando aparecieron éstas... estas Salamandras.~
+@17 = ~Gracias, ya veremos si podemos encontrar a Nadalin.~
+/* @18 -> @10068 & @10069 */
+@19   = ~¿Podemos hacer algo más por vosotros, amigos?~
+@20   = ~Si, estamos buscando a alguien que conozca los alrededores y las islas del Mar de las Espadas.~
+@21   = ~No, ahora no.~
+@22 = ~¡Ya hemos hablado con Nadalin en la Puerta de Baldur! Estoy seguro que se alegrará de oír que los monstruos han sido derrotados, así que podrá volver a sus tareas.~
+@23 = ~¡Ya hemos hablado con Nadalin en la Puerta de Baldur! Gracias, ya veremos si podemos encontrar a Nadalin.~

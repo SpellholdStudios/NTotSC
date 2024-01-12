@@ -1,0 +1,16 @@
+// #15507
+@0    = ~A menos que queráis comprar algo de cerveza, no sois bienvenidos aquí.~
+// #15508
+@1    = ~¿Viajeros, verdad? Tener uno para conocer a otro, creo... No se si os dirigís a ese camino, pero, si acabáis en la Puerta de Baldur, mantened los ojos abiertos con Gheldehar, un viejo clérigo gnomo. Tiene más trucos que un draco viejo. Actualmente, todavía tiene un viejo anillo mío que me gustaría recuperar. Oh, y en caso de que no lo recuperéis... esto es una pequeña ayuda.~
+// #15800
+/* @2 -> @10055 */ 
+// #15509
+@3    = ~Gracias por la cerveza, bobos.~
+// #15510
+@4    = ~¿Aún no habéis ido a la Puerta de Baldur? Vigilad vuestras espaldas con Gheldehar cuando...~
+// #15511
+@5    = ~¡Gracias por vuestra ayuda! Solo dejad que me ponga este anillo. Ha pasado tanto tiempo...~
+// #15512
+@6    = ~Lo habéis hecho bien. Tomad, dejad que os entregue otro a cambio.~
+// #15513
+@7    = ~Entonces, muy bien. Dejad que los actos de insensatez engañen al necio.~

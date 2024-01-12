@@ -1,0 +1,47 @@
+@0	= ~Esqueleto Guardian ~
+@1	= ~Esqueleto Guardian 
+(Necromancia)
+Nivel: 6
+Alcance: 20 yardas
+Duración: 1 turno
+Tiempo de lanzamiento: 5
+Area de Efecto: Especial
+Tirada de salvación: Ninguno
+
+El lanzador invoca a un guardia esquelético para que luche por <PRO_HIMHER> en la batalla.  El guardia permanece hasta que es destruido o se agota su duración.~
+@2	= ~Esqueleto Guardian 
+(Conjuraracion/invocacion)
+Nivel: 7
+Alcance: 20 yardas
+Duración: 4 horas
+Tiempo de lanzamiento: 5
+Área de efecto: Especial
+Tirada de salvación: Ninguno
+
+El lanzador invoca a 2 Guerreros Esqueléticos para que luchen por <PRO_HIMHER> en la batalla.~
+
+@3	= ~Nube ardiente~
+@4	= ~Nube ardiente
+(Evocacion)
+
+Nivel: 6
+Alcance: Alcance visual del lanzador
+Duración: 1 turno 
+Tiempo de lanzamiento: 2
+Área de Efecto: Nube de 15-ft. de radio
+Tirada de salvación: Ninguno
+
+Este hechizo crea una nube ondulante de llamas rugientes. Cualquiera en el área del hechizo debe abandonar la nube inmediatamente o sufrir 4-16 (4d4) puntos de daño de fuego cada asalto mientras esté en el área de efecto~
+@5	= ~Nube ardiente
+(Evocacion)
+
+Nivel: 8
+Alcance: Alcance visual del lanzador
+Duración: 1 turno 
+Tiempo de lanzamiento: 2
+Área de Efecto: Nube de 15-ft. de radio
+Tirada de salvación: 1/2
+
+Este hechizo crea una nube ondulante de llamas rugientes. Cualquiera en el área del hechizo debe abandonar la nube inmediatamente o sufrir 1-4 puntos de daño de fuego por cada nivel del lanzador cada asalto mientras esté en el área de efecto, con una Salvación contra Hechizo por la mitad.~
+
+

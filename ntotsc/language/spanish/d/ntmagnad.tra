@@ -1,0 +1,21 @@
+@0 = ~Por favor, viajeros, perdonad que os moleste pero este no es un asunto divertido.~
+@1 = ~Estoy de acuerdo. Decidnos qué es lo que os preocupa tanto.~
+@2    = ~Eso es. Acabamos de llegar a la ciudad y un montón de gente quiere nuestros autógrafos...~
+@3 = ~Sabía que probablemente esto no os interesaría, ¿pero dónde más podemos mi esposa y yo buscar ayuda?~
+@4 = ~Estaba viajando con mi esposa a Elthurel, cuando nuestra caravana fue atacada por una horda de orcos. Huimos asustados con los demás. Desafortunadamente, nuestros hijos, Falton y Vanessa, viajaban con nosotros. Para nosotros es una vergüenza, pero con la confusión del ataque perdimos la pista de nuestros hijos... Volvimos tan pronto como pudimos, pero no encontramos señales de la caravana o nuestros hijos... Uno de los guardias heridos, que encontramos cerca, nos dijo que los orcos se estaban llevando a los prisioneros y que habían estado hablando de Fealn Datoon... Ese es un nombre antiguo de las tierras al norte de aquí... El Campo de la Muerte. No sabemos como llegar allí, y eso sin contar cómo derrotar a los orcos y recuperar a nuestros hijos.~
+@5    = ~Bueno. Es una historia muy triste, pero ahora no tenemos tiempo de encargarnos de eso. Tenemos otras tareas. Adiós.~
+@6 = ~Nunca hemos estado al norte de la Puerta de Baldur pero vuestra historia nos ha llamado la atención. Nos encargaremos de ello tan pronto como sea posible.~
+@7    = ~No me podéis hacer esto. Pensadlo un poco mejor. Estaré esperando aquí.~
+@8    = ~Gracias... creo que deberiais ir a la Barba de Ulgoth. Quizás allí encontréis a alguien que sepa como llegar al Campo de la Muerte... Es una zona muy peligrosa y raramente visitada. Buena suerte. Os estaré esperando aquí.~
+/* @9 -> @10036 */
+@10   = ~Por favor, no dejéis de buscar. Tememos por nuestros hijos...~
+@11   = ~¿Habéis cambiado de opinión?... Todavía no hemos encontrado a nadie que nos quiera ayudar...~
+@12   = ~Si, nos encargaremos de ello.~
+@13   = ~No, ahora no.~
+@14 = ~Gracias. Realmente apreciamos vuestra ayuda, pero solo os podemos ofrecer a cambio este presente... Ahora debemos ir con nuestros hijos...~
+
+/* new for v2.0 */
+@15 = ~Sabemos dónde está. Buscaremos a sus hijos cuando vayamos allí....~
+@16 = ~Has salvado a nuestros hijos!~
+@17 = ~¡Oh, no!... ¡Mi familia! ¡¿Por qué has hecho esto?!~
+@18 = ~Muchas gracias. Te estaremos muy agradecidos por ayudarnos.~

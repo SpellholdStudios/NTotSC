@@ -97,6 +97,7 @@ ALWAYS
 				"polish" => "CP1250"
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
+				"spanish" => "CP1252"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup journal END
 //			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN ## END
@@ -189,6 +190,14 @@ LANGUAGE
 	~ntotsc/language/english/journal.tra~
 	~ntotsc/language/russian/setup.tra~
 	~ntotsc/language/russian/journal.tra~
+
+LANGUAGE
+	~Spanish~
+	~spanish~
+	~ntotsc/language/english/setup.tra~
+	~ntotsc/language/english/journal.tra~
+	~ntotsc/language/spanish/setup.tra~
+	~ntotsc/language/spanish/journal.tra~
 
 /*
 LANGUAGE
