@@ -1,0 +1,34 @@
+// #3131 (remplacer "Ajantis" par "<CHARNAME>")
+@0 = ~Ah, vous seriez <CHARNAME>, je présume. J'espère que votre voyage s'est déroulé sans incident ? Mes frères et moi sommes reconnaissants de votre venue, même s'il est regrettable que nous ayons besoin de vous. Le donjon est généralement fermé aux étrangers, mais les circonstances exigent dans ce cas des mesures extraordinaires. Sans doute le duc Eltan vous a-t-il parlé du problème ? Huit personnes ont disparu, dont trois au cours des deux derniers jours seulement. Aussi isolés que nous soyons, nous n’avons pas les moyens de faire face à cette situation. S'il vous plaît, faites ce que vous pouvez.~
+// #3132
+@1 = ~N'avez-vous aucune sécurité ici ? Le donjon ne peut pas être sans défense d'une certaine sorte. Je dois parler avec le capitaine de la garde.~
+// #3133
+@2 = ~Quelle est votre rôle ici ? Je ne connais même pas votre nom.~
+// #3137
+@3 = ~Où est le reste de vos camarades ? Je dois parler avec eux tous.~
+// #3134 (insérer "Eldod")
+@4 = ~Hélas, normalement nous avons un nombre important de gardes. La majorité a cependant été envoyée vers l'est, pour aider à lutter contre la vague de vols le long de la route côtière. C’est après que nos propres problèmes ont commencé. Deux de nos gardes restants sont parmi les disparus, et le capitaine lui-même n'a pas été revu depuis hier. Nous avons nommé un remplaçant à sa place, Eldod, et vous le trouverez peut-être dans les environs.~
+// #3144
+@5 = ~Cette information est appréciée et je ferai ce que je peux. Cependant, c'est toute une tâche à accomplir par moi-même.~
+// #3135
+@6 = ~Pardonnez mes manières, je ne me suis pas présenté ! Je m'appelle Satos et, malheureusement, je suis l'abbé par intérim. Non pas que je ne trouve pas d’honneur dans ce poste, bien au contraire. C'est tout simplement malheureux de savoir comment j'en suis arrivé là. Notre véritable abbé supérieur a été parmi les premiers à disparaître.~
+// #3146
+@7 = ~Vous trouverez certains de nos numéros sur le terrain, même si je crains que certains ne soient trop secoués pour quitter le donjon proprement dit. J'ai demandé à tout le monde d'être aussi utile que possible.~
+// #3148
+@8 = ~Oh ! J'avais l'intention de vous le dire mais ça m'a sorti de l'esprit. Je crains d'avoir été quelque peu dispersé depuis que cela a commencé. Le duc Eltan a anticipé votre besoin d'aide, alors il a fait en sorte qu'une guilde de mercenaires vous envoie du personnel. Un mélange étrange, certes, mais je suis certain qu'ils vous serviront bien. Tous semblent très compétents dans leur... euh... domaine. Les présentations sont de mise, je crois.~
+// #3149
+@9 = ~Euh... oui, eh bien... ensuite ?~
+// #3150
+@10 = ~Oui, eh bien, maintenant que cela est réglé, je vais vous laisser à la tâche à accomplir. Vous avez la permission d'errer où vous voulez, et tous, sauf le donjon principal, vous sont ouverts. Ce bâtiment doit rester scellé malgré tout, pour le bien des nombreux tomes précieux qu'il contient. Ce n'est pas comme si nous nous méfiions de VOUS, mais plutôt d'avoir le moins de trafic possible. J'espère que vous comprenez. Pardonnez-moi, mais j'ai des méditations à faire.~
+/* @11 -> @10060 */ 
+// #3151
+@12 = ~Devant... beaucoup d'entre eux...doit être arrêté...~
+// #3152
+@13 = ~Prenez ceci... terminez-le pour...~
+/* @14 -> @10061 */  
+// #8972
+@15 = ~Je ne pourrais pas vous dire grand-chose que je n'aie déjà fait. S'il vous plaît mon ami, aidez mes frères.~ ~Je ne pourrais pas vous dire grand-chose que je n'aie déjà fait. S'il vous plaît mon amie, aidez mes frères.~
+@16 = ~Vous vous êtes montré digne de confiance. La Citadelle reste ouverte pour vous pour toujours.~ ~Vous vous êtes montrée digne de confiance. La Citadelle reste ouverte pour vous pour toujours.~
+@17 = ~Pourquoi êtes-vous si pressés, mes amis ?~
+@18 = ~Nous avons trouvé la cause de la confusion dans votre Citadelle ! Un ogre, appelé Krotan, qui se cache à l'intérieur du mausolée, est celui qui a charmé Eldod ! Eldod a suivi ses ordres et a tué tout vos hommes ! Maintenant, nous allons nous occuper de cette canaille.~
+@19 = ~Merveilleux ! Bonne chance! J'y enverrai immédiatement toutes les personnes qui pourraient vous aider.~

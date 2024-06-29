@@ -1,0 +1,9 @@
+@0    = ~B'jour là-bas.  Je vois que Will vous a rejoint.~
+@1    = ~Avez-vous toujours le fléau de Will ?~
+@2    = ~Pouvons-nous voir vos services ?~
+@3    = ~Certainement... Mais pour retirer votre gage, vous devez payer. 1000 po plus intérêts en cas de défaut.~
+@4    = ~Hmm, peut-être plus tard.~
+@5    = ~Voilà, sortez-le.~
+@6    = ~Avec plaisir, je n'en ai pas besoin.~
+/* @7 -> @10000 */
+

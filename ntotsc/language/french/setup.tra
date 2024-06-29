@@ -1,0 +1,1378 @@
+@0    = ~Histoires du Nord de la Cote des Epees (NTotSC) pour BGT-Weidu, BG:EE et EET~
+@1    = ~Flèches empoisonnées~
+@2    = ~Ce sont des flèches normales qui ont été envenimées par un poison végétal à action rapide.
+
+STATISTIQUES:
+
+Dégâts : 1D6
+Type de dégâts : missile (perforant)
+Spécial : Poison
+Poids : 0
+Lanceur : Arc~
+@4    = ~Flèches infernales~
+@6    = ~En plus de son superbe savoir-faire, de minuscules runes de pouvoir peuvent être vues gravées sur toute la surface. Il est évident que beaucoup de temps et d'efforts ont été consacrés à sa création et, bien que cela ne soit pas apparent au début, une légère lueur bleue peut être vue émanant des runes.
+
+STATISTIQUES:
+
+Dégâts : 1D8 + 2 (+1D10 feu)
+THAC0 : +2
+Type de dégâts : Missile (perforant)
+Poids : 0
+Lanceur : Arc~
+@7    = ~Flèche porte-bonheur de Llindellyn~
+@8    = ~Peut-être que cette flèche ne fait aucune différence pour personne sauf Llindellyn - ses sentiments lui disent de toujours la retrouver.~
+/*@10   = ~Ce sont des flèches empoisonnées que Will est capable de préparer en utilisant la résine qui s'écoule de son curieux fléau. Il a appris à utiliser le poison très jeune et peut en obtenir suffisamment pour 5 flèches.
+
+STATISTIQUES:
+
+Dégâts (missile) : 1D6 + 1
+Spécial : Poison
+Poids : 0
+Lanceur : Arc~*/
+@11   = ~Flèche de translocation~
+@12   = ~Ces flèches dangereuses sont inhabituellement rares et seuls quelques spécimens peuvent être trouvés. Ils ne valent presque rien comme arme, mais peuvent devenir des artefacts extrêmement utiles pendant le combat s'ils sont utilisés stratégiquement par un archer expérimenté. Lorsque la flèche touche une cible, elle est téléportée loin du champ de bataille pour limiter le nombre d'ennemis que les guerriers doivent affronter en même temps.
+
+STATISTIQUES:
+
+Dégâts : 1D3
+THAC0 : -3 de pénalité
+Type de dégâts : missile (perforant)
+Spécial:
+Après un coup réussi, l'ennemi est transféré vers un endroit aléatoire
+Poids : 0
+Lanceur : Arc~
+@14   = ~Hache de choc~
+@16   = ~En plus de son superbe savoir-faire, de minuscules runes de pouvoir peuvent être vues gravées sur toute la surface. Il est évident que beaucoup de temps et d'efforts ont été consacrés à sa création et, bien que cela ne soit pas évident au premier abord, une légère lueur bleue peut être vue émanant des runes.
+
+STATISTIQUES:
+
+Dégâts : 1D8 + 2
+THAC0 : +2
+Spécial:
+  50 % de chances d'infliger 1D3 dégâts électriques supplémentaires
+  15 % de chances que la cible soit étourdie
+Type de dégâts : Tranchant
+Poids : 7
+Vitesse : 7
+Type de compétence: Hache
+Type: arme à une main
+Nécessite : 10 en Force
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Belluaire ~
+@18   = ~Fléau de choc~
+
+@20   = ~Le fléau est un manche en bois robuste attaché à une tige de fer, une tige en bois avec des pointes ou une boule de fer à pointes. Entre le manche et son outil se trouve soit une charnière, soit un maillon de chaîne. L’arme était à l’origine utilisée comme outil pour battre le grain. Ce fléau a été amélioré comme par magie. Des runes peuvent être vues briller sur chaque surface.
+
+STATISTIQUES:
+
+Dégâts : 1D6 + 3
+THAC0 : +2
+Spécial:
+  50 % de chances +2D3 dégâts électriques
+  10 % de chances que la cible soit étourdie
+Type de dommage : contondant
+Poids : 15
+Facteur de vitesse : 7
+Type de compétence: Fléau/Étoile du matin
+Type: arme à une main
+Nécessite : 11 en Force
+Non utilisable par :
+ Druide
+ mage
+ Voleur
+ Moine
+ Belluaire~
+
+@22   = ~Masse +3 : 'Profanateur'~
+@24   = ~C'était l'arme personnelle de Nirel, un puissant clerc dont on sait peu de choses. Cependant, l’histoire rapporte qu’il était un ignoble fanatique dont la haine envers les adeptes d’autres confessions ne connaissait presque aucune limite. On raconte qu'il gardait les têtes de ses victimes comme trophées. Il était personnellement responsable de la profanation de plus d’une centaine de temples d’autres confessions ; gagnant ainsi lui-même, ainsi que sa masse, le surnom de «Profanateur ».
+
+STATISTIQUES:
+
+Dégâts : 1D6 + 3
+THAC0 : +2
+Type de dommage : contondant
+Poids : 7
+Facteur de vitesse : 6
+Type de compétence: Masse
+Type : arme à une main
+Nécessite : 3 en Force
+Utilisable uniquement par :
+ Clercs d'alignement mauvais ~
+
+@25   = ~Fléau de combat de Will~
+@26   = ~Le fléau est un manche en bois solide attaché à une tige de fer, une tige en bois avec des pointes ou une boule de fer à pointes. Entre le manche et son outil se trouve soit une charnière, soit un maillon de chaîne. L'arme a été améliorée par magie, formant ainsi un lien entre l'arme et son porteur.
+
+STATISTIQUES:
+
+Dégâts : 1D8 + 1
+THAC0 : +1
+Spécial:
+  Lorsque Will brandit son fléau, il est capable de créer 5 billes empoisonnées.
+Type de dommage : contondant
+Poids : 10
+Facteur de vitesse : 6
+Type de compétence: Fléau/Étoile du matin
+Type : arme à une main
+Nécessite : 13 en Force
+Utilisable uniquement par :
+  Will ~
+
+@27   = ~Le fléau est un manche en bois robuste attaché à une tige de fer, une tige en bois avec des pointes, ou une boule de fer à pointes. Entre le manche et son outil se trouve soit une charnière, soit un maillon de chaîne. L'arme a été améliorée par magie, formant ainsi un lien entre l'arme et son porteur.
+
+STATISTIQUES:
+
+Dégâts : 1D8 + 3
+THAC0 : +3
+Spécial:
+  Lorsque Will brandit son fléau, il est capable de créer 5 billes empoisonnées.
+50 % de chances de ralentir la cible lors d'une attaque réussie
+  Force +2
+  PV maximum +10
+Type de dommage : contondant
+Poids : 10
+Facteur de vitesse : 6
+Type de compétence: Fléau/Étoile du matin
+Type : arme à une main
+Nécessite : 13 en Force
+Utilisable uniquement par :
+  Will ~
+@28   = ~Carreaux empoisonnés~
+@29   = ~Ce sont des carreaux normales d'arbalètes qui ont été envenimées par un poison végétal à action rapide.
+
+STATISTIQUES:
+
+Dégâts : 1D8
+Type de dégâts : missile (perforant)
+Spécial : Poison
+Poids : 0
+Lanceur : Arbalète~
+@31   = ~Bottes de protection de Nirel~
+@33   = ~C'étaient les bottes de Nirel, un puissant clerc dont on sait peu de choses.  Cependant, l’histoire rapporte qu’il était un vil fanatique dont la haine envers les adeptes d’autres confessions ne connaissait presque aucune limite. On raconte qu'il gardait les têtes de ses victimes comme trophées. Il était personnellement responsable de la profanation de plus d’une centaine de temples d’autres confessions.
+
+STATISTIQUES:
+
+Jets de sauvegarde : +1 de bonus
+Résistance magique : +5 % de bonus
+Poids : 3
+Utilisable uniquement par :
+  Clercs d'alignement maléfique ~
+@35   = ~Arc de tempête~
+@37   = ~Cette arme est sacrée pour les guerriers au service de Talos, dieu des tempêtes et de la destruction, et a été utilisée pendant des décennies entre leurs mains compétentes. Arc court composé de nombreuses couches de bois composites, L'arc de Tonnerre a été utilisé contre la myriade d'ennemis de l'église de Talos. Plus récemment, l'arc était en possession d'un chevalier des tempêtes nommé Kalassan Brevered, qui a été tué après avoir abattu un certain nombre de rôdeurs et de druides sur les îles Moonshae.
+
+STATISTIQUES:
+
+Bonus de dégâts : +1
+Bonus THAC0 : +1
+Spécial:  
+  +30% de résistance électrique
+  Attaque par tour réglée à 3
+Poids : 3
+Facteur de vitesse : 3
+Type de compétence: Arc court
+Type : arme à deux mains
+Nécessite : 5 en Force
+Non utilisable par :
+ Clerc
+ Druide
+ mage
+ Moine
+ Kensaï
+ Cavalier~
+@38   = ~Arc court d'énergie continue~
+@40   = ~Cet arc dégage de la chaleur malgré le fait qu'il semble froid dans vos mains - comme si l'arc se contentait de ses capacités.
+De tels arcs sont souvent rencontrés dans les terres froides de la région des Dix Villes, mais celui-ci est exceptionnellement dangereux.
+
+STATISTIQUES:
+
+Bonus de dégâts : +1
+Bonus THAC0 : +1
+Spécial:
+  50 % de chances d'infliger 2D3 dégâts de feu supplémentaires
+  Attaques par tour fixées à 2
+  Bonus de résistance au feu/froid : 20%
+Poids : 3
+Facteur de vitesse : 2
+Type de compétence: Arc court
+Type : arme à deux mains
+Nécessite : 6 en Force
+Non utilisable par :
+ Clerc
+ Druide
+ mage
+ Moine
+ Kensaï
+ Cavalier~
+@42   = ~Arc long composite de Flammevin~
+@44   = ~Fabriqué pendant l'âge d'or des elfes de Flammevin. Parfaitement lesté et équilibré, cet arc devient une arme particulièrement mortelle entre les mains d'un elfe, capable de percer n'importe quelle armure avec ses flèches.
+
+STATISTIQUES:
+
+Bonus de dégâts : +1 (missile)
+Bonus THAC0 : +2
+Spécial : Attaque par tour réglée à 5/2
+Poids : 3
+Facteur de vitesse : 7
+Type de compétence: Arc long
+Type : arme à deux mains
+Nécessite : 15 en Force
+Non utilisable par :
+ Clerc
+ Druide
+ Mage
+ Voleur
+ Barde
+ Moine
+ Kensaï
+ Cavalier~
+/*
+@46   = ~Gants du Maître Voleur~
+@48   = ~Gants du Maître Voleur : 'Doigts collants'
+Ces gants - recherchés par les adeptes du vol - étaient autrefois la propriété du célèbre pickpocket All An Woo-Dy.
+
+STATISTIQUES:
+
+Vol à la tire : +15%
+Crochetage des serrures : +15 %
+Poids : 1
+Non utilisable par :
+ Personnages d'alignement bon
+ Autre classe que les voleurs et les bardes~
+*/
+@50   = ~Missile de volonté empoisonné~
+@52   = ~Ce sont des billes empoisonnées que Will est capable de préparer en utilisant la résine qui coule de son fléau de curiosités. Il a appris à utiliser le poison très jeune et peut en obtenir suffisamment pour 5 billes.
+
+STATISTIQUES:
+
+Dégâts (missile) : 1D5 + 2
+THAC0 : bonus +1
+Spécial : Poison
+Poids : 0
+Lanceur : fronde~
+/*
+@54   = ~Cotte de mailles +3 : 'Armure de sage'~
+@56   = ~Fabriqué par Sage, l'un des Anciens, pour l'aider dans son voyage contre le mal.  La tradition ancienne raconte que Sage était un puissant guerrier qui sentait rarement le contact de ses ennemis au combat, mais on dit que lorsqu'il le faisait, il récupérait toujours rapidement, quelle que soit la férocité de l'attaque ou de la bataille.
+
+STATISTIQUES:
+
+Classe d'armure : 4
+Spécial:
++5% de résistance magique
+  Régénération
+Poids : 9
+Nécessite : 6 en Force
+Non utilisable par :
+  Voleur
+  Moine
+  Druide
+  Mage
+  Kensaï
+  Archer
+  Belluaire
+  Traqueur
+  Métamorphe
+  Personnage d'alignement mauvais ~
+@57   = ~Cotte de mailles elfique de sorcellerie~
+@58   = ~La Cotte de mailles elfique est réputée pour sa capacité à activer des capacités de lancement de sorts tout en étant porté. Celle-ci est enchanté pour donner plus d'intelligence à son porteur, mais pas librement. Seuls les elfes peuvent la porter.
+
+STATISTIQUES:
+
+Classe d'armure : 2
+Spécial:
+  Bonus INT +1
+  Malus CON-2
+  Sorts supplemantaire de Prêtre ou Mage de niveau 2 et 3
+Poids : 8
+Nécessite : 7 en Force
+Non utilisable par :
+  Moine
+  Druide
+  Kensaï
+  Archer
+  Belluaire
+  Traqueur
+  Changeforme
+Utilisable par :
+ Elfes et demi-elfes~
+@59   = ~Cotte de mailles +5 : 'Cotte de mailles d'Ébène'~
+@60   = ~Donné aux meilleurs guerriers et prêtres les plus puissants de la Main d'Ébène.
+
+STATISTIQUES:
+
+Classe d'armure : 2
+Spécial : 5 % de résistance magique
+Poids : 10
+Nécessite : 6 en Force
+Non utilisable par :
+ Druide
+ mage
+ Voleur
+ Moine
+ Kensaï
+ Changeforme
+ Archer
+ Belluaire
+ Kensaï ~
+*/
+@61   = ~Cotte de mailles de Flammevin~
+@62   = ~Pendant les temps de prospérité de Flammevin, des versions spéciales de l'illustre cotte de mailles elfique ont été fabriquées pour ajouter une protection contre les orages qui apparaissaient parfois dans la région.
+
+STATISTIQUES:
+
+Classe d'armure : 4 (2 contre trancher, 6 contre les armes contondantes)
+Résistance électrique : +30 %
+Poids : 15
+Nécessite : 8 en Force
+Non utilisable par :
+ Kensaï ~
+@65   = ~Cape aux couleurs scintillantes~
+@67   = ~Les origines de cette cape se sont perdues dans la nuit des temps. Cependant, pendant un certain temps, il fut en possession de Drosus, un mage non négligeable d'Eauprofonde. Drosus s'est heurté à un groupe inhabituellement important de loups des glaces lors d'une expédition en solo dans les montagnes de l'Épine du Monde, après avoir été contraint d'enfiler une cape plus lourde pour se protéger du froid. 
+À première vue, cette cape semble être d’un blanc aveuglant. Cependant, il s'agit en fait d'un composé de milliers de couleurs, qui dansent et jouent dans n’importe quelle source de lumière disponible. Ce barrage de couleurs scintillantes a tendance à distraire et à aveugler partiellement toute personne regardant directement le porteur.
+
+STATISTIQUES:
+
+La cape accorde un bonus de +2 à la classe d'armure et peut être portée en combinaison avec toute autre forme d'enchantement de protection - elle peut donc être portée comme une armure magique contrairement à une cape de protection.
+Classe d'armure : bonus de +2
+Poids : 3
+Non utilisable par : 
+  Tueur de magiciens~
+/*
+@77   = ~Piqûre mortelle~
+@79   = ~Le nom original de cette étrange lame s'est perdu dans les profondeurs obscures de la Mer des Épées. Fabriqué à partir d'os de sahuagin renforcé par magie, on pense que l'arme a été utilisée par les kuo-toa lors de rituels bizarres. Le manche est fabriqué à partir de corail enveloppé de peau de sahuagin. À une certaine époque, il appartenait à Lockhart, un éminent voleur aventurier et contrebandier de la Côte des Épées. C'est lui qui a donné à la lame son nom actuel.
+
+STATISTIQUES:
+
+Dégâts : 1D4 + 2
+THAC0 : +2
+Spécial:
+2 % de chances de lancer Doigt de la mort sur la cible
+Type de dommage : perçant
+Poids : 1
+Facteur de vitesse : 1
+Type de compétence : Dague
+Type : arme à une main
+Non utilisable par :
+  Clerc
+  Belluaire ~
+*/
+@81   = ~Fléchette à pointe empoisonnée~
+@83   = ~Cette fléchette ressemble à n'importe quelle autre fléchette, à l'exception du fait qu'elle a été imprégnée d'un puissant poison.
+
+STATISTIQUES:
+
+Dégâts : 1D3
+Spécial:  
+  Chance élevée d'empoisonner la cible pendant 10 rounds
+  Attaques par tour fixées à 4
+Type de dégâts : projectiles (perforant)
+Facteur de vitesse : 2
+Type de compétence: Armes à projectiles
+Type : arme à une main
+Utilisable par :
+  Voleur
+  Druide ~
+@85   = ~Clé du Trésor~
+@86   = ~Cette clé était en possession du Grand Duc Belt. Probablement pour une raison exceptionnelle.~
+@88   = ~La bague de la tombe~
+@89   = ~En regardant la surface brillante de l'anneau, vous pouvez voir l'image miroir d'une pièce inconnue qui est difficile à décrire à cause de l'obscurité qui l'habite. Le texte gravé sur la face intérieure de la bague dit : "Le poignard traverse un cercle de pierres, l'anneau éclaire les ténèbres".~
+@91   = ~Ce poignard rouillé semble généralement inutile dans n'importe quel combat, mais sa magie est toujours significativement présente : lorsqu'une pièce est cassée, en un clin d'œil, les dégâts sont comblés avec du nouveau matériau.~
+@92   = ~Clé du bureau
+Cette clé est dimensionnée pour s'adapter à une petite serrure, comme une armoire ou un bureau.~
+@93   = ~Vous avez reçu cette clé dans la Citadelle du Nord. Il ouvre l'entrée du mausolée.~
+@94   = ~Voici la clé de l'autel de la Citadelle du Nord , conservée par Meander.~
+@95   = ~Cette clé a été trouvée près du corps de Haeball.~
+/*
+@97   = ~Armure d'Ombre améliorée~
+@99   = ~Une armure d'ombre est une armure de cuir cloutée créée pour être utilisée par les maîtres des ombres, présents en Amn. Les maîtres des ombres appartiennent aux rangs les plus élevés de la hiérarchie des Voleurs de l'Ombre. Il s'agit d'une armure de cuir cloutée +3 qui se fond dans les ombres. Cette marque particulière a été améliorée par un grand voleur des Royaumes. Aucune mention de son nom n'est donnée, car il était sacrément bon, personne ne l'a jamais vu à moins qu'ils ne soient sur le point de partir vers l'au-delà.
+
+STATISTIQUES:
+
+Classe d'armure : 3
+Spécial: 
+– +15% en détection des pièges
+- +15% en déplacement silencieux
+- +15% en crochetage des serrures
+- +15% en vol à la tire
+Poids : 1
+Nécessite : 6 en Force
+Utilisable uniquement par :
+  Voleur (classe simple, multi et double)~
+*/
+@100  = ~Armure de Will avec cape~
+@101  = ~Taerom a confectionné une bonne armure de cuir pour Will. Vous devriez lui rendre visite à nouveau à un moment donné – il est possible que le vieux forgeron puisse améliorer encore davantage cette gemme.
+
+STATISTIQUES:
+
+Classe d'armure : 4
+Spécial:
+  Jets de sauvegarde contre Pétrification/Métamorphose: +2
+  +1 sort supplementaire de Mage pour les niveaux 1 à 4
+Poids : 15
+Utilisable uniquement par :
+  Will~
+@102  = ~Taerom a fait de son mieux sur cette armure de cuir. Désormais, l'armure de Will est devenue une protection solide.
+
+STATISTIQUES:
+
+Classe d'armure : 0
+Spécial:
+  Jets de sauvegarde contre Pétrification/Polymorphe : +3
+  Chance : +1
+  Résistance électrique : +15%
+  Résistance à l'acide : +30%
+  +1 sort supplémentaire de Mage pour les niveaux 1 à 8
+Poids : 15
+Utilisable uniquement par :
+  Will~
+/*
+@103  = ~Armure de cuir cloutée +3~
+@104  = ~Cette armure était la propriété du célèbre prince barbare des neiges, Corbus Denolx de Faucongris. On ne sait pas comment ni pourquoi il a quitté sa possession.
+
+STATISTIQUES:
+
+Classe d'armure : 5
+Poids : 8
+Nécessite : 6 en Force
+Non utilisable par :
+ Mage
+ Moine
+ Kensaï ~
+*/
+@105  = ~Armure de cuir clouté de résistance~
+@106  = ~L'armure de cuir cloutée a peu de points communs avec une armure de cuir normale. Alors que l'armure de cuir est une coque durcie, l'armure de cuir cloutée est douce et souple avec des centaines de rivets métalliques apposés. Les rivets sont si rapprochés qu’ils forment un revêtement flexible de métal dur qui empêche les attaques tranchantes et coupantes. Le support en cuir souple n'est guère plus qu'un moyen de maintenir les rivets en place.
+
+STATISTIQUES:
+
+Classe d'armure : 5
+Bonus de résistance :
+  +10% de résistance aux attaques perçantes
+  +10% de résistance aux attaques tranchantes
+  +10% de résistance au feu
+  +10% de résistance électrique
+  +2 au jets de sauvegarde contre le souffle
+Poids : 15
+Nécessite : 6 en Force
+Non utilisable par :
+ Mage
+ Kensaï ~
+/*
+@107  = ~Luth~
+@108  = ~Luth d'Hirsuhnite~
+@109  = ~Ce luth délicatement conçu est doté de cordes argentées enfilées dans un cadre en bois profondément teinté et incrusté d'or. Le savoir-faire semble exquis, parfait et presque inhumain. À tel point que même des doigts inexpérimentés jouant sur les cordes semblent toucher les plus beaux accords. Curieusement, il n’existe aucune méthode de réglage visible, comme si cela n’était pas nécessaire. Un sentiment d'admiration commence à vous envahir lorsque vous observez toutes les subtilités de ce bel instrument.~
+@110  = ~Luth de Hirsuhnite 'Le public silencieux'
+Ce luth finement travaillé est bien connu parmi les Hiphrodites d'Orient. On dit que c'est à l'origine du sommeil. D'après les rumeurs, un barde hiphrodite nommé Hirsuhnite a trouvé le chant de l'abandon complet dans le calme sanctuaire de la nuit et l'a gravé dans le luth.
+
+STATISTIQUES:
+
+Spécial : la cible devient inconsciente
+Durée : 2 tours
+Poids : 3
+Utilisable uniquement par :
+  Barde~
+*/
+@112  = ~Balai~
+@114  = ~Objet généralement utilisé dans les Royaumes, très pratique en toute occasion, qu'aucune des femmes au foyer respectées ne peut imaginer l'existence sans lui. Cet exemplaire ne semble en aucun cas différer des autres, mais il est entaché de substance grasse, sent expressément, et est équipé d'une ceinture de sécurité et d'un trou qui permet de fixer lune étrange pièce. Agit désespérément, il peut également être utilisé pour défendre quelqu'un.
+
+STATISTIQUES:
+
+Dégâts : 1D1 + 1
+Spécial : 100 % pour les coups critiques à l'impact
+Type de dommage : contondant
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence: Personnel
+Type : arme à deux mains
+Nécessite : 5 en Force
+Non utilisable par :
+  Moine ~
+/*
+@115  = ~Parchemin de Connaissance~
+@116  = ~Les parchemins comme celui-ci sont généralement fabriqués à partir de matériaux non identifiables et contiennent de grands enchantements magiques - des sorts de sorciers rares et oubliés des âges passés, des prières cléricales que la plupart ont oubliées, ou même des capacités innées. Lorsqu'ils sont activés, ils permettent à l'individu qui les invoque d'apprendre ou d'acquérir la magie imprimée sur la page.
+Ce parchemin semble contenir la capacité innée « Immobilisation des morts-vivants ».~
+@117  = ~Les parchemins comme celui-ci sont généralement fabriqués à partir de matériaux non identifiables et contiennent de grands enchantements magiques - des sorts de sorciers rares et oubliés des âges passés, des prières cléricales que la plupart ont oubliées, ou même des capacités innées. Lorsqu'ils sont activés, ils permettent à l'individu qui les invoquent d'apprendre ou d'acquérir la magie imprimée sur la page.
+Ce parchemin semble contenir la capacité innée « Fouet spirituel ». ~
+@118  = ~Les parchemins comme celui-ci sont généralement fabriqués à partir de matériaux non identifiables et contiennent de grands enchantements magiques - des sorts de sorciers rares et oubliés des âges passés, des prières cléricales que la plupart ont oubliées, ou même des capacités innées. Lorsqu'ils sont activés, ils permettent à l'individu qui les invoquent d'apprendre ou d'acquérir la magie imprimée sur la page.
+Ce parchemin semble contenir la capacité innée « Toucher du guérisseur ».~
+@120  = ~Certains prêtres aiment emporter avec eux une petite effigie de leur divinité partout où ils vont. Une telle assiduité ne peut qu’être récompensée.
+
+Spécial : permet d'apprendre le sort "Protection contre les sorts" ~
+*/
+@121  = ~Montgomery~
+@122  = ~Voici le corps de Montgomery.~
+@123  = ~Corps non identifié~
+@124  = ~Le cadavre ressemble à celui d'un mage, mais vu l'état dans lequel il se trouve, vous ne pouvez pas en être certain.~
+@125  = ~Rat mort~
+@127  = ~Ce symbole sacré finement conçu est sacré pour le dieu Helm. Le symbole représente un gant de guerre droit avec un œil fixe sur le devant. Le gantelet lui-même est fabriqué à partir du platine le plus fin, le blanc de l'œil est sculpté dans de la nacre et un saphir bleu a été utilisé pour la pupille.~
+@128  = ~Grand Livre de l'Ignorance~
+@129  = ~Lorsque vous tournez les pages du livre, vous ne voyez aucune écriture, et en même temps vous ne vous souvenez pas du but de l'ouvrir.~
+
+
+@130  = ~Fer de la mine~
+@133  = ~Parchemin de Charleston Nib
+Ce parchemin enroulé contient une courte note sur l'emplacement de certaines ruines sous le pont de Flammevin Les ruines sont verrouillées par la protection d'un mage anonyme, mais le parchemin devrait agir comme une clé avec la capacité de désactiver n'importe quel mur magique.~
+@134  = ~De nombreuses écritures illisibles sont griffonnées sur le papier, mais il est possible d'en lire quelques passages :
+
+"... enfin. Hasdar apporte toujours de bonnes nouvelles. Maintenant, les travaux sur le temple étant terminés et protégés de tout intrus par le Bois des Dents Acérées, mes frères peuvent se concentrer sur le véritable destin de la Main Noire............... ... avec le Culte de Balor................... nécessaire."
+
+"Pourquoi diable ai-je essayé de retourner dans ces ruines englouties dans le sud qui étaient les miennes ?... glissant dans la boue... maintenant je découvre qu'elle est perdue !... sans cette clé, je ne peux même pas ouvrir mon propre bureau... Aussi joli que soit l'endroit, il n'est pas sûr... Je dois y retourner pour la trouver... s'il n'y avait pas cette foutue eau... l'homme n'a pas d'autre endroit où vivre que les marécages..."
+
+"..stupides maudits orques qui deviennent fous dans le Bois des Morts... nous essayons de trouver un passage vers... mais seuls les anciens druides de notre confrérie connaissent la bonne combinaison de clés pour ouvrir la crypte et nous avons caché chaque clé... sans la...... dague et l'anneau de... ......ne jamais entrer............... dans le temple du cercle de pierre..."
+
+"......Shaella est en effet insensée..."~
+@135  = ~Message pour Yness~
+@136  = ~Ma chérie !
+Les héros à qui tu as demandé de l'aide m'ont sauvé et tué les monstres. Je pars directement à la ferme en un seul morceau, retrouve-moi là-bas. Que les dieux bénissent nos sauveurs !
+Ton Pandris~
+@137  = ~Tracea - la vraie croyante !
+
+Notre messager viendra à vous au moment opportun pour recevoir votre signe et une bénédiction après que vous ayez appelé votre Seigneur. Notre culte est très reconnaissant pour votre aide et soyez assuré que vos actes ne seront pas oubliés.
+D.~
+@141  = ~En regardant de plus près cette armure de plaques, son métal semble être dans un état incorporel, donnant à l'armure une apparence ombragée. Lorsqu'il est porté, le porteur apparaîtra aussi sombre que l'armure, offrant une protection supplémentaire contre les armes à projectiles.
+
+STATISTIQUES:
+
+Classe d'armure : 2
+Spécial : +3 CA contre les projectiles
+Poids : 20
+Nécessite : 12 en Force
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Rôdeur
+ Moine
+ Archer
+ Harceleur
+ Belluaire
+ Métamorphe
+ Barbare
+ Kensaï ~
+@142  = ~Bière en bouteille de Bentley~
+@143  = ~L'auberge de 'Brasamical' est célèbre pour une bière fabriquée par Bentley qui, malgré son prix, reste la boisson préférée de nombreux voyageurs passant par ce lieu. Cependant, les effets de sa consommation sont pour la plupart imprévisibles.~
+@144  = ~Potion de Bouclier de Feu~
+@145  = ~Ce puissant élixir activera un bouclier formé à partir des feux d'un phénix autour de celui qui l'absorbe. Les effets sont puissants mais de courte durée.
+
+STATISTIQUES:
+
+Classe d'armure : bonus de +4
+Résistance au feu : +50% de bonus
+Résistance au froid : +25 % de bonus
+Résistance aux acides : +25 % de bonus
+Résistance électrique : +25% de bonus
+Immunité aux armes non magiques
+Durée : 60 secondes
+Non utilisable par : 
+  Tueur de magiciens~
+@147  = ~L'étiquette de cette bouteille de vin indique « Marsember Rougissant – Beau Millesime » et prétend être un mélange fruité d'épices et de parfums de fleurs de rosée. Les vignobles de Marsember sont bien connus pour leurs raisins croustillants qui tirent leur saveur de l'air salin parfumé de la Mer des Étoiles Déchues.~
+@148  = ~Bouteille de vin elfique~
+@149  = ~Cette bouteille de vin elfique guérira autant qu'elle pourrait enivrer. Lors d'une fête elfique, l'un des prêtres de la Main de Seldarine s'est trop enivré et a accidentellement ajouté un tonneau à un mélange destiné aux potions de guérison.
+
+STATISTIQUES:
+
+Soigne 35 points de vie
+80 % de chances d'être ivre pendant 30 minutes~
+@151  = ~L'anneau magique de Will~
+@153  = ~Will ne veut pas dire d'où vient l'anneau, mais ses avantages sont rares et il a probablement été réalisé par un de ses amis doté de pouvoirs magiques.
+
+STATISTIQUES:
+
+Réduction des dégâts de la magie : 20%
+Utilisable uniquement par :
+  Will ~
+@154  = ~Anneau de Résistance~
+@155  = ~Un anneau est une petite bande de métal précieux utilisé comme bijou. Certains anneaux rares sont dotés d'enchantements qui confèrent diverses capacités magiques. Ces bagues sont très recherchées, notamment par les professionnels de l'aventurier.
+Sans raison apparente, cet anneau est chaud au toucher.
+
+STATISTIQUES:
+
+Bonus de classe d'armure : 1
+Bonus de résistance : 
+ +25% de résistance aux armes contondantes
+ +1 sur les jets de sauvegarde contre les sorts
+Non utilisable par : 
+  Tueur de magiciens~
+@157  = ~Robe de l'archimage maléfique~
+/*
+@158  = ~ 'Le Voile Noir de Sauron'
+Cette robe particulière des mages est le résultat de la grande habileté de Sauron dans les pouvoirs à la fois sorciers et sacerdotaux. Il offre la protection habituelle contre toutes les formes d'attaques physiques tout en augmentant la résistance magique et les jets de sauvegarde. Il donne également au porteur la capacité de créer des portes dimensionnelles et de devenir une « ombre » de lui-même normal. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement mauvais.
+
+STATISTIQUES:
+
+Classe d'armure : 5
+Résistance magique : +15 % de bonus
+Jets de sauvegarde : +1 de bonus
+Capacités spéciales:
+  Porte dimensionnelle
+  Porte d'ombre
+Poids : 2
+Utilisable uniquement par :
+ Mage (simple, jumelé et multi-classé)
+ Personnages d'alignement mauvais ~
+*/
+@159  = ~Cape du chaman orque~
+@160  = ~Les chamans orques fabriquaient souvent leurs vêtements avec des matériaux de mauvaise qualité fixés avec des parties en cuir, ce qui les rend horribles, lourds et ne constituent généralement pas le principal intérêt des aventuriers, bien qu'ils possèdent de nombreux avantages.
+
+STATISTIQUES:
+
+Bonus de classe d'armure : 2
+Résistance à l'électricité, au feu et au froid : +40%
+Malus de Charisme : -5
+Poids : 35
+Non utilisable par :
+ Personnages d'alignement bon
+ Tueur de magiciens~
+/*
+@162  = ~Petit Bouclier +2, 'Bouclier d'Action Libre'~
+@164  = ~Le porteur est immunisé contre tout ce qui, magique ou autre, affecte la mobilité de quelque manière que ce soit, même s'il peut toujours être accéléré. Attention cependant, cela protégera également le porteur des effets bénéfiques comme ceux reçus des bottes de vitesse.
+
+STATISTIQUES:
+
+Bonus de classe d'armure : 2
+Spécial : Pas de protection contre les projectiles
+Poids : 3
+Nécessite : 4 en Force
+Non utilisable par :
+ Barde
+ Druide
+ Mage 
+ Voleur
+ Moine
+ Kensaï~
+*/
+@166  = ~Bouclier de Flammevin~
+@168  = ~Gravé de runes elfiques sur sa surface, ce bouclier a été fabriqué à partir de l'un des métaux les plus résistants jamais sortis des mains des Elfes. Tout porteur de ce bouclier sera sûr que tout coup porté sur lui sera dévié.
+
+STATISTIQUES:
+
+Bonus de classe d'armure : 2
+Spécial : +1 contre les armes à projectiles
+Spécial : +1 à tous les jets de sauvegarde
+Poids : 8
+Nécessite : 15 en Force
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensaï ~
+@172  = ~Faux du Lycanthrope~
+@174  = ~Raasi'doch de Velle a passé de nombreuses lunes à travailler avec les artisans du Village Errant sur la création de cette lance de chasseur enchantée. Le ranger elfe avait besoin d'une arme pour exterminer les loups-garous qui terrorisaient les bois du Téthyr. Comme l’homme lui-même, l’arme est dépourvue d’ornementations extravagantes mais elle vole toujours droit et fidèlement. Une fois la croisade terminée, de Velle a probablement vendu son équipement à un militariste célèbre.
+
+STATISTIQUES:
+
+Dégâts : 1D6 + 2, +1D6 dégâts tranchants, +3 bonus contre les lycanthropes
+THAC0 : +2, +3 bonus contre les lycanthropes
+Type de dégâts : perçant et tranchant
+Poids : 5
+Facteur de vitesse : 2
+Type de compétence: Lance
+Type : arme à deux mains
+Nécessite : 5 en Force
+Non utilisable par :
+Clerc
+ Mage
+ Voleur
+ Moine
+ Belluaire ~
+@175  = ~Faux d'Eron~
+@176  = ~Eron le Consterné était un sorcier pessimiste avec une propension aux duels magiques. Il croyait que la seule façon de devenir fort dans cet Art était de tester ses pouvoirs contre d'autres mages. Il croyait également que les voleurs et les assassins complotaient constamment pour voler sa richesse. Pour paraître ordinaire, il portait des vêtements de pèlerin et portait un simple bâton de marche en orme. En réalité, le bâton a été enchanté par magie pour être plus puissant au combat, mais Eron a fait tout ce qu'il pouvait pour cacher ce fait.
+
+STATISTIQUES:
+
+Dégâts : 1D6 + 2
+THAC0 : +2
+Spécial : 80 % pour 1D8+2 dégâts tranchants supplémentaires
+Type de dégâts : Contondant
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence: Personnel
+Type : arme à deux mains
+Nécessite : 5 en Force
+Non utilisable par :
+ Moine ~
+/*
+@177  = ~Bâton de quête +3~
+@178  = ~Les bâtons de quête ont été créés à l'origine dans un autre royaume, mais ils ont trouvé leur chemin jusqu'à Féérune. Ils sont généralement remplis de sorts qui offrent une certaine protection comme la protection contre certains éléments, ou accorder l'entrée ou la sortie, ou accorder au porteur des connaissances simples. Ce bâton particulier lance Déblocage, Détection du mal, Soins des blessures critiques et Rappel à la vie, chacun au moins une fois par jour. De plus, il offre une protection contre le feu comme l'anneau de ce nom et augmente la résistance à la magie.
+
+STATISTIQUES:
+
+Dégâts : 1D6 + 3
+THAC0 : +3
+Spécial:
+  +40% de résistance au feu
+  +20% de résistance magique
+  Déblocage trois fois par jour
+  Détection du mal deux fois par jour
+  Soins des blessures critiques une fois par jour
+  Rappel à la vie une fois par jour
+Type de dommage : contondant
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence: Personnel
+Type : arme à deux mains
+Nécessite : 5 en Force
+Non utilisable par :
+ Guerrier
+ Paladin
+ Rôdeur
+ Voleur
+ Barde
+ Moine ~
+@179  = ~Bâton de combat +3 : 'Vampirisation'~
+@180  = ~Ce bâton finement ouvragé faisait partie des cadeaux présentés comme offrande de paix par les Nécromanciens de Perregal aux Druides d'Erreth-Akbe lorsque leur guerre de 200 ans a finalement pris fin. Les druides eux-mêmes ne l'auraient jamais utilisé, mais refuser le cadeau aurait pu suffire à briser cette paix fragile.
+
+STATISTIQUES:
+
+Dégâts : 1D6 + 3
+THAC0 : +1
+Spécial : Vampirique
+Type de dommage : contondant
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence: Personnel
+Type : arme à deux mains
+Nécessite : 5 en Force
+Non utilisable par :
+ Moine
+ Personnage d'alignement bon ou neutre ~
+@182  = ~Le Cauchemar du Troll~
+@184  = ~Cette épée a été forgée par Kid'Seroki pour combattre son ennemi de sang, les trolls. Après leur avoir volé l'Anneau des Trolls Mages, les dieux trolls envoyèrent d'innombrables groupes de trolls après Kid'Seroki pour le lui reprendre. Pour éviter cela, Kid'Seroki a forgé diverses magies dans cette épée et l'a appelée le Cauchemar du Troll.
+
+STATISTIQUES:
+
+Capacités de combat : 3 points supplémentaires de dégâts d'acide
+Dégâts : 1D10 + 1
+THAC0 : +1
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 2
+Type de compétence: Grande épée
+Type : arme à une main
+Nécessite : 4 en Force
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Belluaire ~
+@185  = ~Lame du Dragon~
+@186  = ~Cette lame a été créée par un tueur de dragon qui a perdu la vie à cause de... eh bien... son métier.
+
+STATISTIQUES:
+
+Dégâts : 1D10 + 1 
+THAC0 : +1
+Type de dégâts : tranchant
+Poids : 9
+Facteur de vitesse : 9
+Type de compétence: Grande épée
+Type : arme à une main
+Non utilisable par :
+ Druide
+ Clerc
+ mage
+ Belluaire ~
+*/
+@188  = ~Lame de flamme d'Evalt~
+@190  = ~Cette arme a été créée par les forgerons de l’ancienne cité de Myth Drannor. Cette épée, qui a été transmis de génération en génération, fait partie de la famille d'Evalt depuis des siècles. Cette lame particulière offre une résistance au feu.
+
+STATISTIQUES:
+
+Dégâts : 1D6 + 1
+THAC0 : +1
+Spécial:
+ +30% de résistance au feu
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence: Épée courte
+Type : arme à une main
+Non utilisable par :
+ Clerc
+ Druide
+ Mage ~
+/*
+@192  = ~L'épée de Morridin~
+@194  = ~Morridin a fait l'objet de nombreuses blagues à propos de son épée. Beaucoup plaisantaient en disant qu’un si petit homme ne pouvait pas manier une si grande épée. Cependant, ceux qui ont ri n’ont pas rigolé longtemps, voire plus, en raison de la précision mortelle et de l’adresse avec laquelle Morridin a manipulé sa lame.
+
+STATISTIQUES:
+
+Dégâts : 1D10 + 1
+THAC0 : +1
+Spécial : +2 dextérité
+Type de dégâts : tranchant
+Poids : 5
+Facteur de vitesse : 7
+Type de compétence : Épée à deux mains
+Type : arme à deux mains
+Nécessite : 10 en Force
+Utilisable uniquement par :
+ Barde~
+*/
+@196  = ~Épée à deux mains du général Ghotal~
+@197  = ~Cette grande épée était autrefois maniée par les mains de Ghotal, célèbre chef des hordes orques du Nord. Grâce à lui, il fut capable de faire pression instantanément sur Luskan, Targos et d'autres villes, y compris Padhiver. La renommée de l'épée était telle qu'elle dissuadait la plupart des défenseurs d'opposer une quelconque résistance organisée. Mais Ghotal est allé trop loin lorsque Targos a finalement été conquis et détruit. Les forces alliées des elfes d'Evereska et des habitants d'autres villes du nord ont tendu une embuscade au général et anéanti la plupart de ses légions. Ghotal lui-même s'est cependant échappé du champ de bataille, mais a été mortellement blessé. On n'a jamais entendu parler de lui ni l'avoir revu depuis, même si la légende orque dit qu'il existe encore aujourd'hui, en attendant l'occasion de faire à nouveau des ravages dans la campagne.
+
+STATISTIQUES:
+
+Dégâts : 1D12 + 3
+THAC0 : +3
+Type de dégâts : Tranchant
+Poids : 12
+Facteur de vitesse : 9
+Type de compétence : Épée à deux mains
+Type d'arme : arme à deux mains
+Nécessite : 13 en Force
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Belluaire ~
+/*
+@198  = ~Épée longue 'Valarius'~
+@199  = ~Fabriqué par le roi mage Varashar pour le commandant de ses chevaliers de la mort. L’épée est rapidement devenue légendaire pour sa capacité à couper presque tout.  Des légions entières fuyaient le champ de bataille à la vue de la lame légendaire.
+
+STATISTIQUES:
+
+Dégâts : 1D8+1
+THAC0 : +1
+Spécial : inflige Horreur en cas de coup réussi avec une chance de 20 %
+Type de dégâts : tranchant
+Poids : 3
+Vitesse : 3
+Type de compétence: Épée longue
+Type: arme à une main
+Nécessite : 10 en Force
+Non utilisable par :
+ Clerc
+ Mage
+ Druide
+ Belluaire ~
+@200  = ~Épée à deux mains +1 'Fierté de Durlag'~
+@201  = ~Épée à deux mains +1 : 'Fierté de Durlag'
+
+STATISTIQUES:
+
+Dégâts : 1D10 + 1
+THAC0 : bonus +1
+Type de dégâts : tranchant
+Poids : 11
+Facteur de vitesse : 9
+Type de compétence: Grande épée
+Type : arme à deux mains
+Nécessite : 13 en Force
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Belluaire ~
+@202  = ~Coup de grâce~
+@203  = ~Il s'agit d'une ancienne épée d'origine inconnue, dont on disait qu'elle se trouvait autrefois dans la tour de Durlag. Certains disent que l'épée a été fabriquée à Myth Drannor ; Pourtant, le récit le plus juste place l’épée entre les mains de Sage l’Ancien.
+
+STATISTIQUES:
+
+Dégâts : 2D0
+THAC0 : +2
+Spécial : 2D4+2 dégâts d'acide
+Type de dégâts : Tranchant
+Poids : 0
+Facteur de vitesse : 2
+Type : arme à une main
+Non utilisable par :
+ Clerc ~
+*/
+@204  = ~Le feu de Bhaal~
+@205  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Dans de nombreux cas, l’épée longue a une lame à un seul tranchant. Il n’existe pas de version unique de l’épée longue ; le design et la longueur varient d'une culture à l'autre et peuvent varier au sein d'une même culture selon l'époque. L'une des caractéristiques les plus courantes de toutes les épées longues est leur longueur, qui varie de trente-cinq pouces à quarante-sept pouces. Dans ce dernier cas, on sait que la lame occupe quarante pouces de la longueur totale. La plupart des épées longues ont une lame à double tranchant et une pointe acérée à la pointe. Malgré son extrémité pointue, cette arme est plutôt conçue pour frapper de taille que d'estoc. 
+La lame de cette épée est recouverte de toutes sortes de symboles arcaniques.
+
+STATISTIQUES:
+
+Dégâts : 1D8 + 2, +1D4 feu
+THAC0 : bonus +2
+Spécial : 10 % de chances que la cible soit étourdie
+Type de dégâts : Tranchant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence: Épée longue
+Type: arme à une main
+Nécessite : 6 en Force
+Non utilisable par :
+ Personnages d'alignement bon
+Druide
+ Clerc
+ Mage
+ Voleur
+ Belluaire ~
+@206  = ~Fouet spirituel~
+@208  = ~Toucher du guérisseur~
+@209  = ~Glyphe de garde~
+@210  = ~Garde squelette~
+@211  = ~Garde squelette (Conjuration/Invocation)
+Niveau : 7
+Portée : 20
+Durée : 4 heures
+Temps d'incantation : 5
+Zone d'effet : Spécial
+Jets de sauvegarde : Aucun
+Le lanceur de sorts invoque 2 guerriers squelettes pour combattre à ses côtés au combat.~
+@213  = ~Nuage de feu~
+@214  = ~Nuage de feu (Évocation)
+Niveau : 8
+Portée : Champ de vision du jeteur de sort 
+Durée : 4 tours +1d6 tours
+Temps d'incantation : 2
+Zone d'effet : rayon de 3 mètres
+Jets de sauvegarde : 1/2
+Ce sort produit un mince, nuage de fumée qui remplit la zone d'effet et semble initialement inoffensif. Cependant, un round plus tard, des étincelles et des flammes interviennent, infligeant 1 à 2 points de dégâts de feu par niveau au premier round. Au quatrième tour, il distribue 1 à 4 points/niveau, donc au cinquième tour, 1 à 2 points à nouveau. Le Jets de sauvegarde peut réduire les dégâts de moitié pour chaque round. Le nuage continuera à s'enflammer à intervalles réguliers d'un round pendant toute la durée du sort.~
+@215  = ~Femme de ménage~
+@216  = ~Sellanio~
+@217  = ~Haeball~
+@218  = ~Temple de Yondalla et des bons vins d'Alvanhendar~
+@219  = ~Nouveaux articles et magasins installés.~
+@220  = ~Installation de nouvelles créatures~
+@221  = ~Soldat d'élite des griffes noires~
+@222  = ~Amelka~
+@223  = ~Archandra~
+@224  = ~Frère Aschmaan~
+@226  = ~Assaia~
+@227  = ~Aurelinus~
+@229  = ~Balen~
+@230  = ~Chevalier de la tombe~
+@231  = ~Cultiste de la Main Noire~
+@232  = ~Gardien des catacombes~
+@233  = ~Brentaw~
+@234  = ~Brigand~
+@235  = ~Cholga~
+@236  = ~Chevalier Démon~
+@237  = ~La mort vous souhaite la bienvenue.~ [SHAEL_01]
+@238  = ~Ici, vous tomberez !~ [SHAEL_03]
+@239  = ~~ [SHAEL_05]
+@240  = ~~ [SHAEL_06]
+@241  = ~~ [SHAEL_04]
+@242  = ~Prophète du malheur~
+@244  = ~Teddy le Prophète du malheur~
+@245  = ~Frère Draagis~
+@246  = ~Soeur A Little~
+@247  = ~Eldod~
+@248  = ~Elka~
+@249  = ~Essila~
+@250  = ~Falton~
+@252  = ~Général Ghotal~
+@255  = ~Petite personne clerc~
+@256  = ~Frère Hasdar~
+@257  = ~Hasten~
+@258  = ~Puis-je vous aider ?~
+@259  = ~Ahh !  C'est insensé !~
+@260  = ~C'est insensé ! Nous n'avons pas besoin de nous battre !~
+@261  = ~~
+@262  = ~~
+@263  = ~J'ai peu de choses à dire. ~
+@264  = ~Vous avez entendu mes histoires.  Rien n'a changé depuis notre dernière conversation.~
+@265  = ~Laissez-moi !  Je serais seul !~
+@266  = ~Démon !!  Ce n'est qu'un enfant !  A l'aide !!~
+@267  = ~Salamandre de feu~
+@268  = ~Humbaba~
+@269  = ~Ogoor~
+@270  = ~Hobgod~
+@271  = ~Tanar'ri inférieur~
+@272  = ~Kamira~
+@273  = ~Keelor~
+@277  = ~Koldar~
+@278  = ~Krestian~
+@280  = ~Légion~
+@281  = ~Lenore~
+@302  = ~Llindellyn~
+@303  = ~Lucretia~
+@304  = ~Magnad~
+@305  = ~Mariel~
+@306  = ~Milea~
+@308  = ~Loué soit la connaissance bénie d'Oghma.~ [MONKS01]
+@309  = ~~ [MONKS05]
+@310  = ~~ [MONKS06]
+@311  = ~Nous devrions nous dépêcher, le sermon d'Atlar doit commencer dans quelques minutes.~ [MONKS02]
+@312  = ~La connaissance, utilisée à bon escient, est le plus puissant des outils.~ [MONKS03]
+@313  = ~Excusez-moi mais je suis en retard pour mes cours.~ [MONKS04]
+@314  = ~Mardoroan~
+@315  = ~Nadalin~
+@316  = ~Natalka~
+@318  = ~Les gens justes ont rarement le temps de bavarder.~ [ELFFF01]
+@319  = ~~ [ELFFF05]
+@320  = ~~ [ELFFF06]
+@321  = ~Papa~
+@322  = ~Maman~
+@324  = ~Quelle est votre histoire ?~ [GENFG14]
+@325  = ~~ [NOBLW05]
+@326  = ~~ [NOBLW06]
+@327  = ~Ordolath~
+@328  = ~Orpeho~
+@329  = ~Oupaste~
+@330  = ~Pandris~
+@331  = ~Paulia~
+@343  = ~Pouch~
+@346  = ~Reedrig~
+@347  = ~Rudier~
+@348  = ~Meandar~
+@349  = ~Kolchear~
+@351  = ~Sar'garin Ve'xelt~
+/*
+@354  = ~Y-a-t-il Quelque chose dont vous avez besoin ?~ [GENFG07]
+@355  = ~~ [FTOWN05]
+@356  = ~~ [FTOWN06]
+*/
+@369  = ~L'ami de Krestian~
+@371  = ~Araignée fantôme~
+@373  = ~Ma vie est en désordre.~ [LOTHR02]
+@374  = ~~ [LOTHR03]
+@375  = ~~ [LOTHR04]
+@376  = ~Capitaine~
+@377  = ~Tamael~
+@378  = ~Torqion~
+@379  = ~Tytus~
+@381  = ~Vanessa~
+@383  = ~Winorma~
+@384  = ~Vouivre de Feu~
+@385  = ~Yness~
+@387  = ~~ [ZOMBI03]
+@388  = ~~ [ZOMBI04]
+@389  = ~~ [ZOMBI05]
+@390  = ~~ [ZOMBI06]
+@391  = ~~ [SKELT08]
+@392  = ~~ [SKELT09]
+@393  = ~~ [ZOMBI01]
+@394  = ~~ [ZOMBI02]
+@395  = ~Will Scarlet O'Hara~
+@396  = ~Will Scarlet, à votre service !~ [WILL01]
+@397  = ~Quelqu'un a besoin d'être assassiné ?~ [WILL02]
+@398  = ~Cette vie me convient !~ [WILL04]
+@399  = ~Et maintenant ?~ [WILL05]
+@400  = ~Ce n'est pas inclus dans mes ordres.~ [WILL06]
+@401  = ~Oh, je ne peux pas.~ [WILL07]
+@402  = ~Bien, très bien !~ [WILL08]
+@403  = ~Il y a tant de choses à faire !~ [WILL10]
+@404  = ~Allez, tâtez mon fléau !~ [WILL03]
+@408  = ~Toujours en vie !~ [WILL11]
+@409  = ~À l'aventure !~ [WILL13]
+@410  = ~Devinez, qui va mourir ?~ [WILL12]
+@411  = ~Faites comme moi - achetez-vous un fléau !~ [WILL17]
+@412  = ~C'est reparti !~ [WILL18]
+@413  = ~Et c'est une bonne chose à faire.~ [WILL19]
+@414  = ~Mon fléau et moi n'attendons que vos ordres !~ [WILL20]
+@415  = ~Enfin, pas trop tôt !~ [WILL21]
+@416  = ~Sang, tripes et entrailles !~ [WILL22]
+@417  = ~Quelqu'un a-t-il besoin de moi ?~ [WILL23]
+@418  = ~Je n'ai rien contre cette idée, mais malheureusement ce n'est pas possible.~ [WILL24]
+@419  = ~Quel casse-tête !~ [WILL26]
+@420  = ~Je vais me retenir. Heureux ?~ [WILL32]
+@421  = ~Ha ! Je suis trop fort !~ [WILL34]
+@422  = ~Eh bien Viconia, si j'étais mécanicien, je pourrais laver ton moteur jour après jour.~
+@423  = ~Celui-là, nous ne le reverrons pas avant un moment.~ [WILL40]
+@424  = ~Si je retrouve celui qui a fait ça.~ [WILL50]
+@425  = ~Scarlet Will, nom de famille O'Hara, s'appelait autrefois Will Tell Helm, mais il n'aime pas ce nom et il a donc réussi à convaincre la population locale de le changer. Il vit à Beregost depuis un certain temps et vante le calme de la ville. Il vit en assez bons termes avec ses habitants, même s'il est devenu célèbre grâce à sa participation à quelques rangées. Néanmoins les habitants saluent sa présence, en raison de son extraordinaire courage, dont il a fait preuve ces derniers temps, surtout lors des affrontements avec les bandits à proximité.~
+@426  = ~Nouvelles créatures installées.~
+@427  = ~Boîtes de dialogue installées.~
+@428  = ~Installation de zones nouvelles et mises à jour.~
+@429  = ~L'entrée de cette catacombe est protégée par une magie puissante. Vous avez besoin d'une clé pour entrer.~
+@430  = ~Soyez conscient de la puissance de ce que vous trouvez ici. La porte qui ne doit pas être ouverte - le sera.~
+@431  = ~Victimes orques~
+@432  = ~Maison commune des pêcheurs. Vous regardez à l’intérieur et ne voyez rien d’intéressant.~
+@433  = ~Phare~
+@434  = ~Citadelle du Nord~
+@435  = ~Ça devait être le vin ou quelque chose comme ça. Je ne sais pas. Je ne m'en souviens pas.~
+@436  = ~Poursuivi par un ours, donc couché pour faire semblant d'être mort. Plus tard, je ne me souvenais plus comment faire semblant d'être en vie.~
+@437  = ~Retiré de la cheminée, placé dans le feu et n'avait pas d'eau.~
+@438  = ~J'avais préparé une orgie excitante, mais personne n'est venu.~
+@439  = ~Il doit y avoir un changement dans le temps, mes os me le disent.~
+@440  = ~Alors, je mens.~
+@441  = ~C'est vraiment nul. Qu'espériez-vous trouver dans les tombes ?~
+@442  = ~Méfiez-vous des loups à peau humaine.~
+@443  = ~Il n'y a rien à l'intérieur à part un cadavre en décomposition.~
+@444  = ~Ces escaliers devaient autrefois mener à d'autres pièces.~
+@445  = ~Bois aux dents acérées~
+@446  = ~Nouvelles zones installées.~
+@447  = ~Installation des scripts~
+@448  = ~Maintenant, passons au nettoyage de la zone.~
+@500  = ~Huile enflammée~ 
+@501  = ~À l'intérieur de ce pot en verre se trouve un mélange coûteux d'huile et d'autres produits chimiques.  Lorsque ce mélange est enflammé, il brûle pendant plusieurs secondes à une température très chaude.  L'huile enflammée est parfois difficile à utiliser car il faut beaucoup de temps à l'utilisateur pour la lancer correctement. Les aventuriers transportent souvent de l'huile avec eux pour faire face aux trolls dans le cas malheureux où ils seraient rencontrés.
+
+STATISTIQUES:
+
+Lorsqu'il est lancé sur une cible, le pot en verre se brise, répandant de l'huile enflammée sur tout ce qui se trouve dans un rayon de 5 pieds, causant 2 à 16 points de dégâts de feu.
+Utilisable par :
+ Tous~
+@502 = ~Côte Nord~
+
+/* nouveau pour la v2.0 */
+@503 = ~Anneau de Pilar~
+@504 = ~Bottes de Gheldehar~
+@505 = ~Haeball,
+Je vous envoie ce poignard pour le conserver. Au nom de notre dieu, nous devons empêcher que les orques mettent la main dessus. Je garderai l'anneau qui l'accompagnait. Séparés ainsi, ces deux artefacts ne serviront pas leur objectif diabolique de sitôt.
+
+D.~
+// #34932 (BGII)
+@506 = ~Aventurier~
+// #33246 (BGII)
+@507 = ~Cœur de Démon~
+// #33248 (BGII)
+@508 = ~Personne n'a dit que les cœurs de démons étaient censés être jolis, mais vous ne vous attendiez certainement pas à ce sac de laideur mou et charnu. Lourd et humide, l'organe bat toujours, et même disposé au fonds de votre inventaire, vous entendez l'affreux battement. De temps en temps, vous devez vérifier qu'il n'a pas bondi hors de votre sac.~
+// #36938 (BGII)
+@509 = ~Blême abbatu~
+// #73254 (BGII)
+@510 = ~Salamandre de feu~
+// #73272 (BGII)
+@511 = ~Archer squelette~
+// #39680 (BGII)
+@512 = ~Vampire novice~
+
+@513 = ~DSotSC pour BGT/EET détecté.~
+@514 = ~Sorts d'assistant DSotSC détectés. Ajout de références...~
+@515 = ~Composant principal DSotSC non détecté. Installation des ressources...~
+@516 = ~Cela semble être une sorte de carte. Une inscription indique « Bois aux dents acérées ». Plus à l'est et légèrement au nord, vous remarquez une marque, comme s'il s'agissait d'un lieu important.~
+// une partie de ceci provient de la ligne NTAVERY.tra @21
+@517 = ~Ce sont les notes personnelles du moine Avery. Il semblerait qu'il ait fait des recherches sur le fondateur de la citadelle, Monoach. Vous trouvez également un passage sur l'autel de Heaume de la Citadelle : « À la discrétion du fondateur de la citadelle, Monoach, nous y avons sauvegardé l'une de nos reliques - un symbole sacré de Heaume. Mais nous ne savons pas où se trouve la clé. On dit que Monoach l'a donné à ses amis de confiance, quelque part au loin, pour le garder en sécurité. Ils résident sur une île loin au nord-ouest... J'ai vraiment besoin de plus d'informations à ce sujet.'~
+// similaire à @429 avec ajout
+@518 = ~L'entrée de cette catacombe est protégée par une magie puissante. Vous avez besoin d'une clé pour y entrer. Plusieurs symboles indiquent que le sceau de ce tombeau a été formé il y a longtemps par les prêtres de Helm.~
+// #65113 (BGII)
+@519 = ~Symbole sacré de Helm~
+// #2483 (BGII)
+@520 = ~Salamandre de glace~
+// #34784 (BGII)
+@521 = ~Orque~
+// #2197 (BGII)
+@522 = ~Archer orque~
+// #2331 (BGII)
+@523 = ~Clerc orque~
+// #2329 (BGII)
+@524 = ~Mage orque~
+// #2327 (BGII)
+@525 = ~Orog~
+// #26284 (BGII)
+@526 = ~Pêcheur~
+@527 = ~DSotSC pour le composant principal BG:EE détecté.~
+@528 = ~DSotSC détecté. Ajout de références...~
+@529 = ~Ce mod n'est pas compatible avec votre jeu~
+@530 = ~Ce mod doit être installé AVANT BP-BGT Worldmap~
+@531 = ~Composant principal de ce mod (NTotSC) nécessaire~
+@532 = ~La rencontre est déjà restaurée par un autre mod.~
+@533 = ~Keelor le Nain~
+@534 = ~Flèche porte-bonheur de Llindellyn~
+@535 = ~Les chiens de chasse de Nim Furlwing~
+@536 = ~Pilar et Gheldehar~
+@537 = ~Le tourment de Svlast~
+@538 = ~Will O'Hara PNJ~
+
+@539 = ~Expérience réduite de 5000 points~
+
+/* nouveau pour la version 2.3.0 */
+
+@540 = ~Rencontres de combats~
+
+/* ajouté par Angel */
+
+@541 = ~Ceinture de Stromnos~
+@542 = ~L'enchanteur Presdon du Vaste a créé cette ceinture il y a plusieurs centaines d'années pour son garde du corps, Dendes le Tordu.  Il donna à la large ceinture le nom d'un géant des collines qui l'avait presque tué alors qu'il cherchait des composants de sort.  Dendes est mort en défendant Presdon contre des mages rivaux près d'Ordulin.
+
+STATISTIQUES:
+
+Augmente la Force de l'utilisateur à 19
+Poids : 2
+Utilisable uniquement par :
+  Combattants (simples, doubles et multiclassés)
+  Rôdeur (simple, double et multiclassé)
+  Paladins
+  Moines~
+@543 = ~Armure de plates Umber Hulk +1~
+@544 = ~Les plaques dures qui protègent les carcasses d'ombre sont raisonnablement faciles à transformer en armure humanoïde. Cette armure sombre a été façonnée en plaques de maille par les forgerons duergars.  Les nains noirs, habiles à manipuler les exosquelettes de Hulk, ont réparé et renforcé l'armure.
+
+STATISTIQUES:
+
+Classe d'armure : 2
+Poids : 40
+Nécessite : 12 en Force
+Non utilisable par :
+ Barde
+ mage
+ Voleur~
+@545 = ~Armure du Cygne Noir +2~
+@546 = ~Cette armure a été fabriquée par le forgeron nain Karador et un enchanteur elfe connu sous le nom d'Elameth des Cinq Arbres. Durant la période de coopération entre la Main de la Seldarine et le Gouffre de Dorn, de nombreux objets merveilleux ont été produits. Cette armure en faisait partie. Exceptionnellement belle et légère, l'armure était à l'origine portée par une maréchale elfe de la Main Séparée, c'est pourquoi les orques ne l'ont pas prise lorsqu'ils ont saccagé les tours. L'armure a ensuite été volée à la Main par l'elfe maléfique Maiden Ilmadia, qui l'a portée lors de sa bataille finale contre les défenseurs d'Easthaven au Gouffre inférieur de Dorn. Ce qui est arrivée à l'armure après sa défaite et comment elle a voyagé de l'épine dorsale du monde à la Côte des Épées n'est pas clair.
+
+STATISTIQUES:
+
+Classe d'armure : 1
+Poids : 20
+Charisme : +1 bonus
+Bonus de résistance :
+  +10% de résistance au feu
+  +10% de résistance au froid
+  +10% de résistance électrique
+  +10 % de résistance à l'acide
+Nécessite : 12 en Force
+Non utilisable par :
+ Barde
+ Druide 
+ Mage 
+ Voleur~
+@547 = ~Grande robe d'Ogi-Luc~
+@548 = ~Cette robe a été confectionnée dans un tissu résistant et teinte en bleu foncé, la couleur préférée de son fier propriétaire, l'archimage Ogi-Luc.  Sembien de naissance, Ogi-Luc était un homme puissant, aussi fort de corps que d'esprit.  Cependant, Ogi-Luc ne se contentait pas d'être simplement fort. Il voulait être exceptionnellement fort.  Lorsqu'il enfilait ces robes, les hommes fiers se tenaient à l'écart et les fanfarons taisaient leur langue.  Malgré toute la fierté et les prouesses d'Ogi-Luc, il fut incapable de vaincre le sorcier rouge abjurateur Nesk Vhaltim.  Nesk a pris les robes comme trophée. Ils ont ensuite été volés et vendus par un voleur audacieux.
+
+STATISTIQUES:
+
+Classe d'armure: 4
+Spécial: Force: 18/99, Constitution: +2
+Poids : 5
+Utilisable uniquement par :
+  Mage (classe unique) ~
+@549 = ~Armure de plates complètes de Ghotal +2~
+@550 = ~Cette lourde armure en mithril a été fabriquée pour le général Ghotal par des forgerons nains capturés et enchantée par les chamans de la tribu lors de rites immondes dont il vaut mieux ne pas parler.  Bien qu'il offre une excellente protection, cette armure est lourde et encombrante, nécessitant une grande force physique pour être portée.  Cela semble certainement très impressionnant.
+
+STATISTIQUES:
+
+Classe d'armure : 0
+Poids : 75
+Charisme : bonus de +2
+Dextérité : pénalité de -4
+Nécessite : 17 en Force
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+
+/* nouveau dans la v4.0.0 */
+/* Sous-composant du jeu de sons Will O'Hara */
+@551 = ~Ensemble de sons Will O'Hara~
+@552 = ~Nécessite un composant [PNJ Will O'Hara]~
+@553 = ~Will O'Hara : Installer le son du jeu en anglais~
+@554 = ~Ne pas installer les sons du jeu~
+@555 = ~Les sons manquants seront affichés dans la fenêtre de texte du jeu.~
+/* ------ */
+
+/* Les nouveautés d'Angel (révision 2021) */
+@556 = ~Robe de Roche~
+@557 = ~Cette robe de mage enchantée a des pouvoirs sur la terre et la pierre.
+
+STATISTIQUES:
+
+Immunité à la pétrification
+Peau de pierre une fois par jour
+Transmutation de la pierre en chair une fois par jour
+Poids : 4
+Utilisable uniquement par :
+Mage (simple, double et multi-classé)~
+@558 = ~Robe des Yeux~
+@559 = ~Cette robe de mage est recouverte de nombreux yeux cachés, offrant à celui qui la porte une vision panoramique. En conséquence, ils ne peuvent jamais être surpris.  Les yeux de la robe ont également une infravision et peuvent détecter des créatures invisibles.  Cependant, l'inconvénient est que le porteur est plus susceptible d'être transformé en pierre.
+
+STATISTIQUES:
+
+Jets de sauvegarde : -4 contre la pétrification
+Infravision
+Immunité contre l'attaque sournoise
+Vision véritable une fois par jour
+Poids : 4
+Utilisable uniquement par :
+Mage (simple, double et multi-classé)~
+@560 = ~Anneau du défenseur~
+@561 = ~Anneau de protection +1, +3 contre les humanoïdes : 'Anneau du défenseur'
+Cet anneau magique appartenait autrefois à un noble de la Porte de Baldur. Craignant d'être assassiné par un rival, il a payé un sorcier local pour créer cet anneau afin de le protéger des humanoïdes.  Malheureusement pour lui, son rival a décidé d'utiliser un serpent venimeux pour la tentative d'assassinat.
+
+STATISTIQUES:
+
+Classe d'armure : bonus de +1 (+3 contre les humanoïdes)
+Jets de sauvegarde : bonus de +1 (+3 contre les humanoïdes)~
+@562   = ~Armure de plaques~
+@563   = ~L'armure de plaques supprime le support du soutien de la chaîne de la cotte de mailles ainsi que de l'amure de plates complètes pour économiser du poids.  Au lieu d'une combinaison légère de rembourrage, elle est porté sous l'armure.  Le poids considérable de cette armure est réparti sur le corps du porteur, et un chevalier entraîné peut s'allonger, se lever ou sauter en selle tout en portant cette armure.
+
+STATISTIQUES:
+
+Classe d'armure : 2
+Poids : 60
+Nécessite : 14 en Force
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur~
+
+/* Défis tactiques - Angel */
+@564   = ~Defis tactiques~
+@565   = ~Démons mineurs améliorés~
+@566   = ~Quetes et rencontres~
+@567   = ~Haeball amélioré~
+@568   = ~Ghotal amélioré~
+@569   = ~Nerfs~
+@570   = ~PNJ~
+@571   = ~Réduire le nombre de capes de chaman~
+@572   = ~Supprimer les capes génériques des prêtres orques~
+@573   = ~Rendre les capes impossibles à décrocher~
+
+/* ------ */
+
+/* Lignes de texte de DSotSC (version BGT/EET de k4thos) */
+
+@1244 = ~Eau bénite~
+@1245 = ~L'eau contenue dans cette fiole a été bénie et lorsqu'elle est lancée sur n'importe quelle créature mort-vivante, elle inflige 2d8 de dégâts d'acide équivalents.~
+
+@1452 = ~Arc elfique, Fléau des gobelins~
+@1454 = ~Cet arc a été créé pour être utilisé par les elfes pour défendre leurs forêts contre les gobelins et les hobgobelins, bien qu'il n'y ait pas de capacité spéciale contre les gobelins ou les hobgobelins.
+
+STATISTIQUES:
+
+Dégâts : +2
+THAC0 : +2
+Poids : 2
+Facteur de vitesse : 3
+Type de compétence: Arc court
+Type : arme à deux mains
+Nécessite : 6 en Force
+
+Non utilisable par :
+ n'importe qui sauf les Elfes
+ Alignement mauvais ou chaotique ~
+
+@2134 = ~Fey'doch~
+
+@2293 = ~Guerrier elfe des bois~
+@2294 = ~Élite elfe des bois~
+
+
+/* --- */
+@55130 = ~Corps de Fey'Doch~
+
+/* nouveau dans la v3.2.0 */
+@55131 = ~Passer aux Pics des Nuages~
+@55132 = ~Entrée de la grotte~
+
+/* nouveau dans la v4.0.0 */
+@55133 = ~Créer moins de monstres en fonction de la difficulté du jeu~
+
+/* nouveau dans la v5.0.0 */
+// #40189 (IWD) [amélioration +1 au lieu de +3]
+@55134 = ~Armure de plates d'ombre +1~
+@55135 = ~Une bougie est une mèche inflammable noyée dans de la cire, ou une autre substance solide inflammable telle que le suif. Les bougies sont une source de lumière courante.
+
+STATISTIQUES:
+
+Poids : 1~
+@55136 = ~C'est le corps d'un rat mort. On dirait que ce rat fréquentait souvent les égouts, car son odeur est fétide.
+
+STATISTIQUES:
+
+Poids : 3~
+@55137 = ~Fer de bonne qualité provenant de la mine.
+
+STATISTIQUES:
+
+Poids : 1~
+
+// Sons de Will O'Hara provenant de .tp2
+@55138 = ~~ [will03a]
+@55139 = ~~ [will35]
+@55140 = ~~ [will39]

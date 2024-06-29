@@ -1,0 +1,13 @@
+// #5078
+@0    = ~S'il vous plaît, chers voyageurs, laissez-moi m'occuper de la muse et des mouettes. Elles  apaisent même les âmes les plus courageuses.~
+// #15478
+@1    = ~Les mouettes sont encore plus belles que les vents sur lesquels elles chevauchent, n'est-ce pas ? J'en serai une un jour, tu sais. J'en ai envie plus que tout.~
+// #15792
+/* @2 -> @10044 */ 
+// #15480
+@3    = ~Vous êtes plus gentil que vous ne le saurez jamais. Tenez, prenez cette baguette éclair en guise de petit témoignage de ma gratitude. Je n'en aurai pas besoin là où je vais.~ ~Vous êtes plus gentille que vous ne le saurez jamais. Tenez, prenez cette baguette éclair en guise de petit témoignage de ma gratitude. Je n'en aurai pas besoin là où je vais.~
+/* @4 -> @10045 */ 
+// #15484
+@5    = ~Vous connaissez peu la sagesse et encore moins la beauté.~
+// #15485
+@6    = ~Restez et observez les mouettes pendant un moment, si vous voulez. Ce monde est patient.~

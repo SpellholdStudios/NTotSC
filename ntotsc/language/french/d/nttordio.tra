@@ -1,0 +1,27 @@
+@0    = ~ Alors quelqu'un a enfin trouvé le lieu de mon tourment. Bienvenue, qui que vous soyez. Malheureusement je ne peux pas vous voir, mais les bruits de mes compagnons souffrants peuvent être entendus dans toute la cellule... Qu'à cela ne tienne. Je ne pense pas qu'ils souffriront plus longtemps...~
+@1    = ~Je suis <CHARNAME> et votre - comme vous l'appelez - « lieu » est le discours de toute la ville de Beregost. Pourquoi hantez-vous ici ?~
+@2    = ~Que faites-vous... Que faites-vous tous ?~
+@3    = ~J'en suis un. Mais je suis... Oui, trois... Toucher, entendre et sentir. Nous sommes trois. C'est ma punition. Mon châtiment pour la mort... châtiment... Mais je ne voulais rien d'autre que détruire la perversité. Mais le mal est plus fort... Et maintenant je suis l'un des maléfiques... l'un d'eux...~
+@4    = ~Pouvez-vous être plus précis ?~
+@5    = ~Et si j'ai bien compris, vous aimeriez qu'on vous aide ?~
+@6    = ~Je suis un mort-vivant... un fantôme... puissant mais malheureusement peu disposé à causer des dégâts en surface... Je ne sais pas si c'est ma sagesse qui m'a sauvé l'esprit ou juste une autre partie de ma punition... la vengeance.~
+@7    = ~Y a-t-il un moyen de soulager vos souffrances ?~
+@8    = ~Un chemin... Aide... C'est toujours le cas. Vous n'aviez pas peur d'entrer dans cette grotte... vous n'avez pas sombré dans la folie... Mes tortionnaires n'avaient pas prévu cela... Il y a une épée... Une épée de collection d'idées de vampire pour une vengeance... Épée vampirique... Si vous pouviez la posséder et l'apporter ici ainsi que de l'eau bénite... Je m'en irai... Partirai... Enfin...~
+@9    = ~Je vais vous aider. Arrêtez simplement de hanter...~
+@10   = ~Juste comme ça ? Où puis-je trouver cette épée ? Et avez-vous quelque chose en échange pour moi ?~
+@11   = ~Euh, je ne pense même pas à faire ça pour vous. Peut-être que je devrais juste vous tuer ?~
+@12   = ~Je ne sais pas... Je n'essaie même pas de deviner... Mais il existe... Je l'ai même utilisé... Quand était-ce... ? Et vous trouverez des objets utiles dans ma chambre...~
+@13   = ~Nous verrons ce que nous pouvons faire.~
+@14   = ~Ce sera très difficile, mais c'est une sorte de sauvetage après tout... Vous voulez essayer ?~
+@15   = ~Pourquoi pas... Préparez-vous !~
+@16   = ~Aaah...uuh... Peut-être la prochaine fois ?~
+@17   = ~Tout ce que vous voulez... Aidez-moi ou tuez-moi...~
+/* @18 -> @10071 */
+@19   = ~Vous êtes de retour ? Mais je ne sens pas le pouvoir des objets... Ils sont nécessaires...~
+@20   = ~Ou tu venez ici pour me tuer...? Et vous ?~
+@21   = ~Non, je ne suis là que pour un moment... Adieu !~
+@22   = ~Oh oui. Il est temps de vous défier, fantôme en trois personnes...~
+@23   = ~Je sens que vous avez ce que j'ai demandé... Torquion sera enfin libre... Attendez une minute...~
+/* @24 -> @10072 */  
+@25   = ~Vous avez l'épée... Mais je ne peux pas partir sans l'eau bénite...~
+@26   = ~Vous avez l'eau bénite !... Mais vous n'avez pas l'épée... Mon épée est vraiment nécessaire...~

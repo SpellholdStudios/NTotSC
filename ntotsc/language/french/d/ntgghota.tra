@@ -1,0 +1,8 @@
+@0    = ~Imbéciles ! Sans mon épée, je ne pourrais de toute façon pas quitter la crypte... Piégé et abattu...
+Mais vous - ignorants - vous me libérez maintenant... Le moment de rassembler mes forces et de rendre vengeance arrive enfin à tous ceux qui osent appeler mon nom ! ATTAQUEZ, MES MONSTRES !~
+/* @1 -> @10012 */   
+@2    = ~Bienvenue, les maudits ! Êtes-vous venu me libérer de cette vilaine crypte ? La compagnie des squelettes et des araignées peut effectivement ennuyer... pendant tant d'années... Mais... Où est mon épée ?... je ne peux pas la sentir... De cette façon... Vous MOUREZ !~
+/* @3 -> @10013 */   
+@4 = ~Vous venez de donner au Général Ghotal la possibilité de s'échapper de sa tombe, et font des ravages dans les campagnes environnantes. J'espère que vous avez la force, le courage et la capacité de combat pour l'arrêter !~
+/* new for v2.1.0 */
+@5 = ~Imbéciles ! Vous ne me vaincrez pas si facilement. Trouvez-moi à l'intérieur, si vous l'osez !~

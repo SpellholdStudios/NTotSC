@@ -1,0 +1,10 @@
+
+@NT_783001  = "Côte###du###Nord"
+@NT_783002  = "Champs###des###morts"
+@NT_783003  = "Bois###du###Nord"
+@NT_783004  = "Bois###des###morts"
+@NT_783005  = "Citadelle###du###Nord"
+@NT_783006  = "Temple###de###la###Main###Noire"
+
+#BGEE: 22853
+@NT_783010  = "Barbe###d'Ulgoth"

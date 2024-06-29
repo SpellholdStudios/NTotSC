@@ -1,0 +1,374 @@
+//@7 de bart5.tra
+@10000 = ~Will O'Hara
+
+L'arme préférée de Will est de nouveau entre ses mains. J'espère qu'il pourra la manier correctement.~
+// @5 de Charles.tra
+@10001 = ~Donjon protégé sous le pont de Flammevin
+
+Charleston Nib, que nous avons sauvé après que ses terrassiers soient devenus fous dans la crypte de Kozah, nous a proposé une quête supplémentaire. Il y a une entrée protégée sur le pont Flammevin menant à un nouveau donjon. Cependant, des « mauvais esprits » habitent à l’intérieur et il est incapable de les explorer. Il nous a demandé de les nettoyer pour lui.~
+// @8 de lobar.tra
+@10002 = ~Le Grand Livre de l'Ignorance
+
+Lobar nous a dirigé vers la Sirène Rougissante dans notre tâche de trouver le Livre magique de l'Ignorance. Nous devons retrouver Oupaste, le médiateur de Lobar, qui connaît le destinataire du livre.~
+// @1 de NT#DELTA.tra
+@10003 = ~Mystère à la Citadelle du Nord
+
+Le duc Eltan m'a demandé de me rendre à la Citadelle du Nord, au nord-est de Baldur's Gate. Il semble que des gens disparaissent de là-bas. Il veut que je découvre ce qui se passe réellement...~
+// @15 de NTARCHAN.tra
+@10004  = ~L'île des sirènes
+
+Mince. J'aurai rendez-vous avec Archandra si je peux trouver une bouteille de vin... Où puis-je l'obtenir ?~
+// @24 de NTAVERY.tra 
+@10005  = ~Le Symbole de Helm
+
+Avery nous a révélé l'histoire de Monoach, le fondateur de cette place forte. Dans l'autel de Helm se trouve le symbole de Helm. Mais personne ne sait à quoi il peut servir. La rumeur dit que la clé a été confiée à des amis de confiance qui résident sur une île éloignée au nord-ouest pour la garde en lieu sûr.~
+// @1 de NTPBWATC.tra 
+@10006 = ~Immédiatement après être entrés dans les catacombes, nous avons été arrêtés par un chevalier fantôme. Il n'a rien expliqué mais a attaqué furieusement...~
+// @6 de NTELDOD.tra
+@10007    = ~Mystère à la Citadelle du Nord 
+
+Finalement, nous avons réussi à parler à Eldod, le capitaine des gardes de la Citadelle du Nord. Il s'est comporté de manière assez disgracieuse. C'est vraiment suspect...~
+// @10 de NTELDOD.tra
+@10008    = ~Mystère à la Citadelle du Nord 
+
+Le capitaine de la garde de la Citadelle du Nord était furieux de nos visites répétitives... et il est parti rapidement...~
+@10009    = ~Mystère à la Citadelle du Nord
+
+Le capitaine de garde possédé de la Citadelle du Nord, enfin libéré de l'emprise du sortilège, a réussi à nous dire quelle puissance se cache derrière toutes ces disparitions. C'est Krotan - l'ogre, qui se prépare à capturer la Citadelle dans le sous-sol du mausolée derrière la Citadelle.~
+@10010    = ~Mystère à la Citadelle du Nord~
+// @7 de NTESSILA.tra
+@10011    = ~L'île des sirènes
+
+La sirène appelée Essila a besoin d'un remède car elle se sent malade... Est-ce la tête ou le doigt ? Et peut-être qu'elle dit seulement la vérité ?~
+//@1 de NTGGOTHA.tra
+@10012 = ~Les Champs des Morts
+
+Tout ça pour ça, nous sommes finalement entrés dans la crypte du chef respecté des orques... Il a pris son épée et lui et ses troupes nous ont attaqués... une expérience dramatique...~
+//@3 de NTGGOTHA.tra
+@10013    = ~Les Champs des Morts
+
+Lorsque nous sommes finalement entrés dans la crypte si respectée des orques, nous avons été arrêtés par Ghotal lui-même et ses troupes... une expérience dramatique...~
+//@2 de NTGHELDE.tra 
+//#15797
+@10014    = ~Pilar et Gheldehar
+
+Aujourd'hui, je suis tombé sur un petit gnome crasseux appelé Gheldehar dans une ruelle. Il affirme que Pilar, une vieille « amie » séjournant actuellement à l'auberge de Brasamical, lui a volé ses bottes et il aimerait les récupérer. Comme Gheldehar ne semblait pas se soucier de la façon dont je pourrais les acquérir, je soupçonne que son utilisation du terme « amie » n'était guère plus qu'une façade.~ ~Aujourd'hui, je suis tombée sur un petit gnome crasseux appelé Gheldehar dans une ruelle. Il affirme que Pilar, une vieille « amie » séjournant actuellement à l'auberge de Brasamical, lui a volé ses bottes et il aimerait les récupérer. Comme Gheldehar ne semblait pas se soucier de la façon dont je pourrais les acquérir, je soupçonne que son utilisation du terme « amie » n'était guère plus qu'une façade.~
+//@1 de NTGUARNC.tra
+@10015    = ~Mystère à la Citadelle du Nord
+
+Nous n’avons pas reçu un accueil chaleureux lorsque nous sommes entrés dans la Citadelle du Nord.~
+//@2 de NTHAEBAL.tra 
+@10016 = ~Haeball, un mage vivant dans les Bois de Lars a quelques objets de choix à vendre.~
+//@7 de NTHAEBAL.tra 
+@10017    = ~Le Culte de la Main Noire
+
+Bien bien...! Nous rendons une visite amicale à Haeball et nous rencontrons des armes et de la magie noire... Que pourrait bien cacher cet Haeball ? Nous devons fouiller minutieusement sa tour.~
+//@19 de NTHAEBAL.tra 
+@10018    = ~Le Grand Livre de l'Ignorance
+
+Le mage Haeball, qui vit dans la tour de Bois de Lars, au sud-est de Brasamical, nous a envoyé avec pour tâche d'obtenir le Grand Livre de l'Ignorance ainsi qu'un arc magique possédé par un elfe qui vit quelque part dans le nord. Si nous avons de la chance, nous les retrouverons tous les deux et gagnerons une bonne somme d'argent...~
+//@41 de NTHAEBAL.tra 
+@10019    = ~Le Grand Livre de l'Ignorance
+
+Le mage Haeball, qui vit dans la tour de Bois de Lars, au sud-est de Brasamical, nous a envoyé avec pour mission d'obtenir un arc magique possédé par un elfe qui vit quelque part au nord. Si nous avons de la chance, nous le trouverons et gagnerons une bonne somme d'argent...~
+//@27 de NTHAEBAL.tra 
+@10020    = ~Le Culte de la Main Noire
+
+Nous qui nous sommes donné tant de mal ! Nous avons réduit nos chaussures en lambeaux et au lieu de la récompense promise par Haeball, il a essayé de nous tuer ! Je ne sais pas pourquoi, mais j'ai le sentiment que Haeball n'est pas le dernier ni l'unique maillon d'une plus grande chaîne...~
+//@16 de NTHASDAR.tra  
+@10021    = ~Le Grand Livre de l'Ignorance
+
+Un homme nommé Hasdar affirme que le livre existe et que Lobar de la Lanterne Basse l'a désormais. Il est prêt à me donner 10 000 pièces d'or pour cela !~
+//@34 de NTHASDAR.tra  
+@10022    = ~Le Grand Livre de l'Ignorance
+
+J'ai rendu le livre magique à Hasdar, juste pour découvrir qu'il avait l'intention de me tuer. J'aurais dû m'y attendre.  Malheureusement, Je n'ai jamais reçu mon argent. Si jamais je le revois, les choses seront différentes.~
+@10023    = ~L'île des sirènes
+
+Nous avons quitté l'île des sirènes amicales, probablement pour ne jamais y revenir.~
+//@3 de NTHUMBAB.tra 
+@10024    = ~Problème sur la côte nord
+
+Les pêcheurs d'un village de la côte Nord nous ont demandé une faveur et nous sommes "passés" dans une grotte volcanique habitée par des salamandres de feu ! Nous avons été interpellés à l'entrée par leur sentinelle Humbaba, nous avons donc dû l'anéantir.~
+//@5 de NTHUMBAB.tra 
+@10025    = ~Problème sur la côte nord
+
+Sur la côte nord, nous avons rencontré un groupe de salamandres de feu habitant les grottes volcaniques et terrorisant les pêcheurs locaux.~
+//@11 de NTHUMBAB.tra 
+@10026    = ~Problème sur la côte nord
+
+La rencontre avec les Salamandres de Feu s'est révélée très dangereuse et nous avons dû nous retirer tactiquement pour l'instant...~
+//@1 de NTKEELOR.tra #15737
+@10027    = ~Keelor le Nain
+
+Après avoir ramené Keelor ??à la conscience, le nain battu m'a informé qu'il y avait des gnolls dans la région. Comme l'état de Keelor ??me l'a clairement montré, ils deviennent une menace toujours croissante.~
+//@3 de NTKEELOR.tra #15738
+@10028    = ~Keelor le Nain
+
+Après avoir ramené Keelor ??à la conscience, le nain battu m'a informé de la présence de gnolls dans les environs. Comme l'état de Keelor ??me l'a clairement montré, ils deviennent une menace toujours croissante. Je ferais mieux de lui parler la prochaine fois que je passerai par Beregost car je soupçonne qu'il souffrait plus qu'il n'a choisi de l'admettre.~
+//@5 de NTKEELOR.tra #15739
+@10029    = ~Keelor le Nain
+
+Après avoir ramené Keelor ??à la conscience, le nain battu m'a informé que les gnolls avaient accru leur présence dans la région. Comme l'état de Keelor ??me l'a clairement montré, ils représentent une menace croissante. Dans un geste d'une gentillesse inattendue, il a également offert les services de guérison de sa sœur Nasha, un clerc dans le quartier sud de Baldur's Gate, si jamais moi ou mon groupe en avions besoin.~
+//@6 de NTKOLDAR.tra 
+@10030    = ~Les Champs des Morts
+
+Au nord de la Porte de Baldur, dans les Champs des Morts, nous avons rencontré le ranger solitaire, Koldar, qui nous a mis en garde contre l'apparition d'orques dans cette zone plus souvent que d'habitude. Il semblerait qu’ils tentent de résoudre le mystère de l’ancien sanctuaire orque construit dans les bois.~
+// @10 de NTKRESTI.tra
+@10031    = ~L'île des sirènes
+
+Il y a un autre elfe de l'équipage de Balduran sur "l'Île Paradisiaque". Mais il semble qu'il aime le climat local, et ses "petites amies" sont les plus importantes pour lui maintenant...~
+//@6 de NTKROTAN.tra 
+@10032    = ~Mystère à la Citadelle du Nord
+
+Nous avons rencontré Krotan à l'intérieur du mausolée. Il s'apprêtait à prendre les rênes de la Citadelle. Les gardes et nos "partisans" se sont rangés du côté de l'ennemi et la bataille a commencé... Finalement, Krotan et ses "partisans" ont été vaincus.~
+//@2 de NTLENORE.tra 
+@10033    = ~Lenore et Montgomery
+
+A la Citadelle du Nord nous avons rencontré Lénore qui supporte mal ces disparitions. Elle se soucie le plus de Montgomery qui fait partie des perdus. Nous devrions le chercher et peut-être parviendrons-nous à apaiser la douleur de Lenore.~
+//@2 de NTLLINDE.tra #15731
+@10034    = ~Flèche porte-bonheur de Llindellyn?
+
+Mais qui suis-je, un aventurier sans envergure arpentant la forêt en quête de la flèche porte bonheur d'un parfait inconnu. Je veux dire, Llindellyn est plutôt sympa mais... Ne suis-je pas censé être ailleurs, à occire des tarrasques ou je ne sais quoi d'autre ?~ ~Mais qui suis-je, une aventurière sans envergure arpentant la forêt en quête de la flèche porte bonheur d'un parfait inconnu. Je veux dire, Llindellyn est plutôt sympa mais... Ne suis-je pas censée être ailleurs, à occire des tarrasques ou je ne sais quoi d'autre ?~
+//@11 de NTLUCRET.tra 
+@10035    = ~L'île des sirènes
+
+Lucretia est prête à passer du bon temps avec moi... Mais elle veut des bijoux en échange... Les femmes ne changeront jamais...~
+//@3 de NTMAGDAD.tra (divisé en deux: @10036 et @10106)
+@10036    = ~Sauver les enfants de Magnad et Winorma 
+
+À la Porte de Baldur, nous avons rencontré Magnad et Winorma qui ont perdu leurs enfants lors de leur voyage vers Elthurel après que leur caravane ait été attaquée par un groupe d'orques. Magnad soupçonne que les orques ont emmené leurs enfants dans les Champs des Morts, situés quelque part au nord de la Porte de Baldur.~
+//@18 de NTMEANDA.tra (sdivisé en deux avec @10087)
+@10037    = ~Le Culte de la Main Noire
+
+Meander, le chef des Salamandres de Glace exige la destruction du Culte de la Main Noire et la mort de son chef. Maintenant, si seulement nous savions comment trouver la secte, nous pourrions peut-être faire des progrès. Meander a suggéré que nous cherchions des réponses à la Barbe d'Ulgoth ainsi que les Champs des Morts.~
+//@10 in NTMILEA.tra 
+@10038    = ~L'île des sirènes
+
+La sirène trés sympathique Milea, vivant sur l'île magique, aime avoir des exigences malgré ce qu'elle dit... Et c'est une île paradisiaque !?~
+//@2 de NTNADALI.tra 
+@10039    = ~Nadalin le pêcheur
+
+À la Porte de Baldur, nous avons rencontré un sympathique pêcheur, Nadalin. Il semble que des choses très étranges se produisent dans le nord du village où il vivait. Il affirme que les salamandres de feu ont attaqué son village et que désormais plus personne ne peut pêcher dans la région. Je dois bien examiner le problème quand j'arriverai là-haut.~
+//@5 de NTNADALI.tra (contenu ajouté)
+@10040   = ~Nadalin le pêcheur  
+
+Nous avons dit à Nadalin, qui est pêcheur et marin, que nous avions détruit les salamandres de feu et les sirènes qui ravageaient son village. Il peut désormais retourner dans son pays natal. Il a affirmé qu'il serait prêt à nous emmener dans son bateau, si nous en avions besoin.~
+@10041   = ~Problème sur la côte nord~
+//@1 de NTNIMFUR.tra #15715
+@10042    = ~Les chiens de chasse de Nim Furlwing
+
+Je me sens plus un idiot qu’un robuste aventurier aujourd’hui. Il semblerait que je sois arrivé trop tard et que j'ai fait trop peu pour sauver les excellents chiens de chasse d'un certain Nim Furlwing dans le Bois aux Dents Acérées.~ ~Je me sens plus une idiote qu’une robuste aventurière aujourd’hui. Il semblerait que je sois arrivée trop tard et que j'ai fait trop peu pour sauver les excellents chiens de chasse d'un certain Nim Furlwing dans le Bois aux Dents Acérées.~
+//@4 de NTNIMFUR.tra
+@10043   = ~Les chiens de chasse de Nim Furlwing
+
+Le bois aux dents acérées, en effet ! Aujourd'hui, j'ai sauvé les chiens de race pure de Nim Furlwing des terribles loups et je l'admets, j'ai encore un peu mal à cause de cette tentative.~
+// @2 de NTOLIVIA.tra #15792
+@10044   = ~Olivia et les mouettes
+
+La druide Olivia, assise au bord de la mer, tisse ses mots comme on tisse un sort. Elle aspire à devenir une mouette, un jour, et à voler au milieu d'eux. C'est un noble rêve et, si je peux l'accorder, je le ferai sûrement, ne serait-ce que pour observer la beauté de son vol...~
+// @4 de NTOLIVIA.tra #15792
+@10045   = ~Olivia et les mouettes
+
+Nous avons trouvé le moyen de réaliser les rêves d'Olivia la druide. Vous pouvez imaginer à quel point nous avons été surpris lorsque nous avons réalisé sa vraie nature...~
+@10046   = ~Olivia et les mouettes~
+@10047    = ~Les chiens de chasse de Nim Furlwing~
+//@10 de NTORDOL.tra
+@10048   = ~La bougie d'Ordolath
+
+Un homme étrange, Ordolath, que nous avons rencontré dans le désert à l'ouest de Nashkel nous a offert 2000 po et un objet précieux pour lui ramener sa bougie dans sa maison à la Porte de Baldur. Il l'a laissé chez lui dans le quartier Nord, une maison blanche derrière une tour bleue.~
+//@20 de NTORDOL.tra
+@10049   = ~La bougie d'Ordolath
+
+Nous avons apporté à Ordolath la bougie de sa maison à la Porte de Baldur, et fidèle à sa parole, avant de partir, il nous a donné une belle baguette de sa collection. Malheureusement, il semble qu'il ait oublié qu'il avait promis de nous payer également 2 000 GP pour nos ennuis. Nous devrons garder un œil sur lui à l'avenir et lui rappeler cela si jamais nous le croisons à nouveau...~
+//@22 de NTORDOL.tra
+@10050   = ~La bougie d'Ordolath
+
+Nous lui avons apporté la bougie d'Ordolath, il nous a donné notre récompense et a disparu dans les brumes. Il semble qu’à peine on apprend à connaître quelqu’un qu’il disparaît pour toujours. C'est triste!...~
+@10051   = ~La bougie d'Ordolath~
+//@13 de NTOUPAST.tra (contenu ajouté) 
+@10052   = ~Le Grand Livre de l'Ignorance
+
+Oupaste n'a pas été très utile, mais il a dit que le sorcier à qui il avait vendu le livre vivait dans les Pics nuageux, au sud de la forêt des feuilles écarlates. J'y suis déjà allé mais je suppose que je vais devoir revenir et chercher un moyen d'accéder à un passage.~ ~Oupaste n'a pas été très utile, mais il a dit que le sorcier à qui il avait vendu le livre vivait dans les Pics nuageux, au sud de la forêt des feuilles écarlates. J'y suis déjà allée mais je suppose que je vais devoir revenir et chercher un moyen d'accéder à un passage.~
+//@6 de NTPANDRI.tra (divisé en plusieurs: @10053, @10097, @10098)
+@10053  = ~Sauver Pandris des Orques
+
+Nous avons sauvé Pandris, le mari d'Yness des orques dans les Champs des Morts. Il nous a donné une lettre pour sa femme. Je ne suis pas seulement celui qui sauve la vie, maintenant, je suis aussi le messager qui apporte la bonne nouvelle !~ ~Nous avons sauvé Pandris, le mari d'Yness des orques dans les Champs des Morts. Il nous a donné une lettre pour sa femme. Je ne suis pas seulement celle qui sauve la vie, maintenant, je suis aussi la messagère qui apporte la bonne nouvelle !~
+//@7 de NTPAULIA.tra 
+@10054  = ~L'île des sirènes
+
+Une sirine appelée Paulia aime les raisins... Mais qui n'aime pas, s'ils sont frais et sucrés ?~
+//@2 de NTPILAR.tra 
+@10055   = ~Pilar et Gheldehar
+
+Autour d'une bière mousseuse à l'auberge de Brasamical, Pilar la demi-elfe m'a prévenu de Gheldehar, un vieux clerc gnome à la Porte de Baldur. Il a encore une vieille bague à elle et, si jamais je pouvais la lui rendre, elle a promis que le voyage en vaudrait la peine.~
+@10056  = ~Pilar et Gheldehar~
+//@5 de NTPRIHEL.tra 
+@10057  = ~L'autel verrouillé de Helm
+
+Il y a un autel verrouillé dans la citadelle. C'est intéressant... On dit qu'Avery en sait quelque chose. Nous devons lui demander si nous avons une chance...~
+//@7 de NTREDEDG.dlg #7120
+@10058 = ~La Guilde des Voleurs a eu beaucoup de problèmes depuis qu'Angelo est devenu commandant du Poing Enflammé.~
+//@1 de NTREEDRI.dlg 
+@10059    = ~Le Culte de la Main Noire
+
+Nous avons rencontré un moine dans l'une des grottes près du camp orque des Champs des Morts. Les orques voulaient apparemment le martyriser. Il était si reconnaissant qu'il a négligé de nous récompenser et s'est enfui rapidement pour son importante mission à la Barbe d'Ulgoth.. Intéressant que les orques dérangent un simple moine. Cela nécessitera une enquête plus approfondie lorsque nous reviendrons à la Barbe d'Ulgoth.~
+//@11 de NTSATOS.dlg 
+@10060   = ~Mystère à la Citadelle du Nord
+
+Il y a un nouvel abbé dans la Citadelle du Nord après la disparition de son prédécesseur et de sept autres personnes. Il s'est avéré qu'un groupe de trois personnes de la Porte de Baldur est également venu ici ; ils étaient censés nous aider dans l'enquête, mais on dirait qu'ils ont leurs propres plans...~
+//@14 de NTSATOS.dlg 
+@10061   = ~Mystère à la Citadelle du Nord
+
+L'abbé Satos a donc également été tué avant que nous parvenions à arrêter Krotan. Satos nous a donné la clé du mausolée. C'est l'heure de la confrontation.~
+//@33 de NTSHAELL.dlg 
+@10062   = ~Le Grand Livre de l'Ignorance
+
+Shaella, une prêtresse très intéressante de Leira, m'a envoyé en pèlerinage à Château-Suif, où se trouve le Grand Livre de l'Ignorance. Lire ses pages, voire même le toucher, confère à une personne l'ignorance qu'elle seule peut accorder. Je lui reparlerai une fois que je l'aurai trouvé.~
+//@45 de NTSHAELL.dlg 
+@10063   = ~Le Grand Livre de l'Ignorance
+
+Shaella, ou plutôt Elnaedra maintenant, dit que j'ai trouvé le livre même si je ne l'ai pas trouvé. Qu'est-ce que ça veut dire ?~
+//@3 de NTSVLAST.dlg // #15713 
+@10064 = ~Le tourment de Svlast
+
+J'ai été témoin de tristes événements dans les ruines de Flammevin. Un ex-paladin du nom de Svlast est pourchassé par l'esprit de son frère d'armes, qu'il a injustement assassiné. Je n'ai jamais vu une âme plus abattue et plus repentante que le pauvre Svlast. Il nous a supplié de ne pas intervenir mais mon cœur n'est pas tranquille face à un tel choix...~
+//@5 de NTSVLAST.dlg // #15703
+@10065   = ~Le tourment de Svlast
+
+Ayant survécu à l'assaut du revenant avec notre aide, le pauvre et misérable Svlast nous a supplié d'accomplir sa tâche... Le jour est sombre dans ces ruines, et je crains qu'il ne devienne de plus en plus sombre.~
+@10066   = ~Le tourment de Svlast~
+//@1 de NTSZYPER.dlg (contenu changé)
+@10067   = ~Problème sur la côte nord
+
+Le long de la côte nord vit une petite communauté de pêcheurs. Il semblerait que des monstres se soient introduits dans la zone au nord de leur village ce qui les effraie énormément : des salamandres de feu et des sirènes !~
+//parts de @18 de NTSZYPER.dlg 
+@10068   = ~Problème sur la côte nord
+
+Nous avons éliminé le problème des pêcheurs concernant les sirènes et les salamandres de feu le long de la côte nord.~
+//parts de @18 de NTSZYPER.dlg 
+@10069   = ~Le symbole de Helm
+
+Le chef du village de la Côte Nord nous a dit qu'il y existerait une île comme celle que nous recherchons à proximité. Il dit que le chemin vers cette île n'est connu que d'un pêcheur appelé Nadalin, qui s'est échappé du village il y a quelque temps lorsque les Sirènes et les Salamandres de Feu sont apparues pour la première fois.~
+// @1 de NTTAMASS.dlg 
+@10070   = ~L'île des sirènes
+
+De retour de l'île des loups-garous, nous nous sommes arrêtés sur une île à l'aspect sympathique pour nous ravitailler, ce que nous n'avons pas pu faire plus tôt en raison de la précipitation. Sur le rivage, nous avons été accueillis par des sirènes amicales vivant sur l'île. Peut-être devrions-nous rester ici un moment...?~
+// @18 de NTTORDIO.dlg 
+@10071   = ~Les fantômes à l'est de Beregost
+
+Un ou plusieurs fantômes résident dans la grotte, à l'est du temple du Chant du Matin. Ce "quelque chose" raconte des histoires sur la vengeance du vampire... Il a besoin de l'épée vampirique et de l'eau bénite ou de vrais durs à cuire pour les "envoyer" dans l'au-delà... Nous verrons ce qui peut être fait.~
+// @24 de NTTORDIO.dlg
+@10072   = ~Les fantômes à l'est de Beregost
+
+Le fantôme de la grotte de Beregost a reçu tous les objets requis et finalement il est parti ... ils sont partis... Il est temps de jeter un coup d'œil dans leur chambre !~
+@10073   = ~Les fantômes à l'est de Beregost~
+// @2 de NTWELT.dlg #15741
+@10074 = ~Rats pour toutou
+
+Welt, un homme dans les bas-quartiers de la Porte de Baldur qui maîtrise l'art des mots monosyllabiques et qui ressemble, voire même, à l'odeur d'un ogre m'a demandé de rassembler des rats pour son chien Pooch. Il n'a pas l'air du genre à qui on dit non... ~
+// @1 de WENRIC.tra 
+@10075   = ~Les champs des morts
+
+Un fermier du nord de la Porte de Baldur nous a parlé d'une activité inhabituelle des orques dans la région. Ils ont kidnappé les villageois et semblent très dangereux. Je devrais enquêter là-dessus dans un futur proche.~
+// @10 de NTYNESS.tra
+@10076   = ~Sauver Pandris des orques
+
+Nous devons agir pour aider Pandris, un fermier qui vit près de la Porte de Baldur. Il a été kidnappé par des orques des Champs des morts. Les orquess sont devenus actifs récemment. Je me demande pourquoi...~
+// @16 de NTYNESS.tra
+@10077   = ~Sauver Pandris des orques
+
+Nous avons apporté à Yness un message de son mari, que nous avons sauvé des mains des Orques. Elle était très heureuse, mais n'avait pas d'argent pour payer.~
+@10078   = ~Sauver Pandris des orques~
+// @26 de WILL.tra 
+@10079   = ~Will O'Hara
+
+Il y a un jeune homme inhabituel qui vit à Beregost : Will Scarlet, bien que certains l'appellent Will Tell Helm. J'ai décidé de l'emmener avec moi, ses capacités extraordinaires et sa verve peuvent s'avérer utiles un jour...~
+// @37 de WILL.tra
+@10080   = ~Will O'Hara
+
+Will a promis son fléau original chez Feldepost pour mille pièces d'or. Je devrais envisager de le reprendre. Il a également commandé une nouvelle armure à la forge de Taerom Thunderhammer à Beregost. Si nous avons l'argent, il sera disponible pour...~
+@10081   = ~Will O'Hara~
+@10082   = ~Les champs des morts~
+@10083   = ~L'île des sirènes~
+@10084   = ~Le Culte de la Main Noire~
+@10085   = ~Le Culte de la Main Noire
+
+Reedrig a déclaré que le Culte de la Main Noire se trouve au nord-est du Bois des Dents Acérées.~
+@10086   = ~Le Symbole de Helm~
+//@18 de NTMEANDA.tra (divisé en deux avec @10037)
+@10087    = ~Le Symbole de Helm
+
+Meander, le chef des Salamandres de Glace a refusé ne serait-ce qu'envisager de parler de la clé de l'autel verrouillé de la Citadelle du Nord, jusqu'à la destruction du Culte de la Main Noire et la mort de son chef.~
+@10088    = ~Le Symbole de Helm
+
+Nous avons reçu la clé de l'autel verrouillé de la Citadelle du Nord de Meander, le chef des Salamandres de Glace.~
+@10089    = ~Le Symbole de Helm
+
+Nous avons reçu le symbole du casque sur l'autel de la Citadelle du Nord.~
+// similaire à @10069 (si Nadalin est déjà rentré chez lui)
+@10090   = ~Le Symbole de Helm
+
+Le chef du village de la Côte Nord nous a dit qu'il existerait une île comme celle que nous recherchons à proximité. Il dit que le chemin vers cette île n'est connu que du pêcheur Nadalin.~
+@10091   = ~Le Symbole de Helm
+
+Nadalin, le pêcheur de la Côte Nord, est retourné à son bateau et est prêt à nous emmener ailleurs si nous le souhaitons.~
+@10092 = ~Les Tanar'ri dans les Pics Nuageux~
+@10093 = ~Les Tanar'ri dans les Pics Nuageux
+
+J'ai rencontré plusieurs Tanar'ri dans un donjon dans les Pics Nuageux ??qui m'ont proposé de regagner tranquillement leur plan d'origine si je leur apportais le cadavre du mage qui les avait invoqués. Ils ont mentionné quelqu'un nommé Haeball à qui je devrais parler.~
+@10094   = ~Les Tanar'ri dans les Pics Nuageux
+
+Peut-être que je n'aurais pas dû demander – maintenant les Tanar'ri insistent pour recevoir l'arc du capitaine Fey'doch...~
+@10095   = ~Le Grand Livre de l'Ignorance
+
+J'ai trouvé le Grand Livre de l'Ignorance ! Je pense.~ 
+@10096   = ~Nadalin le pêcheur~
+//@6 de NTPANDRI.tra (divisé en plusieurs: @10053, @10097, @10098)
+@10097   = ~Sauver les enfants de Magnad et Winorma
+
+Nous avons secouru les enfants de Magnad et Winorma des orques. Ils peuvent maintenant retourner chez leurs parents.~
+@10098   = ~Les Champs des morts
+
+Pandris, que nous avons sauvé des orques, nous a dit que les orques étaient en conflit avec une secte de la région. Il a également mentionné que les orques tentaient activement de pénétrer dans une chapelle abandonnée dans le Bois des Morts, au sud-est. Nous devrions aller enquêter là-dessus.~
+@10099   = ~Sauver les enfants de Magnad et Winorma~
+@10100   = ~Le tourment de Svlast
+
+J'ai décidé de mettre fin aux tourments de Svalst, comme il le souhaitait.~
+@10101   = ~Le tourment de Svlast
+
+Je ne pouvais pas supporter de tuer cet homme tourmenté. Il est parti, probablement pour expier ses péchés.~
+@10102   = ~Le Culte de la Main Noire
+
+Nous avons détruit le Culte de la Main Noire !~
+//@13 de NTOUPAST.tra (contenu ajouté) (similaire à @10052 si PC a déjà visité les Pics Nuageux)
+@10103   = ~Le Grand Livre de l'Ignorance
+
+Oupaste n'a pas été très utile, mais il a dit que le sorcier à qui il avait vendu le livre vivait dans les Pics Nuageux, au sud de la forêt des feuilles écarlates. Je suppose que j'ai déjà trouvé le col dont il parle, celui du nord accessible depuis le bout de terre situé entre les deux petits ruisseaux.~
+@10104   = ~Le Culte de la Main Noire
+
+Il semble que le Culte de la Main Noire se trouve au nord-est du Bois aux Dents Acérées.~
+// similaire à @10032 avec du contenu ajouté
+@10105    = ~Mystère à la Citadelle du Nord
+
+Nous avons rencontré Krotan à l'intérieur du mausolée. Il s'apprêtait à prendre les rênes de la Citadelle. Les gardes et nos « partisans » se sont rangés du côté de l'ennemi et la bataille a commencé... Finalement, Krotan et ses « partisans » ont été anéantis. Comme tous les moines... ups... Je ne pense pas que le duc Eltan sera content de ça. Mais alors - il n'y a plus personne pour lui dire ce qui s'est réellement passé, n'est-ce pas ?...~
+@10106    = ~Sauver les enfants de Magnad et Winorma
+
+Magnad ne connaît pas l'emplacement exact des Champs des morts, mais a suggéré que nous nous rendions à la Barbe d'Ulgoth pour voir si nous pouvons trouver quelqu'un qui connaît le chemin pour y arriver.~
+@10107    = ~ Sauver les enfants de Magnad et Winorma
+
+Nous... avons « sauvé » la famille de Magnad des orques. Pourquoi les gens sont-ils si difficiles !~
+@10108 = ~Sauver Pandris des orques
+
+Nous avons apporté à Yness un message de son mari, que nous..., euh, avons « sauvé » des mains des orques. Ah, ça fait tellement chaud au cœur de pouvoir aider.~
+// identique à @10063
+@10109   = ~Le Grand Livre de l'Ignorance
+
+Shaella, ou plutôt Elnaedra maintenant, dit que j'ai trouvé le livre même si je ne l'ai pas trouvé. Qu'est-ce que ça veut dire ?~
+
+/* nouveau pour la version 3.0.0 */
+@10110 = ~Donjon protégé sous le pont Flammevin
+
+Le donjon sous le pont Flammevin est nettoyé.~
+
+@10111 = ~Donjon protégé sous le pont Flammevin~

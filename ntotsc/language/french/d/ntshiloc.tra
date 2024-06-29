@@ -1,0 +1,14 @@
+/* ce tra n'est pas utilisé */
+
+// #15182
+@0    = ~Je peux sentir la ville sur vous.~
+// #15183
+@1    = ~Il y a des mages ogres qui causent des problèmes dans le coin sud-ouest du Bois des Dents Acérées. Si vous pouviez les éliminer avant qu'ils ne causent trop de dégâts, je vous en serais très reconnaissant. En attendant, je vais essayer de trouver d'autres aventuriers pour m'aider au cas où les choses deviendraient trop difficiles...~
+// #15772
+@2    = ~Shilo Chen, un ranger du Bois des Dents Acérées, cherche actuellement de l'aide à la Porte de Baldur. Un groupe d'ogres mages tue la faune sauvage dans le coin sud-ouest de la forêt. Il m'a demandé d'y aller et de voir ce que je pouvais faire. S'il trouve d'autres aventuriers volontaires, il les enverra en renfort.~
+// #15184
+@3    = ~Comment pouvez-vous rester dans cette ville immonde alors que la forêt est en danger ?~
+// #15185
+@4    = ~Les faucons me disent que vous avez éliminé les ogres-mages tout seuls. Je suis impressionné par votre courage. Ici, permettez-moi de vous offrir ces beaux gants en témoignage de mon appréciation. Ils sont si souples que vous pouvez sentir même la plume la plus duveteuse lorsqu'elle frôle votre paume.~
+// #15186
+@5    = ~Vous, les citadins, êtes tous pareils !

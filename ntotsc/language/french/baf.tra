@@ -1,0 +1,29 @@
+//AR9PBA.baf
+@0 = ~Sur le chemin du retour, vous avez remarqué une petite île et, malgré de nombreuses difficultés, vous avez réussi à débarquer pour vous ravitailler pour la suite du voyage. L'île semble être habitée.~
+
+//ntcutres.baf
+@10 = ~Vous avez obtenu un repos bien mérité.~
+
+//SHIP.baf; SHIP1.baf
+@30 = ~Vous avez besoin d'obtenir les cartes marines si vous souhaitez retourner en toute sécurité vers la terre ferme.~
+
+
+/* nouveau pour la v2.0 */
+
+//ar30pb.baf
+@40 = ~Défendre la Citadelle !~
+
+//nttr51pb.baf (déclencheur avant l'ouverture du donjon du Pont de Flammevin par le parchemin de Charleston Nib
+@50 = ~Le parchemin vous protège de la magie qui scellait l'entrée. Vous pouvez maintenant entrer.~
+@51 = ~Vous jetez un rapide coup d'oeil à l'entrée. Dans la pénombre, vous percevez suffisamment de mouvement pour savoir qu'il s'agit d'un donjon dans lequel vous ne devriez pas vous aventurer sans préparation - et de préférence avec un clerc compétent.~
+@52 = ~Le chemin est bloqué par des protections puissantes et bizarres. Vous devrez trouver un moyen de les désactiver si vous souhaitez entrer.~
+@53 = ~Pour examiner cette entrée, rapprochez-vous.~
+
+/* ar4500.baf */
+@54 = ~Entrée du donjon~
+
+//indo52pb.baf (déclenche l'entrée vers ar53pb.are)
+@60 = ~Le feu de l'huile donne une lumière scintillante mais claire. Vous pouvez maintenant descendre les escaliers.~
+@61 = ~Les escaliers mènent à l'obscurité totale. Vous devrez trouver une source de lumière si vous souhaitez entrer.~
+@62 = ~La lumière de la gemme est vive et stable. Vous pouvez maintenant descendre les escaliers.~
+@63 = ~La lumière de la bougie est faible et vacillante, mais vous pouvez maintenant descendre les escaliers.~

@@ -1,0 +1,16 @@
+// #15507
+@0    = ~À moins que vous ne souhaitiez acheter de la bière à une fille, vous n'êtes pas le bienvenu ici.~ @0    = ~À moins que vous ne souhaitiez acheter de la bière à une fille, vous n'êtes pas la bienvenue ici.~
+// #15508
+@1    = ~Vous êtes des voyageurs n'est-ce pas? Il en faut un pour en connaître un, je suppose... Je ne sais pas si vous vous dirigez par là mais, si jamais vous vous retrouvez à la Porte de Baldur, gardez les yeux ouverts pour Gheldehar, un vieux clerc gnome. Plus délicat qu'un vieux wyrm, celui-là. Il a encore une de mes vieilles bagues que j'aimerais vraiment récupérer, en fait. Oh, et au cas où vous ne l'auriez pas compris... c'était une allusion subtile.~
+// #15800
+/* @2 -> @10055 */ 
+// #15509
+@3    = ~Merci pour la bière, pigeon.~
+// #15510
+@4    = ~Vous êtes déjà allé à la Porte de Baldur ? Surveillez vos arrières pour Gheldehar...~ ~Vous êtes déjà allée à la Porte de Baldur ? Surveillez vos arrières pour Gheldehar...~
+// #15511
+@5    = ~Merci pour votre aide ! Laisse-moi juste mettre cette bague. Ça fait si longtemps...~
+// #15512
+@6    = ~Vous avez bien fait. Tenez, laissez-moi vous en donner un autre en retour.~
+// #15513
+@7    = ~Très bien, alors. Laissons les actes de folie trahir l'imbécile.~

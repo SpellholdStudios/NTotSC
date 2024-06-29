@@ -1,0 +1,24 @@
+// #3353
+@0    = ~Gardez votre place, voleur ! Comment osez-vous essayer de voler ce noble moine !~
+// #3354
+@1    = ~Alors vous serez obligé de bien vous comporter ici ! Si vous ne pouvez pas profiter de vos mauvaises pensées, peut-être apprendrez-vous à penser autrement.~
+// #3355
+@2    = ~Vos actions vont à l'encontre de tout ce que Helm considère comme sacré ! Quel mépris pour les droits d’autrui !~
+// #3356
+@3    = ~Vos talents de voleur sont sans aucun doute d'une importance primordiale pour vous, mais je doute sérieusement que vous les mettiez un jour à profit ! Il n'y a que du bien et du mal. Je soupçonne que vous faites partie de cette dernière !~
+// #3357
+@4    = ~Quelle est cette trahison ?! Vous avez versé le sang d’une âme d’enfant, et tout cela pour quelques joyaux dérisoires ?~
+// #3358
+@5    = ~Ceux qui ont besoin d'aide doivent être d'autant plus chéris ! Vos actions sont méprisables et sans remords !  Je n’en peux plus ! Levez vos armes et défendez-vous, afin de pouvoir mourir avec la dignité qui vous a manqué dans la vie !~
+// #3359
+@6    = ~Il est regrettable que notre compagnon soit mort avant de pouvoir renoncer à ses habitudes. Le mal doit être purgé là où il se trouve, même si c'est entre collègues. Helm veille sur notre quête, afin que sa fin arrive bientôt.~
+// #3313
+@7    = ~Nous nous débrouillerons sans lui et procéderons avec prudence. Notre vertu nous aidera à nous en sortir.~
+// #3373 (changer "Eldoth" par "Eldod")
+@8    = ~ELDOD! TRAITRE!~
+@9    = ~Helm guide mon chemin.~
+
+/* nouveau pour la v2.0 */
+@10    = ~Nous sommes victorieux !~
+@11    = ~La perte de notre abbé et de notre abbé par intérim est une triste perte pour cette citadelle.~
+@12    = ~Malheureusement, notre vrai capitaine n'était pas parmi les vivants.~

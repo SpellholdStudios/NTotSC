@@ -1,0 +1,15 @@
+// #3303
+@0    = ~Quoi ?! Eh bien, je suppose que j'ai des visiteurs. Entrez. Ce sont ceux que vous avez vus ci-dessus ?~
+// #3304 (changer "Eldoth" par "Eldod")
+@1    = ~Alors bien, vraiment ! Je n'ai pas besoin de me retrouver ! Ah, Eldod. Je devrais m'attendre à ce qu'un traître me trahisse aussi. Peu importe. Un outil utile pour vous. Un outil utile, votre crâne sera le prochain !~
+// #3305
+@2    = ~Vous ne tuerez plus ! Maintenant, tuez-MOI ! TUE-LES!! TUEZ-LES ET GARDEZ-LES À NOUS !!~
+// #3308
+@3    = ~Alors bien, vraiment ! Je n'ai pas besoin de me retrouver !~
+// #3308
+@4    = ~Il ne peut pas vous entendre. Mais il est un outil, et un BON outil aussi. Faible volonté. CRÂNE plus faible !~
+// #3309
+@5    = ~Plus besoin d'outils ! On fait grève maintenant ! TUE-LES!! TUEZ-LES ET GARDEZ-LES À NOUS !!~
+/* @6 -> @10032 */   
+// #3311
+@7    = ~Alors bien, vraiment ! Je n'ai pas besoin de me retrouver ! Vous êtes intelligent d'être arrivé jusqu'ici. Je suis malin pour vous laisser faire ! Maintenant, vous mourrez ici, agréablement et proprement. Demain, le Donjon m'appartiendra ! TUEZ-LES !!~

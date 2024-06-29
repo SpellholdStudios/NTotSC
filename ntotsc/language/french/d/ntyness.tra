@@ -1,0 +1,23 @@
+@0 = ~Bonjour, bons aventuriers ! Puis-je vous parler un instant, s'il vous plaît ?~
+@1    = ~Dites-moi de quoi avez-vous besoin, mais faites vite !~
+@2    = ~Laissez-moi tranquille.~
+@3    = ~ Certainement, madame. Exprimez ce que vous pensez.~
+@4 = ~Je vous demande pardon d'avoir perturbé votre chemin, mais je suis désespérée. Mon mari a été kidnappé par des orques du nord et mes supplications n'ont pas aidé du tout... Ils sont venus dans notre ferme juste au nord de la Traversée du Wyrm et l'ont emmené ! Je ne sais pas pourquoi ils l'ont emmené dans leur campement dans les Champs des Morts... Je vous demande de l'aide, s'il vous plaît ! Je suis venue ici il y a une semaine pour demander de l'aide et personne ne veut écouter ma misère...~
+@5    = ~Je n'ai pas le temps pour ça.~
+@6    = ~Je ferai ce que vous demandez.~
+@7    = ~Qu'est-ce que cela m'apporte ?~
+@8 = ~Oh, non... Vous étiez mon dernier espoir, et maintenant je n'en ai plus... Allez vous-en et laissez-moi avec mon chagrin...~
+@9 = ~Les dieux vous bénissent ! Merci! Le voyage à travers les terres désolées jusqu'aux Champs des Morts est très difficile, mais avec Pandris... mon mari, nous sommes venus du nord, de l'autre côté de ce désert, et nous nous sommes installés juste au nord de la porte de Baldur. L'endroit que j'ai vu au cours de ce voyage et où ils pourraient l'avoir maintenant est à un jour d'ici ou peut-être un peu plus longtemps si vous partez des fermes au sud-est. Je serai là, en attendant des nouvelles. S'il vous plaît, sauvez-le...~
+/* @10 -> @10076 */
+@11   = ~J'aurais aimé avoir de l'argent. Les dernières pièces que j'ai dépensées ont servi à embaucher des mercenaires pour exterminer les zombies dans notre ferme... Je vous en prie, aidez-le...!~
+@12   = ~Je ferai ça pour vous.~
+@13   = ~Je ne le ferai pas sans paiement.~
+@14   = ~Vous n'avez pas encore de nouvelles de mon mari, n'est-ce pas ? Accélérez s'il vous plaît! Sa vie est entre vos mains...~
+@15   = ~Oh ! Est-ce un message de mon mari... ? Est-il vivant? Vous devez vraiment être en effet des personnes courageuses ! Oh! Merci, je dois me dépêcher de rentrer ! Bonne chance les amis !~
+/* @16 -> @10077 */ 
+@17   = ~De retour ? S'il vous plaît, laissez-moi tranquille.~
+@18   = ~Peut-être. S'il vous plaît, pouvez-vous nous en dire plus sur ce qui vous dérange ?~
+@19   = ~Ne vous énervez pas. Je vérifie juste si tu es toujours là...~
+
+/* nouveau pour la v2.0 */
+@20   = ~Il... il est mort, n'est-ce pas ? (sanglot) Ces maudits orques ! (sanglot)~

@@ -1,0 +1,38 @@
+// #3068
+@0    = ~J'ose dire, la garde est carrément impolie ces jours-ci ! Je dis, ça fait du bien de voir un visage familier, hein, mon pote ? J'ai perdu beaucoup d'amis au cours des quinze jours précédents. Je crains que Narlen ne soit incarcéré, ou pire.~
+// #3069
+@1    = ~Pourquoi es-tu venu ici ?~
+// #3070
+@2    = ~Pourquoi n'as-tu pas parlé avant maintenant ?~
+// #3071
+@3    = ~Qu'en est-il de la Guilde des Voleurs ? Tu ne pourrais pas rester là ?~
+// #3072
+@4    = ~Ça ne peut pas être aussi grave que tout le monde le dit. Merci pour la discussion, mais je vais devoir vérifier moi-même.~
+// #3080
+@5    = ~Je n'ai jamais aimé ce Narlen. En fait, je ne me suis jamais vraiment soucié de toi non plus !~
+// #3073
+@6    = ~Le Poing Enflammé a pris au sérieux de poursuivre la communauté de voleurs locale un peu plus... agressivement que d'habitude. J'imagine qu'ils sont encore un peu vexés par la mort de leur commandant en chef, La Balafre. Son remplaçant Angelo est un peu plus... motivé. Si tu souhaites  rester dans la rue, tu ferais mieux d'être vraiment bon en clandestinité. Quant à moi, je sors, comme on dit, de la sortie à gauche.~
+// #7120
+/* @7 -> @10058 */   
+// #3074
+@8    = ~Hélas, c'est simple. Mon partenaire Narlen maîtrisait tellement mieux le vocabulaire local des voleurs, il était donc plus approprié qu'il parle pour nous deux. Il semblerait que je projette simplement le mauvais type d’air, pour ainsi dire, hein ? Coule-moi si c'est le cas.~
+// #3075
+@9    = ~La guilde est pratiquement perdue face au Poing Enflammé. Il y avait une tolérance mutuelle auparavant, mais ces derniers temps, ils semblent déterminés à effacer l’ardoise, pour ainsi dire. Pas seulement le vol non plus. Ils semblent souhaiter un confinement à toute personne faisant preuve d’un certain talent avec la magie ou une lame. Les gens ordinaires n’ont jamais connu une telle paix, mais c’est une horrible contrainte pour tout le reste. La myriade d’aventuriers  habituellement présents se sont rendus à la campagne ou dans des endroits comme celui-ci.~
+// #3076
+@10    = ~Cheerio et tout ça alors. Je pars vers des climats plus sûrs, je pense, hein ?~
+// #3077
+@11    = ~Je dis, quoi ? Ce genre de timbre n'est pas nécessaire ! De peur que je ne sois offensé, tu ferais mieux de faire marche arrière. ~
+// #3102
+@12    = ~Ah, ta mère portait des crampons.~
+// #3103
+@13    = ~Je te demande pardon. Les ennuis de la journée m'ont mis les nerfs à rude épreuve.~
+// #3078
+@14    = ~Hmpf ! Et après, je me suis donné la peine d'être poli. À ce moment-là. La prochaine fois que nous nous reverrons, je mettrai une lame dans ton gulliver. Attends, hein, quoi ?~
+// #3096
+@15    = ~L'affront est oublié. Ce n’est pas le moment des petites querelles.~
+// #6378
+@16    = ~Beaucoup de choses se sont passées ces derniers temps. Puisque tu es mon meilleur pote et tout, je vais te dire tout ce que je sais. Le Poing Enflammé a pris au sérieux de poursuivre la communauté de voleurs locale un peu plus... agressivement que d'habitude. J'imagine qu'ils sont encore un peu vexés par la mort de leur commandant en chef, La Balafre. Son remplaçant Angelo est un peu plus... motivé. Si tu souhaites rester dans la rue, tu ferais mieux d'être vraiment bon en clandestinité.~ ~Beaucoup de choses se sont passées ces derniers temps. Puisque tu es ma meilleure pote et tout, je vais te dire tout ce que je sais. Le Poing Enflammé a pris au sérieux de poursuivre la communauté de voleurs locale un peu plus... agressivement que d'habitude. J'imagine qu'ils sont encore un peu vexés par la mort de leur commandant en chef, La Balafre. Son remplaçant Angelo est un peu plus... motivé. Si tu souhaites rester dans la rue, tu ferais mieux d'être vraiment bon en clandestinité.~
+// #6379
+@17    = ~Eh, quoi ? Désolé, mais j'ai plutôt peu de temps pour grignoter des mots en ce moment. Je pars vers des climats meilleurs.~
+// #9093
+@18    = ~Je pense plutôt que tu devrais m'éviter. J'ai une forte antipathie envers toi, et je ne m'appelle pas "Le Rouge" à cause d'un trouble des gencives.~

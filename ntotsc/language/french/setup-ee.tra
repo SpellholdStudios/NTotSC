@@ -1,0 +1,985 @@
+@2    = ~Ce sont des flèches normales qui ont été envenimées par un poison végétal à action rapide.
+
+STATISTIQUES:
+
+Capacités de combat:
+- Inflige poison à la cible
+
+Dégâts : 1D6
+Type de dégâts: missile
+Lanceur: Arc
+
+Poids: 0~
+
+@6    = ~En plus de son superbe savoir-faire, de minuscules runes de pouvoir peuvent être vues gravées sur toute la surface. Il est évident que beaucoup de temps et d'efforts ont été consacrés à sa création et, bien que cela ne soit pas apparent au début, une légère lueur bleue peut être vue émanant des runes.
+
+STATISTIQUES:
+
+THAC0: +2
+Dégâts : 1D8 + 2, +1D10 feu
+Type de dégâts: Missile
+Lanceur: Arc
+
+Poids 0~
+
+/*@10   = ~Ce sont des flèches empoisonnées que Will est capable de préparer en utilisant la résine qui s'écoule de son curieux fléau. Il a appris à utiliser le poison très jeune et peut en obtenir suffisamment pour 5 flèches.
+STATISTIQUES:
+Dégâts (missile): 1D6 + 1
+Special: Poison
+Poids: 0
+Lanceur:   Arc~*/
+
+@12   = ~Ces flèches dangereuses sont inhabituellement rares et seuls quelques spécimens peuvent être trouvés. Ils ne valent presque rien comme arme, mais peuvent devenir des artefacts extrêmement utiles pendant le combat s'ils sont utilisés stratégiquement par un archer expérimenté. Lorsque la flèche touche une cible, elle est téléportée loin du champ de bataille pour limiter le nombre d'ennemis que les guerriers doivent affronter en même temps.
+
+STATISTIQUES:
+
+Capacités de combat:
+- Après un coup réussi, l'ennemi est transféré vers un endroit aléatoire
+
+THAC0: -3 de pénalité
+Dégâts: 1d3
+Type de dégâts: Missile (perforant)
+Lanceur: Arc
+
+Poids: 0~
+
+@16   = ~En plus de son superbe savoir-faire, de minuscules runes de pouvoir peuvent être vues gravées sur toute la surface. Il est évident que beaucoup de temps et d'efforts ont été consacrés à sa création et, bien que cela ne soit pas évident au premier abord, une légère lueur bleue peut être vue émanant des runes.
+
+STATISTIQUES:
+
+Capacités de combat:
+- 50% de chances d'infliger 1D3 dégâts électriques supplémentaires
+- 15% de chances que la cible soit étourdie
+
+THAC0: +2
+Dégâts: 1d8+2
+Type de dégâts: Tranchant
+Facteur de vitesse : 7
+Type de compétence: Hache
+Type: arme à une main
+Nécessite: 
+ 10 en Force
+
+Poids: 7
+~
+
+@20   = ~Le fléau est un manche en bois robuste attaché à une tige de fer, une tige en bois avec des pointes ou une boule de fer à pointes. Entre le manche et son outil se trouve soit une charnière, soit un maillon de chaîne. L’arme était à l’origine utilisée comme outil pour battre le grain. Ce fléau a été amélioré comme par magie. Des runes peuvent être vues briller sur chaque surface.
+
+STATISTIQUES:
+
+Capacités de combat:
+- 50% de chances +2D3 dégâts électriques
+- 10% de chances que la cible soit étourdie
+
+THAC0: +2
+Dégâts: 1d6+3
+Type de dégâts: Contondant
+Facteur de vitesse : 7
+Type de compétence: Fléau/Étoile du matin
+Type: arme à une main
+Nécessite: 
+ 11 en Force
+
+Poids: 15
+~
+
+@24   = ~C'était l'arme personnelle de Nirel, un puissant clerc dont on sait peu de choses. Cependant, l’histoire rapporte qu’il était un ignoble fanatique dont la haine envers les adeptes d’autres confessions ne connaissait presque aucune limite. On raconte qu'il gardait les têtes de ses victimes comme trophées. Il était personnellement responsable de la profanation de plus d’une centaine de temples d’autres confessions ; gagnant ainsi lui-même, ainsi que sa masse, le surnom de «Profanateur ».
+
+STATISTIQUES:
+
+THAC0: +2
+Dégâts: 1d6+3
+Type de dégâts: Contondant
+Facteur de vitesse : 6
+Type de compétence: Masse
+Type: arme à une main
+Nécessite: 
+ 3 en Force
+
+Poids: 7
+~
+@26   = ~Le fléau est un manche en bois solide attaché à une tige de fer, une tige en bois avec des pointes ou une boule de fer à pointes. Entre le manche et son outil se trouve soit une charnière, soit un maillon de chaîne. L'arme a été améliorée par magie, formant ainsi un lien entre l'arme et son porteur.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Lorsque Will brandit son fléau, il est capable de créer 5 billes empoisonnées
+
+THAC0: +1
+Dégâts: 1d8+1
+Type de dégâts: Contondant
+Poids: 10
+Facteur de vitesse : 6
+Type de compétence: Fléau/Étoile du matin
+Type: arme à une main
+Nécessite: 
+ 13 en Force
+
+Poids: 10
+~
+@27   = ~Le fléau est un manche en bois robuste attaché à une tige de fer, une tige en bois avec des pointes, ou une boule de fer à pointes. Entre le manche et son outil se trouve soit une charnière, soit un maillon de chaîne. L'arme a été améliorée par magie, formant ainsi un lien entre l'arme et son porteur.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Lorsque Will brandit son fléau, il est capable de créer 5 billes empoisonnées
+- Force: +2
+- PV maximum: +10
+
+Capacités de combat:
+- 50% de chances de ralentir la cible lors d'une attaque réussie
+
+THAC0: +3
+Dégâts: 1d8+3
+Type de dégâts: Contondant
+Facteur de vitesse : 6
+Type de compétence: Fléau/Étoile du matin
+Type: arme à une main
+Nécessite: 
+ 13 en Force
+
+Poids: 10
+~
+@29   = ~Ce sont des carreaux normales d'arbalètes qui ont été envenimées par un poison végétal à action rapide.
+
+STATISTIQUES:
+
+Capacités de combat:
+- Dégâts de poison additionnels
+
+Dégâts: 1d8
+Type de dégâts: Missile (perforant)
+Lanceur : Arbalète
+
+Poids: 0
+~
+@33   = ~C'étaient les bottes de Nirel, un puissant clerc dont on sait peu de choses.  Cependant,
+L’histoire rapporte qu’il était un vil fanatique dont la haine envers les adeptes d’autres confessions ne connaissait presque aucune limite. On raconte qu'il gardait les têtes de ses victimes comme trophées. Il était personnellement responsable de la profanation de plus d’une centaine de temples d’autres confessions.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Jets de sauvegarde: +1 de supplémentaire
+- Résistance magique: +5 % de supplémentaire
+
+Poids: 3
+~
+@37   = ~Cette arme est sacrée pour les guerriers au service de Talos, dieu des tempêtes et de la destruction, et a été utilisée pendant des décennies entre leurs mains compétentes. Arc court composé de nombreuses couches de bois composites, L'arc de Tonnerre a été utilisé contre la myriade d'ennemis de l'église de Talos.
+
+Plus récemment, l'arc était en possession d'un chevalier des tempêtes nommé Kalassan Brevered, qui a été tué après avoir abattu un certain nombre de rôdeurs et de druides sur les îles Moonshae.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– +30% de résistance électrique
+- 3 attaque par tour
+
+THAC0: +1
+Dégâts: +1
+Facteur de vitesse : 3
+Type de compétence: Arc court
+Type: Arme à deux mains
+Nécessite: 
+ 5 en Force
+
+Poids: 3
+~
+@40   = ~Cet arc dégage de la chaleur malgré le fait qu'il semble froid dans vos mains - comme si l'arc se contentait de ses capacités.
+
+De tels arcs sont souvent rencontrés dans les terres froides de la région des Dix Villes, mais celui-ci est exceptionnellement dangereux.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Attaques par round: 2
+- Résistance au feu: +20%
+- Résistance au froid: +20%
+
+Capacités de combat:
+- 50% de chances d'infliger 2D3 dégâts de feu supplémentaires
+
+THAC0: +1
+Dégâts: +1
+Facteur de vitesse : 2
+Type de compétence: Arc court
+Type: Arme à deux mains
+Nécessite: 
+ 6 en Force
+
+Poids: 3
+~
+@44   = ~Fabriqué pendant l'âge d'or des elfes de Flammevin. Parfaitement lesté et équilibré, cet arc devient une arme particulièrement mortelle entre les mains d'un elfe, capable de percer n'importe quelle armure avec ses flèches.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Attaques par round: 5/2
+
+THAC0: +2
+Dégâts: +1 
+Facteur de vitesse : 7
+Type de compétence: Arc long
+Type: Arme à deux mains
+Nécessite: 
+ 15 en Force
+
+Poids: 3
+~
+/*
+@48   = ~Gants du Maître Voleur : 'Doigts collants'
+Ces gants - recherchés par les adeptes du vol - étaient autrefois la propriété du célèbre pickpocket All An Woo-Dy.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Vol à la tire : +15%
+- Crochetage des serrures: +15%
+
+Poids: 1
+~
+*/
+@52   = ~Ce sont des billes empoisonnées que Will est capable de préparer en utilisant la résine qui coule de son fléau de curiosités. Il a appris à utiliser le poison très jeune et peut en obtenir suffisamment pour 5 billes.
+
+STATISTIQUES:
+
+Capacités de combat:
+- Inflige poison à la cible
+
+THAC0: +1
+Dégâts: 1d5+2 
+Type de dégâts: Missile (perforant)
+Lanceur: Fronde
+
+Poids: 0
+~
+/*
+@56   = ~Fabriqué par Sage, l'un des Anciens, pour l'aider dans son voyage contre le mal.  La tradition ancienne raconte que Sage était un puissant guerrier qui sentait rarement le contact de ses ennemis au combat, mais on dit que lorsqu'il le faisait, il récupérait toujours rapidement, quelle que soit la férocité de l'attaque ou de la bataille.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Résistance magique: +5% 
+- Regeneration: 3 points de vie par seconde
+
+Classe d'armure: 4 (6 contre les armes contondantes, 2 contre les armes tranchantes)
+Nécessite: 
+ 6 en Force
+
+Poids: 9
+~
+@58   = ~La Cotte de mailles elfique est réputée pour sa capacité à activer des capacités de lancement de sorts tout en étant porté. Celle-ci est enchanté pour donner plus d'intelligence à son porteur, mais pas librement. Seuls les elfes peuvent la porter.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Intelligence: +1
+– Constitution: -2
+- Peut mémoriser un sort supplémentaire de Prêtre ou Mage de niveau 2 et 3
+
+Classe d'armure: 2 (4 contreles armes contondantes, 0 contre les armes tranchantes)
+Nécessite: 
+ 7 en Force
+
+Poids: 8
+~
+@60   = ~Donné aux meilleurs guerriers et prêtres les plus puissants de la Main d'Ébène.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Résistance magique: +5% 
+
+Classe d'armure: 2 (4 contre les armes contondantes, 0 contre les armes tranchantes)
+Nécessite: 
+ 6 en Force
+
+Poids: 10
+~
+*/
+@62   = ~Pendant les temps de prospérité de Flammevin, des versions spéciales de l'illustre cotte de mailles elfique ont été fabriquées pour ajouter une protection contre les orages qui apparaissaient parfois dans la région.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Résistance à l'électricité: +30% 
+
+Classe d'armure: 4 (2 contre les armes tranchantes, 6 contre les armes contondantes)
+Nécessite: 
+ 8 en Force
+
+Poids: 15
+~
+@67   = ~Les origines de cette cape se sont perdues dans la nuit des temps. Cependant, pendant un certain temps, il fut en possession de Drosus, un mage non négligeable d'Eauprofonde. Drosus s'est heurté à un groupe inhabituellement important de loups des glaces lors d'une expédition en solo dans les montagnes de l'Épine du Monde, après avoir été contraint d'enfiler une cape plus lourde pour se protéger du froid.
+
+À première vue, cette cape semble être d’un blanc aveuglant. Cependant, il s'agit en fait d'un composé de milliers de couleurs, qui dansent et jouent dans n’importe quelle source de lumière disponible. Ce barrage de couleurs scintillantes a tendance à distraire et à aveugler partiellement toute personne regardant directemen le porteur.
+
+Cette cape peut être portée en combinaison avec toute autre forme de protection enchantée – elle peut donc être portée sur une armure magique contrairement à une cape de protection
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Classe d'armure: +2
+
+Poids: 3
+~
+/*
+@79   = ~Le nom original de cette étrange lame s'est perdu dans les profondeurs obscures de la Mer des Épées. Fabriqué à partir d'os de sahuagin renforcé par magie, on pense que l'arme a été utilisée par les kuo-toa lors de rituels bizarres. Le manche est fabriqué à partir de corail enveloppé de peau de sahuagin. À une certaine époque, il appartenait à Lockhart, un éminent voleur aventurier et contrebandier de la Côte des Épées. C'est lui qui a donné à la lame son nom actuel.
+
+STATISTIQUES:
+
+Capacités de combat:
+– 2% de chances de lancer Doigt de la mort sur la cible
+
+THAC0: +2
+Dégâts: 1d4+2 
+Type de dégâts: Missile (perforant)
+Facteur de vitesse : 1
+Type de compétence: Dague
+Type: arme à une main
+
+Poids: 1
+~
+*/
+@83   = ~Cette fléchette ressemble à n'importe quelle autre fléchette, à l'exception du fait qu'elle a été imprégnée d'un puissant poison.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Attaques par round: 4 
+
+Capacités de combat:
+– Chance élevée d'empoisonner la cible pendant 10 rounds
+
+Dégâts: 1d3 
+Type de dégâts: Missile (perforant)
+Facteur de vitesse : 2
+Type de compétence: Armes à projectiles
+Type: arme à une main
+
+Poids: 0
+~
+/*
+@99   = ~Une armure d'ombre est une armure de cuir cloutée créée pour être utilisée par les maîtres des ombres, présents en Amn. Les maîtres des ombres appartiennent aux rangs les plus élevés de la hiérarchie des Voleurs de l'Ombre. Il s'agit d'une armure de cuir cloutée +3 qui se fond dans les ombres. Cette marque particulière a été améliorée par un grand voleur des Royaumes. Aucune mention de son nom n'est donnée, car il était sacrément bon, personne ne l'a jamais vu à moins qu'ils ne soient sur le point de partir vers l'au-delà.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Détection des pièges: +15%
+- Déplacement silencieux: +15%
+- Crochetage des serrures: +15%
+- Vol à la tire: +15%
+
+Classe d'armure: 3 (4 contre les armes contondantes, 2 contre les armes perforantes et les missiles, 1 contre les armes tranchantes)
+Nécessite: 
+ 6 en Force
+
+Poids: 1
+~
+*/
+@101  = ~Taerom a confectionné une bonne armure de cuir pour Will. Vous devriez lui rendre visite à nouveau à un moment donné – il est possible que le vieux forgeron puisse améliorer encore davantage cette gemme.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Jets de sauvegarde contre la pétrification: +2
+– Jets de sauvegarde contre la métamorphose: +2
+- Peut mémoriser un sort supplémentaire de Mage pour les niveaux 1 à 4
+
+Classe d'armure: 4 (3 contre les armes perforantes et les missiles, 2 contre les armes tranchantes)
+
+Poids: 15
+~
+@102  = ~Taerom a fait de son mieux sur cette armure de cuir. Désormais, l'armure de Will est devenue une protection solide.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Jets de sauvegarde contre la pétrification: +3
+– Jets de sauvegarde contre la métamorphose: +2: +3
+- Chances: +1
+- Résistance à l'électricité: +15%
+- Résistance à l'acide: +30%
+- Peut mémoriser un sort supplémentaire de Mage pour les niveaux 1 à 8
+
+Classe d'armure: 0 (-1 contre les armes perforantes et les missiles, -2 contre les armes tranchantes)
+
+Poids: 15
+~
+/*
+@104  = ~Cette armure était la propriété du célèbre prince barbare des neiges, Corbus Denolx de Faucongris. On ne sait pas comment ni pourquoi il a quitté sa possession.
+
+STATISTIQUES:
+
+Classe d'armure: 5 (4 contre. perforant et missile, 3 contre. tranchant)
+Nécessite: 
+ 6 en Force
+
+Poids: 8
+~
+*/
+@106  = ~L'armure de cuir cloutée a peu de points communs avec une armure de cuir normale. Alors que l'armure de cuir est une coque durcie, l'armure de cuir cloutée est douce et souple avec des centaines de rivets métalliques apposés. Les rivets sont si rapprochés qu’ils forment un revêtement flexible de métal dur qui empêche les attaques tranchantes et coupantes. Le support en cuir souple n'est guère plus qu'un moyen de maintenir les rivets en place.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Résistance aux attaques perçantes: +10%
+- Résistance aux attaques tranchantes: +10%
+- Résistance au feu: +10%
+- Résistance électrique: +10%
+- Jets de sauvegarde contre le souffle: +2
+
+Classe d'armure: 5 (4 contre les armes perforantes et missile, 3 contre les armes tranchantes)
+Nécessite: 
+ 6 en Force
+
+Poids: 15
+~
+/*
+@110  = ~Luth de Hirsuhnite 'Le public silencieux'
+Ce luth finement travaillé est bien connu parmi les Hiphrodites d'Orient. On dit que c'est à l'origine du sommeil. D'après les rumeurs, un barde hiphrodite nommé Hirsuhnite a trouvé le chant de l'abandon complet dans le calme sanctuaire de la nuit et l'a gravé dans le luth.
+
+STATISTIQUES:
+
+Spécial:
+– La cible devient inconsciente
+Durée: 2 tours
+
+Poids:  3
+~
+*/
+@114  = ~Objet généralement utilisé dans les Royaumes, très pratique en toute occasion, qu'aucune des femmes au foyer respectées ne peut imaginer l'existence sans lui.
+
+Cet exemplaire ne semble en aucun cas différer des autres, mais il est entaché de substance grasse, sent expressément, et est équipé d'une ceinture de sécurité et d'un trou qui permet de fixer lune étrange pièce.
+Agit désespérément, il peut également être utilisé pour défendre quelqu'un.
+
+STATISTIQUES:
+
+Capacités de combat:
+– 100% de chances pour les coups critiques à l'impact
+
+Dégâts: 1d1+1
+Type de dégâts: Contondant
+Facteur de vitesse : 1
+Type de compétence: Bâton
+Type: Arme à deux mains
+Nécessite: 
+ 5 en Force
+
+Poids: 3
+~
+@120  = ~Some priest like to carry a small effigy of their deity with them wherever they may go. Such diligence can only be rewarded.
+
+STATISTIQUES:
+
+Special: 
+- Permet d'apprendre le sort "Protection contre les sorts"~
+
+@141  = ~En regardant de plus près cette armure de plaques, son métal semble être dans un état incorporel, donnant à l'armure une apparence ombragée. Lorsqu'il est porté, le porteur apparaîtra aussi sombre que l'armure, offrant une protection supplémentaire contre les armes à projectiles.
+
+STATISTIQUES:
+
+Classe d'armure: 2 (-1 contre les missiles, -1 contre les armes tranchantes)
+Nécessite: 
+ 12 en Force
+
+Poids: 20
+~
+@145  = ~Ce puissant élixir activera un bouclier formé à partir des feux d'un phénix autour de celui qui l'absorbe. Les effets sont puissants mais de courte durée.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Classe d'armure: +4
+- Résistance au feu: +50%
+- Résistance au froid: +25%
+- Résistance à l'acide: +25%
+- Résistance électrique: +25%
+- Immunité aux armes non magiques
+Durée: 60 secondes
+
+Poids: 1
+~
+@149  = ~Cette bouteille de vin elfique guérira autant qu'elle pourrait enivrer. Lors d'une fête elfique, l'un des prêtres de la Main de Seldarine s'est trop enivré et a accidentellement ajouté un tonneau à un mélange destiné aux potions de guérison.
+
+STATISTIQUES:
+
+Special: Soigne 35 points de vie (80% de chances d'être ivre pendant 30 minutes)
+
+Poids: 1
+~
+@153  = ~Will ne veut pas dire d'où vient l'anneau, mais ses avantages sont rares et il a probablement été réalisé par un de ses amis doté de pouvoirs magiques.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Résistance magique +20%
+
+Poids: 0
+~
+@155  = ~Un anneau est une petite bande de métal précieux utilisée comme bijou. Certains anneaux rares sont dotés d'enchantements qui confèrent diverses capacités magiques. Ces bagues sont très recherchées, notamment par les professionnels de l'aventurier.
+Sans raison apparente, cet anneau est chaud au toucher.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Classe d'armure: +1
+– Résistance aux armes contondantes: +25%
+- Jets de sauvegarde contre les sorts: +1
+
+Poids: 0
+~
+/*
+@158  = ~'Le Voile Noir de Sauron'
+Cette robe particulière des mages est le résultat de la grande habileté de Sauron dans les pouvoirs à la fois sorciers et sacerdotaux. Il offre la protection habituelle contre toutes les formes d'attaques physiques tout en augmentant la résistance magique et les jets de sauvegarde. Il donne également au porteur la capacité de créer des portes dimensionnelles et de devenir une « ombre » de lui-même normal. En raison de la nature de son enchantement, il ne peut être porté que par des mages d'alignement mauvais.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Résistance magique: +15%
+- Jets de sauvegarde contre les sorts: +1
+
+Charge abilities:
+– Porte dimensionnelle
+- Porte d'ombre
+
+Classe d'armure: 5
+
+Poids: 2
+~
+*/
+@160  = ~Les chamanes orques fabriquaient souvent leurs vêtements avec des matériaux de mauvaise qualité fixés avec des parties en cuir, ce qui les rend horribles, lourds et ne constituent généralement pas le principal intérêt des aventuriers, bien qu'ils possèdent de nombreux avantages.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Classe d'armure: +2
+– Résistance à l'électricité: +40%
+– Résistance au feu: +40%
+– Résistance au froid: +40%
+- Charisme: -5
+
+Poids: 35
+~
+/*
+@164  = ~Le porteur est immunisé contre tout ce qui, magique ou autre, affecte la mobilité de quelque manière que ce soit, même s'il peut toujours être accéléré. Attention cependant, cela protégera également le porteur des effets bénéfiques comme ceux reçus des bottes de vitesse.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Classe d'armure: +2
+– Pas de protection contre les projectiles
+– Le porteur est immunisé contre tout ce qui, magique ou autre, affecte la mobilité de quelque manière que ce soit. 
+
+Nécessite: 
+ 4 en Force
+
+Poids: 3
+~
+*/
+@168  = ~Gravé de runes elfiques sur sa surface, ce bouclier a été fabriqué à partir de l'un des métaux les plus résistants jamais sortis des mains des Elfes. Tout porteur de ce bouclier sera sûr que tout coup porté sur lui sera dévié.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Classe d'armure: +2, +3 contre les attaques de missiles
+– Jets de sauvegarde contre les sorts: +1
+
+Nécessite: 
+ 15 en Force
+
+Poids: 8
+~
+@174  = ~Raasi'doch de Velle a passé de nombreuses lunes à travailler avec les artisans du Village Errant sur la création de cette lance de chasseur enchantée. Le ranger elfe avait besoin d'une arme pour exterminer les loups-garous qui terrorisaient les bois du Téthyr. Comme l’homme lui-même, l’arme est dépourvue d’ornementations extravagantes mais elle vole toujours droit et fidèlement. Une fois la croisade terminée, de Velle a probablement vendu son équipement à un militariste célèbre.
+
+STATISTIQUES:
+
+Capacités de combat:
+– +1d6 dégâts tranchants additionnels
+– +3 Dégâts contre les lycanthropes
+– +1 THAC0 contre les lycanthropes
+
+THAC0: +2 
+Dégâts: 1d6+2 
+Dagae type: perforant
+Facteur de vitesse : 2
+Type de compétence: Lance 
+Type: Arme à deux mains
+Nécessite: 
+ 5 en Force
+
+Poids: 5
+~
+@176  = ~Eron le Consterné était un sorcier pessimiste avec une propension aux duels magiques. Il croyait que la seule façon de devenir fort dans cet Art était de tester ses pouvoirs contre d'autres mages. Il croyait également que les voleurs et les assassins complotaient constamment pour voler sa richesse. Pour paraître ordinaire, il portait des vêtements de pèlerin et portait un simple bâton de marche en orme. En réalité, le bâton a été enchanté par magie pour être plus puissant au combat, mais Eron a fait tout ce qu'il pouvait pour cacher ce fait.
+
+STATISTIQUES:
+
+Capacités de combat:
+– 80% de chances pour 1D8+2 dégâts tranchants supplémentaires
+
+THAC0: +2
+Dégâts: 1d6+2 
+Type de dégâts: Contondant
+Facteur de vitesse :  1
+Type de compétence: Bâton
+Type: Arme à deux mains
+Nécessite: 
+ 5 en Force
+
+Poids: 3
+~
+/*
+@178  = ~Les bâtons de quête ont été créés à l'origine dans un autre royaume, mais ils ont trouvé leur chemin jusqu'à Féérune. Ils sont généralement remplis de sorts qui offrent une certaine protection comme la protection contre certains éléments, ou accorder l'entrée ou la sortie, ou accorder au porteur des connaissances simples. Ce bâton particulier lance Déblocage, Détection du mal, Soins des blessures critiques et Rappel à la vie, chacun au moins une fois par jour. De plus, il offre une protection contre le feu comme l'anneau de ce nom et augmente la résistance à la magie.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Résistance au feu: +40%
+- Résistance magique: +20%
+
+Spécial:
+– Déblocage trois fois par jour
+- Détection du mal deux fois par jour
+- Soins des blessures critiques une fois par jour
+- Rappel à la vie une fois par jour
+
+THAC0: +2
+Dégâts: 1d6+2
+Type de dégâts: Contondant
+Facteur de vitesse : 2
+Type de compétence: Bâton
+Type: Arme à deux mains
+Nécessite: 
+ 5 en Force
+
+Poids: 4
+~
+@180  = ~Ce bâton finement ouvragé faisait partie des cadeaux présentés comme offrande de paix par les Nécromanciens de Perregal aux Druides d'Erreth-Akbe lorsque leur guerre de 200 ans a finalement pris fin. Les druides eux-mêmes ne l'auraient jamais utilisé, mais refuser le cadeau aurait pu suffire à briser cette paix fragile.
+
+STATISTIQUES:
+
+Capacités de combat:
+– Vampirique: le porteur soigne 4 points de vie à chaque coup
+
+THAC0: +1
+Dégâts: 1d6+3
+Type de dégâts: Contondant
+Facteur de vitesse : 1
+Type de compétence: Bâton
+Type: Arme à deux mains
+Nécessite: 
+ 5 en Force
+
+Poids: 3
+~
+@184  = ~Cette épée a été forgée par Kid'Seroki pour combattre son ennemi de sang, les trolls. Après leur avoir volé l'Anneau des Trolls Mages, les dieux trolls envoyèrent d'innombrables groupes de trolls après Kid'Seroki pour le lui reprendre. Pour éviter cela, Kid'Seroki a forgé diverses magies dans cette épée et l'a appelée le Cauchemar du Troll.
+
+STATISTIQUES:
+
+THAC0: +1
+Dégâts: 1d10+1, +3 acid
+Type de dégâts: tranchant
+Facteur de vitesse : 2
+Type de compétence: Épée longue
+Type: arme à une main
+Nécessite: 
+ 4 en Force
+
+Poids: 5
+~
+@186  = ~Cette lame a été créée par un tueur de dragon qui a perdu la vie à cause de... eh bien ... son métier.
+
+STATISTIQUES:
+
+THAC0: +1
+Dégâts: 1d10+1
+Type de dégâts: tranchant
+Facteur de vitesse : 9
+Type de compétence: Épée longue
+Type: arme à une main
+Nécessite: 
+ 11 en Force
+
+Poids: 9
+~
+*/
+//ntswd03.itm
+
+@190  = ~Cette arme a été créée par les forgerons de l’ancienne cité de Myth Drannor. Cette épée, qui a été transmis de génération en génération, fait partie de la famille d'Evalt depuis des siècles. Cette lame particulière offre une résistance au feu.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Résistance au feu: +30%
+
+THAC0: +1
+Dégâts: 1d6+1
+Type de dégâts: tranchant
+Facteur de vitesse : 5
+Type de compétence: Épée courte
+Type: arme à une main
+
+Poids: 4
+~
+/*
+@194  = ~Morridin a fait l'objet de nombreuses blagues à propos de son épée. Beaucoup plaisantaient en disant qu’un si petit homme ne pouvait pas manier une si grande épée. Cependant, ceux qui ont ri n’ont pas rigolé longtemps, voire plus, en raison de la précision mortelle et de l’adresse avec laquelle Morridin a manipulé sa lame.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+– Dexterité: +2
+
+THAC0: +1
+Dégâts: 1d10+1
+Type de dégâts: tranchant
+Facteur de vitesse : 7
+Type de compétence: Épée à deux mains
+Type: Arme à deux mains
+Nécessite: 
+ 10 en Force
+
+Poids: 5
+~
+*/
+//ntswd05.itm
+
+@197 = ~Cette grande épée était autrefois maniée par les mains de Ghotal, célèbre chef des hordes orques du Nord. Grâce à lui, il fut capable de faire pression instantanément sur Luskan, Targos et d'autres villes, y compris Padhiver. La renommée de l'épée était telle qu'elle dissuadait la plupart des défenseurs d'opposer une quelconque résistance organisée. Mais Ghotal est allé trop loin lorsque Targos a finalement été conquis et détruit. Les forces alliées des elfes d'Evereska et des habitants d'autres villes du nord ont tendu une embuscade au général et anéanti la plupart de ses légions. Ghotal lui-même s'est cependant échappé du champ de bataille, mais a été mortellement blessé. On n'a jamais entendu parler de lui ni l'avoir revu depuis, même si la légende orque dit qu'il existe encore aujourd'hui, en attendant l'occasion de faire à nouveau des ravages dans la campagne.
+
+STATISTIQUES:
+
+THAC0: +3
+Dégâts: 1d12+3
+Type de dégâts: tranchant
+Facteur de vitesse : 7
+Type de compétence: Épée à deux mains
+Type: Arme à deux mains
+Nécessite: 
+ 13 en Force
+
+Poids: 12
+~
+/*
+@199  = ~Fabriqué par le roi mage Varashar pour le commandant de ses chevaliers de la mort. L’épée est rapidement devenue légendaire pour sa capacité à couper presque tout.  Des légions entières fuyaient le champ de bataille à la vue de la lame légendaire.
+
+STATISTIQUES:
+
+Capacités de combat:
+- 20% de chances d'infliger Horreur
+THAC0: +1
+Dégâts: 1d8+1
+Type de dégâts: tranchant
+Facteur de vitesse : 3
+Type de compétence: Épée longue
+Type: arme à une main
+Nécessite: 
+ 10 en Force
+
+Poids: 3
+~
+@201  = ~Épée à deux mains +1: 'Fierté de Durlag'
+
+STATISTIQUES:
+
+THAC0: +1
+Type de dégâts: tranchant
+Facteur de vitesse : 9
+Type de compétence: Épée à deux mains
+Type: Arme à deux mains
+Nécessite: 
+ 13 en Force
+
+Poids: 10
+~
+@203  = ~Il s'agit d'une ancienne épée d'origine inconnue, dont on disait qu'elle se trouvait autrefois dans la tour de Durlag. Certains disent que l'épée a été fabriquée à Myth Drannor ; Pourtant, le récit le plus juste place l’épée entre les mains de Sage l’Ancien.
+
+STATISTIQUES:
+
+THAC0: +2
+Dégâts: 2d4+2 de dégâts d'acide
+Facteur de vitesse : 2
+Type de compétence: Épée longue
+Type: arme à une main
+
+Poids: 0
+~
+*/
+//ntswd09.itm
+
+@205  = ~ Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Dans de nombreux cas, l’épée longue a une lame à un seul tranchant. Il n’existe pas de version unique de l’épée longue ; le design et la longueur varient d'une culture à l'autre et peuvent varier au sein d'une même culture selon l'époque. L'une des caractéristiques les plus courantes de toutes les épées longues est leur longueur, qui varie de trente-cinq pouces à quarante-sept pouces. Dans ce dernier cas, on sait que la lame occupe quarante pouces de la longueur totale. La plupart des épées longues ont une lame à double tranchant et une pointe acérée à la pointe. Malgré son extrémité pointue, cette arme est plutôt conçue pour frapper de taille que d'estoc.
+La lame de cette épée est recouverte de toutes sortes de symboles arcaniques.
+
+
+STATISTIQUES:
+
+Capacités de combat:
+- 10% de chances que la cible soit étourdie
+
+THAC0: +2
+Dégâts: 1d8+2, +1d4 de feu
+Type de dégâts: tranchant
+Speed: 4
+Type de compétence: Épée longue
+Type: arme à une main
+Nécessite: 
+ 6 en Force
+
+Poids: 4
+~
+//scrlnt71.itm
+
+@211  = ~Garde squelette 
+(Conjuration/Invocation)
+Niveau: 7
+Portée: 20 mètres
+Durée: 4 heures
+Temps d'incantation: 5 rounds
+Zone d'effet: Special
+Jet de sauvegarde: Aucun
+
+Le lanceur de sorts invoque 2 guerriers squelettes pour combattre à ses côtés au combat.~
+
+@214  = ~ Nuage de feu (Évocation)
+Niveau: 7
+Portée: Champ de vision du jeteur de sort 
+Durée: 4 tours +1d6 rounds
+Temps d'incantation: 2
+Zone d'effet: Rayon de 10 pieds
+Jet de sauvegarde: 1/2
+
+Ce sort produit un mince, nuage de fumée qui remplit la zone d'effet et semble initialement inoffensif. Cependant, un round plus tard, des étincelles et des flammes interviennent, infligeant 1 à 2 points de dégâts de feu par niveau au premier round. Au quatrième tour, il distribue 1 à 4 points/niveau, donc au cinquième tour, 1 à 2 points à nouveau. Le jet de sauvegarde peut réduire les dégâts de moitié pour chaque round. Le nuage continuera à s'enflammer à intervalles réguliers d'un round pendant toute la durée du sort.~
+
+@501  = ~À l'intérieur de ce pot en verre se trouve un mélange coûteux d'huile et d'autres produits chimiques.  Lorsque ce mélange est enflammé, il brûle pendant plusieurs secondes à une température très chaude.  L'huile enflammée est parfois difficile à utiliser car il faut beaucoup de temps à l'utilisateur pour la lancer correctement. Les aventuriers transportent souvent de l'huile avec eux pour faire face aux trolls dans le cas malheureux où ils seraient rencontrés.
+
+STATISTIQUES:
+
+Special:
+– Lorsqu'il est lancé sur une cible, le pot en verre se brise, répandant de l'huile enflammée sur tout ce qui se trouve dans un rayon de 5 pieds, causant 2 à 16 points de dégâts de feu.~
+
+/* Ajouté par Angel */
+
+@542  = ~L'enchanteur Presdon du Vaste a créé cette ceinture il y a plusieurs centaines d'années pour son garde du corps, Dendes le Tordu.  Il donna à la large ceinture le nom d'un géant des collines qui l'avait presque tué alors qu'il cherchait des composants de sort.  Dendes est mort en défendant Presdon contre des mages rivaux près d'Ordulin.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Force: 19
+
+Poids: 2
+~
+@544  = ~Les plaques dures qui protègent les carcasses d'ombre sont raisonnablement faciles à transformer en armure humanoïde. Cette armure sombre a été façonnée en plaques de maille par les forgerons duergars.  Les nains noirs, habiles à manipuler les exosquelettes de Hulk, ont réparé et renforcé l'armure.
+
+STATISTIQUES:
+
+Classe d'armure: 2 (-2 contre les armes tranchantes)
+
+Nécessite:
+ 12 en Force
+
+Poids: 40
+~
+@546  = ~Cette armure a été fabriquée par le forgeron nain Karador et un enchanteur elfe connu sous le nom d'Elameth des Cinq Arbres. Durant la période de coopération entre la Main de la Seldarine et le Gouffre de Dorn, de nombreux objets merveilleux ont été produits. Cette armure en faisait partie. Exceptionnellement belle et légère, l'armure était à l'origine portée par une maréchale elfe de la Main Séparée, c'est pourquoi les orques ne l'ont pas prise lorsqu'ils ont saccagé les tours. L'armure a ensuite été volée à la Main par l'elfe maléfique Maiden Ilmadia, qui l'a portée lors de sa bataille finale contre les défenseurs d'Easthaven au Gouffre inférieur de Dorn. Ce qui est arrivée à l'armure après sa défaite et comment elle a voyagé de l'épine dorsale du monde à la Côte des Épées n'est pas clair..
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Charisme: +1
+- Résistance au feu: +10%
+- Résistance au froid: +10%
+- Résistance à l'électricité: +10%
+- Résistance à l'acide: +10%
+
+Classe d'armure: 1 (-2 contre les armes tranchant)
+Nécessite:
+ 12 en Force
+
+Poids: 20
+~
+@548  = ~Cette robe a été confectionnée dans un tissu résistant et teinte en bleu foncé, la couleur préférée de son fier propriétaire, l'archimage Ogi-Luc.  Sembien de naissance, Ogi-Luc était un homme puissant, aussi fort de corps que d'esprit.  Cependant, Ogi-Luc ne se contentait pas d'être simplement fort. Il voulait être exceptionnellement fort.  Lorsqu'il enfilait ces robes, les hommes fiers se tenaient à l'écart et les fanfarons taisaient leur langue.  Malgré toute la fierté et les prouesses d'Ogi-Luc, il fut incapable de vaincre le sorcier rouge abjurateur Nesk Vhaltim.  Nesk a pris les robes comme trophée. Ils ont ensuite été volés et vendus par un voleur audacieux.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Classe d'armure: 4
+- Force: 18/99
+- Constitution: +2
+
+Poids: 5
+~
+@550 = ~Cette lourde armure en mithril a été fabriquée pour le général Ghotal par des forgerons nains capturés et enchantée par les chamans de la tribu lors de rites immondes dont il vaut mieux ne pas parler.  Bien qu'il offre une excellente protection, cette armure est lourde et encombrante, nécessitant une grande force physique pour être portée.  Cela semble certainement très impressionnant.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Charisme: +2
+- Dexterité: -4
+
+Classe d'armure: 0 (-3 contre les armes tranchantes, -1 contre les armes perforantes et les missiles)
+Nécessite:
+ 17 en Force
+
+Poids: 75~
+
+/* Nouveau dans la v5.0.0 */
+/* Les nouveautés d'Angel (2021 révision) */
+@557 = ~Cette robe de mage enchantée a des pouvoirs sur la terre et la pierre.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Immunité à la pétrification
+
+Charge abilities:
+- Peau de pierre (1/jour)
+- Transmutation de la pierre en chair (1/jour)
+
+Poids: 4~
+@559 = ~Cette robe de mage est recouverte de nombreux yeux cachés, offrant à celui qui la porte une vision panoramique. En conséquence, ils ne peuvent jamais être surpris.  Les yeux de la robe ont également une infravision et peuvent détecter des créatures invisibles.  Cependant, l'inconvénient est que le porteur est plus susceptible d'être transformé en pierre.
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Jets de sauvegarde contre les sorts: -4 contre la pétrification
+- Infravision
+- Immunité contre l'attaque sournoise
+
+Charge abilities:
+- Vision véritable (1/jour)
+
+Poids: 4~
+@561 = ~Anneau de protection +1, +3 contre les humanoïdes: 'Anneau de défense'
+Cet anneau magique appartenait autrefois à un noble de la Porte de Baldur. Craignant d'être assassiné par un rival, il a payé un sorcier local pour créer cet anneau afin de le protéger des humanoïdes.  Malheureusement pour lui, son rival a décidé d'utiliser un serpent venimeux pour la tentative d'assassinat..
+
+STATISTIQUES:
+
+Capacités d'équipement:
+- Classe d'armure: +1 (+3 contre les humanoïdes)
+- Jets de sauvegarde contre les sorts: +1 (+3 contre les humanoïdes)
+
+Poids: 0~
+@563   = ~L'armure de plaques supprime le support du soutien de la chaîne de la cotte de mailles ainsi que de l'amure de plates complètes pour économiser du poids.  Au lieu d'une combinaison légère de rembourrage, elle est porté sous l'armure.  Le poids considérable de cette armure est réparti sur le corps du porteur, et un chevalier entraîné peut s'allonger, se lever ou sauter en selle tout en portant cette armure.
+
+STATISTIQUES:
+
+Classe d'armure: 2 (-1 contre les armes tranchantes, 1 contre les armes perforantes et les missiles)
+Nécessite:
+ 14 en Force
+
+Poids: 60~
+/* ------ */
+
+/* Lignes de texte de DSotSC (version BGT/EET de k4thos) */
+
+
+@1454 = ~Cet arc a été créé pour être utilisé par les elfes pour défendre leurs forêts contre les gobelins et les hobgobelins, bien qu'il n'y ait pas de capacité spéciale contre les gobelins ou les hobgobelins.
+
+STATISTIQUES:
+
+THAC0: +2
+Dégâts: +2
+Facteur de vitesse : 3
+Type de compétence: Arc court
+Type: Arme à deux mains
+Nécessite: 
+ 6 en Force
+
+Poids: 2
+~

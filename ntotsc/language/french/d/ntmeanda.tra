@@ -1,0 +1,25 @@
+@0 = ~Qui vient à Meandar ? Monoach ne vous a pas envoyé, mais vous savez que c'est moi que vous cherchez ? ...Comment ?~
+@1 = ~Nous ne nous attendions pas à un accueil chaleureux, mais malgré cela, vous aurez peut-être envie de nous parler.~
+@2 = ~Meandar sait que quelqu'un viendra chercher une réponse... Meandar a-t-il tort ?~
+@3 = ~Nous n'avons pas le temps de jouer aux "jeux de devinettes...". Nous supposons que vous disposez d'une clé. C'est d'autant plus probable que vous connaissez Monoach. Nous en avons besoin.~
+@4    = ~Meandar a raison. Pouvez-vous nous donner la clé que vous possédez - comme je suppose ?~
+@5    = ~Meandar vous donnera la clé, mais vous devrez travailler pour l'obtenir. Rien n'est gratuit. Meandar a un ennemi. Les salamandres de glace formaient autrefois une famille, mais maintenant ils ne le sont plus. Kolchear n'est pas une vraie Salamandre et il a quitté la maison avec ses compagnons.~
+@6 = ~Alors - quelqu'un de familier... Où pouvons-nous trouver ce Kolchear ?~
+@7 = ~Quoi ? Pas encore. N'y a-t-il aucun moyen d'éviter ces conflits sans fin ?~
+@8 = ~Kolchear sait déjà que vous êtes ici, puisque vous, les créatures du plan primaire, l'avez tellement irrité... Vous pouvez vous attendre à le rencontrer dès que vous quitterez notre maison. Kolchear est dangereux alors bonne chance et faites attention à vous. Revenez ici après et je vous donnerai la clé... si vous êtes encore en vie...~
+@9 = ~Pourquoi Meandar ne bat-il pas ses ennemis tout seul au lieu d'utiliser l'aide d'aventuriers ?~
+@10 = ~Les salamandres de glace ne s'aiment peut-être pas, mais elles ne se battent pas... Elles ne possèdent pas d'arme qui pourrait vaincre une autre salamandre...~
+@11 = ~Meandar est attristé par le départ de ses frères, mais il respecte la valeur et le courage des nouveaux arrivants. Voici la clé que vous recherchez. Regardez attentivement la façon dont il est maîtrisé car un grand mal se cache derrière lui... ancien et cruel...~
+@12    = ~Quel mal ? Qu'en savez-vous ?~
+@13 = ~Meandar et Monoach étaient amis... il y a longtemps. Mais Monoach ne nous a jamais expliqué l'utilisation de la clé ni la manière dont ses chemins mènent... Mais Monoach ne nous aurait pas donné la clé s'il n'avait pas eu peur de son destin. Meandar ne sait rien de plus.~
+@14    = ~Meandar ne sait rien de plus.~
+@15    = ~Bienvenue. Qui êtes vous pour venir à notre maison ?~
+@16    = ~Je viens de loin et j'ai besoin de votre aide... ou plutôt d'une clé...~
+@17 = ~Connaissez-vous l'histoire de Monoach ?... C'est bien. Ce que vous ne savez pas, c'est que Monoach se battait contre une secte. Il déteste la Main Noire et leur désir de ramener Bhaal et tant que leur nouveau temple existera, je ne pourrai pas vous aider. Revenez quand leur chef sera mort. Je saurai si c'est fait. Je ne sais pas où se trouve le Temple de la Main Noire, mais ses agents sont de plus en plus nombreux. Je comprends qu'il puisse y avoir une branche éclatée dans la barbe d'Ulgoth, et qu'il y a eu d'étranges événements dans le Champ des Morts. Peut-être que si vous cherchez là-bas, vous pourrez le localiser.~
+/* @18 -> @10037 */
+@19 = ~C'est alors fait. Bien.~
+
+/* nouveau pour la v2.0 */
+@20 = ~Faites ce que Meander a demandé et vous obtiendrez la clé.~
+@21 = ~Je ne suis pas là pour régler un de vos conflits familiaux !~
+@22 = ~Alors vous n'obtiendrez pas de clé. Kolchear déteste les premiers planeurs et ne pose pas de questions. S'il vous remarque, vous le combattrez, si ce n'est pas pour Meandar, alors faîtes-le  pour vous protéger. ~
