@@ -1,0 +1,49 @@
+ // To translate
+ 
+@0	= ~Skeleton Guard~
+@1	= ~Skeleton Guard 
+(Necromancy)
+Level: 6
+Range: 20 yards
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: Special
+Saving throw: None
+
+The caster summons forth a skeletal guard to fight for <PRO_HIMHER> in battle.  The guard remains until it is destroyed or the duration runs out.~
+@2	= ~Skeleton Guard 
+(Conjuration/Summoning)
+Level: 7
+Range: 20 yards
+Duration: 4 hours
+Casting Time: 5
+Area of Effect: Special
+Saving throw: None
+
+The caster summons forth 2 Skeletal Warriors to fight for <PRO_HIMHER> in battle.~
+
+@3	= ~Fiery Cloud~
+@4	= ~Fiery Cloud
+(Evocation)
+
+Level: 6
+Range: Visual range of the caster
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: 15-ft. radius cloud
+Saving Throw: None
+
+This spell creates a billowing cloud of roaring flame. Any in the area of the spell must leave the cloud immediately or suffer 4-16 (4d4) points of fire damage each round while in the area of effect~
+@5	= ~Fiery Cloud
+(Evocation)
+
+Level: 8
+Range: Visual range of the caster
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: 15-ft. radius cloud
+Saving Throw: 1/2
+
+This spell creates a billowing cloud of roaring flame. Any in the area of the spell must leave the cloud immediately or suffer 1-4 points of fire damage per level of the caster each round while in the area of effect, with a Save vs. Spell for half.~
+
+

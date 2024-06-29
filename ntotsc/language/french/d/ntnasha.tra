@@ -1,4 +1,12 @@
+ // To translate
+
 /* #15087 */
 @0 = ~Partez ou je vous coupe le nez du visage.~
 /* #15088 */
-@1 = ~Keelor~
+@1 = ~Keelor told me how you helped him after that gnoll attack. We're all very grateful... Now, could everyone who needs to be healed talk to me separately?~
+/* #15089 */
+@2 = ~You need to be healed, do you? Well, Keelor's friend is my friend. Us dwarves are like that, I guess.~
+/* #15090 */
+@3 = ~I can't fix you unless you're broken. Perhaps I should be talking to someone who is in greater need.~
+/* #15091 */
+@4 = ~If that's the way you want to be, then look out!~

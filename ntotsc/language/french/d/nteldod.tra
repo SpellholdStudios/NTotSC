@@ -1,1 +1,46 @@
-@0    = ~Eh bien, vous avez~
+ // To translate
+ 
+@0    = ~Eh bien, vous avez sent from Baldur's Gate? None of my business...~
+// #3285 (change "Eldoth" to "Eldod")
+@1    = ~Oh, very well. I am Eldod, and I am captain of the guard here at the keep. I'll not tolerate your nosing about, and I don't care what duke of whatever city sent you! Keep your best behavior, or I shall be forced to turn you out!~
+// #3286
+@2    = ~There is no need for this. We are here to aid in the search for your lost compatriots. We do not mean to step on your toes.~
+// #3287
+@3    = ~As I heard it, you are but the "acting" Captain. Should you not be more concerned with the return of your true leader?~
+// #3288
+@4    = ~I go where I wish! You have already demonstrated how ineffective you are!  It's best we clean up your little mess for you!~
+// #3289
+@5    = ~My compatriots are in no need of your help. We shall manage their rescue just fine without you. Best you go to the guesthouse and stay out of our way.~
+/* @6 -> @10007 */  
+// #3290
+@7    = ~I'll have you know that it is I who rules this roost, and I'll not have you "Gallihading" about. I am Captain of what little guard is left, and we shall manage fine without help from you!~
+// #3291
+@8    = ~I should watch who you threaten! As the duly appointed Captain of the Guard it is WELL within my power to have you taken out and flogged!  If I were in your position I should just go to the guesthouse and stay there!~
+// #3292
+@9    = ~I did warn you about poking around. Now I fear I must... I fear... I must kill you!~
+/* @10 -> @10008 */  
+// #3293
+@11   = ~Free? My mind is free! His blasted evil tentacles have been ripped out! Please, I have been under such a wicked spell! It was Krotan who made me... made me... Oh, by all the gods, what have I done?! Such things I could not have... such things I was made to do... I must tell you! There is a great evil at work amongst us, and it is an ogre mage of considerable power. The knowledge of the Keep is what he seeks, and he has been gathering forces these last weeks. I was his... pawn and have killed for him... killed friends for him! PLEASE! I can show you where he is hiding if you will but let me help in taking his head!~
+// #3294
+@12   = ~This is trickery! You have kidnapped and murdered and now you wish to save your skin. It is too no avail! You die tonight!~
+// #3295
+@13   = ~I trust you not an inch further that I can throw you, and do not think I am not tempted to try! We will fight him, but you must remain here. Where can we find him?~
+// #3296
+@14   = ~I know not whether to trust you or not, but if you have been treated as you say I cannot deny you right of vengeance. Fight with us for right and justice!~
+// #3297
+@15   = ~No! I must live to take my vengeance! If I have to go through you, then so be it!~
+@16   = ~Take it easy, you've just been charmed, and you want to start killing again?~
+@17   = ~Then come here, you traitor!~
+/* @18 */  
+@19   = ~That... that is true... I must end this immediately... Take this key. We'll meet underneath the mausoleum...~
+// #3298
+@20   = ~As— As you wish it. He has concealed his growing forces beneath the old Mausoleum. You will find him there, if you have the key to access it. Here it is. Take it. Take it, and send that vile creature thrice through the hells!~
+// #3299
+@21   = ~I've the blood of my fellows on my hands... Tonight, I will see if the blood of evil be the same color as that of the innocent. Come, he hides beneath the Mausoleum, gathering strength. There we must go!~
+@22   = ~No... the blood... the blood is on my hands...~
+// #3301
+@23   = ~I'll kill you for what you... for what I did! It's all because of YOU!~
+@24   = ~Yes...~
+
+/* new for v2.0 */
+@25   = ~Free? My mind is free! His blasted evil tentacles have been ripped out! Please, I have been under such a wicked spell! It was Krotan who made me... made me... Oh, by all the gods, what have I done?! Such things I could not have... such things I was made to do...~
