@@ -1,4 +1,4 @@
-@0 = ~Vous, les créatures du plan primaire, osez venir à Humbaba... ? Vous êtes devenu fous, n'est-ce pas?~
+@0 = ~Vous, les créatures du plan primaire, osez venir à Humbaba... ? Vous êtes devenu fous, n'est-ce pas ?~
 @1    = ~Fous ? Que faites-vous ici? Pourquoi ne pouvez-vous pas arrêter de harceler les pauvres pêcheurs ?~
 @2    = ~Meurs... sale monstre !~
 /* @3 -> @10024 */
@@ -7,8 +7,8 @@
 @6 = ~Quelle colère vous avez ! Humbaba est prêt à se battre - les créatures du plan primaire sont stupides - les créatures du plan primaire sont prêts à mourir...!~
 @7    = ~Alors préparez-vous, canaille !~
 @8    = ~Allez-y doucement, homme "au sang chaud" ! On ne peut même pas parler ?~ ~Allez-y doucement, femme "au sang chaud" ! On ne peut même pas parler ?~
-@9 = ~Humbaba dit que les plus petits devraient s'en aller - sinon Humbaba s'amusera à les tuer!~
-@10   = ~C'est bon, d'accord. Vous avez l'air assez dangereux. Nous ne voulons pas lutter contre vous. Au revoir!~
+@9 = ~Humbaba dit que les plus petits devraient s'en aller... sinon Humbaba s'amusera à les tuer !~
+@10   = ~C'est bon, d'accord. Vous avez l'air assez dangereux. Nous ne voulons pas lutter contre vous. Au revoir !~
 /* @11 -> @10026 */  
 @12 = ~Humbaba doit bien écouter - nous n'allons nulle part - nous sommes prêts à nous battre.~
 @13 = ~Vous avez pris Humbaba à son propre jeu.. ! Humbaba est furieux..! Humbaba tue les créatures du plan primaire maintenant..!~

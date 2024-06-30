@@ -1,12 +1,10 @@
- // To translate
-
 /* #15087 */
 @0 = ~Partez ou je vous coupe le nez du visage.~
 /* #15088 */
-@1 = ~Keelor told me how you helped him after that gnoll attack. We're all very grateful... Now, could everyone who needs to be healed talk to me separately?~
+@1 = ~Keelor m'a raconté comment vous l'aviez aidé après cette attaque de gnoll. Nous sommes tous très reconnaissants... Maintenant, est-ce que tous ceux qui ont besoin d'être guéris pourraient me parler séparément ?~
 /* #15089 */
-@2 = ~You need to be healed, do you? Well, Keelor's friend is my friend. Us dwarves are like that, I guess.~
+@2 = ~Vous avez besoin d'être guéri, n'est-ce pas ? Eh bien, l'ami de Keelor est mon ami. Nous, les nains, sommes comme ça, je suppose.~ ~Vous avez besoin d'être guérie, n'est-ce pas ? Eh bien, l'amie de Keelor ??est mon ami. Nous, les nains, sommes comme ça, je suppose.~
 /* #15090 */
-@3 = ~I can't fix you unless you're broken. Perhaps I should be talking to someone who is in greater need.~
+@3 = ~Je ne peux pas vous réparer à moins que vous ne soyez brisé. Peut-être que je devrais parler à quelqu'un qui en a le plus besoin.~
 /* #15091 */
-@4 = ~If that's the way you want to be, then look out!~
+@4 = ~Si c'est comme ça que vous voulez être, alors faîtes attention !~

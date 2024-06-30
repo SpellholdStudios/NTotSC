@@ -13,7 +13,7 @@ Lobar nous a dirigé vers la Sirène Rougissante dans notre tâche de trouver le Li
 // @1 de NT#DELTA.tra
 @10003 = ~Mystère à la Citadelle du Nord
 
-Le duc Eltan m'a demandé de me rendre à la Citadelle du Nord, au nord-est de Baldur's Gate. Il semble que des gens disparaissent de là-bas. Il veut que je découvre ce qui se passe réellement...~
+Le duc Eltan m'a demandé de me rendre à la Citadelle du Nord, au nord-est de la Porte de Baldur. Il semble que des gens disparaissent de là-bas. Il veut que je découvre ce qui se passe réellement...~
 // @15 de NTARCHAN.tra
 @10004  = ~L'île des sirènes
 
@@ -52,7 +52,9 @@ Lorsque nous sommes finalement entrés dans la crypte si respectée des orques, no
 //#15797
 @10014    = ~Pilar et Gheldehar
 
-Aujourd'hui, je suis tombé sur un petit gnome crasseux appelé Gheldehar dans une ruelle. Il affirme que Pilar, une vieille « amie » séjournant actuellement à l'auberge de Brasamical, lui a volé ses bottes et il aimerait les récupérer. Comme Gheldehar ne semblait pas se soucier de la façon dont je pourrais les acquérir, je soupçonne que son utilisation du terme « amie » n'était guère plus qu'une façade.~ ~Aujourd'hui, je suis tombée sur un petit gnome crasseux appelé Gheldehar dans une ruelle. Il affirme que Pilar, une vieille « amie » séjournant actuellement à l'auberge de Brasamical, lui a volé ses bottes et il aimerait les récupérer. Comme Gheldehar ne semblait pas se soucier de la façon dont je pourrais les acquérir, je soupçonne que son utilisation du terme « amie » n'était guère plus qu'une façade.~
+Aujourd'hui, je suis tombé sur un petit gnome crasseux appelé Gheldehar dans une ruelle. Il affirme que Pilar, une vieille « amie » séjournant actuellement à l'auberge de Brasamical, lui a volé ses bottes et il aimerait les récupérer. Comme Gheldehar ne semblait pas se soucier de la façon dont je pourrais les acquérir, je soupçonne que son utilisation du terme « amie » n'était guère plus qu'une façade.~ ~Pilar et Gheldehar
+
+Aujourd'hui, je suis tombée sur un petit gnome crasseux appelé Gheldehar dans une ruelle. Il affirme que Pilar, une vieille « amie » séjournant actuellement à l'auberge de Brasamical, lui a volé ses bottes et il aimerait les récupérer. Comme Gheldehar ne semblait pas se soucier de la façon dont je pourrais les acquérir, je soupçonne que son utilisation du terme « amie » n'était guère plus qu'une façade.~
 //@1 de NTGUARNC.tra
 @10015    = ~Mystère à la Citadelle du Nord
 
@@ -101,15 +103,15 @@ La rencontre avec les Salamandres de Feu s'est révélée très dangereuse et nous a
 //@1 de NTKEELOR.tra #15737
 @10027    = ~Keelor le Nain
 
-Après avoir ramené Keelor ??à la conscience, le nain battu m'a informé qu'il y avait des gnolls dans la région. Comme l'état de Keelor ??me l'a clairement montré, ils deviennent une menace toujours croissante.~
+Après avoir ramené Keelor à la conscience, le nain battu m'a informé qu'il y avait des gnolls dans la région. Comme l'état de Keelor me l'a clairement montré, ils deviennent une menace toujours croissante.~
 //@3 de NTKEELOR.tra #15738
 @10028    = ~Keelor le Nain
 
-Après avoir ramené Keelor ??à la conscience, le nain battu m'a informé de la présence de gnolls dans les environs. Comme l'état de Keelor ??me l'a clairement montré, ils deviennent une menace toujours croissante. Je ferais mieux de lui parler la prochaine fois que je passerai par Beregost car je soupçonne qu'il souffrait plus qu'il n'a choisi de l'admettre.~
+Après avoir ramené Keelor à la conscience, le nain battu m'a informé de la présence de gnolls dans les environs. Comme l'état de Keelor me l'a clairement montré, ils deviennent une menace toujours croissante. Je ferais mieux de lui parler la prochaine fois que je passerai par Bérégost car je soupçonne qu'il souffrait plus qu'il n'a choisi de l'admettre.~
 //@5 de NTKEELOR.tra #15739
 @10029    = ~Keelor le Nain
 
-Après avoir ramené Keelor ??à la conscience, le nain battu m'a informé que les gnolls avaient accru leur présence dans la région. Comme l'état de Keelor ??me l'a clairement montré, ils représentent une menace croissante. Dans un geste d'une gentillesse inattendue, il a également offert les services de guérison de sa sœur Nasha, un clerc dans le quartier sud de Baldur's Gate, si jamais moi ou mon groupe en avions besoin.~
+Après avoir ramené Keelor à la conscience, le nain battu m'a informé que les gnolls avaient accru leur présence dans la région. Comme l'état de Keelor me l'a clairement montré, ils représentent une menace croissante. Dans un geste d'une gentillesse inattendue, il a également offert les services de guérison de sa sœur Nasha, un clerc dans le quartier sud de la Porte de Baldur, si jamais moi ou mon groupe en avions besoin.~
 //@6 de NTKOLDAR.tra 
 @10030    = ~Les Champs des Morts
 
@@ -127,9 +129,11 @@ Nous avons rencontré Krotan à l'intérieur du mausolée. Il s'apprêtait à prendre 
 
 A la Citadelle du Nord nous avons rencontré Lénore qui supporte mal ces disparitions. Elle se soucie le plus de Montgomery qui fait partie des perdus. Nous devrions le chercher et peut-être parviendrons-nous à apaiser la douleur de Lenore.~
 //@2 de NTLLINDE.tra #15731
-@10034    = ~Flèche porte-bonheur de Llindellyn?
+@10034    = ~Flèche porte-bonheur de Llindellyn
 
-Mais qui suis-je, un aventurier sans envergure arpentant la forêt en quête de la flèche porte bonheur d'un parfait inconnu. Je veux dire, Llindellyn est plutôt sympa mais... Ne suis-je pas censé être ailleurs, à occire des tarrasques ou je ne sais quoi d'autre ?~ ~Mais qui suis-je, une aventurière sans envergure arpentant la forêt en quête de la flèche porte bonheur d'un parfait inconnu. Je veux dire, Llindellyn est plutôt sympa mais... Ne suis-je pas censée être ailleurs, à occire des tarrasques ou je ne sais quoi d'autre ?~
+Mais qui suis-je, un aventurier sans envergure arpentant la forêt en quête de la flèche porte bonheur d'un parfait inconnu. Je veux dire, Llindellyn est plutôt sympa mais... Ne suis-je pas censé être ailleurs, à occire des tarrasques ou je ne sais quoi d'autre ?~ ~Flèche porte-bonheur de Llindellyn
+
+Mais qui suis-je, une aventurière sans envergure arpentant la forêt en quête de la flèche porte bonheur d'un parfait inconnu. Je veux dire, Llindellyn est plutôt sympa mais... Ne suis-je pas censée être ailleurs, à occire des tarrasques ou je ne sais quoi d'autre ?~
 //@11 de NTLUCRET.tra 
 @10035    = ~L'île des sirènes
 
@@ -158,7 +162,9 @@ Nous avons dit à Nadalin, qui est pêcheur et marin, que nous avions détruit les 
 //@1 de NTNIMFUR.tra #15715
 @10042    = ~Les chiens de chasse de Nim Furlwing
 
-Je me sens plus un idiot qu’un robuste aventurier aujourd’hui. Il semblerait que je sois arrivé trop tard et que j'ai fait trop peu pour sauver les excellents chiens de chasse d'un certain Nim Furlwing dans le Bois aux Dents Acérées.~ ~Je me sens plus une idiote qu’une robuste aventurière aujourd’hui. Il semblerait que je sois arrivée trop tard et que j'ai fait trop peu pour sauver les excellents chiens de chasse d'un certain Nim Furlwing dans le Bois aux Dents Acérées.~
+Je me sens plus un idiot qu’un robuste aventurier aujourd’hui. Il semblerait que je sois arrivé trop tard et que j'ai fait trop peu pour sauver les excellents chiens de chasse d'un certain Nim Furlwing dans le Bois aux Dents Acérées.~ ~Les chiens de chasse de Nim Furlwing
+
+Je me sens plus une idiote qu’une robuste aventurière aujourd’hui. Il semblerait que je sois arrivée trop tard et que j'ai fait trop peu pour sauver les excellents chiens de chasse d'un certain Nim Furlwing dans le Bois aux Dents Acérées.~
 //@4 de NTNIMFUR.tra
 @10043   = ~Les chiens de chasse de Nim Furlwing
 
@@ -189,11 +195,15 @@ Nous lui avons apporté la bougie d'Ordolath, il nous a donné notre récompense et
 //@13 de NTOUPAST.tra (contenu ajouté) 
 @10052   = ~Le Grand Livre de l'Ignorance
 
-Oupaste n'a pas été très utile, mais il a dit que le sorcier à qui il avait vendu le livre vivait dans les Pics nuageux, au sud de la forêt des feuilles écarlates. J'y suis déjà allé mais je suppose que je vais devoir revenir et chercher un moyen d'accéder à un passage.~ ~Oupaste n'a pas été très utile, mais il a dit que le sorcier à qui il avait vendu le livre vivait dans les Pics nuageux, au sud de la forêt des feuilles écarlates. J'y suis déjà allée mais je suppose que je vais devoir revenir et chercher un moyen d'accéder à un passage.~
+Oupaste n'a pas été très utile, mais il a dit que le sorcier à qui il avait vendu le livre vivait dans les Pics nuageux, au sud de la forêt des feuilles écarlates. J'y suis déjà allé mais je suppose que je vais devoir revenir et chercher un moyen d'accéder à un passage.~ ~Le Grand Livre de l'Ignorance
+
+Oupaste n'a pas été très utile, mais il a dit que le sorcier à qui il avait vendu le livre vivait dans les Pics nuageux, au sud de la forêt des feuilles écarlates. J'y suis déjà allée mais je suppose que je vais devoir revenir et chercher un moyen d'accéder à un passage.~
 //@6 de NTPANDRI.tra (divisé en plusieurs: @10053, @10097, @10098)
 @10053  = ~Sauver Pandris des Orques
 
-Nous avons sauvé Pandris, le mari d'Yness des orques dans les Champs des Morts. Il nous a donné une lettre pour sa femme. Je ne suis pas seulement celui qui sauve la vie, maintenant, je suis aussi le messager qui apporte la bonne nouvelle !~ ~Nous avons sauvé Pandris, le mari d'Yness des orques dans les Champs des Morts. Il nous a donné une lettre pour sa femme. Je ne suis pas seulement celle qui sauve la vie, maintenant, je suis aussi la messagère qui apporte la bonne nouvelle !~
+Nous avons sauvé Pandris, le mari d'Yness des orques dans les Champs des Morts. Il nous a donné une lettre pour sa femme. Je ne suis pas seulement celui qui sauve la vie, maintenant, je suis aussi le messager qui apporte la bonne nouvelle !~ ~Sauver Pandris des Orques
+
+Nous avons sauvé Pandris, le mari d'Yness des orques dans les Champs des Morts. Il nous a donné une lettre pour sa femme. Je ne suis pas seulement celle qui sauve la vie, maintenant, je suis aussi la messagère qui apporte la bonne nouvelle !~
 //@7 de NTPAULIA.tra 
 @10054  = ~L'île des sirènes
 
@@ -255,14 +265,14 @@ Le chef du village de la Côte Nord nous a dit qu'il y existerait une île comme c
 
 De retour de l'île des loups-garous, nous nous sommes arrêtés sur une île à l'aspect sympathique pour nous ravitailler, ce que nous n'avons pas pu faire plus tôt en raison de la précipitation. Sur le rivage, nous avons été accueillis par des sirènes amicales vivant sur l'île. Peut-être devrions-nous rester ici un moment...?~
 // @18 de NTTORDIO.dlg 
-@10071   = ~Les fantômes à l'est de Beregost
+@10071   = ~Les fantômes à l'est de Bérégost
 
 Un ou plusieurs fantômes résident dans la grotte, à l'est du temple du Chant du Matin. Ce "quelque chose" raconte des histoires sur la vengeance du vampire... Il a besoin de l'épée vampirique et de l'eau bénite ou de vrais durs à cuire pour les "envoyer" dans l'au-delà... Nous verrons ce qui peut être fait.~
 // @24 de NTTORDIO.dlg
-@10072   = ~Les fantômes à l'est de Beregost
+@10072   = ~Les fantômes à l'est de Bérégost
 
-Le fantôme de la grotte de Beregost a reçu tous les objets requis et finalement il est parti ... ils sont partis... Il est temps de jeter un coup d'œil dans leur chambre !~
-@10073   = ~Les fantômes à l'est de Beregost~
+Le fantôme de la grotte de Bérégost a reçu tous les objets requis et finalement il est parti ... ils sont partis... Il est temps de jeter un coup d'œil dans leur chambre !~
+@10073   = ~Les fantômes à l'est de Bérégost~
 // @2 de NTWELT.dlg #15741
 @10074 = ~Rats pour toutou
 
@@ -283,11 +293,11 @@ Nous avons apporté à Yness un message de son mari, que nous avons sauvé des main
 // @26 de WILL.tra 
 @10079   = ~Will O'Hara
 
-Il y a un jeune homme inhabituel qui vit à Beregost : Will Scarlet, bien que certains l'appellent Will Tell Helm. J'ai décidé de l'emmener avec moi, ses capacités extraordinaires et sa verve peuvent s'avérer utiles un jour...~
+Il y a un jeune homme inhabituel qui vit à Bérégost : Will Scarlet, bien que certains l'appellent Will Tell Helm. J'ai décidé de l'emmener avec moi, ses capacités extraordinaires et sa verve peuvent s'avérer utiles un jour...~
 // @37 de WILL.tra
 @10080   = ~Will O'Hara
 
-Will a promis son fléau original chez Feldepost pour mille pièces d'or. Je devrais envisager de le reprendre. Il a également commandé une nouvelle armure à la forge de Taerom Thunderhammer à Beregost. Si nous avons l'argent, il sera disponible pour...~
+Will a promis son fléau original chez Feldpost pour mille pièces d'or. Je devrais envisager de le reprendre. Il a également commandé une nouvelle armure à la forge de Taerom Grondemarteau à Bérégost. Si nous avons l'argent, il sera disponible pour...~
 @10081   = ~Will O'Hara~
 @10082   = ~Les champs des morts~
 @10083   = ~L'île des sirènes~
@@ -316,7 +326,7 @@ Nadalin, le pêcheur de la Côte Nord, est retourné à son bateau et est prêt à nou
 @10092 = ~Les Tanar'ri dans les Pics Nuageux~
 @10093 = ~Les Tanar'ri dans les Pics Nuageux
 
-J'ai rencontré plusieurs Tanar'ri dans un donjon dans les Pics Nuageux ??qui m'ont proposé de regagner tranquillement leur plan d'origine si je leur apportais le cadavre du mage qui les avait invoqués. Ils ont mentionné quelqu'un nommé Haeball à qui je devrais parler.~
+J'ai rencontré plusieurs Tanar'ri dans un donjon dans les Pics Nuageux qui m'ont proposé de regagner tranquillement leur plan d'origine si je leur apportais le cadavre du mage qui les avait invoqués. Ils ont mentionné quelqu'un nommé Haeball à qui je devrais parler.~
 @10094   = ~Les Tanar'ri dans les Pics Nuageux
 
 Peut-être que je n'aurais pas dû demander – maintenant les Tanar'ri insistent pour recevoir l'arc du capitaine Fey'doch...~

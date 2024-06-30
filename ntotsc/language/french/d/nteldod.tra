@@ -1,46 +1,44 @@
- // To translate
- 
-@0    = ~Eh bien, vous avez sent from Baldur's Gate? None of my business...~
-// #3285 (change "Eldoth" to "Eldod")
-@1    = ~Oh, very well. I am Eldod, and I am captain of the guard here at the keep. I'll not tolerate your nosing about, and I don't care what duke of whatever city sent you! Keep your best behavior, or I shall be forced to turn you out!~
+@0    = ~Eh bien, vous avez été envoyé depuis la Porte de Baldur ? Ce ne sont pas mes affaires...~
+// #3285 (changer "Eldoth" par "Eldod")
+@1    = ~Oh, très bien. Je m'appelle Eldod et je suis capitaine des gardes ici au donjon. Je ne tolérerai pas que vous fouiniez partout, et je me fiche de savoir quel duc de quelle ville vous a envoyé ! Gardez votre meilleur comportement, ou je serai obligé de vous expulser !~
 // #3286
-@2    = ~There is no need for this. We are here to aid in the search for your lost compatriots. We do not mean to step on your toes.~
+@2    = ~Ce n'est pas nécessaire. Nous sommes là pour vous aider à rechercher vos compatriotes perdus. Nous ne voulons pas vous marcher sur les pieds.~
 // #3287
-@3    = ~As I heard it, you are but the "acting" Captain. Should you not be more concerned with the return of your true leader?~
+@3    = ~Comme je l'ai entendu, vous n'êtes que le capitaine "par intérim". Ne devriez-vous pas vous inquiéter davantage du retour de votre véritable chef ?~
 // #3288
-@4    = ~I go where I wish! You have already demonstrated how ineffective you are!  It's best we clean up your little mess for you!~
+@4    = ~Je vais où je veux ! Vous avez déjà démontré à quel point vous êtes inefficace !  Il vaut mieux que nous nettoyions votre petit désordre pour vous !~
 // #3289
-@5    = ~My compatriots are in no need of your help. We shall manage their rescue just fine without you. Best you go to the guesthouse and stay out of our way.~
+@5    = ~Mes compatriotes n'ont pas besoin de votre aide. Nous gérerons très bien leur sauvetage sans vous. Le mieux est que vous allez à la maison d'hôtes et que vous restez en dehors de notre chemin.~
 /* @6 -> @10007 */  
 // #3290
-@7    = ~I'll have you know that it is I who rules this roost, and I'll not have you "Gallihading" about. I am Captain of what little guard is left, and we shall manage fine without help from you!~
+@7    = ~Je vous ferai savoir que c'est moi qui dirige ce perchoir, et je ne vous laisserai pas "fureter". Je suis le capitaine du peu de gardes qui restent, et nous nous en sortirons bien sans votre aide !~
 // #3291
-@8    = ~I should watch who you threaten! As the duly appointed Captain of the Guard it is WELL within my power to have you taken out and flogged!  If I were in your position I should just go to the guesthouse and stay there!~
+@8    = ~Je devrais faire attention à qui vous menacez ! En tant que capitaine de la garde dûment nommé, il est BIEN en mon pouvoir de vous faire sortir et vous fouetter !  Si j'étais à votre place, je devrais simplement aller à la maison d'hôtes et y rester !~
 // #3292
-@9    = ~I did warn you about poking around. Now I fear I must... I fear... I must kill you!~
+@9    = ~Je vous ai prévenu de ne pas fouiller. Maintenant, j'ai peur de devoir... J'ai peur... de devoir vous tuer !~
 /* @10 -> @10008 */  
 // #3293
-@11   = ~Free? My mind is free! His blasted evil tentacles have been ripped out! Please, I have been under such a wicked spell! It was Krotan who made me... made me... Oh, by all the gods, what have I done?! Such things I could not have... such things I was made to do... I must tell you! There is a great evil at work amongst us, and it is an ogre mage of considerable power. The knowledge of the Keep is what he seeks, and he has been gathering forces these last weeks. I was his... pawn and have killed for him... killed friends for him! PLEASE! I can show you where he is hiding if you will but let me help in taking his head!~
+@11    = ~Libre ? Mon esprit est libre ! Ses maudits tentacules maléfiques ont été arrachés ! S'il vous plaît, j'ai été sous un tel sort ! C'est Krotan qui m'a fait... m'a fait... Oh, par tous les dieux, qu'ai-je fait ?! De telles choses que je ne pouvais pas avoir... de telles choses pour lesquelles j'étais fait... Je dois vous dire! Il y a un grand mal à l’œuvre parmi nous, et c’est un ogre mage au pouvoir considérable. La connaissance du Donjon est ce qu'il recherche, et il a rassemblé ses forces ces dernières semaines. J'étais son... pion et j'ai tué pour lui... tué des amis pour lui ! S'IL VOUS PLAÎT! Je peux vous montrer où il se cache si vous le voulez bien, mais laissez-moi vous aider à lui prendre sa tête !~
 // #3294
-@12   = ~This is trickery! You have kidnapped and murdered and now you wish to save your skin. It is too no avail! You die tonight!~
+@12    = ~C'est une supercherie ! Vous avez kidnappé et assassiné et maintenant vous souhaitez sauver votre peau. Cela ne sert à rien non plus ! Vous mourrez ce soir !~
 // #3295
-@13   = ~I trust you not an inch further that I can throw you, and do not think I am not tempted to try! We will fight him, but you must remain here. Where can we find him?~
+@13    = ~Peut-être, vous avez ma confiance tant que vous restez à portée de ma lame et soyez assuré que je n’hésiterais pas à m'en servir ! Nous le combattrons, mais vous devez rester ici. Où peut-on le trouver ?~
 // #3296
-@14   = ~I know not whether to trust you or not, but if you have been treated as you say I cannot deny you right of vengeance. Fight with us for right and justice!~
+@14    = ~Je ne sais pas si je dois vous faire confiance ou non, mais si vous avez été traité comme vous le dîtes, je ne peux pas vous refuser le droit de vengeance. Combattez avec nous pour le droit et la justice !~
 // #3297
-@15   = ~No! I must live to take my vengeance! If I have to go through you, then so be it!~
-@16   = ~Take it easy, you've just been charmed, and you want to start killing again?~
-@17   = ~Then come here, you traitor!~
+@15    = ~Non ! Je dois vivre pour me venger ! Si je dois passer par vous, qu'il en soit ainsi !~
+@16    = ~Détendez-vous, vous venez d'être charmé et vous voulez recommencer à tuer ?~
+@17    = ~Alors venez ici, espèce de traître !~
 /* @18 */  
-@19   = ~That... that is true... I must end this immediately... Take this key. We'll meet underneath the mausoleum...~
+@19    = ~C'est... c'est vrai... Je dois y mettre fin immédiatement... Prenez cette clé. Nous nous retrouverons sous le mausolée...~
 // #3298
-@20   = ~As— As you wish it. He has concealed his growing forces beneath the old Mausoleum. You will find him there, if you have the key to access it. Here it is. Take it. Take it, and send that vile creature thrice through the hells!~
+@20    = ~Comme vous le souhaitez. Il a caché ses forces croissantes sous le vieux mausolée. Vous le trouverez là-bas, si vous avez la clé pour y accéder. C'est ici. Prenez-la et envoyez cette vile créature trois fois à travers les enfers !~
 // #3299
-@21   = ~I've the blood of my fellows on my hands... Tonight, I will see if the blood of evil be the same color as that of the innocent. Come, he hides beneath the Mausoleum, gathering strength. There we must go!~
-@22   = ~No... the blood... the blood is on my hands...~
+@21    = ~J'ai le sang de mes camarades sur les mains... Ce soir, je verrai si le sang du mal est de la même couleur que celui des innocents. Venez, il se cache sous le mausolée, rassemblant ses forces. C'est là qu'il faut y aller !~
+@22    = ~Non... le sang... le sang est sur mes mains...~
 // #3301
-@23   = ~I'll kill you for what you... for what I did! It's all because of YOU!~
-@24   = ~Yes...~
+@23    = ~Je vais vous tuer pour ce que vous... pour ce que j'ai fait ! C'est grâce à VOUS !~
+@24    = ~Oui...~
 
-/* new for v2.0 */
-@25   = ~Free? My mind is free! His blasted evil tentacles have been ripped out! Please, I have been under such a wicked spell! It was Krotan who made me... made me... Oh, by all the gods, what have I done?! Such things I could not have... such things I was made to do...~
+/* nouveau pour la v2.0 */
+@25    = ~Libre ? Mon esprit est libre ! Ses maudits tentacules maléfiques ont été arrachés ! S'il vous plaît, j'ai été sous un tel sort ! C'est Krotan qui m'a fait... m'a fait... Oh, par tous les dieux, qu'ai-je fait ?! De telles choses que je ne pouvais pas avoir... de telles choses pour lesquelles j'étais fait...~
