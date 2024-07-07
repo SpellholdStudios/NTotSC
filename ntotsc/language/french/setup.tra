@@ -1132,9 +1132,9 @@ D.~
 // #39680 (BGII)
 @512 = ~Vampire novice~
 
-@513 = ~DSotSC pour BGT/EET détecté.~
-@514 = ~Sorts d'assistant DSotSC détectés. Ajout de références...~
-@515 = ~Composant principal DSotSC non détecté. Installation des ressources...~
+@513 = ~DSotSC pour BGT/EET detecte.~
+@514 = ~Sorts d'assistant DSotSC détectes. Ajout de references...~
+@515 = ~Composant principal DSotSC non détecte. Installation des ressources...~
 @516 = ~Cela semble être une sorte de carte. Une inscription indique « Bois aux dents acérées ». Plus à l'est et légèrement au nord, vous remarquez une marque, comme s'il s'agissait d'un lieu important.~
 // une partie de ceci provient de la ligne NTAVERY.tra @21
 @517 = ~Ce sont les notes personnelles du moine Avery. Il semblerait qu'il ait fait des recherches sur le fondateur de la citadelle, Monoach. Vous trouvez également un passage sur l'autel de Heaume de la Citadelle : « À la discrétion du fondateur de la citadelle, Monoach, nous y avons sauvegardé l'une de nos reliques - un symbole sacré de Heaume. Mais nous ne savons pas où se trouve la clé. On dit que Monoach l'a donné à ses amis de confiance, quelque part au loin, pour le garder en sécurité. Ils résident sur une île loin au nord-ouest... J'ai vraiment besoin de plus d'informations à ce sujet.'~
@@ -1156,14 +1156,14 @@ D.~
 @525 = ~Orog~
 // #26284 (BGII)
 @526 = ~Pêcheur~
-@527 = ~DSotSC pour le composant principal BG:EE détecté.~
-@528 = ~DSotSC détecté. Ajout de références...~
+@527 = ~DSotSC pour le composant principal BG:EE detecte.~
+@528 = ~DSotSC detecte. Ajout de references...~
 @529 = ~Ce mod n'est pas compatible avec votre jeu~
-@530 = ~Ce mod doit être installé AVANT BP-BGT Worldmap~
-@531 = ~Composant principal de ce mod (NTotSC) nécessaire~
-@532 = ~La rencontre est déjà restaurée par un autre mod.~
+@530 = ~Ce mod doit etre installe AVANT BP-BGT Worldmap~
+@531 = ~Composant principal de ce mod (NTotSC) necessaire~
+@532 = ~La rencontre est deja restauree par un autre mod.~
 @533 = ~Keelor le Nain~
-@534 = ~Flèche porte-bonheur de Llindellyn~
+@534 = ~Fleche porte-bonheur de Llindellyn~
 @535 = ~Les chiens de chasse de Nim Furlwing~
 @536 = ~Pilar et Gheldehar~
 @537 = ~Le tourment de Svlast~
@@ -1303,15 +1303,15 @@ Non utilisable par :
 
 /* Défis tactiques - Angel */
 @564   = ~Defis tactiques~
-@565   = ~Démons mineurs améliorés~
+@565   = ~Demons mineurs ameliores~
 @566   = ~Quetes et rencontres~
-@567   = ~Haeball amélioré~
-@568   = ~Ghotal amélioré~
+@567   = ~Haeball ameliore~
+@568   = ~Ghotal ameliore~
 @569   = ~Nerfs~
 @570   = ~PNJ~
-@571   = ~Réduire le nombre de capes de chaman~
-@572   = ~Supprimer les capes génériques des prêtres orques~
-@573   = ~Rendre les capes impossibles à décrocher~
+@571   = ~Reduire le nombre de capes de chaman~
+@572   = ~Supprimer les capes generiques des pretres orques~
+@573   = ~Rendre les capes impossibles a decrocher~
 
 /* ------ */
 
@@ -1378,7 +1378,7 @@ Poids : 1~
 @55140 = ~~ [will39]
 
 @55141 = ~Parchemins de sort~
-@55142 = ~Version révisée (Sorts de niveau 6)~
+@55142 = ~Version revisee (Sorts de niveau 6)~
 @55143 = ~Version originale (Sorts de niveau 7/8)~
 
 /* =============== *
