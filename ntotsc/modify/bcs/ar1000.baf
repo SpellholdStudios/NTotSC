@@ -4,6 +4,7 @@ THEN
   RESPONSE #100
     CreateCreature("NTYness",[2587.746],14)
     SetGlobal("NTYnessSpawn","%UlgothsBeard%",1)
+    Continue()
 END
 
 IF
@@ -17,6 +18,7 @@ THEN
     CreateCreature("NTREEDRI",[1267.769],0)
     SetGlobal("NTTalkedToReedig","GLOBAL",2)
     ActionOverride("NTREEDRI",CreateItem("NTPBLET6",1,0,0))
+    Continue()
 END
 
 
