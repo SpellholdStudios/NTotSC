@@ -190,6 +190,14 @@ LANGUAGE
 	~ntotsc/language/russian/setup.tra~
 	~ntotsc/language/russian/journal.tra~
 
+LANGUAGE
+	~French (translation by Streen)~
+	~french~
+	~ntotsc/language/english/setup.tra~
+	~ntotsc/language/english/journal.tra~
+	~ntotsc/language/french/setup.tra~
+	~ntotsc/language/french/journal.tra~
+
 /*
 LANGUAGE
 	~Castilian~

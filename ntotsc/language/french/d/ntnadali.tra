@@ -1,0 +1,24 @@
+@0 = ~Enchanté de vous rencontrer. Je m'appelle Nadalin.~
+@1 = ~Bonjour. Je m'appelle Nadalin. Je viens du nord, de l'endroit où la Côte des Épées devient un  golfe. Malheureusement, mon village a été terrorisé par des monstres de feu et mon bateau abrite désormais des sirènes. Je me suis échappé du village et maintenant je vis ici. Mais j'aimerais retourner à mes fonctions.~
+/* @2 = @10039 */
+@3 = ~Vous n'avez pas de cœur, n'est-ce pas ? C'est bon, je sais d'où vous venez. Je ne pouvais pas le faire moi-même.~
+@4 = ~Vous l'avez fait, n'est-ce pas ? Je suppose que votre cœur est encore plus dur que je ne l'aurais souhaité. Je ne le dis pas avec plaisir, mais si jamais vous avez besoin d'aide, vous me trouverez probablement près de mon bateau dans mon village.~
+/* @5 -> @10040 */ 
+@6 = ~Merci pour votre aide. Maintenant, je peux retourner dans mon village. Si jamais vous avez besoin de moi, vous me trouverez peut-être près de mon bateau. J'aime ma vieille dame.~
+@7 = ~Je ne suis pas un combattant, mon ami.~ ~Je ne suis pas un combattant, mon amie.~
+@8 = ~Bienvenue mes amis. Comment puis-je vous aider ?~
+@9 = ~Je veux que vous nous emmeniez sur une île habitée par des salamandres des glaces. En avez-vous déjà entendu parler ?~
+@10 = ~Nous étions juste de passage pour voir comment vous alliez.~
+@11 = ~Je pense que oui, mais c'est un endroit dangereux. Les salamandres attaquent sans prévenir. J'ai atterri une fois sur cette île pendant une tempête. J'ai à peine réussi à m'enfuir. Voulez-vous y voyager maintenant ?~
+@12 = ~Oui, je pense qu'on peut partir.~
+@13 = ~Non, pas maintenant. Mais c'est agréable d'entendre que vous voulez nous aider.~
+@14 = ~En avez-vous déjà assez de cette île ?~
+@15 = ~Oui, sortons d'ici.~
+@16 = ~Non, attendez encore un peu.~
+@17 = ~Bienvenue, mon ami. Comment puis-je vous aider ?~ ~Bienvenue, mon amie. Comment puis-je vous aider ?~
+@18 = ~Pourriez-vous nous ramener à l'Île des salamandres ?~
+@19 = ~Certainement. Allons-y alors.~
+@20 = ~Le chef d'un village de pêcheurs de la côte nord nous a parlé de vous. Nous avons résolu le problème là-bas.~
+
+/* nouveau pour la v2.0 */
+@21 = ~Bienvenue, mon ami.~  ~Bienvenue, mon amie.~

@@ -1,0 +1,20 @@
+// #3209 (changer "Eldoth" par "Eldod")
+@0    = ~Eh là. Tous les gardes ne sont pas aussi mécontents de votre venue qu'Eldod.~
+// #3210
+@1    = ~C'est donc dangereux d'aller à l'encontre de votre capitaine.~
+// #3211
+@2    = ~Bon à savoir, même si je doute que je puisse être d'une grande aide avec lui autour.~
+// #3212
+@3    = ~Je ne fais confiance à aucun garde pendant qu'il vous commande. Laissez-moi tranquille.~
+// #3213 (remplacer "Eldoth" par "Eldod")
+@4    = ~Eldod n'est PAS mon capitaine. MON capitaine est un homme noble qui n'aurait jamais laissé cela durer si longtemps sans demander de l'aide. Eldod n’a fait qu’aggraver le problème. Je nierai avoir dit cela si vous le dites à une autre âme. Je dois y aller.~
+// #3214
+@5    = ~Je ne vous en veux pas du tout. C'est comme s'il essayait de nous isoler. Je me demande s'il est possible que les disparitions aient affaibli sa santé mentale. Hélas, ce n'est pas à moi de le dire. J'en ai déjà trop dit. Je dois y aller.~
+// #3215
+@6    = ~N'IMPORTE LEQUEL d'entre nous même douteux sera utile pendant qu'il commande. Je ne peux plus vous parler, de peur qu'il ne nous voie ensemble. Adieu. ~
+// #8742
+@7    = ~On ne me voit pas parler avec quelqu'un comme vous. Allez-vous !~
+// #8743 (remplacer "Eldoth" par "Eldod")
+@8    = ~Si j'étais vous, je ferais attention à Eldod. Ce n’est pas un homme de confiance ; retenez-le de ma part, mon ami.~ ~Si j'étais vous, je ferais attention à Eldod. Ce n’est pas un homme de confiance ; retenez-le de ma part, mon amie.~
+// #8967
+@9    = ~Je ne dirai pas un mot après ce que vous avez fait !~

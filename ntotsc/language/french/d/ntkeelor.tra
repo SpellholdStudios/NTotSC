@@ -1,0 +1,20 @@
+// #15043
+@0    = ~Je me sens encore un peu étourdi mais je devrais pouvoir retourner à Bérégost par mes propres moyens. Tenez, prenez ma hache. De toute façon, c'est trop lourd à porter pour moi en ce moment.~
+// #15737
+/* @1 -> @10027 */   
+// #15064
+@2    = ~Vous avez été généreux avec votre guérison... Ici, ces gnolls n'ont pas trouvé cette vieille amulette que je garde dans ma botte. J'espère que c'est une récompense suffisante pour votre gentillesse. Si jamais vous souhaitez passer nous rendre visite, j'ai un logement à Bérégost.~ ~Vous avez été généreuse avec votre guérison... Ici, ces gnolls n'ont pas trouvé cette vieille amulette que je garde dans ma botte. J'espère que c'est une récompense suffisante pour votre gentillesse. Si jamais vous souhaitez passer nous rendre visite, j'ai un logement à Bérégost.~
+// #15738
+/* @3 -> @10028 */   
+// #15082
+@4    = ~Vous avez été plus que gentil avec un nain rude et battu. Ma sœur Nacha, est un clerc du quartier sud de la Porte de Baldur. Si jamais vous avez besoin de cette faveur, trouvez-la là-bas et elle vous guérira.~ ~Vous avez été plus que gentille avec un nain rude et battu. Ma sœur Nacha, est un clerc du quartier sud de la Porte de Baldur. Si jamais vous avez besoin de cette faveur, trouvez-la là-bas et elle vous guérira.~
+// #15739
+/* @5 -> @10029 */   
+// #15083
+@6    = ~Ma jambe... (gémissement)... maudits gnolls... S'il vous plaît... guérissez-moi... (gémissement)... même un tout petit peu... Ça fait tellement... mal. .. (gémissement) ~
+// #15084
+@7    = ~Les os se solidifient très bien. La prochaine fois, je devrai emmener quelques amis avec moi lorsque je pars à la chasse aux gnolls.~
+// #15085
+@8    = ~(gémissement)...~
+// #15086
+@9    = ~D'abord vous me guérissez, maintenant vous voulez me tuer. Je ne comprends pas le fonctionnement de votre esprit, mais que je sois damné si je vais vous laisse vous en sortir comme ça.~

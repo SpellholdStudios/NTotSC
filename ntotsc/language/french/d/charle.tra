@@ -1,0 +1,6 @@
+@0 = ~Si cela ne vous dérange pas, j'ai une autre quête à vous proposer. Près du pont de Flammevin, nous avons découvert une entrée vers le donjon restant des ruines de la ville. Malheureusement, il existe des esprits maléfiques à l'intérieur, mais cela ne devrait pas vous poser trop de problèmes. Je veux que vous y alliez et le nettoyiez - cela me donnerait l'opportunité de commencer une nouvelle exploration.~
+@1    = ~Malheureusement, j'ai d'autres quêtes à résoudre en ce moment. Vous devrez trouver quelqu'un d'autre.~
+@2    = ~Bien sûr, nous pouvons les affronter, quels que soient leurs « esprits ».~
+@3    = ~Comme vous le souhaitez. Je ne peux pas vous ordonner d'y aller, surtout après une journée comme celle-ci. Au revoir !~
+@4 = ~Merci. J'ai le parchemin contenant le sceau qui vous permettra d'entrer à l'intérieur. L'entrée est protégée par une protection, réalisée par mon ami, un mage, pour empêcher tout passant accidentel d'entrer. Vous voyez ce que je veux dire, maintenant. Alors prenez ce parchemin, vous pourrez passer l'entrée sans entrave.~
+/* @5 -> @10001 */

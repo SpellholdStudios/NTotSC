@@ -1,0 +1,48 @@
+@0 = ~Attendez, voyageurs ! Par accident *ou pas* - je vous ai entendu parler avec Shaella, ou comme vous préférez l'appeler, Elnaedra. Êtes-vous vraiment intéressé pour trouver cet étrange livre?~
+@1    = ~Non. Et on en a assez de ces gens étranges qu'on rencontre, qui ne savent pas de quoi ils parlent.~
+@2    = ~Et pourquoi devrions-nous être intéressés?~
+@3 = ~Shaella sait de quoi elle parle - ou plutôt dit ce qu'elle sait encore. Elle a vu ce livre et vous pouvez constater son influence sur elle. Ma tâche est de retrouver ce livre et de le rendre inaccessible aux personnes qui ne le connaissent pas mieux, qui pourraient partager le même sort que Shaella.~
+@4    = ~Pouvons-nous maintenant entendre « l'offre que nous ne pouvions pas refuser » ?~
+@5 = ~Je sais ce que vous essayez de dire et je vous écouterai tant que le prix est correct ; ai-je raison mon ami ?~
+@6 = ~Inutile d'être impoli - toute ma vie, j'ai collecté de l'argent pour obtenir ce livre. Je peux te le donner si tu acceptes mon offre.~
+@7 = ~Pourquoi ne pouvez-vous pas vous en occuper tout seul, si cela te tient si à cœur ?~
+@8    = ~Non. Nous en avons assez entendu. Il est temps pour nous de partir.~
+@9 = ~Si seulement c'était aussi simple. Je ne peux pas rencontrer celui qui a des connaissances sur ce livre. Nous étions amis autrefois, mais une femme s'est interposée entre nous. Je préférerais vraiment ne pas le rencontrer. Et c'est la même chose pour lui.~
+@10   = ~Qui est-IL ?~
+@11   = ~Lobar. Le propriétaire de la Lanterne assourdie. Une fois, il avait vu ce livre ou du moins son pouvoir.~
+@12   = ~Nous en avons assez entendu. Si vous dites que c'est si dangereux, nous préférerions ne pas y toucher.~
+@13   = ~Continuez, j'écoute attentivement.~
+@14   = ~Je vous offre tout mon trésor pour ce livre - 10 000 pièces d'or. Vous n’êtes bien sûr pas obligé de le lire ou de l’utiliser. Apportez-le-moi.~
+@15   = ~C'est beaucoup d'argent. J'irai voir Lobar et nous verrons si c'est vraiment ce que vous  dîtes.~
+/* @16 -> @10021 */ 
+@17 = ~Pourquoi ne devrais-je pas simplement prendre votre or et le faire à ma manière?~
+@18   = ~Votre offre ne nous intéresse toujours pas. Trouvez quelqu'un d'autre.~
+@19   = ~Bien sûr, vous pouvez essayer de faire ça, mais je ne sais pas si ce serait si simple.~
+@20   = ~Eh bien - je vais essayer de le faire, moine.~
+@21 = ~C'est bon. Je n'aime pas la violence, surtout celle qui ne sert à rien. Je vais aller à Lobar pour voir ce que je peux trouver.~
+@22   = ~Bienvenue. Je suppose que vous avez changé d'avis ?~
+@23   = ~Non, mais nous avons envie de prendre vos économies.~
+@24   = ~Non, nous sommes juste en train de nous promener. Nous avons d'autres devoirs.~
+@25   = ~Oui, nous accepterons votre offre.~
+@26   = ~Merveilleux. Je vous attendrai ici.~
+@27   = ~Vous devriez chercher ce livre, il est très important.~
+@28   = ~Bien sûr, mais il n'y a aucun mal à voir comment vous allez.~
+@29   = ~En gros, nous ne sommes pas prêts à courir après un livre stupide. Courir après vous serait beaucoup plus facile et amusant.~
+@30 = ~Vous l'avez donc trouvé. La raison de ma recherche de toute une vie. C'est l'heure de votre récompense.~
+@31   = ~Nous avons déployé beaucoup d'efforts là-dedans, donc nous prendrons sûrement ce qui nous a été promis.~
+@32   = ~C'était vraiment difficile d'obtenir ce livre. C'est sûrement très précieux, c'est pourquoi j'ai décidé de prendre les deux, la récompense et le livre.~
+@33   = ~Je peux imaginer ceci. C'est l'heure de la récompense - venez, mes amis !~
+/* @34 -> @10022 */
+@35   = ~Vous êtes fou mais qu'il en soit ainsi.~ ~Vous êtes folle mais qu'il en soit ainsi.~
+
+/* nouveau pour v2.0 */
+@36   = ~Salutations mais je ne souhaite pas vous parler.~
+@37   = ~J'ai trouvé une note intéressante avec votre nom dessus et la mention d'une secte.~
+@38 = ~Adieu.~
+@39 = ~Haeball m'a engagé pour récupérer un objet pour lui. C'est tout ce que vous devez savoir.~
+@40 = ~Vous n'auriez pas dû mettre votre nez dans des choses que vous ne comprenez pas !~
+@41 = ~Attendez, voyageurs ! Par accident *ou pas* – je vous ai entendu parler avec Shaella. Vous devez savoir qu'elle a vu un livre de grande valeur : le Grand Livre de l'Ignorance. Seriez-vous intéressé pour trouver un tel livre ?~
+@42 = ~Que voulez-vous dire concernant ce livre ?~
+@43 = ~Comment se déroule votre recherche ?~
+@44 = ~Que voulez-vous ?~
+@45 = ~Vous êtes un idiot.~ ~Vous êtes une idiote.~

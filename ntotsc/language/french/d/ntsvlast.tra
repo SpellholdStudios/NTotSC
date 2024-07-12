@@ -1,0 +1,18 @@
+// #14889
+@0    = ~Il est là-bas. Il arrive. Je peux sentir ses pas qui me suivent. L'odeur de chair pourrie. Il vient pour nous tous.~
+// #14890
+@1    = ~Je... Je l'ai tué. Mais il est là-bas, il vient par là, je peux le sentir.~
+// #14891
+@2    = ~J'ai déjà été paladin. J'ai combattu du côté du bien, mais tout cela n'a servi à rien... Je... Je l'ai tué, mon frère d'armes... J'étais jaloux, j'étais... idiot. Quand il viendra, laissez-le tranquille. Au moins, il y aura justice.~
+// #15713
+/* @3 -> @10064 */ 
+// #14893
+@4    = ~J'ai déjà été paladin. J'ai combattu du côté du bien, mais tout cela n'aboutit à rien, n'est-ce pas... ? Je... je l'ai tué, mon frère d'armes... Je l'ai assassiné de sang-froid... J'étais jaloux, j'étais... un imbécile. Et maintenant je suis deux fois plus malheureux. Tuez-moi dans cet endroit torturé ! Au moins, il y aura alors un peu de justice.~
+// #15703
+/* @5 -> @10065 */    
+// #14894
+@6    = ~Que pourriez-vous espérer apprendre d'un misérable idiot comme moi ? Apprenez au moins de mon exemple, et ne cherchez pas à tuer ce qu'il y a de bon dans le monde.~
+// #14895
+@7    = ~S'il vous plaît, laissez-moi juste à ma misère.~
+// #14896
+@8    = ~Même si j’accueillerai la mort, je n'y ferai pas face sans combattre.~

@@ -1,5 +1,5 @@
                      Northern Tales of the Sword Coast
-                      a Weidu mod For Baldur’s Gate:
+                      a Weidu mod For Baldurâ€™s Gate:
                            BGT, BG:EE, and EET
 
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
@@ -253,6 +253,7 @@ Translations:
 - Italian: ilot
 - Polish: Kelthar (based on Evendur's translation) (v.1.0) and Roberciiik (proofreading since v3.2.0)
 - Russian: Arkie
+- French: Streen
 
 F.A.Q.
 ++++++
@@ -281,9 +282,10 @@ WIP
 	-Patching the scripts for the salamanders in the AR25PB are-file, by Vanimmaus.
 	-Collection of fixes to typos and small oversights, including those identified by Endarire and TotoR115, by Angel.
 	-Revised spell scrolls of two spells added by this mod, by Angel.
-	-Compatibility with BP-BGT-Worldmap v11 and above, by Roberciiik..
+	-Compatibility with BP-BGT-Worldmap v11 and above, by Roberciiik.
 	-Update of Polish translation, by Roberciiik.
 	-Update of InfinityAutoPackager, by Jastey.
+	-French translation added by Streen from la Couronne de Cuivre.
 
 5.0.0 - packed by jastey
 	-new components, by Angel: Improved Lesser Fiends; Improved Haeball; Improved General Ghotal.
@@ -530,7 +532,7 @@ LEGAL NOTE
 +++++
 
 =============================================================================
-This Mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+This Mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Â©Wizards of the Coast LLC.
 This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp., Overhaul Games or Beamdog. All other trademarks and copyrights are property of their respective owners.
 =================================================================================
 

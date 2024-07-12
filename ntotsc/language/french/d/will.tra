@@ -1,0 +1,50 @@
+// #11344
+@0    = ~Besoin d'un itinéraire ? Vous semblez être du genre sympathique, alors j'ai pensé proposer mes services en tant que guide. De quoi avez-vous besoin dans la ville de Bérégost ?~
+// #11386
+@1    = ~Si vous pouviez me diriger vers une auberge abordable, je l'apprécierais beaucoup.~
+// #11367
+@2   = ~Je recherche un peu de luxe. Quelle est la plus belle auberge de la ville ?~
+// #11373
+@3    = ~J'ai besoin d'armes et d'armures de bonne qualité. Avez-vous une bonne forge ?~
+// #11376
+@4    = ~Juste un endroit pour m'asseoir et noyer mes soucis. Où trouver une bonne taverne ?~
+// #11354
+@5    = ~Nous avons de nombreuses auberges pour les aventuriers économes. La Gerbe Rouge dispose de chambres basiques, même si la clientèle est un peu tapageuse. Il existe également le Magicien Ardent et le Jongleur Jovial, qui disposent également de suites plus raffinées. La Gerbe Rouge se trouve près du centre de la ville, tout comme le Magicien Ardent. Le Jongleur Jovial est un peu plus loin et se trouve à la limite sud de la ville.~
+// #11380
+@6    = ~Merci pour votre aide.~
+// #11357
+@7    = ~La meilleure auberge devrait être celle de Feldpost, même si c'est aussi assez sympathique. Il existe beaucoup de couleurs locales. L'auberge de Feldpost se trouve dans la partie inférieure ouest de la ville.~
+// #11386
+@8    = ~Si vous pouviez me diriger vers une auberge abordable, j'apprécierais beaucoup.~
+// #11358
+@9    = ~Nous avons la meilleure forge de tous les royaumes. "Grondemarteau" Fuiruim dirige la forge de Grondemarteau dans l'est de la ville. Il possède également quelques objets exceptionnels, mais vous pouvez également consulter l'auberge de Feldpost. Ils portent des trophées, mais il vaut mieux être riche comme un roi. L'auberge de Feldpost se trouve à l'ouest, plus près de la limite sud de la ville.~
+// #11366
+@10   = ~Une goutte ou deux pour vous remonter le moral ? Le Magicien Ardent et la Gerbe Rouge se trouvent au centre de la ville. L'auberge de Feldpost se trouve le long du bord ouest et le Jongleur Jovial se trouve au sud. Ils vous serviront tous bien.~
+// #11379
+@11   = ~Pas de problème, mon ami. Profitez de votre séjour.~
+@12   = ~Attends... non, attendez... puis-je vous demander quelque chose ?~
+@13   = ~Non, je ne pense pas, adieu.~
+@14   = ~Absolument, qu'est-ce qui vous dérange ?~
+@15   = ~Adieu...~
+@16   = ~On dirait que vous n'êtes pas allé à Bérégost depuis longtemps... Peut-être avez-vous besoin d'un vagabond habile... Je peux bien manier cette merveille.~
+@17   = ~Vous parlez de ce fléau ?~
+@18   = ~Certainement, à propos de ça et de moi-même...~
+@19   = ~Tous les paysans n'utilisent-ils pas un fléau dans les champs ? N'est-il pas créé pour ça ?~
+@20   = ~Pardonnez-moi, votre voie n'est pas encore la mienne, peut-être que nous nous reverrons...~
+@21   = ~J'espère que vous êtes vraiment bon avec ça, allez.~
+@22   = ~Vous en riez ? Peut-être que je n'aurais rien dû dire...~
+@23   = ~C'est dommage, alors adieu.~
+@24   = ~Je suis très heureux de vous rejoindre. Bérégost est une jolie ville, mais je suis attiré par les aventures...~
+@25   = ~Y a-t-il autre chose ?~
+/* @26 -> @10079 */
+@27   = ~Bienvenue, vous n'en avez pas encore assez de plaisanter ? Cherchez quelqu'un d'autre alors...~
+@28   = ~C'est ce que je devrais faire ! À bientôt !~
+@29   = ~Calmez-vous, je ne voulais pas vous insulter. Si vous voulez, vous pouvez me rejoindre.~
+@30   = ~Bienvenue à nouveau, comment puis-je vous aider ?~
+@31   = ~Rien en effet, adieu !~
+@32   = ~Votre offre est-elle toujours d'actualité ? Je serai heureux de vous voir en action...~
+@33   = ~Euh... comment te dire... Chez Feldpost, j'ai promis mon fléau préféré, vous savez, j'avais besoin d'argent pour gagner ma vie... Si on avait de l'or, je pourrais le reprendre... ~
+@34   = ~Combien alors ?~
+@35   = ~Au moins 1000 po... Eekhm... J'ai aussi commandé une armure à la forge de Taërom... Pour 5000 po... Je ne sais même pas comment je pourrais la payer... Cependant, il m'a dit que le travail prendrait beaucoup de temps à cause de mes instructions... ~
+@36   = ~Nous aurons tout le temps d'y réfléchir. Allons-y.~
+/* @37 -> @10080 */  

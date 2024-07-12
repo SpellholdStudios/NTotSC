@@ -1,0 +1,9 @@
+// #15397 (légèrement modifié)
+@0     = ~Bienvenue dans notre chapelle. Notre dévotion envers l’Œil qui ne dort pas est inébranlable. S'il vous plaît, permettez-nous de vous protéger sous le regard incessant de Helm.~
+// #15400
+@1     = ~Désolé, l'idée d'être observé par une sorte d'œil incessant me dérange énormément. Je trouverai ma propre issue.~ ~Désolé, l'idée d'être observée par une sorte d'œil incessant me dérange énormément. Je trouverai ma propre issue.~
+// #15399
+@2     = ~J'aimerais voir quels services vous devez fournir.~
+@3     = ~Pourquoi votre autel est-il verrouillé ? C'est très intéressant...~
+@4    = ~N'osez même pas y toucher ! Si cela vous intéresse tellement, vous devriez parler à Avery. Il prend soin de cet autel. Mais je doute qu'il soit prêt à en parler compte tenu de la situation actuelle...~
+/* @5 -> @10057 */

@@ -1,0 +1,26 @@
+@0    = ~J'espère que quelqu'un parviendra enfin à tuer ces démons...~
+/* @1 -> @10067 */
+@2 = ~Laissez-nous tranquilles ! Nous avons déjà assez de problèmes avec les intrus !...~
+@3 = ~Des problèmes ? Aider à résoudre les problèmes est devenu notre spécialisation récemment... Peut-être pouvons-nous vous aider ?~
+/*
+@4    = ~Une infestation de zombies terrorise les quelques colons assez malchanceux pour posséder des terres au bord de la rivière. Un vieux fermier du nom de Wenric en a dénombré une vingtaine et me paiera la somme impressionnante de 150 po si je parviens à me débarrasser de chacun d'entre eux.~
+*/
+@5 = ~Merci, c'était vraiment généreux de votre part de nous débarrasser de ces bêtes. Peut-être que maintenant nous pourrons enfin retourner à notre pêche.~
+@6 = ~Vous êtes de retour... mais je peux dire que vous n'avez pas encore réussi. D'autres ont déjà essayé et ont également échoué... ~
+@7 = ~Ces monstres sont plutôt effrayants, n'est-ce pas ?~
+@8 = ~Nous sommes sauvés ! Incroyable! Je pensais que ces monstres de feu finiraient par nous forcer à mourir de faim... Nous apprécions vraiment ce que vous avez fait.~
+@9 = ~Cela a été notre plaisir.~
+@10 = ~Si vous y parvenez... Nous pêchons ici depuis des années, mais depuis quelques semaines nous ne pouvons pas nous approcher de nos bateaux. Du côté nord de notre baie, des monstres sont apparus... Ils soufflent du feu et tuent quiconque s'approche de la baie. Et maintenant, plus récemment encore, une tribu de sirènes s'est également infiltrée sur les rives près de l'endroit où nous débarquons nos bateaux de pêche. Pouvez-vous nous en débarrasser ?~
+@11   = ~Nous pouvons essayer, mais je ne promets rien.~
+@12   = ~Ouf... c'est tout ? Devons-nous risquer notre vie pour les roturiers ? Ouais, peut-être... nous verrons.~
+@13 = ~Comment pouvons-nous vous rembourser ?~
+@14 = ~Il existe peut-être un moyen. Nous aimerions savoir si vous avez entendu parler d'une île près d'ici dans la Mer des Épées... Je ne sais pas exactement ce que nous recherchons, mais il se peut qu'il y ait une sorte de forteresse là-dessus... ? ~
+@15 = ~Ce n'est pas nécessaire.~
+@16 = ~Nous ne nous aventurons pas si loin dans la mer. Mais Nadalin le ferait. Il avait l'habitude de naviguer sur la grande mer et nous a parlé un jour d'une île de lézards - semblables à ceux de la grotte, mais ceux-ci n'avaient pas brûlé au feu... Il faudrait demander à Nadalin. Maintenant que les monstres ont disparu de nos zones de pêche, peut-être qu'il reviendra vers nous... Je sais, il aimait beaucoup ses devoirs, mais il s'est enfui quand celles-ci... ces Salamandres sont apparues.~
+@17 = ~Merci, nous verrons si nous pouvons retrouver Nadalin.~
+/* @18 -> @10068 & @10069 */ 
+@19   = ~Pouvons-nous faire quelque chose de plus pour vous, mes amis ?~
+@20   = ~Oui, nous recherchons quelqu'un qui connaît les îles environnantes et supérieures de la Mer des Épées.~
+@21   = ~Non, pas maintenant.~
+@22 = ~Nous avons déjà rencontré Nadalin à la Porte de Baldur ! Je suis sûr qu'il sera heureux d'apprendre que les monstres ont été vaincus, afin qu'il puisse reprendre ses fonctions.~
+@23 = ~Nous avons déjà rencontré Nadalin à la Porte de Baldur ! Merci, nous verrons si nous pouvons le retrouver.~

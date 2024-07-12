@@ -1,0 +1,5 @@
+@0    = ~Vous venez de la porte de Baldur ? Vous devriez parler à Satos. Nous n'avons plus rien à dire...~
+/* @1 -> @10015 */   
+@2    = ~Je ne suis qu'un garde... qu'est-ce que je peux comprendre ? Les gens disparaissent et... c'est tout...~
+@3    = ~Vous n'êtes pas le bienvenu ici !~ ~Vous n'êtes pas la bienvenue ici !~
+@4    = ~Mieux vaut vous en tenir à vos devoirs - juste une suggestion, nous sommes là pour garder...~

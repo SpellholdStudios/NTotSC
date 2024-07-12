@@ -1,0 +1,14 @@
+@0 = ~Merci, qui que vous soyez. Je suis en mission importante à la Barbe d'Ulgoth et ces salauds venaient de me capturer... Je ne sais pas ce qui se serait passé si vous n'étiez pas arrivé à temps...~
+/* @1 -> @10059 */ 
+@2    = ~Bienvenue ! Qu'est-ce qui vous amène ici ?~
+@3    = ~Nous voyageons. Comme toujours.~
+@4 = ~Donc vous savez déjà tout sur la secte ... Je n'ai pas réussi à arriver à temps à cause de ces maudits orques. Désormais, rien que des désagréments m'attendent dans l'assemblée, ou devrais-je dire : la mort...~
+@5    = ~Vous parlez de la Main Noire ? Que prévoient-ils ?~
+@6 = ~Nous sommes... le Culte de la Main Noire est une assemblée de guerriers et de mages dirigée par Draagis... un ennemi puissant et un expert des rituels anciens. C'est pourquoi il s'intéresse à divers artefacts et a été en contact avec les cultistes de Balor. Nous avions prévu d'invoquer un démon encore plus puissant : le prince de Balors. Mais sans le sceau utilisé par la secte de Tracea, la coopération entre nos sectes n'aura pas lieu... Je dois disparaître maintenant. Je préférerais que la secte ne me trouve pas porteur de mauvaises nouvelles...~
+@7 = ~Attendez ! Où puis-je trouver le Culte de la Main Noire ? Je veux leur rendre visite et mettre fin à leur fléau.~
+@8    = ~Eh bien maintenant - adieu et bonne chance.~
+@9 = ~Si vous voulez les retrouver, allez au Bois des Dents Acérées, puis plus à l'est et légèrement au nord. Mais je ne m'attendrais pas à un accueil chaleureux si j'étais vous...~
+
+/* nouveau pour la v2.0 */
+
+@10   = ~Donc, le Culte de la Main Noire est détruit. Je vous dois ma vie, semble-t-il. Adieu !~
