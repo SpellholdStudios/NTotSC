@@ -1,0 +1,47 @@
+@0	= ~Garde squelette~
+@1	= ~Garde squelette
+(Nécromancie)
+Niveau : 6
+Portée : 20 mètres
+Durée : 1 tour
+Temps d'incantation : 5
+Zone d'effet : Spécial
+Jet de sauvegarde : Aucun
+
+Le lanceur de sorts invoque un garde squelette pour combattre aux côtés du  au combat.  Le garde reste jusqu'à ce qu'il soit détruit ou que sa durée de vie soit écoulée.~
+@2	= ~Garde squelette 
+(Conjuration/Invocation)
+Niveau : 7
+Portée : 20 mètres
+Durée : 4 heures
+Temps d'incantation : 5
+Zone d'effet : Spécial
+Jet de sauvegarde : Aucun
+
+Le lanceur de sorts invoque 2 guerriers squelettes pour qu'ils se battent pour <PRO_HIMHER> au combat.~
+
+@3	= ~Nuage de feu~
+@4	= ~Nuage de feu
+(Évocation)
+
+Niveau : 6
+Portée : Champ de vision du jeteur de sort
+Durée : 1 tour
+Temps d'incantation : 2
+Zone d'effet : 15 pieds. rayon de nuage
+Jet de sauvegarde : Aucun
+
+Ce sort crée un nuage de flammes rugissantes. Toute personne se trouvant dans la zone du sort doit quitter le nuage immédiatement ou subir 4 à 16 (4d4) points de dégâts de feu à chaque round lorsqu'elle se trouve dans la zone d'effet~
+@5	= ~Nuage de feu
+(Évocation)
+
+Niveau : 8
+Portée : Portée visuelle du lanceur de sorts
+Durée : 1 tour
+Temps d'incantation : 2
+Zone d'effet : 15 pieds. rayon de nuage
+Jet de sauvegarde : 1/2
+
+Ce sort crée un nuage de flammes rugissantes. Toute personne se trouvant dans la zone du sort doit quitter le nuage immédiatement ou subir de 1 à 4 points de dégâts de feu par niveau du lanceur à chaque tour lorsqu'elle se trouve dans la zone d'effet, les dégâts étant réduits de moitié en cas de jet de sauvegarde contre les sorts.~
+
+

@@ -1,0 +1,14 @@
+// #15098
+@0    = ~C'est juste moi, Pooch ou les aventuriers qui deviennent de plus en plus laids ces jours-ci ?~
+// #15099
+@1    = ~Bonjour. Mon nom est Welt. Le chien s'appelle Pooch. Il a faim. Pouvez-vous amener des rats ?~
+// #15741
+/* @2 -> @10074 */ 
+// #15102
+@3    = ~ Il y a assez de rats. Le chien aime les rats. Tiens, prends les mitaines de Welt.~
+// #15104
+@4    = ~Il faut plus de rats. Pooch aime les rats.~
+// #15105
+@5    = ~Regarde Pooch ! Welt a des amis !~
+// #15106
+@6    = ~Vous mettez Welt en colère !~

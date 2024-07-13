@@ -1,0 +1,24 @@
+@0 = ~Vous êtes là ! Mon cher ami! S'il vous plaît, arrêtez-vous un instant !~ ~Vous êtes là ! Ma chère amie! S'il vous plaît, arrêtez-vous un instant !~
+@1    = ~Et qui êtes vous, vieil homme ?~
+@2 = ~Allez vous faire cuire un oeuf, vieux machin !~
+@3 = ~Eh bien maintenant, il semble préférable pour vous que je prenne congé.~
+@4 = ~Eh bien... eh bien, bienvenue. Je suis tellement heureux de voir quelqu'un d'autre que des morts-vivants se déplacer dans la région ! Je m'appelle Ordolath et je prends mes congés sabbatiques ici. Vous savez, parfois, c'est agréable de s'éloigner de l'agitation de la Porte de Baldur...~
+@5 = ~C'est vraiment bien, mais qu'est-ce que vous attendez de moi ?~
+@6    = ~Bien sûr, bien sûr, maintenant débrouillez-vous, vieux machin !~
+@7 = ~Rien de spécial, mon ami, hé hé. C'est ma mauvaise fortune qui m'a fait oublier ma bougie en préparant ce voyage. Sans ma bougie, je ne peux pas écrire dans mon journal ni lire mes livres. Les nuits ici sont très sombres... Vous ne pouvez tout simplement pas imaginer ce que cela signifie pour un amateur de livres comme moi !~
+@8 = ~J'ai donc une offre à vous faire. Si vous voulez bien passer quelques jours pour m'aider et m'apporter mon petit trésor de cire, je vous récompenserai du mieux que je peux ! Et ne croyez pas que la récompense sera médiocre ! En dehors de 2000 po, je peux vous offrir un objet précieux qui, j'en suis sûr, vous plaira... Alors ? Voudriez-vous m'aider ?~
+@9    = ~Ça a l'air intéressant, dites-nous où pouvons-nous trouver votre maison afin que nous vous apportions cette... bougie.~
+/* @10 -> @10048 */
+@11 = ~Je n'ai pas de temps à perdre pour des efforts aussi insensés, maintenant du balai.~
+@12 = ~Excellent ! Dès la première fois que je vous ai vu, vous aviez l'air digne de confiance ! Ma maison, jeune ami, est dans la partie nord des Portes, non loin du quartier Nord. C'est une maison blanche derrière la tour bleue des mages. Vous ne pouvez pas la manquer. Eh bien, s'il vous plaît, dépêchez-vous. J'attendrai votre retour avec impatience. A bientôt !~ ~Excellent ! Dès la première fois que je vous ai vu, vous aviez l'air digne de confiance ! Ma maison, jeune amie, est dans la partie nord des Portes, non loin du quartier Nord. C'est une maison blanche derrière la tour bleue des mages. Vous ne pouvez pas la manquer. Eh bien, s'il vous plaît, dépêchez-vous. J'attendrai votre retour avec impatience. A bientôt !~
+@13   = ~Très bien, Au revoir !~
+@14   = ~Vous êtes de retour ? Où est ma bougie ?~
+@15   = ~Vous voilà...~
+@16 = ~Malheureusement nous n'avons pas encore eu l'occasion de la récupérer...~
+@17 = ~Merveilleux ! Vous avez mes sincères remerciements ! Voici la récompense que je vous ai promise ! Je dois me dépêcher de partir maintenant.~
+@18   = ~Ne soyez pas si pressé ! Je me demande si vous savez quelque chose sur l'homme que nous avons découvert chez vous...~
+@19 = ~De rien. Soyez prudent pendant votre voyage.~
+/* @20 -> @10049 */ 
+@21 = ~Oh, oui, oui... Je suis désolé pour cette surprise. Laissez-moi m'excuser mon ami, je  vous ai exposé au danger, j'espère donc que mes cadeaux seront une récompense suffisante pour vos efforts. Plus un mot, je dois partir maintenant. Restez en sécurité !~ ~Oh, oui, oui... Je suis désolé pour cette surprise. Laissez-moi m'excuser mon amie, je  vous ai exposé au danger, j'espère donc que mes cadeaux seront une récompense suffisante pour vos efforts. Plus un mot, je dois partir maintenant. Restez en sécurité !~
+/* @22 -> @10050 */ 
+@23 = ~Alors, qu'est-ce que vous attendez? S'il vous plaît, dépêchez-vous et récupérez ma bougie !~

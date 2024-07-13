@@ -1,5 +1,5 @@
                      Northern Tales of the Sword Coast
-                      a Weidu mod For Baldur’s Gate:
+                      a Weidu mod For Baldurâ€™s Gate:
                            BGT, BG:EE, and EET
 
             A Sir BillyBob Production (version 2 packed by k4thos + jastey)
@@ -32,7 +32,7 @@ Language versions: English, German, Italian, Polish, Russian
 HISTORY
 +++++++
 
-One large quest is given to you by Duke Eltan (before you go to Candlekeep).  Another quest starts before Candlekeep: Talk to the lady inside the Blade&Stars. One quest can be started by talking to Yness in Ulgoth's Beard. The rest can be done during the TotSC quests in Ulgoth's Beard.  
+One large quest is given to you by Duke Eltan (before you go to Candlekeep). Another quest starts before Candlekeep: Talk to the lady inside the Blade&Stars. One quest can be started by talking to Yness in Ulgoth's Beard. The rest can be done during the TotSC quests in Ulgoth's Beard.  
 
 For v2.0 and higher, the quests are less restrictive in their order, especially in the order of when to talk to whom. The only restrictions remaining are: The Northern Citadel Quest will be handed out from Duke Eltan when he summons the PC in the original game. The Temple of the Black Hand will only be revealed after the demon in Ulgoth's Beard is defeated. 
 All other quests can either be "walked into", received from multiple persons (e.g. "The Field of the Dead"), or received by killing the quest giver instead of going on his fedex quest (e.g. the Ice Slamander or Eldod - they will have the appropriate keys on them.)
@@ -40,7 +40,7 @@ All other quests can either be "walked into", received from multiple persons (e.
 INSTALLATION
 ++++++++++++
 
-It is in Weidu format.  To install, unzip the zip file to your game folder and double-click on Setup-NTotSC.exe.  To uninstall, double-click on Setup-NTotSC.exe again and select the Uninstall option.
+It is in Weidu format.  To install, unzip the zip file to your game folder and double-click on Setup-NTotSC.exe. To uninstall, double-click on Setup-NTotSC.exe again and select the Uninstall option.
 
 The mod has eight parts: the main component (obligatory for the mod) and 13 optional components which are splitted into 4 categories: Tactical Challenges, Quests and Encounters, Nerfs, and NPC:
 
@@ -59,7 +59,7 @@ The mod has eight parts: the main component (obligatory for the mod) and 13 opti
 --Improved Ghotal (Tactical Challenges)
 --Reduce Number of Shaman Cloaks (Nerfs)
 
-DSotSC must also be installed before NTotSC.  This mod also works with BG1NPC.
+DSotSC must also be installed before NTotSC. This mod also works with BG1NPC.
 
 As of version 2.2.0, the biffing was disabled due to problems with modding iOS devices. For BGT, you can use General Biffing Mod to biff your override folder.
 
@@ -244,10 +244,17 @@ CREDITS
 
 TeamBG for starting all of this.
 
-Hlid, Horred, Seanas, and the others who always help me out.  I need it!
+Hlid, Horred, Seanas, and the others who always help me out. I need it!
 
-Aurelinus, Hathor, and the wonderful people at Forgotten Isle (http://www.isle.px.pl/index_eng.htm) who made this mod and then translated it to English.  This is their wonderful work.
 
+Translations:
+- English: Aurelinus, Hathor, and the wonderful people at Forgotten Isle (http://www.isle.px.pl/index_eng.htm) who made this mod and then translated it to English. This is their wonderful work.
+- German: Leonardo Watson
+- Italian: ilot
+- Polish: Kelthar (based on Evendur's translation) (v.1.0) and Roberciiik (proofreading since v3.2.0)
+- Russian: Arkie
+- French: Streen
+- Simplified Chinese: Archenemy, latest Chinese accent by You Ye & Lewis Liu
 
 F.A.Q.
 ++++++
@@ -271,9 +278,16 @@ F.A.Q.
 CHANGES - VERSION HISTORY
 +++++++
 
-5.0.1 - packed by jastey
-	-Changed patching of Reedrig's spawn script in Ulgoth's Beard to EXTEND_TOP (+ Continue) to make it more stable.
-        -Simplified Chinese version byArchenemy.Latest Chinese accent by You Ye & Lewis Liu.
+WIP
+	-Changed patching of Reedrig's spawn script in Ulgoth's Beard to EXTEND_TOP (+ Continue) to make it more stable, by Jastey.
+	-Patching the scripts for the salamanders in the AR25PB are-file, by Vanimmaus.
+	-Collection of fixes to typos and small oversights, including those identified by Endarire and TotoR115, by Angel.
+	-Revised spell scrolls of two spells added by this mod, by Angel.
+	-Compatibility with BP-BGT-Worldmap v11 and above, by Roberciiik.
+	-Update of Polish translation, by Roberciiik.
+	-Update of InfinityAutoPackager, by Jastey.
+	-French translation added by Streen from la Couronne de Cuivre, added by JohnBob.
+  -Simplified Chinese version by Archenemy. Latest Chinese accent by You Ye & Lewis Liu, added by Lzw104522773.
 
 5.0.0 - packed by jastey
 	-new components, by Angel: Improved Lesser Fiends; Improved Haeball; Improved General Ghotal.
@@ -520,7 +534,7 @@ LEGAL NOTE
 +++++
 
 =============================================================================
-This Mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+This Mod is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Â©Wizards of the Coast LLC.
 This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp., Overhaul Games or Beamdog. All other trademarks and copyrights are property of their respective owners.
 =================================================================================
 

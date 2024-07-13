@@ -1,0 +1,21 @@
+@0 = ~S'il vous plaît, voyageurs, pardonnez-moi d'oser vous déranger mais ce n'est pas une blague.~
+@1 = ~C'est bon. Dites-nous ce qui vous dérange tant.~
+@2    = ~C'est ça. Nous venons d'arriver en ville et une foule de gens recherchent nos autographes...~
+@3 = ~Je sais que cela ne vous intéresse probablement pas, mais où d'autre ma femme et moi pouvons-nous chercher de l'aide ?~
+@4 = ~Je voyageais avec ma femme à Elthurel, lorsque notre caravane a été attaquée par une horde d'orques. Nous avons fui paniqués avec tous les autres. Malheureusement, nos enfants, Falton et Vanessa, voyageaient avec nous. C'est dommage pour nous, mais dans la confusion de l'attaque nous avons perdu leur trace... Nous sommes revenus au plus vite, mais nous n'avons trouvé aucune trace de la caravane ni de nos enfants ! L'un des gardes blessés, que nous avons trouvé à proximité, nous a dit que pendant que les orques emmenaient les prisonniers, ils parlaient de Fealn Datoon... C'est l'ancien nom d'une terre située au nord d'ici : les Champs des Morts. Nous ne savons pas comment y arriver, sans parler de comment vaincre les orques et récupérer nos enfants.~
+@5    = ~Eh bien. C'est une très triste histoire, mais nous n'avons pas le temps de nous en occuper maintenant. Nous avons d'autres tâches. Au revoir.~
+@6 = ~Nous ne sommes jamais allés au nord de la Porte de Baldur mais votre histoire a retenu notre attention. Nous nous en occuperons dès que possible.~
+@7    = ~Vous ne pouvez pas me faire ça. Pensez-y un peu plus. J'attendrai ici.~
+@8    = ~Merci... Je pense que vous devriez aller à la Barbe d'Ulgoth. Peut-être y trouverez-vous quelqu'un qui sait comment se rendre aux Champs des Morts. Ce sont des zones très dangereuses et plutôt rarement visitées. Bonne chance. J'attendrai ici.~
+/* @9 -> @10036 */
+@10    = ~S'il vous plaît, n'abandonnez pas la recherche. Nous avons peur pour nos enfants...~
+@11    = ~Avez-vous changé d'avis ?... Nous ne trouvons toujours personne qui puisse nous aider...~
+@12    = ~Oui, nous nous en occuperons.~
+@13    = ~Non, pas maintenant.~
+@14 = ~Merci ! Nous apprécions vraiment votre aide, mais ce cadeau est tout ce que nous pouvons vous offrir en récompense. Nous devons aller voir nos enfants maintenant...~
+
+/* nouveau pour la v2.0 */
+@15 = ~Nous savons où cela se trouve. Nous rechercherons vos enfants lorsque nous y irons.~
+@16 = ~Vous avez sauvé nos enfants !~
+@17 = ~Oh non !... Ma famille ! Pourquoi avez-vous fait ça ?!~
+@18 = ~Merci ! Nous vous en serons très reconnaissants.~

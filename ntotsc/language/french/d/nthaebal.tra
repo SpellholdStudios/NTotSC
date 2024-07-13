@@ -1,0 +1,59 @@
+@0 = ~Les voyageurs ici sont effectivement rares, mais depuis peu, des étrangers et des créatures violentes de toutes sortes sont apparus plus souvent. Que puis-je faire pour vous ?~
+@1 = ~Avez-vous quelque chose à vendre ? Regardons de plus près.~
+/* @2 -> @10016 */
+@3    = ~Je ne fais que passer par là... et je pars immédiatement.~
+@4 = ~Les voyageurs ici sont en effet rares. Nombreuses sont les rumeurs qui circulent autour des troubles dans le sud. Que puis-je faire pour vous ?~
+@5    = ~Merci. Je ne fais que passer et je ne vais pas rester ici plus longtemps.~
+@6 = ~Je suis désolé. Vous n'êtes pas le bienvenu ici ; en fait, vous n’êtes tout simplement pas nécessaire. Il est grand temps de mourir, petits pleurnichards !!!~ ~Je suis désolé. Vous n'êtes pas la bienvenue ici ; en fait, vous n’êtes tout simplement pas nécessaire. Il est grand temps de mourir, petits pleurnichards !!!~
+/* @7 -> @10017 */ 
+@8 = ~Je suis désolé pour mon comportement, mais les choses vont vraiment mal maintenant. Récemment, un de mes amis proches est décédé à la Porte de Baldur. Son nom était Hasdar. Je l'ai engagé pour obtenir des informations et maintenant l'affaire l'a rattrapé.~
+@9    = ~En fait, il est mort de nos mains. Et ce n'était pas un type aussi sympathique que vous l'avez dit. Mais les temps ne sont pas sûrs. Comment pourrions-nous réaliser que vous vous connaissez ?~
+@10   = ~Désolé pour ça. Pouvons-nous cependant vous aider ?~ ~Désolée pour ça. Pouvons-nous cependant vous aider ?~
+@11 = ~Vous devriez avoir honte d'avoir tué des innocents. Mais d'un autre côté, il n'était pas vraiment mon ami, juste quelqu'un que j'avais engagé pour récupérer des artefacts pour moi. J'ai payé trois fois ce qu'ils valent vraiment. Juste mon destin. Si seulement vous pouviez le remplacer dans sa mission, je vous en serais très reconnaissant. Je peux vous payer aussi bien que lui..~
+@12   = ~Nous avons envie de faire quelque chose d'utile et de rentable en chemin... Nos oreilles sont ouvertes.~
+@13   = ~Désolé, nous avons beaucoup à faire maintenant. Peut-être une autre fois.~ ~Désolée, nous avons beaucoup à faire maintenant. Peut-être une autre fois.~
+@14 = ~Maintenant, prêtez attention. Je recherche deux articles, en fait, un fera l'affaire. J'ai besoin de quelqu'un pour les obtenir pour moi. Je peux offrir un salaire suffisant.~
+@15 = ~Le premier artefact est un arc magique, autrefois la fierté des soldats elfes, perdu il y a des siècles. Cependant, j'ai été informé que Fey'doch, un elfe qui habite au nord d'ici, dans la Forêt Elfique, est entré en possession de ce précieux objet. Vous pourriez peut-être le lui racheter. Je rembourserai toutes vos dépenses et ajouterai 2 500 po.~
+@16 = ~Et le deuxième élément...?~
+@17 = ~Le deuxième artefact, bien plus précieux et inestimable pour les mages de mon espèce, est le Grand Livre de l'Inconnaissance. On dit qu'il est contenu dans la collection de Château-Suif, mais probablement la seule personne qui sait quelque chose avec certitude est Lobar, le propriétaire de la Lanterne Assourdie dans le quartier des quais de la Porte de Baldur. Lui offrir une coquette somme d'or lui "rafraîchira" la mémoire à coup sûr. Naturellement, le coût ne me dérange pas et je vous donnerai 5 000 po supplémentaires.~
+@18 = ~Nous acceptons les travaux, mais je ne vous promets rien.~
+/* @19 -> @10018 */
+@20 = ~Nous avons déjà cet arc magique. Combien ça vaut pour vous ?~
+@21 = ~Nous avons déjà le Grand Livre de l'Ignorance. Combien ça vaut pour vous ?~
+@22 = ~Nous avons déjà ces deux objets avec nous.~
+@23   = ~Dans ce cas, avant de partir, voulez-voir voir mes marchandises ?~
+@24   = ~Nous voudrions nous montrer ce que vous avez.~
+@25   = ~ Rien ne presse, peut-être une autre fois... ~
+@26 = ~Et vous aurez votre récompense ! Il semble que ce sera la fin de notre collaboration, le reste sera enfin mien - n'y voyez rien de personnel, ce sont juste pour les affaires... MOUREZ les petits !!~
+/* @27 -> @10020 */ 
+@28 = ~Avez-vous considéré mon offre ? Cela vous intéresse ?~
+@29 = ~Pourriez-vous répéter quelles étaient vos tâches ? Nous pourrions être intéressés maintenant.~
+@30 = ~Non, nous ne l'avons pas fait, nous avons besoin de plus de temps pour y réfléchir.~
+@31 = ~On dirait que le mal grandit en vous, hé, hé, hé... C'est encore mieux, mmmmh ?...~
+@32 = ~C'est peut-être vrai, mais nous avons l'un des artefacts que vous voulez et nous attendons la récompense.~
+@33 = ~Alors, c'est chose faite. Le Grand Livre de l'Ignorance est de retour auprès de son propriétaire légitime. Et le propriétaire est très satisfait.~
+@34 = ~Vous semblez plutôt content, mais les "coûts" pour récupérer le livre étaient très élevés et nous attendons la récompense.~
+@35   = ~Vous avez mes objets ? C'est magnifique!~
+@36 = ~Oui, nous les avons, et maintenant il est temps pour nous d'être récompensés de manière adéquate.~
+@37 = ~Avez-vous recherché mes articles ? Cela peut prendre beaucoup de temps si je hasarde une supposition...~
+@38 = ~Bien sûr que nous l'avons été, mais nous avons besoin de certains de vos biens.~
+@39 = ~Comme vous pouvez le constater, nous recherchons toujours...~
+@40 = ~Votre nom est-il Haeball, par hasard ?~
+/* @41 -> @10019 */
+@42 = ~Haeball, puis-je vous poser une question ?~
+@43 = ~Ahhhh... c'est très sympa. C'est bon de voir cette obscurité grandir en vous... hé, hé... Nous reviendrons sur votre récompense plus tard.~
+@44 = ~Peu importe...~
+@45 = ~Merveilleux ! Maintenant, partez à la recherche de l'arc magique, et à votre retour, nous verrons cette récompense... hé, hé...~
+@46 = ~Très bien, nous reviendrons après avoir récupéré l'arc.~
+@47 = ~C'est l'un de mes nombreux noms, oui. Comment puis-je vous aider ?~
+@48 = ~Certaines créatures que nous avons rencontrées au sud d'ici ont indiqué que vous saviez peut-être quelque chose sur le mage qui les a invoquées ici, sur ce plan. Ils refusent de partir à moins que je leur amène le mage.~
+@49 = ~Ahhhh, ah ah ah, oui... l'apprenti magicien... qui les a convoqués, dites-vous ? Eh bien, nous voulons tous quelque chose, moi y compris. Je vais vous faire un marché à propos de ce mage si vous voulez bien m'écouter.~
+@50 = ~Eh bien, si je veux progresser dans cette quête, je ne vois pas d'autre choix.~
+
+/* nouveau pour la v2.0 */
+// en parties similaires à @15
+@51 = ~Je veux que vous récupériez un artefact, un arc magique, qui faisait autrefois la fierté des soldats elfes, perdu depuis des lustres. Cependant, j'ai été informé que Fey'doch, un elfe qui habite au nord d'ici, dans la Forêt Elfique, est entré en possession de ce précieux objet. Vous pourriez peut-être le lui racheter. Je rembourserai toutes vos dépenses et ajouterai 2 500 pièces d'or.~
+@52 = ~Encore vous ! Avez-vous cherché mon arc ?~
+//dans des parties similaires à @49
+@53 = ~Ahhhh, ah ah ah, oui... l'apprenti magicien... qui les a invoqués, dites-vous ? Eh bien, nous voulons tous quelque chose, moi y compris. Tenez-vous en au marché que je vous ai proposé et je vous aiderai avec le mage que vous recherchez.~
+@54 = ~Vous avez ce que je voulais ? Magnifique!~

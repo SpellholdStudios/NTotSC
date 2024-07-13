@@ -1,0 +1,45 @@
+// #3159
+@0    = ~Des étrangers païens.~
+// #3160
+@1    = ~Surveillez votre langue, de peur que je ne la coupe !~
+// #3161
+@2    = ~Vous devriez être reconnaissant d'être là ! Sans moi, vous seriez perdu !~
+// #3162
+@3    = ~Vous ne me faites pas confiance, mais je ne vous veux aucun mal. Je suis là pour vous aider.~
+// #3163
+@4    = ~Hmphh. Je ne devrais m’attendre à rien de mieux que des menaces de la part de personnes comme vous. Faites ce que vous devez et quittez ma maison.~
+// #3164
+@5    = ~Reconnaissant ? Reconnaissant que des étrangers doivent envahir ma maison parce que mes camarades disparus sont partis, peut-être morts ? Non, je serai reconnaissant quand vous partirez. Partez et faites ce que vous devez.~
+// #3165
+@6    = ~Hmm... J'ai bien peur de vous avoir mal lu et je m'excuse, même si je n'aime toujours pas que des étrangers se promènent dans ma maison. Vos efforts seront appréciés, mais je serai toujours heureux lorsque vous aurez terminé.~
+// #3166
+@7    = ~Ahh, Satos nous a prévenu qu'il y aurait des étrangers ici ce jour-là. C'est un grand service que vous rendez ici, sans aucun doute sans aucun risque pour vous-mêmes.~
+// #3167
+@8    = ~De quoi avez-vous besoin de moi ?~
+// #3168
+@9    = ~Que savez-vous des personnes disparues ?~
+// #3169
+@10   = ~Avez-vous entendu quelque chose de troublant la veille ?~
+// #3170
+@11   = ~Je n'ai besoin de rien de votre part. Je vais chercher moi-même et tuer ce que je trouve !~
+// #3171
+@12   = ~Je sais qu'ils étaient des amis chers et de confiance. Cela suffit.~
+// #3175
+@13   = ~Merci. Je ne vous dérangerai plus.~
+// #3172
+@14   = ~Juste les rêves dans ma propre tête. Je crains qu’aucun d’entre nous n’ait dormi profondément ces dix dernières années.~
+// #3173
+@15   = ~Je... vois. Je ne vois pas en quoi ce genre d'"aide" est utile. Quel serait votre but ici si nous avions pu lâcher un ours enragé et obtenir le même effet ? Ce soir, je ne dormirai pas mieux.~
+// #3174
+@16   = ~Bonne chance dans votre recherche. J'espère que tout cela sera bientôt fini.~
+// #8745
+@17   = ~Je ne pense pas qu'il y ait quelque chose que je connaisse qui puisse vous intéresser.~
+@18 = ~La Citadelle est donc à nouveau en sécurité. C'est une très bonne nouvelle. En quoi puis-je vous aider ?~
+@19   = ~Rien, bonne journée !~
+@20   = ~Oui, nous nous demandions ce que vous gardiez à l'intérieur de l'autel de la chapelle de Helm. C'est fermé à clé et nous sommes si curieux que nous n'arrivons pas à dormir.~
+@21 = ~À la discrétion du fondateur de la citadelle, Monoach, nous y avons sauvegardé l'une de nos reliques - un symbole sacré de Helm. Mais nous ne savons pas où se trouve la clé. On dit que Monoach l'a donné à ses amis de confiance, quelque part au loin pour les garder en sécurité... Ils résident sur une île loin au nord-ouest... C'est difficile à dire vraiment. Peut-être que si vous voyagez vers le nord le long de la côte depuis la Barbe d'Ulgoth, vous pourriez trouver un endroit qui le connaît et qui pourrait vous permettre de vous y rendre ?~
+@22   = ~N'avez-vous pas essayé de forcer le verrouillage ? Peut-être que ce symbole serait plus utile au service de tous les autres ?~
+@23   = ~Nous n'y avons même pas pensé. Et personne ne permettrait probablement à une personne non autorisée de retirer le sceau de la serrure. Selon les propos de Monoach, le propriétaire de la clé peut prendre le Symbole. Mais seulement celui qui détient la clé.~
+/* @24 -> @10005 */  
+@25 = ~Le prêtre de Helm dans le temple a dit que vous étiez au courant de l'existence de l'autel verrouillé. Pourriez-vous nous éclairer à ce sujet ?~
+@26 = ~Je ne souhaite pas discuter de l'autel avec vous pour le moment, compte tenu de tout ce qui se passe. Revenez m'en parler une fois que vous aurez compris ce qui se passe ici à la Citadelle et que vous aurez à nouveau assuré la sécurité de tout le monde.~

@@ -1,0 +1,20 @@
+//(StrRef : 8348)
+@0    = ~ Hors d'ici, imbécile ! Je n'ai pas besoin que votre nez renifle mes affaires !~
+// #8349
+@1    = ~Je doute que vous ayez beaucoup de conversation avec qui que ce soit, avec la Dame qui ne chante pas. Si cette voix ne revient pas, il y aura des hommes des profondeurs qui ne seront plus jamais les mêmes.~
+// (StrRef : 8350)
+@2    = ~Mettez une sourdine dans l'instrument de ce foutu barde avant de boucher son trou avec ma botte !~
+// (StrRef : 8351)
+@3    = ~Je préfère écouter le foutu silence laissé par la Dame plutôt que vos miaulements ! Ne m'obligez pas à le répéter !~
+// #8373
+@4    = ~ Hé, mon pote, on devrait passer à la maison close et voir les filles du festival. Qu'en penses-tu ?~
+@5    = ~Nous recherchons des informations. Le livre de l'ignorance...~
+@6    = ~Désolé de vous déranger.~ ~Désolée de vous déranger.~
+// #9177
+@7    = ~Je vous botterai les oreilles si vous vous approchez d'un pouce !~
+@8    = ~Haaa, cette idiotie... Je l'ai lu, lu... mais quoi ? Je ne me souviens pas...~
+@9    = ~Mais à qui l'avez-vous vendu ! Vous vous en souvenez, n'est-ce pas ?~
+@10   = ~Pas vraiment... Mais le mage avait un laboratoire, quelque part dans les Pics des Nuages... Col Déserté ou quelque chose comme ça ? Quand je l'ai vu la dernière fois, il est devenu fou à cause d'un sortilège qui invoquait d'horribles démons et massacrait ses apprentis.~
+@11   = ~Où peut-on le trouver ?~
+@12   = ~Qui ?~
+/* @13 -> @10052 */

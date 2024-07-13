@@ -191,6 +191,14 @@ LANGUAGE
 	~ntotsc/language/russian/setup.tra~
 	~ntotsc/language/russian/journal.tra~
 
+LANGUAGE
+	~French (translation by Streen)~
+	~french~
+	~ntotsc/language/english/setup.tra~
+	~ntotsc/language/english/journal.tra~
+	~ntotsc/language/french/setup.tra~
+	~ntotsc/language/french/journal.tra~
+
 /*
 LANGUAGE
 	~Castilian~
@@ -2145,7 +2153,7 @@ EXTEND_BOTTOM ~%Temple_BCS%.bcs~ ~ntotsc/modify/bcs/ar3400.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%Gullykin_Winery_L1_BCS%.bcs~ ~ntotsc/modify/bcs/ar4003.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%NBaldursGate_House6_L1_BCS%.bcs~ ~ntotsc/modify/bcs/ar0020.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~%DurlagsTower_Cellar_BCS%.bcs~ ~ntotsc/modify/bcs/ar0501.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~%UlgothsBeard_BCS%.bcs~ ~ntotsc/modify/bcs/ar1000.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~%UlgothsBeard_BCS%.bcs~ ~ntotsc/modify/bcs/ar1000.baf~ EVALUATE_BUFFER
 EXTEND_TOP ~%UlgothsBeard_BCS%.bcs~ ~ntotsc/modify/bcs/ar1002.baf~ EVALUATE_BUFFER
 EXTEND_TOP ~%UlgothsBeard_DemonsChamber_BCS%.bcs~ ~ntotsc/modify/bcs/ar1002.baf~ EVALUATE_BUFFER
 EXTEND_BOTTOM ~tracea.bcs~ ~ntotsc/modify/bcs/tracea.baf~ EVALUATE_BUFFER

@@ -1,0 +1,21 @@
+@0 = ~Nous venons ici pour affaires. Nous sommes intéressés par un certain livre.~
+@1 = ~De toute évidence, cette affaire ne pouvait pas échapper à l'attention des personnes suspicieuses. Il n'y a pas si longtemps, un mage d'Haalruan a posé des questions sur lui, tout comme vous aujourd'hui. Et ma réponse est simple. Mon amie bien-aimée a perdu la tête. La possession de ce livre était ma malédiction. Mais il y a quelque temps, un fou comme vous m'a retiré la malédiction et il est probablement maudit par celle-ci en ce moment.~
+@2 = ~Alors combien coûtera l'information ?~
+@3 = ~Allez-vous prolonger ça pour toujours ? Dites-nous votre prix.~
+@4 = ~3 000 pièces d'or. Si je vous dis qui l'a, j'aurai besoin d'une sécurité adéquate pendant un certain temps.~
+@5 = ~Ok, voici votre argent.~
+@6 = ~Malheureusement, nous n'avons pas assez d'argent pour le moment... nous reviendrons plus tard.~
+@7 = ~D'accord, allez voir la Sirène Rougissante. Vous y trouverez Oupaste. Il a été le médiateur dans cette transaction, il sait donc sûrement à qui il a vendu le livre. Je n'ai plus rien à dire.~
+/* @8 -> @10002 */ 
+@9 = ~Comme vous le souhaitez.~
+@11 = ~Nous venons ici pour affaires. Nous sommes intéressés par un certain livre.~
+
+/* nouveau pour la v2.0 */
+@12 = ~J'espère que vous apprécierez votre séjour.~
+@13 = ~J'ai l'or maintenant.~
+@14 = ~Au revoir.~
+@15 = ~Bonne journée.~
+
+
+/* nouveau pour la v3.1.0 */
+@16 = ~Je ne vais pas dépenser autant d'or pour une simple information.~
