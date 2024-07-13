@@ -97,6 +97,7 @@ ALWAYS
 				"polish" => "CP1250"
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
+				"schinese" => "CP936"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup journal END
 //			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN ## END
@@ -204,13 +205,14 @@ LANGUAGE
 	~castilian~
 	~ntotsc/language/castilian/setup.tra~
 	~ntotsc/language/english/journal.tra~
-LANGUAGE
-	~Chinese (simplified)~
-	~chinese_simplified~
-	~ntotsc/language/english/prompts.tra~
-	~ntotsc/language/chinese_simplified/setup.tra~
-	~ntotsc/language/chinese_simplified/journal.tra~
 */
+
+LANGUAGE
+	~Simplified Chinese(by Archenemy,Latest update by You Ye & Lewis Liu (V5.0.0))~
+	~schinese~
+	~ntotsc/language/schinese/setup.tra~
+	~ntotsc/language/schinese/journal.tra~
+
 
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
