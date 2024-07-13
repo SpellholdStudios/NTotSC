@@ -273,6 +273,7 @@ CHANGES - VERSION HISTORY
 
 5.0.1 - packed by jastey
 	-Changed patching of Reedrig's spawn script in Ulgoth's Beard to EXTEND_TOP (+ Continue) to make it more stable.
+        -Simplified Chinese version byArchenemy.Latest Chinese accent by You Ye & Lewis Liu.
 
 5.0.0 - packed by jastey
 	-new components, by Angel: Improved Lesser Fiends; Improved Haeball; Improved General Ghotal.
