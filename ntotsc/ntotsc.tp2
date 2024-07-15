@@ -100,7 +100,7 @@ ALWAYS
 				"schinese" => "CP936"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup journal END
-//			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN ## END
+			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN install END
 			LAF ~HANDLE_CHARSETS~
 				INT_VAR
 				infer_charsets = 0
@@ -211,6 +211,7 @@ LANGUAGE
 	~Simplified Chinese(by Archenemy,Latest update by You Ye & Lewis Liu (V5.0.0))~
 	~schinese~
 	~ntotsc/language/schinese/setup.tra~
+        ~ntotsc/language/schinese/install.tra~
 	~ntotsc/language/schinese/journal.tra~
 
 
