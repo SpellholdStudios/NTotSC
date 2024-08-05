@@ -1,0 +1,24 @@
+@0    = ~Encantado de conoceros. Soy Nadalin.~
+@1    = ~Hola. Soy Nadalin. Vengo de bastante el norte, del lugar donde la Espada de la Costa se transforma en un golfo. Desafortunadamente, mi pueblo estaba aterrorizado por unos monstruos de fuego y ahora mi barca está en la casa de las sirenas. He escapado del pueblo y ahora vivo aquí. Pero me gustaría volver a mis tareas.~
+/* @2 = @10039 */
+@3    = ~¿No tenéis el corazón, verdad?  Está bien. Se de donde venís. No podía hacerlo yo sola.~
+@4    = ~¿Lo habéis echo, no? Creo que vuestros corazones son más duros de lo que a mi me gustaría. No lo digo contenta, pero si alguna vez necesitáis ayuda, probablemente me encontréis cerca de mi barca en mi pueblo.~
+/* @5 -> @10040 */ 
+@6    = ~Gracias por vuestra ayuda. Ahora puedo volver a mi pueblo. Si alguna vez me necesitáis me encontraréis cerca de mi bote. Me encanta mi vieja dama.~
+@7    = ~No soy luchadora, amigos.~
+@8    = ~Bienvenidos amigos. ¿Cómo os puedo ayudar?~
+@9    = ~Me gustaría que nos llevarais a una isla habitada por salamandras de hielo. ¿Habéis oido algo de eso?~
+@10   = ~Solo pasabamos por aquí para ver como os iba.~
+@11   = ~Creo que se donde es, pero es un lugar peligroso. Los lagartos atacan sin avisar. Llegué a esa isla una vez durante una tormenta. Me costó bastante huir. ¿Queréis que os lleve allí ahora?~
+@12   = ~Si, creo que podemos partir.~
+@13   = ~No, ahora no. Pero es bueno saber que nos queréis ayudar.~
+@14   = ~¿Ya estáis hartos de esta isla?~
+@15   = ~Si, salgamos de aquí.~
+@16   = ~No, esperad un rato más.~
+@17 = ~Bienvenido de nuevo, amigo. ¿Cómo os puedo ayudar?~
+@18 = ~¿Podríais llevarnos de nuevo a la Isla de las Salamandras?~
+@19 = ~Por supuesto. Vamos entonces.~
+@20 = ~The leader of a fishing village on the Northern Coast told us about you. We've solved the problem there.~
+
+/* new for v2.0 */
+@21 = ~Bienvenido, amigo.~

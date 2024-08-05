@@ -1,0 +1,983 @@
+@2    = ~Estas son unas flechas normales que han sido preparadas con un veneno vegetal de rápida actuación.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- Inflige veneno al objetivo
+
+Daño: 1d6 
+Tipo de daño: Misil (perforante)
+Lanzador Arco
+
+Peso: 0~
+
+@6    = ~A parte de su artesanía, se pueden observar como se han engarzado pequeñas runas de poder por toda su superficie. Es obvio el tiempo y el esfuerzo que se dedicó en su creación y aunque no sea aparente a primera vista, se puede ver como emana un brillo azul de las runas.
+
+ESTADÍSTICAS:
+
+THAC0: +2
+Daño 1d8+2, +1d10 fuego
+Tipo de daño: Misil
+Lanzador: Arco
+
+Peso 0~
+
+/*@10   = ~Estas flechas están envenenadas por Will usando una resina que gotea de su curioso mayal. Aprendió a utilizar el veneno siendo muy joven y puede preparar una cantidad suficiente para 5 flechas.
+ESTADÍSTICAS:
+Daño (misil): 1D6 + 1
+Especial: Veneno
+Peso: 0
+Lanzador:  Arco~*/
+
+@12   = ~Normalmente, estas flechas tan peligrosas son raras y solo se encuentran algunas muestras. Como arma son casi inútiles, pero estratégicamente pueden volverse unos artefactos muy útiles. El guerrero con las habilidades adecuadas las puede hacer precisas en combate. Cuando la flecha golpea al objetivo, se teletransporta lejos del del campo de batalla para limitar el número de enemigos.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- Tras un impacto exitoso, el enemigo es trasladado a un lugar aleatorio
+
+THAC0: -3 penalización
+Daño 1d3
+Tipo de daño: Misil (perforante)
+Lanzador: Arco
+
+Peso: 0~
+
+@16   = ~A parte de su artesanía, se pueden observar como se han engarzado pequeñas runas de poder por toda su superficie. Es obvio el tiempo y el esfuerzo que se dedicó en su creación y aunque no sea aparente a primera vista, se puede ver como emana un brillo azul de las runas.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- 50% de probabilidad cada impacto de que el objetivo sufra 1d3 de daño de electricidad adicional.
+- 15% de probabilidad cada impacto de aturdir al objetivo durante 1 asalto
+
+THAC0: +2
+Daño: 1d8+2
+Tipo de daño Cuchillada
+Factor de velocidad: 7
+Tipo de competencia: Hacha
+Tipo: Hacha A una mano
+Requiere 
+ 10 Fuerza
+
+Peso: 7
+~
+
+@20   = ~El mayal se compone de una asa de madera robusta unida a una barra de metal, una barra de madera con pinchos o una bola de metal con pinchos. Entre el asa y sus complementos hay o bien una visagra o un cadena.  Inicialmente el arma se usaba como herramienta para machacar el grano. Este mayal se ha mejorado mágicamente. Se puede ver como las runas brillan por toda la superfície.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- 50% de probabilidad cada impacto de que el objetivo sufra 2d3 de daño de electricidad adicionales.
+- 10% de probabilidad cada impacto de aturdir al objetivo durante 1 asalto
+
+THAC0: +2
+Daño 1d6+3
+Tipo de daño: Aplastante
+Factor de velocidad: 7
+Tipo de competencia: Mayal/Lucero de alba
+Tipo: A una mano
+Requiere 
+ 11 Fuerza
+
+Peso: 15
+~
+
+@24   = ~El arma personal de Nirel, un clérigo poderoso, del cual no se conoce casi nada.  Sin embargo, la historia cuenta que fue un infame seguidor religioso con un inmenso odio a los seguidores de otras creencias.  Se dice que guardaba las cabezas de sus víctimas como trofeos.  Era el responsable de la profanación de cientos de templos de otras doctrinas; por lo que se ganó, al igual que su maza, el apodo de 'Profanador'.
+
+STATISTICS:
+
+THAC0: +2
+Daño 1d6+3
+Tipo de daño: Aplastante
+Factor de velocidad: 6
+Tipo de competencia: Maza
+Tipo: A una mano
+Requiere 
+ 3 Fuerza
+
+Peso: 7
+~
+@26   = ~El mayal se compone de una asa de madera robusta unida a una barra de metal, una barra de madera con pinchos o una bola de metal con pinchos. Entre el asa y sus complementos hay o bien una visagra o un cadena.  Este mayal ha sido mejorada mágicamente, generando de forma efectiva una unión entre éste y su portador.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Cuando Will empuña su mayal, es capaz de crear 5 balas envenenadas
+
+THAC0: +1
+Daño 1d8+1
+Tipo de daño: Aplastante
+Peso: 10
+Factor de velocidad: 6
+Tipo de competencia: Mayal/Estrella de la mañana
+Tipo: Una mano
+Requiere 
+ 13 Fuerza
+
+Peso: 10
+~
+@27   = ~El mayal se compone de una asa de madera robusta unida a una barra de metal, una barra de madera con pinchos o una bola de metal con pinchos. Entre el asa y sus complementos hay o bien una visagra o un cadena.  Este mayal ha sido mejorada mágicamente, generando de forma efectiva una unión entre éste y su portador.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Cuando Will empuña su mayal, es capaz de crear 5 balas envenenadas
+- Fuerza: +2
+- Puntos de golpe máximos: +10
+
+Habilidades de combate:
+- 50% de probabilidad de ralentizar al objetivo tras un ataque exitoso
+
+THAC0: +3
+Daño 1d8+3
+Tipo de daño: Aplastante
+Factor de velocidad: 6
+Tipo de competencia: Mayal/Lucero de alba
+Tipo: Una mano
+Requiere 
+ 13 Fuerza
+
+Peso: 10
+~
+@29   = ~Estos virotes normales han sido tratados con un veneno vegetal de actuación rápida.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- Daño de veneno adicional
+
+Daño: 1d8
+Tipo de daño: Misil (perforante)
+Lanzador: Ballesta
+
+Peso: 0
+~
+@33   = ~Estas son las Botas de Nivel, un clérigo poderoso, del cual no se conoce casi nada.  Sin embargo, la historia cuenta que fue un infame seguidor religioso con un inmenso odio a los seguidores de otras creencias.  Se dice que guardaba las cabezas de sus víctimas como trofeos.  Era el responsable de la profanación de cientos de templos de otras doctrinas.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Tiradas de salvación: +1
+- Resistencia Mágica: +5%
+
+Peso: 3
+~
+@37   = ~Esta arma es sagrada para los guerreros al servicio de Talos, dios de las tormentas y la destrucción, y se ha visto usada en las manos adecuadas durante décadas.  Compuesto por varias capas de madera, el Arco de las Tormentas se ha usado contra miles de enemigos de la iglesia de Talos.  
+
+Recientemente, este arco estaba en posesión del Caballero de las Tormentas llamado Kalassan Brevered, que fué abatido después de derrotar a unos cuantos exploradores y druidas en las Islas Lunshae.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia a la electricidad: +30%
+- Ataques por asalto: 3
+
+THAC0: +1
+Daño: +1
+Factor de velocidad: 3
+Tipo de competencia: Arco corto
+Tipo: Arco corto A dos manos
+Requiere 
+ 5 Fuerza
+
+Peso: 3
+~
+@40   = ~Este arco emana calor a pesar de que parezca que está frío en las manos - como si el arco estuviera satisfecho por sus habilidades.
+
+Tales arcos a veces se encuentran en los fríos territorios como los de las Diez Ciudades, pero éste es excepcionalmente peligroso.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Ataques por asalto: 2
+- Resistencia al fuego: +20%
+- Resistencia al frío: +20%
+
+Habilidades de combate:
+- 50% de probabilidad de que cada impacto el objetivo sufra 2d3 adicionales de daño de fuego
+
+THAC0: +1
+Daño +1
+Factor de velocidad: 2
+Tipo de competencia: Arco corto
+Tipo: Arco corto A dos manos
+Requiere 
+ 6 Fuerza
+
+Peso: 3
+~
+@44   = ~Hecho durante la época dorada de los élfos de Vinoardiente. Con un peso y equilibrio perfectos puede penetrar la armadura más resistente, y se vuelve un arma especialmente letal en manos de un elfo.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Ataques por asalto: 5/2
+
+THAC0: +2
+Daño: +1 
+Factor de velocidad: 7
+Tipo de competencia: Arco Largo
+Tipo: Arco largo A dos manos
+Requiere 
+ 15 Fuerza
+
+Peso: 3
+~
+/*
+@48   = ~Guantes de Robo Maestro: 'Dedos Hábiles'
+Estos guantes - conocidos por los adeptos del robo - fueron una vez propiedad del famoso carterista All An Woo-Dy.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Robar: +15%
+- Abrir cerraduras: +15%
+
+Peso: 1
+~
+*/
+@52   = ~Estas balas, las cuales son preparadas por Will a partir de la resina que babea de su mayal, están envenenadas. Aprendió a usar el veneno siendo muy joven y puede preparar el suficiente para un total de 5 balas.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- Inflige veneno al objetivo
+
+THAC0: +1
+Daño: 1d5+2 
+Tipo de daño: Misil (perforante)
+Lanzador: Honda
+
+Peso: 0
+~
+/*
+@56   = ~Creadas por Sage, uno de los Antiguos, para que le ayudara en su lucha contra el mal.  La tradición popular Antigua afirma que Sage fué un gran gerrero que raramente notaba el roce de sus enemigos en la batalla, aunque se dice que cuando eso sucedía se recuperaba rápidamente indistintamente de la fiereza del ataque o de la batalla.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia mágica: +5% 
+- Regeneración: 3 puntos de vida cada segundo
+
+Clase de Armadura: 4 (6 contra aplastante, 2 contra cortante)
+Requiere 
+ 6 Fuerza
+
+Peso: 9
+~
+@58   = ~La Cota de Mallas élfica es alabada por su capacidad para el mago de lanzar conjuros cuando la lleva. Esta en particular está encantada para dar al portador más inteligencia, pero no gratuitamente.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Inteligencia: +1
+- Constitución: -2
+- Puede memorizar un conjuro divino o arcano adicional de 2º y 3º nivel
+
+Clase de Armadura: 2 (4 contra aplastante, 0 contra cortante)
+Requiere 
+ 7 Fuerza
+
+Peso: 8
+~
+@60   = ~Entregada al mejor guerrero y al sacerdote más resistente de la Mano de Ebon.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia mágica: +5% 
+
+Clase de Armadura: 2 (4 vs. aplastante, 0 vs. cortante)
+Requiere 
+ 6 Fuerza
+
+Peso: 10
+~
+*/
+@62   = ~Durante los momentos de prosperidad de Vinoardiente, se creó una versión especial de la ilustre cota de mallas élfica que añadía protección contra las tormentas de rayos que aparecían, a veces, por la zona.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia a la electricidad: +30% 
+
+Clase de Armadura: 4 (2 vs. acuchillamiento, 6 vs. aplastamiento)
+Requiere 
+ 8 Fuerza
+
+Peso: 15
+~
+@67   = ~Los orígenes de esta capa se han perdido en la nibla de los tiempos. Sin embargo, durante algún tiempo estuvo en posesión de Drosus, un mago con gran poder de Aguas Profundas. Drosus topó de forma tonta con un gran grupo de lobos de invierno en una expedición a las montañas del Espinazo del mundo, viéndose obligado a ponerse, para mantener el calor, una capa con tal resistencia.
+
+A primera vista, esta capa parece deslumbrar por su color blanco. Sin embargo, es de echo, un compuesto de cientos de colores, que bailan y juegan con cualquier fuente de luz. Esta mezcla tan fascinante de colores tiende a distraer y cegar, parcialmente, a cualquiera mirando directamente a su portador.
+
+Esta capa se puede llevar en combinación con cualquier otra forma de protección encantada, por lo que se puede llevar sobre una armadura mágica, a diferencia de una capa de protección normal.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +2
+
+Peso: 3
+~
+/*
+@79   = ~El nombre original de esta curiosa espada se ha perdido en las profundidades del Mar de las Espadas.  Creada a partir de un hueso mágicamente endurecido, se cree, que esta arma, fué usada por los kuo-toa en sus rituales. El mango está hecho de coral envuelto por piel sahuagin.  Una vez fué propiedad de Lockhart, un ladrón aventurero prominente y contrabandista en la Costa de la Espada. Fué él el que le dió a la espada su actual nombre.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- 2% de posibilidad de lanzar Dedo de la muerte al objetivo
+
+THAC0: +2
+Daño: 1d4+2 
+Tipo de daño: Misil (perforante)
+Factor de velocidad: 1
+Tipo de competencia: Daga
+Tipo: Daga A una mano
+
+Peso: 1
+~
+*/
+@83   = ~Este dardo parece como cualquier otro dardo, a parte de que a éste se le ha echado un veneno muy fuerte.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Ataques por asalto: 4 
+
+Habilidades de combate:
+- Alta probabilidad de envenenar al objetivo durante 10 asaltos
+
+Daño: 1d3 
+Tipo de daño: Misil (perforante)
+Factor de velocidad: 2
+Tipo de competencia: Dardo
+Tipo: Una mano
+
+Peso: 0
+~
+/*
+@99   = ~La Armadura de las Sombras es una armadura de cuero tachonado creada para ser usada por los Maestros de las Sombras de Amn.  Los Maestros de las Sombras son la Orden más elevada dentro de la jerarquia de los Ladrones de las Sombras.  Es una armadura de cuero tachonado +3 que se funde con las sombras. Esta en particular se ha mejorado gracias a un gran ladrón de los Reinos. Sin dar mención a su nombre, y debido a que realmente era muy bueno, ¡nunca lo vió nadie partir hacia el más allá!
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Encontrar trampas: +15%
+- Moverse en silencio: +15%
+- Abrir Cerraduras +15%
+- Robar: +15%
+
+Clase de Armadura: 3 (4 vs. aplastante, 2 vs. perforante y proyectil, 1 vs. cortante)
+Requiere 
+ 6 Fuerza
+
+Peso: 1
+~
+*/
+@101  = ~Taerom ha fabricado un buen conjunto de armadura de cuero, deberíamos visitarlo alguna vez - nunca se sabe si el viejo herrero puede mejorar esta preciosidad.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Tirada de salvación vs. Petrificación: +2
+- Tirada de salvación vs Polimorfia: +2
+- Puede memorizar un conjuro arcano extra de cada nivel del 1º al 4º
+
+Clase de Armadura: 4 (3 vs. perforante y proyectil, 2 vs. cortante)
+
+Peso: 15
+~
+@102  = ~Taerom hizo un buen trabajo en esta armadura de cuero. Ahora la armadura de Will es realmente una protección bastante sólida.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Tirada de salvación vs. Petrificación: +3
+- Tiro de salvación vs. Polimorfia: +3
+- Suerte: +1
+- Resistencia a la Electricidad: +15%
+- Resistencia al Ácido: +30%
+- Puede memorizar un hechizo arcano extra de cada nivel del 1º al 8º
+
+Clase de Armadura: 0 (-1 vs. perforante y proyectil, -2 vs. cortante)
+
+Peso: 15
+~
+/*
+@104  = ~Esta armadura fué propiedad del famoso Príncipe Bárbaro de la Nieve, Corbus Denolx de Greyhawk.  Cómo o porqué abandonó su posesión se desconoce.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 5 (4 vs. perforante y proyectil, 3 vs. cortante)
+Requiere: 
+ 6 Fuerza
+
+Peso: 8
+~
+*/
+@106  = ~La armadura de cuero tachonado tiene poco en común con la armadura de cuero normal.  Mientras la armadura de cuero es una coraza endurecida, la armadura de cuero tachonado es blanda y flexibe fijada con cientos de remaches de metal.  Los remaches están tan juntos entre ellos que forman una capa flexible de metal duro que resiste los cortes y golpes de los ataques.  El trasero blando de cuero sirve de poco más que asgurar los remaches en su lugar.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia a la perforación: +10%
+- Resistencia a la cuchillada: +10%
+- Resistencia al fuego: +10%
+- Resistencia eléctrica: +10%
+- Tiro de salvación vs. Aliento: +2
+
+Clase de Armadura: 5 (4 vs. perforante y proyectil, 3 vs. cortante)
+Requiere: 
+ 6 Fuerza
+
+Peso: 15
+~
+/*
+@110  = Laúd de Hirsuhnite 'La Audiencia Apaciguada'
+Este laúd de calidad es bien conocido por los Hiphroditas del este.  Se dice que es el origen del sueño.  Se rumoreaba que Hirsuhnite, un Bardo Hiphrodita, encontrándose een la amplitud de la noche, oyó una canción de rendición y la escribió con el laúd.
+
+ESTADÍSTICAS:
+
+Habilidades de carga:
+- El objetivo queda inconsciente
+Duración: 2 turnos
+
+Peso: 3
+~
+*/
+@114  = ~Un equipo de lo más común utilizado en los Reinos, siempre tan práctico, que ninguna ama de casa respetada podría imaginar su existencia sin él. 
+Esta copia no parece diferenciarse con otras, pero está ensuciada con una sustancia grasienta, con un olor especial, y equipada con un cinturón de seguridad con el agujero que hace posible fiajarla en su conjunto. 
+Actuando con desesperación, también se puede usar para defender a alguien.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- 100% de probabilidad de golpe crítico al impactar
+
+Daño: 1d1+1
+Tipo de daño: Aplastante
+Factor de velocidad: 1
+Tipo de competencia: Baston
+Tipo: A dos manos
+Requiere 
+ 5 Fuerza
+
+Peso: 3
+~
+@120  = ~A algunos sacerdotes les gusta llevar un pequeño símbolo de su deidad con ellos vayan donde vayan.  Tal diligencia solo puede ser recompensada.
+
+ESTADÍSTICAS:
+
+Especial: 
+- Permite aprender el Hechizo 'Guarda de Protección~
+
+@141  = ~Hechando un vistazo más de cerca a esta armadura de placas, el metal parece encontrarse en un estado corpóreo, de ahí su parecido sombrío.  Al llevarlo puesto, hará que el portador parezca ocultarse como lo está la armadura.  También proveerá de protecciones extra contra armas de proyectil mientras el usuario esté en su estado de ocultación.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 2 (-1 vs. proyectiles, -1 vs. cuchillada)
+Requiere 
+ 12 Fuerza
+
+Peso: 20
+~
+@145  = ~Este poderoso elixir imbuye al bebedor con un escudo formado por la llamas de un fénix.  Los efectos son muy poderosos pero de corta duración.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +4
+- Resistencia al fuego: +50%
+- Resistencia al frío: +25%
+- Resistencia al ácido +25%
+- Resistencia eléctrica: +25%
+- Inmunidad a las armas no mágicas
+Duración 60 segundos
+
+Peso: 1
+~
+@149  = ~Esta botella de vino élfico también tiene las propiedades de una poción de curación. Durante uno de los festivales élficos, los sacerdotes de la Mano de Seldarine una vez se emborracharon demasiado y accidentalmente añadieron un barril de vino élfico a una mezcla que era destinada para las pociones de curación.
+
+ESTADÍSTICAS:
+
+Especial: Cura 35 puntos de golpe (80% de probabilidad de emborracharse durante 30 minutos)
+
+Peso: 1
+~
+@153  = ~Will no quiere decir de donde viene el anillo, pero sus ventajas son raras y probablemente fué creado por un mago, amigo de Will.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia mágica +20
+
+Peso: 0
+~
+@155  = ~Un anillo es un pequeño aro de metal precioso que se usa en joyería.  Algunos anillos están encantados y ofrecen varias habilidades mágicas.  Estos anillos son vistos, en gran parte, y especialmente, por aventureros. 
+Sin motivo aparente, este anillo parece cálido al tacto.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +1
+- Resistencia al aplastamiento: +25%
+- Tiradas de salvación vs. Hechizos: +1
+
+Peso: 0
+~
+/*
+@158  = ~Velo Negro de Sauron
+Esta túnica en particular de mago es el resultado de la gran habilidad de los poderes de brujo y de sacerdote de Sauron. Ofrece una protección típica para todas las formas de ataques físicos y al mismo tiempo aumenta la resistencia mágica y los tiros de salvación. También otorga la habilidad, para el mago que lo lleva, de crear puertas dimensionales, convirtiéndose una "sombra" de si mismo. Debido a la naturaleza de su encantamiento, solo pueden llevarlo magos de alineación maligna.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia mágica: +15%
+- Tiradas de salvación: +1
+
+Habilidades de carga:
+- Puerta Dimensional
+- Puerta Sombría
+
+Clase de Armadura 5
+
+Peso: 2
+~
+*/
+@160  = ~Los chamanes orcos a veces hacen sus ropas con materiales de baja calidad fijados a trozos de cuero, con acabados visualmente horribles, pesadas y normalmente sin interés alguno para los aventureros, por muchas ventajas que posean.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +2
+- Resistencia a la electricidad: +40%
+- Resistencia al fuego: +40%
+- Resistencia al frío: +40%
+- Carisma: -5
+
+Peso: 35
+~
+/*
+@164  = ~El portador es inmune a todo, mágico o no, que afecte a la mobilidad de cualquier forma, aunque todavía puede ir de prisa.   Hay que sabe, sin embargo, que este también protegera al usuario de efectos beneficiosos, como los que otorgan las botas de velocidad.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +2
+- Sin protección contra ataques de proyectiles
+- El portador es inmune a todo aquello, mágico o no, que afecte a la movilidad de algún modo. 
+
+Requiere 
+ 4 Fuerza
+
+Peso: 3
+~
+*/
+@168  = ~Grabado con runas élficas por la cara, este escudo está hecho de algún metal duro que llegó a manos de los elfos.  Cualquier usuario de este escudo está seguro ya que reflejará cualquier golpe que le llegue.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +2, +3 vs ataques con proyectiles.
+- Tiradas de salvación: +1
+
+Requiere 
+ 15 Fuerza
+
+Peso: 8
+~
+@174  = ~Raasi'doch de Velle pasó muchas lunas trabajando con los artesanos del Pueblo Errante en la creación de esta lanza de cazador encantada. El explorador elfo necesitaba un arma para exterminar a los hombres lobo que aterrorizaban los bosques de Tethyr..
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- +1d6 de daño cortante adicional al golpear.
+- +3 daño vs. licántropos
+- +1 THAC0 vs. licántropos
+
+THAC0: +2 
+Daño 1d6+2 
+Tipo de daga: Perforante
+Factor de velocidad: 2
+Tipo de competencia: Lanza 
+Tipo: Lanza A dos manos
+Requiere 
+ 5 Fuerza
+
+Peso: 5
+~
+@176  = ~Eron el Consternado era un mago pesimista propenso a los duelos de magia.  Creía que la única forma de volverse fuerte en ese Arte era probar sus poderes contra otros magos.  Sin embargo, también creía que los ladrones y asesinos estaban constantemente buscando robar sus riquezas.  Para que pareciera de clase normal, llevaba las ropas de un peregrino y un simple bastón de olmo.  En realidad, el bastón estaba mágicamente encantado para ser más potente en combate, pero Eron no se quería arriesgar a advertir este echo.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- 80% de probabilidad cada golpe de 1d8+2 de daño cortante adicional.
+
+THAC0: +2
+Daño 1d6+2 
+Tipo de daño: Aplastante
+Factor de velocidad: 1
+Tipo de competencia: Bastón
+Tipo: A dos manos
+Requiere 
+ 5 Fuerza
+
+Peso: 3
+~
+/*
+@178  = ~Los bastones misioneros fueron creados originalmente en algún otro reino, pero han encontrado su forma de venir a Faerun. Normalmente están repletos de conjuros que ofrecen alguna protección, encantos o solo ofrecen simplemente conocimiento, así como también resguardan de algunos elementos. Este bastón en particular lanza Apertura, Armadura fantasmal, Detectar el mal, Curar heridas graves y Revivir a los muertos, cada uno con su orden, y sin límite. Además, ofrece protección al fuego como el anillo con este nombre y alguna resistencia contra la magia.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia al fuego: +40%
+- Resistencia mágica: +20%
+
+Habilidades de carga:
+- Golpear, tres veces al día
+- Detectar el Mal, dos veces al día
+- Curar heridas críticas, una vez al día
+- Levantar muertos, una vez al día
+
+THAC0: +2
+Daño 1d6+2
+Tipo de daño Aplastante
+Factor de velocidad: 2
+Tipo de competencia: Bastón
+Type: A dos manos
+Requiere 
+ 5 Fuerza
+
+Peso: 4
+~
+@180  = ~Este bastón de calidad estaba entre los regalos presentados como oferta de paz de los Nigromantes de Perregal a los Druidas de Erreth-Akbe cuando hubieron terminado sus 200 años..  Los Druidas por si solos nunca lo podrían haber usado, pero rechazar el regalo podría haber roto la paz.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- Vampírico: el portador se cura 4 puntos de golpe en cada impacto
+
+THAC0: +1
+Daño: 1d6+3
+Tipo de daño: Aplastante
+Factor de velocidad: 1
+Tipo de competencia: Bastón
+Tipo: A dos manos
+Requiere 
+ 5 Fuerza
+
+Peso: 3
+~
+@184  = ~Esta Espada fue forjada por Kid'Seroki para combatir a sus enemigos de sangre, los trolls.  Después de robarles el Anillo Mágico del Troll, los dioses trolls habían enviado innumerables grupos de trolls en busca de Kid'Seroki para retomarlo. Para evitar esto, Kid'Seroki había añadido varias magias a esta espada y la llamó la Pesadilla del Troll.
+
+ESTADÍSTICAS:
+
+THAC0: +1
+Daño 1d10+1, +3 ácido
+Tipo de daño: Cuchillada
+Factor de velocidad: 2
+Tipo de competencia: Espada larga
+Tipo: A una mano
+Requiere 
+ 4 Fuerza
+
+Peso: 5
+~
+@186  = ~Esta espada fue creada por un matadragones que perdió su vida en... bueno... su profesión.
+
+ESTADÍSTICAS:
+
+THAC0: +1
+Daño 1d10+1
+Tipo de daño: Cuchillada
+Factor de velocidad: 9
+Tipo de competencia: Espada larga
+Tipo:  A una mano
+Requiere 
+ 11 Fuerza
+
+Peso: 9
+~
+*/
+//ntswd03.itm
+
+@190  = ~Esta potente arma fué creada por los herreros del antiguo Myth Drannor. Esta espada, que ha pasado de generación a generación, ha estado en la familia de Evalt durante centurias.  Esta espada en particular da resistencia al fuego y un bonificador a la clase de armadura.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia al fuego: +30%
+
+THAC0: +1
+Daño: 1d6+1
+Tipo de daño: Cuchillada
+Factor de velocidad:  5
+Tipo de competencia: Espada corta
+Tipo:  Una mano
+
+Peso: 4
+~
+/*
+@194  = ~Morridin fué el sujeto de tantas bromas acerca de su espada.  Muchos bromeaban como un hombre tan pequeño no podía llevar una espada larga.  Aunque esos que se reían no lo hacían durante el tiempo suficiente o por segunda vez, debido a la gran precisión y habilidad con la que blandía su espada.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Destreza: +2
+
+THAC0: +1
+Daño: 1d10+1
+Tipo de daño: Cuchillada
+Factor de velocidad: 7
+Tipo de competencia: Espada a dos manos
+Tipo: A dos manos
+Requiere 
+ 10 Fuerza
+
+Peso: 5
+~
+*/
+//ntswd05.itm
+
+@197 = ~Esta gran espada estuvo una vez en manos de Ghotal, líder famoso de las hordas orcas del Norte. Con ella pudo presionar instantáneamente a Luskan, Targos y otras ciudades, incluida Nuncainvierno. La fama de la espada era tal que hacía a muchos defensores no estar dispuestos a ofrecer una resistencia organizada. Pero Ghotal fue demasiado lejos cuando Targos fue finalmente conquistada y destruida. Las fuerzas aliadas de los elfos de Everaska y gente de otras ciudades norteñas, emboscaron al general y aniquilaron muchas de sus legiones. Sin embargo, el mismo Ghotal escapó del campo de batalla, pero fue herido de muerte. Nunca fue visto ni oído desde entonces, aunque una leyenda orca dice que hoy en día aún existe, esperando la oportunidad de causar estragos otra vez por todo el país.
+
+ESTADÍSTICAS:
+
+THAC0: +3
+Daño 1d12+3
+Tipo de daño: Cuchillada
+Factor de velocidad: 7
+Tipo de competencia: Espada a dos manos
+Tipo: A dos manos
+Requiere 
+ 13 Fuerza
+
+Peso: 12
+~
+/*
+@199  = ~Creada por el Rey Mago Varashar para el comandante de sus CaballerosMuerte.  La espada rápidamente se volvió legendaria por su habilidad de cortar a través de casi todo.  Se sabe que legiones enteras huían del campo de batalla al ver una espada tan legendaria.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- 20% de probabilidad de infligir pánico con cada golpe
+
+THAC0: +1
+Daño 1d8+1
+Tipo de daño: Cuchillada
+Factor de velocidad: 3
+Tipo de competencia: Espada larga
+Tipo: A una mano
+Requiere 
+ 10 Fuerza
+
+Peso: 3
+~
+@201  = ~Espada a dos manos +1 'Orgullo de Dúrlag'
+
+ESTADÍSTICAS:
+
+THAC0: +1
+Tipo de daño: Cuchillada
+Factor de velocidad: 9
+Tipo de competencia: Espada a dos manos
+Tipo: A dos manos
+Requiere 
+ 13 Fuerza
+
+Peso: 10
+~
+@203  = ~Espada antigua de origen desconocido.  Se rumoreaba que se encontraba en la Torre de Dúrlag.  Algunos dicen que la espada se forjó en Myth Drannor; aunque muchos sitúan la espada en manos de Sage el Antiguo.
+
+ESTADÍSTICAS:
+
+THAC0: +2
+Daño 2d4+2 daño ácido
+Factor de velocidad: 2
+Tipo de competencia: Espada larga
+Tipo: A una mano
+
+Peso: 0
+~
+*/
+//ntswd09.itm
+
+@205  = ~Estas espadas se refieren normalmente a espadas de doble filo, espadas de guerra o espadas militares.  En muchos casos, la espada larga tiene solo un filo en la hoja. La espada larga no existe en este último caso; el diseño y la longitud varían de una cultura a otra, y puede variar incluso en la misma cultura dependiendo de la era.  Junto las características más comunes de todas las espadas largas, es su longitud, la cual oscila entre 0,9 y 1,2 metros.  En el último caso, la hoja puede llegar a 1 metro de la longitud total.  Muchas espadas largas tienen doble filo y una punta muy aguda.  A parte de la punta, la espada larga está diseñada para acuchillar, no para empujar. 
+La hoja de esta espada está cubierta con todo tipo de símbolos arcanos.
+
+ESTADÍSTICAS:
+
+Habilidades de combate:
+- 10% de probabilidad de aturdir al objetivo
+
+THAC0: +2
+Daño 1d8+2, +1d4 fuego
+Tipo de daño: Cuchillada
+Velocidad: 4
+Tipo de competencia: Espada larga
+Tipo: Espada larga A una mano
+Requiere 
+ 6 Fuerza
+
+Peso: 4
+~
+//scrlnt71.itm
+
+@211  = ~Guardia esqueleto 
+(Conjuración/Convocatoria)
+Nivel:  7
+Alcance:  20
+Duración:  4 horas
+Tiempo de lanzamiento:  5
+Area de efecto:  Especial
+Tirada de salvación:  No
+
+El lanzador convoca 4 Guerreros esqueleto para luchas con él en la batalla.~
+
+@214  = ~Fiery Cloud (Evocation)
+Level: 7
+Range: Sight of Caster
+Duration: 4 rounds +1d6 rounds
+Casting Time: 2
+Area of Effect: 10-feet radius
+Saving Throw: 1/2
+
+Este conjuro levanta una fina y humeante niebla que llena el area de efecto y que en principio parece inofensiva. Sin embargo, un asalto después, chispea y se enciende, provocando 1-2 puntos de daño por fuego por nivel en el primer asalto. En el cuarto asalto hace de 1-4 puntos/nivel, y en el quinto asalto, de nuevo entre 1-2 puntos. Las tiradas de salvación pueden reducir el daño la mitad en cada asalto mientras dura. La nube continuará incendiándose durante cada asalto mientras dure el conjuro.~
+
+@501  = ~Dentro de este pote de cristal hay una mezcla muy cara de aceite y otras sustancias químicas.  Cuando esta mezcla se enciende, arde durante varios segundos a altas temperaturas.  El Aceite Llameante es algo difícil de usar porque le lleva mucho tiempo al usuario de lanzarlo adecuadamente.  A menudos, los aventureros llevan aceite con ellos para lidiar contra los trolls en los momentos de desfortunio que se los encuentran.
+
+ESTADÍSTICAS:
+
+Especial:
+- Cuando se lanza a un objetivo, la vasija de cristal se rompe, esparciendo aceite en llamas sobre todo lo que hay en un radio de 1,5 m, causando de 2 a 16 puntos de daño por fuego.~
+
+/* Added by Angel */
+
+@542  = ~El encantador Presdon del Vasto creó este cinturon hace varios cientos de años para su guardaespaldas, Dendes el Seco.  Bautizó el ancho cinturón con el nombre de un gigante de las colinas que casi le había matado cuando buscaba componentes para hechizos.  Dendes murió defendiendo a Presdon de magos rivales cerca de Ordulin.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Fuerza: 19
+
+Peso: 2
+~
+@544  = ~Las duras planchas que protegen a los túmulos de ámbar son razonablemente fáciles de convertir en armaduras humanoides.  Esta armadura oscura fue convertida en cota de malla por herreros duergar.  Los enanos oscuros, expertos en el manejo de exoesqueletos de Hulk, curaron y reforzaron la armadura.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 2 (-2 vs. cuchillada)
+
+Requiere
+ 12 Fuerza
+
+Peso: 40
+~
+@546  = ~Esta armadura fue fabricada por el herrero enano Karador y un encantador elfo conocido como Elameth de los Cinco Árboles. Durante la época de cooperación entre la Mano del Seldarine y las Cavernas de Dorn, se produjeron muchos objetos maravillosos. Esta armadura era uno de ellas. Excepcionalmente ligera y hermosa, la armadura la llevaba originalmente una mariscal elfa de la Mano Cortada, razón por la cual los orcos no se la llevaron cuando saquearon las torres. La armadura fue robada más tarde de la Mano de la malvada elfa Doncella Ilmadia, que la usó en su batalla final contra los Defensores de Easthaven en las Cavernas de Dorn. No está claro qué ocurrió con la armadura tras su derrota ni cómo viajó desde la Espina Dorsal del Mundo hasta la Costa de la Espada.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Carisma: +1
+- Resistencia al fuego: +10%
+- Resistencia al frío: +10%
+- Resistencia a la electricidad: +10%
+- Resistencia al ácido: +10%
+
+Clase de Armadura 1 (-2 vs. cuchillada)
+Requiere
+ 12 Fuerza
+
+Peso: 20
+~
+@548  = ~Esta túnica estaba confeccionada con un tejido resistente y teñida de azul oscuro, el color favorito de su orgulloso propietario, el archimago Ogi-Luc.  Sembiano de nacimiento, Ogi-Luc era un hombre poderoso, tan fuerte de cuerpo como de mente.  Sin embargo, Ogi-Luc no se conformaba con ser fuerte.  Quería ser excepcionalmente fuerte.  Cuando se ponía estas ropas, los hombres orgullosos se apartaban y los fanfarrones callaban sus lenguas.  A pesar de todo el orgullo y las proezas de Ogi-Luc, fue incapaz de derrotar al abjurador Mago Rojo Nesk Vhaltim.  Nesk se llevó las túnicas como premio.  Más tarde fueron robadas y vendidas por un atrevido pícaro.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: 4
+- Fuerza: 18/99
+- Constitución: +2
+
+Peso: 5
+~
+@550 = ~Esta armadura pesada completa dorada fue fabricada para Ghotal , por herreros enanos capturados, y encantada por los chamanes de la tribu en ritos infames de los que es mejor no hablar.  Aunque ofrece una protección excelente, esta armadura es pesada y difícil de manejar, por lo que requiere una gran fuerza física para llevarla.  Sin embargo, su aspecto es impresionante.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Carisma: +2
+- Destreza: -4
+
+Clase de Armadura: 0 (-3 vs. cortante, -1 vs. perforante y proyectil)
+Requiere
+ 17 Fuerza
+
+Peso: 75~
+
+/* new in v5.0.0 */
+/* Angel's new items (2021 revision) */
+@557 = ~Esta túnica encantada tiene poderes sobre la tierra y la piedra.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Inmunidad a la petrificación
+
+Habilidades de carga:
+-De la Carne a la piedra (1/día)
+-De la Piedra a la carne (1/día)
+
+Peso: 4~
+@559 = ~Esta túnica de mago tiene muchos ojos ocultos por todas partes, lo que proporciona al portador una visión panorámica.  Gracias a ello, nunca puede ser sorprendido.  Los ojos de la túnica también tienen infravisión y pueden detectar criaturas invisibles.  Sin embargo, el inconveniente es que el portador es más susceptible de convertirse en piedra.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Tiradas de salvación: -4 vs. Petrificación
+- Infravisión
+- Inmunidad a Puñalada trapera
+
+Habilidades de carga:
+- Visión Verdadera (1/día)
+
+Peso: 4~
+@561 = ~Anillo de la proteccion +1, +3 vs. Humanoides: 'anilo del defensor'
+Este anillo mágico fue una vez propiedad de un noble de Puerta de Baldur.  Temiendo ser asesinado por un rival, pagó a un mago local para que creara este anillo que le protegiera de los atacantes humanoides.  Por desgracia para él, su rival decidió utilizar una serpiente venenosa para el intento de asesinato.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +1 (+3 vs. Humanoides)
+- Tiradas de Salvación: +1 (+3 vs. Humanoides)
+
+Peso: 0~
+@563   = ~La coraza prescinde de las cadenas de la cota de malla y la coraza completa para ahorrar peso.  En su lugar, se lleva un ligero traje acolchado, o aketon, bajo la coraza.  El considerable peso de esta armadura se distribuye sobre el cuerpo del portador, y un caballero entrenado puede tumbarse, levantarse o subirse a la silla de montar con esta armadura.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 2 (-1 vs. cortante, 1 vs. perforante y proyectil)
+Requiere:
+ 14 Fuerza
+
+Peso: 60~
+/* ------ */
+
+/* Secuencias de DSotSC (k4thos' BGT/EET version) */
+
+
+@1454 = ~Este arco fue creado para ser utilizado por los elfos en la defensa de sus bosques de goblins y hobgoblins, aunque no tiene ninguna habilidad especial contra goblins o hobgoblins.
+
+ESTADÍSTICAS:
+
+THAC0: +2
+Daño: +2
+Factor de velocidad: 3
+Tipo de competencia: Arco corto
+Tipo: A dos manos
+Requiere 
+ 6 Fuerza
+
+Peso: 2
+~

@@ -1,0 +1,29 @@
+//AR9PBA.baf
+@0    = ~De regreso habéis visto una isla pequeña, a pesar de las dificultades que tuvisteis para llegar a tierra con el fin de abasteceros de suministros para vuestro viaje. La isla no parece que esté habitada.~
+
+//ntcutres.baf
+@10    = ~Habéis tenido una inmensa necesidad de descansar.~
+
+//SHIP.baf; SHIP1.baf
+@30   = ~Necesitáis obtener las cartas de navegación si queréis volver de forma segura al continente.~
+
+
+/* new for v2.0 */
+
+//ar30pb.baf
+@40   = ~Defender la Ciudadela!~
+
+//nttr51pb.baf (trigger before dungeon in Firewine Bridge is opened by Charleston Nib's Scroll
+@50  = ~El pergamino te protege de la magia que selló la entrada. Ahora puedes entrar.~
+@51  = ~Echas un rápido vistazo a la entrada. En la penumbra ves suficiente movimiento para saber que esta es una mazmorra en la que no deberías entrar sin estar preparado, y preferiblemente con un clérigo capaz.~
+@52  = ~El camino está bloqueado por poderosos y extraños guardianes. Tendrás que encontrar la manera de desactivarlas si deseas entrar.~
+@53  = ~Para examinar esta entrada, acércate más.~
+
+/* ar4500.baf */
+@54  = ~Entrada a la mazmorra~
+
+//indo52pb.baf (triggers entrance to ar53pb.are)
+@60  = ~El fuego del aceite da una luz parpadeante pero justa. Ahora puedes bajar las escaleras.~
+@61  = ~Las escaleras conducen a una oscuridad total. Tendréis que encontrar alguna fuente de luz si queréis entrar.~
+@62  = ~La luz de la gema es brillante y constante. Ahora puedes bajar las escaleras.~
+@63  = ~La luz de la vela es tenue y vacilante, pero ahora puede bajar las escaleras.~

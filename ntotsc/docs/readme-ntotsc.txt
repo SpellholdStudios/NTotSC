@@ -255,6 +255,7 @@ Translations:
 - Russian: Arkie
 - French: Streen
 - Simplified Chinese: Archenemy, latest Chinese accent by You Ye & Lewis Liu
+- Spanish: alaisFcZ
 
 F.A.Q.
 ++++++
@@ -286,8 +287,10 @@ WIP
 	-Compatibility with BP-BGT-Worldmap v11 and above, by Roberciiik.
 	-Update of Polish translation, by Roberciiik.
 	-Update of InfinityAutoPackager, by Jastey.
+	-Fix NTKROTAN.cre incorrect level/HD, by Angel
 	-French translation added by Streen from la Couronne de Cuivre, added by JohnBob.
-  -Simplified Chinese version by Archenemy. Latest Chinese accent by You Ye & Lewis Liu, added by Lzw104522773.
+	-Simplified Chinese version by Archenemy. Latest Chinese accent by You Ye & Lewis Liu, added by Lzw104522773.
+	-Spanish translation by alaisFcZ (added by Angel).
 
 5.0.0 - packed by jastey
 	-new components, by Angel: Improved Lesser Fiends; Improved Haeball; Improved General Ghotal.

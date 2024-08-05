@@ -19,8 +19,7 @@ ASK_EVERY_COMPONENT
 /////                                                  \\\\\
 
 ALWAYS
-<<<<<<<< .../blank.txt
->>>>>>>>
+.../blank.txt
 	INCLUDE ~ntotsc/lib/macros.tpa~
 	INCLUDE ~ntotsc/lib/a7_tools.tpa~
 	INCLUDE ~ntotsc/lib/read_journal_strref.tpa~
@@ -88,7 +87,6 @@ ALWAYS
 	ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
 		COPY - ~weidu.conf~ ~.../weidu.conf~
 			READ_2DA_ENTRY 0 2 3 "lang_dir"
-//		ACTION_IF NOT ~%LANGUAGE%~ STR_EQ ~english~ BEGIN
 			ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
 				"german" => "CP1252"
 				"english" => "CP1252"
@@ -98,6 +96,7 @@ ALWAYS
 				"russian" => "CP1251"
 				"castilian" => "CP1252"
 				"schinese" => "CP936"
+				"spanish" => "CP1252"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup journal END
 			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN install END
@@ -112,8 +111,6 @@ ALWAYS
 				noconvert_array = charsetsNoConvertArray
 			END
 			
-//		END
-
 		LOAD_TRA ~ntotsc/language/%LANGUAGE%/setup-ee.tra~
 	END
 	/* consider installed DSotSC - BGT/EET vs. BG:EE versions */
@@ -159,6 +156,7 @@ LANGUAGE
 	~english~
 	~ntotsc/language/english/setup.tra~
 	~ntotsc/language/english/journal.tra~
+
 LANGUAGE
 	~German (translation by Leonardo Watson)~
 	~german~
@@ -199,6 +197,14 @@ LANGUAGE
 	~ntotsc/language/french/setup.tra~
 	~ntotsc/language/french/journal.tra~
 
+LANGUAGE
+	~Spanish (translation by alaisFcZ)~
+	~spanish~
+	~ntotsc/language/english/setup.tra~
+	~ntotsc/language/english/journal.tra~
+	~ntotsc/language/spanish/setup.tra~
+	~ntotsc/language/spanish/journal.tra~
+
 /*
 LANGUAGE
 	~Castilian~
@@ -211,7 +217,7 @@ LANGUAGE
 	~Simplified Chinese(by Archenemy,Latest update by You Ye & Lewis Liu (V5.0.0))~
 	~schinese~
 	~ntotsc/language/schinese/setup.tra~
-        ~ntotsc/language/schinese/install.tra~
+  ~ntotsc/language/schinese/install.tra~
 	~ntotsc/language/schinese/journal.tra~
 
 
@@ -2164,22 +2170,20 @@ EXTEND_BOTTOM ~tracea.bcs~ ~ntotsc/modify/bcs/tracea.baf~ EVALUATE_BUFFER
 ACTION_IF GAME_IS ~bgt~ BEGIN
   EXTEND_BOTTOM ~%ArchaeologicalSite_Tomb_BCS%.bcs~ ~ntotsc/modify/bcs/ar4101.baf~ EVALUATE_BUFFER
 
-<<<<<<<< ...inlined/charle_bgt.d
+...inlined/charle_bgt.d
 ADD_TRANS_ACTION CHARLE BEGIN 21 END BEGIN END
 ~SetGlobal("NTCharlesTalk","%ArchaeologicalSite_Tomb%",1)~
->>>>>>>>
   
 COMPILE EVALUATE_BUFFER ~...inlined/charle_bgt.d~
 
 END
 
 ACTION_IF GAME_IS ~bgee eet~ BEGIN
-<<<<<<<< ...inlined/charle_ee.d
+...inlined/charle_ee.d
 /* In BG:EE + EET, Charleston will leave, so we need him to initiate dialogue instead */
 REPLACE_TRANS_ACTION CHARLE BEGIN 21 END BEGIN 0 1 3 END ~EscapeArea()~ ~Dialogue(Player1)~
 /* In BG:EE+EET, the PC can attack Charleston so we add the scroll to his inventory */
 ADD_TRANS_ACTION CHARLE BEGIN 21 END BEGIN 2 END ~GiveItemCreate("NTPBlet1",Myself,0,0,0)~
->>>>>>>>
   
 COMPILE EVALUATE_BUFFER ~...inlined/charle_ee.d~
 
