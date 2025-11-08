@@ -5,6 +5,7 @@
 @NT_783004  = "Bois###des###morts"
 @NT_783005  = "Citadelle###du###Nord"
 @NT_783006  = "Temple###de###la###Main###Noire"
+@NT_783007  = "Île###des###sirènes"
 
 #BGEE: 22853
 @NT_783010  = "Barbe###d'Ulgoth"
