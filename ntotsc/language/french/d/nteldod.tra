@@ -1,26 +1,26 @@
-@0    = ~Eh bien, vous avez été envoyé depuis la Porte de Baldur ? Ce ne sont pas mes affaires...~ ~Eh bien, vous avez été envoyée depuis la Porte de Baldur ? Ce ne sont pas mes affaires...~
+@0    = ~Eh bien, vous avez été envoyé de la Porte de Baldur ? Ça ne me regarde pas...~ ~Eh bien, vous avez été envoyé de la Porte de Baldur ? Ça ne me regarde pas...~
 // #3285 (changer "Eldoth" par "Eldod")
-@1    = ~Oh, très bien. Je m'appelle Eldod et je suis capitaine des gardes ici au donjon. Je ne tolérerai pas que vous fouiniez partout, et je me fiche de savoir quel duc de quelle ville vous a envoyé ! Gardez votre meilleur comportement, ou je serai obligé de vous expulser !~
+@1    = ~Oh, très bien. Je suis Eldod, et je suis capitaine de la garde du donjon. Je ne tolérerai pas vos indiscrétions, et peu m'importe quel duc de la ville vous a envoyé ! Ayez une conduite exemplaire, ou je serai obligé de vous expulser !~
 // #3286
-@2    = ~Ce n'est pas nécessaire. Nous sommes là pour vous aider à rechercher vos compatriotes perdus. Nous ne voulons pas vous marcher sur les pieds.~
+@2    = ~Ce n'est pas nécessaire. Nous sommes ici pour vous aider à retrouver vos compatriotes disparus. Nous ne voulons pas vous marcher sur les pieds.~
 // #3287
-@3    = ~Comme je l'ai entendu, vous n'êtes que le capitaine "par intérim". Ne devriez-vous pas vous inquiéter davantage du retour de votre véritable chef ?~
+@3    = ~D'après ce que j'ai entendu, vous n'êtes que le capitaine suppléant. Ne devriez-vous pas vous préoccuper davantage du retour de votre véritable chef ?~
 // #3288
-@4    = ~Je vais où je veux ! Vous avez déjà démontré à quel point vous êtes inefficace !  Il vaut mieux que nous nettoyions votre petit désordre pour vous !~
+@4    = ~Je vais où je veux ! Vous avez déjà démontré votre inefficacité ! Il vaut mieux qu'on nettoie votre petit bazar pour vous !~
 // #3289
-@5    = ~Mes compatriotes n'ont pas besoin de votre aide. Nous gérerons très bien leur sauvetage sans vous. Le mieux est que vous allez à la maison d'hôtes et que vous restez en dehors de notre chemin.~
+@5    = ~Mes compatriotes n'ont pas besoin de votre aide. Nous nous en sortirons très bien sans vous. Mieux vaut que vous alliez à la maison d'hôtes et que vous restiez à l'écart.~
 /* @6 -> @10007 */  
 // #3290
 @7    = ~Je vous ferai savoir que c'est moi qui dirige ce perchoir, et je ne vous laisserai pas "fureter". Je suis le capitaine du peu de gardes qui restent, et nous nous en sortirons bien sans votre aide !~
 // #3291
-@8    = ~Je devrais faire attention à qui vous menacez ! En tant que capitaine de la garde dûment nommé, il est BIEN en mon pouvoir de vous faire sortir et vous fouetter !  Si j'étais à votre place, je devrais simplement aller à la maison d'hôtes et y rester !~
+@8    = ~Je devrais surveiller qui vous menacez ! En tant que capitaine de la garde dûment nommé, j'ai tout à fait le pouvoir de vous faire arrêter et fouetter ! À votre place, j'irais simplement à la maison d'hôtes et j'y resterais !~
 // #3292
-@9    = ~Je vous ai prévenu de ne pas fouiller. Maintenant, j'ai peur de devoir... J'ai peur... de devoir vous tuer !~
+@9    = ~Je vous avais prévenu de ne pas fouiner. Maintenant, je crains de devoir... Je crains... de devoir vous tuer !~
 /* @10 -> @10008 */  
 // #3293
-@11    = ~Libre ? Mon esprit est libre ! Ses maudits tentacules maléfiques ont été arrachés ! S'il vous plaît, j'ai été sous un tel sort ! C'est Krotan qui m'a fait... m'a fait... Oh, par tous les dieux, qu'ai-je fait ?! De telles choses que je ne pouvais pas avoir... de telles choses pour lesquelles j'étais fait... Je dois vous dire! Il y a un grand mal à l’œuvre parmi nous, et c’est un ogre mage au pouvoir considérable. La connaissance du Donjon est ce qu'il recherche, et il a rassemblé ses forces ces dernières semaines. J'étais son... pion et j'ai tué pour lui... tué des amis pour lui ! S'IL VOUS PLAÎT! Je peux vous montrer où il se cache si vous le voulez bien, mais laissez-moi vous aider à lui prendre sa tête !~
+@11    = ~Libre ? Mon esprit est libre ! Ses maudits tentacules maléfiques ont été arrachés ! Je vousen prie, j'ai été sous l'emprise d'un tel sort ! C'est Krotan qui m'a fait... m'a fait... Oh, par tous les dieux, qu'ai-je fait ?! De telles choses que je n'aurais pas pu faire... de telles choses que j'ai été obligé de faire... Je dois vous le dire ! Un grand mal est à l'œuvre parmi nous, et c'est un mage ogre au pouvoir considérable. La connaissance du Donjon est ce qu'il recherche, et il a rassemblé des forces ces dernières semaines. J'étais son... pion et j'ai tué pour lui... tué des amis pour lui ! S'IL VOUS PLAÎT ! Je peux vous montrer où il se cache si vous voulez, mais laissez-moi vous aider à lui couper la tête !~
 // #3294
-@12    = ~C'est une supercherie ! Vous avez kidnappé et assassiné et maintenant vous souhaitez sauver votre peau. Cela ne sert à rien non plus ! Vous mourrez ce soir !~
+@12    = ~C'est une supercherie ! Vous avez kidnappé et assassiné, et maintenant vous voulez sauver votre peau. C'est inutile ! Vous mourrez ce soir !~
 // #3295
 @13    = ~Peut-être, vous avez ma confiance tant que vous restez à portée de ma lame et soyez assuré que je n’hésiterais pas à m'en servir ! Nous le combattrons, mais vous devez rester ici. Où peut-on le trouver ?~
 // #3296
@@ -37,8 +37,8 @@
 @21    = ~J'ai le sang de mes camarades sur les mains... Ce soir, je verrai si le sang du mal est de la même couleur que celui des innocents. Venez, il se cache sous le mausolée, rassemblant ses forces. C'est là qu'il faut y aller !~
 @22    = ~Non... le sang... le sang est sur mes mains...~
 // #3301
-@23    = ~Je vais vous tuer pour ce que vous... pour ce que j'ai fait ! C'est grâce à VOUS !~
+@23    = ~Je vous tuerai pour ce que vous... pour ce que j'ai fait ! C'est à cause de VOUS !~
 @24    = ~Oui...~
 
 /* nouveau pour la v2.0 */
-@25    = ~Libre ? Mon esprit est libre ! Ses maudits tentacules maléfiques ont été arrachés ! S'il vous plaît, j'ai été sous un tel sort ! C'est Krotan qui m'a fait... m'a fait... Oh, par tous les dieux, qu'ai-je fait ?! De telles choses que je ne pouvais pas avoir... de telles choses pour lesquelles j'étais fait...~
+@25    = ~Libre ? Mon esprit est libre ! Ses maudits tentacules maléfiques ont été arrachés ! Par pitié, j'étais sous un tel sortilège ! C'est Krotan qui m'a fait... qui m'a fait... Oh, par tous les dieux, qu'ai-je fait ?! Je n'aurais pas pu faire de telles choses... j'étais destiné à les faire...~

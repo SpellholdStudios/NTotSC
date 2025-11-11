@@ -1,16 +1,16 @@
 // #3225
 @0    = ~ 'Eh là, pssst. Par ici.
-J'ai un mot ou deux pour vous, mais quand j'aurai fini de parler, je n'ai jamais dit un mot, vous comprenez ?~
+J'ai un mot ou deux à vous dire, mais après avoir fini de parler, je n'ai rien dit, compris ?~
 // #3226
-@1    = ~Je n'ai pas de temps pour les réunions secrètes, idiot. Partez avec vos jeux.~
+@1    = ~Je n'ai pas de temps pour les réunions secrètes, idiot. Partez.~
 // #3227
-@2    = ~Parlez pour que je puisse connaître votre intention.~
+@2    = ~Parlez pour que je puisse connaître vos intentions.~
 // #3228
-@3    = ~Quel est votre rôle ici au donjon ?~
+@3    = ~Quel est votre rôle ici ?~
 // #3230
-@4    = ~Je suis Pique et je membre de la garde. Du moins, je l’étais quand il y avait un garde à proprement parler. Le nouveau capitaine a fait autrement.~
+@4    = ~Je suis Pique et je membre de la garde. Du moins, je l'étais quand il y avait une garde. Le nouveau capitaine en a décidé autrement.~
 // #3230
-@5    = ~La calomnie de vos supérieurs n'est pas une caractéristique d'un garde ! Je ne vous fais pas confiance !~
+@5    = ~Calomnier ses supérieurs n'est pas un trait de caractère d'un garde ! Je ne vous fais pas confiance !~
 // #3233 (remplacer "Eldoth" par "Eldod")
 @6    = ~Si Eldod porte les traits d'un garde, vous avez de la chance d'être en vie pour vous méfier de moi ! Bah ! C'était une erreur de vous parler ! J'en ai fini avec tout ça !~
 // #3234 (changer "Eldoth" par "Eldod")
@@ -24,12 +24,12 @@ J'ai un mot ou deux pour vous, mais quand j'aurai fini de parler, je n'ai jamais
 // #3238
 @11   = ~Alors il sera mort avant le matin ! Avec une juste fureur, nous le frapperons !~
 // #3239
-@12   = ~Êtes-vous en colère ? Le poste de capitaine des gardes vous semble-t-il si glorieux ? Celui qui vaut un meurtre et un enlèvement ? Faites preuve de bon sens ! Il y a plus ici que ce que vous voyez ! Pfft! Je n'ai pas le temps de vous expliquer les choses ! Jetez vos accusations où bon vous semble, mais surveillez vos arrières. Je suis parti et je vous laisse quel que soit le sort que vous ferez. Hum ! Je sauverai au moins ma PROPRE vie.~
+@12   = ~Êtes-vous idiots ? Le poste de capitaine des gardes vous semble-t-il si glorieux ? Celui qui vaut un meurtre et un enlèvement ? Faites preuve de bon sens ! Il y a plus ici que ce que vous voyez ! Pfft! Je n'ai pas le temps de vous expliquer les choses ! Lancez vos accusations où vous voulez, mais surveillez vos arrières. Je suis parti, et je vous abandonne à votre sort. Hmph ! Je vais au moins sauver ma propre vie.~
 // #3240
 @13   = ~Eh, alors c'est votre plan ? Je crains qu'il y ait plus dans cette histoire, et votre lame devra peut-être travailler un peu plus que vous ne le pensez. Bien sûr, jetez-vous sur lui, mais observez attentivement ce qui se cache derrière ses actions. Je vous laisse à votre... glorieux bain de sang. *renifle*~
 // #3241
-@14   = ~Oui, c'est ce que je pensais aussi ! Une fois que la garnison principale reviendrait du Chemin Côtier, elle le remplacerait simplement en tant que capitaine. Il y a plus, quelque chose d’étrange. Je l'ai vu à la tombée de la nuit, quand il a emmené le moine Montgomery. C'était une embuscade magistrale au moment où la nuit était la plus sombre, et je me suis estimé chanceux de l'avoir découvert. Une seule brindille cassée révéla sa position, et je le suivis lentement, prêt à bondir pour le sauver. Cependant, je me suis arrêté net lorsqu'il s'est retourné et m'a regardé droit dans les yeux ! Il connaissait chacun de mes mouvements, comme s'il avait prévu que je le voie ! Son visage ne montrait pas une telle ruse à ce moment-là. Il était vide, vide comme la nuit autour de nous. Je n'ai pas eu le courage de m'approcher, et ses yeux semblaient montrer de la tristesse quand je ne bougeais pas, même si son visage restait froid comme la pierre. Il s'est éloigné lentement, presque en hésitant, tandis que j'étais assis là, frissonnant. Tenez prenez ceci. Il l'a laissé tomber et je ne sais pas ce que cela signifie. J'en ai fini avec cet endroit. Il y a quelque chose de très surnaturel  ici, et je ne veux pas en faire partie. Portez-vous bien.~
+@14   = ~Oui, c'est bien ce que je pensais aussi ! Une fois la garnison principale revenue de la Voie Côtière, ils le remplaceraient simplement comme capitaine. Il y a plus, quelque chose de plus étrange. Je l'ai vu à la tombée de la nuit, lorsqu'il a traîné le moine Montgomery. C'était une embuscade magistrale au plus profond de la nuit, et je me suis estimé chanceux de l'avoir découvert. Une simple brindille cassée a révélé sa position, et je l'ai suivi lentement, prêt à bondir à sa rescousse. Je m'arrêtai net quand il se retourna et me regarda droit dans les yeux ! Il connaissait mes moindres faits et gestes, comme s'il avait PRÉVU que je le voie ! Son visage ne trahissait pourtant pas une telle ruse à cet instant. Il était impassible, impassible comme la nuit qui nous entourait. Je n'eus pas le courage de m'approcher, et ses yeux semblèrent exprimer de la tristesse quand je restai immobile, bien que son visage restât glacial. Il s'éloigna lentement, presque d'une démarche hésitante, tandis que je restais assise là, tremblante. Tenez, prenez ceci. Il l'a laissé tomber, et je ne sais pas ce que cela signifie. J'en ai fini avec cet endroit. Il y a quelque chose de vraiment anormal ici, et je ne veux pas y être mêlé. Adieu.~
 // #8740 (remplacer "Eldoth" par "Eldod")
-@15   = ~Écoutez attentivement mon ami. Je sais qu'Eldod est impliqué d'une manière ou d'une autre dans ces disparitions. Si vous voulez en savoir plus, je pense qu'il serait sage de fouiller ses quartiers.~
+@15   = ~Écoutez attentivement, mon ami. Je sais qu'Eldod est impliqué d'une manière ou d'une autre dans ces disparitions. Si vous voulez en savoir plus, je pense qu'il serait sage de fouiller ses quartiers.~
 // #8741
 @16   = ~Je quitte cet endroit maudit ; Je n'ai pas le temps de vous parler.~
