@@ -3,14 +3,14 @@
 // #15003
 @1    = ~J'ai perdu ma flèche porte-bonheur quelque part par ici et je n'arrive pas à la retrouver.~
 // #15731
-/* @2 -> @10034 */    
+/* @2 -> @10034 */
 // #15004
-@3    = ~Avez-vous réussi à trouver ma flèche ?~
+@3    = ~Avez-vous réussi à retrouver ma flèche ?~
 // #15006
-@4 = ~C'est idiot, je sais, mais ça ne me semble pas bien sans ma flèche porte-bonheur. Ils sont parfaits pour tout ce qui a la peau dure.~
+@4 = ~C'est bête, je sais, mais sans ma flèche porte-bonheur, ce n'est pas confortable. Elles sont parfaites pour les peaux dures.~
 // #15007
-@5    = ~Ma flèche porte-bonheur ! D'autres peuvent voler plus droit ou faire plus de dégâts, mais sans ma flèche porte-bonheur sur moi, je pourrais aussi bien manier un gourdin. Tenez, laissez-moi vous donner quelques flèches de détonation. Sans vouloir faire un jeu de mots, elles sont vraiment géniales!~
-@6    = ~Oh, maintenant ça va être amusant.~
+@5    = ~Ma flèche porte-bonheur ! D'autres volent peut-être plus droit ou font plus de dégâts, mais sans ma flèche porte-bonheur, autant utiliser une massue. Tiens, laisse-moi te donner quelques flèches détonantes. Sans jeu de mots, mais elles sont vraiment géniales !~
+@6    = ~Oh, ça va être amusant.~
 @7    = ~Comment étaient ces flèches que je vous ai données ?~
 // #15002
 @8    = ~Peut-être que votre archer pourrait m'aider~ ~Peut-être que votre archère pourrait m'aider~

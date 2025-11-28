@@ -1,19 +1,19 @@
-@0    = ~Le temps passé sur cette île n'a aucune signification... Vous pouvez rester ici aussi longtemps que vous le souhaitez. Et nous sommes heureux d'accueillir tous les voyageurs qui viennent nous rendre visite.~
-@1    = ~Nous accueillons chaleureusement tout le monde, mais il serait approprié que vous alliez rencontrer notre reine. S'il vous plaît, parlez à Archandra...~
+@0    = ~Le temps passé sur cette île n'a aucune importance... Vous pouvez y rester aussi longtemps que vous le souhaitez. Et nous sommes heureuses d'accueillir chaque voyageur qui vient nous rendre visite.~
+@1    = ~Nous vous souhaitons la bienvenue, mais il serait judicieux que vous alliez rencontrer notre reine. Veuillez parler à Archandra...~
 @2    = ~Êtes-vous satisfait de votre séjour sur notre île ? J'espère que vous vous reposez bien.~
-@3    = ~Bien sûr, mais je me demande quel est le piège...~
-@4    = ~Bien sûr ! C'est un vrai PARADIS !~
-@5    = ~Vous nous considérez comme des créatures trompeuses, qui ne sont capables que de tuer ? C'est vrai que nos sœurs des côtes ont de telles habitudes, mais elles défendent généralement leur territoire ou simplement leur liberté. Nous n'avons pas de tels soucis ici. Il y a assez de place pour tout le monde.~
-@6    = ~Votre opinion est juste et j'adorerais écouter vos histoires, mais je me sens un peu fatiguée... ou peut-être faible... un mélange m'aiderait à "me remettre sur pied". Si vous trouvez un remède, nous pourrions rester ensemble pendant un certain temps...~
-/* @7 -> @10011 */   
-@8    = ~Bienvenue. Avez-vous une idée pour guérir ma maladie ? Je ne peux pas profiter du soleil quand je suis si affaibli...~
-@9    = ~Peut-être devriez-vous essayer une potion de guérison ?~
-@10   = ~Non, mais j'y pense...~
+@3    = ~Bien sûr, mais je me demande où est le piège...~
+@4    = ~Bien sûr ! C'est un véritable PARADIS !~
+@5    = ~Vous nous considérez comme des créatures trompeuses, capables seulement de tuer ? Il est vrai que nos sœurs des côtes ont de telles habitudes, mais elles défendent généralement leur territoire ou simplement leur liberté. Ici, pas de soucis de ce genre. Il y a de la place pour tout le monde.~
+@6    = ~Votre avis est pertinent et j'aimerais beaucoup écouter vos histoires, mais je me sens un peu fatiguée... ou peut-être faible... un mélange m'aiderait à me remettre sur pied. Si vous trouvez un remède, nous pourrions rester ensemble un moment...~
+/* @7 -> @10011 */
+@8    = ~Bienvenue. Auriez-vous une idée pour me soigner ? Je ne peux pas profiter du soleil quand je suis si affaiblie...~
+@9    = ~Peut-être devriez-vous essayer une potion de soins ?~
+@10   = ~Non, mais j'y réfléchis...~
 @11   = ~C'est peut-être le bon remède...~
-@12   = ~Oh, Je me sens mieux! Comment puis-je vous rembourser !~
-@13   = ~Peut-être pourriez-vous me dire quelque chose à propos de vous ? Nous avons une longue journée devant nous...~
-@14   = ~Vous n'êtes pas obligée. Je suis content d'avoir pu aider.~
+@12   = ~Oh, je me sens beaucoup mieux ! Comment puis-je vous remercier !~
+@13   = ~Peut-être pourriez-vous me parler de vous ? Une longue journée nous attend...~
+@14   = ~Vous n'êtes pas obligée. Je suis ravi d'avoir pu vous aider.~
 @15   = ~Avec plaisir. Détendez-vous...~
-@16   = ~Oui ? Comment puis-je vous servir ? Je suis tellement heureuse d'avoir pu danser toute la nuit... Mais peut-être avez-vous d'autres propositions...?~
-@17   = ~Bien sûr, je pense que nous n'avons pas terminé notre précédente conversation...~
-@18   = ~Ravi d'entendre que vous vous sentez mieux. Au revoir !~
+@16   = ~Oui ? Que puis-je faire pour vous ? Je suis si heureuse d'avoir pu danser toute la nuit... Mais peut-être avez-vous d'autres propositions...?~
+@17   = ~Bien sûr, je crois que nous n'avons pas terminé notre conversation précédente...~
+@18   = ~Content d'apprendre que vous allez mieux. Au revoir !~

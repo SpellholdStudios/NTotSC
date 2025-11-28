@@ -1,5 +1,5 @@
 // #3182
-@0    = ~Par Ilmater, s'il vous plaît, renvoyez-le chez lui. OH! Vous... vous m'avez fait sursauter. C'est vous qui avez été envoyé de la Porte de Baldur, n'est-ce pas ? Je vous souhaite la bienvenue, même si je suis presque sans espoir que nous reverrons nos... nos amis.~
+@0    = ~Par Ilmater, s'il vous plaît, renvoyez-le chez lui. OH! Vous... vous m'avez fait sursauter. C'est vous qui avez été envoyé de la Porte de Baldur, n'est-ce pas ? Je vous souhaite la bienvenue,  même si je n'ai plus aucun espoir de revoir nos... nos amis.~ ~Par Ilmater, s'il vous plaît, renvoyez-le chez lui. OH! Vous... vous m'avez fait sursauter. C'est vous qui avez été envoyée de la Porte de Baldur, n'est-ce pas ? Je vous souhaite la bienvenue,  même si je n'ai plus aucun espoir de revoir nos... nos amis.~
 // #3189
 @1    = ~Dites-moi, que saviez-vous des personnes disparues ?~
 /* @2 -> @10033 */    
@@ -8,19 +8,19 @@
 // #3191
 @4    = ~Où étiez-vous lorsque la dernière personne a disparu ? PARLEZ !~
 // #3183 (raccourci pour éviter les répétitions)
-@5    = ~Je sais... je les connaissais tous, même si j'en savais... beaucoup plus sur l'un d'eux. Nous étions... nous... Montgomery et moi étions... Je ne peux pas en parler ! Penser à le perdre... ce n'est pas juste vous savez... Nous nous sommes bagarrés l'autre soir et il est parti tellement en colère. De telles unions sont... mal vues par notre ordre, mais maintenant il est parti et je... S'il vous plaît... trouvez-le. Trouvez-les tous et ramenez-les à la maison en toute sécurité.~
+@5    = ~Je les connais... les connaissais tous, même si j'en savais... bien plus sur l'un d'eux. Nous étions... nous... Montgomery et moi étions... Je ne peux pas en parler ! Penser à le perdre... ce n'est pas juste, vous savez... On s'est disputés l'autre soir et il est parti, tellement fou de rage. De telles unions sont... mal vues par notre ordre, mais maintenant qu'il est parti, je... S'il vous plaît... retrouvez-le. Trouvez-les tous et ramenez-les sains et saufs.~
 // #3192
-@6    = ~Je ferai de mon mieux pour toutes les personnes concernées.  Merci pour votre temps.~
+@6    = ~Je ferai de mon mieux pour tous. Merci pour votre temps.~
 // #3184
-@7    = ~...Je ne sais pas...Je sais seulement qu'ils manquent beaucoup...à la plupart, sinon à tous.~
+@7    = ~...Je ne sais pas... Je sais seulement qu'ils manquent cruellement... à la plupart, sinon à tous.~
 // #3195
-@8    = ~Qu'est-ce que vous voulez dire par là ?  À qui ne manquent-t-ils pas ?~
+@8    = ~Qu'est-ce que vous voulez dire par là ? Qui ne les regrette pas ?~
 // #3185
-@9    = ~Je...Je n'aurais pas dû dire ça. Il est injuste de penser du mal d'autrui sans aucune preuve. C'est juste que... eh bien... Certains semblent avoir eu beaucoup à gagner dans cette perte.~
+@9    = ~Je... je n'aurais pas dû dire ça. C'est injuste de penser du mal d'autrui sans preuve. C'est juste que... eh bien... Certains semblent avoir beaucoup à gagner de cette perte.~
 // #3199
-@10   = ~Un point intéressant, bien sûr. Je vais y réfléchir.~
+@10   = ~Un point intéressant, assurément. Je vais y réfléchir.~
 // #3186
-@11   = ~S'il vous plaît ! Ces gens étaient plus proches que de la famille ! Comment pouvez-vous  m'accuser ainsi ?~
+@11   = ~S'il vous plaît ! Ces gens étaient plus proches que de la famille ! Comment pouvez-vous  m'accuser ainsi ?~
 // #3202
 @12   = ~Pleurez-moi comme une rivière, mon cœur, j'essaie juste de faire du bon travail.~
 // #3203
@@ -34,28 +34,28 @@
 // #6093
 @17   = ~Il ne me semble pas sage de vous mettre en danger alors que je suis censé vous protéger. Je comprends votre souhait d'aider, mais je pense qu'il est préférable que vous restiez ici.~
 // #3188
-@18   = ~Oh s'il vous plaît, laissez-moi tranquille ! Il y a suffisamment de douleur sans que votre compagnie souffre aussi.~
+@18   = ~Oh, s'il vous plaît, laissez-moi tranquille ! J'ai assez de douleur sans souffrir aussi de votre compagnie.~
 // #3204
-@19   = ~Je...je suppose. Tout cela est si difficile...~
+@19   = ~Je… je suppose. Tout cela est si difficile…~
 // #3208
-@20   = ~Oh s'il vous plaît, laissez-moi tranquille ! J'ai assez de souffrance sans souffrir aussi de votre compagnie.~
+@20   = ~Oh, s'il vous plaît, laissez-moi tranquille ! J'ai assez de douleur sans souffrir aussi de votre compagnie.~
 // #6094
-@21   = ~Mensonge ?! Je ne serai un danger que pour moi-même ! Vous ne perdez rien avec ma présence. En effet, je peux vous être utile. L'Abbé n'a jamais approuvé, mais... de nombreux tomes du Donjon contiennent des connaissances magiques pour ceux qui les regardent. J'ai beaucoup étudié en secret et je parie que je suis un aussi bon mage que n'importe lequel d'entre vous pourrait l'être. Je n'ai rien avoir avec le mensonge.~
+@21   = ~Responsabilité ?! Je ne serai un danger que pour moi-même ! Ma présence ne vous fera rien perdre. En effet, je peux vous être utile. L'Abbé n'a jamais approuvé, mais… de nombreux ouvrages du Donjon recèlent des connaissances magiques pour ceux qui les consultent. J'ai beaucoup étudié en secret, et je parie que je suis un aussi bon mage que n'importe lequel d'entre vous. Je ne serai pas un fardeau.~
 // #6096
-@22   = ~Étudié ou pas, je n'ai pas besoin de vous. Je continuerai sans vous.~
+@22   = ~Études ou non, je n'ai pas besoin de vous. Je continuerai sans vous.~
 // #6097
-@23   = ~Non. Même si vous êtes impatiente, je ne peux pas mettre une seule personne en danger plus que je ne le devrais. Je suis désolé.~ ~Non. Même si vous êtes impatiente, je ne peux pas mettre une seule personne en danger plus que je ne le devrais. Je suis désolée.~
+@23   = ~Non. Même si vous êtes impatiente, je ne peux mettre personne en danger plus que nécessaire. Je suis désolé.~ ~Non. Même si vous êtes impatiente, je ne peux mettre personne en danger plus que nécessaire. Je suis désolée.~
 // #6098
-@24   = ~Comment refuser de l'aide me dépasse !  C'est un mystère de savoir comment vous pouvez prétendre faire tout ce que vous pouvez, quand vous n’exploitez même pas tous vos atouts.  La chance soit avec vous, pour notre bien à tous.~
+@24   = ~Comment pouvez-vous refuser de l'aide ? Je me demande comment vous pouvez prétendre faire de votre mieux, alors que vous n'exploitez même pas tous vos atouts. Que la chance soit avec vous, pour notre bien à tous.~
 // contient des parties de #6099
-@25   = ~Je...comprends. S'il vous plaît, prenez au moins ça. Seul quelqu'un qui n'est pas lui-même pourrait être à l'origine des disparitions et de cette attaque subreptice contre la Citadelle, alors utilisez-le lorsque vous sentez que le moment est venu. Cela vous aidera dans vos épreuves à venir. J'aurai de gros ennuis lorsqu'on retrouvera sa disparition, mais votre réussite est cruciale. Je crains pour la vie du courageux Satos, qui remplace notre abbé en chef. Il serait préférable de s'assurer qu'il reste en sécurité. Je ne sais pas ce que nous ferions si nous le perdions maintenant !~
+@25   = ~Je... comprends. Alors, s'il vous plaît, prenez au moins ceci. Seul quelqu'un d'autre que lui-même pourrait être derrière les disparitions et cette attaque furtive contre la Citadelle, alors utilisez  ceci quand vous estimez que le moment est venu. Cela vous aidera dans tes épreuves à venir. J'aurai de gros ennuis si on le retrouve disparu, mais votre réussite est cruciale. Je crains pour la vie du brave Satos, qui remplace notre abbé principal. Il serait préférable de s'assurer qu'il reste sain et sauf. Je ne sais pas ce que nous ferions si nous le perdions maintenant !~
 // #6101
-@26   = ~Ce corps... on dirait ... non... NON !~
+@26   = ~Ce corps... on dirait... non... NON !~
 // #6103
-@27   = ~C'est une note pour moi ici... proclamant son amour avec ses dernières paroles... tout ce qui aurait pu être... Eh bien (renifle), il y a... peu de choses que je puisse faire ici.  En avant... nous devons mettre un terme à... à tout cela.~
+@27   = ~C'est un mot pour moi ici... proclamant son amour avec ses derniers mots... tout ce qui aurait pu être... Eh bien (renifle), il n'y a... pas grand-chose que je puisse faire ici. En avant... nous devons mettre un terme à... à tout cela.~
 // #8748
-@28   = ~Je... Je ne peux pas vous parler. Je souhaite juste... qu'on me laisse tranquille.~
+@28   = ~Je... je ne peux pas vous parler. Je souhaite juste... qu'on me laisse tranquille.~
 // #8749
-@29   = ~Si vous êtes mes amis, alors vous trouverez mon Montgomery. S'il vous plaît... J'aimerais tellement le revoir.~
+@29   = ~Si vous êtes mes amis, alors vous retrouverez mon Montgomery. S'il vous plaît... Je souhaite tant le revoir.~
 // #8969
-@30   = ~Hors de ma vue !  Je ne ferai rien pour vous !~
+@30   = ~Hors de ma vue ! Je ne ferai rien pour vous !~
